@@ -26,11 +26,12 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   node .claude/skills/add-chapter/scripts/rebuild.cjs match-entities Varg Einar
   node .claude/skills/add-chapter/scripts/rebuild.cjs --reference match-entities Leif Orl
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-latest 1 varg einar
+  node .claude/skills/add-chapter/scripts/rebuild.cjs read-backlog 1
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-node varg /absolute/scratch/spec.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs verify-chapter 4 /absolute/baseline --review-links
   ```
 
-  The `1` after `read-latest` is a page number. Spec/baseline paths are resolved against
+  The `1` after `read-latest` or `read-backlog` is a page number. Spec/baseline paths are resolved against
   the caller's directory before launching. If calling from elsewhere, use the absolute
   launcher path; do not change directory for individual helpers. Read/update progress
   and README using absolute paths derived from the captured project root.
@@ -53,7 +54,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 - For rebuild regression checks, use the existing test filenames explicitly:
 
   ```sh
-  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs
+  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs
   ```
 
   Confirm the output includes the three `chapter verifier` tests; a successful exit alone

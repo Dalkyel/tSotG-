@@ -1,5 +1,16 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch12 skill review — collecting every POV's TRAMA and star backlog
+  required an ad hoc query whose first attempt used `nodesBook1` instead of Book One's
+  `nodes`. Added `read-backlog.cjs BOOK PAGE`, available through the rebuild launcher,
+  to select latest revisions and paginate all TRAMA descriptions and nonempty star
+  fields without inferring states or hiding closed history. Documented source/context
+  follow-up reads and the updated regression command. Tests cover book caps, revision
+  precedence, closed/thematic candidates, lossless pagination, invalid arguments and
+  staged isolation; all 28 targeted tests pass. The staged archive smoke check returned
+  all 33 expected candidates across two pages. Archived immediately because the fix is
+  fully absorbed into the helper, skill and rebuild reference.
+
 - 2026-11-02: Post-Ch9 skill review — moved complete chapter retrieval before entity matching; defined a unique run directory for baseline and spec files, replacing the undefined scratchpad and contradictory `/tmp/spec.json` guidance; documented the exact rebuild regression command using `tests/chapter-verifier.test.cjs` and its three expected tests. Fully absorbed into SKILL.md and the rebuild reference.
 
 - 2026-11-02: Book One Ch9 — the reference Oskutreð label had a pronunciation suffix after its parenthetical subtitle, preventing the summary matcher from resolving the short name. Used the canonical name and parenthetical subtitle without the suffix in the new staged node; added this exact label-format rule to SKILL.md. Chapter verification now resolves all 21 emphasized terms. Archived immediately because the fix is fully absorbed into the skill.
@@ -373,3 +384,5 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
 - 2026-11-02: User identified that staged TRAMAS ACTIVAS covered only Orka-side questions. Added six TRAMA nodes (eight chronological revisions) for Varg’s planned akáll/revenge, bag and origins/memory, and Elvar-side past/return, burned object and Berak’s pending sale, with 26 chapter-grounded relationships. Category-only links to character nodes were insufficient because the relationship viewer excludes structural categories and its plot filter requires TRAMA nodes. Connected threads directly to their POV participants and the shared category; added a plot-filter regression and POV coverage to mandatory completion review. No later answers or changes to existing profiles/summaries.
 
 - 2026-11-02: At the user’s request, promoted POV coverage and ongoing mystery/clue follow-up to a separate HARD thread-lifecycle gate. Every chapter must review prior open/partial questions and recorded clues across POVs, capture new evidence, persist explicit states in existing archive fields, and close only with a cited answer/payoff. Partial answers and disproved theories do not silently close broader mysteries. Requires historical preservation, exact broken active-category edges on closure, and a per-item `thread-review.md` PASS before completion alongside the ownership gate. Documents the actual plot-filter and browser-local clue-board limits; the rebuild procedure requires both gates. Fully incorporated in the skill and procedure.
+
+- 2026-11-02: Book One rebuild Ch14: `Hundur (Dios-Sabueso)` lost its parenthetical qualifier in summary matching and collided with the tracker. Added the distinct non-parenthetical staged-label instruction to SKILL.md; the god keeps canonical id `hundur-dios`. Both summary references were checked for intended identity.

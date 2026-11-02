@@ -345,6 +345,22 @@ progress complete or report success while this review is incomplete. It is not e
 to create a thread once or to pass the JavaScript verifier.
 
 1. **Review the existing backlog after reading the complete chapter, before drafting.**
+   Start with the bundled, paginated reader instead of a one-off array query:
+
+   ```sh
+   node .claude/skills/add-chapter/scripts/read-backlog.cjs 2 1
+   # Book One rebuild (no book argument):
+   node .claude/skills/add-chapter/scripts/rebuild.cjs read-backlog 1
+   ```
+
+   Read each page separately through `END`. It selects the latest same-id entry in
+   book/array order and prints every `TRAMA` description and every nonempty `star`
+   field across all POVs, including closed history and thematic notes for manual
+   classification. It does not infer states or filter by the current POV. Other
+   descriptions are omitted: use `read-latest` to establish a clue's source/context
+   and before updating its owner, and `read-links` for relevant relationships. This
+   candidate list does not replace reviewing pending goals/clues found in those full
+   entries or the new chapter.
    Inventory all open/partial threads and unresolved or not-yet-classified recorded clues,
    not just the current POV's named entities. Include `TRAMA` nodes and observations in
    `star` fields. Retain closed items as history; revisit them when new evidence bears
@@ -550,7 +566,7 @@ parenthesized label resolves without a separate supported alias. A pronunciation
 (e.g. `Oskutreð (Árbol de Ceniza) [pron. Oskutreth]`) prevents that stripping; for a
 new staged node, keep the label as `Oskutreð (Árbol de Ceniza)` and put any needed
 pronunciation in its description. Verify the short name before finalizing the summary.
-Plain-text repetitions should resolve too. A named era such as
+When two distinct entities share a name, a parenthetical qualifier is stripped and cannot disambiguate their summary mentions (for example the Hundur-thrall versus the god). For a new staged entity, retain its canonical id and use a distinct non-parenthetical label such as `Hundur, Dios-Sabueso`; emphasize that complete label for the god and verify that each mention resolves to the intended id. Plain-text repetitions should resolve too. A named era such as
 `Friðaröld` needs its own non-structural node to be linkable; a mention only in the root
 description does not suffice. Staged previews must use the current summary dialog
 with `chapter-list` and `chapter-pane` elements and the shared renderer; an older copied

@@ -10,7 +10,7 @@ const args = process.argv.slice(2);
 const reference = args[0] === '--reference';
 if (reference) args.shift();
 const helper = args.shift();
-const readers = ['check-chapter', 'match-entities', 'search-descriptions', 'read-latest', 'read-links'];
+const readers = ['check-chapter', 'match-entities', 'search-descriptions', 'read-latest', 'read-links', 'read-backlog'];
 const allowed = reference ? readers : [...readers, 'append-node', 'verify-chapter'];
 if (!allowed.includes(helper)) {
   console.error(`Usage: node rebuild.cjs [--reference] HELPER ARGS… (Book 1 is implicit).\nAllowed helpers: ${allowed.join(', ')}. Reference writes are forbidden.`);
