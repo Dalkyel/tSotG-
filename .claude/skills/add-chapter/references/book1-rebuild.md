@@ -15,7 +15,9 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 - Read `book1/rebuild/progress.json` first. Continue in chapter order; inspect existing
   work rather than duplicating a completed chapter. Read source XHTML from the project
   root with `read-chapter.py`, just as for HTML.
-- Stay in the project root and use `scripts/rebuild.cjs` to run Node helpers. It derives
+- Stay in the project root and use `.claude/skills/add-chapter/scripts/rebuild.cjs` to
+  run Node helpers (not a top-level `scripts/rebuild.cjs` — no such path exists; the
+  launcher lives only under the skill's own `scripts/` directory). It derives
   the project root from its own location, pins the child process to the staged archive,
   supplies book argument `1`, and prints the selected archive. Do not pass a book number.
   Use `--reference` for original canonical ID/label matching; that mode rejects writers.
@@ -31,7 +33,10 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   node .claude/skills/add-chapter/scripts/rebuild.cjs verify-chapter 4 /absolute/baseline --review-links --review-summary
   ```
 
-  The `1` after `read-latest` or `read-backlog` is a page number. Spec/baseline paths are resolved against
+  The `1` after `read-latest`, `read-backlog`, or `read-links` is a page number, not a
+  book cap — the launcher already supplies book `1` implicitly, so passing a book
+  argument before the page number (as the live-workflow `read-links.cjs` signature
+  requires) raises `Unknown ids: 1`. Spec/baseline paths are resolved against
   the caller's directory before launching. If calling from elsewhere, use the absolute
   launcher path; do not change directory for individual helpers. Read/update progress
   and README using absolute paths derived from the captured project root.

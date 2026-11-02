@@ -255,6 +255,18 @@ If a read is truncated, retrieve the omitted sections before proceeding.
      exiting, so a malformed result fails loudly instead of landing silently. This is why
      the risk below was never fixable by a "be more careful" rule — only by removing the
      retyping step entirely.
+   - For a chapter touching more than a handful of ids, write one small Node script that
+     builds every spec as a plain JS object literal (Spanish prose with «guillemets»,
+     em dashes and accents needs no escaping there) and writes each with
+     `fs.writeFileSync(path, JSON.stringify(spec, null, 2))`, instead of hand-escaping
+     each one into a shell `echo '...' > spec.json` heredoc. Then loop `append-node.cjs`
+     once per id against the generated files. This removes the actual risk of a shell
+     mis-escaping a quote or em dash inside long prose, not just the risk the appender
+     already removes (retyping the baseline). After such a loop, output-condensation can
+     elide an individual call's "OK: ..." line without flagging it as an error — confirm
+     every id actually landed with a single combined `grep -c "id: \"ID\"" book{N}/nodes.js`
+     per id (count should be the prior count + 1) and a final `node --check` on the file,
+     rather than trusting that the loop reached its last id.
    - Retyping a `star` (or `desc`) field from a tool-output transcript is risky even when
      the transcript shows no truncation marker: an output-condensation layer between the
      tool and this context can silently drop a trailing clause it judges low-signal,

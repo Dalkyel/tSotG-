@@ -58,3 +58,24 @@ actually fixed.
 - 2026-11-02: Book One Ch1 summary-link correction — the staged preview retained the old summary panel after the live UI switched to a dialog with a chapter sidebar, so the shared mention renderer could not run. Regenerated the preview from the current HTML, normalized summary terms to matcher capitalization/canonical labels, and added the explicitly named Friðaröld era node. Added regression coverage for all emphasized terms, repeated character mentions, and preview/renderer DOM compatibility; documented these checks in the skill.
 
 - 2026-11-02: Book One Ch2 rebuild found an unresolved identity ambiguity in the original/live `book1/nodes.js`: `snepil` is labeled “Snepil Kolskegg (†)” and treats him as Varg’s dead owner. Chapter 2 separately names Kolskegg’s farm and Snepil’s strangling without explicitly identifying the names as one person. The staged `snepil` entry preserves that uncertainty; the original archive is unchanged. Resolve against later source text during rebuild reconciliation.
+
+- 2026-11-02: Book One Ch18 rebuild — two small doc gaps in `references/book1-rebuild.md`,
+  both fixed directly in that file. (1) Its own prose said "use `scripts/rebuild.cjs`"
+  while every one of its own examples actually called
+  `.claude/skills/add-chapter/scripts/rebuild.cjs`; following the prose literally failed
+  with `MODULE_NOT_FOUND` since no top-level `scripts/rebuild.cjs` exists. (2) The note
+  "The `1` after `read-latest` or `read-backlog` is a page number" did not mention
+  `read-links`, so calling it with a leading book-cap argument (mirroring the live
+  workflow's `read-links.cjs BOOK PAGE ids...` signature) raised `Unknown ids: 1` before
+  the correct `read-links PAGE ids...` form was found by trial. Both corrected in place.
+  (3) That same run touched 24 node ids in one chapter. Writing each `append-node.cjs`
+  spec as a separate shell `echo '...' > spec.json` heredoc would have meant
+  hand-escaping long Spanish prose full of «guillemets», em dashes and accents inside
+  shell quoting — real risk of silent corruption, not just the baseline-retyping risk
+  the appender already guards against. Used one small Node script instead, building
+  every spec as a plain JS object literal and writing each via `JSON.stringify`, then
+  looped `append-node.cjs` over the generated files — no escaping risk at all. Also
+  found that the loop's per-call "OK: ..." confirmations got silently elided by this
+  environment's output-condensation layer, so success was reconfirmed afterward with a
+  `grep -c` per id plus a final `node --check`. Generalized both into SKILL.md's
+  append-node bullet.
