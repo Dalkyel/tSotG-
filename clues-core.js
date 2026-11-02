@@ -7,36 +7,22 @@
   };
   const normalize = text => String(text || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-  function sourceEntries(revisions, cap) {
+  function sourceEntries(revisions) {
     const latest = new Map();
-    revisions.filter(n => n.book <= cap).forEach(n => latest.set(n.id, n));
+    revisions.forEach(n => latest.set(n.id, n));
     return [...latest.values()].filter(n => n.star && n.star.trim()).map(n => ({
       id: `source:${n.book}:${n.id}`, title: n.label, note: n.star,
       status: 'unreviewed', book: n.book, nodeIds: [n.id],
       evidence: '', theory: '', chapter: '', history: [], origin: 'source',
-      ...(Number.isInteger(n.chapter) ? { availableAt: { book: n.book, chapter: n.chapter } } : {}),
     }));
   }
 
-  function pointAllowed(point, limit) {
-    return point.book < limit.book || point.book === limit.book && point.chapter <= limit.chapter;
-  }
-  function savedAt(entry, limit, maxima) {
-    const variants = [entry, ...(entry.versions || [])];
-    const lastBook = Math.max(...Object.keys(maxima).map(Number));
-    return variants.map((value, i) => ({ value, i, point: value.availableAt || { book: lastBook, chapter: maxima[lastBook] } }))
-      .filter(item => pointAllowed(item.point, limit))
-      .sort((a, b) => b.point.book - a.point.book || b.point.chapter - a.point.chapter ||
-        String(b.value.updatedAt || b.value.history.at(-1)?.at || '').localeCompare(String(a.value.updatedAt || a.value.history.at(-1)?.at || '')) || a.i - b.i)[0]?.value;
-  }
-  function entries(revisions, saved, cap, limit = null, maxima = { 1: 53, 2: 48 }) {
-    const imported = sourceEntries(limit ? revisions.filter(n => pointAllowed({ book: n.book,
-      chapter: Number.isInteger(n.chapter) ? n.chapter : maxima[n.book] }, limit)) : revisions, cap);
+  function entries(revisions, saved) {
+    const imported = sourceEntries(revisions);
     const ids = new Set(imported.map(c => c.id));
-    const visibleSaved = limit ? Object.fromEntries(Object.entries(saved).map(([id, c]) => [id, savedAt(c, limit, maxima)]).filter(([, c]) => c)) : saved;
-    return imported.map(c => ({ ...c, ...(visibleSaved[c.id] || {}), note: c.note }))
-      .concat(Object.values(visibleSaved).filter(c => c.origin === 'club' && !ids.has(c.id)))
-      .filter(c => c.book <= cap);
+    return imported.map(c => ({ ...c, ...(saved[c.id] || {}), note: c.note }))
+      // Retain edits to older source observations as well as independent club questions.
+      .concat(Object.values(saved).filter(c => !ids.has(c.id)));
   }
 
   // Validate the whole file before merging; never partially import a bad backup.
@@ -82,7 +68,7 @@
     return result;
   }
 
-  const api = { statuses, normalize, sourceEntries, entries, savedAt, validateBackup };
+  const api = { statuses, normalize, sourceEntries, entries, validateBackup };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.ClueBoard = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

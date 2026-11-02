@@ -28,10 +28,10 @@
       qualifier: (m[3] || '').trim(),
       text: text.slice(m.index + m[0].length, matches[i + 1]?.index ?? text.length).trim() }));
   }
-  function timeline(revisions, id, cap) {
+  function timeline(revisions, id) {
     const sections = new Map();
-    revisions.filter(n => n.id === id && n.book <= cap).forEach(n => {
-      chapterSections(n.desc).filter(s => s.book <= cap && s.text).forEach(s => sections.set(`${s.book}:${s.chapter}`, s));
+    revisions.filter(n => n.id === id).forEach(n => {
+      chapterSections(n.desc).filter(s => s.text).forEach(s => sections.set(`${s.book}:${s.chapter}`, s));
     });
     return [...sections.values()].sort((a, b) => a.book - b.book || a.chapter - b.chapter);
   }
@@ -41,17 +41,17 @@
     return [...new Set([node.id.replace(/-/g, ' '), ...knownNames,
       ...knownNames.map(name => name.replace(/ð/g, 'th').replace(/Ð/g, 'Th')), ...(guide.aliases || [])])];
   }
-  function profile(node, revisions, cap, guides = {}) {
-    const visible = revisions.filter(n => n.book <= cap);
-    const own = visible.filter(n => n.id === node.id);
+  function profile(node, revisions, guides = {}) {
+    const own = revisions.filter(n => n.id === node.id);
+    const latestBook = Math.max(1, ...revisions.map(n => n.book || 1));
     const guide = guides[node.id] || {};
-    const events = timeline(visible, node.id, cap);
+    const events = timeline(revisions, node.id);
     const latest = events.at(-1);
     const recent = guide.recent;
-    const useRecent = recent && recent.book <= cap && latest && recent.book === latest.book && recent.chapter === latest.chapter;
-    return { node, kind: kind(node), aliases: aliases(node, visible, guides),
-      intro: guide.byBook?.[cap] || guide.intro || excerpt(node.desc.replace(/^LIBRO\s+\d+\s*,?\s*CAP[ÍI]TULO\s+\d+(\s*\([^)]*\))?\s*:\s*/i, '')),
-      introIsExcerpt: !(guide.byBook?.[cap] || guide.intro),
+    const useRecent = recent && latest && recent.book === latest.book && recent.chapter === latest.chapter;
+    return { node, kind: kind(node), aliases: aliases(node, revisions, guides),
+      intro: guide.byBook?.[latestBook] || guide.intro || excerpt(node.desc.replace(/^LIBRO\s+\d+\s*,?\s*CAP[ÍI]TULO\s+\d+(\s*\([^)]*\))?\s*:\s*/i, '')),
+      introIsExcerpt: !(guide.byBook?.[latestBook] || guide.intro),
       latest: latest ? { ...latest, preview: useRecent ? recent.text : excerpt(latest.text, 420), curated: !!useRecent } : null,
       timeline: events, revisions: own };
   }

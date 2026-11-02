@@ -13,12 +13,12 @@ Abre **Pistas y preguntas** en la cabecera del mapa.
 
 Los cambios se guardan en `localStorage` del navegador y del sitio desde el que se abre el proyecto. No se sincronizan automáticamente con otros dispositivos ni se escriben en los archivos de los libros. Borrar los datos del navegador puede borrar las revisiones del club: exporta copias con regularidad.
 
-**Exportar copia** descarga un JSON con las entradas actuales y todas las revisiones guardadas, incluidas las de capítulos posteriores al límite visible. **Importar copia** valida todo el archivo antes de guardar. Añade entradas nuevas y conserva sin cambios las entradas que ya tienen una versión guardada en este navegador. No combina revisiones simultáneas: para una copia compartida, conviene que una persona mantenga y distribuya el tablero principal. Las notas originales del proyecto nunca se sobrescriben.
+**Exportar copia** descarga un JSON con las entradas actuales y todas las revisiones guardadas, incluidas todas las versiones anteriores. **Importar copia** valida todo el archivo antes de guardar. Añade entradas nuevas y conserva sin cambios las entradas que ya tienen una versión guardada en este navegador. No combina revisiones simultáneas: para una copia compartida, conviene que una persona mantenga y distribuya el tablero principal. Las notas originales del proyecto nunca se sobrescriben.
 
-## Alcance de lectura
+## Historial conservado
 
-El tablero respeta el límite compartido de **libro y capítulo**. Cada revisión nueva se fecha con el límite aplicado; las referencias concretas de evidencias siguen siendo texto libre y no sustituyen esa fecha. Las revisiones anteriores se conservan para reconstruir el tablero al retroceder. Las notas antiguas sin fecha de lectura se reservan hasta el último capítulo disponible. Las copias de versión 1 siguen siendo importables; las nuevas usan la versión 2 y conservan las revisiones. Consulta `READING_LIMIT.md`.
+Todas las observaciones y notas guardadas están disponibles, tengan o no una fecha de lectura. Las revisiones se guardan con fecha y hora. **Versiones guardadas** permite consultar las instantáneas anteriores, incluidas las creadas con la antigua función de límite por capítulo. Las copias de versiones 1 y 2 siguen siendo importables y conservan sus datos originales. Las referencias de libro y capítulo son informativas, sin filtrar el tablero.
 
 ## Verificación
 
-Ejecuta `node --test tests/clues.test.cjs` desde la carpeta del proyecto para comprobar la conservación de notas, el límite por libro y la validación de copias.
+Ejecuta `node --test tests/clues.test.cjs` desde la carpeta del proyecto para comprobar la conservación de notas y la validación de copias.

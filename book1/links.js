@@ -202,7 +202,7 @@ const links = [
     { source: 'glornir', target: 'aslog', label: 'entrego lanza de Aslog a Varg', type: 'rel' },
     { source: 'glornir', target: 'mision-helka-norte', label: 'lidera', type: 'rel' },
     { source: 'glornir', target: 'skalk', label: 'ordena remar a', type: 'event' },
-    { source: 'glornir', target: 'skullsplitter', label: 'hermano de / llora su muerte', type: 'rel' },
+    { source: 'glornir', target: 'orka', label: 'cuñado de / la creía muerta en combate naval (Skullsplitter)', type: 'rel' },
     // Snepil
     { source: 'einar', target: 'varg', label: 'enfrenta por puesto', type: 'event' },
     { source: 'snepil', target: 'varg', label: 'fue su amo', type: 'rel' },
@@ -215,7 +215,7 @@ const links = [
     { source: 'torvik', target: 'jokul', label: 'aprendiz de', type: 'rel' },
     { source: 'torvik', target: 'varg', label: 'compañero aspirante', type: 'rel' },
     { source: 'torvik', target: 'objeto-viga', label: 'revela identidad a Varg', type: 'event' },
-    { source: 'torvik', target: 'skullsplitter', label: 'conoce la historia de', type: 'lore' },
+    { source: 'torvik', target: 'orka', label: 'conoce la leyenda de Skullsplitter (sin saber que es ella)', type: 'lore' },
     // Galinn
     { source: 'galinn', target: 'liga', label: 'skáld de', type: 'geo' },
     { source: 'galinn', target: 'gudfall', label: 'recita la saga del', type: 'event' },
@@ -246,10 +246,9 @@ const links = [
     { source: 'sea-wolf', target: 'batalla-muelles', label: 'amenazado en', type: 'event' },
     // aslog
     { source: 'aslog', target: 'bloodsworn', label: 'fue miembro de', type: 'rel' },
-    // skullsplitter
-    { source: 'skullsplitter', target: 'bloodsworn', label: 'jefe anterior de', type: 'rel' },
-    { source: 'skullsplitter', target: 'jarl-logur', label: 'regalo relic a', type: 'rel' },
-    { source: 'skullsplitter', target: 'objeto-viga', label: 'regalo la astilla', type: 'rel' },
+    // orka (como Skullsplitter, antes de fingir su muerte)
+    { source: 'orka', target: 'jarl-logur', label: 'regaló relic a (como Skullsplitter)', type: 'rel' },
+    { source: 'orka', target: 'objeto-viga', label: 'regaló la astilla (como Skullsplitter)', type: 'rel' },
     // logur
     { source: 'jarl-logur', target: 'liga', label: 'jarl de', type: 'geo' },
     { source: 'jarl-logur', target: 'bloodsworn', label: 'hospeda', type: 'rel' },
@@ -704,7 +703,7 @@ const links = [
     { source: 'vackna', target: 'cat-dioses', label: '', type: 'arc' },
     { source: 'vackna', target: 'gudfall', label: 'inició la batalla', type: 'lore' },
     { source: 'vackna', target: 'objeto-viga', label: 'astilla en la viga', type: 'rel' },
-    { source: 'vackna', target: 'skullsplitter', label: 'relic en posesion de', type: 'lore' },
+    { source: 'vackna', target: 'orka', label: 'relic antes en posesion de (como Skullsplitter)', type: 'lore' },
     // Arbol-Froa
     { source: 'arbol-froa', target: 'cat-orka', label: '', type: 'arc' },
     { source: 'arbol-froa', target: 'ninos-robados', label: 'destruido por mismos agresores?', type: 'trama' },
@@ -1418,9 +1417,7 @@ const links = [
     { source: 'convergencia-grimholt', target: 'grimholt', label: 'ocurre en', type: 'geo' },
     { source: 'convergencia-grimholt', target: 'bloodsworn', label: 'llega al Grimholt en', type: 'event' },
     { source: 'orka', target: 'glornir', label: 'cuñada de (Thorkel era su hermano)', type: 'rel' },
-    { source: 'orka', target: 'skullsplitter', label: 'esposa de / es Orka Skullsplitter', type: 'rel' },
-    { source: 'thorkel', target: 'glornir', label: 'hermano de (= Skullsplitter)', type: 'rel' },
-    { source: 'thorkel', target: 'skullsplitter', label: 'ES Skullsplitter', type: 'rel' },
-    { source: 'glornir', target: 'thorkel', label: 'hermano de (= Skullsplitter)', type: 'rel' },
+    { source: 'thorkel', target: 'glornir', label: 'hermano de', type: 'rel' },
+    { source: 'glornir', target: 'thorkel', label: 'hermano de', type: 'rel' },
     { source: 'varg', target: 'edel', label: 'ofrecido puesto de scout por', type: 'rel' },
 ];

@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const core = CharacterReference;
-  const profiles = nodes.filter(n => core.kind(n)).map(n => core.profile(n, clueSourceRevisions, BOOK_CAP, ACTIVE_CHARACTER_GUIDES));
+  const profiles = nodes.filter(n => core.kind(n)).map(n => core.profile(n, clueSourceRevisions, CHARACTER_GUIDES));
   const byId = new Map(profiles.map(p => [p.node.id, p]));
   const visited = [];
   let activeId = null;
@@ -22,7 +22,7 @@
   dialog.id = 'character-reference'; dialog.setAttribute('aria-labelledby', 'reference-heading');
   dialog.innerHTML = `
     <div class="reference-header"><div><h1 id="reference-heading">Personajes</h1>
-      <p>Una guía para recordar quién es quién · ${READING_LABEL}</p></div>
+      <p>Una guía para recordar quién es quién · ${DATA_LABEL}</p></div>
       <button id="reference-close" type="button" aria-label="Cerrar índice de personajes">Cerrar ✕</button></div>
     <div class="reference-layout"><aside class="reference-index" aria-label="Índice de personajes">
       <label for="reference-search">Nombre, apodo o título</label>
@@ -103,7 +103,7 @@
     const node = nodeMap[id]; if (!node) return;
     if (activeId && activeId !== id && !back) visited.push(activeId);
     activeId = id;
-    const p = byId.get(id) || core.profile(node, clueSourceRevisions, BOOK_CAP, {});
+    const p = byId.get(id) || core.profile(node, clueSourceRevisions, {});
     pane.replaceChildren();
     const nav = el('div', undefined, 'reference-profile-nav');
     const previous = button('← Volver a la ficha anterior', () => showProfile(visited.pop(), true));
@@ -136,7 +136,7 @@
         const card = el('div', undefined, 'reference-connection');
         const relation = item.links[0];
         card.append(button(item.node.label, () => showProfile(item.node.id), 'reference-link'),
-          el('p', ACTIVE_RELATION_HINTS[id]?.[item.node.id] || `${relation.source} → ${relation.label || types[relation.type]} → ${relation.target}`));
+          el('p', CHARACTER_RELATION_HINTS[id]?.[item.node.id] || `${relation.source} → ${relation.label || types[relation.type]} → ${relation.target}`));
         grid.append(card);
       });
       keySection.append(grid); pane.append(keySection);

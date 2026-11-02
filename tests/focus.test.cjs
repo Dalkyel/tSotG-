@@ -79,7 +79,7 @@ test('graph indexing accepts D3 endpoints and leaves source data unchanged', () 
   assert.deepEqual(core.index(ns, objectLinks), core.index(ns, data.baseLinks));
 });
 
-test('book 1 graph cannot discover later characters or later links', () => {
+test('indexing uses only the supplied dataset', () => {
   const g = graph(1);
   assert.equal(g.nodes.has('saeunn'), false);
   const state = core.initial('orka');

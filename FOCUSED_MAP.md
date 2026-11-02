@@ -11,7 +11,7 @@ Abre **Explorar conexiones** en la cabecera, en una ficha de personaje o en el p
 
 Puedes mover nodos, arrastrar el fondo y ampliar o reducir la vista. **Ajustar vista** encuadra los nodos visibles. En móvil, al seleccionar un nodo se abre su detalle debajo del gráfico; ampliar una rama vuelve a situar el gráfico en pantalla.
 
-Esta vista usa copias para calcular las posiciones. No modifica los nodos, vínculos ni posiciones del mapa completo. Las expansiones y el historial se mantienen durante la sesión de la página, sin escribir en los archivos de los libros. Se respeta el límite compartido de libro y capítulo antes de indexar los nodos y vínculos. Consulta `READING_LIMIT.md` para el caso especial del Libro 1.
+Esta vista usa copias para calcular las posiciones. No modifica los nodos, vínculos ni posiciones del mapa completo. Las expansiones y el historial se mantienen durante la sesión de la página, sin escribir en los archivos de los libros. Se indexa el archivo completo de todos los libros disponibles. Los filtros de tipo de nodo y vínculo solo sirven para explorar la red.
 
 ## Mantenimiento y verificación
 

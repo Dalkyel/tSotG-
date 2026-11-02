@@ -8,12 +8,12 @@ Cada ficha presenta un recordatorio breve, el último desarrollo con capítulo i
 
 Las descripciones completas, las observaciones y los registros anteriores se conservan en secciones desplegables. El recorrido por capítulos se obtiene de encabezados explícitos en las notas, por lo que no representa necesariamente todas las apariciones del personaje.
 
-El índice aplica el límite compartido de libro y capítulo. En un tramo parcial se usan las versiones originales permitidas y sus extractos; las guías generales del reparto se reservan para el último capítulo registrado del libro, para evitar adelantar identidades o papeles. Consulta `READING_LIMIT.md` para el caso especial del Libro 1.
+El índice muestra todos los personajes y todas las versiones registradas de los libros disponibles. Los capítulos se conservan como referencias de la historia, sin restringir la información visible.
 
 ## Mantenimiento
 
 - `characters-data.js` contiene las presentaciones preparadas para el reparto principal, los alias adicionales y una selección de vínculos útiles. Las novedades del Libro 2 se guardan con su libro y capítulo; solo se muestran cuando coinciden con el último capítulo registrado para esa ficha. Conviene revisar las presentaciones al añadir nuevos libros o cambios importantes de papel.
-- Las demás presentaciones son extractos identificados como tales de las notas originales. Los nombres anteriores se obtienen de los registros del libro permitido.
+- Las demás presentaciones son extractos identificados como tales de las notas originales. Los nombres anteriores se obtienen de los registros de todos los libros.
 - `characters-core.js` genera las búsquedas, el recorrido y las agrupaciones. Acepta los enlaces tanto antes como después de que D3 resuelva sus extremos.
 - `characters.js` presenta el índice y lo conecta con el mapa. No necesita introducir, editar ni clasificar datos para usarlo.
 

@@ -12,8 +12,8 @@
   const has = (kind, id) => items.some(item => item.kind === kind && item.id === id);
   const dialog = el('dialog', undefined, 'bookmarks-dialog'); dialog.id = 'bookmarks-dialog';
   dialog.setAttribute('aria-labelledby', 'bookmarks-heading');
-  dialog.innerHTML = `<div class="bookmarks-header"><div><h1 id="bookmarks-heading">Marcadores</h1><p>${READING_LABEL}</p></div><button id="bookmarks-close" type="button">Cerrar ✕</button></div>
-    <div class="bookmarks-body"><p>Guarda un personaje, evento o pregunta con ☆ para volver a él. Los marcadores se guardan en este navegador; solo se muestran los que corresponden a tu límite de lectura.</p>
+  dialog.innerHTML = `<div class="bookmarks-header"><div><h1 id="bookmarks-heading">Marcadores</h1><p>${DATA_LABEL}</p></div><button id="bookmarks-close" type="button">Cerrar ✕</button></div>
+    <div class="bookmarks-body"><p>Guarda un personaje, evento o pregunta con ☆ para volver a él. Los marcadores se guardan en este navegador y abren la información completa del tema.</p>
     <label for="bookmarks-search">Buscar en mis marcadores</label><input id="bookmarks-search" type="search" placeholder="Nombre o pregunta…">
     <p id="bookmarks-status" role="status" aria-live="polite"></p><div id="bookmarks-list"></div></div>`;
   document.body.append(dialog);
@@ -53,7 +53,7 @@
     const visible = BookmarkStore.visible(items, nodes, window.getVisibleClues?.() || []);
     const matches = visible.filter(item => !query || CharacterReference.normalize(`${item.label} ${item.subtitle}`).includes(query));
     const list = document.getElementById('bookmarks-list'); list.replaceChildren();
-    status().textContent = error || `${matches.length} marcadores visibles en este límite`;
+    status().textContent = error || `${matches.length} marcadores`;
     for (const [kind, title] of [['node', 'Personajes y temas'], ['clue', 'Preguntas y observaciones']]) {
       const group = matches.filter(item => item.kind === kind); if (!group.length) continue;
       list.append(el('h2', title));
@@ -63,7 +63,7 @@
         open.append(el('strong', item.label), el('span', item.subtitle));
         open.addEventListener('click', () => {
           dialog.close();
-          if (item.kind === 'clue') window.openClueEntry(item.id);
+          if (item.kind === 'clue') window.openClueEntry(item.targetId || item.id);
           else if (CharacterReference.kind(nodeMap[item.id])) window.openCharacterReference(item.id);
           else window.openRelationshipMap(item.id);
         });

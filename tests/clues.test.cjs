@@ -23,15 +23,15 @@ test('existing observations remain read-only and every visible current note is i
   assert.equal(JSON.stringify(revisions), original);
 });
 
-test('book 1 view uses book 1 notes and excludes later saved entries', () => {
-  const base = core.sourceEntries(revisions, 1);
-  const later = core.sourceEntries(revisions, 2).find(c => c.book === 2);
-  const saved = { [later.id]: { ...later, title: 'Future revelation' } };
-  const entries = core.entries(revisions, saved, 1);
-  assert.ok(entries.every(c => c.book === 1));
-  assert.deepEqual(entries, base);
-  const orka = entries.find(c => c.nodeIds.includes('orka'));
-  assert.equal(orka.note, revisions.find(n => n.id === 'orka' && n.book === 1).star);
+test('all saved questions remain visible regardless of old reading dates', () => {
+  const base = core.sourceEntries(revisions);
+  const example = { ...base[0], id: 'club:undated', origin: 'club', title: 'Undated club question' };
+  const later = { ...example, id: 'club:later', title: 'Later question', availableAt: { book: 2, chapter: 48 } };
+  const saved = { [example.id]: example, [later.id]: later };
+  const entries = core.entries(revisions, saved);
+  assert.equal(entries.length, base.length + 2);
+  assert.ok(entries.some(c => c.id === later.id));
+  assert.ok(entries.some(c => c.id === example.id));
 });
 
 test('classification and club questions round-trip without losing evidence or history', () => {

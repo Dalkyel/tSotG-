@@ -16,7 +16,7 @@ const linkColors = {
 // DATA MERGE: Combine Book 1 + Book 2 data
 // ═══════════════════════════════════════════════════════
 
-// reading-init.js has already projected every surface to the shared book/chapter limit.
+// data-init.js has merged the full archive for every view.
 
 // ═══════════════════════════════════════════════════════
 // D3 SETUP
@@ -237,10 +237,6 @@ function updateGraphPositions() {
   window.refreshMapReadability?.();
 }
 simulation.on('tick', updateGraphPositions);
-if (READING_VIEW.summaryMode) {
-  simulation.stop().tick(120);
-  updateGraphPositions();
-}
 
 // ── Tooltip ────────────────────────────────────────────
 const tooltip = document.getElementById('tooltip');
@@ -278,7 +274,7 @@ function showPanel(d) {
   pType.textContent = d.type;
   pName.textContent = d.label.replace(' ', ' ');
   pDesc.textContent = d.desc;
-  document.getElementById('p-overview').textContent = CharacterReference.profile(d, clueSourceRevisions, BOOK_CAP, ACTIVE_CHARACTER_GUIDES).intro;
+  document.getElementById('p-overview').textContent = CharacterReference.profile(d, clueSourceRevisions, CHARACTER_GUIDES).intro;
   document.getElementById('p-full-description').open = false;
   const bookmark = document.getElementById('p-bookmark'); bookmark.replaceChildren();
   if (!['CENTER', 'CAT'].includes(d.group)) bookmark.append(BookmarkUI.button('node', d.id));
@@ -387,12 +383,7 @@ document.getElementById('btn-zoom-out').addEventListener('click', () => {
 });
 function resetZoom(animate) {
   let t = d3.zoomIdentity.translate(width() / 2, height() / 2).scale(0.75).translate(-width() / 2, -height() / 2);
-  if (READING_VIEW.summaryMode && nodes.length) {
-    const x0 = d3.min(nodes, n => n.x) - 70, x1 = d3.max(nodes, n => n.x) + 70;
-    const y0 = d3.min(nodes, n => n.y) - 60, y1 = d3.max(nodes, n => n.y) + 60;
-    const scale = Math.max(0.15, Math.min(1.2, width() / (x1 - x0), height() / (y1 - y0)) * 0.9);
-    t = d3.zoomIdentity.translate(width() / 2 - (x0 + x1) / 2 * scale, height() / 2 - (y0 + y1) / 2 * scale).scale(scale);
-  }
+
   (animate ? svg.transition().duration(500) : svg).call(zoom.transform, t);
 }
 
@@ -400,9 +391,9 @@ document.getElementById('btn-reset').addEventListener('click', () => resetZoom(t
 
 // ── Search functionality ──────────────────────────────
 const searchInput = document.getElementById('search-input');
-const visibleSearchRevisions = clueSourceRevisions.filter(r => r.book <= BOOK_CAP);
+const visibleSearchRevisions = clueSourceRevisions;
 const mapSearchNames = new Map(nodes.map(n => [n.id,
-  CharacterReference.aliases(n, visibleSearchRevisions, ACTIVE_CHARACTER_GUIDES).map(CharacterReference.normalize),
+  CharacterReference.aliases(n, visibleSearchRevisions, CHARACTER_GUIDES).map(CharacterReference.normalize),
 ]));
 if (!searchInput) {
   console.error('Search input not found');
@@ -447,9 +438,7 @@ setTimeout(() => resetZoom(false), 100);
 // Resize
 window.addEventListener('resize', () => {
   simulation.force('center', d3.forceCenter(width() / 2, height() / 2));
-  if (READING_VIEW.summaryMode) {
-    simulation.alpha(0.1).stop().tick(60); updateGraphPositions(); resetZoom(false);
-  } else simulation.alpha(0.1).restart();
+  simulation.alpha(0.1).restart();
 });
 
 // ── Summary Panel ─────────────────────────────────────
@@ -459,7 +448,7 @@ const btnSummaries = document.getElementById('btn-summaries');
 const summaryClose = document.getElementById('summary-close');
 
 const bookTabsEl = document.getElementById('book-tabs');
-let activeBookTab = chapterSummaries.at(-1)?.book || BOOK_CAP;
+let activeBookTab = chapterSummaries.at(-1)?.book || MAX_BOOK;
 
 function renderBookTabs() {
   const books = [...new Set(chapterSummaries.map(ch => ch.book || 1))].sort((a, b) => a - b);
@@ -487,7 +476,7 @@ function renderChapterList() {
         <div class="chapter-text collapsed">${ch.summary}</div>
       </div>
     `).join('');
-  if (!summaryContent.children.length) summaryContent.textContent = 'No hay capítulos leídos en este tramo. Ajusta el límite del club para empezar.';
+  if (!summaryContent.children.length) summaryContent.textContent = 'Todavía no hay resúmenes para este libro.';
 
   // Add click handlers for toggling
   document.querySelectorAll('.chapter-item').forEach(item => {

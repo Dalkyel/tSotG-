@@ -14,7 +14,7 @@ function view(cap) {
   const map = new Map();
   revisions.filter(n => n.book <= cap).forEach(n => map.set(n.id, { ...map.get(n.id), ...n }));
   const nodes = [...map.values()];
-  return { nodes, profiles: nodes.filter(n => core.kind(n)).map(n => core.profile(n, revisions, cap, data.guides)) };
+  return { nodes, profiles: nodes.filter(n => core.kind(n)).map(n => core.profile(n, revisions.filter(r => r.book <= cap), data.guides)) };
 }
 
 test('name search resolves accent, Norse lettering, phonetics, and shared entries', () => {
@@ -30,7 +30,7 @@ test('name search resolves accent, Norse lettering, phonetics, and shared entrie
   assert.ok(core.aliases(gudvarr.node, revisions, data.guides).includes('Guthvarr'));
 });
 
-test('book limit excludes later identities, summaries, and archived revisions', () => {
+test('profiles and histories use the supplied archive revisions', () => {
   const one = view(1), two = view(2);
   assert.equal(core.search(one.profiles, 'Saeunn').length, 0);
   const biorr1 = one.profiles.find(p => p.node.id === 'biorr');

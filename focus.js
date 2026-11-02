@@ -18,7 +18,7 @@
     const next = FocusMap.initial(id); next.limits[id] = batchSize(); return next;
   };
   const searchNames = new Map([...graph.nodes.values()].map(n => [n.id,
-    CharacterReference.aliases(n, clueSourceRevisions.filter(r => r.book <= BOOK_CAP), ACTIVE_CHARACTER_GUIDES).map(normalize)]));
+    CharacterReference.aliases(n, clueSourceRevisions, CHARACTER_GUIDES).map(normalize)]));
   let state = null, current = null, past = [], future = [], layout = [], layoutLinks = [];
   let cache = new Map(), selectedEdge = null, hoveredEdge = null;
   const el = (tag, text, className) => {
@@ -130,7 +130,7 @@
     if (!current.ids.has(state.selectedId)) state.selectedId = state.rootId;
     $('focus-kind').value = state.nodeKind; $('focus-type').value = state.linkType;
     $('focus-back').disabled = !past.length; $('focus-forward').disabled = !future.length;
-    $('focus-subtitle').textContent = `${graph.nodes.get(state.rootId).label} · ${READING_LABEL}`;
+    $('focus-subtitle').textContent = `${graph.nodes.get(state.rootId).label} · ${DATA_LABEL}`;
     const rootTotal = FocusMap.neighbors(graph, state.rootId, state, preferred).length;
     $('focus-count').textContent = `${current.nodes.length} nodos · ${current.edges.length} conexiones agrupadas · ${rootTotal} vecinos directos del centro con estos filtros`;
     layout = current.nodes.map((n, i) => ({ ...n,
@@ -219,7 +219,7 @@
       return;
     }
     const id = state.selectedId, node = graph.nodes.get(id);
-    const p = CharacterReference.profile(node, clueSourceRevisions, BOOK_CAP, ACTIVE_CHARACTER_GUIDES);
+    const p = CharacterReference.profile(node, clueSourceRevisions, CHARACTER_GUIDES);
     pane.append(el('p', id === state.rootId ? 'Centro del mapa' : node.type, 'focus-eyebrow'), el('h2', node.label), el('p', p.intro));
     pane.append(BookmarkUI.button('node', id));
     const neighbors = FocusMap.neighbors(graph, id, state, preferred);

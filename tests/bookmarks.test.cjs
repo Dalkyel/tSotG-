@@ -2,7 +2,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const core = require('../bookmarks-core.js');
 
-test('bookmarks preserve identifiers without caching spoiler-sensitive titles', () => {
+test('bookmarks preserve identifiers and resolve names from the archive', () => {
   const entries = core.validate({ version: 1, items: [
     { kind: 'node', id: 'hrolf', label: 'Hrolf (†)' }, { kind: 'clue', id: 'club:question', title: 'Future answer' },
   ] });
@@ -14,7 +14,7 @@ test('bookmarks preserve identifiers without caching spoiler-sensitive titles', 
   assert.ok(!JSON.stringify(early).includes('Future answer'));
 });
 
-test('future subjects and unavailable clue snapshots do not appear in bookmarks', () => {
+test('unavailable references remain stored without displaying invalid links', () => {
   const items = [{ kind: 'node', id: 'saeunn' }, { kind: 'node', id: 'orka' }, { kind: 'clue', id: 'club:future' }];
   const original = JSON.stringify(items);
   const early = core.visible(items, [{ id: 'orka', label: 'Orka', type: 'Personaje' }], []);
@@ -25,7 +25,7 @@ test('future subjects and unavailable clue snapshots do not appear in bookmarks'
   assert.equal(JSON.stringify(items), original);
 });
 
-test('clue bookmarks use the current chapter version of a question title', () => {
+test('clue bookmarks use the current question title', () => {
   const items = [{ kind: 'clue', id: 'club:test' }];
   assert.equal(core.visible(items, [], [{ id: 'club:test', title: 'Who did it?' }])[0].label, 'Who did it?');
   assert.equal(core.visible(items, [], [{ id: 'club:test', title: 'The answer is known' }])[0].label, 'The answer is known');
@@ -37,4 +37,12 @@ test('validation deduplicates markers and rejects malformed storage atomically',
     { version: 1, items: [{ kind: 'script', id: 'x' }] }, { version: 1, items: [{ kind: 'node', id: '' }] }]) {
     assert.throws(() => core.validate(value));
   }
+});
+
+test('an old source bookmark still opens the current observation for that topic', () => {
+  const result = core.visible([{ kind: 'clue', id: 'source:1:orka' }], [], [
+    { id: 'source:2:orka', origin: 'source', nodeIds: ['orka'], title: 'Orka observations' },
+  ]);
+  assert.equal(result[0].id, 'source:1:orka');
+  assert.equal(result[0].targetId, 'source:2:orka');
 });

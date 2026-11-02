@@ -15,19 +15,12 @@
       <div class="header-title">Bloodsworn Trilogy</div>
       <div class="header-sub">Mapa Mental Interactivo · Libro 1 Completo</div>
     </div>
-    <div class="reading-controls">
-      <select id="book-cap" title="Libro del límite del club" aria-label="Libro del límite del club"></select>
-      <select id="chapter-cap" title="Capítulo leído por el club" aria-label="Capítulo del límite del club"></select>
-      <button id="apply-reading-limit" class="clue-button" type="button">Aplicar límite</button>
-      <button id="share-reading-limit" class="clue-button" type="button">Compartir límite</button>
-    </div>
     <button id="btn-characters" class="clue-button" type="button">Personajes</button>
     <button id="btn-focus" class="clue-button" type="button">Explorar conexiones</button>
     <button id="btn-clues" class="clue-button" type="button">Pistas y preguntas</button>
     <button id="btn-bookmarks" class="clue-button" type="button">★ Marcadores</button>
     <button id="btn-summaries" class="ctrl-btn" title="Ver resúmenes de capítulos" aria-label="Resúmenes">📖</button>
   </header>
-  <div id="reading-notice" role="status" aria-live="polite" hidden></div>
   <div id="bookmark-feedback" class="sr-only" role="status" aria-live="polite"></div>
   <div class="main">
     <div id="graph-container">
@@ -90,9 +83,8 @@
   <script src="clues-core.js"></script>
   <script src="characters-data.js"></script>
   <script src="characters-core.js"></script>
-  <script src="reading-core.js"></script>
-  <script src="reading-metadata.js"></script>
-  <script src="reading-init.js"></script>
+  <script src="data-core.js"></script>
+  <script src="data-init.js"></script>
   <script src="bookmarks-core.js"></script>
   <script src="bookmarks.js"></script>
   <script src="mapa.js"></script>

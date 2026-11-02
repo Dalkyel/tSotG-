@@ -6,11 +6,11 @@
 - El panel de un nodo muestra primero una presentación breve. **Descripción completa** y **Observaciones originales** conservan los textos enteros. Las conexiones se agrupan por tipo de vínculo; el buscador consulta nombres, alias y textos de relación. Los registros repetidos entre dos temas permanecen accesibles en sus desplegables.
 - Usa **☆ Guardar marcador** en el panel de un nodo, una ficha de personaje, el explorador o una entrada del tablero de pistas. **★ Marcadores**, en la cabecera, reúne los accesos guardados y permite buscarlos o quitarlos.
 
-## Límite y almacenamiento
+## Almacenamiento
 
-Los marcadores se guardan en este navegador. No se comparten al copiar el enlace del límite del club y pueden perderse al borrar los datos del sitio.
+Los marcadores se guardan en este navegador. Son personales de ese navegador y pueden perderse al borrar los datos del sitio.
 
-Se guardan únicamente el tipo y el identificador del tema, sin copiar nombres, títulos ni respuestas. La lista obtiene esos textos de la vista de lectura actual: un personaje futuro queda oculto hasta su capítulo y un título anterior reaparece al retroceder. Los marcadores ocultos no se eliminan. Las preguntas se resuelven contra las versiones permitidas por el tablero de pistas.
+Se guardan únicamente el tipo y el identificador del tema. La lista muestra los nombres actuales del archivo completo. Los marcadores de observaciones de libros anteriores siguen abriendo el tema correspondiente, y las notas y versiones originales permanecen accesibles en sus historiales.
 
 Si el almacenamiento está lleno o no permite escribir, el botón muestra el error y se conservan los marcadores anteriores. Una colección ilegible no se sobrescribe automáticamente.
 
@@ -18,4 +18,4 @@ La mejora de presentación no cambia los archivos de los libros ni sus vínculos
 
 ## Verificación
 
-Ejecuta `node --test tests/*.test.cjs`. Las pruebas de marcadores comprueban la conservación de identificadores, el uso de nombres del capítulo actual, la ocultación de temas futuros y la validación del almacenamiento.
+Ejecuta `node --test tests/*.test.cjs`. Las pruebas de marcadores comprueban la conservación de identificadores, el uso de nombres actuales, la resolución de temas disponibles y la validación del almacenamiento.

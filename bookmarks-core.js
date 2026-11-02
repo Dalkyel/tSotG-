@@ -15,8 +15,14 @@
     const nodeMap = new Map(nodes.map(n => [n.id, n]));
     const clueMap = new Map(clues.map(c => [c.id, c]));
     return items.flatMap(item => {
-      const source = item.kind === 'node' ? nodeMap.get(item.id) : clueMap.get(item.id);
+      let source = item.kind === 'node' ? nodeMap.get(item.id) : clueMap.get(item.id);
+      // A source bookmark created on an older book still opens that topic's current observation.
+      if (!source && item.kind === 'clue') {
+        const nodeId = item.id.match(/^source:\d+:(.+)$/)?.[1];
+        if (nodeId) source = clues.find(c => c.origin === 'source' && c.nodeIds.includes(nodeId));
+      }
       return source ? [{ ...item, label: item.kind === 'node' ? source.label : source.title,
+        ...(source.id !== item.id ? { targetId: source.id } : {}),
         subtitle: item.kind === 'node' ? source.type : 'Pregunta u observación del club' }] : [];
     });
   }

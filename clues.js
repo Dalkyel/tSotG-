@@ -14,16 +14,16 @@
   // Never overwrite unreadable storage with an empty board.
   const storageReadable = !startupError;
   const sourceNodes = new Map();
-  clueSourceRevisions.filter(n => n.book <= BOOK_CAP).forEach(n => sourceNodes.set(n.id, n));
+  clueSourceRevisions.forEach(n => sourceNodes.set(n.id, n));
   const dialog = document.createElement('dialog');
   dialog.id = 'clue-board';
   dialog.setAttribute('aria-labelledby', 'clue-heading');
   dialog.innerHTML = `
     <div class="clue-topbar">
-      <div><h1 id="clue-heading">Pistas y preguntas</h1><p>${READING_LABEL} · Observaciones y teorías del club</p></div>
+      <div><h1 id="clue-heading">Pistas y preguntas</h1><p>${DATA_LABEL} · Observaciones y teorías del club</p></div>
       <button type="button" id="clue-close" aria-label="Cerrar tablero">Cerrar ✕</button>
     </div>
-    <p class="clue-intro">Se aplica el límite de capítulos del club. «Por revisar» no significa que una pregunta siga abierta. Las notas guardadas sin fecha de lectura se reservan hasta el último capítulo registrado.</p>
+    <p class="clue-intro">Todas las observaciones y notas guardadas están disponibles. «Por revisar» no significa que una pregunta siga abierta.</p>
     <div class="clue-toolbar">
       <label>Buscar<input id="clue-search" type="search" placeholder="Personaje, pregunta o teoría…"></label>
       <label>Estado<select id="clue-status"><option value="">Todos los estados</option></select></label>
@@ -47,7 +47,7 @@
     if (className) node.className = className;
     return node;
   };
-  const allEntries = () => ClueBoard.entries(clueSourceRevisions, saved, BOOK_CAP, READING_LIMIT, READING_MAX_CHAPTERS);
+  const allEntries = () => ClueBoard.entries(clueSourceRevisions, saved);
   const message = text => { $('clue-message').textContent = text; };
   const mayLeave = () => !dirty || window.confirm('Hay cambios sin guardar. ¿Quieres descartarlos?');
   const options = (select, choices) => choices.forEach(([value, text]) => select.add(new Option(text, value)));
@@ -127,20 +127,20 @@
     chapter.placeholder = 'Ej.: Libro 2, capítulo 18';
     const bookLabel = el('label', 'Libro de esta entrada');
     const book = document.createElement('select'); book.name = 'book';
-    options(book, Array.from({ length: BOOK_CAP }, (_, i) => [i + 1, `Libro ${i + 1}`]));
+    options(book, Array.from({ length: MAX_BOOK }, (_, i) => [i + 1, `Libro ${i + 1}`]));
     book.value = c.book; book.disabled = c.origin === 'source';
     bookLabel.append(book); form.append(bookLabel);
     const relatedLabel = el('label', 'Personajes y temas vinculados (selección múltiple)');
     const related = document.createElement('select'); related.multiple = true; related.size = 5; related.name = 'related';
     options(related, sortedNodes.map(n => [n.id, n.label]));
     // Preserve imported references even if they are absent from this dataset.
-    options(related, c.nodeIds.filter(id => !sourceNodes.has(id)).map(id => [id, 'Referencia fuera de este límite']));
+    options(related, c.nodeIds.filter(id => !sourceNodes.has(id)).map(id => [id, `${id} (sin nodo disponible)`]));
     [...related.options].forEach(o => { o.selected = c.nodeIds.includes(o.value); });
     relatedLabel.append(related); form.append(relatedLabel);
     const evidence = field(form, 'Evidencias del texto — añade el capítulo y lo que confirma', 'evidence', c.evidence, true);
     const theory = field(form, 'Interpretación o teoría del club — qué sospechamos y por qué', 'theory', c.theory, true);
     const submit = el('button', 'Guardar entrada', 'clue-primary'); submit.type = 'submit';
-    form.append(el('p', `Esta revisión quedará fechada en ${READING_LABEL}.`, 'clue-revision-limit'));
+    form.append(el('p', 'Las revisiones se guardan con fecha y hora en este navegador.', 'clue-save-note'));
     form.append(submit);
     form.addEventListener('submit', event => {
       event.preventDefault();
@@ -154,13 +154,13 @@
       const labels = { title: 'Título', status: 'Estado', book: 'Libro', chapter: 'Referencia', evidence: 'Evidencias', theory: 'Teoría', nodeIds: 'Vínculos' };
       const display = (key, value) => key === 'status' ? statuses[value] : Array.isArray(value) ? value.join(', ') : String(value || '(vacío)');
       const now = new Date().toISOString();
-      updated.availableAt = { ...READING_LIMIT }; updated.updatedAt = now;
+      delete updated.availableAt; updated.updatedAt = now;
       const previous = saved[updated.id];
       if (previous) {
         const { versions, ...snapshot } = previous;
         updated.versions = [...(versions || []), snapshot];
       }
-      updated.history = [...c.history, { at: now, reading: { ...READING_LIMIT }, text: isNew ? 'Pregunta creada por el club.' :
+      updated.history = [...c.history, { at: now, text: isNew ? 'Pregunta creada por el club.' :
         changes.map(k => `${labels[k]}: ${display(k, c[k])}\n→ ${display(k, updated[k])}`).join('\n\n') }];
       if (persist({ ...saved, [updated.id]: updated })) {
         selectedId = updated.id; renderList(); renderDetail(updated);
@@ -196,9 +196,29 @@
         el('p', h.text, 'clue-original'));
     });
     pane.append(history);
+    if (c.versions?.length) {
+      const versions = el('details');
+      versions.append(el('summary', `Versiones guardadas (${c.versions.length})`));
+      [...c.versions].reverse().forEach((version, index) => {
+        const item = el('details');
+        const date = new Date(version.updatedAt || version.history.at(-1)?.at || '');
+        item.append(el('summary', `Versión ${c.versions.length - index}${Number.isNaN(date.getTime()) ? '' : ` · ${date.toLocaleString('es')}`}`),
+          el('h4', version.title), el('p', statuses[version.status]));
+        for (const [key, label] of [['chapter', 'Referencia'], ['note', 'Observación'], ['evidence', 'Evidencias'], ['theory', 'Teoría']]) {
+          if (version[key]) item.append(el('h4', label), el('p', version[key], 'clue-original'));
+        }
+        if (version.history.length) {
+          const edits = el('details'); edits.append(el('summary', 'Historial de esta versión'));
+          version.history.forEach(edit => edits.append(el('p', `${edit.at}\n${edit.text}`, 'clue-original')));
+          item.append(edits);
+        }
+        versions.append(item);
+      });
+      pane.append(versions);
+    }
     const sources = el('details'); sources.append(el('summary', 'Notas y contexto originales (sin modificar)'));
     const originalId = c.origin === 'source' ? c.id.replace(/^source:[12]:/, '') : null;
-    const revisions = clueSourceRevisions.filter(n => n.book <= BOOK_CAP && (n.id === originalId || c.nodeIds.includes(n.id)));
+    const revisions = clueSourceRevisions.filter(n => (n.id === originalId || c.nodeIds.includes(n.id)));
     if (!revisions.length) sources.append(el('p', 'Vincula esta pregunta a un personaje o tema para consultar sus notas.'));
     revisions.forEach((n, i) => {
       const revision = el('details');
@@ -243,11 +263,11 @@
     if (!mayLeave()) return;
     selectedId = null; renderList();
     renderDetail({ id: `club:${crypto.randomUUID()}`, title: '', note: '', status: 'open', origin: 'club',
-      book: BOOK_CAP, chapter: '', evidence: '', theory: '', nodeIds: [], history: [] }, true);
+      book: MAX_BOOK, chapter: '', evidence: '', theory: '', nodeIds: [], history: [] }, true);
   });
   $('clue-export').addEventListener('click', () => {
-    // Export every saved entry, including entries above the current book limit.
-    // Include unedited source observations visible in this reading view as well.
+    // Export every saved entry and its preserved revisions.
+    // Include the current source observations as well.
     const exportEntries = { ...Object.fromEntries(allEntries().map(c => [c.id, c])), ...saved };
     const raw = startupError ? localStorage.getItem(storageKey) : JSON.stringify({
       format: 'bloodsworn-clues', version: 2, entries: Object.values(exportEntries),
@@ -255,7 +275,7 @@
     const url = URL.createObjectURL(new Blob([raw || ''], { type: 'application/json' }));
     const link = el('a'); link.href = url; link.download = 'bloodsworn-pistas.json'; link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
-    message('Copia exportada. Incluye las revisiones guardadas, también las de capítulos posteriores al límite actual.');
+    message('Copia exportada con todas las entradas y revisiones guardadas.');
   });
   $('clue-import').addEventListener('click', () => {
     if (mayLeave()) $('clue-file').click();
@@ -275,7 +295,7 @@
           const current = allEntries().find(c => c.id === selectedId);
           if (current) renderDetail(current);
         }
-        message(`${added} entradas importadas; ${existing} ya guardadas se conservaron sin cambios. Se respeta ${READING_LABEL}.`);
+        message(`${added} entradas importadas; ${existing} ya guardadas se conservaron sin cambios. Todas las notas están disponibles.`);
       }
     } catch (error) { message(`No se importó la copia. ${error.message}`); }
     finally { event.target.value = ''; }
