@@ -76,7 +76,12 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   Before each chapter, review the existing open/partial questions and clues across all
   POVs; record developments and evidence-backed closures in the staged archive.
   Keep `ownership-review.md`, `event-review.md` and `thread-review.md` in the chapter run directory.
-  Update `completedChapters` only after all three semantic gates and verification succeed. Preview with
+  After all three semantic gates and verification succeed, update the README's
+  `Completed`/`Latest source` header and append the current chapter's log paragraph,
+  then update `progress.json`'s source, baseline and `completedChapters`. Cross-check
+  that the header, numbered chapter paragraphs and progress all end at the same chapter
+  before reporting completion. The preflight log check does not catch a stale header.
+  Preview with
   `book1/rebuild/index.html`; regenerate that preview from the live HTML if its layout
   changes, retaining the base URL and staged-data substitutions described in the README.
 - Do not replace the live archive with a partial rebuild. At completion, reconcile

@@ -8,23 +8,6 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
-- 2026-11-02: Book 1 rebuild Ch23 — "Broðir" (Elvar's younger brother) is literally the
-  Old Norse word for "brother," used by the author as if it were his actual name:
-  capitalized every time, addressed directly, quoted with his own lines, and
-  distinguished from his brother Thorun, who already has a conventional name. No
-  existing rule distinguished this from the already-documented `Maður` case (a generic
-  word with no node at all); reasoned in-session from the pattern of signals above
-  (capitalization, direct address, individual stake) before minting `brodir`. Fixed
-  directly in SKILL.md (step 2d, new fourth case) — now absorbed there, not just here.
-- 2026-11-02: Book 1 rebuild Ch22 — Vafri (Sigrún's thrall since Ch10, named only on
-  death in Ch22) was the first case this rebuild hit of a recurring character tracked
-  anonymously across several earlier chapters' *other* entries (sigrun, mord, virk)
-  finally getting a name. No existing rule covered whether to retrofit the name into
-  those earlier chapters' accumulated entries; reasoned in-session that doing so would
-  rewrite history the full-overwrite rule exists to preserve, so the new node's own desc
-  carries a backward cross-reference by chapter number instead. Fixed directly in
-  SKILL.md (step 2d, new third case alongside near-miss spellings and combined legacy
-  ids) — now absorbed there, not just here.
 - 2026-11-02: Book 1 rebuild Ch20 — two mistakes, both fixed directly in SKILL.md (now
   absorbed there, not just here):
   (1) Wrote three new nodes (a mission EVENTO, its TRAMA question, and a landing EVENTO)

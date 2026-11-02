@@ -334,6 +334,15 @@ If a read is truncated, retrieve the omitted sections before proceeding.
      header (a known historical editing mistake). Use its full accumulated text as the
      baseline, create a fresh entry for the current chapter, and flag the misplaced
      history. Repairing earlier sections is a separate task.
+   - A later chapter can qualify an earlier reported death without confirming survival.
+     Preserve the earlier chapter-marked claim, then append the new speaker's exact
+     degree of certainty on the affected character (for example, «podría vivir»), and
+     qualify a definitive death label when warranted (`†?`). Do not describe this as a
+     resurrection or a confirmed reappearance. Check the latest related threads for
+     inherited death claims and cross-reference the qualification there when they are
+     updated; unchanged historical entries remain historical evidence. Distinguish an
+     archive's assertion from what the source actually establishes. If the original
+     chapter is unavailable, record that limit rather than claiming a source recheck.
 4. Before appending, rerun the compact preflight if the data files have changed since
    the initial check. Record input conflicts
    with source markers rather than silently replacing earlier claims (e.g. Myrk's ten
