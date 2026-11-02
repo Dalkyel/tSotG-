@@ -16,7 +16,13 @@ for (let n = 1; n <= book; n++) {
   entries.forEach(node => latest.set(node.id, { file, node }));
 }
 const missing = ids.filter(id => !latest.has(id));
-assert.equal(missing.length, 0, `Unknown ids: ${missing.join(', ')}`);
+if (missing.length) {
+  console.error(`Unknown ids in the selected archive: ${[...new Set(missing)].join(', ')}`);
+  const available = [...new Set(ids)].filter(id => latest.has(id));
+  if (available.length) console.error(`Known requested ids: ${available.join(', ')}`);
+  console.error('No entries printed. Resolve unknown ids or remove them from this read batch before retrying.');
+  process.exit(1);
+}
 const payload = JSON.stringify([...new Set(ids)].map(id => latest.get(id)), null, 2);
 // Paginate the serialized text, including very long individual descriptions.
 const pageSize = 10000;

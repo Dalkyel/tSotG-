@@ -6,6 +6,29 @@ const path = require('node:path');
 const { createHash } = require('node:crypto');
 const { spawnSync } = require('node:child_process');
 
+test('latest reader rejects a mixed unknown-id batch without partial entries or a stack trace', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'latest-reader-'));
+  try {
+    fs.mkdirSync(path.join(root, 'book1'));
+    fs.writeFileSync(path.join(root, 'book1/nodes.js'), 'const nodes = [{id:"varg",desc:"KNOWN-ENTRY"}];');
+    const script = path.resolve(__dirname, '../.claude/skills/add-chapter/scripts/read-latest.cjs');
+    const run = (...ids) => spawnSync(process.execPath, [script, '1', '1', ...ids], { cwd: root, encoding: 'utf8' });
+    const missing = run('varg', 'reference-only', 'reference-only');
+    assert.equal(missing.status, 1);
+    assert.equal(missing.stdout, '');
+    assert.match(missing.stderr, /Unknown ids in the selected archive: reference-only\n/);
+    assert.match(missing.stderr, /Known requested ids: varg/);
+    assert.match(missing.stderr, /No entries printed/);
+    assert.doesNotMatch(missing.stderr, /AssertionError|\n\s+at /);
+    const retry = run('varg');
+    assert.equal(retry.status, 0, retry.stderr);
+    assert.match(retry.stdout, /KNOWN-ENTRY/);
+    assert.match(retry.stdout, /END: all requested entries/);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
 test('staged verification gates the child on all six recorded live hashes', () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'rebuild-launcher-'));
   try {

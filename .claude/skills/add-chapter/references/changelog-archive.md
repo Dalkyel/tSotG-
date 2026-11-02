@@ -536,3 +536,11 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
 - 2026-11-02: Book 1 rebuild Ch36 follow-up — reference identity checks returned repeated excerpts and later scenes when searching actor names inside long profiles. Added optional `search-descriptions.cjs --max-excerpts N` per selected id, explicit omitted-excerpt counts, and argument validation; unlimited paginated reads remain the default. The source/entity and rebuild references document distinguishing-action queries, expansion when identity remains uncertain, and the fact that output limits do not impose a chapter cap or replace full-entry reads. Three search regression tests cover per-id limits, default output, Unicode boundaries, historical fallback and invalid options; the rebuild test command includes them.
 
 - 2026-11-02: Book One rebuild Ch37 follow-up — final backlog accounting required a one-off VM parser that initially guessed the wrong Book One array name. Added `read-backlog.cjs BOOK PAGE --index` (rebuild: `rebuild.cjs read-backlog PAGE --index`) to list the same latest cross-POV candidates with TRAMA/star markers and no repeated prose or inferred states. Documented its use only after the complete backlog review, with pending checklist assessments. Regression checks cover candidate parity, latest revisions/book caps, closed/thematic inclusion, empty and paginated output, invalid arguments and staged isolation. Fully incorporated in the helper, review gate and rebuild examples.
+- 2026-11-02: Book One rebuild Ch39 follow-up — a reference-only chain ID in a staged
+  full-entry batch produced a stack trace and no entries. The reader now fails concisely,
+  lists unknown and known requested IDs, and explicitly states that nothing was printed;
+  a regression checks all-or-nothing output and successful retry. The rebuild reference
+  now keeps reference-only IDs out of staged full-entry batches. Final link review also
+  caught source qualifiers between a preposition and its target and an accusation acting
+  as the agent that prevents violence; added natural attributed-sentence and subject-role
+  examples to the link rules. Fully incorporated; chapter data unchanged by this follow-up.

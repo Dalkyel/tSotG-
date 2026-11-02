@@ -55,7 +55,9 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   launcher path; do not change directory for individual helpers. Read/update progress
   and README using absolute paths derived from the captured project root.
   A reference match does not mean an entity already exists in the rebuild: create a new
-  node using that ID if it is absent from the rebuilt inventory. Descriptions and stars
+  node using that ID if it is absent from the rebuilt inventory. Do not include reference-only IDs
+  in staged `read-latest` batches. An unknown ID rejects the entire batch without printing
+  entries; retry the existing staged IDs separately. Descriptions and stars
   must be grounded only in chapters processed so far; retain later revelations solely
   in the untouched reference/live archive. Reuse IDs for historical events even when
   their canonical names are learned later, explicitly noting that distinction.

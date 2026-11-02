@@ -206,6 +206,11 @@ relationship. Check grammar against the complete endpoint title too: `protagoniz
 La Escala…` avoids `dirige la → La Escala…`, and `presencia → Los Battle-Grim…`
 avoids `observa la → Los Battle-Grim…`. Avoid generating links from a shared template
 when their verbs require different directions or articles.
+Put source attribution before the verb inside the link label, so the sentence still
+reads naturally through its target: `Cadena de Ulfrir → según Yrsa, sirvió para encadenar a
+→ Ulfrir`, not `sirvió para encadenar a, según Yrsa → Ulfrir`. Keep the subject's role
+accurate too: an accusation `es contenida por → Glornir`; it does not itself prevent
+the violence.
 
 To retire a Book 1 relationship that no longer holds, add a **broken-link marker**
 instead of a normal link — `label` must match the original book1 link's label exactly,
