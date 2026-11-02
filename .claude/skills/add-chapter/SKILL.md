@@ -2,7 +2,7 @@
 name: add-chapter
 description: >
   Use this after a Bloodsworn Saga book club session to add a chapter's content to the
-  interactive mind map (mapa.html), or to validate reference material against it. Trigger
+  interactive mind map (index.html), or to validate reference material against it. Trigger
   examples: "add chapter 5 of book 2", "we just read chapter 12, update the map", "log
   this chapter", "here are my notes from today's reading, add them", "update the map with
   what happened in this chapter", "validate this cast list/glossary against the map",
@@ -13,7 +13,7 @@ description: >
 # Adding a chapter to the Bloodsworn mind map
 
 This project tracks characters, places, events, and lore across the Bloodsworn Saga
-trilogy in a D3 mind map (`mapa.html`). Book 1 (`book1/`) is complete and frozen — **never
+trilogy in a D3 mind map (`index.html`). Book 1 (`book1/`) is complete and frozen — **never
 edit `book1/*.js`**. Every book club session on Book 2 (or later, Book 3) adds a delta to
 that book's own folder. The merge logic in `mapa.js` combines frozen base + deltas at load
 time, respecting each reader's own "read up to Book N" cap — this skill only has to
@@ -380,7 +380,7 @@ who have not reached that book.
 
 Create `book3/nodes.js`, `book3/links.js`, `book3/summaries.js` exporting empty
 `nodesBook3`, `linksBook3`, `chapterSummariesBook3` arrays (copy `book2`'s file headers as
-a template), and add the three `<script>` tags to `mapa.html` next to the Book 2 ones.
+a template), and add the three `<script>` tags to `index.html` next to the Book 2 ones.
 Nothing else changes — `MAX_BOOK` in `mapa.js` auto-detects `nodesBook3` and the cap
 selector, badges, and chapter tabs all extend themselves.
 
@@ -407,14 +407,14 @@ only appended relationships, marking broken-link removals explicitly. Read these
 sentences for semantic direction; the verifier cannot judge their meaning.
 
 These checks do not establish factual accuracy or visual correctness. Review the added
-content against the complete chapter, then open `mapa.html` and confirm: the new/updated
+content against the complete chapter, then open `index.html` and confirm: the new/updated
 node appears with the correct description and a gold ring, its connections show in the
 panel, the chapter appears under the right "Libro N" tab, and newly integrated facts
 appear in the intended descriptions or connections.
 
 If browser automation is unavailable, its browser is not installed, or access to the
 local page is blocked, report the checks actually completed and leave visual confirmation
-in `mapa.html` to the user. Respect browser restrictions; do not install a browser or try
+in `index.html` to the user. Respect browser restrictions; do not install a browser or try
 alternate access methods merely to complete this optional visual check.
 
 ## Improving this skill
