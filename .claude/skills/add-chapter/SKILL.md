@@ -702,6 +702,11 @@ review then silently missed the TRAMA one, which is how the mistake surfaced.)
 won't error, it'll just render in the default color — prefer an existing one unless the
 user explicitly wants a new category (then add it to `linkColors` too).
 
+Resolve structural category ids with the normal matcher before composing links too.
+A group key such as `OBJETO` or `LUGAR` does not imply that `cat-objetos` or
+`cat-lugares` exists; use an existing suitable category (for example, `cat-magia`
+or `cat-mundo`) confirmed in the selected archive.
+
 Write and review each link as a sentence: **source label → relationship label → target
 label**. For example, `Orka → imparte → La Lección de Escudo de Lif`, or the reverse
 `La Lección de Escudo de Lif → impartida por → Orka`. Reversing the endpoints requires

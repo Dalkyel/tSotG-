@@ -1,5 +1,10 @@
 # Changelog archive
 
+- 2026-11-02: Book One Ch29 — guessed `cat-objetos` and `cat-lugares` endpoints
+  failed verification because those category nodes do not exist in the staged archive.
+  Replaced them with confirmed `cat-magia` and `cat-mundo` endpoints. Added an explicit
+  pre-drafting category-id check to the link instructions; fully absorbed and archived.
+
 - 2026-11-02: Post-Ch26 skill review — the final ownership pass reprinted about
   50,600 characters of complete entries after their baseline histories had already
   been audited and verified unchanged. Added verifier `--review-nodes=PAGE`: full
