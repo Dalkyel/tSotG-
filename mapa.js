@@ -470,7 +470,10 @@ function renderBookTabs() {
 }
 
 function renderChapterList() {
-  const chapters = chapterSummaries.filter(ch => (ch.book || 1) === activeBookTab);
+  // Newest chapter first: on mobile/touch screen readers, reaching the
+  // latest entry in a long, ever-growing list costs one swipe instead of
+  // scrolling or tabbing past every prior chapter.
+  const chapters = chapterSummaries.filter(ch => (ch.book || 1) === activeBookTab).reverse();
   chapterListEl.innerHTML = chapters.map(ch => `
     <button class="reference-result" type="button" data-chapter="${ch.chapter}" aria-current="${ch.chapter === activeChapter}">
       <strong>${ch.title}</strong>
