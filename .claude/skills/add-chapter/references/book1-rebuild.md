@@ -36,6 +36,8 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-latest 1 varg einar
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-backlog 1
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-node varg /absolute/scratch/spec.json
+  node .claude/skills/add-chapter/scripts/rebuild.cjs append-entries links /absolute/scratch/links.json
+  node .claude/skills/add-chapter/scripts/rebuild.cjs append-entries summaries /absolute/scratch/summaries.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs verify-chapter 4 /absolute/baseline --review-links --review-summary
   ```
 
@@ -65,7 +67,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 - For rebuild regression checks, use the existing test filenames explicitly:
 
   ```sh
-  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs
+  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs tests/chapter-appender.test.cjs
   ```
 
   Confirm the output includes the `chapter verifier` tests, including the summary identity

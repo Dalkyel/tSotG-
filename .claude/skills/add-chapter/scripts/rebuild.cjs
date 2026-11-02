@@ -11,15 +11,15 @@ const reference = args[0] === '--reference';
 if (reference) args.shift();
 const helper = args.shift();
 const readers = ['check-chapter', 'match-entities', 'search-descriptions', 'read-latest', 'read-links', 'read-backlog'];
-const allowed = reference ? readers : [...readers, 'append-node', 'verify-chapter'];
+const allowed = reference ? readers : [...readers, 'append-node', 'append-entries', 'verify-chapter'];
 if (!allowed.includes(helper)) {
   console.error(`Usage: node rebuild.cjs [--reference] HELPER ARGS… (Book 1 is implicit).\nAllowed helpers: ${allowed.join(', ')}. Reference writes are forbidden.`);
   process.exit(1);
 }
 
 // Resolve file arguments before the child changes directory. Existing readers use
-// only names/ids/page numbers; these are the two helpers accepting filesystem paths.
-const fileArg = helper === 'append-node' ? 1 : helper === 'verify-chapter' ? 1 : -1;
+// only names/ids/page numbers; writer/verifier paths are relative to the caller.
+const fileArg = ['append-node', 'append-entries', 'verify-chapter'].includes(helper) ? 1 : -1;
 if (fileArg >= 0 && args[fileArg]) args[fileArg] = path.resolve(args[fileArg]);
 const cwd = path.join(root, 'book1/rebuild', reference ? 'reference' : '');
 if (helper === 'verify-chapter') {

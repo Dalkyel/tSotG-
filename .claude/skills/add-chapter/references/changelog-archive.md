@@ -1,5 +1,16 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch25 skill review — the run rewrote the routine links/summary
+  insertion script because only nodes had a bundled appender. Added
+  `append-entries.cjs BOOK links|summaries SPEC_FILE`, preserving original bytes before
+  the array terminator and all parsed entries, validating basic fields/syntax before
+  writing, and rejecting duplicate/out-of-order summary chapters without mutation.
+  The rebuild launcher resolves spec paths from the caller and rejects reference-mode
+  writes. Updated live/rebuild examples and added five regression tests covering
+  preservation, omitted final commas, later-book variables, broken links, invalid input
+  and staged isolation. All 11 focused appender/launcher/verifier tests pass. Fully
+  absorbed into the helper and workflow documentation; archived immediately.
+
 - 2026-11-02: Post-Ch24 skill review — documented how to preserve a historical
   death claim while recording later uncertainty without asserting survival or
   resurrection, including source-availability limits and current labels/threads.

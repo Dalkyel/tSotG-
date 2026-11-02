@@ -320,13 +320,27 @@ If a read is truncated, retrieve the omitted sections before proceeding.
      confirms it, a FAIL on "does not preserve its latest baseline text" means re-extract
      that exact field from the data file programmatically rather than trusting the
      earlier read.
-   - `links.js` and `summaries.js` have no bundled appender. When byte-exact
-     `Read`/`Edit` tools are available, read the bounded file suffix before choosing an
-     edit anchor; do not reconstruct quote style or indentation from shell output.
-     Otherwise, use a short local script that reads the file directly, asserts a single
-     trailing `\n]\s*;\s*$` array terminator, and inserts JSON-serialized entries before it.
-     Keep the existing file prefix intact and run `node --check` afterward. This avoids
-     matching regenerated prose or depending on tools absent from the current runtime.
+   - Append links and summaries with `scripts/append-entries.cjs`, rather than rewriting
+     the same insertion script per chapter. Write a JSON spec beside `baseline/` with
+     an optional single-line `header` comment and a nonempty `entries` array:
+
+     ```json
+     {"header":"// ── LIBRO 2, CAPÍTULO 42 ──", "entries":[
+       {"source":"node-id", "target":"other-id", "label":"relación", "type":"rel"}
+     ]}
+     ```
+
+     ```sh
+     node .claude/skills/add-chapter/scripts/append-entries.cjs 2 links "$chapter_run/links.json"
+     node .claude/skills/add-chapter/scripts/append-entries.cjs 2 summaries "$chapter_run/summaries.json"
+     ```
+
+     Summary specs use the same wrapper with chapter/title/summary entries (section 3).
+     The helper preserves the original prefix and parsed entries, supports existing arrays
+     with or without a final comma, and validates syntax and basic fields before writing.
+     Duplicate or unordered summary chapters fail without changing the file. Endpoint,
+     mention and semantic checks still belong to the chapter verifier and review gates.
+     For the rebuild, use `rebuild.cjs append-entries links|summaries SPEC_PATH`.
    - If reading source lines, include the entire object: `desc` and `star` may be on
      following lines. For same-POV continuations, chapter boundary comments can locate
      the previous scene's cluster quickly; inspect later same-id entries before copying.

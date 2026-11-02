@@ -20,6 +20,7 @@
     <button id="btn-clues" class="clue-button" type="button">Pistas y preguntas</button>
     <button id="btn-bookmarks" class="clue-button" type="button">★ Marcadores</button>
     <button id="btn-summaries" class="ctrl-btn" title="Ver resúmenes de capítulos" aria-label="Resúmenes">📖</button>
+    <button id="btn-map" class="ctrl-btn" title="Ver mapa de Vigríð" aria-label="Mapa">🗺️</button>
   </header>
   <div id="bookmark-feedback" class="sr-only" role="status" aria-live="polite"></div>
   <div class="main">
@@ -78,6 +79,22 @@
     </div>
   </dialog>
 
+  <dialog id="map-panel" class="reference" aria-labelledby="map-heading">
+    <div class="reference-header">
+      <div>
+        <h1 id="map-heading">Mapa de Vigríð</h1>
+        <p>Lugares mencionados en la historia, sobre el mapa oficial</p>
+      </div>
+      <button id="map-close" type="button" aria-label="Cerrar mapa">Cerrar ✕</button>
+    </div>
+    <div id="map-overlay-wrap">
+      <div id="map-stage">
+        <img src="shared/vigrid.jpeg" alt="Mapa oficial de Vigríð" id="map-image">
+        <div id="map-overlay"></div>
+      </div>
+    </div>
+  </dialog>
+
   <script src="groups.js"></script>
   <!-- Book 1 data -->
   <script src="book1/nodes.js"></script>
@@ -96,6 +113,8 @@
   <script src="bookmarks-core.js"></script>
   <script src="bookmarks.js"></script>
   <script src="mapa.js"></script>
+  <script src="shared/map-pins.js"></script>
+  <script src="shared/map.js"></script>
   <script src="clues.js"></script>
   <script src="characters.js"></script>
   <script src="focus-core.js"></script>
