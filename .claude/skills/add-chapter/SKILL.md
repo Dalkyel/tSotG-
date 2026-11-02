@@ -23,8 +23,11 @@ source inspection; this is not a display restriction.
 
 A separate, parallel effort (`book1/rebuild/`) with its own procedure — read
 [references/book1-rebuild.md](references/book1-rebuild.md) instead of this file when the
-user is actively continuing that rebuild. An ordinary "add chapter N" request (live Book
-One or Book Two) never needs it. For staged runs, capture the absolute project root before
+user is actively continuing that rebuild. For a Book One request, first check whether
+`book1/rebuild/progress.json` exists and records an incomplete rebuild. If it does,
+continue that rebuild by default, including for an ordinary "add chapter N" request,
+unless the user explicitly selects the live archive. Read the rebuild procedure before
+running preflight or editing data. Book Two requests use the live workflow. For staged runs, capture the absolute project root before
 changing working directory and use absolute helper and input paths; keep staged data
 paths relative to the staging directory. Do not reuse root-relative paths after changing
 into `book1/rebuild` or its reference directory.

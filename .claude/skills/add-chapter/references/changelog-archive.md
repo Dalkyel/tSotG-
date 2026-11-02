@@ -326,3 +326,5 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   appending is the existing safeguard and it worked here.
 
 - 2026-11-02: Book One Ch2 — several helper/read calls failed after mixing project-root paths with the staged working directory. Added the absolute-project-root/helper/input-path rule to SKILL.md; staged data paths remain relative to the staging directory.
+
+- 2026-11-02: Book One Ch3 was initially routed to the live archive despite the active rebuild. Reverted those edits and processed the staged chapter. SKILL.md and the rebuild reference now require checking progress.json before Book One preflight and defaulting to the incomplete rebuild unless the user explicitly selects live data.

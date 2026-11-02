@@ -2,9 +2,9 @@
 
 This governs a separate, parallel effort — a user-authorized fresh chronological rebuild
 of Book One, tracked in `book1/rebuild/` — not the normal "add the chapter we just read"
-workflow in `SKILL.md`. It only applies when the user is actively continuing that rebuild;
-an ordinary "add chapter N" request (live Book One or Book Two) never touches this file or
-`book1/rebuild/`. Read this only when the rebuild is the task at hand.
+workflow in `SKILL.md`. An incomplete `book1/rebuild/progress.json` makes this the default
+workflow for Book One chapter requests unless the user explicitly selects the live archive.
+Book Two requests continue to use the live workflow.
 
 The user requested a fresh chronological rebuild, starting with Chapter 1. During this
 rebuild, write to `book1/rebuild/book1/{nodes,links,summaries}.js`, not the live

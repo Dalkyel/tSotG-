@@ -247,4 +247,158 @@ const nodes = [
         desc: "LIBRO 1, CAPÍTULO 1: Thorkel llama a Vigríð la Llanura de Batalla y tierra de reinos destrozados. Incluye las tierras entre el mar y las montañas visibles al norte, y otras cien leguas más allá. Según su relato, los dioses lucharon y murieron aquí; la caída de Snaka quebró la tierra y permitió la entrada del mar. LIBRO 1, CAPÍTULO 2: Varg conoce la fama de los Bloodsworn en estas tierras. Ha oído que Helka pretende controlar media Vigríð; esto se presenta como rumor conocido por él, sin confirmar el alcance de su dominio. Iskidan se encuentra al otro lado del mar, muy al sur.",
         star: ""
     },
+
+// ── LIBRO 1, CAPÍTULO 3 — ORKA ──
+    {
+        id: "orka", label: "Orka", group: "ORKA", type: "Personaje — Madre y cazadora",
+        status: "updated",
+        previousState: "Añade la llegada a Fellur, su reacción a la reliquia y el enfrentamiento contenido con Guðvarr.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposa de Thorkel y madre de Breca. Tiene cabello rubio trenzado y ojos gris verdosos, heredados por su hijo. Durante una cacería considera que la ternura de Breca lo deja indefenso ante un mundo cruel; contiene una reprimenda cuando Thorkel le pide esperar. Extrae del árbol la lanza del niño y más tarde reconoce que su lanzamiento fue bueno. Lidera la marcha hacia los gritos procedentes de la granja de Asgrim y adapta su paso al de Breca. La proximidad del peligro la estimula; la sangre del lobo le provoca imágenes de cuerpos despedazados y voces gritando, que aparta con ayuda del contacto de Thorkel. Explica que la caída de Snaka abrió el foso de los vaesen. Ante el cadáver de Asgrim le coloca el hacha en la mano para que recorra el camino del alma armado. Deduce que murió rápidamente por una estocada al corazón, identifica el saqueo de sus dientes como obra de tennur y encuentra indicios de otro herido arrastrado. Las runas protectoras y el uso de armas hacen sospechar una agresión humana, sin confirmar todavía a los responsables. Cuestiona el nombre de Edad de la Paz ante la matanza. LIBRO 1, CAPÍTULO 3: Lleva con Breca los cuerpos de Asgrim e Idrun a Fellur mientras Thorkel rastrea a los asesinos. Prefería seguirlos ella, pero reconoce que su esposo es mejor rastreador. Siente presión en la cabeza y el pecho bajo el nudillo de dios de la puerta; disminuye al alejarse. Desmiente a Guðvarr: la estocada de espada no corresponde a dientes ni garras de vaesen. Al recibir sus amenazas revive imágenes de violencia, tiembla y lucha por contenerse ante Breca. La llegada de Thorkel permite cortar la confrontación. Quiere entregar los muertos a sus parientes para que reciban un túmulo, pero termina marchándose con su familia: considera que esta lucha no les corresponde.",
+        star: "★★ Su reacción a la sangre sugiere una experiencia de violencia anterior que el capítulo no explica. La dureza con Breca convive con gestos de protección y respeto a los muertos."
+    },
+    {
+        id: "thorkel", label: "Thorkel", group: "ORKA", type: "Personaje — Padre y cazador",
+        status: "updated",
+        previousState: "Añade el rastreo hasta un afluente del Skarpain y su regreso a Fellur.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposo de Orka y padre de Breca. Hombre enorme, de cabello negro con canas y barba trenzada; una cicatriz desde la mejilla hasta la mandíbula tuerce su sonrisa. Pide paciencia ante la vacilación del niño durante la caza. Tras el paso de un fell-wolf herido prueba una gota de su sangre y sigue su rastro con la mirada; el texto no explica el gesto. Consuela a Breca por el tiro fallido y pide un descanso para sus piernas cortas. Relata cómo Snaka fue muerto por sus hijos y sus restos formaron las montañas de Vigríð. Toca el hombro de Orka cuando queda atrapada en imágenes de violencia. En la granja de Asgrim detecta una runa protectora y se pregunta si la matanza fue obra de hombres. LIBRO 1, CAPÍTULO 3: No encuentra a Harek en la granja. Sigue el rastro de los asesinos por el bosque tras prometer que regresará sin enfrentarse solo a ellos si los descubre; Orka teme que no cumpla esa promesa por salvar al niño. El rastro acaba en un afluente del Skarpain, con señales de tres barcas en la orilla. No encuentra a los fugitivos. Regresa a Fellur durante el enfrentamiento de Orka con Guðvarr; su propia ira se suaviza cuando ella le habla de enterrar a los muertos.",
+        star: "★ Su atención a Orka y Breca contrapesa la severidad de ella. El gesto de probar la sangre queda registrado sin atribuirle poderes ni linaje."
+    },
+    {
+        id: "breca", label: "Breca", group: "ORKA", type: "Personaje — Hijo de Orka y Thorkel",
+        status: "updated",
+        previousState: "Añade su participación en el traslado y el encuentro con Guðvarr.",
+        desc: "LIBRO 1, CAPÍTULO 1: Tiene diez veranos, cabello negro como su padre y ojos gris verdosos como su madre. Vacila al lanzar una lanza contra un reno; el tiro está bien ejecutado, pero un fell-wolf herido espanta la manada y la lanza se clava en un pino. Se culpa por fallar y recibe ánimo de sus padres. Es amigo de Harek, con quien ha jugado en la playa de Fellur durante las visitas de su familia para comerciar. Pide escuchar otra vez la historia de Snaka. Al llegar a la granja ve por primera vez un ser humano muerto, Asgrim, a quien conocía. Pregunta por los dientes ausentes del cadáver y, al final, por el paradero de Harek. LIBRO 1, CAPÍTULO 3: Conduce el poni que arrastra el carro con los cuerpos hasta Fellur; Orka le encarga la tarea para darle algo en que concentrarse. Pregunta si su padre encontrará a Harek y anuncia su desaparición ante Virk y Guðvarr. La espada de Guðvarr lo impresiona. Observa preocupado la confrontación de su madre y le tira de la manga para avisar de la llegada de Thorkel.",
+        star: "★★ La cacería presenta su sensibilidad; el hallazgo de la matanza convierte la lección sobre la muerte en una experiencia humana inmediata."
+    },
+    {
+        id: "asgrim", label: "Asgrim (†)", group: "ORKA", type: "Personaje — Muerto",
+        status: "updated",
+        previousState: "Añade el traslado del cuerpo y la petición de sepultura.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposo de Idrun y padre de Harek. Su granja está en las colinas sobre Fellur. Orka lo encuentra muerto entre las puertas abiertas de la empalizada, con una estocada al corazón, una lanza rota y un hacha ensangrentada cerca. Es ancho de hombros, de cabello gris y cuerpo fibroso; lleva un anillo de plata en un brazo. Los cuervos han picoteado ojos y labios; Orka atribuye la falta de dientes a los tennur. La sangre y las marcas de arrastre próximas sugieren que hirió a un atacante. Orka pone el hacha en su mano para su viaje por el camino del alma. LIBRO 1, CAPÍTULO 3: Orka y Breca transportan su cuerpo con el de Idrun a Fellur, cubiertos con una manta de lana ensangrentada. Orka pide averiguar si tienen parientes allí y que se les levante un túmulo; el entierro no se muestra.",
+        star: "★ La herida de arma y las huellas son indicios sobre el ataque; no identifican todavía a sus autores."
+    },
+    {
+        id: "idrun", label: "Idrun (†)", group: "ORKA", type: "Personaje — Muerta",
+        status: "updated",
+        previousState: "Añade el traslado del cuerpo y la petición de sepultura.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposa de Asgrim y madre de Harek. Orka y Thorkel encuentran su cuerpo clavado a la puerta de la granja, con los brazos extendidos y el vientre abierto. El calor que aún desprenden sus entrañas indica lo reciente de la muerte. Orka comprende que los gritos que habían oído eran suyos. El capítulo no establece un motivo ni una interpretación ritual. LIBRO 1, CAPÍTULO 3: Su cuerpo viaja junto al de Asgrim en el carro que Orka y Breca llevan a Fellur. Orka solicita que se busque a sus parientes y que ambos reciban un túmulo; no se muestra su entierro.",
+        star: "★ Su muerte lenta contrasta con la estocada rápida que mató a Asgrim."
+    },
+    {
+        id: "harek", label: "Harek", group: "ORKA", type: "Personaje — Paradero desconocido",
+        status: "updated",
+        previousState: "La ausencia pasa a tratarse como rapto; el rastreo no resuelve su suerte.",
+        desc: "LIBRO 1, CAPÍTULO 1: Hijo de Asgrim e Idrun y amigo de Breca, con quien ha jugado en la playa de Fellur. Breca lo recuerda al oír gritos en dirección a su granja. Tras encontrar muertos a sus padres, el capítulo termina con la pregunta de Breca sobre dónde está Harek. Su suerte y las circunstancias de su ausencia no se aclaran. LIBRO 1, CAPÍTULO 3: La búsqueda en la granja no da resultado. Breca y Orka lo consideran llevado por los asesinos. Thorkel sigue el rastro hasta señales de tres barcas en un afluente del Skarpain, sin encontrarlo. Su destino y si sigue vivo continúan sin confirmarse.",
+        star: "★★ La pregunta por Harek cierra el capítulo y abre una búsqueda; aún no se confirma un secuestro ni su muerte."
+    },
+    {
+        id: "fellur", label: "Fellur", group: "LUGAR", type: "Lugar — Aldea pesquera",
+        status: "updated",
+        previousState: "Añade geografía local, reliquia protectora y conflicto político.",
+        desc: "LIBRO 1, CAPÍTULO 1: Aldea pesquera en la orilla oriental de un fiordo profundo, por debajo de las colinas boscosas donde caza la familia de Orka. El fiordo desemboca al sur en el mar. Orka y Thorkel visitan la aldea para intercambiar provisiones; Breca y Harek han jugado en su playa. Un sendero desciende desde la granja de Asgrim hacia la aldea y el fiordo. LIBRO 1, CAPÍTULO 3: Aldea de unas pocas docenas de edificios con techos de caña y paredes de entramado y barro, salón comunal central y empalizada podrida en partes que termina antes de la playa de arena oscura. Sus muelles albergan pocos barcos pesqueros y byrding costeros. Un nudillo de dios muerto incrustado en la puerta ayuda a repeler a los vaesen. La gobierna Jarl Sigrún, ausente desde hace más de dos meses en Darl. Su sobrino Guðvarr anuncia un Althing para debatir la sumisión a Helka. Virk y otros vecinos protestan.",
+        star: ""
+    },
+    {
+        id: "helka", label: "Reina Helka", group: "VARG", type: "Personaje — Reina",
+        status: "updated",
+        previousState: "Añade la propuesta de someter Fellur a Helka y la localización de su corte.",
+        desc: "LIBRO 1, CAPÍTULO 2: Su perfil de nariz afilada y cabello recogido figura en las monedas de bronce que lleva Varg. Él solo conoce rumores sobre su pretensión de controlar media Vigríð y su crueldad con los enemigos. Un drengr cobraba sus tributos en la granja de Kolskegg. El vendedor de comida critica sus impuestos. Svik usa su nombre como ejemplo hipotético: ni siquiera ella podría contratar a Vol. LIBRO 1, CAPÍTULO 3: Según Virk, Sigrún lleva más de dos meses en su corte de Darl. Guðvarr transmite que su tía recomienda jurarle lealtad, presentando la protección de Helka como respuesta a Störr y a los vaesen. La adhesión de Fellur queda pendiente de un Althing; el capítulo no muestra a Helka en persona.",
+        star: ""
+    },
+    {
+        id: "asgrim-death", label: "Tragedia de Familia Asgrim", group: "EVENTO", type: "Evento — Hallazgo de la matanza",
+        status: "updated",
+        previousState: "Añade el rastreo y la presentación de los cadáveres en Fellur.",
+        desc: "LIBRO 1, CAPÍTULO 1: Mientras cazan, Orka, Thorkel y Breca ven un fell-wolf herido y oyen gritos hacia la granja de Asgrim. Al llegar encuentran a Asgrim muerto de una estocada al corazón y a Idrun clavada y destripada en la puerta. Orka coloca el hacha en la mano de Asgrim e identifica el saqueo de sus dientes como obra de tennur. Una zona de sangre y huellas de arrastre sugieren que alguien más fue herido y retirado. La runa protectora y el uso de armas orientan la sospecha hacia hombres, sin identificar culpables. El paradero de Harek queda sin resolver. LIBRO 1, CAPÍTULO 3: Tras buscar sin éxito a Harek, Thorkel sigue las huellas mientras Orka y Breca llevan los muertos a Fellur. Guðvarr atribuye la matanza a vaesen, pero Orka lo contradice por la estocada de espada. Thorkel encuentra señales de tres barcas en un afluente del Skarpain. Guðvarr promete investigar; no se identifican los asesinos ni se recupera al niño.",
+        star: "★★★ El hallazgo rompe la apariencia de paz y abre dos preguntas: quién atacó a la familia y dónde está Harek."
+    },
+    {
+        id: "vaesen-gen", label: "Vaesen", group: "VAESEN", type: "Criaturas — Categoría",
+        status: "updated",
+        previousState: "Añade la protección de Fellur y distingue acusación política de evidencia.",
+        desc: "LIBRO 1, CAPÍTULO 1: Criaturas que, según Orka, escaparon del mundo inferior al abrirse el foso durante la caída de Snaka. Las runas protectoras detienen a todos salvo los más poderosos. Rara vez utilizan armas, pues cuentan con sus propios instrumentos naturales para matar. Estos rasgos hacen dudar de que sean los autores de la matanza de Asgrim e Idrun. LIBRO 1, CAPÍTULO 2: En Liga se comercializan sangre seca de Faunir, un diente de trol, ojos de skraeling y un collar de cabello de Froa-espíritu. Los Bloodsworn son conocidos, entre otros trabajos, por cazar Vaesen. Estas menciones comerciales no son avistamientos de criaturas vivas. LIBRO 1, CAPÍTULO 3: Orka considera que prefieren lugares oscuros y tranquilos donde ocultarse. Un nudillo de dios protege la puerta de Fellur. Guðvarr afirma que se están volviendo más audaces, asesinan y roban, pero Orka rechaza que hayan matado a Asgrim: cazan con dientes y garras, no con espadas de hierro. La acusación de Guðvarr no confirma su autoría.",
+        star: ""
+    },
+    {
+        id: "seidr", label: "Seiðr", group: "MAGIA", type: "Magia — Brujería",
+        status: "updated",
+        previousState: "Añade la referencia atribuida a la visión del pasado, sin confirmar poderes de Orka.",
+        desc: "LIBRO 1, CAPÍTULO 2: Varg busca una bruja Seiðr, o alternativamente un Galdurman, para realizar un akáll. El vendedor de comida se traza una runa en el pecho al oír su pregunta. Vol es una bruja Seiðr esclava de los Bloodsworn. No se muestra ningún rito ni se explica aún la diferencia entre ambas clases de practicantes. LIBRO 1, CAPÍTULO 3: Guðvarr pregunta burlonamente si Orka es una bruja Seiðr capaz de ver el pasado. Orka responde que basta reconocer una herida de espada; no realiza magia ni confirma esa identidad. La asociación con ver el pasado procede de las palabras de Guðvarr.",
+        star: ""
+    },
+    {
+        id: "virk", label: "Virk", group: "ORKA", type: "Personaje — Pescador",
+        desc: "LIBRO 1, CAPÍTULO 3: Pescador de Fellur que ha comerciado muchas veces con Orka y Thorkel. Alto, corpulento y franco. Se recupera de una lesión en el brazo sufrida durante una tormenta y sus dos hijos, aún sin nombre, salen a pescar por él. Sale de la taberna con olor a alcohol. Critica que los antiguos jarls se hagan llamar reyes y rechaza que la sumisión a Helka se disfrace de cuidados. Afirma haber oído antes casos de niños llevados; no identifica responsables.",
+        star: "★ Su comentario sitúa la desaparición de Harek dentro de un posible patrón."
+    },
+    {
+        id: "gudvarr", label: "Guðvarr", group: "ORKA", type: "Personaje — Drengr",
+        desc: "LIBRO 1, CAPÍTULO 3: Joven sobrino y drengr de Jarl Sigrún. Llega por el río en una snekke y transmite su regreso dentro de nueve días y su recomendación de jurar lealtad a Helka. Lleva espada, túnica roja bordada y brazalete de plata; cabello negro aceitado y barba incipiente. Invoca la amenaza de Störr y de los vaesen. Atribuye a estos la muerte de Asgrim e Idrun y se burla de Orka; cuando ella lo desmiente, la amenaza con tres guerreros a su espalda. Tras el regreso de Thorkel promete investigar.",
+        star: "★ Su autoridad y arrogancia amenazan con convertir una petición de ayuda en violencia."
+    },
+    {
+        id: "sigrun", label: "Jarl Sigrún", group: "ORKA", type: "Personaje — Jarl",
+        desc: "LIBRO 1, CAPÍTULO 3: Gobernante de Fellur y tía de Guðvarr. Según Virk lleva más de dos meses ausente, convocada —palabra que corrige por invitada— a la corte de Helka en Darl. Su sobrino anuncia su regreso dentro de nueve días y transmite que recomienda someterse a Helka. Convocará un Althing en la Roca del Juramento de Fellur para debatirlo. No aparece en persona.",
+        star: ""
+    },
+    {
+        id: "storr", label: "Jarl Störr", group: "FACCION", type: "Personaje — Jarl",
+        desc: "LIBRO 1, CAPÍTULO 3: Guðvarr afirma que amenaza desde el oeste y lo usa como argumento para que Fellur se una a Helka. No aparece y no se precisan sus acciones ni dominios.",
+        star: ""
+    },
+    {
+        id: "darl", label: "Darl", group: "LUGAR", type: "Lugar — Corte",
+        desc: "LIBRO 1, CAPÍTULO 3: Sede de la corte de la Reina Helka, donde Jarl Sigrún lleva más de dos meses según Virk. El capítulo no describe la ciudad.",
+        star: ""
+    },
+    {
+        id: "hueso-dios-fellur", label: "Nudillo de Dios (Fellur)", group: "OBJETO", type: "Objeto Mágico — Reliquia",
+        desc: "LIBRO 1, CAPÍTULO 3: Nudillo de un dios muerto incrustado en el travesaño de la puerta de Fellur. Conserva un resto de poder que ayuda a mantener fuera a los vaesen. Orka siente presión en la cabeza y el pecho al pasar bajo él, que disminuye al alejarse. No se describe ninguna reacción de Breca.",
+        star: "★★ La sensibilidad de Orka ante la reliquia queda observada sin explicar su causa."
+    },
+    {
+        id: "oath-stone-fellur", label: "Roca del Juramento de Fellur", group: "LUGAR", type: "Lugar — Islote de asamblea",
+        desc: "LIBRO 1, CAPÍTULO 3: Islote rocoso del fiordo de Fellur, cubierto de musgo, helechos y árboles azotados por el viento. Guðvarr lo señala como lugar del futuro Althing. El texto inglés lo llama Oath Rock; se conserva el id canónico del archivo.",
+        star: ""
+    },
+    {
+        id: "rio-skarpain", label: "Río Skarpain", group: "LUGAR", type: "Lugar — Río",
+        desc: "LIBRO 1, CAPÍTULO 3: Recibe numerosos ríos que descienden de las colinas. Thorkel sigue a los asesinos de Asgrim e Idrun hasta uno de esos afluentes y encuentra señales de tres barcas en la orilla. Deduce que huyeron por agua. No se establece en qué dirección navegaron.",
+        star: "★ La huida fluvial corta el rastreo terrestre."
+    },
+    {
+        id: "althing", label: "Alþing (Althing)", group: "NORSE", type: "Cultura — Asamblea",
+        desc: "LIBRO 1, CAPÍTULO 3: Guðvarr anuncia una asamblea en la Roca del Juramento de Fellur cuando vuelva Sigrún. Todos podrán expresar su parecer sobre jurar lealtad a Helka. La reunión todavía no se celebra.",
+        star: ""
+    },
+    {
+        id: "drengr", label: "Drengr", group: "NORSE", type: "Cultura — Guerrero",
+        desc: "LIBRO 1, CAPÍTULO 3: Título con que se presenta a Guðvarr como uno de los guerreros de Sigrún. Lo acompañan otras tres personas armadas, dos mujeres y un hombre, que se acercan durante su enfrentamiento con Orka. El capítulo no establece reglas de ingreso ni un código formal.",
+        star: ""
+    },
+    {
+        id: "snekkja", label: "Snekkja / Snekke", group: "NORSE", type: "Embarcación",
+        desc: "LIBRO 1, CAPÍTULO 3: Virk cuenta que Guðvarr llegó esa mañana río abajo en una snekke. No se identifica esta nave con las tres barcas cuyo rastro encuentra Thorkel.",
+        star: ""
+    },
+    {
+        id: "byrding", label: "Byrðingr", group: "NORSE", type: "Embarcación — Costera",
+        desc: "LIBRO 1, CAPÍTULO 3: En los muelles de Fellur hay algunos byrding costeros junto a barcos pesqueros. El capítulo no especifica su carga, tamaño ni tripulación.",
+        star: ""
+    },
+    {
+        id: "gods-bones", label: "Huesos de los Dioses", group: "MAGIA", type: "Magia — Reliquias",
+        desc: "LIBRO 1, CAPÍTULO 3: El nudillo de un dios muerto de la puerta de Fellur conserva poder y ayuda a repeler a los vaesen. Este ejemplo muestra el uso protector de restos divinos, sin identificar al dios del que procede.",
+        star: ""
+    },
+    {
+        id: "helka-poder", label: "Expansión de Helka", group: "TRAMA", type: "Trama — Sumisión política",
+        desc: "LIBRO 1, CAPÍTULO 3: Guðvarr propone que Fellur jure lealtad a Helka y presenta su dominio como protección frente a Störr y los vaesen. Virk denuncia que eso significa gobierno, no cuidados. Habrá un Althing al regreso de Sigrún; no se ha mostrado una decisión colectiva de Fellur.",
+        star: "★ La seguridad se convierte en argumento para ceder autonomía."
+    },
+    {
+        id: "ninos-robados", label: "Robos de Ninos", group: "TRAMA", type: "Trama — Desapariciones",
+        desc: "LIBRO 1, CAPÍTULO 3: Breca y Orka afirman que los asesinos se llevaron a Harek. Virk dice haber oído antes que se llevan niños. El capítulo sugiere otros casos, pero no aporta nombres, cifras, fechas, autores ni motivos.",
+        star: "★★ La afirmación de Virk amplía la inquietud más allá de una sola familia."
+    },
 ];
