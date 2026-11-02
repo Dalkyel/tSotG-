@@ -59,12 +59,16 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   Match the full chapter entity list against the staged inventory first. Query the
   reference only for identities still unresolved there; repeating already-confirmed
   names adds irrelevant later labels and spoiler-bearing event titles to the output.
-  To check whether a newly needed event has a canonical ID, search for its distinctive
-  action/object wording (for example `queso`), not its already-confirmed participants
-  (`Varg`, `Vol`, `Glornir`) or a broad topic such as `akall`. Broad reference matches
+  To check whether a newly needed event has a canonical ID, match its distinctive
+  named venue or object as well as its action, trying the confirmed canonical/translated
+  venue label before broadening. A guessed title such as `Combate con Drekr` can miss
+  `Combate en El Drengr Muerto`; matching `El Drengr Muerto` surfaces the latter without
+  a broad description search. If no distinctive label matches, search descriptions for
+  the specific action/object wording (for example `queso`). Avoid already-confirmed
+  participants (`Varg`, `Vol`, `Glornir`) and generic terms such as `akall`, `taberna`
+  or `caballo`, which return unrelated future scenes. Broad reference matches
   exposed later relationship/event labels during Chapter 34 without helping identify
-  the current refusal scene. If no distinctive label matches, use bounded description
-  searches for that action before minting an ID; do not expand to a character's whole
+  the current refusal scene. Do not expand to a character's whole
   future inventory merely to establish that the current event is new.
   A reference matcher can also return a later event because its title contains a place
   or character name. That collateral hit is not a reason to read its full future scene:
@@ -90,8 +94,9 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   Confirm the output includes the `chapter verifier` tests, including the summary identity
   review; a successful exit alone
   did not reveal a mistyped verifier-test filename in the Chapter 9 run.
-- Apply all three mandatory gates in `SKILL.md`: fact ownership, key-event coverage
-  and thread/clue lifecycle.
+- Apply all three mandatory [semantic gates](review-gates.md): fact ownership,
+  key-event coverage and thread/clue lifecycle, using the shared
+  [source/entity workflow](source-and-entity-workflow.md).
   Before each chapter, review the existing open/partial questions and clues across all
   POVs; record developments and evidence-backed closures in the staged archive.
   Keep `ownership-review.md`, `event-review.md` and `thread-review.md` in the chapter run directory.

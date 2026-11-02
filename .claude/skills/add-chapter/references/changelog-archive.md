@@ -1,5 +1,15 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch35 skill review — another initial whole-file read truncated the
+  925-line entrypoint despite its bounded-read warning. Moved the source/entity/append
+  procedure and three semantic gates into mandatory linked references, preserving their
+  text and updating relative links and rebuild routing. The entrypoint retains mode
+  selection, explicit completion gates, formats and verification. Also changed canonical
+  event lookup to try the named venue/object and its established translation before
+  generic description terms: guessed `Combate con Drekr` missed the canonical venue
+  title, while `taberna`/`caballo` exposed unrelated future labels in Ch35. Fully absorbed
+  into the workflow references and rebuild instructions; archived immediately.
+
 - 2026-11-02: Post-Ch34 skill review — completion again required a temporary script
   to check review files and synchronize README/progress. Added the rebuild-only
   `finish-chapter` helper with ordered history/header/source checks, all three review

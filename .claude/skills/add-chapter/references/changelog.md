@@ -2,7 +2,8 @@
 
 Entries here are either recent (not yet proven in over several more chapters) or
 describe a still-open/unresolved issue in the actual data files. Once an entry's fix is
-fully and verbatim absorbed into `SKILL.md` or a bundled script — so rereading the entry
+fully and verbatim absorbed into `SKILL.md`, its workflow references or a bundled script
+— so rereading the entry
 teaches nothing beyond rereading the current skill file — move it to
 [references/changelog-archive.md](changelog-archive.md) rather than deleting it. Never
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
