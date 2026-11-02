@@ -121,14 +121,20 @@
     entries.sort((a, b) => b.name.length - a.name.length);
     const byName = new Map(entries.map(e => [e.name, e.id]));
     const pattern = entries.map(e => escapeRegExp(e.name)).join('|');
-    const regex = pattern ? new RegExp(`(?<![${LETTER}])(?:${pattern})(?![${LETTER}])`, 'g') : null;
+    // No lookbehind here on purpose: (?<!...) didn't ship in Safari until 16.4 (2023), so
+    // building it throws a SyntaxError on older/unpatched iOS and silently breaks every
+    // caller downstream. The leading boundary is a capture group instead — group 1 is the
+    // actual name, and findMentions derives its start offset from the surrounding match.
+    const regex = pattern ? new RegExp(`(?:^|[^${LETTER}])(${pattern})(?![${LETTER}])`, 'g') : null;
     return { regex, idFor: name => byName.get(name) };
   }
   function findMentions(text, matcher) {
     if (!matcher?.regex || !text) return [];
     const matches = [];
     for (const m of String(text).matchAll(matcher.regex)) {
-      matches.push({ start: m.index, end: m.index + m[0].length, text: m[0], id: matcher.idFor(m[0]) });
+      const name = m[1];
+      const start = m.index + (m[0].length - name.length);
+      matches.push({ start, end: start + name.length, text: name, id: matcher.idFor(name) });
     }
     return matches;
   }

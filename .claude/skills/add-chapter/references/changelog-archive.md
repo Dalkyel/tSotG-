@@ -324,3 +324,5 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   rereading the source chapter text against my own draft before running verify, not by
   any tool. No generalizable fix identified; a careful re-read against source text before
   appending is the existing safeguard and it worked here.
+
+- 2026-11-02: Book One Ch2 — several helper/read calls failed after mixing project-root paths with the staged working directory. Added the absolute-project-root/helper/input-path rule to SKILL.md; staged data paths remain relative to the staging directory.

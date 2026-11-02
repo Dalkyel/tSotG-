@@ -62,14 +62,22 @@
     <span id="tt-desc"></span>
   </div>
 
-  <div id="summary-panel" class="hidden">
-    <div class="panel-header">
-      <div class="panel-name">Resúmenes de Capítulos</div>
-      <button class="panel-close" id="summary-close" type="button" aria-label="Cerrar resúmenes">✕</button>
+  <dialog id="summary-panel" class="reference" aria-labelledby="summary-heading">
+    <div class="reference-header">
+      <div>
+        <h1 id="summary-heading">Resúmenes de Capítulos</h1>
+        <p>Recordatorio de la historia hasta ahora</p>
+      </div>
+      <button id="summary-close" type="button" aria-label="Cerrar resúmenes">Cerrar ✕</button>
     </div>
-    <div class="book-tabs" id="book-tabs"></div>
-    <div class="panel-body" id="summary-content"></div>
-  </div>
+    <div class="reference-layout">
+      <aside class="reference-index" aria-label="Índice de capítulos">
+        <div class="book-tabs" id="book-tabs"></div>
+        <div id="chapter-list"></div>
+      </aside>
+      <article id="chapter-pane" aria-label="Resumen del capítulo"></article>
+    </div>
+  </dialog>
 
   <script src="groups.js"></script>
   <!-- Book 1 data -->

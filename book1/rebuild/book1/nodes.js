@@ -126,4 +126,125 @@ const nodes = [
         desc: "LIBRO 1, CAPÍTULO 1: Mientras cazan, Orka, Thorkel y Breca ven un fell-wolf herido y oyen gritos hacia la granja de Asgrim. Al llegar encuentran a Asgrim muerto de una estocada al corazón y a Idrun clavada y destripada en la puerta. Orka coloca el hacha en la mano de Asgrim e identifica el saqueo de sus dientes como obra de tennur. Una zona de sangre y huellas de arrastre sugieren que alguien más fue herido y retirado. La runa protectora y el uso de armas orientan la sospecha hacia hombres, sin identificar culpables. El paradero de Harek queda sin resolver.",
         star: "★★★ El hallazgo rompe la apariencia de paz y abre dos preguntas: quién atacó a la familia y dónde está Harek."
     },
+    {
+        id: "fridarold", label: "Friðaröld (Edad de la Paz)", group: "COSMO", type: "Época — Era actual",
+        desc: "LIBRO 1, CAPÍTULO 1: La historia comienza en el año 297 del Friðaröld, llamado Edad de la Paz porque la guerra antigua ha terminado y los dioses están muertos. Ante la matanza de Asgrim e Idrun, Orka cuestiona ese nombre y describe el presente como una edad de tormenta y asesinato.",
+        star: "★ El nombre oficial de la época contrasta con la violencia que presencia la familia."
+    },
+
+// ── LIBRO 1, CAPÍTULO 2 — VARG ──
+    {
+        id: "cat-varg", label: "ARCO VARG", group: "CAT", type: "Categoría",
+        desc: "LIBRO 1, CAPÍTULO 2: La huida de Varg y su búsqueda de ayuda entre los Bloodsworn.",
+        star: ""
+    },
+    {
+        id: "varg", label: "Varg", group: "VARG", type: "Personaje — Esclavo fugitivo",
+        desc: "LIBRO 1, CAPÍTULO 2: Llega a Liga tras nueve o diez días de huida, convencido de que lo persiguen aunque no ve a nadie. Desconoce su edad y a sus padres; recuerda treinta inviernos y veranos de esclavitud en la granja de Kolskegg, veinte leguas al noreste de Liga, río arriba. Corre con una resistencia que él mismo considera casi inagotable. Recuerda haber estrangulado a Snepil, pero no cómo llegó a rodearle el cuello con las manos: el recuerdo emerge de una niebla roja. Se vuelve a poner y cierra con llave el collar de hierro para entrar en Liga fingiendo que busca alojamiento para su amo, al que llama Snepil. Lleva monedas con la efigie de Helka; compra comida tras al menos tres días sin comer, paga información y silencio al vendedor y obtiene su cuchilla. Busca un Galdurman o una bruja Seiðr para realizar un akáll, cuya finalidad concreta aún no explica. Se toca repetidamente una bolsa del cinturón, de contenido no revelado. Svik le niega contratar a Vol, que solo sirve a los Bloodsworn. Al ver la prueba de reclutamiento, Varg termina ofreciéndose a luchar contra Einar Medio-Trol.",
+        star: "★★ La laguna de memoria al matar a Snepil, la resistencia al correr y la bolsa que protege quedan sin explicación. El capítulo termina antes de su combate con Einar."
+    },
+    {
+        id: "liga", label: "Liga", group: "LUGAR", type: "Lugar — Puerto y mercado",
+        desc: "LIBRO 1, CAPÍTULO 2: Puerto amurallado en la ribera sudoriental de un fiordo, sobre una playa de arena negra junto a la desembocadura de un río. Las calles de madera, barro y puestos comerciales suben hasta el salón de Jarl Logur, al pie de los riscos. Acoge barcos mercantes y un drakkar destacado entre ellos; los Bloodsworn atracaron el día anterior. Varg presencia la llegada de comerciantes y guerreros de Iskidan. Su mercado vende comida, pieles, marfil y partes de Vaesen.",
+        star: ""
+    },
+    {
+        id: "snepil", label: "Snepil (†) / Kolskegg", group: "VARG", type: "Personajes — Nombres de la esclavitud de Varg",
+        desc: "LIBRO 1, CAPÍTULO 2: La fuente llama Kolskegg al dueño de la granja donde Varg pasó treinta inviernos, situada veinte leguas al noreste de Liga. Varg recuerda haber estrangulado a un hombre llamado Snepil, sin recordar cómo empezó, y usa su nombre al inventar que busca alojamiento para su amo. El archivo original agrupa ambos nombres bajo este id; este capítulo no aclara explícitamente si Snepil y Kolskegg son la misma persona. No se atribuye aquí la muerte a Kolskegg como hecho confirmado.",
+        star: "★ La identidad entre los dos nombres queda pendiente de aclaración textual."
+    },
+    {
+        id: "slyda", label: "Slyda", group: "VARG", type: "Personaje — Guardia de Liga",
+        desc: "LIBRO 1, CAPÍTULO 2: Guardia de cabello oscuro trenzado, cota de malla, seax y lanza. Interroga a Varg en la puerta y le exige bajar la capucha; un guardia anciano le pide dejarlo pasar. Varg afirma servir a Snepil y Slyda finalmente le permite entrar.",
+        star: ""
+    },
+    {
+        id: "helka", label: "Reina Helka", group: "VARG", type: "Personaje — Reina",
+        desc: "LIBRO 1, CAPÍTULO 2: Su perfil de nariz afilada y cabello recogido figura en las monedas de bronce que lleva Varg. Él solo conoce rumores sobre su pretensión de controlar media Vigríð y su crueldad con los enemigos. Un drengr cobraba sus tributos en la granja de Kolskegg. El vendedor de comida critica sus impuestos. Svik usa su nombre como ejemplo hipotético: ni siquiera ella podría contratar a Vol.",
+        star: ""
+    },
+    {
+        id: "bloodsworn", label: "Bloodsworn (Hermanos de Sangre)", group: "VARG", type: "Facción — Compañía mercenaria",
+        desc: "LIBRO 1, CAPÍTULO 2: Compañía famosa en Vigríð y, según Varg, probablemente más allá. Se alquila al mejor postor para cazar Vaesen, buscar reliquias divinas, intervenir en disputas fronterizas o proteger a los poderosos. Llegó a Liga el día anterior y es huésped de Jarl Logur. Sus escudos negros llevan salpicaduras rojas. Cuenta con la bruja Seiðr esclava Vol. Tras la muerte de uno de sus miembros, celebra una prueba de armas para cubrir un puesto en su drakkar; Einar combate con los aspirantes y Svik controla el acceso.",
+        star: ""
+    },
+    {
+        id: "jarl-logur", label: "Jarl Logur", group: "VARG", type: "Personaje — Jarl de Liga",
+        desc: "LIBRO 1, CAPÍTULO 2: Anfitrión de los Bloodsworn en Liga. Su salón domina la población y la prueba de armas se celebra en el espacio ante él. Varg reconoce su emblema: una vela roja sobre fondo azul pálido. No se describe una intervención personal del jarl.",
+        star: ""
+    },
+    {
+        id: "svik", label: "Svik Hrulfsson", group: "VARG", type: "Personaje — Bloodsworn",
+        desc: "LIBRO 1, CAPÍTULO 2: Guerrero esbelto de cabello rojo cuidadosamente trenzado y barba recortada y aceitada. Lleva una buena cota de malla y un seax decorado. Se presenta como Svik Hrulfsson, apodado Tangle-Hair por no llevar nunca el pelo enredado. Pide el nombre de Varg a la entrada de la prueba, bromea sobre sus motivos para buscar magia y reconoce la seriedad de un akáll. Rechaza dejarle contratar a Vol: sus talentos se reservan a la compañía. Explica que Einar combate sin escudo para dar alguna oportunidad a los aspirantes.",
+        star: ""
+    },
+    {
+        id: "einar", label: "Einar Medio-Trol", group: "VARG", type: "Personaje — Bloodsworn",
+        desc: "LIBRO 1, CAPÍTULO 2: Svik lo llama Einar Half-Troll, aquí Medio-Trol. Es enorme, de barba roja trenzada hasta la cintura y musculatura comparable a raíces de roble. Combate sin camisa ni escudo contra los aspirantes. Varg lo ve resistir golpes, romper un escudo de un puñetazo y alzar y arrojar al suelo a su rival, que queda inconsciente. Apenas muestra unas marcas tras al menos veinte combates. Su apodo no demuestra ascendencia de trol.",
+        star: "★ Varg acepta enfrentarse a él al cerrar el capítulo; todavía no han luchado."
+    },
+    {
+        id: "vol", label: "Vol", group: "VARG", type: "Personaje — Bruja Seiðr esclava",
+        desc: "LIBRO 1, CAPÍTULO 2: Mujer de cabello negro con tatuajes azules por la mandíbula y el cuello, donde lleva un collar de hierro. Varg la ve conversando con un guerrero calvo, corpulento y de barba entrecana que se apoya en un hacha larga; ese guerrero no recibe nombre en este capítulo. Svik identifica a Vol y afirma que sus talentos pertenecen exclusivamente a los Bloodsworn. Varg quiere contratarla para un akáll, pero no llega a hablar con ella.",
+        star: ""
+    },
+    {
+        id: "seidr", label: "Seiðr", group: "MAGIA", type: "Magia — Brujería",
+        desc: "LIBRO 1, CAPÍTULO 2: Varg busca una bruja Seiðr, o alternativamente un Galdurman, para realizar un akáll. El vendedor de comida se traza una runa en el pecho al oír su pregunta. Vol es una bruja Seiðr esclava de los Bloodsworn. No se muestra ningún rito ni se explica aún la diferencia entre ambas clases de practicantes.",
+        star: ""
+    },
+    {
+        id: "akall-concepto", label: "Akáll (Invocación)", group: "MAGIA", type: "Magia — Invocación",
+        desc: "LIBRO 1, CAPÍTULO 2: Svik traduce akáll como invocación y advierte que se trata de un asunto serio. Varg insiste en necesitarlo y toca la bolsa de su cinturón. No revela todavía su objetivo concreto ni se practica el rito; no se atribuyen aquí mecanismos o resultados futuros.",
+        star: ""
+    },
+    {
+        id: "iskidan", label: "Iskidan", group: "LUGAR", type: "Lugar — Tierra al sur del mar",
+        desc: "LIBRO 1, CAPÍTULO 2: Tierra muy lejana al sur, al otro lado del mar. Varg ha oído relatos sobre sus grandes ríos, llanuras herbosas, sol intenso y la ciudad de Gravka. En Liga ve desembarcar personas que una trabajadora portuaria identifica como procedentes de Iskidan: llevan caftanes, gorros de fieltro y piel y ropas de colores; sus escoltas portan armadura laminar y espadas curvas. Varg cree oír caballos dentro de un knarr; otros dos barcos semejantes se aproximan.",
+        star: ""
+    },
+    {
+        id: "gravka", label: "Gravka", group: "LUGAR", type: "Lugar — Gran Ciudad",
+        desc: "LIBRO 1, CAPÍTULO 2: La Gran Ciudad de Iskidan, conocida por Varg a través de relatos; no la ha visitado.",
+        star: ""
+    },
+    {
+        id: "faunir", label: "Faunir", group: "VAESEN", type: "Vaesen — Mención comercial",
+        desc: "LIBRO 1, CAPÍTULO 2: En el mercado de Liga se vende sangre seca de Faunir. La criatura no aparece viva ni recibe descripción física.",
+        star: ""
+    },
+    {
+        id: "trol", label: "Trol", group: "VAESEN", type: "Vaesen — Mención comercial",
+        desc: "LIBRO 1, CAPÍTULO 2: Un vendedor de Liga ofrece un diente de trol del tamaño de un puño. No se ve ningún trol vivo. Medio-Trol es el apodo de Einar, sin confirmación de parentesco con estas criaturas.",
+        star: ""
+    },
+    {
+        id: "skraeling", label: "Skraeling", group: "VAESEN", type: "Vaesen — Mención comercial",
+        desc: "LIBRO 1, CAPÍTULO 2: Varg observa un cuenco lleno de ojos de skraeling a la venta en Liga; no aparecen criaturas vivas ni se describen sus capacidades.",
+        star: ""
+    },
+    {
+        id: "froa-especie", label: "Froa-espíritu", group: "VAESEN", type: "Vaesen — Categoría",
+        desc: "LIBRO 1, CAPÍTULO 2: Un vendedor de Liga ofrece un collar confeccionado con el cabello semejante a agujas de un Froa-espíritu. La mención no identifica un individuo ni demuestra que corresponda a ninguna Froa concreta del archivo original.",
+        star: ""
+    },
+    {
+        id: "prueba-armas-liga", label: "Prueba de Armas de Liga", group: "EVENTO", type: "Evento — Reclutamiento Bloodsworn",
+        desc: "LIBRO 1, CAPÍTULO 2: La compañía busca reemplazar a un miembro muerto mediante combates ante el salón de Jarl Logur. Una aspirante anónima explica a Varg el puesto vacante y le obliga a esperar turno. Cincuenta o sesenta guerreros rodean el espacio; salen aspirantes heridos o inconscientes. Einar combate sin escudo y vence al rival que Varg observa. Tras el rechazo de Svik a contratar a Vol, Varg anuncia que luchará contra Einar. El resultado queda pendiente.",
+        star: ""
+    },
+    {
+        id: "vaesen-gen", label: "Vaesen", group: "VAESEN", type: "Criaturas — Categoría",
+        status: "updated",
+        previousState: "Añade el comercio de partes de Vaesen y su caza por mercenarios.",
+        desc: "LIBRO 1, CAPÍTULO 1: Criaturas que, según Orka, escaparon del mundo inferior al abrirse el foso durante la caída de Snaka. Las runas protectoras detienen a todos salvo los más poderosos. Rara vez utilizan armas, pues cuentan con sus propios instrumentos naturales para matar. Estos rasgos hacen dudar de que sean los autores de la matanza de Asgrim e Idrun. LIBRO 1, CAPÍTULO 2: En Liga se comercializan sangre seca de Faunir, un diente de trol, ojos de skraeling y un collar de cabello de Froa-espíritu. Los Bloodsworn son conocidos, entre otros trabajos, por cazar Vaesen. Estas menciones comerciales no son avistamientos de criaturas vivas.",
+        star: ""
+    },
+    {
+        id: "vigrið", label: "Vigríð", group: "LUGAR", type: "Lugar — Llanura de Batalla",
+        status: "updated",
+        previousState: "Añade contexto político y mercenario desde la perspectiva de Varg.",
+        desc: "LIBRO 1, CAPÍTULO 1: Thorkel llama a Vigríð la Llanura de Batalla y tierra de reinos destrozados. Incluye las tierras entre el mar y las montañas visibles al norte, y otras cien leguas más allá. Según su relato, los dioses lucharon y murieron aquí; la caída de Snaka quebró la tierra y permitió la entrada del mar. LIBRO 1, CAPÍTULO 2: Varg conoce la fama de los Bloodsworn en estas tierras. Ha oído que Helka pretende controlar media Vigríð; esto se presenta como rumor conocido por él, sin confirmar el alcance de su dominio. Iskidan se encuentra al otro lado del mar, muy al sur.",
+        star: ""
+    },
 ];
