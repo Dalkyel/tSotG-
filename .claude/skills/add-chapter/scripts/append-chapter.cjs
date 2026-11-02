@@ -9,8 +9,15 @@ const { execFileSync } = require('node:child_process');
 const [bookArg, chapterArg, baselineArg, specArg, ...options] = process.argv.slice(2);
 const book = Number(bookArg), chapter = Number(chapterArg);
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(chapter) && chapter > 0 && baselineArg && specArg,
-  'Usage: node append-chapter.cjs BOOK CHAPTER BASELINE_DIR SPEC_FILE [--staged-preview]');
-assert.ok(options.length <= 1 && options.every(option => option === '--staged-preview'), 'Unknown option');
+  'Usage: node append-chapter.cjs BOOK CHAPTER BASELINE_DIR SPEC_FILE [--staged-preview] [--replace-applied PREVIOUS_SPEC_FILE]');
+let previousSpec;
+const verificationOptions = [];
+for (let i = 0; i < options.length; i++) {
+  if (options[i] === '--staged-preview' && !verificationOptions.length) verificationOptions.push(options[i]);
+  else if (options[i] === '--replace-applied' && !previousSpec && options[i + 1] && !options[i + 1].startsWith('--')) {
+    previousSpec = path.resolve(options[++i]);
+  } else assert.fail('Unknown, duplicate or incomplete option');
+}
 const baseline = path.resolve(baselineArg), spec = JSON.parse(fs.readFileSync(specArg, 'utf8'));
 assert.ok(spec.header === undefined || /^\/\/[^\r\n]*$/.test(spec.header), 'header must be a single-line // comment');
 assert.ok(Array.isArray(spec.nodes) && Array.isArray(spec.links), 'nodes and links must be arrays (possibly empty)');
@@ -33,9 +40,21 @@ try {
     for (const kind of kinds) {
       const file = `book${n}/${kind}.js`, original = fs.readFileSync(path.join(root, file));
       originals.set(file, original);
-      fs.writeFileSync(path.join(scratch, file), original);
-      if (n === book) assert.deepEqual(original, fs.readFileSync(path.join(baseline, `${kind}.js`)),
+      const initial = n === book ? fs.readFileSync(path.join(baseline, `${kind}.js`)) : original;
+      if (n === book && !previousSpec) assert.deepEqual(original, initial,
         `${kind}: archive no longer matches the pre-edit baseline; inspect existing work before retrying`);
+      fs.writeFileSync(path.join(scratch, file), initial);
+    }
+  }
+  if (previousSpec) {
+    // Reproduce the applied manifest from the original baseline before replacing it.
+    // Any hand edit, different manifest or later chapter must fail without publishing.
+    run('append-chapter', [book, chapter, baseline, previousSpec, ...verificationOptions]);
+    for (const kind of kinds) {
+      const file = `book${book}/${kind}.js`;
+      assert.deepEqual(fs.readFileSync(path.join(scratch, file)), originals.get(file),
+        `${kind}: current archive does not exactly match the previous manifest; no chapter files published`);
+      fs.copyFileSync(path.join(baseline, `${kind}.js`), path.join(scratch, file));
     }
   }
   for (let i = 0; i < spec.nodes.length; i++) {
@@ -50,11 +69,11 @@ try {
     fs.writeFileSync(file, JSON.stringify({ header: spec.header, entries }));
     run('append-entries', [book, kind, file]);
   }
-  const before = parse(originals.get(`book${book}/nodes.js`).toString(), 'nodes', book);
+  const before = parse(fs.readFileSync(path.join(baseline, 'nodes.js'), 'utf8'), 'nodes', book);
   const after = parse(fs.readFileSync(path.join(scratch, `book${book}/nodes.js`), 'utf8'), 'nodes', book);
   for (const id of ids) assert.equal(after.filter(node => node.id === id).length,
     before.filter(node => node.id === id).length + 1, `${id}: expected exactly one appended revision`);
-  const verification = run('verify-chapter', [book, chapter, baseline, ...options]);
+  const verification = run('verify-chapter', [book, chapter, baseline, ...verificationOptions]);
   // Detect edits since the scratch copy, including earlier-book changes.
   for (const [file, original] of originals) assert.deepEqual(fs.readFileSync(path.join(root, file)), original,
     `${file}: changed during preparation; no chapter files published`);
@@ -75,7 +94,7 @@ try {
     throw error;
   }
   console.log(verification.trim());
-  console.log(`APPLIED: ${ids.length} node revisions (each count +1), ${spec.links.length} links, 1 summary. Semantic review gates remain required.`);
+  console.log(`${previousSpec ? 'REVISED' : 'APPLIED'}: ${ids.length} node revisions (each count +1), ${spec.links.length} links, 1 summary. Semantic review gates remain required.`);
 } catch (error) {
   console.error(error.stderr?.toString().trim() || error.message);
   process.exitCode = 1;

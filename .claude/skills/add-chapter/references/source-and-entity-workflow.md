@@ -272,7 +272,7 @@ source reading, identity resolution and accumulation requirements still apply.
 
      `nodes` and `links` may be empty arrays; `summary` is exactly one entry for the
      requested chapter. Put the optional section `header` only at the manifest level.
-     The helper requires the current book's files to match the pre-edit baseline exactly,
+     By default, the helper requires the current book's files to match the pre-edit baseline exactly,
      prepares all additions in a scratch archive through the existing appenders, checks
      every supplied id has exactly one extra revision, and runs the normal chapter
      verifier before publishing. Invalid specs, endpoints, summary mentions or event
@@ -290,14 +290,34 @@ source reading, identity resolution and accumulation requirements still apply.
      [the rebuild procedure](book1-rebuild.md) after those reviews and tests.
      Keep the individual appenders for targeted work; if using a manual loop, confirm
      counts by parsing arrays (baseline + 1 per id), never formatting-sensitive grep.
-   - When correcting entries appended in the current run, do not guess their source
-     formatting: `append-entries.cjs` writes compact JSON links, while
-     `append-node.cjs` writes spaced JS literals. A string replacement using the wrong
-     style can succeed as a command while changing nothing. Before writing, require
-     each exact replacement anchor to occur once in the current chapter section; fail
-     on zero or multiple matches. After writing, parse the array and assert the intended
-     endpoint/label/field values, then rerun the relevant verifier review. Keep these
-     corrections within the appended section so baseline history stays intact.
+   - **Correct an applied batch through its manifest, before chapter completion.** Keep
+     the successfully applied manifest unchanged (for example `chapter.applied.json`),
+     copy it to `chapter.json`, and edit that new copy. Rebuild the chapter suffix from
+     the original baseline instead of editing generated JavaScript or appending duplicate
+     revisions:
+
+     ```sh
+     node .claude/skills/add-chapter/scripts/append-chapter.cjs 2 42 "$chapter_baseline" "$chapter_run/chapter.json" --replace-applied "$chapter_run/chapter.applied.json"
+     # Book One rebuild:
+     node .claude/skills/add-chapter/scripts/rebuild.cjs append-chapter 42 "$chapter_baseline" "$chapter_run/chapter.json" --replace-applied "$chapter_run/chapter.applied.json"
+     ```
+
+     The helper reproduces the previous manifest in scratch and requires all three
+     current files to match it byte-for-byte. Only then does it regenerate and verify
+     the corrected chapter from the same baseline. A wrong previous spec, hand edit,
+     changed baseline, later chapter or invalid replacement fails without publishing.
+     Publication checks for intervening edits and rolls back to the applied draft on
+     a caught write failure. After success, keep the newly applied manifest as the
+     previous spec for any further correction. Revisit all affected semantic reviews,
+     checklist assessments and verifier reports before recording PASS; old attestations
+     do not cover a changed draft. The rebuild launcher rejects revisions of completed
+     chapters; historical repairs remain a separate workflow.
+
+     For non-batch corrections only, inspect the actual chapter section first:
+     `append-entries.cjs` writes compact JSON links and `append-node.cjs` writes spaced
+     JS literals. Restrict exact replacement anchors to that section, not the whole
+     archive (relationship labels recur across chapters); require exactly one match.
+     Parse afterward to assert the intended field values and rerun the verifier review.
    - Retyping a `star` (or `desc`) field from a tool-output transcript is risky even when
      the transcript shows no truncation marker: an output-condensation layer between the
      tool and this context can silently drop a trailing clause it judges low-signal,

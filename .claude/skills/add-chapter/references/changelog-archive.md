@@ -1,5 +1,17 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch42 skill review — corrections to generated nodes/links hit quote-style
+  and globally repeated label anchors even though the workflow already warned about
+  them. Added `append-chapter --replace-applied PREVIOUS_SPEC`: reproduce the exact
+  applied manifest before replacing the chapter suffix from the original baseline,
+  validate in scratch, detect intervening edits and roll back to the prior draft on
+  caught publication failure. Wrong specs, hand edits, changed baselines and later
+  chapters fail without publishing; the rebuild launcher resolves caller-relative
+  previous-spec paths and rejects completed chapters. Regression tests cover these
+  cases, repeat revisions, Book Two accumulation and rollback. Instructions now prefer
+  manifest revision and require renewed semantic reviews; fallback anchors are scoped
+  to the current section. Fully absorbed into scripts and workflow references.
+
 - 2026-11-02: Post-Ch41 skill review — corrected the remaining abbreviated rebuild
   launcher path in the main skill to `.claude/skills/add-chapter/scripts/rebuild.cjs`.
   Added a reference-only combined-character lookup rule: a clear label plus current

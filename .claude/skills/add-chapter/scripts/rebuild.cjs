@@ -23,6 +23,10 @@ const fileArgs = helper === 'review-backlog' ? [1, 3]
   : ['append-chapter', 'finish-chapter'].includes(helper) ? [1, 2]
   : ['append-node', 'append-entries', 'verify-chapter'].includes(helper) ? [1] : [];
 for (const index of fileArgs) if (args[index]) args[index] = path.resolve(args[index]);
+if (helper === 'append-chapter') {
+  const index = args.indexOf('--replace-applied');
+  if (index !== -1 && args[index + 1]) args[index + 1] = path.resolve(args[index + 1]);
+}
 const cwd = path.join(root, 'book1/rebuild', reference ? 'reference' : '');
 if (helper === 'check-chapter' && !reference) {
   try {
@@ -39,7 +43,10 @@ if (helper === 'check-chapter' && !reference) {
 if (['verify-chapter', 'append-chapter'].includes(helper)) {
   // A staged PASS must also establish that the live archive was left intact.
   try {
-    const { liveHashes } = JSON.parse(fs.readFileSync(path.join(cwd, 'progress.json'), 'utf8'));
+    const { liveHashes, completedChapters } = JSON.parse(fs.readFileSync(path.join(cwd, 'progress.json'), 'utf8'));
+    if (helper === 'append-chapter' && args.includes('--replace-applied') && completedChapters?.includes(Number(args[0]))) {
+      throw new Error('Chapter already completed; manifest revision is only for an unfinished chapter run');
+    }
     for (const book of [1, 2]) {
       for (const kind of ['nodes', 'links', 'summaries']) {
         const file = `book${book}/${kind}.js`;

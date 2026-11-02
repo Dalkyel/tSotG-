@@ -52,7 +52,10 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   book cap — the launcher already supplies book `1` implicitly, so passing a book
   argument before the page number (as the live-workflow `read-links.cjs` signature
   requires) raises `Unknown ids: 1`. Batch arguments are `append-chapter CHAPTER BASELINE SPEC`; all three data
-  files must still match that pre-edit baseline. Checklist, spec and baseline paths are resolved against
+  files must still match that pre-edit baseline on the initial append. For corrections
+  before completion, use `append-chapter CHAPTER BASELINE NEW_SPEC --replace-applied PREVIOUS_SPEC`
+  as described in the shared workflow; retain the exact applied manifest rather than
+  editing generated JavaScript. Checklist, spec (including previous spec) and baseline paths are resolved against
   the caller's directory before launching. If calling from elsewhere, use the absolute
   launcher path; do not change directory for individual helpers. Read/update progress
   and README using absolute paths derived from the captured project root.
