@@ -1,69 +1,22 @@
 const linkColors = {
-  cat: '#6a5a30',
-  arc: '#4a4a3a',
-  rel: '#5a4a70',
-  magic: '#2a7a7a',
-  conflict: '#7a2a2a',
-  goal: '#7a6a20',
-  event: '#6a4a20',
-  lore: '#3a5a3a',
-  history: '#5a3a5a',
-  geo: '#2a4a2a',
-  trama: '#7a5a20',
+  cat: '#9d875c',
+  arc: '#9f9476',
+  rel: '#ad8acb',
+  magic: '#62bdb6',
+  conflict: '#dc736a',
+  goal: '#d1b75d',
+  event: '#bd9867',
+  lore: '#80b889',
+  history: '#b18bb3',
+  geo: '#7ca68b',
+  trama: '#dbb16c',
 };
 
 // ═══════════════════════════════════════════════════════
 // DATA MERGE: Combine Book 1 + Book 2 data
 // ═══════════════════════════════════════════════════════
 
-// Each club member's own device remembers how far they've read, so the
-// graph never shows them content past their own progress.
-const MAX_BOOK = 1 + (typeof nodesBook2 !== 'undefined' ? 1 : 0) + (typeof nodesBook3 !== 'undefined' ? 1 : 0);
-const BOOK_CAP = Math.min(parseInt(localStorage.getItem('bloodsworn-book-cap'), 10) || MAX_BOOK, MAX_BOOK);
-
-const capSelect = document.getElementById('book-cap');
-for (let i = 1; i <= MAX_BOOK; i++) capSelect.add(new Option(`Hasta Libro ${i}`, i, false, i === BOOK_CAP));
-capSelect.addEventListener('change', () => {
-  localStorage.setItem('bloodsworn-book-cap', capSelect.value);
-  location.reload();
-});
-document.querySelector('.header-sub').textContent = `Mapa Mental Interactivo · Siguiendo hasta Libro ${BOOK_CAP}`;
-
-const nodeIndex = {};
-nodes.forEach(n => { n.book = n.book || 1; nodeIndex[n.id] = n; });
-if (BOOK_CAP >= 2 && typeof nodesBook2 !== 'undefined') {
-  nodesBook2.forEach(n => {
-    n.book = 2;
-    if (n.status === 'updated' && nodeIndex[n.id]) {
-      Object.assign(nodeIndex[n.id], n);
-    } else {
-      nodes.push(n);
-      nodeIndex[n.id] = n;
-    }
-  });
-}
-
-if (BOOK_CAP >= 2 && typeof linksBook2 !== 'undefined') {
-  const brokenKeys = new Set();
-  linksBook2.forEach(l => {
-    if (l.status === 'broken') {
-      brokenKeys.add(`${l.source}|${l.target}|${l.label}`);
-    } else {
-      l.book = 2;
-      links.push(l);
-    }
-  });
-  if (brokenKeys.size > 0) {
-    for (let i = links.length - 1; i >= 0; i--) {
-      const key = `${links[i].source}|${links[i].target}|${links[i].label}`;
-      if (brokenKeys.has(key)) links.splice(i, 1);
-    }
-  }
-}
-
-if (BOOK_CAP >= 2 && typeof chapterSummariesBook2 !== 'undefined' && chapterSummariesBook2.length > 0) {
-  chapterSummariesBook2.forEach(s => { s.book = 2; chapterSummaries.push(s); });
-}
+// reading-init.js has already projected every surface to the shared book/chapter limit.
 
 // ═══════════════════════════════════════════════════════
 // D3 SETUP
@@ -78,7 +31,7 @@ const g = svg.append('g');
 // Zoom
 const zoom = d3.zoom()
   .scaleExtent([0.15, 3])
-  .on('zoom', e => g.attr('transform', e.transform));
+  .on('zoom', e => { g.attr('transform', e.transform); window.refreshMapReadability?.(); });
 svg.call(zoom);
 
 // Arrow markers
@@ -235,7 +188,7 @@ const linkSel = g.append('g').attr('class', 'links')
   .data(links)
   .join('line')
   .attr('class', 'link')
-  .attr('stroke', d => linkColors[d.type] || '#4a4a3a')
+  .attr('stroke', d => linkColors[d.type] || '#9f9476')
   .attr('stroke-dasharray', d => d.book > 1 ? '4,2' : null)
   .attr('marker-end', d => `url(#arrow-${d.type})`);
 
@@ -263,63 +216,31 @@ nodeSel.append('circle')
   .attr('stroke', d => d.stroke)
   .attr('stroke-width', 1.5);
 
-// Multi-line labels with dynamic sizing
-nodeSel.each(function (d) {
-  const el = d3.select(this);
-  const r = d.r;
-  const fontSize = r * 0.35;
-  const lineH = fontSize * 1.1;
-  const maxWidth = r * 1.7;
-
-  const words = d.label.split(' ');
-  let lines = [];
-  let currentLine = [];
-
-  const isTitled = d.group === 'CAT' || d.group === 'CENTER';
-  const fontFamily = isTitled ? "'Cinzel', serif" : "'Crimson Pro', serif";
-
-  const tempText = el.append('text')
-    .attr('font-size', fontSize)
-    .attr('font-family', fontFamily)
-    .style('visibility', 'hidden');
-
-  words.forEach(word => {
-    currentLine.push(word);
-    tempText.text(currentLine.join(' '));
-    if (tempText.node().getComputedTextLength() > maxWidth && currentLine.length > 1) {
-      currentLine.pop();
-      lines.push(currentLine.join(' '));
-      currentLine = [word];
-    }
+// Names sit outside the circles; readability.js sizes and spaces them at screen scale.
+nodeSel.append('text').attr('class', 'map-node-label').attr('text-anchor', 'middle')
+  .attr('y', d => d.r + 20).attr('font-size', 14).attr('pointer-events', 'none')
+  .text(d => d.label.length > 30 ? d.label.slice(0, 28) + '…' : d.label);
+nodeSel.append('title').text(d => `${d.label} — ${d.type}`);
+nodeSel.attr('role', 'button').attr('tabindex', 0).attr('aria-label', d => `${d.label}. Abrir detalle.`)
+  .on('keydown', (event, d) => {
+    if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); selectNode(d); }
   });
-  if (currentLine.length > 0) lines.push(currentLine.join(' '));
-  tempText.remove();
-
-  const totalH = (lines.length - 1) * lineH;
-  lines.forEach((line, i) => {
-    el.append('text')
-      .attr('y', i * lineH - totalH / 2)
-      .attr('font-size', fontSize)
-      .attr('font-family', fontFamily)
-      .attr('fill', d.group === 'CENTER' ? '#e8b96a' : isTitled ? '#e8d8b0' : '#d8c890')
-      .attr('font-weight', isTitled ? '600' : '400')
-      .attr('text-anchor', 'middle')
-      .attr('dominant-baseline', 'central')
-      .attr('pointer-events', 'none')
-      .attr('user-select', 'none')
-      .text(line);
-  });
-});
 
 // ── Tick ───────────────────────────────────────────────
-simulation.on('tick', () => {
+function updateGraphPositions() {
   linkSel
     .attr('x1', d => d.source.x)
     .attr('y1', d => d.source.y)
     .attr('x2', d => d.target.x)
     .attr('y2', d => d.target.y);
   nodeSel.attr('transform', d => `translate(${d.x},${d.y})`);
-});
+  window.refreshMapReadability?.();
+}
+simulation.on('tick', updateGraphPositions);
+if (READING_VIEW.summaryMode) {
+  simulation.stop().tick(120);
+  updateGraphPositions();
+}
 
 // ── Tooltip ────────────────────────────────────────────
 const tooltip = document.getElementById('tooltip');
@@ -350,40 +271,75 @@ const pStar = document.getElementById('p-star');
 let selectedNode = null;
 
 function showPanel(d) {
+  const referenceButton = document.getElementById('p-reference');
+  document.getElementById('p-focus').hidden = ['CENTER', 'CAT'].includes(d.group);
+  referenceButton.hidden = !CharacterReference.kind(d);
+  referenceButton.onclick = () => window.openCharacterReference?.(d.id);
   pType.textContent = d.type;
   pName.textContent = d.label.replace(' ', ' ');
   pDesc.textContent = d.desc;
-  pStar.innerHTML = d.star ? `<div class="star-note">${d.star}</div>` : '';
-
-  // Find connections
-  const conns = links
-    .filter(l => l.source.id === d.id || l.target.id === d.id)
-    .map(l => {
-      const fromSrc = l.source.id === d.id;
-      return { node: fromSrc ? l.target : l.source, label: l.label, dir: fromSrc ? '→' : '←' };
-    });
-
-  pConns.innerHTML = '';
-  conns.forEach(c => {
-    const div = document.createElement('div');
-    div.className = 'conn-item';
-    div.style.borderLeftColor = c.node.stroke;
-    div.innerHTML = `
-      <div class="conn-dot" style="background:${c.node.color};border-color:${c.node.stroke}"></div>
-      <div>
-        <div class="conn-name">${c.node.label.replace(' ', ' ')}</div>
-        ${c.label ? `<div class="conn-rel">${c.dir} ${c.label}</div>` : ''}
-      </div>`;
-    div.addEventListener('click', () => {
-      if (c.node) selectNode(c.node);
-    });
-    pConns.appendChild(div);
-  });
-
+  document.getElementById('p-overview').textContent = CharacterReference.profile(d, clueSourceRevisions, BOOK_CAP, ACTIVE_CHARACTER_GUIDES).intro;
+  document.getElementById('p-full-description').open = false;
+  const bookmark = document.getElementById('p-bookmark'); bookmark.replaceChildren();
+  if (!['CENTER', 'CAT'].includes(d.group)) bookmark.append(BookmarkUI.button('node', d.id));
+  const notes = document.querySelector('.panel-original-notes'); notes.hidden = !d.star; notes.open = false;
+  pStar.replaceChildren();
+  if (d.star) { const note = document.createElement('div'); note.className = 'star-note'; note.textContent = d.star; pStar.append(note); }
+  document.getElementById('p-connection-search').value = '';
+  const typeSelect = document.getElementById('p-connection-type');
+  typeSelect.replaceChildren(new Option('Todos los vínculos', ''));
+  [...new Set(links.filter(l => l.source.id === d.id || l.target.id === d.id).map(l => l.type))]
+    .forEach(type => typeSelect.add(new Option(mapRelationTypes[type] || type, type)));
+  renderPanelConnections();
   panel.classList.remove('hidden');
 }
 
+const mapRelationTypes = { rel: 'Relaciones personales', conflict: 'Conflictos', event: 'Eventos', magic: 'Magia',
+  goal: 'Objetivos', trama: 'Preguntas y tramas', lore: 'Trasfondo', history: 'Historia', geo: 'Geografía', arc: 'Arcos', cat: 'Categorías' };
+function renderPanelConnections() {
+  if (!selectedNode) return;
+  const id = selectedNode.id, query = CharacterReference.normalize(document.getElementById('p-connection-search').value);
+  const type = document.getElementById('p-connection-type').value;
+  const all = links.filter(l => l.source.id === id || l.target.id === id);
+  const matches = all.filter(l => {
+    const other = l.source.id === id ? l.target : l.source;
+    return (!type || l.type === type) && (!query ||
+      CharacterReference.normalize(`${other.label} ${l.label}`).includes(query) ||
+      mapSearchNames.get(other.id)?.some(name => name.includes(query)));
+  });
+  document.getElementById('p-connection-count').textContent = `${matches.length} de ${all.length} vínculos registrados`;
+  pConns.replaceChildren();
+  const make = (tag, text, className) => { const el = document.createElement(tag); if (text !== undefined) el.textContent = text; if (className) el.className = className; return el; };
+  for (const [key, label] of Object.entries(mapRelationTypes)) {
+    const records = matches.filter(l => l.type === key); if (!records.length) continue;
+    const group = make('details', undefined, 'conn-group'); group.open = !!query || !!type || key === 'rel' || all.length <= 10;
+    group.append(make('summary', `${label} (${records.length})`));
+    const others = new Map();
+    records.forEach(l => { const other = l.source.id === id ? l.target : l.source; if (!others.has(other.id)) others.set(other.id, { node: other, records: [] }); others.get(other.id).records.push(l); });
+    [...others.values()].sort((a, b) => a.node.label.localeCompare(b.node.label, 'es')).forEach(item => {
+      const row = make('div', undefined, 'conn-item'); row.style.borderLeftColor = item.node.stroke;
+      const content = make('div'); const target = make('button', item.node.label, 'conn-name conn-target'); target.type = 'button';
+      target.addEventListener('click', () => selectNode(item.node)); content.append(target);
+      const description = l => `${l.source.label} → ${l.label || label} → ${l.target.label}`;
+      const latest = item.records.at(-1);
+      content.append(make('p', description(latest), 'conn-rel'));
+      content.append(make('small', `Libro ${latest.book || 1}${Number.isInteger(latest.chapter) ? ` · Capítulo ${latest.chapter}` : ''}`, 'conn-source'));
+      if (item.records.length > 1) {
+        const history = make('details', undefined, 'conn-records'); history.append(make('summary', `Ver los ${item.records.length} registros`));
+        item.records.forEach(l => history.append(make('p', `${description(l)} · Libro ${l.book || 1}${Number.isInteger(l.chapter) ? `, capítulo ${l.chapter}` : ''}`, 'conn-rel')));
+        content.append(history);
+      }
+      row.append(content); group.append(row);
+    });
+    pConns.append(group);
+  }
+  if (!matches.length) pConns.append(make('p', 'No hay vínculos que coincidan con la búsqueda.'));
+}
+document.getElementById('p-connection-search').addEventListener('input', renderPanelConnections);
+document.getElementById('p-connection-type').addEventListener('change', renderPanelConnections);
+
 function selectNode(d) {
+  window.clearMapRelationship?.();
   selectedNode = d;
   showPanel(d);
 
@@ -401,13 +357,16 @@ function selectNode(d) {
   linkSel
     .classed('highlighted', l => l.source.id === d.id || l.target.id === d.id)
     .classed('faded', l => l.source.id !== d.id && l.target.id !== d.id);
+  window.refreshMapReadability?.();
 }
 
 function clearSelection() {
+  window.clearMapRelationship?.();
   selectedNode = null;
   nodeSel.classed('selected faded', false);
   linkSel.classed('highlighted faded', false);
   panel.classList.add('hidden');
+  window.refreshMapReadability?.();
 }
 
 nodeSel.on('click', (e, d) => {
@@ -427,7 +386,13 @@ document.getElementById('btn-zoom-out').addEventListener('click', () => {
   svg.transition().duration(300).call(zoom.scaleBy, 0.7);
 });
 function resetZoom(animate) {
-  const t = d3.zoomIdentity.translate(width() / 2, height() / 2).scale(0.75).translate(-width() / 2, -height() / 2);
+  let t = d3.zoomIdentity.translate(width() / 2, height() / 2).scale(0.75).translate(-width() / 2, -height() / 2);
+  if (READING_VIEW.summaryMode && nodes.length) {
+    const x0 = d3.min(nodes, n => n.x) - 70, x1 = d3.max(nodes, n => n.x) + 70;
+    const y0 = d3.min(nodes, n => n.y) - 60, y1 = d3.max(nodes, n => n.y) + 60;
+    const scale = Math.max(0.15, Math.min(1.2, width() / (x1 - x0), height() / (y1 - y0)) * 0.9);
+    t = d3.zoomIdentity.translate(width() / 2 - (x0 + x1) / 2 * scale, height() / 2 - (y0 + y1) / 2 * scale).scale(scale);
+  }
   (animate ? svg.transition().duration(500) : svg).call(zoom.transform, t);
 }
 
@@ -435,6 +400,10 @@ document.getElementById('btn-reset').addEventListener('click', () => resetZoom(t
 
 // ── Search functionality ──────────────────────────────
 const searchInput = document.getElementById('search-input');
+const visibleSearchRevisions = clueSourceRevisions.filter(r => r.book <= BOOK_CAP);
+const mapSearchNames = new Map(nodes.map(n => [n.id,
+  CharacterReference.aliases(n, visibleSearchRevisions, ACTIVE_CHARACTER_GUIDES).map(CharacterReference.normalize),
+]));
 if (!searchInput) {
   console.error('Search input not found');
 } else {
@@ -444,15 +413,11 @@ if (!searchInput) {
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => {
       const query = e.target.value.toLowerCase().trim();
-      if (!query) {
-        nodeSel.classed('selected faded', false);
-        linkSel.classed('highlighted faded', false);
-        panel.classList.add('hidden');
-        return;
-      }
+      if (!query) { clearSelection(); return; }
       const matchIds = new Set();
+      const normalizedQuery = CharacterReference.normalize(query);
       nodes.forEach(n => {
-        if (n.id.toLowerCase().includes(query) || n.label.toLowerCase().includes(query)) {
+        if (mapSearchNames.get(n.id).some(name => name.includes(normalizedQuery))) {
           matchIds.add(n.id);
         }
       });
@@ -467,6 +432,7 @@ if (!searchInput) {
         nodeSel.classed('selected', false).classed('faded', true);
         linkSel.classed('highlighted', false).classed('faded', true);
       }
+      window.refreshMapReadability?.();
     }, isMobile ? 300 : 150);
   });
   if (isMobile) {
@@ -481,7 +447,9 @@ setTimeout(() => resetZoom(false), 100);
 // Resize
 window.addEventListener('resize', () => {
   simulation.force('center', d3.forceCenter(width() / 2, height() / 2));
-  simulation.alpha(0.1).restart();
+  if (READING_VIEW.summaryMode) {
+    simulation.alpha(0.1).stop().tick(60); updateGraphPositions(); resetZoom(false);
+  } else simulation.alpha(0.1).restart();
 });
 
 // ── Summary Panel ─────────────────────────────────────
@@ -491,7 +459,7 @@ const btnSummaries = document.getElementById('btn-summaries');
 const summaryClose = document.getElementById('summary-close');
 
 const bookTabsEl = document.getElementById('book-tabs');
-let activeBookTab = BOOK_CAP;
+let activeBookTab = chapterSummaries.at(-1)?.book || BOOK_CAP;
 
 function renderBookTabs() {
   const books = [...new Set(chapterSummaries.map(ch => ch.book || 1))].sort((a, b) => a - b);
@@ -519,6 +487,7 @@ function renderChapterList() {
         <div class="chapter-text collapsed">${ch.summary}</div>
       </div>
     `).join('');
+  if (!summaryContent.children.length) summaryContent.textContent = 'No hay capítulos leídos en este tramo. Ajusta el límite del club para empezar.';
 
   // Add click handlers for toggling
   document.querySelectorAll('.chapter-item').forEach(item => {

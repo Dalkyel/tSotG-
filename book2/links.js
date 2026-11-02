@@ -2636,6 +2636,7 @@ const linksBook2 = [
     "label": "se intensifica durante el episodio",
     "type": "trama"
 },
+// LIBRO 2, CAPÍTULO 37 — VARG
 {
     "source": "varg",
     "target": "sulich",
