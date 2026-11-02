@@ -77,3 +77,38 @@ test('connection viewer initializes with the rebuild preview’s empty character
   vm.runInNewContext(fs.readFileSync(path.join(root, 'focus.js'), 'utf8'), context);
   assert.equal(typeof window.openRelationshipMap, 'function', 'Creature summary links need this registered opener');
 });
+
+test('Mord and Lif summary links open separate profiles and family connections', () => {
+  const revisions = load('nodes', 'nodes');
+  const nodes = [...new Map(revisions.map(node => [node.id, node])).values()];
+  const links = load('links', 'links');
+  const matcher = core.buildMentionMatcher(nodes, revisions, {});
+  const focus = require('../focus-core.js');
+  const graph = focus.index(nodes, links);
+  for (const [name, id] of [['Mord', 'mord'], ['Lif', 'lif']]) {
+    assert.deepEqual(core.findMentions(name, matcher).map(mention => mention.id), [id]);
+    const view = focus.view(graph, focus.initial(id), {});
+    assert.ok(view.ids.has('virk'), `${name}'s profile must connect to his father`);
+  }
+  assert.deepEqual(core.findMentions('Mord y Lif', matcher).map(mention => mention.id), ['mord', 'lif']);
+  assert.ok(!links.some(link => link.source === 'mord-lif' || link.target === 'mord-lif'));
+  const summary = load('summaries', 'chapterSummaries').find(item => item.chapter === 10).summary;
+  assert.ok(summary.includes('<strong>Mord</strong> y <strong>Lif</strong>'));
+});
+
+test('Varg and Elvar expose unresolved threads through the plot filter', () => {
+  const revisions = load('nodes', 'nodes');
+  const nodes = [...new Map(revisions.map(node => [node.id, node])).values()];
+  const links = load('links', 'links');
+  const focus = require('../focus-core.js');
+  const graph = focus.index(nodes, links);
+  for (const id of ['varg', 'elvar']) {
+    const state = { ...focus.initial(id), nodeKind: 'plots' };
+    const view = focus.view(graph, state, {});
+    const threads = view.nodes.filter(node => node.group === 'TRAMA');
+    assert.ok(threads.length > 0, `${id} must have discoverable unresolved threads`);
+    assert.ok(threads.every(thread => links.some(link =>
+      link.source === 'cat-tramas' && link.target === thread.id)),
+    `${id}'s plot threads must also belong to the shared active-thread category`);
+  }
+});

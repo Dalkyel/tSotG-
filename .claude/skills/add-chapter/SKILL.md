@@ -158,8 +158,14 @@ If a read is truncated, retrieve the omitted sections before proceeding.
    mint no id until they're named). First rule out two near-misses: a near-miss spelling in
    extracted text (match context to the established id — e.g. Verdani/Verdandi — retain the
    canonical label and note the source variant rather than creating a duplicate) and a
-   combined id whose people's stories have diverged (keep ids like `mord-lif` combined,
-   describing each person's fate within the entry, unless the user asks for a split).
+   combined legacy id that actually represents multiple people. Named people must have
+   separate identities for future connections, even when introduced or acting together.
+   In the rebuild, Mord is `mord` and Lif is `lif`; never recreate `mord-lif` or direct a
+   person-specific fact/link to a combined identity. For other legacy combined nodes,
+   inspect their membership before creating individual ids; preserve joint facts on each
+   relevant individual and put shared scenes in event nodes. The untouched live/reference
+   archive may retain historical combined ids; reconcile their endpoints during final
+   migration rather than copying them into the rebuild.
 
    Mechanics that apply throughout **a**–**d**: a compact inventory or excerpt list can
    still truncate when returned alongside whole files — budget the **combined** output of
@@ -280,6 +286,66 @@ If a read is truncated, retrieve the omitted sections before proceeding.
    with source markers rather than silently replacing earlier claims (e.g. Myrk's ten
    assigned warriors in Ch5 versus fifteen departing in Ch9).
 
+## HARD GATE — Fact ownership
+
+This is a required part of every chapter addition, reference integration and correction,
+including the Book One rebuild. **Do not write an addition, mark progress complete, or
+report success while it fails this gate.** A syntactically valid entry can still fail.
+
+**Before writing:** after the full-entry reads, assign each proposed fact to the entity
+or event it primarily describes. Audit the complete latest descriptions of every entry
+you will touch, including inherited text, not just the proposed append. Apply these rules:
+
+- A terminology/type/species entry **must define the term and supported general
+  properties**. It must not narrate an individual's measurements, injuries, actions,
+  dialogue or encounters. Níðing explains an insult/forajido; Vaesen explains a creature
+  category; Spertus does not retell Spert's scenes. A single specimen does not establish
+  universal properties. Describe observed magical mechanisms abstractly; put the
+  demonstration's participants and chronology in their own entries.
+- A named entity's entry **must primarily describe that entity**. Wave-Jarl owns its
+  fifty oars and fittings; Drakkar does not. Berser owns divine identity and attributed
+  lineage; Berak owns his transformation. Snakavik owns supported place facts and
+  connections; Agnar owns his sale plan and Elvar her emotional reaction. Source
+  attribution may name another character without transferring ownership of the fact.
+- Separate a custom from its occurrence (Alþing versus the Fellur assembly), and a place
+  type from a specific place (Steading versus a family's farm). Link instances/events
+  to the relevant definition. Preserve geography, local history and mythology that
+  actually describe the entry's subject, with qualifications for disputed claims.
+- **Mentioning an entity is not sufficient reason to update it.** If a chapter adds only
+  an example, visit, reaction or reference, update the actual participant/place/event
+  as appropriate and add a meaningful relationship if needed. A short supported profile
+  is valid; do not pad it with a recap, invented lore or what the chapter does not explain.
+
+If any sentence fails, **relocate it before proceeding**. Confirm whether its fact already
+exists at the proper destination; preserve missing facts there without duplicating them.
+Correct affected links and propagate repairs through later same-id revisions. For a
+contaminated baseline, keep a separate pre-repair snapshot, finish and validate the repair,
+then capture a fresh chapter baseline. Never bypass preservation checks to conceal a repair.
+When correcting this pattern, inspect the other entries of the affected kinds as well as
+the user's example.
+
+**POV coverage is also required:** for each storyline represented in the processed
+material, check its still-open goals and questions against `cat-tramas` and the existing
+thread nodes/links. `TRAMAS ACTIVAS` is shared by Orka, Varg and Elvar; do not populate
+it only for the first POV. Open questions that should appear in the plot filter need
+`group: 'TRAMA'` nodes, connected both to `cat-tramas` and to the relevant POV or
+participants. Category links to ordinary character/event nodes alone do not make those
+nodes plots: the relationship viewer excludes structural categories and filters by node
+kind. Reuse an existing thread where available; give a new one a distinct unresolved
+question or objective instead of duplicating a glossary definition or a whole scene.
+Preserve unresolved status and source chapter; do not add future
+answers or force equal thread counts across POVs. Record this coverage check in the
+ownership review before completion.
+
+**After writing, before completion:** read every changed full entry and each changed link
+as a sentence and repeat this ownership audit against the chapter. Record the reviewed ids,
+any relocations, and `Ownership review: PASS` in `ownership-review.md` inside the unique
+run directory, beside `baseline/`. Record PASS only after every violation is fixed. This
+is a mandatory semantic review; syntax, endpoint and mention-matching checks do not
+establish ownership. Run the normal verifier after any resulting chapter edits. For a
+historical repair, validate the repair against its own snapshot rather than pretending
+it is an append-only chapter run. Only then update progress or report completion.
+
 ## Capture the baseline before editing
 
 Save the current book's three data files in a unique temporary directory before the
@@ -314,7 +380,7 @@ chapter data to add to the project.
 - **Existing entity whose info changed/expanded** → add `status: 'updated'` and
   `previousState: 'short note of what changed'`.
 - **Existing entity already updated earlier in the SAME book** (e.g. `book2/nodes.js`
-  already has a `mord-lif` or `glornir` entry from an earlier chapter) → add a **new**
+  already has a `biorr` or `glornir` entry from an earlier chapter) → add a **new**
   node object in the current chapter's section — do not edit the earlier chapter's entry
   in place. `data-core.js` merges same-id entries in book/array order, so only the
   *last* entry's fields actually render; the file's chronological,
@@ -332,6 +398,9 @@ chapter data to add to the project.
   Use `scripts/append-node.cjs` (see step 3 above) to apply this rule — it reads the
   latest `desc`/`star` from the file and appends your new text itself, so the full-overwrite
   requirement is satisfied by construction instead of by careful retyping.
+- **Fact ownership is mandatory.** Apply the [hard ownership gate](#hard-gate--fact-ownership)
+  to every new/updated entry and relationship. This includes terminology, species,
+  named objects, gods and places; passing the JavaScript verifier cannot waive it.
 - When a chapter resolves an entity's current state, review `label` and `type` as
   well as `desc`. For example, Harek's living reappearance in Book 2 Ch35 requires
   removing the stale `†?` label and replacing his "Desaparecido" type. Preserve the
@@ -374,8 +443,10 @@ user explicitly wants a new category (then add it to `linkColors` too).
 Write and review each link as a sentence: **source label → relationship label → target
 label**. For example, `Orka → imparte → La Lección de Escudo de Lif`, or the reverse
 `La Lección de Escudo de Lif → impartida por → Orka`. Reversing the endpoints requires
-rewriting the relationship too. For combined nodes, name the relevant person in the
-label when needed (e.g. `La Lección de Escudo de Lif → instruye a Lif → Mord y Lif`).
+rewriting the relationship too. **Person-specific connections must target that person's
+own id.** For example, `La Lección de Escudo de Lif → instruye a → Lif` targets `lif`,
+not Mord or a shared `mord-lif` node. Add separate links when a fact applies to both
+brothers; never infer which brother performed an action the source leaves unattributed.
 During final verification, use `--review-links` to print only the appended links as
 these compact sentences and read each for direction and meaning; valid endpoint ids do not establish a valid
 relationship. Check grammar against the complete endpoint title too: `protagoniza →
@@ -485,6 +556,9 @@ before reporting success. Repeated ids across earlier chapter sections remain va
 The `--review-links` option resolves endpoint labels at the current book cap and prints
 only appended relationships, marking broken-link removals explicitly. Read these
 sentences for semantic direction; the verifier cannot judge their meaning.
+
+**Completion also requires the [hard ownership gate](#hard-gate--fact-ownership) to pass**
+and its review record to exist. A verifier PASS alone is insufficient.
 
 These checks do not establish factual accuracy or visual correctness. Review the added
 content against the complete chapter, then open `index.html` and confirm: the new/updated

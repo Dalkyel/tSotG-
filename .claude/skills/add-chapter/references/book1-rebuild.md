@@ -58,7 +58,9 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 
   Confirm the output includes the three `chapter verifier` tests; a successful exit alone
   did not reveal a mistyped verifier-test filename in the Chapter 9 run.
-- Update `completedChapters` after verification succeeds. Preview with
+- Apply the mandatory fact-ownership gate in `SKILL.md` before writing and before
+  completion; keep its `ownership-review.md` record in the chapter run directory.
+  Update `completedChapters` only after both ownership review and verification succeed. Preview with
   `book1/rebuild/index.html`; regenerate that preview from the live HTML if its layout
   changes, retaining the base URL and staged-data substitutions described in the README.
 - Do not replace the live archive with a partial rebuild. At completion, reconcile
