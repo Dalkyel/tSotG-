@@ -6,15 +6,15 @@ const assert = require('node:assert/strict');
 const { execFileSync } = require('node:child_process');
 
 const [bookArg, chapterArg, baseline, ...options] = process.argv.slice(2);
-assert.ok(options.every(option => ['--review-links', '--staged-preview'].includes(option)),
-  'Unknown option; supported: --review-links, --staged-preview');
+assert.ok(options.every(option => ['--review-links', '--review-summary', '--staged-preview'].includes(option)),
+  'Unknown option; supported: --review-links, --review-summary, --staged-preview');
 const book = Number(bookArg), chapter = Number(chapterArg);
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(chapter) && chapter > 0 && baseline,
   'Usage: node .claude/skills/add-chapter/scripts/verify-chapter.cjs BOOK CHAPTER BASELINE_DIR');
 const kinds = ['nodes', 'links', 'summaries'];
 const variable = (kind, n) => (kind === 'summaries' ? 'chapterSummaries' : kind) + (n === 1 ? '' : `Book${n}`);
 const load = (file, name) => new Function(fs.readFileSync(file, 'utf8') + `; return ${name};`)();
-const ids = new Set(), latest = new Map(), revisions = [];
+const ids = new Set(), latest = new Map(), revisions = [], archiveLinks = [];
 const current = {};
 for (let n = 1; n <= book; n++) {
   const arrays = {};
@@ -25,6 +25,7 @@ for (let n = 1; n <= book; n++) {
   }
   arrays.nodes.forEach(node => ids.add(node.id));
   revisions.push(...arrays.nodes.map(node => ({ ...node, book: n })));
+  archiveLinks.push(...arrays.links);
   assert.deepEqual(arrays.links.filter(link => !ids.has(link.source) || !ids.has(link.target)), [],
     `Book ${n}: unresolved link endpoints`);
   const chapters = arrays.summaries.map(summary => summary.chapter);
@@ -61,6 +62,17 @@ for (const node of added.nodes) {
       `  appended  ...${JSON.stringify((actual ?? '').slice(Math.max(0, i - 40), i + 40))}`);
   }
 }
+// Match the loader's exact removal key; a retired category edge does not count.
+const linkKey = link => JSON.stringify([link.source, link.target, link.label]);
+const broken = new Set(archiveLinks.filter(link => link.status === 'broken').map(linkKey));
+const activeLinks = archiveLinks.filter(link => link.status !== 'broken' && !broken.has(linkKey(link)));
+const addedEvents = added.nodes.filter(node => node.group === 'EVENTO');
+for (const event of addedEvents) {
+  assert.ok(activeLinks.some(link =>
+    (link.source === 'cat-eventos' && link.target === event.id) ||
+    (link.target === 'cat-eventos' && link.source === event.id)),
+  `${event.id}: EVENTO must have an active direct link to EVENTOS CLAVE (cat-eventos)`);
+}
 // Match the actual preview inventory and guides, rather than assuming that bold
 // markup creates links. Staged rebuilds deliberately exclude live reading guides.
 const root = path.resolve(__dirname, '../../../..');
@@ -70,15 +82,23 @@ const guides = options.includes('--staged-preview') ? {}
 const resolved = [...new Map(revisions.map(node => [node.id, node])).values()];
 const matcher = mentions.buildMentionMatcher(resolved, revisions, guides);
 const summaryTerms = [...added.summaries[0].summary.matchAll(/<strong>(.*?)<\/strong>/g)].map(match => match[1]);
+const summaryTargets = new Map();
 for (const term of summaryTerms) {
   const matches = mentions.findMentions(term, matcher);
   assert.ok(matches.length === 1 && matches[0].text === term,
     `Chapter ${chapter}: summary term ${JSON.stringify(term)} does not resolve completely to one node; use a canonical name or supported alias`);
+  summaryTargets.set(term, matches[0].id);
 }
 console.log(`PASS: Book ${book}, chapter ${chapter}: ${added.nodes.length} nodes, ${added.links.length} links, 1 summary appended.`);
 console.log('Syntax, endpoints at each book cap, summary order/uniqueness, baseline prefixes, and accumulated node text verified.');
 console.log(`Summary links: ${summaryTerms.length} emphasized terms resolve completely (${options.includes('--staged-preview') ? 'staged preview; no guides' : 'live guides'}).`);
+console.log(`Event category links: ${addedEvents.length} added/updated EVENTO nodes connected to EVENTOS CLAVE.`);
 console.log('Content accuracy and browser appearance still require review.');
+if (options.includes('--review-summary')) {
+  const labels = new Map(resolved.map(node => [node.id, node.label]));
+  console.log('Summary mentions — review intended identity:');
+  for (const [term, id] of summaryTargets) console.log(`${term} → ${labels.get(id)} [${id}]`);
+}
 if (options.includes('--review-links')) {
   const labels = new Map([...latest.values(), ...current.nodes].map(node => [node.id, node.label]));
   console.log('Appended links — review direction and meaning:');

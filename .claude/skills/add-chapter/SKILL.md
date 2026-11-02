@@ -324,8 +324,9 @@ then capture a fresh chapter baseline. Never bypass preservation checks to conce
 When correcting this pattern, inspect the other entries of the affected kinds as well as
 the user's example.
 
-POV coverage and ongoing mystery/clue tracking must also pass the separate
-[hard thread-lifecycle gate](#hard-gate--thread-and-clue-lifecycle) below.
+Event coverage and ongoing mystery/clue tracking must also pass the separate
+[event-coverage gate](#hard-gate--key-event-coverage) and
+[thread-lifecycle gate](#hard-gate--thread-and-clue-lifecycle) below.
 
 **After writing, before completion:** read every changed full entry and each changed link
 as a sentence and repeat this ownership audit against the chapter. Record the reviewed ids,
@@ -335,6 +336,44 @@ is a mandatory semantic review; syntax, endpoint and mention-matching checks do 
 establish ownership. Run the normal verifier after any resulting chapter edits. For a
 historical repair, validate the repair against its own snapshot rather than pretending
 it is an append-only chapter run. Only then update progress or report completion.
+
+## HARD GATE — Key event coverage
+
+Every important event must be discoverable under **EVENTOS CLAVE** (`cat-eventos`),
+including in the Book One rebuild. Before drafting, inventory the chapter's important
+scenes and reported incidents across every represented POV: deaths, attacks, rescues,
+captures, oaths, consequential decisions, departures and discoveries. Include quiet
+turning points and attributed historical events when they matter to the story; routine
+chores, repeated background facts and every individual blow do not need separate nodes.
+
+- Map each candidate to an existing event id or create a `group: 'EVENTO'` node after
+  normal identity checks. One coherent event may cover several connected actions;
+  update its accumulated history rather than duplicating a duel, rescue or capture
+  already represented there. A fact appearing only in a profile, place, summary or
+  `TRAMA` node does not satisfy event coverage.
+- Record what actually happened, its source chapter, participants, place when known,
+  and supported outcome. Distinguish witnessed action, a character's report and myth;
+  the chapter of discovery is not necessarily the date of the incident. Preserve
+  uncertainty about perpetrators, motives and consequences.
+- Give each event an active direct link to `cat-eventos` and meaningful links to its
+  participants and relevant places/evidence. Respect link direction. A plot question
+  retains its `TRAMA` id and connects to the event: the discovery of a death can be a
+  completed event while the killer's identity remains open. An agreement to depart is
+  an event; the proposed journey has not occurred merely because it was agreed.
+- Before completion, compare the inventory with the finished archive and record each
+  candidate's chapter, event id and coverage (new, existing/updated, or excluded with
+  a reason) in `event-review.md` beside `baseline/`. Read the event descriptions and
+  resolved links. Record `Event coverage review: PASS` only after every important
+  candidate has an event and active category connection. The verifier checks category
+  connections for added/updated EVENTO nodes; it cannot detect an omitted story event.
+
+For a historical backfill, snapshot first, insert additions into the chapters where
+their evidence became available, preserve existing objects and summary text, and add
+later identifications/links in their own source sections. Validate that every chapter's
+links resolve to ids known by that chapter and that earlier same-id revisions remain
+prefixes of later ones. Use a repair-preservation check against the snapshot rather
+than the new-chapter append-only verifier. If source files are unavailable, identify
+the archived evidence used and limit the coverage claim accordingly.
 
 ## HARD GATE — Thread and clue lifecycle
 
@@ -377,6 +416,11 @@ to create a thread once or to pass the JavaScript verifier.
    cross-referenced to the question it supports; it need not become a duplicate plot node.
    Keep observations separate from theories, and do not invent a mystery or future answer
    for ordinary descriptive detail. Preserve all already-recorded clues for review.
+   Before composing node specs, draft the new chapter's questions and goals in
+   `thread-review.md`: source evidence → existing/new id → current state → pending
+   outcome. Include explicit requests, vows and agreed plans even when they occur in
+   quiet dialogue; do not limit this pass to mysteries or the closing danger. This
+   catches an unfulfilled learning request or revenge vow before the final audit.
 3. **Persist the evidence trail in the archive.** For each question/clue, record its
    precise question/observation, first source book/chapter, supporting or conflicting
    evidence, related ids, and current state in its own `desc`/`star` and links. Never rely
@@ -425,7 +469,7 @@ to create a thread once or to pass the JavaScript verifier.
    when all items are accounted for and all required archive updates are complete.
    Review new evidence and all closure decisions semantically, then run normal checks.
    Automated checks alone cannot establish that every clue was followed or that a mystery
-   was correctly resolved. Progress and completion require BOTH hard-gate review records.
+   was correctly resolved. Progress and completion require all three hard-gate review records.
 
 ## Capture the baseline before editing
 
@@ -622,7 +666,7 @@ Run the bundled verifier from the project root, using the actual unique pre-edit
 baseline directory saved above (replace the numbers for the current book/chapter):
 
 ```sh
-node .claude/skills/add-chapter/scripts/verify-chapter.cjs 2 11 "$chapter_baseline" --review-links
+node .claude/skills/add-chapter/scripts/verify-chapter.cjs 2 11 "$chapter_baseline" --review-links --review-summary
 ```
 
 The verifier checks each book's files separately for JavaScript syntax, resolves link
@@ -637,10 +681,15 @@ before reporting success. Repeated ids across earlier chapter sections remain va
 The `--review-links` option resolves endpoint labels at the current book cap and prints
 only appended relationships, marking broken-link removals explicitly. Read these
 sentences for semantic direction; the verifier cannot judge their meaning.
+Use `--review-summary` to print each distinct emphasized term with its resolved label
+and stable id. Check these identities against the source, especially where an individual,
+species or god shares a name. A complete match can still point to the wrong subject;
+this report replaces an ad hoc matcher query, not the semantic review.
 
-**Completion requires BOTH the [ownership gate](#hard-gate--fact-ownership) and the
+**Completion requires the [ownership gate](#hard-gate--fact-ownership),
+[event-coverage gate](#hard-gate--key-event-coverage) and
 [thread-lifecycle gate](#hard-gate--thread-and-clue-lifecycle) to pass**, with
-`ownership-review.md` and `thread-review.md` in the run directory. A verifier PASS alone
+`ownership-review.md`, `event-review.md` and `thread-review.md` in the run directory. A verifier PASS alone
 is insufficient; an unreviewed clue or missing closure blocks completion.
 
 These checks do not establish factual accuracy or visual correctness. Review the added

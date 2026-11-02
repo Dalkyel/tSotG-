@@ -124,6 +124,17 @@ const links = [
     {"source":"bolsa-varg","target":"varg","label":"concierne a","type":"trama"},
     {"source":"pasado-varg","target":"varg","label":"concierne a","type":"trama"},
 
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"cat-eventos","target":"huida-varg-liga","label":"incluye","type":"arc"},
+    {"source":"cat-varg","target":"huida-varg-liga","label":"incluye","type":"arc"},
+    {"source":"huida-varg-liga","target":"varg","label":"sigue la fuga de","type":"event"},
+    {"source":"huida-varg-liga","target":"liga","label":"culmina con la entrada en","type":"geo"},
+    {"source":"huida-varg-liga","target":"slyda","label":"incluye el control de entrada de","type":"event"},
+    {"source":"huida-varg-liga","target":"snepil","label":"incluye el recuerdo de Varg de haber matado a","type":"history"},
+    {"source":"huida-varg-liga","target":"pasado-varg","label":"aporta la laguna de memoria examinada en","type":"trama"},
+    {"source":"huida-varg-liga","target":"akall","label":"lleva a Varg a buscar ayuda para","type":"goal"},
+
+
     // ── LIBRO 1, CAPÍTULO 3 — ORKA ──
     {"source": "cat-orka", "target": "virk", "label": "incluye", "type": "arc"},
     {"source": "cat-orka", "target": "gudvarr", "label": "incluye", "type": "arc"},
@@ -200,6 +211,24 @@ const links = [
     {"source": "varg", "target": "vergelmir", "label": "cree por un instante haber muerto y llegado a", "type": "lore"},
     {"source": "vergelmir", "target": "likrafa", "label": "es la cámara de, según piensa Varg", "type": "lore"},
     {"source":"akall","target":"froya","label":"tiene como objetivo declarado vengar a","type":"goal"},
+
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"cat-eventos","target":"muerte-froya","label":"incluye","type":"arc"},
+    {"source":"cat-varg","target":"muerte-froya","label":"incluye","type":"arc"},
+    {"source":"muerte-froya","target":"froya","label":"tiene como fallecida a","type":"event"},
+    {"source":"muerte-froya","target":"varg","label":"motiva la búsqueda de venganza de","type":"event"},
+    {"source":"muerte-froya","target":"akall","label":"explica el propósito de","type":"trama"},
+    {"source":"cat-eventos","target":"rescate-varg","label":"incluye","type":"arc"},
+    {"source":"cat-varg","target":"rescate-varg","label":"incluye","type":"arc"},
+    {"source":"rescate-varg","target":"varg","label":"libera de la captura a","type":"event"},
+    {"source":"rescate-varg","target":"leif","label":"contrarresta la reclamación y la agresión de","type":"conflict"},
+    {"source":"rescate-varg","target":"orl","label":"incluye a la partida acompañada por","type":"event"},
+    {"source":"rescate-varg","target":"svik","label":"cuenta con la intervención de","type":"event"},
+    {"source":"rescate-varg","target":"einar","label":"cuenta con la intervención de","type":"event"},
+    {"source":"rescate-varg","target":"bloodsworn","label":"incluye el rescate efectuado por","type":"event"},
+    {"source":"rescate-varg","target":"liga","label":"ocurre a las afueras de","type":"geo"},
+    {"source":"rescate-varg","target":"prueba-armas-liga","label":"sucede después de","type":"history"},
+
 
     // ── LIBRO 1, CAPÍTULO 5 — ELVAR ──
     {"source": "root", "target": "cat-elvar", "label": "compañía de Elvar", "type": "cat"},
@@ -292,6 +321,16 @@ const links = [
     {"source":"granja-orka","target":"steading","label":"es un","type":"lore"},
     {"source":"granja-orka","target":"fellur","label":"sus habitantes comercian en","type":"geo"},
 
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"cat-eventos","target":"rescate-vesli","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"rescate-vesli","label":"incluye","type":"arc"},
+    {"source":"rescate-vesli","target":"breca","label":"incluye la ayuda prestada por","type":"event"},
+    {"source":"rescate-vesli","target":"vesli","label":"tiene como criatura rescatada a","type":"event"},
+    {"source":"rescate-vesli","target":"orka","label":"incluye la búsqueda y la reacción de","type":"event"},
+    {"source":"rescate-vesli","target":"thorkel","label":"incluye la búsqueda y la intervención de","type":"event"},
+    {"source":"rescate-vesli","target":"granja-orka","label":"comienza cuando Breca abandona la","type":"geo"},
+
+
 // ── LIBRO 1, CAPÍTULO 7 — ELVAR ──
     {"source": "cat-elvar", "target": "thrud", "label": "incluye", "type": "arc"},
     {"source": "cat-dioses", "target": "berser", "label": "incluye", "type": "cat"},
@@ -355,6 +394,17 @@ const links = [
     {"source": "thorkel", "target": "vesli", "label": "atribuye una deuda de sangre con Breca a", "type": "lore"},
     {"source": "thorkel", "target": "holmganga", "label": "dice que no desafiaría a Orka a un", "type": "lore"},
 
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"cat-eventos","target":"juramento-vesli","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"juramento-vesli","label":"incluye","type":"arc"},
+    {"source":"juramento-vesli","target":"vesli","label":"es pronunciado por","type":"event"},
+    {"source":"juramento-vesli","target":"breca","label":"promete fidelidad a","type":"event"},
+    {"source":"juramento-vesli","target":"spert","label":"promete fidelidad a","type":"event"},
+    {"source":"juramento-vesli","target":"blood-oath","label":"es una ocasión concreta de","type":"magic"},
+    {"source":"juramento-vesli","target":"rescate-vesli","label":"sigue a","type":"history"},
+    {"source":"juramento-vesli","target":"granja-orka","label":"ocurre en el arroyo de","type":"geo"},
+
+
 
 // ── LIBRO 1, CAPÍTULO 9 — ELVAR ──
     {"source": "cat-mundo", "target": "frost-isles", "label": "incluye", "type": "cat"},
@@ -409,6 +459,29 @@ const links = [
     {"source":"berak-venta","target":"snakavik","label":"se proyecta en","type":"geo"},
     {"source":"elvar","target":"berak-venta","label":"conoce el plan de la","type":"trama"},
 
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"cat-eventos","target":"partida-iskalt","label":"incluye","type":"arc"},
+    {"source":"cat-elvar","target":"partida-iskalt","label":"incluye","type":"arc"},
+    {"source":"partida-iskalt","target":"wave-jarl","label":"se realiza a bordo de","type":"event"},
+    {"source":"partida-iskalt","target":"iskalt","label":"parte de","type":"geo"},
+    {"source":"partida-iskalt","target":"snakavik","label":"pone rumbo a","type":"geo"},
+    {"source":"partida-iskalt","target":"agnar","label":"es ordenada por","type":"event"},
+    {"source":"partida-iskalt","target":"elvar","label":"incluye las recompensas recibidas por","type":"event"},
+    {"source":"partida-iskalt","target":"colmillo-trol","label":"incluye la entrega de","type":"event"},
+    {"source":"partida-iskalt","target":"anillo-oro","label":"incluye la entrega de","type":"event"},
+    {"source":"partida-iskalt","target":"kraka","label":"depende del canto protector de","type":"magic"},
+    {"source":"partida-iskalt","target":"berak","label":"transporta cautivo a","type":"event"},
+    {"source":"partida-iskalt","target":"berak-venta","label":"inicia el viaje previsto en","type":"trama"},
+    {"source":"partida-iskalt","target":"pasado-elvar","label":"aviva la inquietud recogida en","type":"trama"},
+    {"source":"partida-iskalt","target":"ataque-sjavarorm-iskalt","label":"sucede después de","type":"history"},
+    {"source":"cat-eventos","target":"encierro-lik-rifa","label":"incluye","type":"arc"},
+    {"source":"cat-elvar","target":"encierro-lik-rifa","label":"incluye","type":"arc"},
+    {"source":"encierro-lik-rifa","target":"likrafa","label":"tiene como cautiva, según la tradición, a","type":"lore"},
+    {"source":"encierro-lik-rifa","target":"oskutred","label":"se sitúa bajo","type":"lore"},
+    {"source":"encierro-lik-rifa","target":"grend","label":"es relatado en el capítulo 9 por","type":"lore"},
+    {"source":"encierro-lik-rifa","target":"gudfall","label":"precede, según Grend, a","type":"history"},
+
+
 // ── LIBRO 1, CAPÍTULO 10 — ORKA ──
     {"source":"cat-orka","target":"mord","label":"incluye","type":"arc"},
     {"source":"cat-orka","target":"lif","label":"incluye","type":"arc"},
@@ -450,6 +523,21 @@ const links = [
     {"source": "sigrun", "target": "holmganga-event", "label": "ordena elegir segundos y preparar el terreno de", "type": "event"},
 
     {"source":"mord","target":"lif","label":"es hermano de","type":"rel"},
+
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"cat-eventos","target":"desaparicion-haraldursons","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"desaparicion-haraldursons","label":"incluye","type":"arc"},
+    {"source":"desaparicion-haraldursons","target":"howbyr","label":"es situada por Virk en","type":"geo"},
+    {"source":"desaparicion-haraldursons","target":"virk","label":"es referida por","type":"event"},
+    {"source":"desaparicion-haraldursons","target":"orka","label":"es comunicada a","type":"event"},
+    {"source":"desaparicion-haraldursons","target":"ninos-robados","label":"aporta un caso a","type":"trama"},
+    {"source":"cat-eventos","target":"matanza-kergarth","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"matanza-kergarth","label":"incluye","type":"arc"},
+    {"source":"matanza-kergarth","target":"kergarth","label":"es situada por Virk en","type":"geo"},
+    {"source":"matanza-kergarth","target":"virk","label":"es referida por","type":"event"},
+    {"source":"matanza-kergarth","target":"orka","label":"es comunicada a","type":"event"},
+    {"source":"matanza-kergarth","target":"ninos-robados","label":"aporta un caso a","type":"trama"},
+
 // ── LIBRO 1, CAPÍTULO 11 — VARG ──
     {"source":"cat-varg","target":"rokia","label":"incluye","type":"arc"},
     {"source":"cat-varg","target":"glornir","label":"incluye","type":"arc"},
@@ -465,6 +553,10 @@ const links = [
     {"source":"glornir","target":"entrenamiento-varg","label":"ordena","type":"event"},
     {"source":"entrenamiento-varg","target":"liga","label":"ocurre en","type":"geo"},
     {"source":"akall","target":"vol","label":"sigue requiriendo el acceso a","type":"goal"},
+
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"rescate-varg","target":"glornir","label":"identifica en el capítulo 11 como rescatador a","type":"event"},
+
 // ── LIBRO 1, CAPÍTULO 12 — ORKA ──
     {"source": "arild", "target": "holmganga-event", "label": "es segunda de Guðvarr en", "type": "event"},
     {"source": "arild", "target": "gudvarr", "label": "venda el hombro herido de", "type": "rel"},
@@ -551,6 +643,23 @@ const links = [
     {"source": "juramento-varg-bloodsworn", "target": "blood-oath", "label": "requiere prestar un", "type": "magic"},
     {"source": "pasado-varg", "target": "sulich", "label": "identifica al guerrero que parecía familiar como", "type": "trama"},
 
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"juramento-varg-bloodsworn","target":"rescate-varg","label":"distingue el ingreso jurado aún pendiente de","type":"trama"},
+    {"source":"cat-eventos","target":"reclamacion-sulich","label":"incluye","type":"arc"},
+    {"source":"cat-varg","target":"reclamacion-sulich","label":"incluye","type":"arc"},
+    {"source":"reclamacion-sulich","target":"jarl-logur","label":"ocurre bajo la autoridad de","type":"event"},
+    {"source":"reclamacion-sulich","target":"liga","label":"se celebra en","type":"geo"},
+    {"source":"reclamacion-sulich","target":"jaromir","label":"incluye la exigencia de","type":"event"},
+    {"source":"reclamacion-sulich","target":"sulich","label":"tiene como reclamado a","type":"event"},
+    {"source":"reclamacion-sulich","target":"glornir","label":"incluye la negativa de","type":"event"},
+    {"source":"reclamacion-sulich","target":"sergei","label":"incluye la mediación de","type":"event"},
+    {"source":"reclamacion-sulich","target":"ilia","label":"incluye la amenaza de","type":"event"},
+    {"source":"reclamacion-sulich","target":"bloodsworn","label":"provoca la movilización de","type":"event"},
+    {"source":"reclamacion-sulich","target":"varg","label":"incluye el respaldo público de","type":"event"},
+    {"source":"reclamacion-sulich","target":"torvik","label":"incluye el respaldo público de","type":"event"},
+    {"source":"reclamacion-sulich","target":"sulich-crisis","label":"origina la amenaza pendiente de","type":"trama"},
+
+
 
 // ── LIBRO 1, CAPÍTULO 14 — ELVAR ──
     {"source": "cat-elvar", "target": "uspa", "label": "incluye", "type": "cat"},
@@ -614,5 +723,116 @@ const links = [
     {"source": "piedra-gusanos", "target": "oath-stone-frost-isles", "label": "investiga la posible atracción ejercida por", "type": "trama"},
     {"source": "piedra-gusanos", "target": "ataque-night-wyrms", "label": "investiga la causa de", "type": "trama"},
     {"source": "piedra-gusanos", "target": "night-wyrm", "label": "pregunta por la concentración excepcional de", "type": "trama"},
+
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"encierro-lik-rifa","target":"uspa","label":"es explicado en el capítulo 14 por","type":"lore"},
+    {"source":"encierro-lik-rifa","target":"orna","label":"es atribuido a la astucia de","type":"lore"},
+    {"source":"encierro-lik-rifa","target":"revelacion-roca-escarcha","label":"es representado durante","type":"lore"},
+    {"source":"cat-eventos","target":"revelacion-roca-escarcha","label":"incluye","type":"arc"},
+    {"source":"cat-elvar","target":"revelacion-roca-escarcha","label":"incluye","type":"arc"},
+    {"source":"revelacion-roca-escarcha","target":"oath-stone-frost-isles","label":"activa y descubre las imágenes de","type":"magic"},
+    {"source":"revelacion-roca-escarcha","target":"frost-isles","label":"ocurre en","type":"geo"},
+    {"source":"revelacion-roca-escarcha","target":"uspa","label":"es activada con la sangre de","type":"magic"},
+    {"source":"revelacion-roca-escarcha","target":"kraka","label":"incluye el reconocimiento de la piedra por","type":"event"},
+    {"source":"revelacion-roca-escarcha","target":"hundur","label":"incluye el rastreo de sangre antigua por","type":"event"},
+    {"source":"revelacion-roca-escarcha","target":"agnar","label":"incluye el corte consentido de la palma realizado por","type":"event"},
+    {"source":"revelacion-roca-escarcha","target":"elvar","label":"es presenciada por","type":"event"},
+    {"source":"revelacion-roca-escarcha","target":"gudfall","label":"muestra representaciones de","type":"lore"},
+    {"source":"revelacion-roca-escarcha","target":"piedra-gusanos","label":"aporta el resplandor investigado en","type":"trama"},
+    {"source":"revelacion-roca-escarcha","target":"existencia-dragon-born","label":"suscita el debate recogido en","type":"trama"},
+    {"source":"revelacion-roca-escarcha","target":"ataque-night-wyrms","label":"precede a","type":"history"},
+    {"source":"cat-eventos","target":"venganza-bosque-horcas","label":"incluye","type":"arc"},
+    {"source":"cat-elvar","target":"venganza-bosque-horcas","label":"incluye","type":"arc"},
+    {"source":"venganza-bosque-horcas","target":"gallows-wood","label":"es situada por el relato en","type":"lore"},
+    {"source":"venganza-bosque-horcas","target":"orna","label":"es atribuida a","type":"lore"},
+    {"source":"venganza-bosque-horcas","target":"ulfrir","label":"es atribuida a","type":"lore"},
+    {"source":"venganza-bosque-horcas","target":"likrafa","label":"tiene como víctimas a descendientes de","type":"lore"},
+    {"source":"venganza-bosque-horcas","target":"blood-eagle","label":"es vinculada por Elvar a","type":"lore"},
+    {"source":"venganza-bosque-horcas","target":"revelacion-roca-escarcha","label":"es reconocida en las imágenes durante","type":"lore"},
+    {"source":"venganza-bosque-horcas","target":"existencia-dragon-born","label":"aporta tradición al interrogante","type":"trama"},
+
+
+    // ── LIBRO 1, CAPÍTULO 15 — ORKA ──
+    {"source": "cat-orka", "target": "froa", "label": "incluye", "type": "arc"},
+    {"source": "cat-orka", "target": "arbol-froa", "label": "incluye", "type": "arc"},
+    {"source": "cat-orka", "target": "decision-huida", "label": "incluye", "type": "arc"},
+    {"source": "cat-orka", "target": "sangre-thorkel", "label": "incluye", "type": "arc"},
+    {"source": "cat-orka", "target": "asesinato-froa", "label": "incluye", "type": "arc"},
+    {"source": "cat-tramas", "target": "decision-huida", "label": "incluye", "type": "arc"},
+    {"source": "cat-tramas", "target": "sangre-thorkel", "label": "incluye", "type": "arc"},
+    {"source": "cat-tramas", "target": "asesinato-froa", "label": "incluye", "type": "arc"},
+    {"source": "froa", "target": "froa-especie", "label": "pertenece a", "type": "lore"},
+    {"source": "froa", "target": "arbol-froa", "label": "tenía su vida ligada a", "type": "magic"},
+    {"source": "froa", "target": "oskutred", "label": "nació de una semilla de", "type": "lore"},
+    {"source": "froa", "target": "orka", "label": "ofreció amistad y protección a", "type": "rel"},
+    {"source": "arbol-froa", "target": "granja-orka", "label": "se encuentra al sudeste de", "type": "geo"},
+    {"source": "orka", "target": "froa", "label": "encuentra muerta a", "type": "event"},
+    {"source": "orka", "target": "arbol-froa", "label": "descubre la destrucción de", "type": "event"},
+    {"source": "decision-huida", "target": "orka", "label": "recoge el deseo de partir de", "type": "trama"},
+    {"source": "decision-huida", "target": "thorkel", "label": "cuenta con el acuerdo de", "type": "trama"},
+    {"source": "decision-huida", "target": "breca", "label": "busca proteger a", "type": "goal"},
+    {"source": "decision-huida", "target": "granja-orka", "label": "prevé abandonar", "type": "goal"},
+    {"source": "decision-huida", "target": "froa", "label": "buscaba consejo de", "type": "goal"},
+    {"source": "sangre-thorkel", "target": "orka", "label": "recoge la preocupación de", "type": "trama"},
+    {"source": "sangre-thorkel", "target": "thorkel", "label": "plantea el posible riesgo para", "type": "trama"},
+    {"source": "sangre-thorkel", "target": "holmganga-event", "label": "parte del gesto observado después de", "type": "trama"},
+    {"source": "sangre-thorkel", "target": "sigrun", "label": "concierne a la esclava de", "type": "trama"},
+    {"source": "sangre-thorkel", "target": "ulfhednar-linaje", "label": "incluye el linaje atribuido a la esclava:", "type": "trama"},
+    {"source": "sangre-thorkel", "target": "hundur-linaje", "label": "plantea como segundo linaje posible", "type": "trama"},
+    {"source": "decision-huida", "target": "sangre-thorkel", "label": "responde a la preocupación recogida en", "type": "trama"},
+    {"source": "ulfhednar-linaje", "target": "tainted", "label": "es un linaje de", "type": "lore"},
+    {"source": "ulfhednar-linaje", "target": "ulfrir", "label": "se vincula al parentesco con", "type": "lore"},
+    {"source": "hundur-linaje", "target": "tainted", "label": "es un linaje de", "type": "lore"},
+    {"source": "hundur-linaje", "target": "hundur-dios", "label": "desciende de", "type": "lore"},
+    {"source": "hundur", "target": "hundur-linaje", "label": "pertenece, según Elvar, a", "type": "lore"},
+    {"source": "asesinato-froa", "target": "orka", "label": "recoge el hallazgo y las preguntas de", "type": "trama"},
+    {"source": "asesinato-froa", "target": "froa", "label": "investiga la muerte de", "type": "trama"},
+    {"source": "asesinato-froa", "target": "arbol-froa", "label": "examina las señales del ataque en", "type": "trama"},
+    {"source": "asesinato-froa", "target": "ninos-robados", "label": "plantea una conexión no confirmada con", "type": "trama"},
+    {"source": "asesinato-froa", "target": "asgrim-death", "label": "compara, por sospecha de Orka, con", "type": "trama"},
+    {"source": "ninos-robados", "target": "orka", "label": "recoge las sospechas de", "type": "trama"},
+
+    {"source": "cat-tramas", "target": "venganza-virk", "label": "incluye", "type": "arc"},
+    {"source": "cat-orka", "target": "venganza-virk", "label": "incluye", "type": "arc"},
+    {"source": "cat-tramas", "target": "aprendizaje-breca", "label": "incluye", "type": "arc"},
+    {"source": "cat-orka", "target": "aprendizaje-breca", "label": "incluye", "type": "arc"},
+    {"source": "venganza-virk", "target": "mord", "label": "sigue los juramentos de venganza de", "type": "trama"},
+    {"source": "venganza-virk", "target": "lif", "label": "incluye el riesgo para", "type": "trama"},
+    {"source": "venganza-virk", "target": "virk", "label": "busca justicia por la muerte de", "type": "trama"},
+    {"source": "venganza-virk", "target": "gudvarr", "label": "tiene como objetivo de Mord a", "type": "trama"},
+    {"source": "venganza-virk", "target": "orka", "label": "recoge el esfuerzo por contener a Mord de", "type": "trama"},
+    {"source": "venganza-virk", "target": "thorkel", "label": "recoge la intervención protectora de", "type": "trama"},
+    {"source": "aprendizaje-breca", "target": "breca", "label": "recoge la petición de", "type": "trama"},
+    {"source": "aprendizaje-breca", "target": "thorkel", "label": "dirige la petición a", "type": "trama"},
+
+    // Cobertura de eventos — revisión retrospectiva
+    {"source":"cat-eventos","target":"barrow-virk","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"barrow-virk","label":"incluye","type":"arc"},
+    {"source":"barrow-virk","target":"virk","label":"da sepultura a","type":"event"},
+    {"source":"barrow-virk","target":"mord","label":"es levantado por","type":"event"},
+    {"source":"barrow-virk","target":"lif","label":"es levantado por","type":"event"},
+    {"source":"barrow-virk","target":"orka","label":"recibe la ayuda de","type":"event"},
+    {"source":"barrow-virk","target":"thorkel","label":"recibe la ayuda de","type":"event"},
+    {"source":"barrow-virk","target":"breca","label":"incluye la presencia de","type":"event"},
+    {"source":"barrow-virk","target":"fellur","label":"se levanta en","type":"geo"},
+    {"source":"barrow-virk","target":"holmganga-event","label":"sigue a","type":"history"},
+    {"source":"barrow-virk","target":"venganza-virk","label":"deja pendiente","type":"trama"},
+    {"source":"cat-eventos","target":"acuerdo-partida-orka","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"acuerdo-partida-orka","label":"incluye","type":"arc"},
+    {"source":"acuerdo-partida-orka","target":"orka","label":"es propuesto por","type":"event"},
+    {"source":"acuerdo-partida-orka","target":"thorkel","label":"es aceptado por","type":"event"},
+    {"source":"acuerdo-partida-orka","target":"granja-orka","label":"prevé abandonar","type":"goal"},
+    {"source":"acuerdo-partida-orka","target":"froa","label":"prevé consultar a","type":"goal"},
+    {"source":"acuerdo-partida-orka","target":"sangre-thorkel","label":"responde a la preocupación de","type":"trama"},
+    {"source":"acuerdo-partida-orka","target":"decision-huida","label":"da origen al objetivo aún pendiente de","type":"trama"},
+    {"source":"cat-eventos","target":"hallazgo-froa","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"hallazgo-froa","label":"incluye","type":"arc"},
+    {"source":"hallazgo-froa","target":"orka","label":"es realizado por","type":"event"},
+    {"source":"hallazgo-froa","target":"froa","label":"confirma la muerte de","type":"event"},
+    {"source":"hallazgo-froa","target":"arbol-froa","label":"confirma la destrucción de","type":"event"},
+    {"source":"hallazgo-froa","target":"acuerdo-partida-orka","label":"impide la consulta con Froa prevista tras","type":"history"},
+    {"source":"hallazgo-froa","target":"asesinato-froa","label":"aporta las pruebas examinadas en","type":"trama"},
+    {"source":"hallazgo-froa","target":"ninos-robados","label":"suscita una posible conexión no confirmada con","type":"trama"},
+
 
 ];

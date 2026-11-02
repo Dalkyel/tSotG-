@@ -28,7 +28,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-latest 1 varg einar
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-backlog 1
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-node varg /absolute/scratch/spec.json
-  node .claude/skills/add-chapter/scripts/rebuild.cjs verify-chapter 4 /absolute/baseline --review-links
+  node .claude/skills/add-chapter/scripts/rebuild.cjs verify-chapter 4 /absolute/baseline --review-links --review-summary
   ```
 
   The `1` after `read-latest` or `read-backlog` is a page number. Spec/baseline paths are resolved against
@@ -44,7 +44,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   reference only for identities still unresolved there; repeating already-confirmed
   names adds irrelevant later labels and spoiler-bearing event titles to the output.
 - Snapshot the staged three files into a unique temporary baseline before each chapter.
-  Verify with `rebuild.cjs verify-chapter CHAPTER BASELINE --review-links`.
+  Verify with `rebuild.cjs verify-chapter CHAPTER BASELINE --review-links --review-summary`.
   It requires the same append/preservation checks as the live workflow. The launcher
   automatically supplies `--staged-preview`, so summary-link validation uses empty
   guides, matching the isolated preview; no one-off matcher script is needed.
@@ -57,13 +57,15 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs
   ```
 
-  Confirm the output includes the three `chapter verifier` tests; a successful exit alone
+  Confirm the output includes the `chapter verifier` tests, including the summary identity
+  review; a successful exit alone
   did not reveal a mistyped verifier-test filename in the Chapter 9 run.
-- Apply BOTH mandatory gates in `SKILL.md`: fact ownership and thread/clue lifecycle.
+- Apply all three mandatory gates in `SKILL.md`: fact ownership, key-event coverage
+  and thread/clue lifecycle.
   Before each chapter, review the existing open/partial questions and clues across all
   POVs; record developments and evidence-backed closures in the staged archive.
-  Keep `ownership-review.md` and `thread-review.md` in the chapter run directory.
-  Update `completedChapters` only after both semantic gates and verification succeed. Preview with
+  Keep `ownership-review.md`, `event-review.md` and `thread-review.md` in the chapter run directory.
+  Update `completedChapters` only after all three semantic gates and verification succeed. Preview with
   `book1/rebuild/index.html`; regenerate that preview from the live HTML if its layout
   changes, retaining the base URL and staged-data substitutions described in the README.
 - Do not replace the live archive with a partial rebuild. At completion, reconcile

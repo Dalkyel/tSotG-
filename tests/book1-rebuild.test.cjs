@@ -9,6 +9,28 @@ const load = (kind, variable) => new Function(
   fs.readFileSync(path.join(stage, 'book1', `${kind}.js`), 'utf8') + `;return ${variable};`
 )();
 
+test('rebuilt events are discoverable under EVENTOS CLAVE with useful connections', () => {
+  const archive = require('../data-core.js').merge([{
+    book: 1, nodes: load('nodes', 'nodes'), links: load('links', 'links'),
+    summaries: load('summaries', 'chapterSummaries'),
+  }]);
+  const events = archive.nodes.filter(node => node.group === 'EVENTO');
+  for (const id of ['rescate-varg', 'rescate-vesli', 'juramento-vesli', 'reclamacion-sulich',
+    'revelacion-roca-escarcha', 'barrow-virk', 'hallazgo-froa', 'acuerdo-partida-orka']) {
+    assert.ok(events.some(node => node.id === id), `Missing key event: ${id}`);
+  }
+  for (const event of events) {
+    const touching = archive.links.filter(link => link.source === event.id || link.target === event.id);
+    assert.ok(touching.some(link => link.source === 'cat-eventos' || link.target === 'cat-eventos'),
+      `${event.id} must be listed under EVENTOS CLAVE`);
+    assert.ok(touching.some(link => !link.source.startsWith('cat-') && !link.target.startsWith('cat-')),
+      `${event.id} must connect to participants, places or evidence`);
+  }
+  assert.equal(archive.nodes.find(node => node.id === 'decision-huida').group, 'TRAMA');
+  assert.ok(archive.links.some(link => link.source === 'acuerdo-partida-orka' && link.target === 'decision-huida'),
+    'A completed agreement must keep the unfulfilled departure discoverable');
+});
+
 test('rebuilt Chapter 1 key terms resolve through the same mention matcher as Book Two', () => {
   const nodes = load('nodes', 'nodes');
   const summary = load('summaries', 'chapterSummaries').find(s => s.chapter === 1).summary;

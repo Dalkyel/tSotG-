@@ -1,5 +1,28 @@
 # Changelog archive
 
+- 2026-11-02: Event-coverage correction after Chapter 15 — profiles, summaries and
+  TRAMA nodes had preserved important occurrences without EVENTO nodes under
+  EVENTOS CLAVE. Added the mandatory key-event inventory/coverage review, direct
+  active category linkage, event-versus-question distinction and historical-backfill
+  preservation procedure. The chapter verifier now rejects added/updated events with
+  absent or retired category links, accepting either endpoint direction; regression
+  coverage tests both cases. Backfilled 15 event identities into the chronological
+  Chapters 1–15 rebuild, retaining original objects, summaries and live hashes.
+  Source XHTML was unavailable; the durable `book1/rebuild/event-review.md` limits
+  coverage to chapter-marked archived evidence. All 31 targeted tests pass. Fully
+  absorbed into the skill, verifier, regression checks and event audit.
+
+- 2026-11-02: Post-Ch15 skill review — Breca’s unfulfilled swordcraft request and
+  Mord’s revenge vow were caught only in the final lifecycle pass. Added a pre-spec
+  question/goal draft to the existing thread-review record, explicitly covering quiet
+  requests, vows and agreed plans. Summary identity review had required a one-off
+  matcher script despite verifier success; added `--review-summary` to print each
+  distinct emphasized term’s resolved label/id, documented it in live and rebuild
+  commands, and added regression coverage distinguishing Froa from Froa-espíritu.
+  Five verifier/launcher tests and Chapter 15 verification pass, including all 16
+  intended summary identities and unchanged live hashes. Archived immediately because
+  both fixes are fully absorbed into the skill and verifier.
+
 - 2026-11-02: Post-Ch12 skill review — collecting every POV's TRAMA and star backlog
   required an ad hoc query whose first attempt used `nodesBook1` instead of Book One's
   `nodes`. Added `read-backlog.cjs BOOK PAGE`, available through the rebuild launcher,
