@@ -259,12 +259,19 @@ to create a thread once or to pass the JavaScript verifier.
    understands prose states: `TRAMA` filters by kind, and source clue-board entries start
    as `unreviewed`; saved board states are separate browser data. Do not alter the user's
    board notes or claim their saved statuses changed merely by editing node text.
-8. **Record a completion gate result.** In `thread-review.md` beside the run's `baseline/`,
-   list every prior open/partial thread and unresolved/unclassified clue by stable id
-   (identify a `star`
-   clue by its owning node and source marker), its outcome, evidence chapter, remaining
-   question, and any new/changed links. Include new items, closures and POV coverage.
-   Unchanged items may use a compact list. Record `Thread lifecycle review: PASS` only
+8. **Record a completion gate result.** Keep `thread-review.md` and the generated
+   `thread-checklist.json` beside the run's `baseline/`. Prefer the checklist as the
+   complete per-id review record: each prior or new candidate needs its outcome,
+   item-specific evidence chapter/reason, and remaining question. For a multi-clue
+   `star`, identify and assess each clue by source marker in that row's `evidence`,
+   or reference its explicit discussion in `thread-review.md`.
+   In `thread-review.md`, name the companion checklist and summarize new evidence,
+   closures, any new/changed links, and coverage across all POVs. Do not duplicate
+   every completed checklist row into Markdown; unchanged items can remain solely
+   in their individually assessed rows. Grouped prose remains valid when each row
+   points to its applicable assessment. Both files form the review record, not a
+   substitute for reading the complete backlog or persisting developments in the archive.
+   Record `Thread lifecycle review: PASS` only
    when all items are accounted for and all required archive updates are complete.
    Review new evidence and all closure decisions semantically, then run normal checks.
    After applying or revising chapter data, sync the checklist before completing its

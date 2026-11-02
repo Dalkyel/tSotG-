@@ -70,6 +70,12 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   Match the full chapter entity list against the staged inventory first. Query the
   reference only for identities still unresolved there; repeating already-confirmed
   names adds irrelevant later labels and spoiler-bearing event titles to the output.
+  Stop reference retrieval once the current chapter and a distinctive matching label
+  establish the canonical identity. Do not search the reference event for a proposed
+  summary verb or a character's own profile for its name merely to reconfirm that match;
+  neither is guaranteed to occur in its description. Reference prose is for unresolved
+  identity distinctions, while the current chapter supplies the facts to write. This
+  does not replace the full latest-entry read for any staged entity being updated.
   To check whether a newly needed event has a canonical ID, match its distinctive
   named venue or object as well as its action, trying the confirmed canonical/translated
   venue label before broadening. A guessed title such as `Combate con Drekr` can miss

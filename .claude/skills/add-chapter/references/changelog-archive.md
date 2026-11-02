@@ -1,5 +1,16 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch45 skill review — the run individually assessed 115 checklist
+  candidates, then copied every row into Markdown as well. The thread gate now makes
+  the companion checklist the preferred complete per-id record, with a shorter
+  `thread-review.md` covering new evidence, closures, link changes and all POVs.
+  Full backlog reading, item-specific assessments, archive updates, sync/check and
+  PASS remain required. Two additional reference searches (a confirmed event for
+  `rechaza`, and a confirmed character profile for its own name) returned no useful
+  evidence; the rebuild workflow now stops retrieval after identity is established
+  and reserves reference prose for unresolved distinctions. Fully absorbed into
+  the workflow references; archived immediately.
+
 - 2026-11-02: Post-Ch44 skill review — the camp-conversation EVENTO initially omitted
   Ilmur's naming although his profile and the summary captured it; fixed through
   manifest replacement after the regression suite had already passed, then reran
