@@ -281,33 +281,50 @@ If a read is truncated, retrieve the omitted sections before proceeding.
      exiting, so a malformed result fails loudly instead of landing silently. This is why
      the risk below was never fixable by a "be more careful" rule — only by removing the
      retyping step entirely.
-   - For a chapter touching more than a handful of ids, write one small Node script that
-     builds every spec as a plain JS object literal (Spanish prose with «guillemets»,
-     em dashes and accents needs no escaping there) and writes each with
-     `fs.writeFileSync(path, JSON.stringify(spec, null, 2))`, instead of hand-escaping
-     each one into a shell `echo '...' > spec.json` heredoc. Then loop `append-node.cjs`
-     once per id against the generated files. This removes the actual risk of a shell
-     mis-escaping a quote or em dash inside long prose, not just the risk the appender
-     already removes (retyping the baseline). After such a loop, output-condensation can
-     elide an individual call's "OK: ..." line without flagging it as an error — confirm
-     every id actually landed, and that none duplicated. Do not use a bare
-     `grep -c "id: \"ID\""`: `book{N}/nodes.js` mixes two serialization styles —
-     older entries stored as compact single-line JSON (`{"id":"x","label":...}`,
-     no space after the colon) alongside the spaced JS-literal style `append-node.cjs`
-     itself writes (`id: "x", label: ...`). A grep tuned to one style silently
-     undercounts the other: in a Book 1 rebuild Chapter 21 run, `grep -c "id: \"ID\""`
-     reported 0 "before" occurrences for two ids (`pasado-elvar`, `berak-venta`) that
-     were in fact long-existing nodes stored in the compact style, which would have
-     looked like a real append failure — or masked a real duplicate — had it been
-     trusted. Count by parsing the array instead, which is immune to formatting style:
-     ```sh
-     node -e 'const fs=require("fs");
-       const f="book{N}/nodes.js";
-       const arr=new Function(fs.readFileSync(f,"utf8")+"; return nodes;")();
-       for (const id of ["id1","id2"]) console.log(id, arr.filter(n=>n.id===id).length);'
+   - **For a whole chapter, prefer the batch appender** instead of writing a temporary
+     script to loop over helpers and count revisions. Compose one JSON manifest beside
+     `baseline/`, using plain JS objects and `JSON.stringify` when generating Spanish
+     prose. Each node contains its `id` plus the same new/update fields documented above;
+     an update supplies only its new suffixes, never retyped baseline text:
+
+     ```json
+     {
+       "header": "// ── LIBRO 2, CAPÍTULO 42 — BIÓRR ──",
+       "nodes": [
+         {"id":"biorr", "mode":"update", "descAppend":"LIBRO 2, CAPÍTULO 42: ...",
+          "previousState":"Descripción breve del cambio."}
+       ],
+       "links": [
+         {"source":"biorr", "target":"elvar", "label":"habla con", "type":"rel"}
+       ],
+       "summary": {"chapter":42, "title":"Capítulo 42 — Biórr", "summary":"..."}
+     }
      ```
-     Compare each count against the same check run against the pre-edit baseline
-     (expect baseline+1), plus a final `node --check` on the file.
+
+     ```sh
+     node .claude/skills/add-chapter/scripts/append-chapter.cjs 2 42 "$chapter_baseline" "$chapter_run/chapter.json"
+     # Book One rebuild: implicit book 1; use the staged baseline
+     node .claude/skills/add-chapter/scripts/rebuild.cjs append-chapter 42 "$chapter_baseline" "$chapter_run/chapter.json"
+     ```
+
+     `nodes` and `links` may be empty arrays; `summary` is exactly one entry for the
+     requested chapter. Put the optional section `header` only at the manifest level.
+     The helper requires the current book's files to match the pre-edit baseline exactly,
+     prepares all additions in a scratch archive through the existing appenders, checks
+     every supplied id has exactly one extra revision, and runs the normal chapter
+     verifier before publishing. Invalid specs, endpoints, summary mentions or event
+     connections leave the archive unchanged. An already-applied batch is rejected
+     against the old baseline; inspect existing work instead of recapturing a baseline
+     and appending it again. It checks for intervening archive edits before publishing
+     and restores files on a caught write error; the three-file write is not a
+     crash-atomic filesystem transaction.
+
+     The rebuild launcher checks live hashes and supplies staged mention matching.
+     Live calls use live guides by default. The batch does not write review records,
+     update README/progress, or waive any source, ownership, event or thread review.
+     Continue with the normal verifier review options and all three semantic gates.
+     Keep the individual appenders for targeted work; if using a manual loop, confirm
+     counts by parsing arrays (baseline + 1 per id), never formatting-sensitive grep.
    - When correcting entries appended in the current run, do not guess their source
      formatting: `append-entries.cjs` writes compact JSON links, while
      `append-node.cjs` writes spaced JS literals. A string replacement using the wrong

@@ -1,5 +1,16 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch32 skill review — applying 17 node specs, links and a summary
+  required another temporary Node loop and a separate parsed-count script. Added
+  `append-chapter.cjs BOOK CHAPTER BASELINE SPEC` with a single manifest, scratch
+  preparation through the existing appenders, per-id count checks, normal verification
+  before publishing, stale-baseline/retry rejection, and restoration on caught write
+  errors. The rebuild launcher resolves both paths, checks live hashes and supplies
+  staged mention matching. Semantic review and progress updates remain separate.
+  Tests cover preservation, late failures, verification failures, retries, later books,
+  empty changes and staged/reference isolation. Fully absorbed into the helper and
+  skill; archived immediately.
+
 - 2026-11-02: Book One Ch30 — inventory matching accepted `Svik` as a candidate
   for `svik`, but the staged summary matcher rejected that short name because the
   canonical label is `Svik Hrulfsson` and no short-name guide alias is loaded.

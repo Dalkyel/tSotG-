@@ -35,6 +35,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   node .claude/skills/add-chapter/scripts/rebuild.cjs --reference match-entities Leif Orl
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-latest 1 varg einar
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-backlog 1
+  node .claude/skills/add-chapter/scripts/rebuild.cjs append-chapter 4 /absolute/baseline /absolute/scratch/chapter.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-node varg /absolute/scratch/spec.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-entries links /absolute/scratch/links.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-entries summaries /absolute/scratch/summaries.json
@@ -45,7 +46,8 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   The `1` after `read-latest`, `read-backlog`, or `read-links` is a page number, not a
   book cap — the launcher already supplies book `1` implicitly, so passing a book
   argument before the page number (as the live-workflow `read-links.cjs` signature
-  requires) raises `Unknown ids: 1`. Spec/baseline paths are resolved against
+  requires) raises `Unknown ids: 1`. Batch arguments are `append-chapter CHAPTER BASELINE SPEC`; all three data
+  files must still match that pre-edit baseline. Spec/baseline paths are resolved against
   the caller's directory before launching. If calling from elsewhere, use the absolute
   launcher path; do not change directory for individual helpers. Read/update progress
   and README using absolute paths derived from the captured project root.
@@ -68,7 +70,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 - For rebuild regression checks, use the existing test filenames explicitly:
 
   ```sh
-  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs tests/chapter-appender.test.cjs
+  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs tests/chapter-appender.test.cjs tests/chapter-batch.test.cjs
   ```
 
   Confirm the output includes the `chapter verifier` tests, including the summary identity

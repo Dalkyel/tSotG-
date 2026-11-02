@@ -11,7 +11,7 @@ const reference = args[0] === '--reference';
 if (reference) args.shift();
 const helper = args.shift();
 const readers = ['check-chapter', 'match-entities', 'search-descriptions', 'read-latest', 'read-links', 'read-backlog'];
-const allowed = reference ? readers : [...readers, 'append-node', 'append-entries', 'verify-chapter'];
+const allowed = reference ? readers : [...readers, 'append-node', 'append-entries', 'append-chapter', 'verify-chapter'];
 if (!allowed.includes(helper)) {
   console.error(`Usage: node rebuild.cjs [--reference] HELPER ARGS… (Book 1 is implicit).\nAllowed helpers: ${allowed.join(', ')}. Reference writes are forbidden.`);
   process.exit(1);
@@ -19,10 +19,11 @@ if (!allowed.includes(helper)) {
 
 // Resolve file arguments before the child changes directory. Existing readers use
 // only names/ids/page numbers; writer/verifier paths are relative to the caller.
-const fileArg = ['append-node', 'append-entries', 'verify-chapter'].includes(helper) ? 1 : -1;
-if (fileArg >= 0 && args[fileArg]) args[fileArg] = path.resolve(args[fileArg]);
+const fileArgs = helper === 'append-chapter' ? [1, 2]
+  : ['append-node', 'append-entries', 'verify-chapter'].includes(helper) ? [1] : [];
+for (const index of fileArgs) if (args[index]) args[index] = path.resolve(args[index]);
 const cwd = path.join(root, 'book1/rebuild', reference ? 'reference' : '');
-if (helper === 'verify-chapter') {
+if (['verify-chapter', 'append-chapter'].includes(helper)) {
   // A staged PASS must also establish that the live archive was left intact.
   try {
     const { liveHashes } = JSON.parse(fs.readFileSync(path.join(cwd, 'progress.json'), 'utf8'));
