@@ -158,7 +158,13 @@ already handle themselves.
    hub and pulls its own large history. When the only question is whether one *specific*
    pairing already has a link (e.g. "has Elvar ever hired the Bloodsworn before"), skip
    the tool and `grep` the current book's links file for both ids together instead —
-   it's a single bounded check, not a relationship review.
+   it's a single bounded check, not a relationship review. This still holds when there are
+   *several* specific pairings to check in the same chapter (e.g. confirming six different
+   pairs have no prior link before adding six new ones): run one targeted `grep` per pair,
+   never batch every id involved into one `read-links.cjs` call "for efficiency" — batching
+   returns the union of each id's entire history, not just links between the pairs you
+   asked about, so it costs more than the pair-by-pair greps it was meant to save (263+
+   stored links and several pages of irrelevant Book 1 history, in one observed case).
    Read every entity you will update in full before editing; excerpts never replace that
    requirement. Keep unrelated long histories out of the same paginated batch so a small
    context check does not force reading several unnecessary pages.

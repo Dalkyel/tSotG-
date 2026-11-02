@@ -3378,4 +3378,42 @@ const linksBook2 = [
     label: "cuesta la vida a",
     type: "event"
 },
+
+// LIBRO 2, CAPÍTULO 49 — ELVAR
+{
+    source: "elvar",
+    target: "orka",
+    label: "se despide de en el granero de Starl y le transmite el mensaje de Ulfrir",
+    type: "rel"
+},
+{
+    source: "ulfrir",
+    target: "orka",
+    label: "envía mensaje de despedida por medio de Elvar — \"buena caza, volveré a verte\"",
+    type: "rel"
+},
+{
+    source: "grend",
+    target: "orka",
+    label: "percibe como peligrosa — \"el olor de la muerte\"",
+    type: "rel"
+},
+{
+    source: "sighvat",
+    target: "halja-vali",
+    label: "propone un último \"revolcón\" de despedida y recibe una burla a cambio",
+    type: "rel"
+},
+{
+    source: "elvar",
+    target: "snakavik",
+    label: "parte de Starl en el Wave-Jarl de vuelta a, y a su padre",
+    type: "goal"
+},
+{
+    source: "wave-jarl",
+    target: "rio-hvita",
+    label: "zarpa de Starl rumbo a",
+    type: "geo"
+},
 ];

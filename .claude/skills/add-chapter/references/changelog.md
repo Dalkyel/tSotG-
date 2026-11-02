@@ -43,3 +43,25 @@ actually fixed.
   the decision order explicit instead of requiring all seven to be held in mind at once.
   The Ch48/Gudrun entry this generalizes from is now archived — its fix is fully present
   in step 2c.
+- 2026-11-02: Book 2 Ch49 — appending the new link/summary section to the tail of
+  `links.js` and `summaries.js` via `Edit`, an `old_string` built from the last entry's
+  closing `},\n];` (copied at the same 4-space indent used by every other entry in the
+  file) failed to match twice in a row with no visible reason in the Read output. A
+  `python3` byte-level read of the file tail showed the actual closing brace before the
+  final `];` had *zero* leading spaces — an inconsistency from how an earlier chapter was
+  appended, invisible in Read's line-numbered rendering because the gap is only one
+  tab-stop wide. Fixed by shortening `old_string` to the last few words of the summary
+  text plus the literal `},\n];` with no assumed indentation. Lesson: when an `Edit` on
+  `nodes.js`/`links.js`/`summaries.js` fails to match purely at the file's closing
+  `},\n];`, don't retry with a guessed indent — drop the leading whitespace from
+  `old_string` entirely (anchor on content, not on brace indentation) rather than
+  spending a second failed attempt.
+- 2026-11-02: Book 2 Ch49 — needed to confirm six specific relationship pairs (e.g.
+  ulfrir↔orka, sighvat↔halja-vali) had no existing link before adding new ones. Reasoned
+  that batching all seven involved ids into one `read-links.cjs` call would be more
+  efficient than six separate `grep` checks — it returned 268 stored links across 5 pages
+  (mostly irrelevant book1 history pulled in via the two hub ids `elvar`/`orka`), only one
+  page of which was ever read before abandoning it for the `grep`-per-pair approach the
+  skill already prescribed for a single pairing. Generalized that existing rule in
+  SKILL.md step 3 to cover checking several pairs, not just one, so the same
+  batching-looks-efficient reasoning doesn't recur.
