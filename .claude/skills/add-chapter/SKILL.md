@@ -167,6 +167,18 @@ If a read is truncated, retrieve the omitted sections before proceeding.
    archive may retain historical combined ids; reconcile their endpoints during final
    migration rather than copying them into the rebuild.
 
+   A third case: a recurring character already tracked anonymously (e.g. "la esclava de
+   Sigrún", present across several earlier chapters only inside *other* entities' own
+   desc text) finally gets a name. Mint the new id and, in its own desc, cross-reference
+   the earlier anonymous appearances by chapter number and the ids whose descriptions
+   carried them (e.g. "antes identificada solo como «la esclava de Sigrún» en los
+   capítulos 10, 12 y 15; véanse sigrun y holmganga-event"). Do not retrofit the name
+   into those earlier chapters' own accumulated entries — their text was accurate at the
+   time it was written, and editing it would rewrite history the full-overwrite rule
+   exists to preserve. (Vafri, Book 1 Chapter 22: tracked anonymously as Sigrún's thrall
+   since Chapter 10, named only on death; the new `vafri` node carries the backward
+   cross-reference, and `sigrun`/`mord`/`virk`'s own historical entries were left as-is.)
+
    Mechanics that apply throughout **a**–**d**: a compact inventory or excerpt list can
    still truncate when returned alongside whole files — budget the **combined** output of
    batched calls. Read chapter text and selected full entries in separate, bounded
