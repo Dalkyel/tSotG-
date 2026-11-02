@@ -1,5 +1,14 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch33 skill review — the initial full skill/other-skill dump
+  truncated, the rebuild routing's "instead of this file" obscured which shared gates
+  still applied, a generated 95-row backlog assessment defaulted most candidates to
+  identical "unchanged" boilerplate, and a collateral reference event match led to an
+  unnecessary full read of later combat. Added an upfront bounded reading/index command,
+  clarified shared versus rebuild procedures, required pending assessment templates and
+  item-specific clue classification, and bounded collateral reference-event inspection.
+  These changes are fully absorbed in SKILL.md and book1-rebuild.md; archived immediately.
+
 - 2026-11-02: Post-Ch32 skill review — applying 17 node specs, links and a summary
   required another temporary Node loop and a separate parsed-count script. Added
   `append-chapter.cjs BOOK CHAPTER BASELINE SPEC` with a single manifest, scratch

@@ -12,6 +12,19 @@ description: >
 
 # Adding a chapter to the Bloodsworn mind map
 
+Start with the routing and section index, not a full-file dump:
+
+```sh
+sed -n '1,90p' .claude/skills/add-chapter/SKILL.md
+rg -n '^## ' .claude/skills/add-chapter/SKILL.md
+```
+
+Then read the applicable sections in bounded responses: source/entity workflow,
+all three hard gates, baseline capture, node/link/summary format, and verification.
+Read later-book and new-book sections only when those operations apply. Read other
+skills and mode-specific references in separate responses; a combined dump can truncate
+even when each file would fit alone. Retrieve any omitted content before proceeding.
+
 This project tracks characters, places, events, and lore across the Bloodsworn Saga
 trilogy in a D3 mind map (`index.html`). Normal sessions append to the current book's
 own folder. `data-core.js` merges the full archive in book/array order: the latest
@@ -21,9 +34,10 @@ source inspection; this is not a display restriction.
 
 ## Authorized Book One rebuild
 
-A separate, parallel effort (`book1/rebuild/`) with its own procedure — read
-[references/book1-rebuild.md](references/book1-rebuild.md) instead of this file when the
-user is actively continuing that rebuild. For a Book One request, first check whether
+A separate, parallel effort (`book1/rebuild/`) has its own routing, paths and completion
+procedure in [references/book1-rebuild.md](references/book1-rebuild.md). It replaces
+the live commands below, while the shared source/entity workflow, formats, three hard
+gates and review requirements still apply. For a Book One request, first check whether
 `book1/rebuild/progress.json` exists and records an incomplete rebuild. If it does,
 continue that rebuild by default, including for an ordinary "add chapter N" request,
 unless the user explicitly selects the live archive. Read the rebuild procedure before
@@ -46,10 +60,6 @@ absolute project root for source, progress and README paths.
   net-new characters it introduces as nodes if the user asks.
 
 ## Before writing anything
-
-Read this skill in bounded sections and read mode-specific references separately;
-do not combine the full skill, another skill and rebuild instructions in one response.
-If a read is truncated, retrieve the omitted sections before proceeding.
 
 1. Identify which book and chapter number this is, or confirm this is reference material
    rather than a chapter (ask the user if it's ambiguous).
@@ -583,6 +593,13 @@ to create a thread once or to pass the JavaScript verifier.
    If one item bundles several questions, distinguish their outcomes and keep the
    unanswered remainder open. For example, learning why Varg wants an akáll answers
    its purpose, but does not mean the invocation has occurred or his revenge is complete.
+   A generated checklist may enumerate ids, but leave its assessment fields pending
+   until reviewed; do not prefill every row with a generic "unchanged" verdict. For a
+   `star` containing several clues, identify each unresolved observation by its source
+   marker or a short quotation/paraphrase. Classify thematic notes and closed history
+   separately from unresolved questions. Unchanged items may share a compact assessment
+   when it names the actual pending questions and explains why this chapter leaves them
+   unchanged; repeating the same boilerplate for every candidate is not that assessment.
 5. **Close only on source evidence.** Record the actual answer/payoff, the exact resolving
    book/chapter and the evidence that establishes it. A character's guess, reader theory,
    suggestive parallel, destination announcement or promised action is not completion.

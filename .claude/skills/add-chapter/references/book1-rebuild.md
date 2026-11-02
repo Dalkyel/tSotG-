@@ -59,6 +59,13 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   Match the full chapter entity list against the staged inventory first. Query the
   reference only for identities still unresolved there; repeating already-confirmed
   names adds irrelevant later labels and spoiler-bearing event titles to the output.
+  A reference matcher can also return a later event because its title contains a place
+  or character name. That collateral hit is not a reason to read its full future scene:
+  use the place/person identity confirmed by the match and the current chapter's action
+  to decide what belongs in this run. If two events genuinely might be the same, retrieve
+  bounded description excerpts for the specific distinguishing action before considering
+  a full reference entry. In Chapter 33, locating the tavern and freeing children outside
+  it did not require reading the reference account of the later interior combat.
 - Snapshot the staged three files into a unique temporary baseline before each chapter.
   Verify with `rebuild.cjs verify-chapter CHAPTER BASELINE --review-links --review-summary`.
   It requires the same append/preservation checks as the live workflow. The launcher
