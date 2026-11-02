@@ -98,6 +98,13 @@ source reading, identity resolution and accumulation requirements still apply.
    evidence suggests a different entity lost a fact. If output is truncated, narrow or
    paginate before concluding a name is absent.
 
+   For identity checks needing only a small excerpt, `--max-excerpts N` limits output
+   per selected id and explicitly counts omitted excerpts. It requires `--id`; the
+   default remains unlimited and paginated. For example, append `--max-excerpts 1`
+   to a targeted `--id skalk` search. A limited result is not a full-entry read
+   or proof that later evidence is absent. Remove or raise the limit when the first
+   excerpt does not settle the identity; use `read-latest` before updating an entity.
+
    **c. Still unmatched? Don't trust a hand grep — re-run the matcher.** A name found only
    *inside another entity's own description* (via step **b**) can still have its own node
    that step **b**'s text search couldn't surface, because a node's own `desc` rarely

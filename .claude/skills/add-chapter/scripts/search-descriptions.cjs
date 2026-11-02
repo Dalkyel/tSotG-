@@ -7,9 +7,20 @@ const [bookArg, pageArg, name, ...options] = process.argv.slice(2);
 const book = Number(bookArg), page = Number(pageArg);
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page >= 1 && name &&
   options.length % 2 === 0 && options.every((value, index) =>
-    index % 2 === 0 ? value === '--id' : value && !value.startsWith('--')),
-  'Usage: node .claude/skills/add-chapter/scripts/search-descriptions.cjs BOOK PAGE NAME [--id ID ...]');
-const selectedIds = new Set(options.filter((_, index) => index % 2 === 1));
+    index % 2 === 0 ? ['--id', '--max-excerpts'].includes(value) : value && !value.startsWith('--')),
+  'Usage: node .claude/skills/add-chapter/scripts/search-descriptions.cjs BOOK PAGE NAME [--id ID ...] [--max-excerpts N]');
+const selectedIds = new Set();
+let maxExcerpts = Infinity;
+for (let index = 0; index < options.length; index += 2) {
+  if (options[index] === '--id') selectedIds.add(options[index + 1]);
+  else {
+    assert.equal(maxExcerpts, Infinity, '--max-excerpts may be supplied only once');
+    maxExcerpts = Number(options[index + 1]);
+    assert.ok(Number.isSafeInteger(maxExcerpts) && maxExcerpts > 0,
+      '--max-excerpts must be a positive integer');
+  }
+}
+assert.ok(maxExcerpts === Infinity || selectedIds.size, '--max-excerpts requires --id');
 const latest = new Map(), history = [];
 for (let b = 1; b <= book; b++) {
   const file = `book${b}/nodes.js`;
@@ -33,8 +44,9 @@ if (!results.length) {
   mode = 'historical fallback (no latest-entry matches)';
 }
 const lines = [];
-if (options.length) {
+if (selectedIds.size) {
   const seenById = new Map();
+  const omittedById = new Map();
   for (const id of selectedIds) assert.ok(latest.has(id), `Unknown id: ${id}`);
   for (const { file, node, hits } of results.filter(result => selectedIds.has(result.node.id))) {
     const id = node.id;
@@ -46,11 +58,17 @@ if (options.length) {
       const excerpt = node.desc.slice(Math.max(0, hit.index - 100), hit.index + hit[0].length + 240);
       if (seen.has(excerpt)) continue;
       seen.add(excerpt);
+      if (seen.size > maxExcerpts) {
+        omittedById.set(id, (omittedById.get(id) || 0) + 1);
+        continue;
+      }
       const marker = chapterMarkers.filter(m => m.index <= hit.index).pop();
       const tag = marker ? `[${marker.text}] ` : '[no chapter marker found before this excerpt] ';
       lines.push(`${id} | ${file} | ${tag}${JSON.stringify(excerpt)}`);
     }
   }
+  for (const [id, count] of omittedById)
+    lines.push(`${id} | OMITTED: ${count} additional excerpts (--max-excerpts ${maxExcerpts} per id). Remove or raise the limit to inspect them; this is not a full-entry read.`);
 } else {
   const candidates = new Map();
   for (const { file, node, hits } of results) {
@@ -66,7 +84,7 @@ if (options.length) {
 const payload = lines.join('\n') || 'NO MATCHES';
 const pageSize = 8000, pages = Math.ceil(payload.length / pageSize);
 assert.ok(page <= pages, `Requested page ${page}; only ${pages} pages available`);
-console.log(`${JSON.stringify(name)}; ${mode}; ${options.length ? 'excerpts for ' + [...selectedIds].join(', ') : 'candidate list'}.`);
+console.log(`${JSON.stringify(name)}; ${mode}; ${selectedIds.size ? 'excerpts for ' + [...selectedIds].join(', ') : 'candidate list'}.`);
 console.log(`Page ${page}/${pages}; ${payload.length} total characters.`);
 console.log(payload.slice((page - 1) * pageSize, page * pageSize));
 console.log(page < pages ? `CONTINUES: read page ${page + 1} with the same arguments.` : 'END: all results displayed.');

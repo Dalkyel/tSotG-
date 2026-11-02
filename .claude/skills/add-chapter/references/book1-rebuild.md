@@ -15,7 +15,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 - Read `book1/rebuild/progress.json` first. Continue in chapter order; inspect existing
   work rather than duplicating a completed chapter. Read source XHTML from the project
   root with `read-chapter.py`, just as for HTML.
-- Before starting a new chapter, confirm `README.md`'s chronological log already has a
+- Before starting a new chapter, confirm `book1/rebuild/README.md`'s chronological log already has a
   paragraph for every chapter number in `progress.json`'s `completedChapters` — the two
   can drift silently, since nothing re-checks README once a chapter's gates pass and its
   number is recorded (Chapter 18 was found fully gated, verified and committed to
@@ -77,6 +77,12 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   bounded description excerpts for the specific distinguishing action before considering
   a full reference entry. In Chapter 33, locating the tavern and freeing children outside
   it did not require reading the reference account of the later interior combat.
+  For these reference identity checks, use the distinguishing action phrase with
+  `--id ID --max-excerpts 1` first. Searching an actor's name inside their own long
+  profile can return overlapping excerpts from many later scenes. The limit reports
+  omissions explicitly; expand it only if the identity remains uncertain. It bounds
+  output, not chronology, so even the first excerpt may contain later facts and must
+  not become chapter evidence.
 - Snapshot the staged three files into a unique temporary baseline before each chapter.
   Verify with `rebuild.cjs verify-chapter CHAPTER BASELINE --review-links --review-summary`.
   It requires the same append/preservation checks as the live workflow. The launcher
@@ -88,7 +94,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 - For rebuild regression checks, use the existing test filenames explicitly:
 
   ```sh
-  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs tests/chapter-appender.test.cjs tests/chapter-batch.test.cjs tests/rebuild-completion.test.cjs
+  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs tests/chapter-appender.test.cjs tests/chapter-batch.test.cjs tests/rebuild-completion.test.cjs tests/description-search.test.cjs
   ```
 
   Confirm the output includes the `chapter verifier` tests, including the summary identity

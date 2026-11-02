@@ -520,3 +520,7 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   post-edit value assertions to SKILL.md. Fully incorporated; no unresolved data issue.
 
 - 2026-11-02: Book One rebuild Ch31 — added event connections exposed Virk’s legacy occupation-only type: the relationship viewer classified him as lore, pushing the father outside Mord’s first twelve neighbors. The existing family regression test caught it. Added Virk’s recalled maxim and normalized his current revision to `Personaje — Pescador fallecido`; all 38 targeted tests pass. The node-type rule is fully absorbed in SKILL.md.
+
+- 2026-11-02: Book 1 rebuild Ch36 — the preflight attempted the absent project-root README. The rebuild procedure now explicitly names `book1/rebuild/README.md` for its chronological-log check.
+
+- 2026-11-02: Book 1 rebuild Ch36 follow-up — reference identity checks returned repeated excerpts and later scenes when searching actor names inside long profiles. Added optional `search-descriptions.cjs --max-excerpts N` per selected id, explicit omitted-excerpt counts, and argument validation; unlimited paginated reads remain the default. The source/entity and rebuild references document distinguishing-action queries, expansion when identity remains uncertain, and the fact that output limits do not impose a chapter cap or replace full-entry reads. Three search regression tests cover per-id limits, default output, Unicode boundaries, historical fallback and invalid options; the rebuild test command includes them.
