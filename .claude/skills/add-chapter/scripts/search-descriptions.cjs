@@ -40,11 +40,15 @@ if (options.length) {
     const id = node.id;
     if (!seenById.has(id)) seenById.set(id, new Set());
     const seen = seenById.get(id);
+    const chapterMarkers = [...node.desc.matchAll(/LIBRO\s*\d+,\s*CAP[IÍ]TULO\s*\d+[^:]*:/gi)]
+      .map(m => ({ index: m.index, text: m[0] }));
     for (const hit of hits) {
       const excerpt = node.desc.slice(Math.max(0, hit.index - 100), hit.index + hit[0].length + 240);
       if (seen.has(excerpt)) continue;
       seen.add(excerpt);
-      lines.push(`${id} | ${file} | ${JSON.stringify(excerpt)}`);
+      const marker = chapterMarkers.filter(m => m.index <= hit.index).pop();
+      const tag = marker ? `[${marker.text}] ` : '[no chapter marker found before this excerpt] ';
+      lines.push(`${id} | ${file} | ${tag}${JSON.stringify(excerpt)}`);
     }
   }
 } else {

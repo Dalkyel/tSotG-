@@ -3416,4 +3416,24 @@ const linksBook2 = [
     label: "zarpa de Starl rumbo a",
     type: "geo"
 },
+
+// LIBRO 2, CAPÍTULO 50 — ORKA
+{
+    source: "ulfrir",
+    target: "orka",
+    label: "habla directamente en su mente con una profecía de guerra — \"una era de lobos y de espadas\"",
+    type: "magic"
+},
+{
+    source: "spert",
+    target: "likrafa",
+    label: "resiste la llamada nocturna de",
+    type: "conflict"
+},
+{
+    source: "vesli",
+    target: "likrafa",
+    label: "resiste la llamada nocturna de",
+    type: "conflict"
+},
 ];

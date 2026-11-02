@@ -65,3 +65,22 @@ actually fixed.
   skill already prescribed for a single pairing. Generalized that existing rule in
   SKILL.md step 3 to cover checking several pairs, not just one, so the same
   batching-looks-efficient reasoning doesn't recur.
+- 2026-11-02: Book 2 Ch50 — two causes of friction, both fixed directly:
+  (1) An `Edit` on `links.js`'s closing `},\n];`, with `old_string` typed from a Bash
+  `tail -40` view of the file, failed to match. The actual file used double-quoted keys
+  (`source: "wave-jarl"`); the Bash output had rendered it with single quotes. This
+  environment's command-output condensation layer can silently normalize cosmetic
+  details like quote style when printing `Bash` output — it is not a byte-exact view of
+  the file. Fixed by re-reading the same tail with `Read` (which is byte-exact) before
+  retrying the `Edit`. Lesson, generalizing beyond the existing indentation-mismatch
+  entry already archived from Ch49: before any `Edit` whose `old_string` is the literal
+  closing lines of `nodes.js`/`links.js`/`summaries.js`, get that `old_string` from `Read`,
+  never from `Bash cat`/`tail` output, in this environment.
+  (2) Needed the chapter number behind a `search-descriptions.cjs` excerpt (to cite it
+  accurately in a new node append) and reached for a one-off inline `node -e` script using
+  `matchAll` + `console.log` of the match object — which prints the regex match's `input`
+  property, i.e. the *entire* searched string (2MB+), not just the match. Fixed at the
+  tool level instead of noting it as a one-off mistake: `search-descriptions.cjs` now
+  finds the nearest preceding `LIBRO N, CAPÍTULO M` marker inside each matched entity's own
+  `desc` and prefixes every excerpt with it, so this lookup never needs a hand-rolled
+  script again.
