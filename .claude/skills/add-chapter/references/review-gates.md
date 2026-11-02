@@ -85,6 +85,11 @@ chores, repeated background facts and every individual blow do not need separate
   update its accumulated history rather than duplicating a duel, rescue or capture
   already represented there. A fact appearing only in a profile, place, summary or
   `TRAMA` node does not satisfy event coverage.
+  For a conversation containing several important revelations, check each against
+  the proposed event's actual text before applying the manifest. A shared scene title
+  or participant list does not capture an omitted revelation. Include connected
+  disclosures in that event rather than creating a separate event for each one;
+  this includes learning a previously unnamed recurring character's name.
 - When a chapter both resolves an existing pending EVENTO (a long-announced departure
   finally happening) and introduces new content in that same scene (the reason behind
   it), re-read the resolving EVENTO's final text and the new node's final text side by

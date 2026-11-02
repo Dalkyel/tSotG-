@@ -308,6 +308,12 @@ preview isolated from later-book data.
 
 ## Verification
 
+Use the chapter verifier and semantic reviews while refining the draft, then run
+the applicable regression suite once the content is settled. This avoids repeating
+the suite for a prose correction caught during review. After any subsequent edit,
+rerun the chapter verifier and affected reviews; repeat regression tests when the
+change affects behavior they cover or leaves a relevant concern unresolved.
+
 Run the bundled verifier from the project root, using the actual unique pre-edit
 baseline directory saved above (replace the numbers for the current book/chapter):
 

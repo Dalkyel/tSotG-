@@ -1,5 +1,15 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch44 skill review — the camp-conversation EVENTO initially omitted
+  Ilmur's naming although his profile and the summary captured it; fixed through
+  manifest replacement after the regression suite had already passed, then reran
+  the entire suite for the prose correction. The event gate now checks each important
+  disclosure against the shared event's actual text before applying the manifest.
+  Verification guidance now places regression tests after content review and limits
+  repeat runs to changes affecting covered behavior or unresolved concerns; chapter
+  verification and affected semantic reviews still follow every edit. Fully absorbed
+  into the event gate and main verification instructions; archived immediately.
+
 - 2026-11-02: Ch43 skill optimization — replaced manual addition of new checklist
   candidates with `review-backlog ... sync CHECKLIST.json`. It preserves existing
   notes and baseline-only clues, creates correctly shaped pending rows, and resets
