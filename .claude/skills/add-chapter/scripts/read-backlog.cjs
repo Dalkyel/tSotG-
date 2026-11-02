@@ -6,8 +6,9 @@ const assert = require('node:assert/strict');
 
 const [bookArg, pageArg, ...extra] = process.argv.slice(2);
 const book = Number(bookArg), page = Number(pageArg);
-assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page >= 1 && !extra.length,
-  'Usage: node .claude/skills/add-chapter/scripts/read-backlog.cjs BOOK PAGE');
+const indexOnly = extra.length === 1 && extra[0] === '--index';
+assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page >= 1 && (!extra.length || indexOnly),
+  'Usage: node .claude/skills/add-chapter/scripts/read-backlog.cjs BOOK PAGE [--index]');
 
 const latest = new Map();
 for (let b = 1; b <= book; b++) {
@@ -23,11 +24,15 @@ const candidates = [...latest.values()]
     ...(node.group === 'TRAMA' ? { desc: node.desc ?? '' } : {}),
     star: node.star ?? '',
   }));
-const payload = JSON.stringify(candidates, null, 2);
+const payload = indexOnly
+  ? candidates.map(node => `${node.id}${node.group === 'TRAMA' ? ' [TRAMA]' : ''}${node.star.trim() ? ' [star]' : ''}`).join('\n')
+  : JSON.stringify(candidates, null, 2);
 const pageSize = 8000, pages = Math.ceil(payload.length / pageSize);
-assert.ok(page <= pages, `Requested page ${page}; only ${pages} pages available`);
+const pageCount = Math.max(1, pages);
+assert.ok(page <= pageCount, `Requested page ${page}; only ${pageCount} pages available`);
 console.log(`Backlog review candidates through Book ${book}: ${candidates.length} latest entries (all TRAMA nodes and nonempty star fields, across all POVs).`);
-console.log(`Page ${page}/${pages}; ${payload.length} total characters.`);
+if (indexOnly) console.log('INDEX ONLY: candidate ids and evidence fields, not inferred states or a substitute for the full paginated review.');
+console.log(`Page ${page}/${pageCount}; ${payload.length} total characters.`);
 console.log(payload.slice((page - 1) * pageSize, page * pageSize));
-console.log(page < pages ? `CONTINUES: read page ${page + 1} with the same book.` : 'END: all review candidates displayed.');
+console.log(page < pageCount ? `CONTINUES: read page ${page + 1} with the same book${indexOnly ? ' and --index' : ''}.` : 'END: all review candidates displayed.');
 console.log('Includes closed history and thematic notes; classify manually. Non-TRAMA descriptions are omitted: use read-latest before updating and read-links for relevant relationships.');

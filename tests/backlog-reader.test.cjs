@@ -77,6 +77,41 @@ test('backlog reader paginates without losing long clues and rejects invalid pag
   assert.deepEqual(JSON.parse(pageText(run(root, 1, 1))), []);
 });
 
+test('backlog index uses the same latest candidates without exposing prose or inferring states', t => {
+  const root = fixture(t);
+  writeNodes(root, 1, [
+    { id: 'profile', group: 'ORKA', desc: 'private history', star: 'old observation' },
+    { id: 'profile', group: 'ORKA', star: 'latest observation' },
+    { id: 'closed', group: 'TRAMA', desc: 'ESTADO: RESUELTA', star: '' },
+    { id: 'both', group: 'TRAMA', desc: 'question', star: 'evidence' },
+    { id: 'theme', group: 'COSMO', star: 'unique thematic evidence' },
+    { id: 'plain', group: 'ORKA', star: '  ' },
+  ]);
+  writeNodes(root, 2, [{ id: 'profile', group: 'ORKA', star: '' }]);
+  const index = run(root, 1, 1, '--index');
+  assert.equal(pageText(index), 'profile [star]\nclosed [TRAMA]\nboth [TRAMA] [star]\ntheme [star]');
+  assert.doesNotMatch(index.stdout, /private history|old observation|latest observation|ESTADO: RESUELTA|unique thematic evidence/);
+  const full = JSON.parse(pageText(run(root, 1, 1)));
+  assert.deepEqual(pageText(index).split('\n').map(line => line.split(' ')[0]), full.map(n => n.id));
+  assert.doesNotMatch(pageText(run(root, 2, 1, '--index')), /profile/);
+  assert.notEqual(run(root, 1, 1, '--index', '--unknown').status, 0);
+  writeNodes(root, 1, []);
+  assert.equal(pageText(run(root, 1, 1, '--index')), '');
+
+  const many = Array.from({ length: 700 }, (_, i) => ({ id: `candidate-${i}`, group: 'TRAMA' }));
+  writeNodes(root, 1, many);
+  let payload = '';
+  let pages = 1;
+  for (let page = 1; page <= pages; page++) {
+    const result = run(root, 1, page, '--index');
+    pages = Number(result.stdout.match(/Page \d+\/(\d+)/)[1]);
+    payload += pageText(result);
+  }
+  assert.ok(pages > 1);
+  assert.equal(payload, many.map(n => `${n.id} [TRAMA]`).join('\n'));
+  assert.notEqual(run(root, 1, pages + 1, '--index').status, 0);
+});
+
 test('rebuild backlog dispatch stays isolated from live and reference archives', t => {
   const root = fixture(t);
   const targetScripts = path.join(root, '.claude/skills/add-chapter/scripts');
@@ -90,4 +125,8 @@ test('rebuild backlog dispatch stays isolated from live and reference archives',
     { cwd: os.tmpdir(), encoding: 'utf8' });
   assert.deepEqual(JSON.parse(pageText(result)).map(n => n.id), ['staged-clue']);
   assert.doesNotMatch(result.stdout, /live-spoiler|reference-spoiler/);
+  const index = spawnSync(process.execPath, [path.join(targetScripts, 'rebuild.cjs'), 'read-backlog', '1', '--index'],
+    { cwd: os.tmpdir(), encoding: 'utf8' });
+  assert.equal(pageText(index), 'staged-clue [TRAMA]');
+  assert.doesNotMatch(index.stdout, /live-spoiler|reference-spoiler|staged evidence/);
 });

@@ -162,6 +162,13 @@ to create a thread once or to pass the JavaScript verifier.
    and before updating its owner, and `read-links` for relevant relationships. This
    candidate list does not replace reviewing pending goals/clues found in those full
    entries or the new chapter.
+   After reading the full backlog, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
+   `rebuild.cjs read-backlog PAGE --index`) for a compact list of the same candidate ids,
+   marked `[TRAMA]` and/or `[star]`, when checking the final review record for omissions.
+   This avoids a one-off parser with guessed array names. The index includes closed
+   history and thematic notes, infers no states, and cannot replace the full review.
+   Any checklist made from it starts with pending assessments; classify each item
+   against the evidence before recording PASS.
    Inventory all open/partial threads and unresolved or not-yet-classified recorded clues,
    not just the current POV's named entities. Include `TRAMA` nodes and observations in
    `star` fields. Retain closed items as history; revisit them when new evidence bears
