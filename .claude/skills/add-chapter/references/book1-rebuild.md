@@ -90,6 +90,14 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   omissions explicitly; expand it only if the identity remains uncertain. It bounds
   output, not chronology, so even the first excerpt may contain later facts and must
   not become chapter evidence.
+- For a legacy combined character returned by reference matching, use its label and
+  the current chapter to establish membership first. If both identify the people
+  unambiguously, create separate staged IDs without reading the full reference profile.
+  If membership remains ambiguous, retrieve only the distinguishing name/kinship
+  excerpt with `--id ID --max-excerpts 1`. In Chapter 41, the label for `halja-vali`
+  and the chapter already established Halja and Vali as siblings; reading the full
+  reference entry unnecessarily exposed later battle casualties. Full latest-entry
+  reads remain mandatory for staged entities being updated, as in the shared workflow.
 - Snapshot the staged three files into a unique temporary baseline before each chapter.
   Verify with `rebuild.cjs verify-chapter CHAPTER BASELINE --review-links --review-summary`.
   It requires the same append/preservation checks as the live workflow. The launcher

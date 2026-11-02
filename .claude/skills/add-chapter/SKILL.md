@@ -43,7 +43,7 @@ gates and review requirements still apply. For a Book One request, first check w
 continue that rebuild by default, including for an ordinary "add chapter N" request,
 unless the user explicitly selects the live archive. Read the rebuild procedure before
 running preflight or editing data. Book Two requests use the live workflow. For staged
-runs, use `scripts/rebuild.cjs` as described in that procedure; it selects the staged or
+runs, use `.claude/skills/add-chapter/scripts/rebuild.cjs` as described in that procedure; it selects the staged or
 read-only reference archive without changing the caller's working directory. Capture the
 absolute project root for source, progress and README paths.
 

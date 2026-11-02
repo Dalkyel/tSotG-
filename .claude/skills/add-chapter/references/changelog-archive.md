@@ -1,5 +1,14 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch41 skill review — corrected the remaining abbreviated rebuild
+  launcher path in the main skill to `.claude/skills/add-chapter/scripts/rebuild.cjs`.
+  Added a reference-only combined-character lookup rule: a clear label plus current
+  source establishes membership without reading a whole future profile; ambiguous
+  membership uses a bounded name/kinship excerpt. The Ch41 full `halja-vali` read
+  exposed later casualties despite membership already being clear. Staged update
+  targets still require complete latest-entry reads. Both fixes are fully absorbed
+  into the entrypoint and rebuild reference; archived immediately.
+
 - 2026-11-02: Post-Ch40 skill review — reconciling 109 backlog candidates against
   grouped prose required manual ID bookkeeping. Added `review-backlog.cjs` to generate
   pending per-ID assessments and check coverage against both baseline and current
