@@ -15,9 +15,10 @@ function fixture(t) {
   const baseline = path.join(run, 'baseline');
   for (const dir of [scripts, path.join(stage, 'book1'), baseline, path.join(root, 'book2')])
     fs.mkdirSync(dir, { recursive: true });
-  for (const file of ['rebuild.cjs', 'finish-rebuild-chapter.cjs'])
+  for (const file of ['rebuild.cjs', 'finish-rebuild-chapter.cjs', 'check-rebuild-state.cjs'])
     fs.copyFileSync(path.resolve(__dirname, '../.claude/skills/add-chapter/scripts', file), path.join(scripts, file));
   fs.writeFileSync(path.join(scripts, 'verify-chapter.cjs'), 'console.log("VERIFIER-RAN");');
+  fs.writeFileSync(path.join(scripts, 'check-chapter.cjs'), 'console.log("PREFLIGHT-CHILD-RAN");');
   const liveHashes = {};
   for (const book of [1, 2]) for (const kind of ['nodes', 'links', 'summaries']) {
     const file = `book${book}/${kind}.js`;
@@ -40,6 +41,38 @@ function fixture(t) {
     invoke, finish: () => invoke('finish-chapter', '2', path.relative(root, baseline), path.relative(root, spec)),
     snapshot: () => [readmeFile, progressFile].map(file => fs.readFileSync(file, 'utf8')) };
 }
+
+test('rebuild preflight checks metadata before dispatch without dumping README prose', t => {
+  const f = fixture(t), before = f.snapshot();
+  const result = f.invoke('check-chapter', '2');
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /1 completed chapters.*next chapter: 2/);
+  assert.match(result.stdout, /PREFLIGHT-CHILD-RAN/);
+  assert.doesNotMatch(result.stdout, /Prior log/);
+  assert.deepEqual(f.snapshot(), before);
+  // Existing-chapter inspection remains possible; this is not a next-chapter gate.
+  assert.equal(f.invoke('check-chapter', '1').status, 0);
+  for (const [file, mutate] of [
+    [f.readmeFile, s => s.replace('Chapter 1: Prior log.', '')],
+    [f.readmeFile, s => s + '\nChapter 1: Duplicate.\n'],
+    [f.readmeFile, s => s.replace('Chapters 1–1', 'Chapters 1–0')],
+    [f.progressFile, s => s.replace('chapter 1.xhtml', 'chapter 0.xhtml')],
+    [f.progressFile, s => JSON.stringify({ ...JSON.parse(s), completedChapters: [2] })],
+  ]) {
+    const saved = fs.readFileSync(file, 'utf8');
+    fs.writeFileSync(file, mutate(saved));
+    const drifted = f.snapshot();
+    const failed = f.invoke('check-chapter', '2');
+    assert.notEqual(failed.status, 0, file);
+    assert.match(failed.stderr, /Rebuild preflight failed/);
+    assert.doesNotMatch(failed.stdout, /PREFLIGHT-CHILD-RAN/);
+    assert.deepEqual(f.snapshot(), drifted);
+    fs.writeFileSync(file, saved);
+  }
+  // The immutable reference archive has no rebuild metadata of its own.
+  fs.mkdirSync(path.join(f.stage, 'reference'));
+  assert.equal(f.invoke('--reference', 'check-chapter', '2').status, 0);
+});
 
 test('rebuild completion verifies then synchronizes metadata, preserving history and rejecting retries', t => {
   const f = fixture(t), before = f.snapshot();

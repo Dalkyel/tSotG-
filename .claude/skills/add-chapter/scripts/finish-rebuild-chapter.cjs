@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
 const { spawnSync } = require('node:child_process');
+const { checkRebuildState } = require('./check-rebuild-state.cjs');
 
 function finish() {
   const [book, chapterArg, baselineArg, specArg, ...extra] = process.argv.slice(2);
@@ -34,18 +35,10 @@ function finish() {
   const beforeProgress = fs.readFileSync(progressFile, 'utf8');
   const beforeReadme = fs.readFileSync(readmeFile, 'utf8');
   const progress = JSON.parse(beforeProgress);
+  checkRebuildState(progress, beforeReadme);
   const expected = Array.from({ length: chapter - 1 }, (_, i) => i + 1);
   assert.deepEqual(progress.completedChapters, expected, 'Complete chapters in order; retries are rejected');
-  const logged = [...beforeReadme.matchAll(/^Chapter (\d+): /gm)].map(match => Number(match[1]));
-  assert.deepEqual(logged, expected, 'README chapter log differs from progress; repair it first');
-  const previousSource = chapter === 1 ? null : `book1/chapter ${chapter - 1}.xhtml`;
-  if (previousSource) assert.equal(progress.source, previousSource, 'Stale progress source');
   const headerPattern = /^Completed: .* Latest source: .*\.$/gm;
-  const headers = [...beforeReadme.matchAll(headerPattern)];
-  assert.equal(headers.length, 1, 'Expected one Completed / Latest source header');
-  if (chapter > 1) assert.equal(headers[0][0],
-    `Completed: Chapters 1–${chapter - 1}. Latest source: \`../chapter ${chapter - 1}.xhtml\`.`,
-    'Stale README header; repair it first');
   const chapters = file => {
     const entries = new Function(fs.readFileSync(file, 'utf8') + '; return chapterSummaries;')();
     return entries.map(entry => entry.chapter);

@@ -1,5 +1,15 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch38 skill review — readiness checking required a custom script
+  to compare completed chapters with README logs, and a combined README/progress read
+  truncated as the chronological log grew. Rebuild `check-chapter` now validates the
+  consecutive progress list, exact log sequence, latest source and README header,
+  printing only the completion count and next chapter before the existing chapter
+  presence report. Completion uses the same metadata validator to prevent rule drift.
+  Added regression coverage for missing/duplicate logs, stale headers/sources,
+  nonconsecutive progress, unchanged files and reference-mode inspection. Fully
+  absorbed in the helpers and rebuild procedure; archived immediately.
+
 - 2026-11-02: Post-Ch35 skill review — another initial whole-file read truncated the
   925-line entrypoint despite its bounded-read warning. Moved the source/entity/append
   procedure and three semantic gates into mandatory linked references, preserving their

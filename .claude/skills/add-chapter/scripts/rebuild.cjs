@@ -23,6 +23,18 @@ const fileArgs = ['append-chapter', 'finish-chapter'].includes(helper) ? [1, 2]
   : ['append-node', 'append-entries', 'verify-chapter'].includes(helper) ? [1] : [];
 for (const index of fileArgs) if (args[index]) args[index] = path.resolve(args[index]);
 const cwd = path.join(root, 'book1/rebuild', reference ? 'reference' : '');
+if (helper === 'check-chapter' && !reference) {
+  try {
+    const { checkRebuildState } = require('./check-rebuild-state.cjs');
+    const progress = JSON.parse(fs.readFileSync(path.join(cwd, 'progress.json'), 'utf8'));
+    const readme = fs.readFileSync(path.join(cwd, 'README.md'), 'utf8');
+    const latest = checkRebuildState(progress, readme);
+    console.log(`Rebuild metadata: ${latest} completed chapters; README log/header and progress source agree; next chapter: ${latest + 1}.`);
+  } catch (error) {
+    console.error(`Rebuild preflight failed: ${error.message}`);
+    process.exit(1);
+  }
+}
 if (['verify-chapter', 'append-chapter'].includes(helper)) {
   // A staged PASS must also establish that the live archive was left intact.
   try {
