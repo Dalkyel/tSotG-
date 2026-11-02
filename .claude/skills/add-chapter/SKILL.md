@@ -631,6 +631,7 @@ chapter data to add to the project.
 ```
 
 - **New entity** → push a plain node object (no `status` field needed).
+- For people, keep `type` prefixed with `Personaje —` (or an established `POV`/`Divinidad` form), including when the rest names an occupation or death. `focus-core.js` uses this prefix to classify and prioritize character neighbors; an occupation-only type such as Virk’s legacy `Pescador — Fallecido` can push a family connection beyond the initial twelve-neighbor view as events accumulate. When current evidence warrants a new revision of such a person, normalize its type there and retain the occupation/state after the prefix.
 - **Existing entity whose info changed/expanded** → add `status: 'updated'` and
   `previousState: 'short note of what changed'`.
 - **Existing entity already updated earlier in the SAME book** (e.g. `book2/nodes.js`

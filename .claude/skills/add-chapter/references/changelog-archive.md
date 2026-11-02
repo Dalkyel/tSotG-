@@ -478,3 +478,5 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   successfully without changing the source or labels; the subsequent link review
   exposed the no-op. Added exact-once, chapter-scoped replacement guards and parsed
   post-edit value assertions to SKILL.md. Fully incorporated; no unresolved data issue.
+
+- 2026-11-02: Book One rebuild Ch31 — added event connections exposed Virk’s legacy occupation-only type: the relationship viewer classified him as lore, pushing the father outside Mord’s first twelve neighbors. The existing family regression test caught it. Added Virk’s recalled maxim and normalized his current revision to `Personaje — Pescador fallecido`; all 38 targeted tests pass. The node-type rule is fully absorbed in SKILL.md.
