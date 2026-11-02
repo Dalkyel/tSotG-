@@ -264,9 +264,24 @@ If a read is truncated, retrieve the omitted sections before proceeding.
      mis-escaping a quote or em dash inside long prose, not just the risk the appender
      already removes (retyping the baseline). After such a loop, output-condensation can
      elide an individual call's "OK: ..." line without flagging it as an error — confirm
-     every id actually landed with a single combined `grep -c "id: \"ID\"" book{N}/nodes.js`
-     per id (count should be the prior count + 1) and a final `node --check` on the file,
-     rather than trusting that the loop reached its last id.
+     every id actually landed, and that none duplicated. Do not use a bare
+     `grep -c "id: \"ID\""`: `book{N}/nodes.js` mixes two serialization styles —
+     older entries stored as compact single-line JSON (`{"id":"x","label":...}`,
+     no space after the colon) alongside the spaced JS-literal style `append-node.cjs`
+     itself writes (`id: "x", label: ...`). A grep tuned to one style silently
+     undercounts the other: in a Book 1 rebuild Chapter 21 run, `grep -c "id: \"ID\""`
+     reported 0 "before" occurrences for two ids (`pasado-elvar`, `berak-venta`) that
+     were in fact long-existing nodes stored in the compact style, which would have
+     looked like a real append failure — or masked a real duplicate — had it been
+     trusted. Count by parsing the array instead, which is immune to formatting style:
+     ```sh
+     node -e 'const fs=require("fs");
+       const f="book{N}/nodes.js";
+       const arr=new Function(fs.readFileSync(f,"utf8")+"; return nodes;")();
+       for (const id of ["id1","id2"]) console.log(id, arr.filter(n=>n.id===id).length);'
+     ```
+     Compare each count against the same check run against the pre-edit baseline
+     (expect baseline+1), plus a final `node --check` on the file.
    - Retyping a `star` (or `desc`) field from a tool-output transcript is risky even when
      the transcript shows no truncation marker: an output-condensation layer between the
      tool and this context can silently drop a trailing clause it judges low-signal,
@@ -379,6 +394,19 @@ chores, repeated background facts and every individual blow do not need separate
   20 run, a new "mission" EVENTO first repeated, almost verbatim, the departure sentence
   already owned by the existing `partida-liga` EVENTO it was meant to follow from; caught
   only by a manual side-by-side re-read after the verifier had already passed.)
+- The same duplication happens, by default, whenever a chapter's new EVENTO is what
+  resolves a `TRAMA`'s pending question — write the TRAMA's append as a status-and-evidence
+  pointer to the EVENTO from the first draft, not as a second scene account to be trimmed
+  later. Drafting both nodes with a full narrative and relying on the side-by-side re-read
+  to catch the overlap works, but it is a detection step, not a prevention one, and it is
+  easy to forget under time pressure. (In a Book 1 rebuild Chapter 21 run, the first draft
+  of `pasado-elvar` and `berak-venta` — both resolved in that chapter by two brand-new
+  EVENTO nodes created in the same run — each re-narrated the full sale/revelation scene
+  almost verbatim; the fix was to cut each TRAMA's append down to `ESTADO: ...` plus
+  "Véase EVENTO-ID para el desarrollo completo" and nothing else.) When a chapter's
+  evidence resolves a TRAMA via a new EVENTO, write the TRAMA append short on the first
+  pass: resolution status, the one-line answer to the open question, and the cross-reference
+  — never the blow-by-blow.
 - A `TRAMA` node whose `desc` is growing into a full scene account rather than a
   question-and-evidence log is a tell that a dedicated EVENTO for that scene is missing,
   not that the TRAMA is doing its job well. If an open question's chapter-by-chapter

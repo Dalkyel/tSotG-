@@ -120,3 +120,25 @@ actually fixed.
   started, since the two files are never cross-checked. Backfilled the missing paragraph
   and added a step to `book1-rebuild.md` to check README against `completedChapters`
   before starting a new chapter.
+
+- 2026-11-02: Book One Ch21 rebuild — two fixes, both applied directly.
+  (1) `grep -c "id: \"ID\"" book1/nodes.js` — the exact verification command SKILL.md
+  itself recommends after a batched `append-node.cjs` loop — returned 0 "before"
+  occurrences for `pasado-elvar` and `berak-venta`, two ids that had existed since
+  Chapter 9. Cause: the staged file mixes compact single-line JSON node objects
+  (`{"id":"x","label":...}`, no space after the colon) with the spaced JS-literal style
+  `append-node.cjs` writes (`id: "x", label: ...`); the grep pattern only matches the
+  latter. Trusting the grep count as written would have read a genuine append as a
+  failure, or hidden a genuine duplicate. Caught only by re-checking with a small
+  `node -e` script that parses the array instead of pattern-matching text. Replaced the
+  grep-based instruction in SKILL.md's append-node bullet with the parse-based one-liner.
+  (2) First drafts of `pasado-elvar` and `berak-venta` (both resolved this chapter by two
+  brand-new EVENTO nodes created in the same run) each re-narrated the full sale/
+  revelation scene almost verbatim against the new EVENTOs — the same failure class as
+  the Chapter 20 incident already in this changelog, but triggered by simultaneous
+  creation rather than a TRAMA's narration growing across many chapters. Caught by the
+  ownership-gate side-by-side re-read, not prevented by it. Trimmed both TRAMA appends to
+  `ESTADO: ...` plus a one-line answer and a "Véase EVENTO-ID" pointer. Added a bullet to
+  SKILL.md's event-coverage gate making this the default drafting instruction (write the
+  TRAMA append short on the first pass, not narrative-then-trim) rather than only a
+  post-hoc detection step.
