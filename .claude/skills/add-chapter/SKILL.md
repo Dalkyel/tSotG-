@@ -333,6 +333,8 @@ absolute project root for source, progress and README paths.
      Live calls use live guides by default. The batch does not write review records,
      update README/progress, or waive any source, ownership, event or thread review.
      Continue with the normal verifier review options and all three semantic gates.
+     For rebuild completion, use `rebuild.cjs finish-chapter` as documented in
+     [the rebuild procedure](references/book1-rebuild.md) after those reviews and tests.
      Keep the individual appenders for targeted work; if using a manual loop, confirm
      counts by parsing arrays (baseline + 1 per id), never formatting-sensitive grep.
    - When correcting entries appended in the current run, do not guess their source

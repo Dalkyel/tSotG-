@@ -11,7 +11,7 @@ const reference = args[0] === '--reference';
 if (reference) args.shift();
 const helper = args.shift();
 const readers = ['check-chapter', 'match-entities', 'search-descriptions', 'read-latest', 'read-links', 'read-backlog'];
-const allowed = reference ? readers : [...readers, 'append-node', 'append-entries', 'append-chapter', 'verify-chapter'];
+const allowed = reference ? readers : [...readers, 'append-node', 'append-entries', 'append-chapter', 'verify-chapter', 'finish-chapter'];
 if (!allowed.includes(helper)) {
   console.error(`Usage: node rebuild.cjs [--reference] HELPER ARGS… (Book 1 is implicit).\nAllowed helpers: ${allowed.join(', ')}. Reference writes are forbidden.`);
   process.exit(1);
@@ -19,7 +19,7 @@ if (!allowed.includes(helper)) {
 
 // Resolve file arguments before the child changes directory. Existing readers use
 // only names/ids/page numbers; writer/verifier paths are relative to the caller.
-const fileArgs = helper === 'append-chapter' ? [1, 2]
+const fileArgs = ['append-chapter', 'finish-chapter'].includes(helper) ? [1, 2]
   : ['append-node', 'append-entries', 'verify-chapter'].includes(helper) ? [1] : [];
 for (const index of fileArgs) if (args[index]) args[index] = path.resolve(args[index]);
 const cwd = path.join(root, 'book1/rebuild', reference ? 'reference' : '');
@@ -43,7 +43,7 @@ if (['verify-chapter', 'append-chapter'].includes(helper)) {
   args.push('--staged-preview');
 }
 console.error(`Book One ${reference ? 'reference (read only)' : 'rebuild'}: ${cwd}`);
-const result = spawnSync(process.execPath, [path.join(__dirname, `${helper}.cjs`), '1', ...args], {
+const result = spawnSync(process.execPath, [path.join(__dirname, `${helper === 'finish-chapter' ? 'finish-rebuild-chapter' : helper}.cjs`), '1', ...args], {
   cwd,
   stdio: 'inherit',
 });

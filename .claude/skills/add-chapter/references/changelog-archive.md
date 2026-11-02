@@ -1,5 +1,15 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch34 skill review — completion again required a temporary script
+  to check review files and synchronize README/progress. Added the rebuild-only
+  `finish-chapter` helper with ordered history/header/source checks, all three review
+  attestations, baseline/staged summary checks, fresh verifier/live-hash gating,
+  preserved metadata, retry rejection and rollback on caught write errors. Added
+  focused tests and documented the command/schema. Also narrowed canonical event
+  lookups to distinctive action/object wording after an unnecessary reference search
+  for already-confirmed participants exposed later labels. Fully absorbed in the
+  helper and rebuild instructions; archived immediately.
+
 - 2026-11-02: Post-Ch33 skill review — the initial full skill/other-skill dump
   truncated, the rebuild routing's "instead of this file" obscured which shared gates
   still applied, a generated 95-row backlog assessment defaulted most candidates to

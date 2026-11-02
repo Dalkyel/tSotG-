@@ -59,6 +59,13 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   Match the full chapter entity list against the staged inventory first. Query the
   reference only for identities still unresolved there; repeating already-confirmed
   names adds irrelevant later labels and spoiler-bearing event titles to the output.
+  To check whether a newly needed event has a canonical ID, search for its distinctive
+  action/object wording (for example `queso`), not its already-confirmed participants
+  (`Varg`, `Vol`, `Glornir`) or a broad topic such as `akall`. Broad reference matches
+  exposed later relationship/event labels during Chapter 34 without helping identify
+  the current refusal scene. If no distinctive label matches, use bounded description
+  searches for that action before minting an ID; do not expand to a character's whole
+  future inventory merely to establish that the current event is new.
   A reference matcher can also return a later event because its title contains a place
   or character name. That collateral hit is not a reason to read its full future scene:
   use the place/person identity confirmed by the match and the current chapter's action
@@ -77,7 +84,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 - For rebuild regression checks, use the existing test filenames explicitly:
 
   ```sh
-  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs tests/chapter-appender.test.cjs tests/chapter-batch.test.cjs
+  node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/rebuild-launcher.test.cjs tests/backlog-reader.test.cjs tests/chapter-appender.test.cjs tests/chapter-batch.test.cjs tests/rebuild-completion.test.cjs
   ```
 
   Confirm the output includes the `chapter verifier` tests, including the summary identity
@@ -88,11 +95,27 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   Before each chapter, review the existing open/partial questions and clues across all
   POVs; record developments and evidence-backed closures in the staged archive.
   Keep `ownership-review.md`, `event-review.md` and `thread-review.md` in the chapter run directory.
-  After all three semantic gates and verification succeed, update the README's
-  `Completed`/`Latest source` header and append the current chapter's log paragraph,
-  then update `progress.json`'s source, baseline and `completedChapters`. Cross-check
-  that the header, numbered chapter paragraphs and progress all end at the same chapter
-  before reporting completion. The preflight log check does not catch a stale header.
+  After all three semantic gates, verifier reviews and required tests succeed, write
+  `completion.json` beside `baseline/` with `source` and one complete `Chapter N:` log
+  paragraph, then use the completion helper instead of another inline update script:
+
+  ```json
+  {"source":"book1/chapter 34.xhtml","log":"Chapter 34: Describe the final additions, review results, tests and visual-check limitations."}
+  ```
+
+  ```sh
+  node .claude/skills/add-chapter/scripts/rebuild.cjs finish-chapter 34 /absolute/run/baseline /absolute/run/completion.json
+  ```
+
+  It requires all three review PASS markers beside `baseline/`, consecutive prior
+  progress and README log entries, a matching previous header/source, the current source
+  XHTML, and baseline/staged summaries ending at the expected chapters. It reruns normal
+  staged verification (including all six live hashes), then updates the README header/log
+  and progress source/baseline/completedChapters together, preserving other fields.
+  Drift, failed verification and repeated completion fail before metadata writes; repair
+  existing drift explicitly rather than bypassing the check. Caught write errors restore
+  both files; the pair is not crash-atomic. Review markers attest that you performed the
+  semantic reviews; the helper cannot judge their substance or replace tests/visual review.
   Preview with
   `book1/rebuild/index.html`; regenerate that preview from the live HTML if its layout
   changes, retaining the base URL and staged-data substitutions described in the README.
