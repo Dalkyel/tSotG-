@@ -1306,4 +1306,18 @@ const links = [
     {"source":"despedida-thrud","target":"thrud","label":"proyecta honrar a","type":"goal"},
     {"source":"despedida-thrud","target":"battle-grim","label":"prevista por","type":"trama"},
     {"source":"despedida-thrud","target":"raid-raven-feeders","label":"surge después de","type":"trama"},
+
+// ── LIBRO 1, CAPÍTULO 28 — ORKA ──
+    {"source":"cat-eventos","target":"combate-nacken","label":"incluye","type":"cat"},
+    {"source":"cat-orka","target":"combate-nacken","label":"incluye","type":"arc"},
+    {"source":"combate-nacken","target":"orka","label":"tiene como rescatadora a","type":"event"},
+    {"source":"combate-nacken","target":"mord","label":"termina con el rescate de","type":"event"},
+    {"source":"combate-nacken","target":"lif","label":"cuenta con la ayuda de","type":"event"},
+    {"source":"combate-nacken","target":"nacken","label":"documenta el ataque de un","type":"conflict"},
+    {"source":"orka","target":"mord","label":"salva de ahogarse a","type":"event"},
+    {"source":"lif","target":"orka","label":"ayuda a salir del río a","type":"event"},
+    {"source":"nacken","target":"mord","label":"un ejemplar muerde el hombro de","type":"conflict"},
+    {"source":"orka","target":"nacken","label":"hiere a un ejemplar con seax y fórmulas verbales","type":"magic"},
+    {"source":"fuga-orka-fellur","target":"combate-nacken","label":"sigue abierta al ocurrir","type":"trama"},
+    {"source":"froa","target":"breca","label":"según una hipótesis de Orka, su protección impedía el rapto de","type":"trama"},
 ];
