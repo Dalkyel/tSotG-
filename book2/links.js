@@ -3075,4 +3075,306 @@ const linksBook2 = [
     label: "es el tennúr que, según Biórr, habla más a menudo con",
     type: "rel"
 },
+
+// LIBRO 2, CAPÍTULO 45 — ORKA
+{
+    source: "orka",
+    target: "ulfrir",
+    label: "rechaza como padre, eligiendo de nuevo a Breca, cuando él jura no dejar de buscarla",
+    type: "rel"
+},
+{
+    source: "orka",
+    target: "myrk",
+    label: "amenaza con su propio seax y silencia con la mordaza al invocar «Eldur»",
+    type: "conflict"
+},
+{
+    source: "orka",
+    target: "fuga-fingida-myrk",
+    label: "orquesta junto a Elvar",
+    type: "event"
+},
+{
+    source: "myrk",
+    target: "fuga-fingida-myrk",
+    label: "escapa a caballo durante, sin saber que es una trampa",
+    type: "event"
+},
+{
+    source: "elvar",
+    target: "fuga-fingida-myrk",
+    label: "escenifica con Grend, Sighvat y Orv el Sigiloso, saldando su deuda de favor por favor con Orka, en",
+    type: "event"
+},
+{
+    source: "halja-vali",
+    target: "fuga-fingida-myrk",
+    label: "combate de verdad, sin conocer el plan de Orka, en",
+    type: "event"
+},
+{
+    source: "orka",
+    target: "saeunn",
+    label: "revela como Tainted de sangre de Hundur y envía a rastrear la sangre de Myrk y su caballo a",
+    type: "magic"
+},
+{
+    source: "saeunn",
+    target: "hundur-dios",
+    label: "es Tainted con la sangre de",
+    type: "lore"
+},
+{
+    source: "elvar",
+    target: "bloodsworn",
+    label: "quiere contratar pagando el doble de su tarifa a",
+    type: "goal"
+},
+{
+    source: "elvar",
+    target: "anillo-plata-oskutred",
+    label: "entrega a Orka como muestra de su estima",
+    type: "rel"
+},
+{
+    source: "anillo-plata-oskutred",
+    target: "berser",
+    label: "pudo pertenecer, según Elvar, a",
+    type: "lore"
+},
+{
+    source: "anillo-plata-oskutred",
+    target: "oskutred",
+    label: "procede del Battle-Plain de",
+    type: "geo"
+},
+{
+    source: "elvar",
+    target: "snakavik",
+    label: "pide a los Bloodsworn reunirse con ella en",
+    type: "geo"
+},
+{
+    source: "mord-lif",
+    target: "halja-vali",
+    label: "(Lif) canta una balada de hermanos y venganza que hace llorar a",
+    type: "rel"
+},
+
+// LIBRO 2, CAPÍTULO 46 — GUÐVARR
+{
+    source: "kalv",
+    target: "drekr",
+    label: "es mensajero y enviado directo de",
+    type: "rel"
+},
+{
+    source: "drekr",
+    target: "hakon",
+    label: "a través de Kalv, exige una prueba de lealtad y anuncia que el día se acerca a",
+    type: "trama"
+},
+{
+    source: "hakon",
+    target: "ulfhednar",
+    label: "oculta bajo el pelo un tatuaje reciente de líneas similares a las de los",
+    type: "trama"
+},
+{
+    source: "kalv",
+    target: "likrafa",
+    label: "anuncia a Hákon, sin nombrarla, lo que parece ser la libertad de",
+    type: "trama"
+},
+{
+    source: "gudrun",
+    target: "hakon",
+    label: "es la drengr personal que protege a",
+    type: "rel"
+},
+{
+    source: "gudrun",
+    target: "gudvarr",
+    label: "pone la espada en la garganta de",
+    type: "conflict"
+},
+{
+    source: "hakon",
+    target: "gudvarr",
+    label: "invita a desayunar y declara posible amigo a",
+    type: "event"
+},
+{
+    source: "gudvarr",
+    target: "hakon-operacion-oculta",
+    label: "presencia en persona, sin saberlo Hákon, la reunión que confirma",
+    type: "event"
+},
+{
+    source: "hakon",
+    target: "dead-drengr",
+    label: "se reúne en secreto antes de la apertura con Kalv en",
+    type: "trama"
+},
+{
+    source: "skapti",
+    target: "hakon",
+    label: "reaparece con vida y visita en libertad a",
+    type: "event"
+},
+{
+    source: "hrolf",
+    target: "hakon",
+    label: "reaparece con vida junto a Skapti y visita en libertad a",
+    type: "event"
+},
+
+// LIBRO 2, CAPÍTULO 47 — VARG
+{
+    source: "orka",
+    target: "svik",
+    label: "rescató de niño y crió como una madre",
+    type: "history"
+},
+{
+    source: "refna",
+    target: "kel",
+    label: "hermana de",
+    type: "rel"
+},
+{
+    source: "brak-trolls-bane",
+    target: "kel",
+    label: "clavó a un carro y degolló",
+    type: "conflict"
+},
+{
+    source: "drekr",
+    target: "refna",
+    label: "lideró el rapto que capturó y mató a su familia",
+    type: "conflict"
+},
+{
+    source: "rokia",
+    target: "refna",
+    label: "consuela acariciándole el pelo",
+    type: "rel"
+},
+{
+    source: "sulich",
+    target: "avistamiento-velas-liga",
+    label: "avista primero",
+    type: "event"
+},
+{
+    source: "glornir",
+    target: "avistamiento-velas-liga",
+    label: "ordena «armas» ante",
+    type: "event"
+},
+
+// LIBRO 2, CAPÍTULO 48 — GUÐVARR
+{
+    source: "gudvarr",
+    target: "skapti",
+    label: "huye en pánico al reconocer con vida a",
+    type: "conflict"
+},
+{
+    source: "gudvarr",
+    target: "hrolf",
+    label: "huye en pánico al reconocer con vida a",
+    type: "conflict"
+},
+{
+    source: "kalv",
+    target: "gudvarr",
+    label: "encabeza la persecución armada de",
+    type: "conflict"
+},
+{
+    source: "gudrun",
+    target: "gudvarr",
+    label: "se suma a la persecución de",
+    type: "conflict"
+},
+{
+    source: "skapti",
+    target: "gudvarr",
+    label: "se suma a la persecución de",
+    type: "conflict"
+},
+{
+    source: "hrolf",
+    target: "gudvarr",
+    label: "derriba y está a punto de ejecutar a",
+    type: "conflict"
+},
+{
+    source: "hrolf",
+    target: "gudvarr",
+    label: "muere empalado por una lanza al intentar ejecutar a",
+    type: "event"
+},
+{
+    source: "kalv",
+    target: "gudvarr",
+    label: "se revela Tainted y carga con el seax contra",
+    type: "event"
+},
+{
+    source: "skalk",
+    target: "kalv",
+    label: "captura con un conjuro Galdur de red ígnea (Bindið hann) a",
+    type: "magic"
+},
+{
+    source: "skalk",
+    target: "kalv",
+    label: "golpea hasta dejar inconsciente y toma prisionero a",
+    type: "event"
+},
+{
+    source: "gudvarr",
+    target: "skalk",
+    label: "identifica a Kalv como mensajero de Drekr ante",
+    type: "trama"
+},
+{
+    source: "drekr",
+    target: "skalk",
+    label: "pierde a su mensajero Kalv, capturado vivo por",
+    type: "conflict"
+},
+{
+    source: "huida-gudvarr-captura-kalv",
+    target: "gudvarr",
+    label: "protagonizada por",
+    type: "event"
+},
+{
+    source: "huida-gudvarr-captura-kalv",
+    target: "dead-drengr",
+    label: "comienza en",
+    type: "geo"
+},
+{
+    source: "huida-gudvarr-captura-kalv",
+    target: "torre-galdur-darl",
+    label: "culmina ante las puertas de",
+    type: "geo"
+},
+{
+    source: "huida-gudvarr-captura-kalv",
+    target: "kalv",
+    label: "termina con la captura de",
+    type: "event"
+},
+{
+    source: "huida-gudvarr-captura-kalv",
+    target: "hrolf",
+    label: "cuesta la vida a",
+    type: "event"
+},
 ];

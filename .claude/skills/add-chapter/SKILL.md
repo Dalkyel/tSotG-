@@ -48,53 +48,43 @@ already handle themselves.
    match exists, inspect for incomplete work or requested corrections instead of
    blindly appending. Do not search whole data files for a bare chapter number:
    numbers inside accumulated descriptions can return enormous unrelated lines.
-2. Build one complete id/label inventory from the parsed node arrays, then match the
-   chapter's entities against it. This handles single/double quotes and multiline objects;
-   formatting-dependent grep patterns can silently miss nodes. The complete inventory
-   must be built from every parsed node, but need not all be printed: after reading the
-   complete chapter, look up its entity names against that inventory and print only
-   matching ids/labels plus an explicit list of unmatched names. Include context-only
-   references in this matching pass even when they will not need full-entry reads.
-   After reading the complete chapter, use the bundled matcher instead of writing a
-   one-off inventory query or defaulting to the full listing:
+2. After reading the complete chapter, build its full entity list — every named character,
+   place, or thing it mentions, including context-only references that won't need a
+   full-entry read. Resolve each name against the current inventory in this fixed order,
+   stopping at the first step that confirms an id. (Extend the `2` book-cap argument below
+   once a later book exists.)
+
+   **a. Match by id/label first.** Run the bundled matcher — never a one-off inventory
+   query or a default full listing:
 
    ```sh
    node .claude/skills/add-chapter/scripts/match-entities.cjs 2 Elvar Huld Skuld Orv Urt
    ```
 
-   Pass every named entity from the chapter, including context-only references; quote
-   multiword names. The helper builds the complete parsed inventory through the book
-   cap, retains historical labels, and matches accent-insensitive complete names within
-   ids and labels. It prints candidate ids per name, grouped matching labels, and an
-   explicit unmatched list. Matches are candidates, not confirmed identities: event and
-   category labels may also contain a character's name. It does not search descriptions
-   or infer aliases, so retain the fallback searches below.
-
-   Check combined labels, spelling variants, and translated names before treating a name as unmatched;
-   English chapter names may have Spanish inventory labels: for example, match
-   `The Dead Drengr` against `El Drengr Muerto` with the bundled matcher before
-   searching descriptions. Reuse the confirmed id and retain the canonical label.
-   unmatched names still require the description searches below before creating ids.
-   Use the full compact listing below when the chapter's entity list is not yet complete
-   or targeted matching is uncertain. Never pre-filter the source arrays by guessed ids.
-   Print only compact fields,
-   separately from summaries and full descriptions. Budget the **combined output** of
-   batched tool calls: a compact inventory can still be truncated when returned beside
-   whole files. Read chapter text and selected full entries in separate, bounded outputs;
-   avoid whole-file dumps of accumulated nodes or summaries. For array endings or section layout,
-   inspect a character-bounded suffix (e.g. `text.slice(-200)`) rather than `tail -n`:
-   one description or summary line can contain thousands of characters. For the full
-   compact listing, pass `--all` instead of names (same grouped-by-id, every-distinct-label
-   output as targeted matching, just unfiltered):
+   Pass every named entity, including context-only references; quote multiword names. It
+   builds the complete parsed inventory through the book cap (retaining historical labels)
+   and matches accent-insensitive complete names within ids and labels, printing candidate
+   ids per name, grouped matching labels, and an explicit unmatched list. Two things it does
+   **not** do: confirm identity (a match is a candidate, not a confirmed one — event and
+   category labels can contain a character's name too) or translate (`The Dead Drengr`
+   comes back UNMATCHED even though the inventory holds `El Drengr Muerto` — recognize such
+   translations yourself from story context, then confirm with step **b** before reusing the
+   id and retaining the canonical label). When the chapter's entity list isn't complete yet
+   or targeted matching feels uncertain, pass `--all` instead of names for the same grouped,
+   unfiltered listing — never pre-filter the source arrays by guessed ids:
 
    ```sh
    node .claude/skills/add-chapter/scripts/match-entities.cjs 2 --all
    ```
 
-   Extend the book cap argument for later books. **Reuse existing ids.** Before minting an id
-   for a name absent from labels, search existing descriptions too: Ilmur, for
-   example, was revealed inside the `hundur` description. Use the bounded helper,
-   one name per call, instead of writing a one-off search:
+   **b. Still unmatched? Search descriptions, not grep.** A name can be absent from every
+   label yet already tracked — revealed only in prose (Ilmur was named inside the `hundur`
+   description) — or a fact/event may already have its own node under different wording.
+   Use the bounded helper, one name (or any literal phrase — it isn't limited to candidate
+   names) per call, never raw `grep` (a single accumulated `desc` line can be tens of
+   thousands of characters; checking whether a backstory detail already had an event node
+   this way returned 200KB+ of truncated output twice before falling back to an id already
+   in hand):
 
    ```sh
    node .claude/skills/add-chapter/scripts/search-descriptions.cjs 2 1 Ilmur
@@ -102,36 +92,49 @@ already handle themselves.
    node .claude/skills/add-chapter/scripts/search-descriptions.cjs 2 1 Járn --id collares --id uspa
    ```
 
-   The default prints candidate ids/labels/files and match counts, without prose.
-   Add `--id` only for plausible candidates to retrieve deduplicated excerpts.
-   Repeat `--id ID` to inspect several candidates in one bounded result; the 8,000-character
-   page limit applies to the whole selection. A complete-name match can still be an
-   ordinary word in quoted spells (for example, `járn`, meaning iron), so check context
-   before reusing an id for a newly named person.
-   Both modes paginate at 8,000 characters; read each page in a separate tool response
-   until `END`. Matching is literal and case-insensitive with Unicode name boundaries;
-   try accent/spelling variants separately. If no latest description matches the name
-   anywhere, the helper automatically searches historical descriptions. Selecting an id
-   does not trigger historical fallback when other latest entries match; inspect earlier
-   entries explicitly if evidence suggests that particular entity lost a fact.
+   The default prints candidate ids/labels/files/match counts without prose; add `--id`
+   (repeatable — one shared 8,000-character page limit across the whole selection) only for
+   plausible candidates to retrieve deduplicated excerpts. For a common term (`Úlfhéðnar`),
+   print candidates/counts first and retrieve excerpts only for plausible identity
+   candidates; keep link inspection in a separate response so a large match set can't
+   truncate both. A complete-name match can still be an ordinary word in a quoted spell
+   (`járn` = iron) — check context before reusing an id for a newly named person. Matching
+   is literal, case-insensitive, and Unicode-boundary-aware (short names like `Iva` won't
+   match ordinary words like `viva` — preserve this if changing the helper); try
+   accent/spelling variants separately. It searches each entity's latest accumulated
+   description first and falls back to historical descriptions automatically only when *no*
+   latest description matches anywhere — selecting a candidate id doesn't trigger that
+   fallback when other latest entries also matched, so inspect earlier entries explicitly if
+   evidence suggests a different entity lost a fact. If output is truncated, narrow or
+   paginate before concluding a name is absent.
 
-   The helper searches each entity's latest accumulated description once and
-   deduplicates excerpts. Excerpts locate candidates; read the full latest entry
-   with `read-latest.cjs` before updating one.
-   Bound the total search output as well as individual excerpts. For a common term
-   such as `Úlfhéðnar`, print candidate ids/labels and the match count first, then
-   retrieve excerpts only for plausible identity candidates. Keep link inspection in
-   a separate response from description searches so a large match set cannot truncate
-   both. If output is truncated, narrow or paginate it before concluding a name is absent.
-   The helper's Unicode name boundaries prevent short names such as `Iva` from
-   matching ordinary words such as `viva`; preserve this behavior if changing the helper.
-   - New ids: lowercase, hyphenated, no accents. Don't create nodes for unnamed people;
-     record their appearance in the chapter summary until they are named.
-   - Keep combined ids such as `mord-lif` when their stories diverge; describe each
-     person's fate within the combined entry unless the user requests a split.
-   - Treat near-miss names in extracted text as possible spelling glitches. Match the
-     context to established ids (e.g. Verdani/Verdandi), retain the canonical label,
-     and note a relevant source variant rather than minting a duplicate.
+   **c. Still unmatched? Don't trust a hand grep — re-run the matcher.** A name found only
+   *inside another entity's own description* (via step **b**) can still have its own node
+   that step **b**'s text search couldn't surface, because a node's own `desc` rarely
+   repeats its own label as text. Before minting it as new, re-run `match-entities.cjs`
+   (step **a**) with that exact name — it checks ids and labels directly. Never fall back to
+   a hand-written `grep` for a guessed `id: '...'`/`id: "..."` quote style to settle this:
+   Gudrun's node already existed from an earlier chapter, surfaced only via another entity's
+   description, and a single-quoted grep silently missed the file's double-quoted source,
+   nearly minting a duplicate (caught only by `append-node.cjs`'s own existence check).
+
+   **d. Still genuinely absent? Mint a new id** — lowercase, hyphenated, no accents —
+   unless the person is unnamed (record their appearance in the chapter summary instead,
+   mint no id until they're named). First rule out two near-misses: a near-miss spelling in
+   extracted text (match context to the established id — e.g. Verdani/Verdandi — retain the
+   canonical label and note the source variant rather than creating a duplicate) and a
+   combined id whose people's stories have diverged (keep ids like `mord-lif` combined,
+   describing each person's fate within the entry, unless the user asks for a split).
+
+   Mechanics that apply throughout **a**–**d**: a compact inventory or excerpt list can
+   still truncate when returned alongside whole files — budget the **combined** output of
+   batched calls. Read chapter text and selected full entries in separate, bounded
+   responses; never dump a whole accumulated `nodes.js`/`summaries.js` file. For array
+   endings or section layout, inspect a character-bounded suffix (e.g. `text.slice(-200)`)
+   rather than `tail -n` — one description or summary line can run thousands of characters
+   long. Once an id is confirmed, read its full latest entry with `read-latest.cjs` (step 3)
+   before updating it — excerpts from step **b** only locate candidates, they never replace
+   that full read.
 3. Select read batches by the changes the chapter actually makes, not by every name
    it mentions. Separate likely update targets from context-only references (for example,
    an absent character whose earlier actions are merely retold). For context-only checks,
@@ -150,7 +153,12 @@ already handle themselves.
    Start with the most specific endpoint ids relevant to the proposed facts. Adding a
    central POV id selects its entire relationship history, even alongside narrower ids;
    do that only when those relationships actually need review. For a local geography or
-   arrival check, prefer the place, faction, or event ids over a blanket POV lookup.
+   arrival check, prefer the place, faction, or event ids over a blanket POV lookup —
+   but a heavily-connected faction/place/concept id (`bloodsworn`, `oskutred`) is also a
+   hub and pulls its own large history. When the only question is whether one *specific*
+   pairing already has a link (e.g. "has Elvar ever hired the Bloodsworn before"), skip
+   the tool and `grep` the current book's links file for both ids together instead —
+   it's a single bounded check, not a relationship review.
    Read every entity you will update in full before editing; excerpts never replace that
    requirement. Keep unrelated long histories out of the same paginated batch so a small
    context check does not force reading several unnecessary pages.

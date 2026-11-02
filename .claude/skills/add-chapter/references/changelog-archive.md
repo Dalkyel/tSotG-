@@ -7,6 +7,22 @@ dates) for deep history; `references/changelog.md` keeps only recent entries and
 entry describing a still-open/unresolved issue in the actual data files. If a rule here
 is ever challenged or a bundled script changes, this is where the "why" lives.
 
+- 2026-11-01: Book 2 Ch48 — "Gudrun" (Hákon's personal drengr) surfaced only via
+  `search-descriptions.cjs Gudrun`, which found her named inside the `gudvarr`/`hakon`/
+  `dead-drengr` entries but not inside her own `gudrun` node's desc (which never repeats
+  her own label as text). Concluded from that she had no node yet — matching
+  `read-links.cjs` output even showed two existing links with endpoint `gudrun` — but
+  instead of re-running `match-entities.cjs Gudrun` (which matches ids/labels directly
+  and would have found her immediately), hand-grepped `id: 'gudrun'` with single quotes
+  against a double-quoted source file, got a false "not found", and called
+  `append-node.cjs` with `mode: "new"`. The script's own existence check refused the
+  write (no corruption — a real safety net), surfacing the real state before any damage.
+  Fixed by switching to `mode: "update"` to append the Ch48 material onto her real Ch46
+  baseline. SUPERSEDED after a direct post-Ch48 skill review: this specific note (re-run
+  match-entities for a name found only inside another entity's description) is now step
+  2c of SKILL.md's consolidated entity-resolution checklist, alongside six other
+  incidents (Ilmur, Iva, Verdani/Skuld, Dead Drengr translation, Járn, Úlfhéðnar) that
+  used to live as separate prose caveats in the same section.
 - 2026-11-01: Review after Ch37: `read-latest.cjs`'s transcript for Varg's `star` field
   silently dropped its final sentence between tool output and this context, with no
   truncation marker — `verify-chapter.cjs` caught it ("star does not preserve its latest
@@ -185,3 +201,93 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   lists candidates/counts first, retrieves excerpts only for a selected id, paginates
   both modes, uses Unicode name boundaries, and falls back to historical descriptions
   when no latest description matches. Documented literal spelling/accent behavior.
+- 2026-11-01: Book 2 Ch46 — the SKILL.md example for translated names claimed
+  `match-entities.cjs` would resolve `The Dead Drengr` against `El Drengr Muerto`
+  itself; it doesn't — it returned UNMATCHED, same as any other untranslated name,
+  since it only does accent-insensitive literal matching, not translation. The
+  instruction's own example was misleading about which step does the work. No script
+  change needed (`search-descriptions.cjs` already finds it fine, since an English
+  name matches fine against Spanish excerpt prose); reworded the SKILL.md passage to
+  say the recognition is manual/story-knowledge, confirmed via search-descriptions,
+  not something the matcher does for you.
+- 2026-11-01: Book 2 Ch42 — asked directly what to improve, and the honest answer was
+  about my own conduct: despite the two entries below already flagging the retyping risk
+  and recommending a script, I appended Ch42's `desc`/`star` text by reading
+  `read-latest.cjs`'s output and retyping the baseline by hand into `Edit` calls anyway —
+  `verify-chapter.cjs` happened to PASS, but that's catching the risk after the fact, not
+  removing it. The pattern (one-off Node script via `vm`, extract baseline, append,
+  write) had already been hand-rolled at least three times (Ch6, Ch38, Ch40 below) and
+  skipped once (this run) — a sign the workaround belongs in a bundled script, not a
+  reminder. Added `scripts/append-node.cjs`: takes a book, an id, and a small spec file
+  with only the genuinely new text (`descAppend`/`starAppend`/`previousState`, or full
+  fields for a brand-new id); it reads the existing baseline straight from the data file
+  via the same `vm`-eval technique as the other scripts, splices the new entry in before
+  the closing `];`, and runs `node --check` before exiting — so the baseline text never
+  passes through the agent to be regenerated at all. Updated `SKILL.md` to point to it
+  everywhere the old "copy programmatically" prose note lived.
+- 2026-11-01: Book 2 Ch40 — two small frictions, both resolved without needing a script
+  change. (1) Locating the end of `book2/links.js` by grepping the box-drawing header
+  format (`// ── LIBRO 2, CAPÍTULO N — POV ──`) found a match only up to Ch24; Ch36/38/39
+  use a plain `// LIBRO 2, CAPÍTULO N — POV` comment (no box-drawing, no em-dashes) in the
+  same file, so the last-chapter lookup needed a second, looser grep. Worth checking both
+  header styles (or just taking the file's last `CAPÍTULO` match regardless of exact
+  punctuation) before concluding where a book's last section ends. SUPERSEDED: this is
+  now `check-chapter.cjs`'s job — its heading regex matches any `//` comment containing
+  `CAPITULO N` regardless of box-drawing or punctuation, so header-style variance no
+  longer needs a manual second grep. (2) Read with even a 44-line offset/limit on
+  `book2/nodes.js` failed with a 25000-token-exceeded error — individual `desc` strings
+  are now long enough that small line windows are not a safe fallback; went straight to
+  a Node script (via `vm`) reading the file and extracting the needed ids' latest
+  `desc`/`star` into JSON, same programmatic-copy approach the skill already recommends,
+  then built the new chapter's entries by string-appending to that JSON in a second
+  script and verified with `verify-chapter.cjs` (PASS). SUPERSEDED: this is now
+  `read-latest.cjs`'s job.
+- 2026-11-01: Book 2 Ch38 — batched `read-latest.cjs 2 1 elvar uspa grend sighvat solin
+  hijas-orna-ulfrir` to review context before updating six of those ids; the combined
+  output reported "page 1/5" and the run stopped there without fetching pages 2-5, so
+  `elvar`'s own entry (26k chars, needing ~3 pages on its own) was left mostly unread
+  even though the five shorter ids were each fully covered within that one page. The
+  actual file edit was unaffected (a small Node script read `desc`/`star` straight from
+  the live file and appended programmatically, so the write was byte-exact regardless of
+  what was read), and a follow-up single-id read of the remaining pages found no
+  contradiction, but the under-read was a real compliance gap, not hypothetical. Added a
+  note above to flag that batched pagination doesn't mean each batched id was read in
+  full.
+- 2026-11-01: Post-Ch37 skill review (asked directly, not the per-chapter friction check):
+  found two concrete pieces of duplication/weak-signal in the files, not hypothetical.
+  (1) `verify-chapter.cjs`'s `desc`/`star` preservation check only said "does not preserve
+  its latest baseline text" with no location, which is exactly what cost the extra
+  diagnostic script in the entry below — it now reports the divergence index and a
+  40-char window of both texts around it. (2) `SKILL.md`'s "full compact listing" fallback
+  was a 15-line inline `node <<'JS'` heredoc that reimplemented `match-entities.cjs`'s own
+  inventory-building loop verbatim, just without name-filtering — gave `match-entities.cjs`
+  an `--all` mode instead and deleted the heredoc, so there is one inventory
+  implementation instead of two kept in sync by hand. Also moved ~30 fully-superseded
+  changelog entries (chapters whose fix is now verbatim in `SKILL.md` or a script) to
+  `changelog-archive.md`, keeping this file focused on open/recent signal.
+- 2026-11-01: Added the new-entry-per-chapter note after Book 2 Ch7 — edited Orka's
+  existing Chapter 1 node entry in place to append Chapter 7 content, which works at
+  runtime (she only had one book2 entry so far) but broke the file's own convention, used
+  by every multi-chapter id (`mord-lif`, `glornir`, `skalk`...), of adding a fresh node
+  object per chapter rather than mutating a prior chapter's entry. Caught it by reading
+  `mapa.js`'s merge loop (`Object.assign` per same-id entry, in array order) before it
+  propagated to the other six nodes touched that chapter.
+- 2026-11-01: Added the narrow-grep note after Book 2 Ch8 — checking ~20 already-known
+  ids' latest state across book1/book2 with a plain `grep -n "id: 'a'\|id: 'b'\|..."`
+  (no `-o`) dumped the full multi-thousand-character `desc` line per match, exceeding the
+  condensation threshold and costing an extra `caveman_retrieve` round-trip for content
+  only needed to locate line numbers. SUPERSEDED: this is now `read-latest.cjs`'s job —
+  it takes a list of ids directly and paginates the result, no grep needed.
+- 2026-11-01: Book 2 Ch45 friction — `read-links.cjs 2 1 bloodsworn glornir berser oskutred`
+  (checking whether Elvar had ever hired the Bloodsworn before) returned 140+ links across
+  3 pages, almost all unrelated Book 1 history, because `bloodsworn`/`oskutred` are
+  themselves hub ids with huge histories, not just POV ids. Switched to a direct
+  `grep -n "'elvar'" book2/links.js | grep -i "bloodsworn"` for the single pairing I
+  actually needed, which answered it in one bounded call. Added the fix directly to
+  `SKILL.md`'s read-links guidance (step 3) so the next run greps a specific pairing
+  instead of reaching for the paginated tool. Separately, drafting Sighvat's chapter
+  append I misattributed Orv the Sneak's self-introduction line to Sighvat (both are
+  minor characters introduced in the same paragraph of Elvar's crew) — caught only by
+  rereading the source chapter text against my own draft before running verify, not by
+  any tool. No generalizable fix identified; a careful re-read against source text before
+  appending is the existing safeguard and it worked here.
