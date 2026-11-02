@@ -8,6 +8,21 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
+- 2026-11-01: Book 2 Ch42 — asked directly what to improve, and the honest answer was
+  about my own conduct: despite the two entries below already flagging the retyping risk
+  and recommending a script, I appended Ch42's `desc`/`star` text by reading
+  `read-latest.cjs`'s output and retyping the baseline by hand into `Edit` calls anyway —
+  `verify-chapter.cjs` happened to PASS, but that's catching the risk after the fact, not
+  removing it. The pattern (one-off Node script via `vm`, extract baseline, append,
+  write) had already been hand-rolled at least three times (Ch6, Ch38, Ch40 below) and
+  skipped once (this run) — a sign the workaround belongs in a bundled script, not a
+  reminder. Added `scripts/append-node.cjs`: takes a book, an id, and a small spec file
+  with only the genuinely new text (`descAppend`/`starAppend`/`previousState`, or full
+  fields for a brand-new id); it reads the existing baseline straight from the data file
+  via the same `vm`-eval technique as the other scripts, splices the new entry in before
+  the closing `];`, and runs `node --check` before exiting — so the baseline text never
+  passes through the agent to be regenerated at all. Updated `SKILL.md` to point to it
+  everywhere the old "copy programmatically" prose note lived.
 - 2026-11-01: Book 2 Ch40 — two small frictions, both resolved without needing a script
   change. (1) Locating the end of `book2/links.js` by grepping the box-drawing header
   format (`// ── LIBRO 2, CAPÍTULO N — POV ──`) found a match only up to Ch24; Ch36/38/39
@@ -44,13 +59,6 @@ actually fixed.
   implementation instead of two kept in sync by hand. Also moved ~30 fully-superseded
   changelog entries (chapters whose fix is now verbatim in `SKILL.md` or a script) to
   `changelog-archive.md`, keeping this file focused on open/recent signal.
-- 2026-11-01: Review after Ch37: `read-latest.cjs`'s transcript for Varg's `star` field
-  silently dropped its final sentence between tool output and this context, with no
-  truncation marker — `verify-chapter.cjs` caught it ("star does not preserve its latest
-  baseline text") when the hand-copied star failed the prefix check. Added a note to copy
-  `desc`/`star` only via a script reading the data file directly, and to treat the
-  verifier's PASS/FAIL as authoritative over the transcript for preservation, not just a
-  final gate.
 - 2026-11-01: Added the new-entry-per-chapter note after Book 2 Ch7 — edited Orka's
   existing Chapter 1 node entry in place to append Chapter 7 content, which works at
   runtime (she only had one book2 entry so far) but broke the file's own convention, used

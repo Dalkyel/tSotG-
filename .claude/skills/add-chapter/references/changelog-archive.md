@@ -7,6 +7,16 @@ dates) for deep history; `references/changelog.md` keeps only recent entries and
 entry describing a still-open/unresolved issue in the actual data files. If a rule here
 is ever challenged or a bundled script changes, this is where the "why" lives.
 
+- 2026-11-01: Review after Ch37: `read-latest.cjs`'s transcript for Varg's `star` field
+  silently dropped its final sentence between tool output and this context, with no
+  truncation marker — `verify-chapter.cjs` caught it ("star does not preserve its latest
+  baseline text") when the hand-copied star failed the prefix check. Added a note to copy
+  `desc`/`star` only via a script reading the data file directly, and to treat the
+  verifier's PASS/FAIL as authoritative over the transcript for preservation, not just a
+  final gate. SUPERSEDED after Ch42: the prose note alone wasn't enough — it got skipped
+  on a later chapter anyway — so the recommendation became a bundled script,
+  `scripts/append-node.cjs`, which removes the retyping step rather than just warning
+  about it.
 - 2026-11-01 (flagged after Ch8, fixed after Ch38): the `collares` node's Ch4 entry in
   `book2/nodes.js` had Ch6 content appended into it in place — the same in-place-edit
   mistake the Ch6/Ch7 `elvar` incidents above describe, just undetected on a non-POV

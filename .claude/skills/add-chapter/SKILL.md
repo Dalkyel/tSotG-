@@ -176,20 +176,41 @@ already handle themselves.
      can still be left unfinished even though a page count was shown. Either keep batches
      to ids short enough that page 1 covers all of them, or re-run with a single id to
      confirm when a batched page looks incomplete for that id specifically.
-   - Copy the latest description programmatically when possible: append to `old.desc`
-     instead of retyping it from tool output. Preserve the existing `star` text when
-     adding significance notes. This does not replace reading the entry for context.
+   - Never retype a baseline `desc`/`star` into an Edit call. Use the bundled appender,
+     which reads the existing text straight out of the data file and appends your new
+     material internally, so the baseline never passes back through you to be
+     regenerated:
+
+     ```sh
+     echo '{"mode":"update","header":"// ── LIBRO 2, CAPÍTULO 42 — BIÓRR ──",
+            "descAppend":"LIBRO 2, CAPÍTULO 42: ...",
+            "starAppend":"CAPÍTULO 42: ...",
+            "previousState":"short note of what changed"}' > /tmp/spec.json
+     node .claude/skills/add-chapter/scripts/append-node.cjs 2 biorr /tmp/spec.json
+     ```
+
+     Write the spec JSON to the scratchpad directory, not `/tmp`. `descAppend`/`starAppend`
+     are the only things you compose by hand — genuinely new material, never a copy of
+     existing text — and they're joined onto the baseline with a single space. Omit
+     `header` on every node after the first one appended for a given chapter section.
+     For a brand-new id (no baseline to extend), use `{"mode":"new", "label":..., "group":...,
+     "type":..., "desc":..., "star":...}` instead — all fields supplied directly, since
+     there is nothing to append to. The script runs `node --check` on the file before
+     exiting, so a malformed result fails loudly instead of landing silently. This is why
+     the risk below was never fixable by a "be more careful" rule — only by removing the
+     retyping step entirely.
    - Retyping a `star` (or `desc`) field from a tool-output transcript is risky even when
      the transcript shows no truncation marker: an output-condensation layer between the
      tool and this context can silently drop a trailing clause it judges low-signal,
      without any "CONTINUES"/truncation sign — `read-latest.cjs` showed Varg's Ch29 `star`
      ending at "...riesgo el secreto Tainted." when the actual stored text continued with
-     "La amenaza de esclavitud de los niños enlaza con su propia historia." Treat
-     `verify-chapter.cjs`'s baseline-prefix check as the authority on whether `desc`/`star`
-     were preserved, not the transcript — a PASS confirms it, a FAIL on "does not preserve
-     its latest baseline text" means re-extract that exact field from the data file
-     programmatically (e.g. a small Node script reading the baseline file directly) rather
-     than trusting the earlier read.
+     "La amenaza de esclavitud de los niños enlaza con su propia historia." This is exactly
+     what `append-node.cjs` above exists to prevent. If you ever do fall back to a manual
+     Edit for this (you shouldn't), treat `verify-chapter.cjs`'s baseline-prefix check as
+     the authority on whether `desc`/`star` were preserved, not the transcript — a PASS
+     confirms it, a FAIL on "does not preserve its latest baseline text" means re-extract
+     that exact field from the data file programmatically rather than trusting the
+     earlier read.
    - If reading source lines, include the entire object: `desc` and `star` may be on
      following lines. For same-POV continuations, chapter boundary comments can locate
      the previous scene's cluster quickly; inspect later same-id entries before copying.
@@ -258,6 +279,9 @@ chapter data to add to the project.
   and earlier entries in the current book; copy it in full and append the new material — same accumulation style already used throughout `book1/nodes.js` (e.g.
   look at the `biorr` or `agnar` entries: one long, chronologically-growing paragraph).
   `previousState` stays short — it's a maintenance note for future edits, not shown in the UI.
+  Use `scripts/append-node.cjs` (see step 3 above) to apply this rule — it reads the
+  latest `desc`/`star` from the file and appends your new text itself, so the full-overwrite
+  requirement is satisfied by construction instead of by careful retyping.
 - When a chapter resolves an entity's current state, review `label` and `type` as
   well as `desc`. For example, Harek's living reappearance in Book 2 Ch35 requires
   removing the stale `†?` label and replacing his "Desaparecido" type. Preserve the

@@ -2919,4 +2919,48 @@ const linksBook2 = [
     label: "saluda públicamente a su regreso a Darl, obteniendo un gesto de reconocimiento de",
     type: "event"
 },
+
+// LIBRO 2, CAPÍTULO 42 — BIÓRR
+{
+    source: "likrafa",
+    target: "nastrandir",
+    label: "detecta una presencia extraña en su trono y marcha furiosa a investigar",
+    type: "trama"
+},
+{
+    source: "rotta",
+    target: "nastrandir",
+    label: "vive oculto y cuida la sala en ausencia de su hermana",
+    type: "geo"
+},
+{
+    source: "rotta",
+    target: "likrafa",
+    label: "recibe con un festín preparado y llama «hermana» a",
+    type: "rel"
+},
+{
+    source: "likrafa",
+    target: "rotta",
+    label: "reconoce con asombro, vivo, exclamando su nombre",
+    type: "rel"
+},
+{
+    source: "biorr",
+    target: "revelacion-rotta-vivo",
+    label: "presencia, escudo y lanza en alto",
+    type: "event"
+},
+{
+    source: "revelacion-rotta-vivo",
+    target: "rotta",
+    label: "protagonizada por",
+    type: "event"
+},
+{
+    source: "revelacion-rotta-vivo",
+    target: "nastrandir",
+    label: "ocurre en",
+    type: "geo"
+},
 ];
