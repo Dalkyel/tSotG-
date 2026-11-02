@@ -2963,4 +2963,116 @@ const linksBook2 = [
     label: "ocurre en",
     type: "geo"
 },
+
+// LIBRO 2, CAPÍTULO 43 — GUÐVARR
+{
+    source: "leif",
+    target: "sterkur",
+    label: "contrata como cazador a",
+    type: "event"
+},
+{
+    source: "leif",
+    target: "varg",
+    label: "pide y obtiene de Helka permiso para cazar a",
+    type: "event"
+},
+{
+    source: "sterkur",
+    target: "varg",
+    label: "contratado para cazar y matar a",
+    type: "conflict"
+},
+{
+    source: "helka",
+    target: "leif",
+    label: "informa de la ruta de los Bloodsworn hacia Iskidan tras Jaromir a",
+    type: "lore"
+},
+{
+    source: "danza-escudos-hakon",
+    target: "hakon",
+    label: "elegida y ganada por",
+    type: "event"
+},
+{
+    source: "danza-escudos-hakon",
+    target: "gudvarr",
+    label: "protagonizada, con una maniobra decisiva, por",
+    type: "event"
+},
+{
+    source: "estrid",
+    target: "danza-escudos-hakon",
+    label: "es derribada durante",
+    type: "event"
+},
+{
+    source: "glunn-iron-grip",
+    target: "danza-escudos-hakon",
+    label: "casi alcanza la victoria en",
+    type: "event"
+},
+{
+    source: "estrid",
+    target: "gudvarr",
+    label: "acusa de haberla saboteado por encargo de Hákon a",
+    type: "conflict"
+},
+{
+    source: "vilja",
+    target: "gudvarr",
+    label: "corteja y promete recompensa a",
+    type: "rel"
+},
+
+// LIBRO 2, CAPÍTULO 44 — BIÓRR
+{
+    source: "rotta",
+    target: "likrafa",
+    label: "se reconcilia y abraza, tras explicar su huida por miedo, a",
+    type: "rel"
+},
+{
+    source: "likrafa",
+    target: "hijas-orna-ulfrir",
+    label: "revela a Rotta el destino de sus tres carceleras, las",
+    type: "history"
+},
+{
+    source: "rotta",
+    target: "biorr",
+    label: "reconoce como su descendiente, pide que lo llame por su nombre y se disculpa por el sufrimiento de",
+    type: "rel"
+},
+{
+    source: "likrafa",
+    target: "tennur",
+    label: "convoca con un canto mágico en nórdico antiguo a",
+    type: "magic"
+},
+{
+    source: "storolf-wartooth",
+    target: "oleif",
+    label: "derriba de un puñetazo tras defender a Tannbursta del insulto de",
+    type: "conflict"
+},
+{
+    source: "storolf-wartooth",
+    target: "tannbursta",
+    label: "regala un diente arrancado a Oleif a",
+    type: "rel"
+},
+{
+    source: "oleif",
+    target: "tannbursta",
+    label: "insulta llamando «sucia rata con alas» a",
+    type: "conflict"
+},
+{
+    source: "tannbursta",
+    target: "likrafa",
+    label: "es el tennúr que, según Biórr, habla más a menudo con",
+    type: "rel"
+},
 ];
