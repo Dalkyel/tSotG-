@@ -10,16 +10,16 @@
   const batchSize = () => matchMedia('(max-width: 1100px)').matches ? 6 : 12;
   const preferred = {
     ...CHARACTER_KEY_LINKS,
-    orka: [...CHARACTER_KEY_LINKS.orka, 'mord-lif', 'saeunn', 'elvar', 'myrk', 'spert', 'vesli', 'halja', 'varg'],
-    varg: [...CHARACTER_KEY_LINKS.varg, 'rokia', 'einar', 'torvik', 'terna', 'brimil', 'brak-trolls-bane', 'leif', 'refna'],
-    elvar: [...CHARACTER_KEY_LINKS.elvar, 'agnar', 'bjarn', 'sighvat', 'orka', 'ulfrir', 'skuld', 'ilska', 'brodir'],
+    orka: [...(CHARACTER_KEY_LINKS.orka ?? []), 'mord-lif', 'saeunn', 'elvar', 'myrk', 'spert', 'vesli', 'halja', 'varg'],
+    varg: [...(CHARACTER_KEY_LINKS.varg ?? []), 'rokia', 'einar', 'torvik', 'terna', 'brimil', 'brak-trolls-bane', 'leif', 'refna'],
+    elvar: [...(CHARACTER_KEY_LINKS.elvar ?? []), 'agnar', 'bjarn', 'sighvat', 'orka', 'ulfrir', 'skuld', 'ilska', 'brodir'],
   };
   const initialState = id => {
     const next = FocusMap.initial(id); next.limits[id] = batchSize(); return next;
   };
   const searchNames = new Map([...graph.nodes.values()].map(n => [n.id,
     CharacterReference.aliases(n, clueSourceRevisions, CHARACTER_GUIDES).map(normalize)]));
-  let state = null, current = null, past = [], future = [], layout = [], layoutLinks = [];
+  let state = null, current = null, past = [], future = [], layout = [], layoutLinks = [], returnTo = null;
   let cache = new Map(), selectedEdge = null, hoveredEdge = null;
   const el = (tag, text, className) => {
     const n = document.createElement(tag); if (text !== undefined) n.textContent = text;
@@ -129,7 +129,7 @@
     current = FocusMap.view(graph, state, preferred);
     if (!current.ids.has(state.selectedId)) state.selectedId = state.rootId;
     $('focus-kind').value = state.nodeKind; $('focus-type').value = state.linkType;
-    $('focus-back').disabled = !past.length; $('focus-forward').disabled = !future.length;
+    $('focus-back').disabled = !past.length && !returnTo; $('focus-forward').disabled = !future.length;
     $('focus-subtitle').textContent = `${graph.nodes.get(state.rootId).label} · ${DATA_LABEL}`;
     const rootTotal = FocusMap.neighbors(graph, state.rootId, state, preferred).length;
     $('focus-count').textContent = `${current.nodes.length} nodos · ${current.edges.length} conexiones agrupadas · ${rootTotal} vecinos directos del centro con estos filtros`;
@@ -232,7 +232,7 @@
     if (id !== state.rootId && state.expanded.includes(id)) pane.append(button('Cerrar esta rama', () => {
       const next = clone(state); next.expanded = next.expanded.filter(key => key !== id); delete next.limits[id]; commit(next);
     }));
-    if (CharacterReference.kind(node)) pane.append(button('Abrir ficha del personaje', () => { dialog.close(); window.openCharacterReference(id); }));
+    if (CharacterReference.kind(node)) pane.append(button('Abrir ficha del personaje', () => { dialog.close(); window.openCharacterReference(id, '', () => dialog.showModal()); }));
     const visible = current.edges.filter(edge => edge.source === id || edge.target === id);
     pane.append(el('h3', 'Vínculos visibles'));
     if (!visible.length) pane.append(el('p', 'No hay vínculos visibles con estos filtros. Prueba otro tipo de nodo o de vínculo.'));
@@ -268,7 +268,10 @@
   ['focus-kind', 'focus-type'].forEach((id, i) => $(id).addEventListener('change', () => {
     const next = clone(state); next[i === 0 ? 'nodeKind' : 'linkType'] = $(id).value; commit(next);
   }));
-  $('focus-back').addEventListener('click', () => travel(past, future));
+  $('focus-back').addEventListener('click', () => {
+    if (past.length) { travel(past, future); return; }
+    if (returnTo) { const reopen = returnTo; returnTo = null; dialog.close(); reopen(); }
+  });
   $('focus-forward').addEventListener('click', () => travel(future, past));
   $('focus-reset').addEventListener('click', () => {
     const next = initialState(state.rootId); next.nodeKind = state.nodeKind; next.linkType = state.linkType; commit(next);
@@ -281,9 +284,13 @@
     dialog.close(); const node = nodeMap[state.rootId]; selectNode(node);
     svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity.translate(width() / 2 - node.x, height() / 2 - node.y));
   });
-  function open(id) {
+  function open(id, onReturn) {
     const root = graph.nodes.has(id) ? id : state?.rootId || 'orka';
     if (!graph.nodes.has(root)) return;
+    if (!dialog.open) {
+      returnTo = onReturn || (summaryPanel.open ? () => summaryPanel.showModal() : null);
+      past = []; future = []; state = null;
+    }
     if (summaryPanel.open) summaryPanel.close();
     closeSearch(); $('focus-search').value = '';
     if (!dialog.open) dialog.showModal();

@@ -401,4 +401,801 @@ const nodes = [
         desc: "LIBRO 1, CAPÍTULO 3: Breca y Orka afirman que los asesinos se llevaron a Harek. Virk dice haber oído antes que se llevan niños. El capítulo sugiere otros casos, pero no aporta nombres, cifras, fechas, autores ni motivos.",
         star: "★★ La afirmación de Virk amplía la inquietud más allá de una sola familia."
     },
+
+// ── LIBRO 1, CAPÍTULO 4 — VARG ──
+    {
+        id: "varg", label: "Varg", group: "VARG", type: "Personaje — Nuevo miembro Bloodsworn",
+        status: "updated",
+        previousState: "Revela a Frøya, el propósito de su búsqueda y su admisión tras el combate y el rescate.",
+        desc: "LIBRO 1, CAPÍTULO 2: Llega a Liga tras nueve o diez días de huida, convencido de que lo persiguen aunque no ve a nadie. Desconoce su edad y a sus padres; recuerda treinta inviernos y veranos de esclavitud en la granja de Kolskegg, veinte leguas al noreste de Liga, río arriba. Corre con una resistencia que él mismo considera casi inagotable. Recuerda haber estrangulado a Snepil, pero no cómo llegó a rodearle el cuello con las manos: el recuerdo emerge de una niebla roja. Se vuelve a poner y cierra con llave el collar de hierro para entrar en Liga fingiendo que busca alojamiento para su amo, al que llama Snepil. Lleva monedas con la efigie de Helka; compra comida tras al menos tres días sin comer, paga información y silencio al vendedor y obtiene su cuchilla. Busca un Galdurman o una bruja Seiðr para realizar un akáll, cuya finalidad concreta aún no explica. Se toca repetidamente una bolsa del cinturón, de contenido no revelado. Svik le niega contratar a Vol, que solo sirve a los Bloodsworn. Al ver la prueba de reclutamiento, Varg termina ofreciéndose a luchar contra Einar Medio-Trol. LIBRO 1, CAPÍTULO 4: Rechaza un escudo porque nunca ha usado uno; la guerrera rubia lo anuncia como Varg No-Sense (Sin-Sentido). Su experiencia de pugilista comenzó luchando por comida para Frøya enferma y continuó en combates que enriquecieron a Kolskegg. Golpea y hace arrodillarse a Einar, pero se lesiona la mano contra su protección y termina inconsciente tras morderle la pantorrilla. Despierta de noche junto al fiordo, con heridas en cabeza y mano y posibles costillas rotas. Encuentra la capa doblada, con la cuchilla, las monedas y la llave; conserva también su bolsa del cinturón, cuyo contenido sigue sin revelarse. Se quita el collar y acampa entre los pinos. Llora a su hermana Frøya, muerta, y revela que busca ayuda mágica para vengarla. Según le contó Kolskegg, sus padres los vendieron por un pan y doce huevos de pato cuando tenían cinco y cuatro inviernos. Decide seguir buscando un Galdurman o una bruja Seiðr por Vigríð, y si hace falta cruzar a Iskidan y recorrer los Shattered Realms (Reinos Fragmentados). Leif lo captura con su gente: Varg hiere con la cuchilla a dos atacantes y sostiene que ganó su libertad, pero el padre de Leif quebrantó su juramento. Leif le roba las monedas, lo corta con la lanza y se dispone a amputarle una mano. Lo rescatan el guerrero calvo de barba gris, la mujer canosa con dos perros, Einar y Svik. El calvo declara que Varg ya pertenece a los Bloodsworn. No se muestra todavía un juramento de ingreso.",
+        star: "★★ La laguna de memoria al matar a Snepil, la resistencia al correr y la bolsa que protege quedan sin explicación. El capítulo termina antes de su combate con Einar. CAPÍTULO 4: La pertenencia declarada por el rescatador abre el acceso a la compañía de Vol; no se ha realizado el akáll."
+    },
+    {
+        id: "snepil", label: "Snepil (†) / Kolskegg", group: "VARG", type: "Personajes — Nombres de la esclavitud de Varg",
+        status: "updated",
+        previousState: "Añade el testimonio de Leif, los combates de Varg y la acusación de juramento roto.",
+        desc: "LIBRO 1, CAPÍTULO 2: La fuente llama Kolskegg al dueño de la granja donde Varg pasó treinta inviernos, situada veinte leguas al noreste de Liga. Varg recuerda haber estrangulado a un hombre llamado Snepil, sin recordar cómo empezó, y usa su nombre al inventar que busca alojamiento para su amo. El archivo original agrupa ambos nombres bajo este id; este capítulo no aclara explícitamente si Snepil y Kolskegg son la misma persona. No se atribuye aquí la muerte a Kolskegg como hecho confirmado. LIBRO 1, CAPÍTULO 4: Kolskegg compró a Varg y Frøya de niños, según lo que él mismo les contó; más tarde ganó un cofre de plata con los combates de Varg. Leif se presenta como Leif Kolskeggson, hijo del hombre al que acusa a Varg de haber asesinado y despedazado, reconocible solo por su cadena. Varg afirma que el padre le negó una libertad ya ganada, quebrantando su juramento. Al oír la acusación recuerda volver en sí mientras estrangulaba a Snepil, rodeado de sangre y carnicería. La secuencia vincula ambos nombres con la matanza, pero no identifica explícitamente a Snepil y Kolskegg como una sola persona; se conserva la cautela del capítulo 2.",
+        star: "★ La identidad entre los dos nombres queda pendiente de aclaración textual."
+    },
+    {
+        id: "einar", label: "Einar Medio-Trol", group: "VARG", type: "Personaje — Bloodsworn",
+        status: "updated",
+        previousState: "Resuelve el combate de Varg y añade su intervención en el rescate.",
+        desc: "LIBRO 1, CAPÍTULO 2: Svik lo llama Einar Half-Troll, aquí Medio-Trol. Es enorme, de barba roja trenzada hasta la cintura y musculatura comparable a raíces de roble. Combate sin camisa ni escudo contra los aspirantes. Varg lo ve resistir golpes, romper un escudo de un puñetazo y alzar y arrojar al suelo a su rival, que queda inconsciente. Apenas muestra unas marcas tras al menos veinte combates. Su apodo no demuestra ascendencia de trol. LIBRO 1, CAPÍTULO 4: Aconseja a Varg permanecer en el suelo cuando caiga. Varg consigue hacerlo arrodillarse con golpes a la espalda y la pierna, pero Einar lo derrota hasta dejarlo inconsciente; Varg le muerde la pantorrilla y le arranca un grito. Lleva una protección dura como hierro fabricada por Jökul que inutiliza el golpe de Varg a la entrepierna. Esa noche interviene en el rescate de Varg, sale entre los árboles y arroja a uno de los hombres de Leif de un puñetazo.",
+        star: "★ Varg acepta enfrentarse a él al cerrar el capítulo; todavía no han luchado."
+    },
+    {
+        id: "svik", label: "Svik Hrulfsson", group: "VARG", type: "Personaje — Bloodsworn",
+        status: "updated",
+        previousState: "Añade sus acciones en el rescate y la reacción de la perra a su gruñido.",
+        desc: "LIBRO 1, CAPÍTULO 2: Guerrero esbelto de cabello rojo cuidadosamente trenzado y barba recortada y aceitada. Lleva una buena cota de malla y un seax decorado. Se presenta como Svik Hrulfsson, apodado Tangle-Hair por no llevar nunca el pelo enredado. Pide el nombre de Varg a la entrada de la prueba, bromea sobre sus motivos para buscar magia y reconoce la seriedad de un akáll. Rechaza dejarle contratar a Vol: sus talentos se reservan a la compañía. Explica que Einar combate sin escudo para dar alguna oportunidad a los aspirantes. LIBRO 1, CAPÍTULO 4: Bromea con que Varg no tiene nombre antes del combate. Participa en su rescate de Leif: esquiva una lanza, desliza el seax por el asta y corta los dedos del atacante, al que derriba de un cabezazo. Después emite un gruñido animal que hace retroceder a la perra de Orl; el gesto observado no confirma ninguna ascendencia sobrenatural.",
+        star: ""
+    },
+    {
+        id: "bloodsworn", label: "Bloodsworn (Hermanos de Sangre)", group: "VARG", type: "Facción — Compañía mercenaria",
+        status: "updated",
+        previousState: "Añade el rescate y la declaración de pertenencia de Varg.",
+        desc: "LIBRO 1, CAPÍTULO 2: Compañía famosa en Vigríð y, según Varg, probablemente más allá. Se alquila al mejor postor para cazar Vaesen, buscar reliquias divinas, intervenir en disputas fronterizas o proteger a los poderosos. Llegó a Liga el día anterior y es huésped de Jarl Logur. Sus escudos negros llevan salpicaduras rojas. Cuenta con la bruja Seiðr esclava Vol. Tras la muerte de uno de sus miembros, celebra una prueba de armas para cubrir un puesto en su drakkar; Einar combate con los aspirantes y Svik controla el acceso. LIBRO 1, CAPÍTULO 4: Una guerrera rubia ofrece un escudo a Varg y lo anuncia como Varg No-Sense al rechazarlo. Einar lo deja inconsciente en la prueba. Más tarde el guerrero calvo de barba gris, una mujer canosa con dos perros, Einar y Svik lo salvan de Leif. Ante la reclamación de propiedad y weregild de Leif, el calvo declara que Varg es ahora uno de los Bloodsworn. Ninguno de los dos rescatadores anónimos recibe nombre en este capítulo.",
+        star: ""
+    },
+    {
+        id: "prueba-armas-liga", label: "Prueba de Armas de Liga", group: "EVENTO", type: "Evento — Reclutamiento Bloodsworn",
+        status: "updated",
+        previousState: "Resuelve el duelo pendiente y distingue la derrota del ingreso declarado después.",
+        desc: "LIBRO 1, CAPÍTULO 2: La compañía busca reemplazar a un miembro muerto mediante combates ante el salón de Jarl Logur. Una aspirante anónima explica a Varg el puesto vacante y le obliga a esperar turno. Cincuenta o sesenta guerreros rodean el espacio; salen aspirantes heridos o inconscientes. Einar combate sin escudo y vence al rival que Varg observa. Tras el rechazo de Svik a contratar a Vol, Varg anuncia que luchará contra Einar. El resultado queda pendiente. LIBRO 1, CAPÍTULO 4: Varg combate sin escudo, pues no sabe usarlo; la guerrera rubia lo anuncia como Varg No-Sense. El público apuesta sobre su derrota. Sus puños no detienen a Einar y se lesiona contra la protección de Jökul. Consigue hacerlo caer sobre una rodilla y morderle la pantorrilla antes de quedar inconsciente. Al despertar fuera de Liga cree haber fracasado; solo al final del posterior rescate el calvo declara su pertenencia a la compañía.",
+        star: ""
+    },
+    {
+        id: "froya", label: "Frøya (†)", group: "VARG", type: "Personaje — Hermana muerta de Varg",
+        desc: "LIBRO 1, CAPÍTULO 4: Hermana de Varg y su única amiga y consuelo durante la esclavitud. Según lo que Kolskegg contó a Varg, sus padres los vendieron por un pan y doce huevos de pato cuando él tenía cinco inviernos y ella cuatro. Varg comenzó a luchar por una ración extra de caldo cuando Frøya tenía fiebre. Ahora está muerta y Varg busca ayuda de un Galdurman o una bruja Seiðr para saber cómo vengarla; el capítulo no explica cómo murió ni revela el contenido de la bolsa que él protege.",
+        star: "★★ Su muerte explica la búsqueda de ayuda mágica de Varg."
+    },
+    {
+        id: "jokul", label: "Jökul", group: "VARG", type: "Personaje — Herrero mencionado",
+        desc: "LIBRO 1, CAPÍTULO 4: Einar dice que este herrero le fabricó la protección de la entrepierna. Varg se lesiona la mano al golpearla durante la prueba. Jökul no aparece en persona ni recibe apodo en este capítulo.",
+        star: ""
+    },
+    {
+        id: "leif", label: "Leif Kolskeggson", group: "VARG", type: "Personaje — Perseguidor de Varg",
+        desc: "LIBRO 1, CAPÍTULO 4: Hombre ancho, de barba negra y labio marcado por una cicatriz. Se presenta como hijo del hombre al que Varg mató y acusa a este de haber asesinado también a tres hombres libres. Lo rastrea con una partida y la perra de Orl. Reclama a Varg como esclavo heredado y por derecho de weregild, mientras Varg afirma haber ganado una libertad negada por su padre. Leif le quita las monedas, le corta las costillas con la lanza y amenaza con arrastrarlo tras su caballo, azotarlo y obligarlo a trabajar de por vida. Ordena a Orl atender a dos heridos y se dispone a cortarle una mano a Varg con la cuchilla. El guerrero calvo de barba gris lo incapacita antes; Leif queda arrodillado, sujetándose la entrepierna. Su reclamación es rechazada porque Varg pertenece ahora a los Bloodsworn.",
+        star: "★ Sigue vivo al cerrar el capítulo; su reclamación de propiedad permanece enfrentada a la libertad que afirma Varg."
+    },
+    {
+        id: "orl", label: "Orl", group: "VARG", type: "Personaje — Esclavo y cuidador de una perra",
+        desc: "LIBRO 1, CAPÍTULO 4: Anciano de pelo gris ralo y lacio que lleva un collar de hierro. Maneja la perra que rastrea a Varg y apaga con su capa el fuego que prende en su pelaje cuando Varg la arroja contra la hoguera. Leif le ordena atender a sus dos heridos; Orl corta la túnica de la mujer y limpia la herida. Leif dice que Orl tallará una mano de madera para Varg. Tras el rescate, Orl permanece sentado contra un árbol; su perra, que cojea, se acobarda ante el gruñido de Svik. El collar acredita su condición de esclavo, no la de guerrero libre.",
+        star: ""
+    },
+    {
+        id: "vergelmir", label: "Vergelmir", group: "LUGAR", type: "Lugar — Cámara de Lik-Rifa en la creencia de Varg",
+        desc: "LIBRO 1, CAPÍTULO 4: Al recobrar la conciencia tras el combate, Varg se pregunta si ha muerto y está en Vergelmir, la cámara de Lik-Rifa. Es una referencia en sus pensamientos: no visita el lugar ni el capítulo describe su geografía.",
+        star: ""
+    },
+    {
+        id: "likrafa", label: "Lik-Rifa", group: "DIOS", type: "Entidad mítica — Mencionada por Varg",
+        desc: "LIBRO 1, CAPÍTULO 4: Varg vincula su nombre con la cámara de Vergelmir cuando se pregunta si ha muerto. El capítulo no explica su naturaleza, parentescos ni situación actual.",
+        star: ""
+    },
+
+// ── LIBRO 1, CAPÍTULO 5 — ELVAR ──
+    {
+        id: "cat-elvar", label: "ARCO ELVAR", group: "CAT", type: "Categoría",
+        desc: "LIBRO 1, CAPÍTULO 5: Elvar y la compañía de los Battle-Grim, presentados en el capítulo 5.",
+        star: ""
+    },
+    {
+        id: "elvar", label: "Elvar", group: "ELVAR", type: "Personaje — Guerrera de los Battle-Grim",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrera rubia y la más joven de la compañía de Agnar. Rema hasta Iskalt y se equipa con brynja, espada, seax, hacha, casco, escudo y lanza. Su escudo rojo muestra espada, hacha y lanza cruzadas con nudos ornamentales. Ambiciona fama de batalla y desprecia el arco por matar a distancia. Se enorgullece de que Agnar la elija para acompañarlo y vigilar a los aldeanos. Advierte a una niña que abandona la multitud y, por orden de Agnar, la sigue. Derriba a un arquero con el escudo y hiere a una lancera; Grend mata a esta cuando intenta cortarle las piernas. Dirige la inspección de una cabaña y descubre el hueco por el que han escapado. Nota el interés de Biórr y aparta la mirada; también aparta la vista cuando un guardia patea a Kráka.",
+        star: "★ Su búsqueda de fama convive con su participación en la caza de Tainted y la violencia contra los habitantes de Iskalt."
+    },
+    {
+        id: "grend", label: "Grend", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero corpulento, de cabello entrecano y expresión adusta. Rema delante de Elvar y la acompaña cuando Agnar la llama. Le enseñó desde su primer contacto con una espada a comprobar que la hoja no se atasque al desenvainar. Sigue a Elvar en la persecución de una niña y mata de un hachazo a la mujer que intenta herirle las piernas. Obedece su señal para rodear la cabaña, abre parte de la pared con el hacha y encuentra el rastro hacia el bosque.",
+        star: ""
+    },
+    {
+        id: "sighvat", label: "Sighvat", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero voluminoso que marca el ritmo de los cincuenta remos golpeando un barril con una cuerda anudada y transmite las órdenes de Agnar. Amarra el Wave-Jarl al muelle. Anuncia a los Battle-Grim como cazadores de Vaesen y Tainted y amenaza a los isleños con demostrar su fama. Lleva un saco y sujeta la cadena del esclavo Hundur, al que arrastra y obliga a rastrear. Sigue a Elvar y Grend hasta la cabaña y pregunta al esclavo si Berak estuvo allí; este lo confirma asintiendo.",
+        star: ""
+    },
+    {
+        id: "agnar", label: "Agnar", group: "ELVAR", type: "Personaje — Jefe de los Battle-Grim",
+        desc: "LIBRO 1, CAPÍTULO 5: Jefe rubio de los Battle-Grim, con trenza de guerrero y el resto de la cabeza rasurado. Lleva piel de oso negro, torques de plata y anillos en los brazos. Gobierna el timón del Wave-Jarl durante la aproximación a Iskalt, deja diez o doce guerreros custodiándolo y desembarca con los demás. Busca a Berak, un hombre grande con cicatrices en un lado de la cara, acompañado por una mujer y un niño. Ofrece dinero o muerte a los aldeanos. Afirma que Berak es Tainted, tocado por los dioses, y que traerá sangre y matanza. Usa un trapo ensangrentado para dar su olor al esclavo Hundur y pronuncia «Hlýða», haciendo palpitar vetas rojas en su collar. Al interponerse Hrut, le corta la lanza y le hiere barbilla y labio; avanza después con escudo y espada mientras estalla la lucha. Al descubrir que los perseguidos han escapado de la cabaña, ordena seguirlos al bosque.",
+        star: "★ Su amenaza de prosperar o morir convierte la búsqueda de Berak en un ataque contra la aldea."
+    },
+    {
+        id: "wave-jarl", label: "Wave-Jarl", group: "ELVAR", type: "Barco — Drakkar",
+        desc: "LIBRO 1, CAPÍTULO 5: Drakkar de proa de dragón que transporta a los Battle-Grim a Iskalt. Cincuenta remos lo impulsan bajo el ritmo de Sighvat, mientras Agnar gobierna el timón. Kráka canta para mantener a serpientes y otros Vaesen marinos lejos del casco. Entra en un puerto natural y queda amarrado a un muelle; diez o doce guerreros permanecen como guardia.",
+        star: ""
+    },
+    {
+        id: "iskalt", label: "Isla de Iskalt", group: "LUGAR", type: "Lugar — Isla septentrional",
+        desc: "LIBRO 1, CAPÍTULO 5: Isla muy al norte, donde la primavera aún parece lejana. Una montaña de fuego, con vetas rojas brillantes entre los riscos de granito, permite reconocerla desde el mar. Dos promontorios resguardan un puerto natural con muelle y playa de guijarros. La aldea pesquera tiene ahumaderos, redes, cestas para cangrejos y unas docenas de edificios; más allá crecen álamos y abedules. Hrut se declara su jarl. Los Battle-Grim desembarcan buscando a Berak y atacan cuando Hrut se interpone. El rastro de los fugitivos conduce al bosque bajo la montaña.",
+        star: ""
+    },
+    {
+        id: "kraka", label: "Kráka", group: "ELVAR", type: "Personaje — Esclava Tainted",
+        desc: "LIBRO 1, CAPÍTULO 5: Esclava Tainted de los Battle-Grim. Canta magia durante la travesía para alejar del casco a las serpientes y otros Vaesen marinos. Tras la llegada a Iskalt queda desplomada en la proa, exhausta, con el pelo negro empapado. Lleva collar y cadena; un guardia la patea y ella se encoge levantando las manos. Elvar aparta la mirada.",
+        star: "★ Su magia sirve de protección a quienes la mantienen esclavizada."
+    },
+    {
+        id: "biorr", label: "Biórr", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero de los Battle-Grim que desembarca en Iskalt. Comenta el frío sonriendo a Elvar, quien percibe interés en sus ojos y mira hacia otro lado. Sigue a Elvar, Grend, Sighvat y el esclavo rastreador durante el combate y llega a la cabaña con el rostro encendido por la lucha y la carrera.",
+        star: ""
+    },
+    {
+        id: "battle-grim", label: "Terrores de la batalla (Battle-Grim)", group: "ELVAR", type: "Facción — Compañía guerrera",
+        desc: "LIBRO 1, CAPÍTULO 5: Compañía de Agnar que viaja en el Wave-Jarl. Sighvat los proclama matadores de Vaesen, cazadores de Tainted y segadores de almas. Sus guerreros curtidos portan hierro y cotas de malla; Elvar es la más joven. Mantienen esclavizados a Kráka y a un rastreador Hundur. Desembarcan en Iskalt buscando a Berak; forman una línea de escudos ante los aldeanos y avanzan con gritos de guerra cuando Agnar ataca a Hrut. Continúan la persecución después de hallar vacía la cabaña.",
+        star: ""
+    },
+    {
+        id: "berak", label: "Berak", group: "ELVAR", type: "Personaje — Tainted perseguido",
+        desc: "LIBRO 1, CAPÍTULO 5: Hombre al que busca Agnar en Iskalt. Según este, es alto y ancho, tiene cicatrices en un lado de la cara y viaja con una mujer y un niño; calcula que llegó dos o tres días antes. Agnar lo identifica públicamente como Tainted y asegura que traerá sangre y matanza: esta última es la acusación del cazador. El esclavo Hundur confirma por el olor que Berak estuvo en la cabaña, pero el grupo ya ha escapado por un hueco en la pared trasera. No se muestra su captura ni se identifica expresamente al hombre que envía a la niña desde la multitud.",
+        star: "★ La persecución continúa hacia el bosque de Iskalt; el grupo no ha sido capturado al terminar el capítulo."
+    },
+    {
+        id: "jarl-hrut", label: "Jarl Hrut", group: "ELVAR", type: "Personaje — Jarl de Iskalt",
+        desc: "LIBRO 1, CAPÍTULO 5: Hombre alto con barba trenzada y anillos de hueso, vestido de pieles y armado con lanza y cuchillo de empuñadura de marfil de morsa. Se presenta como jarl de Iskalt y afirma no conocer a ningún Berak que viva en la isla. Se interpone cuando Agnar intenta avanzar. Agnar le corta el asta de la lanza y le abre barbilla y labio, arrancando dientes; luego avanza para atacarlo de nuevo. Los aldeanos acuden a defenderlo. El capítulo no confirma su muerte.",
+        star: ""
+    },
+    {
+        id: "hundur", label: "Hundur (Thrall)", group: "ELVAR", type: "Personaje — Esclavo rastreador",
+        desc: "LIBRO 1, CAPÍTULO 5: Esclavo al que Agnar denomina su Hundur-thrall; el capítulo no revela su nombre personal. Lleva cabello largo, ojos hundidos y una capa de piel de foca maltrecha. Sighvat lo mantiene sujeto por una cadena al cuello. Agnar le entrega un trapo ensangrentado con el olor de Berak y pronuncia «Hlýða»; vetas rojas palpitan en el collar, el hombre gime y olfatea el paño. Rastrea a ras de suelo y confirma por el olor de la paja que Berak estuvo en la cabaña. No se explica aquí su linaje divino concreto.",
+        star: ""
+    },
+    {
+        id: "tainted", label: "Tainted", group: "MAGIA", type: "Concepto — Personas tocadas por los dioses",
+        desc: "LIBRO 1, CAPÍTULO 5: Agnar describe a Berak como Tainted, tocado por los dioses, y lo presenta como una amenaza para los isleños. Los Battle-Grim se proclaman cazadores de Tainted. Kráka es una esclava Tainted cuya magia protege el barco. El capítulo muestra cautiverio y explotación de estas personas, sin explicar todavía la herencia divina ni atribuir a Berak poderes concretos.",
+        star: ""
+    },
+    {
+        id: "collares", label: "Collares de Hierro", group: "MAGIA", type: "Objeto — Collares de sometimiento",
+        desc: "LIBRO 1, CAPÍTULO 5: Kráka lleva collar de esclava y cadena. El esclavo Hundur también está sujeto por una cadena al cuello: cuando Agnar pronuncia «Hlýða», vetas rojas palpitan en el collar y el hombre gime antes de obedecer y olfatear el trapo de Berak. El capítulo muestra el efecto de la orden, sin explicar el origen ni la fabricación de estos collares.",
+        star: "★ «Hlýða» activa una manifestación visible del collar del rastreador."
+    },
+    {
+        id: "drakkar", label: "Drakkar (Langskip)", group: "NORSE", type: "Cultura — Nave de guerra",
+        desc: "LIBRO 1, CAPÍTULO 5: El Wave-Jarl es un drakkar de proa de dragón. En la aproximación a Iskalt avanza con cincuenta remos y un remo de gobierno manejado por Agnar. Al llegar se recogen los remos en sus soportes y se cierran los agujeros con tapones giratorios. Los cofres de mar sirven de asiento y guardan el equipo.",
+        star: ""
+    },
+    {
+        id: "brynja", label: "Brynja (Cota de Mallas)", group: "NORSE", type: "Equipo — Armadura",
+        desc: "LIBRO 1, CAPÍTULO 5: Cota de malla remachada que Elvar conserva enrollada en piel de oveja aceitada para evitar la oxidación. Se la pone sobre la cabeza y ajusta un cinturón para descargar los hombros. Grend también viste brynja. Durante la persecución, una punta de lanza raspa la malla de Elvar y salta una chispa.",
+        star: ""
+    },
+    {
+        id: "niding", label: "Níðing", group: "NORSE", type: "Cultura — Insulto",
+        desc: "LIBRO 1, CAPÍTULO 5: Sighvat emplea «niðing» como insulto al gritar a los remeros del Wave-Jarl. Este capítulo no desarrolla su sentido jurídico o social.",
+        star: ""
+    },
+    {
+        id: "asalto-iskalt", label: "Asalto y Persecución en Iskalt", group: "EVENTO", type: "Evento — Ataque a la aldea",
+        desc: "LIBRO 1, CAPÍTULO 5: Los Battle-Grim desembarcan para capturar a Berak. Hrut niega conocerlo y Agnar ofrece dinero o muerte a la aldea. Elvar detecta que un hombre envía a una niña entre las chozas. Agnar ordena seguirla y ataca a Hrut cuando este le cierra el paso; los aldeanos responden con lanzas y flechas y la compañía avanza. Elvar derriba a un arquero y hiere a una lancera, a quien Grend mata al defenderla. La niña conduce a los perseguidores hacia una cabaña, pero al entrar Elvar la encuentra vacía. El Hundur confirma el olor de Berak; un hueco en la pared y las huellas que descubre Grend muestran la fuga hacia el bosque. Agnar ordena continuar. El hombre que envió a la niña, la niña y las víctimas anónimas no reciben nombres ni identidades confirmadas.",
+        star: "★ La escena termina con la persecución abierta, sin captura de Berak ni confirmación de la muerte de Hrut."
+    },
+    {
+        id: "vaesen-gen", label: "Vaesen", group: "VAESEN", type: "Criaturas — Categoría",
+        status: "updated",
+        previousState: "Añade los peligros marinos, el canto protector de Kráka y la actividad de los Battle-Grim.",
+        desc: "LIBRO 1, CAPÍTULO 1: Criaturas que, según Orka, escaparon del mundo inferior al abrirse el foso durante la caída de Snaka. Las runas protectoras detienen a todos salvo los más poderosos. Rara vez utilizan armas, pues cuentan con sus propios instrumentos naturales para matar. Estos rasgos hacen dudar de que sean los autores de la matanza de Asgrim e Idrun. LIBRO 1, CAPÍTULO 2: En Liga se comercializan sangre seca de Faunir, un diente de trol, ojos de skraeling y un collar de cabello de Froa-espíritu. Los Bloodsworn son conocidos, entre otros trabajos, por cazar Vaesen. Estas menciones comerciales no son avistamientos de criaturas vivas. LIBRO 1, CAPÍTULO 3: Orka considera que prefieren lugares oscuros y tranquilos donde ocultarse. Un nudillo de dios protege la puerta de Fellur. Guðvarr afirma que se están volviendo más audaces, asesinan y roban, pero Orka rechaza que hayan matado a Asgrim: cazan con dientes y garras, no con espadas de hierro. La acusación de Guðvarr no confirma su autoría. LIBRO 1, CAPÍTULO 5: Durante la travesía a Iskalt, Kráka canta magia para mantener a serpientes y otros Vaesen marinos lejos del casco del Wave-Jarl. Elvar considera que las criaturas son más osadas tan al norte. Los Battle-Grim se anuncian como matadores de Vaesen.",
+        star: ""
+    },
+
+// ── LIBRO 1, CAPÍTULO 6 — ORKA ──
+    {
+        id: "orka", label: "Orka", group: "ORKA", type: "Personaje — Madre y cazadora",
+        status: "updated",
+        previousState: "Despertar con recuerdos de batalla, búsqueda de Breca y reacción violenta al encontrarlo con Vesli.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposa de Thorkel y madre de Breca. Tiene cabello rubio trenzado y ojos gris verdosos, heredados por su hijo. Durante una cacería considera que la ternura de Breca lo deja indefenso ante un mundo cruel; contiene una reprimenda cuando Thorkel le pide esperar. Extrae del árbol la lanza del niño y más tarde reconoce que su lanzamiento fue bueno. Lidera la marcha hacia los gritos procedentes de la granja de Asgrim y adapta su paso al de Breca. La proximidad del peligro la estimula; la sangre del lobo le provoca imágenes de cuerpos despedazados y voces gritando, que aparta con ayuda del contacto de Thorkel. Explica que la caída de Snaka abrió el foso de los vaesen. Ante el cadáver de Asgrim le coloca el hacha en la mano para que recorra el camino del alma armado. Deduce que murió rápidamente por una estocada al corazón, identifica el saqueo de sus dientes como obra de tennur y encuentra indicios de otro herido arrastrado. Las runas protectoras y el uso de armas hacen sospechar una agresión humana, sin confirmar todavía a los responsables. Cuestiona el nombre de Edad de la Paz ante la matanza. LIBRO 1, CAPÍTULO 3: Lleva con Breca los cuerpos de Asgrim e Idrun a Fellur mientras Thorkel rastrea a los asesinos. Prefería seguirlos ella, pero reconoce que su esposo es mejor rastreador. Siente presión en la cabeza y el pecho bajo el nudillo de dios de la puerta; disminuye al alejarse. Desmiente a Guðvarr: la estocada de espada no corresponde a dientes ni garras de vaesen. Al recibir sus amenazas revive imágenes de violencia, tiembla y lucha por contenerse ante Breca. La llegada de Thorkel permite cortar la confrontación. Quiere entregar los muertos a sus parientes para que reciban un túmulo, pero termina marchándose con su familia: considera que esta lucha no les corresponde. LIBRO 1, CAPÍTULO 6: Despierta empapada en sudor tras revivir una batalla, con el mar, cuerpos y gritos. Oculta su angustia a Thorkel; desea alcohol para amortiguar los recuerdos y resiente que él le haya pedido beber menos. Al descubrir vacía la cama de Breca lo busca con su lanza, interroga a Spert y teme otro rapto al recordar las palabras de Virk y la desaparición de Harek. Sigue a Thorkel hacia el nordeste, remontando el arroyo, y contiene con esfuerzo imágenes violentas y una ira que sabe inútil para encontrar al niño. Abraza y besa a Breca al hallarlo junto a una poza. Le sorprende la posible presencia de un Näcken tan lejos de su río de montaña, pero la preocupación por su hijo desplaza esa observación. Al ver al tennur herido que sostiene, golpea a Breca en la mejilla y le deja una hinchazón amoratada; lo reprende por abandonar la seguridad de la granja y levanta la mano de nuevo. Thorkel la detiene. Orka piensa que podría vencer su resistencia, pero acepta el juicio de su esposo, en quien ha aprendido a confiar especialmente cuando la domina la ira. Descubre que el niño ha dado un diente a la criatura y que esta se llama Vesli.",
+        star: "★★ Su reacción a la sangre sugiere una experiencia de violencia anterior que el capítulo no explica. La dureza con Breca convive con gestos de protección y respeto a los muertos. CAPÍTULO 6: Los recuerdos de batalla y la necesidad de alcohol agravan su angustia; el miedo por Breca desemboca en violencia contra él."
+    },
+    {
+        id: "thorkel", label: "Thorkel", group: "ORKA", type: "Personaje — Padre y cazador",
+        status: "updated",
+        previousState: "Rastrea a Breca, sospecha un Näcken y detiene el segundo golpe de Orka.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposo de Orka y padre de Breca. Hombre enorme, de cabello negro con canas y barba trenzada; una cicatriz desde la mejilla hasta la mandíbula tuerce su sonrisa. Pide paciencia ante la vacilación del niño durante la caza. Tras el paso de un fell-wolf herido prueba una gota de su sangre y sigue su rastro con la mirada; el texto no explica el gesto. Consuela a Breca por el tiro fallido y pide un descanso para sus piernas cortas. Relata cómo Snaka fue muerto por sus hijos y sus restos formaron las montañas de Vigríð. Toca el hombro de Orka cuando queda atrapada en imágenes de violencia. En la granja de Asgrim detecta una runa protectora y se pregunta si la matanza fue obra de hombres. LIBRO 1, CAPÍTULO 3: No encuentra a Harek en la granja. Sigue el rastro de los asesinos por el bosque tras prometer que regresará sin enfrentarse solo a ellos si los descubre; Orka teme que no cumpla esa promesa por salvar al niño. El rastro acaba en un afluente del Skarpain, con señales de tres barcas en la orilla. No encuentra a los fugitivos. Regresa a Fellur durante el enfrentamiento de Orka con Guðvarr; su propia ira se suaviza cuando ella le habla de enterrar a los muertos. LIBRO 1, CAPÍTULO 6: Encuentra la huella de Breca junto al portillo de la granja y el cerrojo abierto, sin señales de otra persona. Con seax y hacha de mano, sigue el rastro hacia el nordeste y remonta el arroyo hasta una poza de la que nace. Al hallar al niño pide que se aparte del agua: dice que huele a Näcken y clava su seax en la tierra blanda; no se muestra ninguna criatura acuática ni el efecto de este gesto. Identifica como tennur a la criatura herida. Sujeta la muñeca de Orka para impedir que vuelva a pegar a Breca y le dice que ya ha dejado claro su reproche. También reprende al niño por el peligro y le pregunta cómo encontró a la criatura. Silba al oír que se llama Vesli y se ríe cuando Breca pide quedarse con ella; todavía no responde a la petición.",
+        star: "★ Su atención a Orka y Breca contrapesa la severidad de ella. El gesto de probar la sangre queda registrado sin atribuirle poderes ni linaje."
+    },
+    {
+        id: "breca", label: "Breca", group: "ORKA", type: "Personaje — Hijo de Orka y Thorkel",
+        status: "updated",
+        previousState: "Sale solo para socorrer a Vesli, le da un diente y pide quedarse con ella.",
+        desc: "LIBRO 1, CAPÍTULO 1: Tiene diez veranos, cabello negro como su padre y ojos gris verdosos como su madre. Vacila al lanzar una lanza contra un reno; el tiro está bien ejecutado, pero un fell-wolf herido espanta la manada y la lanza se clava en un pino. Se culpa por fallar y recibe ánimo de sus padres. Es amigo de Harek, con quien ha jugado en la playa de Fellur durante las visitas de su familia para comerciar. Pide escuchar otra vez la historia de Snaka. Al llegar a la granja ve por primera vez un ser humano muerto, Asgrim, a quien conocía. Pregunta por los dientes ausentes del cadáver y, al final, por el paradero de Harek. LIBRO 1, CAPÍTULO 3: Conduce el poni que arrastra el carro con los cuerpos hasta Fellur; Orka le encarga la tarea para darle algo en que concentrarse. Pregunta si su padre encontrará a Harek y anuncia su desaparición ante Virk y Guðvarr. La espada de Guðvarr lo impresiona. Observa preocupado la confrontación de su madre y le tira de la manga para avisar de la llegada de Thorkel. LIBRO 1, CAPÍTULO 6: Sale solo de la granja al oír los gritos de una criatura herida. Sus padres lo encuentran junto a una poza, con un tennur envuelto en su capa sobre el regazo. Orka primero lo abraza y luego, al ver la criatura, le da un golpe que le hincha y amorata la mejilla. El tennur lo protege extendiendo las alas y siseando; Thorkel impide otro golpe. Breca explica que arrancó uno de sus dientes de leche, ya flojo, y se lo dio porque sus padres le habían contado que a los tennur les gustan los dientes; otro diente está saliendo. Dice que la criatura es hembra y que ella le ha dicho su nombre, Vesli. Pregunta si pueden quedársela, sin obtener aún una respuesta explícita.",
+        star: "★★ La cacería presenta su sensibilidad; el hallazgo de la matanza convierte la lección sobre la muerte en una experiencia humana inmediata. CAPÍTULO 6: Su compasión por Vesli recibe una respuesta protectora; el vínculo no explica todavía ninguna capacidad especial."
+    },
+    {
+        id: "tennur", label: "Tennur", group: "VAESEN", type: "Vaesen — Enjambre",
+        status: "updated",
+        previousState: "Primera aparición en escena mediante Vesli; aspecto, gusto por los dientes y defensa del niño.",
+        desc: "LIBRO 1, CAPÍTULO 1: Orka atribuye a los tennur la extracción de los dientes de Asgrim. Los describe como pequeñas criaturas bípedas que codician los dientes humanos, con dedos de hueso afilado y dientes cortantes. Solos son una molestia; en grupo pueden resultar mortales. Orka busca señales de ellos en los árboles y la roca, pero no aparece ninguno en escena. LIBRO 1, CAPÍTULO 6: Thorkel identifica como tennur a Vesli, herida y acurrucada en el regazo de Breca. Este ejemplar tiene extremidades con garras gruesas y puntiagudas, alas finas como pergamino, nariz y barbilla agudas, grandes ojos negros, piel rosada sin pelo con venas oscuras y dos filas de dientes: una exterior afilada y otra interior plana. Sangra bajo un ala y por un corte en el labio. Breca afirma que se calmó cuando le dio un diente de leche arrancado y que ella le comunicó su nombre. Pese a su debilidad, despliega las alas y sisea para protegerlo del segundo golpe de Orka. Estas acciones corresponden a Vesli, sin establecer que todos los tennur se comporten igual.",
+        star: "★ Su intervención se deduce del saqueo del cadáver; no se establece que mataran a Asgrim."
+    },
+    {
+        id: "steading", label: "Steading (Granja)", group: "NORSE", type: "Vida Diaria — Vivienda",
+        status: "updated",
+        previousState: "Añade la vivienda y dependencias de la granja de Orka y Thorkel, distintas de la de Asgrim.",
+        desc: "LIBRO 1, CAPÍTULO 1: La granja de Asgrim ocupa una plataforma en la ladera, junto a una pared de roca. Una casa grande con tejado de hierba y varios edificios auxiliares están rodeados por una empalizada más alta que Orka. Un sendero en el lado oriental baja hacia Fellur y el fiordo. LIBRO 1, CAPÍTULO 6: La granja de Orka y Thorkel tiene una cabaña con dormitorio separado para los padres y una sala donde Breca duerme junto al hogar. El recinto incluye cobertizo de leña, fragua, horno de carbón, huerto de verduras y hierbas, colmena y establo con un poni. Un arroyo lo atraviesa; Spert vive bajo una roca y recibe alimento a cambio de protección. Las puertas marcadas con runas tienen un portillo con cerrojo de hierro para el paso habitual; las hojas grandes se abren para salir con poni y carro a comerciar en Fellur. Remontando el arroyo hacia el nordeste se llega, tras una subida y una cresta, a una poza en el bosque donde encuentran a Breca.",
+        star: ""
+    },
+    {
+        id: "spert", label: "Spert", group: "ORKA", type: "Vaesen — Guardián doméstico",
+        desc: "LIBRO 1, CAPÍTULO 6: Spertus que vive bajo una roca cubierta de musgo en el arroyo de la granja de Orka y Thorkel. Orka lo despierta con el extremo de su lanza para preguntarle por Breca. Se queja de hambre: el niño suele traerle cada mañana gachas mezcladas con sangre y saliva. Ante la amenaza de Orka de matarlo, protesta que trabaja protegiéndolos de los Vaesen, pero admite que necesita dormir y no puede vigilar siempre a todos. No sabe dónde está Breca y vuelve a sumergirse.",
+        star: ""
+    },
+    {
+        id: "spertus", label: "Spertus", group: "VAESEN", type: "Vaesen — Criatura de arroyo",
+        desc: "LIBRO 1, CAPÍTULO 6: La especie se presenta mediante Spert. Su cuerpo segmentado y quitinoso mide aproximadamente lo que el brazo de Orka y tiene el grosor de una pierna de Thorkel. Posee muchas patas y un aguijón curvo como una aguja sobre la espalda. Su rostro resulta inquietantemente humano, con ojos saltones, piel gris colgante y demasiados dientes puntiagudos. Spert habla con voz áspera y vive bajo una roca en el agua; su acuerdo de protección y alimento es el del individuo mostrado.",
+        star: ""
+    },
+    {
+        id: "nacken", label: "Näcken", group: "VAESEN", type: "Vaesen — Presencia sospechada",
+        desc: "LIBRO 1, CAPÍTULO 6: Junto a la poza donde encuentran a Breca, Thorkel dice que huele a Näcken, ordena alejarse del agua y clava su seax en el suelo. Orka piensa que un Näcken no debería estar tan lejos de su río de montaña. No se ve a la criatura, no hay ataque y su presencia queda como sospecha de los personajes.",
+        star: ""
+    },
+    {
+        id: "vesli", label: "Vesli", group: "ORKA", type: "Vaesen — Tennur herida",
+        desc: "LIBRO 1, CAPÍTULO 6: Breca encuentra a esta tennur tras oírla gritar de dolor fuera de la granja. Está herida bajo un ala y en el labio, y descansa envuelta en su capa sobre su regazo junto a una poza. Tiene alas finas, garras, grandes ojos negros, piel rosada sin pelo y dos hileras de dientes. Breca cuenta que se calmó al recibir uno de sus dientes de leche y que ella le dijo su nombre y que es hembra; no se reproduce ese diálogo. Después del golpe de Orka al niño, despliega las alas, muestra los dientes y sisea para protegerlo, aunque parece demasiado débil para mantenerse en pie. Breca pide quedarse con ella y Thorkel se ríe; no se muestra aún una decisión.",
+        star: "★ Su defensa de Breca responde a la ayuda que él le ha prestado."
+    },
+
+// ── LIBRO 1, CAPÍTULO 7 — ELVAR ──
+    {
+        id: "elvar", label: "Elvar", group: "ELVAR", type: "Personaje — Guerrera de los Battle-Grim",
+        status: "updated",
+        previousState: "Explora, mata al trol y presencia la coacción contra Berak.",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrera rubia y la más joven de la compañía de Agnar. Rema hasta Iskalt y se equipa con brynja, espada, seax, hacha, casco, escudo y lanza. Su escudo rojo muestra espada, hacha y lanza cruzadas con nudos ornamentales. Ambiciona fama de batalla y desprecia el arco por matar a distancia. Se enorgullece de que Agnar la elija para acompañarlo y vigilar a los aldeanos. Advierte a una niña que abandona la multitud y, por orden de Agnar, la sigue. Derriba a un arquero con el escudo y hiere a una lancera; Grend mata a esta cuando intenta cortarle las piernas. Dirige la inspección de una cabaña y descubre el hueco por el que han escapado. Nota el interés de Biórr y aparta la mirada; también aparta la vista cuando un guardia patea a Kráka. LIBRO 1, CAPÍTULO 7: Acepta el honor de explorar en vanguardia con Grend y Biórr. Advierte telarañas de arañas del hielo y recuerda su veneno. Tras fallar con la lanza contra el trol, combate con Grend y le abre una arteria del muslo, causando la hemorragia que lo mata. Grend la ayuda a levantarse ilesa. Sonríe a Biórr cuando la sostiene tras un resbalón, pero se libera de su mano; piensa expresamente que Grend no es su padre. Duda de que el cautivo sea Berserkir hasta ver su transformación. Aparta la mirada cuando Agnar amenaza al niño: matar niños no es su forma de ganar fama. Agnar le exige mirar al prisionero y ella presencia su sometimiento.",
+        star: "★ Su búsqueda de fama convive con su participación en la caza de Tainted y la violencia contra los habitantes de Iskalt."
+    },
+    {
+        id: "agnar", label: "Agnar", group: "ELVAR", type: "Personaje — Jefe de los Battle-Grim",
+        status: "updated",
+        previousState: "Confirma la muerte de Hrut y captura a Berak mediante amenazas al niño.",
+        desc: "LIBRO 1, CAPÍTULO 5: Jefe rubio de los Battle-Grim, con trenza de guerrero y el resto de la cabeza rasurado. Lleva piel de oso negro, torques de plata y anillos en los brazos. Gobierna el timón del Wave-Jarl durante la aproximación a Iskalt, deja diez o doce guerreros custodiándolo y desembarca con los demás. Busca a Berak, un hombre grande con cicatrices en un lado de la cara, acompañado por una mujer y un niño. Ofrece dinero o muerte a los aldeanos. Afirma que Berak es Tainted, tocado por los dioses, y que traerá sangre y matanza. Usa un trapo ensangrentado para dar su olor al esclavo Hundur y pronuncia «Hlýða», haciendo palpitar vetas rojas en su collar. Al interponerse Hrut, le corta la lanza y le hiere barbilla y labio; avanza después con escudo y espada mientras estalla la lucha. Al descubrir que los perseguidos han escapado de la cabaña, ordena seguirlos al bosque. LIBRO 1, CAPÍTULO 7: Se confirma que mató a Hrut en la aldea. Deja una docena de guerreros con Thrud y continúa con veintiséis. Envía a Elvar, Grend y Biórr a explorar, y ordena combatir al trol por parejas en vez de formar muro de escudos. Le clava la espada en la espalda. Ordena capturar a la mujer y al niño y reconoce al hombre como Berak Bjornasson, pese a sus negativas. Para probar su condición, amenaza con degollar al niño y le corta levemente el cuello; la transformación de Berak convence a Elvar. Activa el collar con «HALDA» y lo obliga a arrodillarse con «Á HNÉN». Afirma que la sangre del dios muerto Berser corre por Berak y que tres jarls lo buscan por asesinato, deuda de sangre y weregild. Pretende venderlo por un buen precio. Ordena recoger a sus muertos y descuartizar al trol para aprovechar todo lo valioso.",
+        star: "★ Su amenaza de prosperar o morir convierte la búsqueda de Berak en un ataque contra la aldea."
+    },
+    {
+        id: "grend", label: "Grend", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        status: "updated",
+        previousState: "Protege a Elvar durante la exploración y el combate; no es su padre.",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero corpulento, de cabello entrecano y expresión adusta. Rema delante de Elvar y la acompaña cuando Agnar la llama. Le enseñó desde su primer contacto con una espada a comprobar que la hoja no se atasque al desenvainar. Sigue a Elvar en la persecución de una niña y mata de un hachazo a la mujer que intenta herirle las piernas. Obedece su señal para rodear la cabaña, abre parte de la pared con el hacha y encuentra el rastro hacia el bosque. LIBRO 1, CAPÍTULO 7: Vigila el bosque y se interpone, ceñudo, entre Elvar y Biórr cuando este la ayuda. Biórr lo toma por su padre; Elvar piensa que no lo es. Explora junto a ambos por orden de Agnar. Combate por parejas con Elvar contra el trol, la recoge cuando cae y lanza un hachazo a los testículos de la criatura antes de caer ambos. Después la ayuda a levantarse; ella no está herida.",
+        star: ""
+    },
+    {
+        id: "biorr", label: "Biórr", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        status: "updated",
+        previousState: "Acerca sus atenciones a Elvar y explora con ella y Grend.",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero de los Battle-Grim que desembarca en Iskalt. Comenta el frío sonriendo a Elvar, quien percibe interés en sus ojos y mira hacia otro lado. Sigue a Elvar, Grend, Sighvat y el esclavo rastreador durante el combate y llega a la cabaña con el rostro encendido por la lucha y la carrera. LIBRO 1, CAPÍTULO 7: Sostiene a Elvar cuando resbala; ambos sonríen, pero ella aparta el brazo. Ante la hostilidad de Grend, bromea con que su padre no lo aprecia, sin que Elvar le explique el error. Sigue a ambos fuera del sendero y Agnar lo elige con ellos como explorador. Avanza junto al arroyo y presencia al hombre combatiendo al trol.",
+        star: ""
+    },
+    {
+        id: "jarl-hrut", label: "Jarl Hrut (†)", group: "ELVAR", type: "Personaje — Jarl de Iskalt fallecido",
+        status: "updated",
+        previousState: "Se confirma su muerte a manos de Agnar.",
+        desc: "LIBRO 1, CAPÍTULO 5: Hombre alto con barba trenzada y anillos de hueso, vestido de pieles y armado con lanza y cuchillo de empuñadura de marfil de morsa. Se presenta como jarl de Iskalt y afirma no conocer a ningún Berak que viva en la isla. Se interpone cuando Agnar intenta avanzar. Agnar le corta el asta de la lanza y le abre barbilla y labio, arrancando dientes; luego avanza para atacarlo de nuevo. Los aldeanos acuden a defenderlo. El capítulo no confirma su muerte. LIBRO 1, CAPÍTULO 7: El relato de Elvar confirma que Agnar lo mató en el combate de la aldea. Una docena de aldeanos más cayó ante el muro de escudos, tras lo cual los demás se rindieron.",
+        star: ""
+    },
+    {
+        id: "sighvat", label: "Sighvat", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        status: "updated",
+        previousState: "Encadena a Berak y participa en la coacción contra sus acompañantes.",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero voluminoso que marca el ritmo de los cincuenta remos golpeando un barril con una cuerda anudada y transmite las órdenes de Agnar. Amarra el Wave-Jarl al muelle. Anuncia a los Battle-Grim como cazadores de Vaesen y Tainted y amenaza a los isleños con demostrar su fama. Lleva un saco y sujeta la cadena del esclavo Hundur, al que arrastra y obliga a rastrear. Sigue a Elvar y Grend hasta la cabaña y pregunta al esclavo si Berak estuvo allí; este lo confirma asintiendo. LIBRO 1, CAPÍTULO 7: Lleva encadenado al Hundur durante el ascenso y lo fija a un árbol con un pasador de hierro antes del combate. Golpea con una cadena la cabeza del hombre perseguido, lo derriba de un puñetazo y organiza su inmovilización. Le coloca el collar y remacha el pasador con el pomo de su seax. Golpea a la mujer cuando protesta por la amenaza al niño. La fuerza transformada de Berak lo arrastra junto con seis hombres hasta que Agnar activa el collar. Elvar conoce la contundencia de sus golpes en el pugil-ring.",
+        star: ""
+    },
+    {
+        id: "hundur", label: "Hundur (Thrall)", group: "ELVAR", type: "Personaje — Esclavo rastreador",
+        status: "updated",
+        previousState: "Lleva el rastro hasta el encuentro con el trol y el fugitivo.",
+        desc: "LIBRO 1, CAPÍTULO 5: Esclavo al que Agnar denomina su Hundur-thrall; el capítulo no revela su nombre personal. Lleva cabello largo, ojos hundidos y una capa de piel de foca maltrecha. Sighvat lo mantiene sujeto por una cadena al cuello. Agnar le entrega un trapo ensangrentado con el olor de Berak y pronuncia «Hlýða»; vetas rojas palpitan en el collar, el hombre gime y olfatea el paño. Rastrea a ras de suelo y confirma por el olor de la paja que Berak estuvo en la cabaña. No se explica aquí su linaje divino concreto. LIBRO 1, CAPÍTULO 7: Guía a los cazadores por las colinas nevadas; identifica estiércol de trol y extrae un hueso de él. Sighvat fija su cadena a un árbol. Agnar fundamenta en su rastreo la identificación del cautivo como Berak; el esclavo observa con expresión desdichada.",
+        star: ""
+    },
+    {
+        id: "berak", label: "Berak Bjornasson", group: "ELVAR", type: "Personaje — Berserkir cautivo",
+        status: "updated",
+        previousState: "Captura y transformación de Berak; acusaciones atribuidas a Agnar.",
+        desc: "LIBRO 1, CAPÍTULO 5: Hombre al que busca Agnar en Iskalt. Según este, es alto y ancho, tiene cicatrices en un lado de la cara y viaja con una mujer y un niño; calcula que llegó dos o tres días antes. Agnar lo identifica públicamente como Tainted y asegura que traerá sangre y matanza: esta última es la acusación del cazador. El esclavo Hundur confirma por el olor que Berak estuvo en la cabaña, pero el grupo ya ha escapado por un hueco en la pared trasera. No se muestra su captura ni se identifica expresamente al hombre que envía a la niña desde la multitud. LIBRO 1, CAPÍTULO 7: Agnar lo identifica como Berak Bjornasson. Combate con lanza a un trol junto a una cascada de lava mientras una mujer y un niño esperan cerca. Después de morir el trol, mata a un guerrero de la compañía con una estocada en la garganta. Acorralado contra la lava, resiste los golpes de Sighvat, pero lo encadenan y le ponen un collar. Niega ser el hombre buscado. Cuando Agnar amenaza al niño, sus ojos se tornan ambarinos, aumenta su volumen, se afilan sus dientes y le crecen uñas como garras; arrastra a seis hombres y a Sighvat. El collar lo detiene al grito de «HALDA» y «Á HNÉN» lo obliga a arrodillarse. Agnar lo declara Berserkir, descendiente de Berser, y afirma que tres jarls lo reclaman por asesinato, deuda de sangre y weregild: las acusaciones proceden de Agnar. Elvar queda convencida de su condición. La mujer y el niño también son capturados; aquí no se revelan sus nombres ni su parentesco explícito con él.",
+        star: "★ La persecución continúa hacia el bosque de Iskalt; el grupo no ha sido capturado al terminar el capítulo. CAPÍTULO 7: La captura confirma su poder, que Agnar doblega amenazando al niño y activando el collar."
+    },
+    {
+        id: "battle-grim", label: "Terrores de la batalla (Battle-Grim)", group: "ELVAR", type: "Facción — Compañía guerrera",
+        status: "updated",
+        previousState: "Resultado del asalto y nuevas muertes durante la captura.",
+        desc: "LIBRO 1, CAPÍTULO 5: Compañía de Agnar que viaja en el Wave-Jarl. Sighvat los proclama matadores de Vaesen, cazadores de Tainted y segadores de almas. Sus guerreros curtidos portan hierro y cotas de malla; Elvar es la más joven. Mantienen esclavizados a Kráka y a un rastreador Hundur. Desembarcan en Iskalt buscando a Berak; forman una línea de escudos ante los aldeanos y avanzan con gritos de guerra cuando Agnar ataca a Hrut. Continúan la persecución después de hallar vacía la cabaña. LIBRO 1, CAPÍTULO 7: El ataque a la aldea termina con Hrut muerto, otra docena de aldeanos caídos y los demás rendidos. Su única baja allí es la herida de flecha de Thrud en la pantorrilla; una docena queda con él custodiando prisioneros y veintiséis siguen a Agnar. En las colinas luchan por parejas contra un trol: uno muere ensartado, una mujer arde en la lava y otra es aplastada. Elvar mata al trol; el hombre perseguido mata a otro guerrero antes de ser capturado como Berak. Capturan también a la mujer y al niño y Agnar ordena recoger los muertos y aprovechar el cadáver del trol.",
+        star: ""
+    },
+    {
+        id: "tainted", label: "Tainted", group: "MAGIA", type: "Concepto — Personas tocadas por los dioses",
+        status: "updated",
+        previousState: "Berak manifiesta poderes y Agnar atribuye su linaje a Berser.",
+        desc: "LIBRO 1, CAPÍTULO 5: Agnar describe a Berak como Tainted, tocado por los dioses, y lo presenta como una amenaza para los isleños. Los Battle-Grim se proclaman cazadores de Tainted. Kráka es una esclava Tainted cuya magia protege el barco. El capítulo muestra cautiverio y explotación de estas personas, sin explicar todavía la herencia divina ni atribuir a Berak poderes concretos. LIBRO 1, CAPÍTULO 7: La transformación observada del cautivo identificado como Berak muestra fuerza extraordinaria, ojos ambarinos, dientes afilados y uñas como garras. Agnar lo llama Tainted y Berserkir y vincula su sangre al dios muerto Berser. Su intención de venderlo y las órdenes que activan su collar muestran la esclavización de estos poderes.",
+        star: ""
+    },
+    {
+        id: "collares", label: "Collares de Hierro", group: "MAGIA", type: "Objeto — Collares de sometimiento",
+        status: "updated",
+        previousState: "Dos órdenes someten a Berak durante su transformación.",
+        desc: "LIBRO 1, CAPÍTULO 5: Kráka lleva collar de esclava y cadena. El esclavo Hundur también está sujeto por una cadena al cuello: cuando Agnar pronuncia «Hlýða», vetas rojas palpitan en el collar y el hombre gime antes de obedecer y olfatear el trapo de Berak. El capítulo muestra el efecto de la orden, sin explicar el origen ni la fabricación de estos collares. LIBRO 1, CAPÍTULO 7: Sighvat remacha un collar en el cuello del cautivo identificado como Berak. Cuando este se transforma y arremete, «HALDA» provoca un destello rojo en el hierro y lo inmoviliza pese a su resistencia; «Á HNÉN» lo fuerza a arrodillarse. Las órdenes son pronunciadas por Agnar.",
+        star: "★ «Hlýða» activa una manifestación visible del collar del rastreador."
+    },
+    {
+        id: "trol", label: "Trol", group: "VAESEN", type: "Vaesen — Trol territorial",
+        status: "updated",
+        previousState: "Primera aparición de un trol vivo; combate y comportamiento territorial.",
+        desc: "LIBRO 1, CAPÍTULO 2: Un vendedor de Liga ofrece un diente de trol del tamaño de un puño. No se ve ningún trol vivo. Medio-Trol es el apodo de Einar, sin confirmación de parentesco con estas criaturas. LIBRO 1, CAPÍTULO 7: Elvar conoce su territorialidad: los machos suelen ser solitarios salvo durante el apareamiento y parte de la crianza; las crías nacen grandes, ágiles, fuertes y voraces, aficionadas a la carne humana. En Iskalt aparece un macho joven, de piel escamosa con musgo y líquenes, colmillos y astas cortas, que combate con una maza claveteada y reclama su territorio gritando «MINE». Su fuerza mata a tres guerreros. Las lanzas apenas penetran su piel; Agnar lo hiere en la espalda y Elvar abre una arteria del muslo, provocando su muerte. Agnar manda descuartizarlo y recoger lo valioso.",
+        star: ""
+    },
+    {
+        id: "iskalt", label: "Isla de Iskalt", group: "LUGAR", type: "Lugar — Isla septentrional",
+        status: "updated",
+        previousState: "Geografía de la persecución y protección rúnica de la aldea.",
+        desc: "LIBRO 1, CAPÍTULO 5: Isla muy al norte, donde la primavera aún parece lejana. Una montaña de fuego, con vetas rojas brillantes entre los riscos de granito, permite reconocerla desde el mar. Dos promontorios resguardan un puerto natural con muelle y playa de guijarros. La aldea pesquera tiene ahumaderos, redes, cestas para cangrejos y unas docenas de edificios; más allá crecen álamos y abedules. Hrut se declara su jarl. Los Battle-Grim desembarcan buscando a Berak y atacan cuando Hrut se interpone. El rastro de los fugitivos conduce al bosque bajo la montaña. LIBRO 1, CAPÍTULO 7: Una empalizada semicircular de estacas marcadas con runas protege la aldea contra Vaesen. En las colinas nevadas, un sendero sigue un arroyo hasta una meseta donde una cascada de roca fundida cae desde un risco de granito en una poza de lava. Allí un trol disputa su territorio y los Battle-Grim capturan al fugitivo identificado como Berak y a sus dos acompañantes.",
+        star: ""
+    },
+    {
+        id: "asalto-iskalt", label: "Asalto y Persecución en Iskalt", group: "EVENTO", type: "Evento — Ataque a la aldea",
+        status: "updated",
+        previousState: "La persecución concluye con Berak y sus acompañantes capturados.",
+        desc: "LIBRO 1, CAPÍTULO 5: Los Battle-Grim desembarcan para capturar a Berak. Hrut niega conocerlo y Agnar ofrece dinero o muerte a la aldea. Elvar detecta que un hombre envía a una niña entre las chozas. Agnar ordena seguirla y ataca a Hrut cuando este le cierra el paso; los aldeanos responden con lanzas y flechas y la compañía avanza. Elvar derriba a un arquero y hiere a una lancera, a quien Grend mata al defenderla. La niña conduce a los perseguidores hacia una cabaña, pero al entrar Elvar la encuentra vacía. El Hundur confirma el olor de Berak; un hueco en la pared y las huellas que descubre Grend muestran la fuga hacia el bosque. Agnar ordena continuar. El hombre que envió a la niña, la niña y las víctimas anónimas no reciben nombres ni identidades confirmadas. LIBRO 1, CAPÍTULO 7: Se confirma la muerte de Hrut y la rendición de los aldeanos. Thrud queda herido en la aldea con una docena de guardias y veintiséis guerreros continúan la persecución. Encuentran al fugitivo luchando contra un trol junto a una poza de lava; la mujer que lo acompaña arroja al fuego un objeto semejante a una tablilla de cera o un libro de pergamino, que se consume, y huye con el niño. Agnar envía cuatro guerreros a capturarlos. Tres miembros de la compañía mueren a manos del trol, al que Elvar mata cortando una arteria. El fugitivo mata a otro guerrero antes de que Sighvat lo someta y le coloque un collar. Agnar lo identifica como Berak y amenaza al niño para provocar su transformación; el collar lo detiene y lo fuerza a arrodillarse. La captura queda consumada y Agnar ordena recoger los muertos y descuartizar al trol. No se identifica el objeto quemado ni se dan nombres a la mujer y al niño.",
+        star: "★ La escena termina con la persecución abierta, sin captura de Berak ni confirmación de la muerte de Hrut. CAPÍTULO 7: La persecución termina en captura y esclavización, con nuevas bajas de la compañía."
+    },
+    {
+        id: "thrud", label: "Thrud", group: "ELVAR", type: "Personaje — Guerrero herido",
+        desc: "LIBRO 1, CAPÍTULO 7: Una flecha le atraviesa la pantorrilla en el combate de la aldea. Es la única baja de la compañía en aquel enfrentamiento. Agnar lo deja atrás, furioso por no seguir, con una docena de guerreros que custodian a los prisioneros.",
+        star: ""
+    },
+    {
+        id: "berser", label: "Berser (Dios-Oso)", group: "DIOS", type: "Dios muerto — Linaje atribuido de los Berserkir",
+        desc: "LIBRO 1, CAPÍTULO 7: Agnar afirma que la sangre del dios muerto Berser corre por las venas de Berak Bjornasson y lo identifica como Berserkir. La transformación de Berak presenta rasgos y fuerza que Elvar asocia con un oso; no se narra aquí la vida ni la muerte de Berser.",
+        star: ""
+    },
+    {
+        id: "berserkir", label: "Berserkir (Guerrero-Oso)", group: "MAGIA", type: "Linaje — Tainted de Berser",
+        desc: "LIBRO 1, CAPÍTULO 7: Elvar ha oído relatos sobre los Berserkir y espera más fuerza de la que muestra inicialmente el prisionero. Al amenazar Agnar al niño, el hombre crece, sus ojos se vuelven ambarinos, sus dientes se afilan y sus uñas parecen garras; arrastra a seis hombres y a Sighvat. Agnar lo identifica como Berak Bjornasson, Berserkir cuya sangre procede del dios muerto Berser. Un collar activado por órdenes verbales logra someterlo.",
+        star: ""
+    },
+    {
+        id: "araña-hielo", label: "Arañas del Hielo (Frost-Spiders)", group: "VAESEN", type: "Vaesen — Arañas venenosas",
+        desc: "LIBRO 1, CAPÍTULO 7: Elvar reconoce sus telas en el bosque de Iskalt: un hilo es tan grueso como su dedo y de las ramas cuelgan restos de ratas, un cuervo y una marta. Avisa a Grend y Biórr. Ha visto su veneno congelar la sangre en las venas y detener el corazón. No se produce un ataque en este capítulo.",
+        star: ""
+    },
+
+// ── LIBRO 1, CAPÍTULO 8 — ORKA ──
+    {
+        id: "orka", label: "Orka", group: "ORKA", type: "Personaje — Madre y cazadora",
+        status: "updated",
+        previousState: "Contrasta su miedo y sus recuerdos con la elección diaria de Thorkel; acepta acudir al Althing.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposa de Thorkel y madre de Breca. Tiene cabello rubio trenzado y ojos gris verdosos, heredados por su hijo. Durante una cacería considera que la ternura de Breca lo deja indefenso ante un mundo cruel; contiene una reprimenda cuando Thorkel le pide esperar. Extrae del árbol la lanza del niño y más tarde reconoce que su lanzamiento fue bueno. Lidera la marcha hacia los gritos procedentes de la granja de Asgrim y adapta su paso al de Breca. La proximidad del peligro la estimula; la sangre del lobo le provoca imágenes de cuerpos despedazados y voces gritando, que aparta con ayuda del contacto de Thorkel. Explica que la caída de Snaka abrió el foso de los vaesen. Ante el cadáver de Asgrim le coloca el hacha en la mano para que recorra el camino del alma armado. Deduce que murió rápidamente por una estocada al corazón, identifica el saqueo de sus dientes como obra de tennur y encuentra indicios de otro herido arrastrado. Las runas protectoras y el uso de armas hacen sospechar una agresión humana, sin confirmar todavía a los responsables. Cuestiona el nombre de Edad de la Paz ante la matanza. LIBRO 1, CAPÍTULO 3: Lleva con Breca los cuerpos de Asgrim e Idrun a Fellur mientras Thorkel rastrea a los asesinos. Prefería seguirlos ella, pero reconoce que su esposo es mejor rastreador. Siente presión en la cabeza y el pecho bajo el nudillo de dios de la puerta; disminuye al alejarse. Desmiente a Guðvarr: la estocada de espada no corresponde a dientes ni garras de vaesen. Al recibir sus amenazas revive imágenes de violencia, tiembla y lucha por contenerse ante Breca. La llegada de Thorkel permite cortar la confrontación. Quiere entregar los muertos a sus parientes para que reciban un túmulo, pero termina marchándose con su familia: considera que esta lucha no les corresponde. LIBRO 1, CAPÍTULO 6: Despierta empapada en sudor tras revivir una batalla, con el mar, cuerpos y gritos. Oculta su angustia a Thorkel; desea alcohol para amortiguar los recuerdos y resiente que él le haya pedido beber menos. Al descubrir vacía la cama de Breca lo busca con su lanza, interroga a Spert y teme otro rapto al recordar las palabras de Virk y la desaparición de Harek. Sigue a Thorkel hacia el nordeste, remontando el arroyo, y contiene con esfuerzo imágenes violentas y una ira que sabe inútil para encontrar al niño. Abraza y besa a Breca al hallarlo junto a una poza. Le sorprende la posible presencia de un Näcken tan lejos de su río de montaña, pero la preocupación por su hijo desplaza esa observación. Al ver al tennur herido que sostiene, golpea a Breca en la mejilla y le deja una hinchazón amoratada; lo reprende por abandonar la seguridad de la granja y levanta la mano de nuevo. Thorkel la detiene. Orka piensa que podría vencer su resistencia, pero acepta el juicio de su esposo, en quien ha aprendido a confiar especialmente cuando la domina la ira. Descubre que el niño ha dado un diente a la criatura y que esta se llama Vesli. LIBRO 1, CAPÍTULO 8: Afila su seax mientras vigila a Breca y a Vesli, ahora acogida en la granja. Defiende educar al niño para sobrevivir sin sus padres, pero admite compartir el deseo de protegerlo del sufrimiento. Reconoce que ella y Thorkel han combatido juntos y cometido actos terribles; no logra desprenderse del pasado y envidia la fortaleza emocional de él. Lo llama Thorkel Ulfsson. Se confirma que fue ella quien capturó y vinculó a Spert años atrás: las gachas que le da Breca contienen sangre y saliva de Orka. La posibilidad de tener otro hijo da paso a la alarma por unos jinetes. Toma su lanza y, al ver el hacha larga de Thorkel, revive gritos y la imagen de un guerrero entre llamas, sin identificarlo. Reconoce a los visitantes y juzga que no serían capaces de matar a Asgrim e Idrun. Rechaza involucrarse en disputas de jarls y reinas, pero acepta ir al Althing de Sigrún para no llamar la atención; el presentimiento de Thorkel la deja asustada.",
+        star: "★★ Su reacción a la sangre sugiere una experiencia de violencia anterior que el capítulo no explica. La dureza con Breca convive con gestos de protección y respeto a los muertos. CAPÍTULO 6: Los recuerdos de batalla y la necesidad de alcohol agravan su angustia; el miedo por Breca desemboca en violencia contra él. CAPÍTULO 8: La paz familiar convive con recuerdos intrusivos de violencia y el miedo al futuro político."
+    },
+    {
+        id: "thorkel", label: "Thorkel", group: "ORKA", type: "Personaje — Padre y cazador",
+        status: "updated",
+        previousState: "Revela su infancia esclavizada, explica cómo vive con el pasado y propone asistir discretamente a la asamblea.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposo de Orka y padre de Breca. Hombre enorme, de cabello negro con canas y barba trenzada; una cicatriz desde la mejilla hasta la mandíbula tuerce su sonrisa. Pide paciencia ante la vacilación del niño durante la caza. Tras el paso de un fell-wolf herido prueba una gota de su sangre y sigue su rastro con la mirada; el texto no explica el gesto. Consuela a Breca por el tiro fallido y pide un descanso para sus piernas cortas. Relata cómo Snaka fue muerto por sus hijos y sus restos formaron las montañas de Vigríð. Toca el hombro de Orka cuando queda atrapada en imágenes de violencia. En la granja de Asgrim detecta una runa protectora y se pregunta si la matanza fue obra de hombres. LIBRO 1, CAPÍTULO 3: No encuentra a Harek en la granja. Sigue el rastro de los asesinos por el bosque tras prometer que regresará sin enfrentarse solo a ellos si los descubre; Orka teme que no cumpla esa promesa por salvar al niño. El rastro acaba en un afluente del Skarpain, con señales de tres barcas en la orilla. No encuentra a los fugitivos. Regresa a Fellur durante el enfrentamiento de Orka con Guðvarr; su propia ira se suaviza cuando ella le habla de enterrar a los muertos. LIBRO 1, CAPÍTULO 6: Encuentra la huella de Breca junto al portillo de la granja y el cerrojo abierto, sin señales de otra persona. Con seax y hacha de mano, sigue el rastro hacia el nordeste y remonta el arroyo hasta una poza de la que nace. Al hallar al niño pide que se aparte del agua: dice que huele a Näcken y clava su seax en la tierra blanda; no se muestra ninguna criatura acuática ni el efecto de este gesto. Identifica como tennur a la criatura herida. Sujeta la muñeca de Orka para impedir que vuelva a pegar a Breca y le dice que ya ha dejado claro su reproche. También reprende al niño por el peligro y le pregunta cómo encontró a la criatura. Silba al oír que se llama Vesli y se ríe cuando Breca pide quedarse con ella; todavía no responde a la petición. LIBRO 1, CAPÍTULO 8: Ha permitido que Breca se quede con Vesli. Recuerda que, a la edad de su hijo —diez inviernos—, llevaba collar de esclavo y había sido azotado. Quiere dejarlo disfrutar de la infancia. Él y Orka viven libres, dueños de su granja, sin juramentos ni vínculos que los aten. Explica que cada día elige concentrarse en su esposa y su hijo en vez de en el pasado; propone tener otro hijo. Orka lo llama Thorkel Ulfsson. Afirma que Spert los protege eficazmente y que Vesli quedará ligada a Breca por una deuda de sangre si sobrevive, pudiendo acompañarlo cuando sus padres mueran porque los vaesen viven mucho. Al oír caballos toma un hacha larga de su propia altura y adopta una mirada fría: no permitirá que los raptores se lleven a su hijo. Reconoce a Guðvarr y se relaja; ofrece hospitalidad a los mensajeros. Aconseja acudir al Althing sin destacar, escuchar y marcharse, pues ausentarse atraería comentarios de Guðvarr y le inquieta el interés de Helka por Fellur y las colinas.",
+        star: "★ Su atención a Orka y Breca contrapesa la severidad de ella. El gesto de probar la sangre queda registrado sin atribuirle poderes ni linaje. CAPÍTULO 8: Su optimismo es una elección consciente pese a la esclavitud y los horrores compartidos con Orka."
+    },
+    {
+        id: "breca", label: "Breca", group: "ORKA", type: "Personaje — Hijo de Orka y Thorkel",
+        status: "updated",
+        previousState: "Cuida a Vesli en casa, media ante Spert y recibe su juramento de fidelidad.",
+        desc: "LIBRO 1, CAPÍTULO 1: Tiene diez veranos, cabello negro como su padre y ojos gris verdosos como su madre. Vacila al lanzar una lanza contra un reno; el tiro está bien ejecutado, pero un fell-wolf herido espanta la manada y la lanza se clava en un pino. Se culpa por fallar y recibe ánimo de sus padres. Es amigo de Harek, con quien ha jugado en la playa de Fellur durante las visitas de su familia para comerciar. Pide escuchar otra vez la historia de Snaka. Al llegar a la granja ve por primera vez un ser humano muerto, Asgrim, a quien conocía. Pregunta por los dientes ausentes del cadáver y, al final, por el paradero de Harek. LIBRO 1, CAPÍTULO 3: Conduce el poni que arrastra el carro con los cuerpos hasta Fellur; Orka le encarga la tarea para darle algo en que concentrarse. Pregunta si su padre encontrará a Harek y anuncia su desaparición ante Virk y Guðvarr. La espada de Guðvarr lo impresiona. Observa preocupado la confrontación de su madre y le tira de la manga para avisar de la llegada de Thorkel. LIBRO 1, CAPÍTULO 6: Sale solo de la granja al oír los gritos de una criatura herida. Sus padres lo encuentran junto a una poza, con un tennur envuelto en su capa sobre el regazo. Orka primero lo abraza y luego, al ver la criatura, le da un golpe que le hincha y amorata la mejilla. El tennur lo protege extendiendo las alas y siseando; Thorkel impide otro golpe. Breca explica que arrancó uno de sus dientes de leche, ya flojo, y se lo dio porque sus padres le habían contado que a los tennur les gustan los dientes; otro diente está saliendo. Dice que la criatura es hembra y que ella le ha dicho su nombre, Vesli. Pregunta si pueden quedársela, sin obtener aún una respuesta explícita. LIBRO 1, CAPÍTULO 8: Recoge huevos mientras mantiene cerca a Vesli, vendada y acomodada en una carretilla con mantas. Conserva el hematoma del golpe de Orka. Lleva las gachas a Spert y lo detiene cuando amenaza a la tennur; explica que está herida, que su grupo la ha expulsado y que está sola, como antes lo estuvo Spert. Se ríe de que este desconfíe de los vaesen siendo él mismo uno. Presencia el juramento de sangre por el que Vesli promete ser fiel a él y a Spert, a quien llama su guardián. Al llegar los jinetes obedece a Orka y lleva a Vesli en brazos al salón; después se asoma aún sosteniéndola.",
+        star: "★★ La cacería presenta su sensibilidad; el hallazgo de la matanza convierte la lección sobre la muerte en una experiencia humana inmediata. CAPÍTULO 6: Su compasión por Vesli recibe una respuesta protectora; el vínculo no explica todavía ninguna capacidad especial."
+    },
+    {
+        id: "vesli", label: "Vesli", group: "ORKA", type: "Vaesen — Tennur herida",
+        status: "updated",
+        previousState: "Habla en escena y sella con sangre su promesa de amistad a Breca y Spert.",
+        desc: "LIBRO 1, CAPÍTULO 6: Breca encuentra a esta tennur tras oírla gritar de dolor fuera de la granja. Está herida bajo un ala y en el labio, y descansa envuelta en su capa sobre su regazo junto a una poza. Tiene alas finas, garras, grandes ojos negros, piel rosada sin pelo y dos hileras de dientes. Breca cuenta que se calmó al recibir uno de sus dientes de leche y que ella le dijo su nombre y que es hembra; no se reproduce ese diálogo. Después del golpe de Orka al niño, despliega las alas, muestra los dientes y sisea para protegerlo, aunque parece demasiado débil para mantenerse en pie. Breca pide quedarse con ella y Thorkel se ríe; no se muestra aún una decisión. LIBRO 1, CAPÍTULO 8: Ya vive en la granja, vendada por Breca y transportada en una carretilla. Breca dice que fue expulsada de su grupo; el capítulo no explica el motivo. Ante la amenaza de Spert muestra miedo y los dientes. Habla con voz semejante al roce del viento entre hojas, promete ser amiga del Spertus y del niño humano y asegura que los amigos no roban dientes. A petición de Spert se corta la palma con una garra y jura por la sangre de su vida ser fiel y leal a Breca y a su guardián Spertus. Spert acepta y vuelve a comer. Thorkel interpreta que ella tiene una deuda de sangre con Breca por haberla salvado y quedará vinculada a él si sobrevive. Breca la lleva dentro al llegar los visitantes; sus heridas aún no están curadas.",
+        star: "★ Su defensa de Breca responde a la ayuda que él le ha prestado. CAPÍTULO 8: Su juramento de sangre hace explícita la lealtad prometida a Breca y Spert."
+    },
+    {
+        id: "spert", label: "Spert", group: "ORKA", type: "Vaesen — Guardián doméstico",
+        status: "updated",
+        previousState: "Se confirma su vínculo con Orka; amenaza a Vesli y exige su juramento de sangre.",
+        desc: "LIBRO 1, CAPÍTULO 6: Spertus que vive bajo una roca cubierta de musgo en el arroyo de la granja de Orka y Thorkel. Orka lo despierta con el extremo de su lanza para preguntarle por Breca. Se queja de hambre: el niño suele traerle cada mañana gachas mezcladas con sangre y saliva. Ante la amenaza de Orka de matarlo, protesta que trabaja protegiéndolos de los Vaesen, pero admite que necesita dormir y no puede vigilar siempre a todos. No sabe dónde está Breca y vuelve a sumergirse. LIBRO 1, CAPÍTULO 8: Al ver a Vesli abre desmesuradamente las mandíbulas, muestra huesos y dientes y exhala una nube de vapor negro. Breca detiene su amenaza y le recuerda que él también es un vaesen. Spert desconfía de los tennur porque roban dientes y aprecia los suyos. Exige que Vesli selle con sangre su promesa de amistad; tras oírla jurar fidelidad a él y a Breca, retrae la amenaza, aspira de nuevo la niebla y come. La narración confirma que Orka lo capturó y vinculó a ella años atrás, y que la sangre y saliva de las gachas son suyas. Thorkel afirma que todos duermen más seguros gracias a su vigilancia. Vesli lo llama guardián de Breca.",
+        star: ""
+    },
+    {
+        id: "spertus", label: "Spertus", group: "VAESEN", type: "Vaesen — Criatura de arroyo",
+        status: "updated",
+        previousState: "Añade la amenaza de vapor negro observada en Spert, sin generalizarla a toda la especie.",
+        desc: "LIBRO 1, CAPÍTULO 6: La especie se presenta mediante Spert. Su cuerpo segmentado y quitinoso mide aproximadamente lo que el brazo de Orka y tiene el grosor de una pierna de Thorkel. Posee muchas patas y un aguijón curvo como una aguja sobre la espalda. Su rostro resulta inquietantemente humano, con ojos saltones, piel gris colgante y demasiados dientes puntiagudos. Spert habla con voz áspera y vive bajo una roca en el agua; su acuerdo de protección y alimento es el del individuo mostrado. LIBRO 1, CAPÍTULO 8: Spert muestra antenas espinosas y despliega las mandíbulas al amenazar a Vesli; exhala un vapor negro que queda suspendido y después vuelve a aspirar. Habla con ella y exige una promesa sellada con sangre. Son conductas y capacidades observadas en este individuo, sin explicar el efecto del vapor ni establecer reglas universales de la especie.",
+        star: ""
+    },
+    {
+        id: "tennur", label: "Tennur", group: "VAESEN", type: "Vaesen — Enjambre",
+        status: "updated",
+        previousState: "Vesli habla y jura con sangre; las opiniones sobre la especie se mantienen atribuidas.",
+        desc: "LIBRO 1, CAPÍTULO 1: Orka atribuye a los tennur la extracción de los dientes de Asgrim. Los describe como pequeñas criaturas bípedas que codician los dientes humanos, con dedos de hueso afilado y dientes cortantes. Solos son una molestia; en grupo pueden resultar mortales. Orka busca señales de ellos en los árboles y la roca, pero no aparece ninguno en escena. LIBRO 1, CAPÍTULO 6: Thorkel identifica como tennur a Vesli, herida y acurrucada en el regazo de Breca. Este ejemplar tiene extremidades con garras gruesas y puntiagudas, alas finas como pergamino, nariz y barbilla agudas, grandes ojos negros, piel rosada sin pelo con venas oscuras y dos filas de dientes: una exterior afilada y otra interior plana. Sangra bajo un ala y por un corte en el labio. Breca afirma que se calmó cuando le dio un diente de leche arrancado y que ella le comunicó su nombre. Pese a su debilidad, despliega las alas y sisea para protegerlo del segundo golpe de Orka. Estas acciones corresponden a Vesli, sin establecer que todos los tennur se comporten igual. LIBRO 1, CAPÍTULO 8: Vesli habla y formula un juramento voluntario de amistad y fidelidad a Breca y Spert, sellándolo con un corte en la palma. Breca dice que fue expulsada de su grupo. Spert considera a los tennur astutos y poco fiables porque roban dientes; se trata de su opinión. Thorkel sostiene que la deuda de sangre por el rescate vinculará a Vesli con Breca si sobrevive y que los vaesen son longevos; el capítulo no demuestra el alcance de ese vínculo ni lo generaliza a toda la especie.",
+        star: "★ Su intervención se deduce del saqueo del cadáver; no se establece que mataran a Asgrim."
+    },
+    {
+        id: "gudvarr", label: "Guðvarr", group: "ORKA", type: "Personaje — Drengr",
+        status: "updated",
+        previousState: "Lleva a la granja la convocatoria obligatoria de Sigrún para dentro de seis días.",
+        desc: "LIBRO 1, CAPÍTULO 3: Joven sobrino y drengr de Jarl Sigrún. Llega por el río en una snekke y transmite su regreso dentro de nueve días y su recomendación de jurar lealtad a Helka. Lleva espada, túnica roja bordada y brazalete de plata; cabello negro aceitado y barba incipiente. Invoca la amenaza de Störr y de los vaesen. Atribuye a estos la muerte de Asgrim e Idrun y se burla de Orka; cuando ella lo desmiente, la amenaza con tres guerreros a su espalda. Tras el regreso de Thorkel promete investigar. LIBRO 1, CAPÍTULO 8: Llega a caballo a la granja de Orka y Thorkel con dos mujeres drengr, una de ellas Arild; lleva espada y una buena cota de malla. Anuncia que Sigrún ya ha regresado y convoca el Althing dentro de seis días en la Roca del Juramento del fiordo. Dice que tratará asuntos serios y quiere presentes a todos los habitantes de sus dominios. Aprueba la respuesta de Arild, que exige asistir o abandonar el territorio. Rechaza comida y descanso porque les quedan otras tres granjas por visitar antes de volver a Fellur. Thorkel teme que comente su ausencia si no van.",
+        star: "★ Su autoridad y arrogancia amenazan con convertir una petición de ayuda en violencia."
+    },
+    {
+        id: "sigrun", label: "Jarl Sigrún", group: "ORKA", type: "Personaje — Jarl",
+        status: "updated",
+        previousState: "Guðvarr anuncia su regreso y fija lugar, plazo y asistencia a su Althing.",
+        desc: "LIBRO 1, CAPÍTULO 3: Gobernante de Fellur y tía de Guðvarr. Según Virk lleva más de dos meses ausente, convocada —palabra que corrige por invitada— a la corte de Helka en Darl. Su sobrino anuncia su regreso dentro de nueve días y transmite que recomienda someterse a Helka. Convocará un Althing en la Roca del Juramento de Fellur para debatirlo. No aparece en persona. LIBRO 1, CAPÍTULO 8: Según Guðvarr, ya ha regresado y ha convocado un Althing en la Roca del Juramento del fiordo para dentro de seis días. Quiere que acudan todos los habitantes de su dominio para escuchar asuntos serios. Arild presenta la asistencia como condición para permanecer bajo su protección. Sigrún no aparece en la escena; no se conoce todavía su discurso ni la decisión de la asamblea.",
+        star: ""
+    },
+    {
+        id: "althing", label: "Alþing (Althing)", group: "NORSE", type: "Cultura — Asamblea",
+        status: "updated",
+        previousState: "La convocatoria deja de ser una expectativa: se fija a seis días y se exige la asistencia.",
+        desc: "LIBRO 1, CAPÍTULO 3: Guðvarr anuncia una asamblea en la Roca del Juramento de Fellur cuando vuelva Sigrún. Todos podrán expresar su parecer sobre jurar lealtad a Helka. La reunión todavía no se celebra. LIBRO 1, CAPÍTULO 8: Guðvarr anuncia en la granja de Orka y Thorkel que Sigrún ha regresado y la reunión será dentro de seis días, en la Roca del Juramento del fiordo. Arild exige asistir a quienes vivan bajo su protección o buscar otro lugar donde vivir. Orka y Thorkel deciden ir, escuchar sin destacar y marcharse discretamente; el contenido del discurso y la resolución siguen pendientes.",
+        star: ""
+    },
+    {
+        id: "oath-stone-fellur", label: "Roca del Juramento de Fellur", group: "LUGAR", type: "Lugar — Islote de asamblea",
+        status: "updated",
+        previousState: "La convocatoria de la asamblea en la roca queda fijada para dentro de seis días.",
+        desc: "LIBRO 1, CAPÍTULO 3: Islote rocoso del fiordo de Fellur, cubierto de musgo, helechos y árboles azotados por el viento. Guðvarr lo señala como lugar del futuro Althing. El texto inglés lo llama Oath Rock; se conserva el id canónico del archivo. LIBRO 1, CAPÍTULO 8: Guðvarr confirma este lugar del fiordo como sede del Althing convocado por Sigrún para dentro de seis días; la asamblea aún no se celebra.",
+        star: ""
+    },
+    {
+        id: "arild", label: "Arild", group: "ORKA", type: "Personaje — Drengr de Sigrún",
+        desc: "LIBRO 1, CAPÍTULO 8: Una de las dos mujeres drengr que acompañan a Guðvarr a caballo hasta la granja de Orka y Thorkel. Es alta y fibrosa, de cabello castaño trenzado y rostro anguloso; las mujeres llevan cuero hervido y lana, gorros de fieltro y piel, y lanzas. Declara que quien elija vivir en el dominio de Sigrún, bajo su protección, debe asistir al Althing o buscar otro lugar donde vivir. Guðvarr aprueba sus palabras. La otra mujer permanece sin nombre.",
+        star: ""
+    },
+    {
+        id: "holmganga", label: "Holmganga", group: "NORSE", type: "Cultura — Duelo",
+        desc: "LIBRO 1, CAPÍTULO 8: Thorkel lo menciona como un duelo al decir que no desafiaría a Orka ni a un pulso ni, mucho menos, a un holmganga. Es una comparación sobre la fuerza y destreza de ella; no se celebra ningún duelo ni se explican aquí sus reglas.",
+        star: ""
+    },
+    {
+        id: "blood-oath", label: "Juramento de Sangre", group: "MAGIA", type: "Magia — Vínculo jurado",
+        desc: "LIBRO 1, CAPÍTULO 8: Spert afirma que la sangre es vinculante y exige que Vesli selle con ella su promesa de amistad. La tennur se corta la palma con una garra y jura por la sangre de su vida ser fiel a Breca y a su guardián Spertus; Spert acepta y retira su amenaza. Thorkel también explica que Vesli debe una deuda de sangre a Breca por su rescate y quedará ligada a él si sobrevive. El juramento explícito y la interpretación de esa deuda se registran sin deducir poderes, castigos ni equivalencia con el vínculo por el que Orka sometió a Spert.",
+        star: "★ La fidelidad se sella con un acto de sangre; sus consecuencias mágicas concretas no se muestran."
+    },
+
+// ── LIBRO 1, CAPÍTULO 9 — ELVAR ──
+    {
+        id: "elvar", label: "Elvar", group: "ELVAR", type: "Personaje — Guerrera de los Battle-Grim",
+        status: "updated",
+        previousState: "Recibe dos recompensas, salva al hijo de Berak y afronta el regreso a casa.",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrera rubia y la más joven de la compañía de Agnar. Rema hasta Iskalt y se equipa con brynja, espada, seax, hacha, casco, escudo y lanza. Su escudo rojo muestra espada, hacha y lanza cruzadas con nudos ornamentales. Ambiciona fama de batalla y desprecia el arco por matar a distancia. Se enorgullece de que Agnar la elija para acompañarlo y vigilar a los aldeanos. Advierte a una niña que abandona la multitud y, por orden de Agnar, la sigue. Derriba a un arquero con el escudo y hiere a una lancera; Grend mata a esta cuando intenta cortarle las piernas. Dirige la inspección de una cabaña y descubre el hueco por el que han escapado. Nota el interés de Biórr y aparta la mirada; también aparta la vista cuando un guardia patea a Kráka. LIBRO 1, CAPÍTULO 7: Acepta el honor de explorar en vanguardia con Grend y Biórr. Advierte telarañas de arañas del hielo y recuerda su veneno. Tras fallar con la lanza contra el trol, combate con Grend y le abre una arteria del muslo, causando la hemorragia que lo mata. Grend la ayuda a levantarse ilesa. Sonríe a Biórr cuando la sostiene tras un resbalón, pero se libera de su mano; piensa expresamente que Grend no es su padre. Duda de que el cautivo sea Berserkir hasta ver su transformación. Aparta la mirada cuando Agnar amenaza al niño: matar niños no es su forma de ganar fama. Agnar le exige mirar al prisionero y ella presencia su sometimiento. LIBRO 1, CAPÍTULO 9: Lleva poco más de tres años con la compañía y se ha ganado la primera fila del muro de escudos por trabajar más que los demás. Recuerda la máxima de su padre: la bondad vuelve blando. Discute con Grend la supervivencia de Lik-Rifa: no acepta que ignorar la causa de un temblor pruebe la intervención de una diosa. Agnar le entrega un colmillo del trol por el golpe mortal; valora la honra más que el oro. Al atacar una serpiente marina el Wave-Jarl, salta desarmada al agua helada y rescata al hijo de Berak. El canto de la madre desvía a la criatura y Grend lleva a ambos hasta el barco. Pregunta en voz baja a la mujer qué arrojó a la lava, sin obtener respuesta. Agnar la recompensa con un anillo de oro. Su alegría se apaga al saber que irán a Snakavik a vender a Berak a Störr; niega que sea un problema, pero siente angustia. Dice a Grend que vuelven a casa. No se identifica aquí a su padre.",
+        star: "★ Su búsqueda de fama convive con su participación en la caza de Tainted y la violencia contra los habitantes de Iskalt. CAPÍTULO 9: Su rescate espontáneo del niño contrasta con la violencia contra la familia; el destino anunciado amenaza su alegría por la fama obtenida."
+    },
+    {
+        id: "grend", label: "Grend", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        status: "updated",
+        previousState: "Cuida a Elvar y arriesga la vida durante el rescate.",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero corpulento, de cabello entrecano y expresión adusta. Rema delante de Elvar y la acompaña cuando Agnar la llama. Le enseñó desde su primer contacto con una espada a comprobar que la hoja no se atasque al desenvainar. Sigue a Elvar en la persecución de una niña y mata de un hachazo a la mujer que intenta herirle las piernas. Obedece su señal para rodear la cabaña, abre parte de la pared con el hacha y encuentra el rastro hacia el bosque. LIBRO 1, CAPÍTULO 7: Vigila el bosque y se interpone, ceñudo, entre Elvar y Biórr cuando este la ayuda. Biórr lo toma por su padre; Elvar piensa que no lo es. Explora junto a ambos por orden de Agnar. Combate por parejas con Elvar contra el trol, la recoge cuando cae y lanza un hachazo a los testículos de la criatura antes de caer ambos. Después la ayuda a levantarse; ella no está herida. LIBRO 1, CAPÍTULO 9: Deja dormir a Elvar en vez de despertarla para la última guardia y le lleva gachas. Ella recuerda su destreza y que nunca necesita jactarse. Atribuye el temblor a Lik-Rifa: según él, la diosa dragón quedó encerrada bajo Oskutreð antes de Guðfalla y desgarra las almas que pasan por Vergelmir. Desaprueba a Biórr y no niega que le disgusten quienes se interesan por Elvar. Se lanza al mar tras ella, apuñala a la serpiente sin detenerla y, después de que el canto la ahuyente, ayuda a Elvar y al niño a volver a bordo. La reprende por el riesgo, aunque reconoce haberse comportado como un necio aún mayor al seguirla.",
+        star: ""
+    },
+    {
+        id: "agnar", label: "Agnar", group: "ELVAR", type: "Personaje — Jefe de los Battle-Grim",
+        status: "updated",
+        previousState: "Recompensa a Elvar y anuncia la venta prevista en Snakavik.",
+        desc: "LIBRO 1, CAPÍTULO 5: Jefe rubio de los Battle-Grim, con trenza de guerrero y el resto de la cabeza rasurado. Lleva piel de oso negro, torques de plata y anillos en los brazos. Gobierna el timón del Wave-Jarl durante la aproximación a Iskalt, deja diez o doce guerreros custodiándolo y desembarca con los demás. Busca a Berak, un hombre grande con cicatrices en un lado de la cara, acompañado por una mujer y un niño. Ofrece dinero o muerte a los aldeanos. Afirma que Berak es Tainted, tocado por los dioses, y que traerá sangre y matanza. Usa un trapo ensangrentado para dar su olor al esclavo Hundur y pronuncia «Hlýða», haciendo palpitar vetas rojas en su collar. Al interponerse Hrut, le corta la lanza y le hiere barbilla y labio; avanza después con escudo y espada mientras estalla la lucha. Al descubrir que los perseguidos han escapado de la cabaña, ordena seguirlos al bosque. LIBRO 1, CAPÍTULO 7: Se confirma que mató a Hrut en la aldea. Deja una docena de guerreros con Thrud y continúa con veintiséis. Envía a Elvar, Grend y Biórr a explorar, y ordena combatir al trol por parejas en vez de formar muro de escudos. Le clava la espada en la espalda. Ordena capturar a la mujer y al niño y reconoce al hombre como Berak Bjornasson, pese a sus negativas. Para probar su condición, amenaza con degollar al niño y le corta levemente el cuello; la transformación de Berak convence a Elvar. Activa el collar con «HALDA» y lo obliga a arrodillarse con «Á HNÉN». Afirma que la sangre del dios muerto Berser corre por Berak y que tres jarls lo buscan por asesinato, deuda de sangre y weregild. Pretende venderlo por un buen precio. Ordena recoger a sus muertos y descuartizar al trol para aprovechar todo lo valioso. LIBRO 1, CAPÍTULO 9: Entrega a Elvar un colmillo de trol como trofeo. Durante el ataque reconoce a la serpiente como Sjávarorm. Tras el canto de la cautiva, la declara bruja Seiðr con sangre de Snaka; esta identificación y el linaje son afirmaciones suyas. Amenaza con matar a su hijo si usa sus poderes contra la tripulación. Golpea a Kráka por no proteger el barco mientras dormía, luego reconoce que quizá le ha exigido demasiado y le da un asta del trol como fuente de poder para el regreso. Ordena en lengua Galdur «Hlýða og fá verðlaun», mientras vetas rojas recorren el hierro de su collar. Premia el valor de Elvar con un anillo de oro y anuncia que piensa llevar a Berak a Snakavik, donde espera el mejor precio de Störr. Aconseja a Elvar afrontar el viaje con ingenio y astucia.",
+        star: "★ Su amenaza de prosperar o morir convierte la búsqueda de Berak en un ataque contra la aldea."
+    },
+    {
+        id: "biorr", label: "Biórr", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        status: "updated",
+        previousState: "Alimenta a los cautivos antes de la partida.",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero de los Battle-Grim que desembarca en Iskalt. Comenta el frío sonriendo a Elvar, quien percibe interés en sus ojos y mira hacia otro lado. Sigue a Elvar, Grend, Sighvat y el esclavo rastreador durante el combate y llega a la cabaña con el rostro encendido por la lucha y la carrera. LIBRO 1, CAPÍTULO 7: Sostiene a Elvar cuando resbala; ambos sonríen, pero ella aparta el brazo. Ante la hostilidad de Grend, bromea con que su padre no lo aprecia, sin que Elvar le explique el error. Sigue a ambos fuera del sendero y Agnar lo elige con ellos como explorador. Avanza junto al arroyo y presencia al hombre combatiendo al trol. LIBRO 1, CAPÍTULO 9: Sonríe a Elvar al despertar. Lleva dos cuencos de gachas a la esposa de Berak y a su hijo, y se agacha para entregar al niño su comida.",
+        star: ""
+    },
+    {
+        id: "berak", label: "Berak Bjornasson", group: "ELVAR", type: "Personaje — Berserkir cautivo",
+        status: "updated",
+        previousState: "Se confirma el parentesco de los cautivos y se anuncia su destino comercial.",
+        desc: "LIBRO 1, CAPÍTULO 5: Hombre al que busca Agnar en Iskalt. Según este, es alto y ancho, tiene cicatrices en un lado de la cara y viaja con una mujer y un niño; calcula que llegó dos o tres días antes. Agnar lo identifica públicamente como Tainted y asegura que traerá sangre y matanza: esta última es la acusación del cazador. El esclavo Hundur confirma por el olor que Berak estuvo en la cabaña, pero el grupo ya ha escapado por un hueco en la pared trasera. No se muestra su captura ni se identifica expresamente al hombre que envía a la niña desde la multitud. LIBRO 1, CAPÍTULO 7: Agnar lo identifica como Berak Bjornasson. Combate con lanza a un trol junto a una cascada de lava mientras una mujer y un niño esperan cerca. Después de morir el trol, mata a un guerrero de la compañía con una estocada en la garganta. Acorralado contra la lava, resiste los golpes de Sighvat, pero lo encadenan y le ponen un collar. Niega ser el hombre buscado. Cuando Agnar amenaza al niño, sus ojos se tornan ambarinos, aumenta su volumen, se afilan sus dientes y le crecen uñas como garras; arrastra a seis hombres y a Sighvat. El collar lo detiene al grito de «HALDA» y «Á HNÉN» lo obliga a arrodillarse. Agnar lo declara Berserkir, descendiente de Berser, y afirma que tres jarls lo reclaman por asesinato, deuda de sangre y weregild: las acusaciones proceden de Agnar. Elvar queda convencida de su condición. La mujer y el niño también son capturados; aquí no se revelan sus nombres ni su parentesco explícito con él. LIBRO 1, CAPÍTULO 9: La narración identifica expresamente a la mujer y al niño como su esposa e hijo. Los collares y grilletes le han dejado la piel en carne viva. Sighvat lo fija al barco con cadenas junto al Hundur. Cuando la serpiente arroja a su hijo al agua, intenta saltar tras él, pero las cadenas lo impiden; grita y forcejea. Elvar rescata al niño. Su esposa ahuyenta a la serpiente cantando; Agnar la llama bruja Seiðr con sangre de Snaka. Agnar planea llevar a Berak a Snakavik para obtener el mejor precio de Jarl Störr; todavía no se produce la venta.",
+        star: "★ La persecución continúa hacia el bosque de Iskalt; el grupo no ha sido capturado al terminar el capítulo. CAPÍTULO 7: La captura confirma su poder, que Agnar doblega amenazando al niño y activando el collar."
+    },
+    {
+        id: "kraka", label: "Kráka", group: "ELVAR", type: "Personaje — Esclava Tainted",
+        status: "updated",
+        previousState: "Su agotamiento permite el ataque; recibe un asta para el viaje.",
+        desc: "LIBRO 1, CAPÍTULO 5: Esclava Tainted de los Battle-Grim. Canta magia durante la travesía para alejar del casco a las serpientes y otros Vaesen marinos. Tras la llegada a Iskalt queda desplomada en la proa, exhausta, con el pelo negro empapado. Lleva collar y cadena; un guardia la patea y ella se encoge levantando las manos. Elvar aparta la mirada. LIBRO 1, CAPÍTULO 9: Duerme acurrucada en la proa cuando la serpiente ataca. Agnar la abofetea por no proteger a la tripulación; ella explica que estaba dormida y había cantado protección durante todo el viaje de ida. Elvar observa su agotamiento y el coste del canto Seiðr. Agnar le entrega un asta de trol como poder para el regreso y activa las vetas rojas del collar al ordenarle proteger el casco en lengua Galdur. Al salir al mar canta de nuevo y las formas que Elvar percibe bajo las olas desaparecen.",
+        star: "★ Su magia sirve de protección a quienes la mantienen esclavizada."
+    },
+    {
+        id: "sighvat", label: "Sighvat", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim",
+        status: "updated",
+        previousState: "Actúa contra la serpiente y dirige la salida del barco.",
+        desc: "LIBRO 1, CAPÍTULO 5: Guerrero voluminoso que marca el ritmo de los cincuenta remos golpeando un barril con una cuerda anudada y transmite las órdenes de Agnar. Amarra el Wave-Jarl al muelle. Anuncia a los Battle-Grim como cazadores de Vaesen y Tainted y amenaza a los isleños con demostrar su fama. Lleva un saco y sujeta la cadena del esclavo Hundur, al que arrastra y obliga a rastrear. Sigue a Elvar y Grend hasta la cabaña y pregunta al esclavo si Berak estuvo allí; este lo confirma asintiendo. LIBRO 1, CAPÍTULO 7: Lleva encadenado al Hundur durante el ascenso y lo fija a un árbol con un pasador de hierro antes del combate. Golpea con una cadena la cabeza del hombre perseguido, lo derriba de un puñetazo y organiza su inmovilización. Le coloca el collar y remacha el pasador con el pomo de su seax. Golpea a la mujer cuando protesta por la amenaza al niño. La fuerza transformada de Berak lo arrastra junto con seis hombres hasta que Agnar activa el collar. Elvar conoce la contundencia de sus golpes en el pugil-ring. LIBRO 1, CAPÍTULO 9: Asegura a Berak y al Hundur con anillas y pasadores de hierro fijados a la borda. Hiere con un hacha de mano a la serpiente por debajo del cráneo; una sacudida lo derriba. Después dirige los cincuenta remos, marca el ritmo sobre un escudo y da la orden de izar mástil y vela. Gobierna el timón mientras Agnar conversa con Elvar.",
+        star: ""
+    },
+    {
+        id: "wave-jarl", label: "Wave-Jarl", group: "ELVAR", type: "Barco — Drakkar",
+        status: "updated",
+        previousState: "Sufre el ataque y sale de Iskalt rumbo al sur.",
+        desc: "LIBRO 1, CAPÍTULO 5: Drakkar de proa de dragón que transporta a los Battle-Grim a Iskalt. Cincuenta remos lo impulsan bajo el ritmo de Sighvat, mientras Agnar gobierna el timón. Kráka canta para mantener a serpientes y otros Vaesen marinos lejos del casco. Entra en un puerto natural y queda amarrado a un muelle; diez o doce guerreros permanecen como guardia. LIBRO 1, CAPÍTULO 9: Carga pescado conservado, carne de tiburón, marfil de morsa, pieles, cabras y los restos valiosos del trol, además de los cautivos. Una serpiente devora parte de una cabra y rompe la borda al caer sobre cubierta; los guerreros revisan las tracas del casco después. La esposa de Berak la ahuyenta con su canto. Parte con cincuenta remos, iza mástil y vela y navega hacia el sur con Kráka protegiéndolo. Agnar anuncia Snakavik como destino.",
+        star: ""
+    },
+    {
+        id: "battle-grim", label: "Terrores de la batalla (Battle-Grim)", group: "ELVAR", type: "Facción — Compañía guerrera",
+        status: "updated",
+        previousState: "Preparan el botín y dejan Iskalt.",
+        desc: "LIBRO 1, CAPÍTULO 5: Compañía de Agnar que viaja en el Wave-Jarl. Sighvat los proclama matadores de Vaesen, cazadores de Tainted y segadores de almas. Sus guerreros curtidos portan hierro y cotas de malla; Elvar es la más joven. Mantienen esclavizados a Kráka y a un rastreador Hundur. Desembarcan en Iskalt buscando a Berak; forman una línea de escudos ante los aldeanos y avanzan con gritos de guerra cuando Agnar ataca a Hrut. Continúan la persecución después de hallar vacía la cabaña. LIBRO 1, CAPÍTULO 7: El ataque a la aldea termina con Hrut muerto, otra docena de aldeanos caídos y los demás rendidos. Su única baja allí es la herida de flecha de Thrud en la pantorrilla; una docena queda con él custodiando prisioneros y veintiséis siguen a Agnar. En las colinas luchan por parejas contra un trol: uno muere ensartado, una mujer arde en la lava y otra es aplastada. Elvar mata al trol; el hombre perseguido mata a otro guerrero antes de ser capturado como Berak. Capturan también a la mujer y al niño y Agnar ordena recoger los muertos y aprovechar el cadáver del trol. LIBRO 1, CAPÍTULO 9: Cargan provisiones y mercancías tomadas de la aldea, que sigue sometida y vigilada hasta la partida. Sus guerreros llevan trofeos de hueso, diente, colmillo o uña concedidos por Agnar cuando los considera merecidos. Elvar lleva poco más de tres años con ellos y ocupa la primera fila del muro de escudos. Arrojan lanzas contra la serpiente que ataca el barco y después zarpan de Iskalt hacia el sur.",
+        star: ""
+    },
+    {
+        id: "iskalt", label: "Isla de Iskalt", group: "LUGAR", type: "Lugar — Isla septentrional",
+        status: "updated",
+        previousState: "Tiembla la montaña antes de la partida.",
+        desc: "LIBRO 1, CAPÍTULO 5: Isla muy al norte, donde la primavera aún parece lejana. Una montaña de fuego, con vetas rojas brillantes entre los riscos de granito, permite reconocerla desde el mar. Dos promontorios resguardan un puerto natural con muelle y playa de guijarros. La aldea pesquera tiene ahumaderos, redes, cestas para cangrejos y unas docenas de edificios; más allá crecen álamos y abedules. Hrut se declara su jarl. Los Battle-Grim desembarcan buscando a Berak y atacan cuando Hrut se interpone. El rastro de los fugitivos conduce al bosque bajo la montaña. LIBRO 1, CAPÍTULO 7: Una empalizada semicircular de estacas marcadas con runas protege la aldea contra Vaesen. En las colinas nevadas, un sendero sigue un arroyo hasta una meseta donde una cascada de roca fundida cae desde un risco de granito en una poza de lava. Allí un trol disputa su territorio y los Battle-Grim capturan al fugitivo identificado como Berak y a sus dos acompañantes. LIBRO 1, CAPÍTULO 9: Al amanecer después de la nevada, un temblor sacude la playa, los árboles y la nieve de la montaña de fuego, cuyas vetas rojas brillan más. Grend lo atribuye a Lik-Rifa; Elvar rechaza que esa causa esté demostrada. Los aldeanos permanecen bajo vigilancia mientras los guerreros cargan mercancías y parten.",
+        star: ""
+    },
+    {
+        id: "trol", label: "Trol", group: "VAESEN", type: "Vaesen — Trol territorial",
+        status: "updated",
+        previousState: "Se detallan el aprovechamiento del cadáver y el valor mágico del asta.",
+        desc: "LIBRO 1, CAPÍTULO 2: Un vendedor de Liga ofrece un diente de trol del tamaño de un puño. No se ve ningún trol vivo. Medio-Trol es el apodo de Einar, sin confirmación de parentesco con estas criaturas. LIBRO 1, CAPÍTULO 7: Elvar conoce su territorialidad: los machos suelen ser solitarios salvo durante el apareamiento y parte de la crianza; las crías nacen grandes, ágiles, fuertes y voraces, aficionadas a la carne humana. En Iskalt aparece un macho joven, de piel escamosa con musgo y líquenes, colmillos y astas cortas, que combate con una maza claveteada y reclama su territorio gritando «MINE». Su fuerza mata a tres guerreros. Las lanzas apenas penetran su piel; Agnar lo hiere en la espalda y Elvar abre una arteria del muslo, provocando su muerte. Agnar manda descuartizarlo y recoger lo valioso. LIBRO 1, CAPÍTULO 9: Los guerreros raspan la piel y hierven los huesos para retirar la carne. Preparan piel, esqueleto, dientes, testículos en salmuera, corazón e hígado conservados con hielo y uñas para moler; todo puede venderse. Un colmillo vale más que su peso en oro y Agnar entrega uno a Elvar como trofeo. Da un asta a Kráka como fuente de poder para el viaje.",
+        star: ""
+    },
+    {
+        id: "likrafa", label: "Lik-Rifa", group: "DIOS", type: "Deidad — Dragón en la tradición de Grend",
+        status: "updated",
+        previousState: "Grend explica su creencia sobre la diosa dragón; Elvar la discute.",
+        desc: "LIBRO 1, CAPÍTULO 4: Varg vincula su nombre con la cámara de Vergelmir cuando se pregunta si ha muerto. El capítulo no explica su naturaleza, parentescos ni situación actual. LIBRO 1, CAPÍTULO 9: Grend la llama diosa dragón e hija de Snaka. Sostiene que no murió en Guðfalla: fue encerrada mediante astucia en una cámara bajo Oskutreð y no pudo luchar junto a su padre. Atribuye a sus cadenas el temblor de Iskalt y dice que ataca las almas de los guerreros en Vergelmir. Elvar cuestiona su existencia y supervivencia tras casi trescientos años sin alimento; recuerda relatos infantiles en los que devora a quienes salen de casa de noche. Ninguna postura queda verificada mediante una aparición de la diosa.",
+        star: ""
+    },
+    {
+        id: "vergelmir", label: "Vergelmir", group: "LUGAR", type: "Lugar mítico — Cámara de Lik-Rifa",
+        status: "updated",
+        previousState: "Se añade la tradición de la última prueba de los guerreros.",
+        desc: "LIBRO 1, CAPÍTULO 4: Al recobrar la conciencia tras el combate, Varg se pregunta si ha muerto y está en Vergelmir, la cámara de Lik-Rifa. Es una referencia en sus pensamientos: no visita el lugar ni el capítulo describe su geografía. LIBRO 1, CAPÍTULO 9: Según Grend, es la cámara oscura donde Lik-Rifa desgarra las almas que recorren el camino de los muertos. Por ello los guerreros deben morir con un arma en la mano para combatirla en su última prueba. Su relato sitúa la prisión bajo Oskutreð; Elvar lo considera un cuento.",
+        star: ""
+    },
+    {
+        id: "snaka", label: "Snaka", group: "DIOS", type: "Dios Muerto — Padre",
+        status: "updated",
+        previousState: "Grend nombra a su hija dragón y Agnar atribuye un linaje a la cautiva.",
+        desc: "LIBRO 1, CAPÍTULO 1: En la saga que Thorkel cuenta a Breca, Snaka es la serpiente, el Más Anciano y padre de los dioses; algunos lo consideran el mayor de ellos, y era el más grande. Había crecido desde el nacimiento del mundo. Sus hijos incluyen águila, oso, lobo y dragón, sin que este capítulo les dé nombres propios. Murió a manos de sus hijos en la guerra divina. Su caída destrozó reinos y sus huesos, cubiertos de tierra, forman las montañas que contempla la familia. LIBRO 1, CAPÍTULO 9: Grend identifica a Lik-Rifa como hija de Snaka y afirma que su encierro le impidió combatir junto a él en Guðfalla. Agnar atribuye sangre de Snaka a la esposa de Berak después de verla ahuyentar una serpiente con su canto; ella no confirma verbalmente esa genealogía.",
+        star: "★★ La geografía se presenta como el resto material de un cuerpo divino, a través de la saga de Thorkel."
+    },
+    {
+        id: "gudfall", label: "Guðfalla (Caída de Dioses)", group: "EVENTO", type: "Evento Histórico",
+        status: "updated",
+        previousState: "Aparece el nombre y la versión de Grend sobre la ausencia de Lik-Rifa.",
+        desc: "LIBRO 1, CAPÍTULO 1: La guerra y caída de los dioses se narran aquí sin emplear todavía el nombre Guðfalla, conservado como identificador canónico del archivo. Según Thorkel, los parientes divinos combatieron entre sí, los hijos mataron a Snaka y su caída aplastó y levantó reinos, dejando entrar al mar. Orka añade que abrió el foso de los vaesen y liberó sus criaturas. La época actual se llama Edad de la Paz porque la guerra antigua ha terminado y los dioses están muertos. LIBRO 1, CAPÍTULO 9: Grend emplea el nombre Guðfalla y sostiene que Lik-Rifa no murió aquel día con los otros dioses: había quedado encerrada y no pudo acudir junto a Snaka. Elvar disputa su supervivencia durante los casi trescientos años transcurridos.",
+        star: "★★ Orka cuestiona que el final de aquella guerra equivalga a paz para quienes viven ahora."
+    },
+    {
+        id: "seidr", label: "Seiðr", group: "MAGIA", type: "Magia — Brujería",
+        status: "updated",
+        previousState: "Se observan cantos que ahuyentan serpientes y su coste.",
+        desc: "LIBRO 1, CAPÍTULO 2: Varg busca una bruja Seiðr, o alternativamente un Galdurman, para realizar un akáll. El vendedor de comida se traza una runa en el pecho al oír su pregunta. Vol es una bruja Seiðr esclava de los Bloodsworn. No se muestra ningún rito ni se explica aún la diferencia entre ambas clases de practicantes. LIBRO 1, CAPÍTULO 3: Guðvarr pregunta burlonamente si Orka es una bruja Seiðr capaz de ver el pasado. Orka responde que basta reconocer una herida de espada; no realiza magia ni confirma esa identidad. La asociación con ver el pasado procede de las palabras de Guðvarr. LIBRO 1, CAPÍTULO 9: La esposa de Berak canta y consigue que una serpiente interrumpa su ataque y se sumerja. Agnar la llama bruja Seiðr con sangre de Snaka; el parentesco divino es su interpretación. Elvar atribuye el agotamiento visible de Kráka al canto Seiðr. Esta recibe un asta de trol como poder y vuelve a cantar protección al zarpar.",
+        star: ""
+    },
+    {
+        id: "storr", label: "Jarl Störr", group: "FACCION", type: "Personaje — Jarl",
+        status: "updated",
+        previousState: "Agnar lo propone como comprador en Snakavik.",
+        desc: "LIBRO 1, CAPÍTULO 3: Guðvarr afirma que amenaza desde el oeste y lo usa como argumento para que Fellur se una a Helka. No aparece y no se precisan sus acciones ni dominios. LIBRO 1, CAPÍTULO 9: Según Agnar, es famoso por su guardia de esclavos Berserkir y por ello podría pagar el mejor precio por Berak. Agnar anuncia que llevará el cautivo a Snakavik con ese propósito; Störr no aparece ni se cierra ningún trato.",
+        star: ""
+    },
+    {
+        id: "collares", label: "Collares de Hierro", group: "MAGIA", type: "Objeto — Collares de sometimiento",
+        status: "updated",
+        previousState: "Se identifica como Galdur la lengua de las órdenes.",
+        desc: "LIBRO 1, CAPÍTULO 5: Kráka lleva collar de esclava y cadena. El esclavo Hundur también está sujeto por una cadena al cuello: cuando Agnar pronuncia «Hlýða», vetas rojas palpitan en el collar y el hombre gime antes de obedecer y olfatear el trapo de Berak. El capítulo muestra el efecto de la orden, sin explicar el origen ni la fabricación de estos collares. LIBRO 1, CAPÍTULO 7: Sighvat remacha un collar en el cuello del cautivo identificado como Berak. Cuando este se transforma y arremete, «HALDA» provoca un destello rojo en el hierro y lo inmoviliza pese a su resistencia; «Á HNÉN» lo fuerza a arrodillarse. Las órdenes son pronunciadas por Agnar. LIBRO 1, CAPÍTULO 9: Agnar toca la cadena de Kráka y pronuncia en lengua Galdur «Hlýða og fá verðlaun»; vetas rojas recorren el hierro que la rodea y ella obedece. Las cadenas impiden a Berak saltar para salvar a su hijo.",
+        star: "★ «Hlýða» activa una manifestación visible del collar del rastreador."
+    },
+    {
+        id: "frost-isles", label: "Islas de la Escarcha", group: "LUGAR", type: "Lugar — Islas septentrionales",
+        desc: "LIBRO 1, CAPÍTULO 9: El deshielo primaveral desprende de estas islas, situadas más al norte, bloques de hielo que flotan en el mar frente a Iskalt.",
+        star: ""
+    },
+    {
+        id: "oskutred", label: "Oskutreð (Árbol de Ceniza)", group: "COSMO", type: "Lugar mítico — Árbol y prisión",
+        desc: "LIBRO 1, CAPÍTULO 9: Grend lo denomina el Árbol de Ceniza y sitúa bajo él la cámara donde Lik-Rifa habría quedado encerrada mediante astucia antes de Guðfalla. Es su relato, discutido por Elvar, no un lugar visitado en este capítulo.",
+        star: ""
+    },
+    {
+        id: "galdur", label: "Galdur", group: "MAGIA", type: "Magia — Lengua de órdenes",
+        desc: "LIBRO 1, CAPÍTULO 9: La narración identifica como Galdur la lengua en que Agnar pronuncia «Hlýða og fá verðlaun» al tocar la cadena de Kráka. Vetas rojas recorren el hierro de su collar y ella responde que obedecerá. No se explica aquí su sistema completo.",
+        star: ""
+    },
+    {
+        id: "sjavarom", label: "Sjávarorm (Serpiente Marina)", group: "VAESEN", type: "Vaesen — Serpiente marina",
+        desc: "LIBRO 1, CAPÍTULO 9: Una serpiente gris verdosa, de cabeza tan grande como una cabaña, ataca al Wave-Jarl en Iskalt. Devora parte de una cabra, rompe la borda, derriba a Sighvat y arroja al hijo de Berak al mar. Las lanzas y las cuchilladas de Grend la hieren sin detenerla. Cuando va a alcanzar a Elvar y al niño, el canto de la madre la distrae y la hace sumergirse. Después Kráka canta para mantener otras criaturas lejos del casco.",
+        star: ""
+    },
+    {
+        id: "snakavik", label: "Snakavik", group: "LUGAR", type: "Lugar — Destino anunciado",
+        desc: "LIBRO 1, CAPÍTULO 9: Agnar planea llevar allí a Berak para venderlo a Jarl Störr, famoso según él por su guardia de esclavos Berserkir. La noticia angustia a Elvar, quien dice a Grend que vuelven a casa; el capítulo no muestra su llegada ni concreta su historia familiar.",
+        star: ""
+    },
+    {
+        id: "colmillo-trol", label: "Colmillo de Trol", group: "OBJETO", type: "Objeto — Trofeo de Elvar",
+        desc: "LIBRO 1, CAPÍTULO 9: Agnar entrega a Elvar un colmillo del trol muerto en Iskalt, perforado y colgado de una correa de cuero. Vale más que su peso en oro, pero para ella importa la honra de haberlo ganado con el golpe mortal.",
+        star: ""
+    },
+    {
+        id: "anillo-oro", label: "Anillo de Oro", group: "OBJETO", type: "Objeto — Recompensa de Elvar",
+        desc: "LIBRO 1, CAPÍTULO 9: Agnar coloca y ajusta un anillo de oro en el brazo de Elvar para premiar el valor, o locura, de saltar al mar entre serpientes y salvar al hijo de Berak.",
+        star: ""
+    },
+    {
+        id: "ataque-sjavarorm-iskalt", label: "Ataque de la Serpiente en Iskalt", group: "EVENTO", type: "Evento — Ataque y rescate",
+        desc: "LIBRO 1, CAPÍTULO 9: Durante el embarque, una Sjávarorm ataca el Wave-Jarl y arroja al hijo de Berak al mar. Su padre no puede seguirlo por las cadenas. Elvar salta y lo recoge; Grend intenta frenar a la criatura a cuchilladas. La madre del niño canta desde la borda y logra que la serpiente se retire. Grend ayuda a ambos a volver a bordo y la madre agradece a Elvar el rescate. Agnar descubre en la cautiva una capacidad que interpreta como Seiðr y la amenaza a través de su hijo.",
+        star: ""
+    },
+
+// ── LIBRO 1, CAPÍTULO 10 — ORKA ──
+    {
+        id: "orka", label: "Orka", group: "ORKA", type: "Personaje — Madre y cazadora",
+        status: "updated",
+        previousState: "Interviene en la asamblea y acepta ser segunda de Virk.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposa de Thorkel y madre de Breca. Tiene cabello rubio trenzado y ojos gris verdosos, heredados por su hijo. Durante una cacería considera que la ternura de Breca lo deja indefenso ante un mundo cruel; contiene una reprimenda cuando Thorkel le pide esperar. Extrae del árbol la lanza del niño y más tarde reconoce que su lanzamiento fue bueno. Lidera la marcha hacia los gritos procedentes de la granja de Asgrim y adapta su paso al de Breca. La proximidad del peligro la estimula; la sangre del lobo le provoca imágenes de cuerpos despedazados y voces gritando, que aparta con ayuda del contacto de Thorkel. Explica que la caída de Snaka abrió el foso de los vaesen. Ante el cadáver de Asgrim le coloca el hacha en la mano para que recorra el camino del alma armado. Deduce que murió rápidamente por una estocada al corazón, identifica el saqueo de sus dientes como obra de tennur y encuentra indicios de otro herido arrastrado. Las runas protectoras y el uso de armas hacen sospechar una agresión humana, sin confirmar todavía a los responsables. Cuestiona el nombre de Edad de la Paz ante la matanza. LIBRO 1, CAPÍTULO 3: Lleva con Breca los cuerpos de Asgrim e Idrun a Fellur mientras Thorkel rastrea a los asesinos. Prefería seguirlos ella, pero reconoce que su esposo es mejor rastreador. Siente presión en la cabeza y el pecho bajo el nudillo de dios de la puerta; disminuye al alejarse. Desmiente a Guðvarr: la estocada de espada no corresponde a dientes ni garras de vaesen. Al recibir sus amenazas revive imágenes de violencia, tiembla y lucha por contenerse ante Breca. La llegada de Thorkel permite cortar la confrontación. Quiere entregar los muertos a sus parientes para que reciban un túmulo, pero termina marchándose con su familia: considera que esta lucha no les corresponde. LIBRO 1, CAPÍTULO 6: Despierta empapada en sudor tras revivir una batalla, con el mar, cuerpos y gritos. Oculta su angustia a Thorkel; desea alcohol para amortiguar los recuerdos y resiente que él le haya pedido beber menos. Al descubrir vacía la cama de Breca lo busca con su lanza, interroga a Spert y teme otro rapto al recordar las palabras de Virk y la desaparición de Harek. Sigue a Thorkel hacia el nordeste, remontando el arroyo, y contiene con esfuerzo imágenes violentas y una ira que sabe inútil para encontrar al niño. Abraza y besa a Breca al hallarlo junto a una poza. Le sorprende la posible presencia de un Näcken tan lejos de su río de montaña, pero la preocupación por su hijo desplaza esa observación. Al ver al tennur herido que sostiene, golpea a Breca en la mejilla y le deja una hinchazón amoratada; lo reprende por abandonar la seguridad de la granja y levanta la mano de nuevo. Thorkel la detiene. Orka piensa que podría vencer su resistencia, pero acepta el juicio de su esposo, en quien ha aprendido a confiar especialmente cuando la domina la ira. Descubre que el niño ha dado un diente a la criatura y que esta se llama Vesli. LIBRO 1, CAPÍTULO 8: Afila su seax mientras vigila a Breca y a Vesli, ahora acogida en la granja. Defiende educar al niño para sobrevivir sin sus padres, pero admite compartir el deseo de protegerlo del sufrimiento. Reconoce que ella y Thorkel han combatido juntos y cometido actos terribles; no logra desprenderse del pasado y envidia la fortaleza emocional de él. Lo llama Thorkel Ulfsson. Se confirma que fue ella quien capturó y vinculó a Spert años atrás: las gachas que le da Breca contienen sangre y saliva de Orka. La posibilidad de tener otro hijo da paso a la alarma por unos jinetes. Toma su lanza y, al ver el hacha larga de Thorkel, revive gritos y la imagen de un guerrero entre llamas, sin identificarlo. Reconoce a los visitantes y juzga que no serían capaces de matar a Asgrim e Idrun. Rechaza involucrarse en disputas de jarls y reinas, pero acepta ir al Althing de Sigrún para no llamar la atención; el presentimiento de Thorkel la deja asustada. LIBRO 1, CAPÍTULO 10: Acude con Thorkel y Breca a la Roca del Juramento en la barca de Virk y sus hijos. El drakkar de Sigrún despierta su entusiasmo guerrero. Al oír que adorar a los dioses se castiga con la muerte recuerda a una mujer en una jaula de hierro, con cuervos picoteándole ojos y lengua; no se identifica a la mujer. Virk le cuenta otros raptos y la escasa búsqueda de Harek; Orka sospecha que unos níðing venden niños como esclavos, sin pruebas de sus identidades ni del motivo. Teme por Breca. La guerrera esclavizada y aún sin nombre de Sigrún le provoca inquietud por su mirada despiadada y su desesperanza. Reconoce la franqueza de Sigrún al admitir la inferioridad frente a Helka, pero prevé guerras de conquista. Rompe su propósito de pasar inadvertida y denuncia que Helka exigirá una leva de guerreros, no solo impuestos. Pese a la desaprobación de Thorkel, acepta ser segunda de Virk: si muere, deberá contener a sus hijos y ponerle el hacha en la mano.",
+        star: "★★ Su reacción a la sangre sugiere una experiencia de violencia anterior que el capítulo no explica. La dureza con Breca convive con gestos de protección y respeto a los muertos. CAPÍTULO 6: Los recuerdos de batalla y la necesidad de alcohol agravan su angustia; el miedo por Breca desemboca en violencia contra él. CAPÍTULO 8: La paz familiar convive con recuerdos intrusivos de violencia y el miedo al futuro político."
+    },
+    {
+        id: "thorkel", label: "Thorkel", group: "ORKA", type: "Personaje — Padre y cazador",
+        status: "updated",
+        previousState: "Explica la historia de la roca y desaprueba que Orka sea segunda.",
+        desc: "LIBRO 1, CAPÍTULO 1: Esposo de Orka y padre de Breca. Hombre enorme, de cabello negro con canas y barba trenzada; una cicatriz desde la mejilla hasta la mandíbula tuerce su sonrisa. Pide paciencia ante la vacilación del niño durante la caza. Tras el paso de un fell-wolf herido prueba una gota de su sangre y sigue su rastro con la mirada; el texto no explica el gesto. Consuela a Breca por el tiro fallido y pide un descanso para sus piernas cortas. Relata cómo Snaka fue muerto por sus hijos y sus restos formaron las montañas de Vigríð. Toca el hombro de Orka cuando queda atrapada en imágenes de violencia. En la granja de Asgrim detecta una runa protectora y se pregunta si la matanza fue obra de hombres. LIBRO 1, CAPÍTULO 3: No encuentra a Harek en la granja. Sigue el rastro de los asesinos por el bosque tras prometer que regresará sin enfrentarse solo a ellos si los descubre; Orka teme que no cumpla esa promesa por salvar al niño. El rastro acaba en un afluente del Skarpain, con señales de tres barcas en la orilla. No encuentra a los fugitivos. Regresa a Fellur durante el enfrentamiento de Orka con Guðvarr; su propia ira se suaviza cuando ella le habla de enterrar a los muertos. LIBRO 1, CAPÍTULO 6: Encuentra la huella de Breca junto al portillo de la granja y el cerrojo abierto, sin señales de otra persona. Con seax y hacha de mano, sigue el rastro hacia el nordeste y remonta el arroyo hasta una poza de la que nace. Al hallar al niño pide que se aparte del agua: dice que huele a Näcken y clava su seax en la tierra blanda; no se muestra ninguna criatura acuática ni el efecto de este gesto. Identifica como tennur a la criatura herida. Sujeta la muñeca de Orka para impedir que vuelva a pegar a Breca y le dice que ya ha dejado claro su reproche. También reprende al niño por el peligro y le pregunta cómo encontró a la criatura. Silba al oír que se llama Vesli y se ríe cuando Breca pide quedarse con ella; todavía no responde a la petición. LIBRO 1, CAPÍTULO 8: Ha permitido que Breca se quede con Vesli. Recuerda que, a la edad de su hijo —diez inviernos—, llevaba collar de esclavo y había sido azotado. Quiere dejarlo disfrutar de la infancia. Él y Orka viven libres, dueños de su granja, sin juramentos ni vínculos que los aten. Explica que cada día elige concentrarse en su esposa y su hijo en vez de en el pasado; propone tener otro hijo. Orka lo llama Thorkel Ulfsson. Afirma que Spert los protege eficazmente y que Vesli quedará ligada a Breca por una deuda de sangre si sobrevive, pudiendo acompañarlo cuando sus padres mueran porque los vaesen viven mucho. Al oír caballos toma un hacha larga de su propia altura y adopta una mirada fría: no permitirá que los raptores se lleven a su hijo. Reconoce a Guðvarr y se relaja; ofrece hospitalidad a los mensajeros. Aconseja acudir al Althing sin destacar, escuchar y marcharse, pues ausentarse atraería comentarios de Guðvarr y le inquieta el interés de Helka por Fellur y las colinas. LIBRO 1, CAPÍTULO 10: Explica a Breca que la piedra rúnica fue destruida porque servía para jurar y rendir culto a los dioses, ahora prohibido bajo pena de muerte. Vincula la persecución de sus descendientes al odio de los supervivientes de la Guðfalla. Sugiere que la persistencia del pasado explica celebrar allí la asamblea. Se inquieta ante el anuncio de Sigrún y trata de evitar que Orka se comprometa como segunda de Virk, pero sabe que aceptará.",
+        star: "★ Su atención a Orka y Breca contrapesa la severidad de ella. El gesto de probar la sangre queda registrado sin atribuirle poderes ni linaje. CAPÍTULO 8: Su optimismo es una elección consciente pese a la esclavitud y los horrores compartidos con Orka."
+    },
+    {
+        id: "breca", label: "Breca", group: "ORKA", type: "Personaje — Hijo de Orka y Thorkel",
+        status: "updated",
+        previousState: "Asiste a su primera asamblea y reclama que se recuerde a Harek.",
+        desc: "LIBRO 1, CAPÍTULO 1: Tiene diez veranos, cabello negro como su padre y ojos gris verdosos como su madre. Vacila al lanzar una lanza contra un reno; el tiro está bien ejecutado, pero un fell-wolf herido espanta la manada y la lanza se clava en un pino. Se culpa por fallar y recibe ánimo de sus padres. Es amigo de Harek, con quien ha jugado en la playa de Fellur durante las visitas de su familia para comerciar. Pide escuchar otra vez la historia de Snaka. Al llegar a la granja ve por primera vez un ser humano muerto, Asgrim, a quien conocía. Pregunta por los dientes ausentes del cadáver y, al final, por el paradero de Harek. LIBRO 1, CAPÍTULO 3: Conduce el poni que arrastra el carro con los cuerpos hasta Fellur; Orka le encarga la tarea para darle algo en que concentrarse. Pregunta si su padre encontrará a Harek y anuncia su desaparición ante Virk y Guðvarr. La espada de Guðvarr lo impresiona. Observa preocupado la confrontación de su madre y le tira de la manga para avisar de la llegada de Thorkel. LIBRO 1, CAPÍTULO 6: Sale solo de la granja al oír los gritos de una criatura herida. Sus padres lo encuentran junto a una poza, con un tennur envuelto en su capa sobre el regazo. Orka primero lo abraza y luego, al ver la criatura, le da un golpe que le hincha y amorata la mejilla. El tennur lo protege extendiendo las alas y siseando; Thorkel impide otro golpe. Breca explica que arrancó uno de sus dientes de leche, ya flojo, y se lo dio porque sus padres le habían contado que a los tennur les gustan los dientes; otro diente está saliendo. Dice que la criatura es hembra y que ella le ha dicho su nombre, Vesli. Pregunta si pueden quedársela, sin obtener aún una respuesta explícita. LIBRO 1, CAPÍTULO 8: Recoge huevos mientras mantiene cerca a Vesli, vendada y acomodada en una carretilla con mantas. Conserva el hematoma del golpe de Orka. Lleva las gachas a Spert y lo detiene cuando amenaza a la tennur; explica que está herida, que su grupo la ha expulsado y que está sola, como antes lo estuvo Spert. Se ríe de que este desconfíe de los vaesen siendo él mismo uno. Presencia el juramento de sangre por el que Vesli promete ser fiel a él y a Spert, a quien llama su guardián. Al llegar los jinetes obedece a Orka y lleva a Vesli en brazos al salón; después se asoma aún sosteniéndola. LIBRO 1, CAPÍTULO 10: Acude entusiasmado a su primer Althing. Le decepciona el tamaño de la roca destruida y pregunta por qué se destruyó algo que alguien quiso construir, por qué se prohíbe el culto y por qué se sigue reuniendo allí la asamblea. Cuando Sigrún menciona a Asgrim e Idrun, añade públicamente el nombre de Harek; Orka siente orgullo por su valor al defender a su amigo.",
+        star: "★★ La cacería presenta su sensibilidad; el hallazgo de la matanza convierte la lección sobre la muerte en una experiencia humana inmediata. CAPÍTULO 6: Su compasión por Vesli recibe una respuesta protectora; el vínculo no explica todavía ninguna capacidad especial."
+    },
+    {
+        id: "virk", label: "Virk", group: "ORKA", type: "Personaje — Pescador",
+        status: "updated",
+        previousState: "Se opone a la sumisión, denuncia la búsqueda insuficiente y acepta un duelo.",
+        desc: "LIBRO 1, CAPÍTULO 3: Pescador de Fellur que ha comerciado muchas veces con Orka y Thorkel. Alto, corpulento y franco. Se recupera de una lesión en el brazo sufrida durante una tormenta y sus dos hijos, aún sin nombre, salen a pescar por él. Sale de la taberna con olor a alcohol. Critica que los antiguos jarls se hagan llamar reyes y rechaza que la sumisión a Helka se disfrace de cuidados. Afirma haber oído antes casos de niños llevados; no identifica responsables. LIBRO 1, CAPÍTULO 10: Lleva a Orka y su familia al islote con sus hijos Mord y Lif; rechaza cobrarles, pidiendo buen trato al comprar pieles. Dice que Guðvarr solo envió exploradores al río, sin barcos ni perros, y que los libertos Asgrim e Idrun tenían derecho a justicia. Detalla los raptos de Howbyr y Kergarth y propone perseguir a los culpables. Insinúa experiencia de combate anterior a su oficio de pescador; Orka reconoce en él una violencia contenida. Rechaza tributos y pérdida de autonomía bajo Helka. Afirma haber navegado y visto la esclavitud masiva y los sacrificios de niños de Iskidan; Sigrún lo desacredita como relato o fantasía de borracho. Acusa a Guðvarr de incumplir sus deberes y lo ridiculiza. Acepta el holmganga que este le propone. Pide a Orka ser su segunda porque teme que sus hijos intenten vengarlo sin poder vencer a un drengr; si muere, le encarga contenerlos y ponerle el hacha en la mano para el camino del alma. El combate aún no empieza.",
+        star: "★ Su comentario sitúa la desaparición de Harek dentro de un posible patrón."
+    },
+    {
+        id: "gudvarr", label: "Guðvarr", group: "ORKA", type: "Personaje — Drengr",
+        status: "updated",
+        previousState: "Es acusado de negligencia y reta a Virk.",
+        desc: "LIBRO 1, CAPÍTULO 3: Joven sobrino y drengr de Jarl Sigrún. Llega por el río en una snekke y transmite su regreso dentro de nueve días y su recomendación de jurar lealtad a Helka. Lleva espada, túnica roja bordada y brazalete de plata; cabello negro aceitado y barba incipiente. Invoca la amenaza de Störr y de los vaesen. Atribuye a estos la muerte de Asgrim e Idrun y se burla de Orka; cuando ella lo desmiente, la amenaza con tres guerreros a su espalda. Tras el regreso de Thorkel promete investigar. LIBRO 1, CAPÍTULO 8: Llega a caballo a la granja de Orka y Thorkel con dos mujeres drengr, una de ellas Arild; lleva espada y una buena cota de malla. Anuncia que Sigrún ya ha regresado y convoca el Althing dentro de seis días en la Roca del Juramento del fiordo. Dice que tratará asuntos serios y quiere presentes a todos los habitantes de sus dominios. Aprueba la respuesta de Arild, que exige asistir o abandonar el territorio. Rechaza comida y descanso porque les quedan otras tres granjas por visitar antes de volver a Fellur. Thorkel teme que comente su ausencia si no van. LIBRO 1, CAPÍTULO 10: Asiste al Althing entre los drengrs de su tía. Según Virk, limitó la búsqueda a exploradores junto al río, sin barcos ni perros. Sigrún dice que él le informó del crimen y sostiene que hizo todo lo posible; Virk lo niega. Al ser ridiculizado por su incompetencia y su nariz goteante, desafía a Virk a holmganga. Insiste en que el desafío público ante jarl, comunidad y piedra no se puede retirar, pese a la orden de Sigrún de detenerse. Virk acepta; el duelo queda pendiente.",
+        star: "★ Su autoridad y arrogancia amenazan con convertir una petición de ayuda en violencia."
+    },
+    {
+        id: "sigrun", label: "Jarl Sigrún", group: "ORKA", type: "Personaje — Jarl",
+        status: "updated",
+        previousState: "Aparece, anuncia su juramento a Helka y autoriza preparar el duelo.",
+        desc: "LIBRO 1, CAPÍTULO 3: Gobernante de Fellur y tía de Guðvarr. Según Virk lleva más de dos meses ausente, convocada —palabra que corrige por invitada— a la corte de Helka en Darl. Su sobrino anuncia su regreso dentro de nueve días y transmite que recomienda someterse a Helka. Convocará un Althing en la Roca del Juramento de Fellur para debatirlo. No aparece en persona. LIBRO 1, CAPÍTULO 8: Según Guðvarr, ya ha regresado y ha convocado un Althing en la Roca del Juramento del fiordo para dentro de seis días. Quiere que acudan todos los habitantes de su dominio para escuchar asuntos serios. Arild presenta la asistencia como condición para permanecer bajo su protección. Sigrún no aparece en la escena; no se conoce todavía su discurso ni la decisión de la asamblea. LIBRO 1, CAPÍTULO 10: Se presenta en persona ante la piedra con unos veinticuatro drengrs, entre ellos Guðvarr y Arild, y una guerrera esclavizada sin nombre, de cabeza parcialmente rapada y tatuada, dos seaxes y collar. Lleva ocho años gobernando Fellur y ha ampliado sus tierras atrayendo guerreros con promesas de tierras y rango. Muestra la herida reciente que selló con sangre su juramento a Helka. Justifica la decisión por las amenazas de Störr, Orlyg y la propia Helka; admite impuestos y juramentos, y concede ante Orka que podría haber una leva. Usa Iskidan como ejemplo de unificación política. Afirma haber visto los drakkars, la hueste y las alas de Orna sobre la fortaleza de Darl, y confía en la victoria de Helka. Desestima las denuncias de Virk sobre Iskidan y defiende la actuación de su sobrino. No logra frenar su desafío a Virk; manda elegir segundos y preparar las varas de avellano antes de reanudar la reunión.",
+        star: ""
+    },
+    {
+        id: "oath-stone-fellur", label: "Roca del Juramento de Fellur", group: "LUGAR", type: "Lugar — Islote de asamblea",
+        status: "updated",
+        previousState: "Se describe la piedra destruida y se celebra allí la asamblea.",
+        desc: "LIBRO 1, CAPÍTULO 3: Islote rocoso del fiordo de Fellur, cubierto de musgo, helechos y árboles azotados por el viento. Guðvarr lo señala como lugar del futuro Althing. El texto inglés lo llama Oath Rock; se conserva el id canónico del archivo. LIBRO 1, CAPÍTULO 8: Guðvarr confirma este lugar del fiordo como sede del Althing convocado por Sigrún para dentro de seis días; la asamblea aún no se celebra. LIBRO 1, CAPÍTULO 10: El sendero del islote conduce a un claro con el muñón de una gran piedra rúnica destrozada a martillazos. Según Thorkel, pudo alcanzar la altura de un salón y recibió juramentos de sangre y culto a los dioses; su destrucción responde a la prohibición de ese culto. Ante sus restos Sigrún anuncia su adhesión a Helka y Guðvarr desafía a Virk.",
+        star: ""
+    },
+    {
+        id: "althing", label: "Alþing (Althing)", group: "NORSE", type: "Cultura — Asamblea",
+        status: "updated",
+        previousState: "La asamblea se celebra y se suspende para preparar un holmganga.",
+        desc: "LIBRO 1, CAPÍTULO 3: Guðvarr anuncia una asamblea en la Roca del Juramento de Fellur cuando vuelva Sigrún. Todos podrán expresar su parecer sobre jurar lealtad a Helka. La reunión todavía no se celebra. LIBRO 1, CAPÍTULO 8: Guðvarr anuncia en la granja de Orka y Thorkel que Sigrún ha regresado y la reunión será dentro de seis días, en la Roca del Juramento del fiordo. Arild exige asistir a quienes vivan bajo su protección o buscar otro lugar donde vivir. Orka y Thorkel deciden ir, escuchar sin destacar y marcharse discretamente; el contenido del discurso y la resolución siguen pendientes. LIBRO 1, CAPÍTULO 10: Cientos de habitantes se reúnen en el islote; hay tiendas en los prados de Fellur porque la reunión puede durar días. Debe asistir al menos un representante de cada familia del territorio. Sigrún anuncia que ya juró a Helka, sin esperar una votación mostrada en escena. Virk y Fálki cuestionan impuestos y pérdida de libertad; Orka advierte de una leva. La discusión sobre los raptos desemboca en un desafío de Guðvarr a Virk y la asamblea se interrumpe para preparar el duelo.",
+        star: ""
+    },
+    {
+        id: "ninos-robados", label: "Robos de Ninos", group: "TRAMA", type: "Trama — Desapariciones",
+        status: "updated",
+        previousState: "Virk identifica otros pueblos y familias afectados; el móvil sigue siendo una hipótesis.",
+        desc: "LIBRO 1, CAPÍTULO 3: Breca y Orka afirman que los asesinos se llevaron a Harek. Virk dice haber oído antes que se llevan niños. El capítulo sugiere otros casos, pero no aporta nombres, cifras, fechas, autores ni motivos. LIBRO 1, CAPÍTULO 10: Virk informa de tres hijos de los Haraldursons de Howbyr —dos niñas y un niño— desaparecidos de sus camas, y de una familia de Kergarth cuyos padres fueron hallados muertos y cuyos hijos varones faltaban. Dice que hay más rumores sin confirmar. Howbyr queda diez o doce leguas al norte y Kergarth seis al este por la costa. No hay noticias de Harek. Orka y Virk sospechan de forajidos que venden niños como esclavos; no se identifica a los raptores ni se confirma ese destino.",
+        star: "★★ La afirmación de Virk amplía la inquietud más allá de una sola familia."
+    },
+    {
+        id: "holmganga", label: "Holmganga", group: "NORSE", type: "Cultura — Duelo",
+        status: "updated",
+        previousState: "Se presentan las reglas y preparativos mediante el desafío a Virk.",
+        desc: "LIBRO 1, CAPÍTULO 8: Thorkel lo menciona como un duelo al decir que no desafiaría a Orka ni a un pulso ni, mucho menos, a un holmganga. Es una comparación sobre la fuerza y destreza de ella; no se celebra ningún duelo ni se explican aquí sus reglas. LIBRO 1, CAPÍTULO 10: Guðvarr desafía públicamente a Virk ante su jarl, la comunidad y la piedra. Según Guðvarr y el juicio de Orka, no puede retirarlo; Virk no puede rechazarlo sin perder el honor. Sigrún ordena que elijan segundos y se dispongan varas de avellano. Virk pide a Orka que, si muere, recuerde las reglas a sus hijos para impedir que ataquen al vencedor. El capítulo no muestra el combate ni detalla aún todas sus reglas.",
+        star: ""
+    },
+    {
+        id: "helka", label: "Reina Helka", group: "VARG", type: "Personaje — Reina",
+        status: "updated",
+        previousState: "Sigrún confirma su adhesión; la conquista y leva quedan como previsiones.",
+        desc: "LIBRO 1, CAPÍTULO 2: Su perfil de nariz afilada y cabello recogido figura en las monedas de bronce que lleva Varg. Él solo conoce rumores sobre su pretensión de controlar media Vigríð y su crueldad con los enemigos. Un drengr cobraba sus tributos en la granja de Kolskegg. El vendedor de comida critica sus impuestos. Svik usa su nombre como ejemplo hipotético: ni siquiera ella podría contratar a Vol. LIBRO 1, CAPÍTULO 3: Según Virk, Sigrún lleva más de dos meses en su corte de Darl. Guðvarr transmite que su tía recomienda jurarle lealtad, presentando la protección de Helka como respuesta a Störr y a los vaesen. La adhesión de Fellur queda pendiente de un Althing; el capítulo no muestra a Helka en persona. LIBRO 1, CAPÍTULO 10: Sigrún anuncia haberle jurado lealtad y sellado el juramento con sangre. Espera tributos y juramentos, y admite ante Orka la posibilidad de una leva. Afirma haber visto su flota, hueste y fortaleza de Darl bajo los huesos alados de Orna. Sigrún sostiene que negarse habría provocado una conquista y su sustitución, y predice una victoria de Helka sobre Störr; son valoraciones de Sigrún, no sucesos consumados.",
+        star: ""
+    },
+    {
+        id: "helka-poder", label: "Expansión de Helka", group: "TRAMA", type: "Trama — Sumisión política",
+        status: "updated",
+        previousState: "La adhesión de Sigrún se confirma con oposición pública.",
+        desc: "LIBRO 1, CAPÍTULO 3: Guðvarr propone que Fellur jure lealtad a Helka y presenta su dominio como protección frente a Störr y los vaesen. Virk denuncia que eso significa gobierno, no cuidados. Habrá un Althing al regreso de Sigrún; no se ha mostrado una decisión colectiva de Fellur. LIBRO 1, CAPÍTULO 10: Sigrún ya ha jurado a Helka y lo comunica al Althing mostrando el corte en su brazo. Reconoce que habrá tributos y juramentos, y que podría exigirse una leva. Virk denuncia la pérdida de autonomía; Orka advierte que los habitantes combatirán en guerras de conquista. Sigrún presenta su decisión como defensa ante otros jarls y predice un enfrentamiento decisivo entre Helka y Störr, todavía futuro.",
+        star: "★ La seguridad se convierte en argumento para ceder autonomía."
+    },
+    {
+        id: "storr", label: "Jarl Störr", group: "FACCION", type: "Personaje — Jarl",
+        status: "updated",
+        previousState: "Sigrún describe su expansión y lo sitúa como rival de Helka.",
+        desc: "LIBRO 1, CAPÍTULO 3: Guðvarr afirma que amenaza desde el oeste y lo usa como argumento para que Fellur se una a Helka. No aparece y no se precisan sus acciones ni dominios. LIBRO 1, CAPÍTULO 9: Según Agnar, es famoso por su guardia de esclavos Berserkir y por ello podría pagar el mejor precio por Berak. Agnar anuncia que llevará el cautivo a Snakavik con ese propósito; Störr no aparece ni se cierra ningún trato. LIBRO 1, CAPÍTULO 10: Según Sigrún, desde el noroeste extiende sus fronteras al sur y al este y codicia las tierras y el fiordo de Fellur. Ella predice una guerra con Helka y afirma que Störr ofrecería conquista y esclavitud en vez de protección. No aparece ni se muestra tal invasión.",
+        star: ""
+    },
+    {
+        id: "darl", label: "Darl", group: "LUGAR", type: "Lugar — Corte",
+        status: "updated",
+        previousState: "Sigrún describe la fortaleza y las alas de Orna.",
+        desc: "LIBRO 1, CAPÍTULO 3: Sede de la corte de la Reina Helka, donde Jarl Sigrún lleva más de dos meses según Virk. El capítulo no describe la ciudad. LIBRO 1, CAPÍTULO 10: Sigrún afirma haber visto la fortaleza de Helka bajo los huesos del dios muerto Orna, cuyas alas se alzan sobre ella. Usa lo visto como argumento de confianza en el poder de la reina.",
+        star: ""
+    },
+    {
+        id: "iskidan", label: "Iskidan", group: "LUGAR", type: "Lugar — Tierra al sur del mar",
+        status: "updated",
+        previousState: "Se describe su centralización y se conservan versiones discrepantes sobre su violencia.",
+        desc: "LIBRO 1, CAPÍTULO 2: Tierra muy lejana al sur, al otro lado del mar. Varg ha oído relatos sobre sus grandes ríos, llanuras herbosas, sol intenso y la ciudad de Gravka. En Liga ve desembarcar personas que una trabajadora portuaria identifica como procedentes de Iskidan: llevan caftanes, gorros de fieltro y piel y ropas de colores; sus escoltas portan armadura laminar y espadas curvas. Varg cree oír caballos dentro de un knarr; otros dos barcos semejantes se aproximan. LIBRO 1, CAPÍTULO 10: Sigrún lo presenta como un vasto reino del sur gobernado desde Gravka por el emperador Kirill, ejemplo de la unificación que prevé en Vigríð. Virk afirma haber visto allí más esclavos que libertos y sacrificios de niños, y dice que el trono se levanta sobre cadáveres. Sigrún ridiculiza ese testimonio como cuento o fantasía; el capítulo no resuelve la disputa.",
+        star: ""
+    },
+    {
+        id: "gravka", label: "Gravka", group: "LUGAR", type: "Lugar — Gran Ciudad",
+        status: "updated",
+        previousState: "Es identificada como sede del poder de Kirill.",
+        desc: "LIBRO 1, CAPÍTULO 2: La Gran Ciudad de Iskidan, conocida por Varg a través de relatos; no la ha visitado. LIBRO 1, CAPÍTULO 10: Según Sigrún, desde esta ciudad el emperador Kirill gobierna el vasto reino de Iskidan.",
+        star: ""
+    },
+    {
+        id: "gudfall", label: "Guðfalla (Caída de Dioses)", group: "EVENTO", type: "Evento Histórico",
+        status: "updated",
+        previousState: "Thorkel relaciona la catástrofe con el odio a los descendientes divinos.",
+        desc: "LIBRO 1, CAPÍTULO 1: La guerra y caída de los dioses se narran aquí sin emplear todavía el nombre Guðfalla, conservado como identificador canónico del archivo. Según Thorkel, los parientes divinos combatieron entre sí, los hijos mataron a Snaka y su caída aplastó y levantó reinos, dejando entrar al mar. Orka añade que abrió el foso de los vaesen y liberó sus criaturas. La época actual se llama Edad de la Paz porque la guerra antigua ha terminado y los dioses están muertos. LIBRO 1, CAPÍTULO 9: Grend emplea el nombre Guðfalla y sostiene que Lik-Rifa no murió aquel día con los otros dioses: había quedado encerrada y no pudo acudir junto a Snaka. Elvar disputa su supervivencia durante los casi trescientos años transcurridos. LIBRO 1, CAPÍTULO 10: Thorkel explica a Breca que los supervivientes de la caída de Snaka odiaron y persiguieron a los descendientes de los dioses, culpando a estos de haber roto el mundo. El culto a los dioses muertos está prohibido bajo pena de muerte.",
+        star: "★★ Orka cuestiona que el final de aquella guerra equivalga a paz para quienes viven ahora."
+    },
+    {
+        id: "tainted", label: "Tainted", group: "MAGIA", type: "Concepto — Personas tocadas por los dioses",
+        status: "updated",
+        previousState: "Thorkel explica la persecución histórica por la sangre divina.",
+        desc: "LIBRO 1, CAPÍTULO 5: Agnar describe a Berak como Tainted, tocado por los dioses, y lo presenta como una amenaza para los isleños. Los Battle-Grim se proclaman cazadores de Tainted. Kráka es una esclava Tainted cuya magia protege el barco. El capítulo muestra cautiverio y explotación de estas personas, sin explicar todavía la herencia divina ni atribuir a Berak poderes concretos. LIBRO 1, CAPÍTULO 7: La transformación observada del cautivo identificado como Berak muestra fuerza extraordinaria, ojos ambarinos, dientes afilados y uñas como garras. Agnar lo llama Tainted y Berserkir y vincula su sangre al dios muerto Berser. Su intención de venderlo y las órdenes que activan su collar muestran la esclavización de estos poderes. LIBRO 1, CAPÍTULO 10: Thorkel cuenta a Breca que los supervivientes de la Guðfalla odiaron y cazaron a los descendientes cuya sangre estaba mezclada con la de los dioses. No identifica como Tainted a la guerrera esclavizada que acompaña a Sigrún.",
+        star: ""
+    },
+    {
+        id: "blood-oath", label: "Juramento de Sangre", group: "MAGIA", type: "Magia — Vínculo jurado",
+        status: "updated",
+        previousState: "Se muestra el uso político del juramento sellado con sangre.",
+        desc: "LIBRO 1, CAPÍTULO 8: Spert afirma que la sangre es vinculante y exige que Vesli selle con ella su promesa de amistad. La tennur se corta la palma con una garra y jura por la sangre de su vida ser fiel a Breca y a su guardián Spertus; Spert acepta y retira su amenaza. Thorkel también explica que Vesli debe una deuda de sangre a Breca por su rescate y quedará ligada a él si sobrevive. El juramento explícito y la interpretación de esa deuda se registran sin deducir poderes, castigos ni equivalencia con el vínculo por el que Orka sometió a Spert. LIBRO 1, CAPÍTULO 10: Sigrún muestra un corte reciente en el antebrazo como sello de su juramento de lealtad a Helka. Thorkel explica que antiguamente la piedra del islote recibía juramentos de sangre a los dioses. No se muestran consecuencias mágicas de estos juramentos.",
+        star: "★ La fidelidad se sella con un acto de sangre; sus consecuencias mágicas concretas no se muestran."
+    },
+    {
+        id: "mord-lif", label: "Mord y Lif", group: "ORKA", type: "Personajes — Hijos de Virk",
+        desc: "LIBRO 1, CAPÍTULO 10: Hijos de Virk, a quien acompañan remando para llevar a Orka y su familia a la asamblea. Apoyan las objeciones de su padre a Helka y se alarman cuando acepta el duelo. Virk dice que saben algo de armas pero no pueden vencer a un drengr, y elige a Orka como segunda para impedir que intenten vengarlo si muere.",
+        star: ""
+    },
+    {
+        id: "howbyr", label: "Howbyr", group: "LUGAR", type: "Lugar — Población",
+        desc: "LIBRO 1, CAPÍTULO 10: Localidad diez o doce leguas al norte de Fellur. Según Virk, los Haraldursons perdieron a sus dos hijas y a un hijo: sus camas aparecieron vacías por la mañana.",
+        star: ""
+    },
+    {
+        id: "kergarth", label: "Kergarth", group: "LUGAR", type: "Lugar — Población",
+        desc: "LIBRO 1, CAPÍTULO 10: Localidad seis leguas al este de Fellur, por la costa. Virk cuenta que una familia fue hallada asesinada y sus hijos varones desaparecieron; no recuerda sus nombres.",
+        star: ""
+    },
+    {
+        id: "jarl-orlyg", label: "Jarl Orlyg", group: "FACCION", type: "Personaje — Jarl",
+        desc: "LIBRO 1, CAPÍTULO 10: Según Sigrún, gobierna desde Svelgarth, al este, y ha saqueado sus tierras. No aparece en escena.",
+        star: ""
+    },
+    {
+        id: "svelgarth", label: "Svelgarth", group: "LUGAR", type: "Lugar — Sede de Orlyg",
+        desc: "LIBRO 1, CAPÍTULO 10: Sede de Jarl Orlyg, situada al este de los dominios de Sigrún según el discurso de esta.",
+        star: ""
+    },
+    {
+        id: "falki", label: "Fálki Torilsson", group: "ORKA", type: "Personaje — Propietario de minas de estaño",
+        desc: "LIBRO 1, CAPÍTULO 10: Antiguo granjero enriquecido por depósitos de estaño bajo sus pastos. Orka y Thorkel han comerciado con él. Lleva sombrero rojo de fieltro con piel y anillos de oro en la barba. En la asamblea respalda respetuosamente las dudas de Virk y pregunta por los impuestos de Helka; escucha los beneficios que propone Sigrún, sin declarar una adhesión.",
+        star: ""
+    },
+    {
+        id: "emp-kirill", label: "Emperador Kirill", group: "FACCION", type: "Personaje — Gobernante de Iskidan",
+        desc: "LIBRO 1, CAPÍTULO 10: Sigrún lo nombra como emperador que gobierna Iskidan desde Gravka. Virk denuncia que su trono está construido sobre cadáveres y afirma haber visto esclavitud masiva y sacrificios de niños en su reino. Sigrún disputa ese testimonio. El capítulo no usa todavía el título canónico posterior de Gran Khagan; se conserva su id del archivo de referencia.",
+        star: ""
+    },
+    {
+        id: "orna", label: "Orna", group: "DIOS", type: "Dios — Muerto",
+        desc: "LIBRO 1, CAPÍTULO 10: Sigrún dice haber visto los huesos del dios muerto Orna, con sus alas alzadas sobre la fortaleza de Helka en Darl. El capítulo no explica su linaje ni nombra su especie; se conserva el id canónico sin adelantar esos datos.",
+        star: ""
+    },
+    {
+        id: "holmganga-event", label: "Holmganga Virk vs Guðvarr", group: "EVENTO", type: "Evento — Desafío aceptado; combate pendiente",
+        desc: "LIBRO 1, CAPÍTULO 10: Durante el Althing, Virk acusa a Guðvarr de negligencia en la búsqueda de niños y lo ridiculiza. Guðvarr lo reta y sostiene que no puede retirar el desafío público, pese a la oposición de Sigrún. Virk acepta. La jarl suspende la reunión para elegir segundos y colocar varas de avellano. Orka acepta ser segunda de Virk para contener a sus hijos si pierde y ponerle el hacha en la mano si muere. El capítulo termina antes del combate.",
+        star: ""
+    },
 ];

@@ -64,8 +64,8 @@
         open.addEventListener('click', () => {
           dialog.close();
           if (item.kind === 'clue') window.openClueEntry(item.targetId || item.id);
-          else if (CharacterReference.kind(nodeMap[item.id])) window.openCharacterReference(item.id);
-          else window.openRelationshipMap(item.id);
+          else if (CharacterReference.kind(nodeMap[item.id])) window.openCharacterReference(item.id, '', () => dialog.showModal());
+          else window.openRelationshipMap(item.id, () => dialog.showModal());
         });
         const remove = el('button', 'Quitar', 'bookmark-remove'); remove.type = 'button';
         remove.setAttribute('aria-label', `Quitar marcador: ${item.label}`);

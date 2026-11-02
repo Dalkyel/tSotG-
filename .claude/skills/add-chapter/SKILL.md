@@ -27,10 +27,10 @@ user is actively continuing that rebuild. For a Book One request, first check wh
 `book1/rebuild/progress.json` exists and records an incomplete rebuild. If it does,
 continue that rebuild by default, including for an ordinary "add chapter N" request,
 unless the user explicitly selects the live archive. Read the rebuild procedure before
-running preflight or editing data. Book Two requests use the live workflow. For staged runs, capture the absolute project root before
-changing working directory and use absolute helper and input paths; keep staged data
-paths relative to the staging directory. Do not reuse root-relative paths after changing
-into `book1/rebuild` or its reference directory.
+running preflight or editing data. Book Two requests use the live workflow. For staged
+runs, use `scripts/rebuild.cjs` as described in that procedure; it selects the staged or
+read-only reference archive without changing the caller's working directory. Capture the
+absolute project root for source, progress and README paths.
 
 ## Input types
 
@@ -47,6 +47,10 @@ into `book1/rebuild` or its reference directory.
 
 ## Before writing anything
 
+Read this skill in bounded sections and read mode-specific references separately;
+do not combine the full skill, another skill and rebuild instructions in one response.
+If a read is truncated, retrieve the omitted sections before proceeding.
+
 1. Identify which book and chapter number this is, or confirm this is reference material
    rather than a chapter (ask the user if it's ambiguous).
    For chapter input, run the compact preflight before larger reads:
@@ -60,6 +64,19 @@ into `book1/rebuild` or its reference directory.
    match exists, inspect for incomplete work or requested corrections instead of
    blindly appending. Do not search whole data files for a bare chapter number:
    numbers inside accumulated descriptions can return enormous unrelated lines.
+   Read the complete chapter before inventory work. For local HTML/XHTML, use the
+   bundled stdlib reader instead of writing an extractor:
+
+   ```sh
+   python3 .claude/skills/add-chapter/scripts/read-chapter.py "book2/chapter 17.html" 1
+   ```
+
+   It skips head/script/style content, preserves inline text (including drop-cap names),
+   and prints 10,000-character pages. Read each numbered page in a separate tool response
+   until `END`; do not batch chapter pages with inventories or full entries. If any output
+   is truncated or condensed, retrieve the omitted content in smaller chunks before
+   proceeding. Use `caveman_retrieve` for a `<<ccr:...>>` handle only when available.
+
 2. After reading the complete chapter, build its full entity list — every named character,
    place, or thing it mentions, including context-only references that won't need a
    full-entry read. Resolve each name against the current inventory in this fixed order,
@@ -88,6 +105,12 @@ into `book1/rebuild` or its reference directory.
    ```sh
    node .claude/skills/add-chapter/scripts/match-entities.cjs 2 --all
    ```
+
+   Before escalating an unmatched creature or concept to the reference archive, retry
+   recognizable singular/plural and translated forms against the current inventory
+   (e.g. `trolls` → `Trol`, `Frost-spiders` → `Arañas del Hielo`). The matcher does not
+   stem or translate names. This can confirm an existing staged id without exposing
+   later reference labels; it does not establish an unfamiliar translation by itself.
 
    **b. Still unmatched? Search descriptions, not grep.** A name can be absent from every
    label yet already tracked — revealed only in prose (Ilmur was named inside the `hundur`
@@ -211,11 +234,12 @@ into `book1/rebuild` or its reference directory.
      echo '{"mode":"update","header":"// ── LIBRO 2, CAPÍTULO 42 — BIÓRR ──",
             "descAppend":"LIBRO 2, CAPÍTULO 42: ...",
             "starAppend":"CAPÍTULO 42: ...",
-            "previousState":"short note of what changed"}' > /tmp/spec.json
-     node .claude/skills/add-chapter/scripts/append-node.cjs 2 biorr /tmp/spec.json
+            "previousState":"short note of what changed"}' > "$chapter_run/spec.json"
+     node .claude/skills/add-chapter/scripts/append-node.cjs 2 biorr "$chapter_run/spec.json"
      ```
 
-     Write the spec JSON to the scratchpad directory, not `/tmp`. `descAppend`/`starAppend`
+     Write spec JSON inside the unique temporary run directory used for the baseline
+     (defined below); keep specs beside its `baseline/` subdirectory. `descAppend`/`starAppend`
      are the only things you compose by hand — genuinely new material, never a copy of
      existing text — and they're joined onto the baseline with a single space. Omit
      `header` on every node after the first one appended for a given chapter section.
@@ -237,19 +261,13 @@ into `book1/rebuild` or its reference directory.
      confirms it, a FAIL on "does not preserve its latest baseline text" means re-extract
      that exact field from the data file programmatically rather than trusting the
      earlier read.
-   - `links.js` and `summaries.js` have no bundled appender (unlike `append-node.cjs`
-     for `nodes.js`), so their closing `},\n];` is still edited directly with `Edit`.
-     Build that `old_string` from a `Read` of the file's tail, never from `Bash`
-     `cat`/`tail` output or a guessed indent: this environment's output-condensation
-     layer can silently normalize a cosmetic detail — quote style, a stray tab-width
-     inconsistency in indentation — that `Edit` still matches byte-exact against. One
-     run's `old_string` assumed the same 4-space indent every other entry used and
-     failed twice against a closing brace that actually had none; another's assumed
-     single-quoted keys against a file section that used double quotes. If an `Edit`
-     on that closing syntax fails to match once, don't retry with a second guess —
-     anchor `old_string` on the last few words of real content plus the literal
-     `},\n];` with no assumed indentation or quote style, re-reading via `Read` first
-     if still unsure.
+   - `links.js` and `summaries.js` have no bundled appender. When byte-exact
+     `Read`/`Edit` tools are available, read the bounded file suffix before choosing an
+     edit anchor; do not reconstruct quote style or indentation from shell output.
+     Otherwise, use a short local script that reads the file directly, asserts a single
+     trailing `\n]\s*;\s*$` array terminator, and inserts JSON-serialized entries before it.
+     Keep the existing file prefix intact and run `node --check` afterward. This avoids
+     matching regenerated prose or depending on tools absent from the current runtime.
    - If reading source lines, include the entire object: `desc` and `star` may be on
      following lines. For same-POV continuations, chapter boundary comments can locate
      the previous scene's cluster quickly; inspect later same-id entries before copying.
@@ -257,15 +275,6 @@ into `book1/rebuild` or its reference directory.
      header (a known historical editing mistake). Use its full accumulated text as the
      baseline, create a fresh entry for the current chapter, and flag the misplaced
      history. Repairing earlier sections is a separate task.
-   - Read the complete chapter input. If output is truncated or condensed, retrieve the
-     omitted content using an available retrieval tool, or read smaller bounded chunks.
-     Use `caveman_retrieve` for a `<<ccr:...>>` handle only when that tool is available.
-     Do not treat a partial read as the full chapter.
-     For local HTML input, use the bundled stdlib reader instead of writing a temporary
-     extractor: `python3 .claude/skills/add-chapter/scripts/read-chapter.py "book2/chapter 17.html" 1`.
-     It skips head/script/style content, preserves inline text (including drop-cap names),
-     and prints 10,000-character pages. Read each numbered page in a separate tool response
-     until `END`; do not batch chapter pages with inventories or full node entries.
 4. Before appending, rerun the compact preflight if the data files have changed since
    the initial check. Record input conflicts
    with source markers rather than silently replacing earlier claims (e.g. Myrk's ten
@@ -278,9 +287,11 @@ first mutation, even when Git is unavailable. Keep that directory path for verif
 do not reuse a fixed directory that may contain another run's baseline. For Book 2:
 
 ```sh
-chapter_baseline=$(mktemp -d "${TMPDIR:-/tmp}/add-chapter.XXXXXX")
+chapter_run=$(mktemp -d "${TMPDIR:-/tmp}/add-chapter.XXXXXX")
+chapter_baseline="$chapter_run/baseline"
+mkdir "$chapter_baseline"
 cp book2/nodes.js book2/links.js book2/summaries.js "$chapter_baseline/"
-printf '%s\n' "$chapter_baseline"
+printf '%s\n' "$chapter_run" "$chapter_baseline"
 ```
 
 Use this snapshot for the preservation checks below; it is a pre-edit reference, not
@@ -305,14 +316,14 @@ chapter data to add to the project.
 - **Existing entity already updated earlier in the SAME book** (e.g. `book2/nodes.js`
   already has a `mord-lif` or `glornir` entry from an earlier chapter) → add a **new**
   node object in the current chapter's section — do not edit the earlier chapter's entry
-  in place. `mapa.js` merges same-id entries within one book via `Object.assign` in array
-  order, so only the *last* entry's fields actually render; the file's chronological,
+  in place. `data-core.js` merges same-id entries in book/array order, so only the
+  *last* entry's fields actually render; the file's chronological,
   one-entry-per-chapter structure exists to keep a readable diff history, not because the
   merge requires it. Copy the most recent existing entry's full `desc` (the latest
   chapter's version, not the original book1 one) and append the new material to it, same
   as the full-overwrite rule above.
-- **CRITICAL — `desc` is a full overwrite, not a delta.** `mapa.js` merges an updated
-  node with `Object.assign(nodeIndex[n.id], n)`, which replaces the entire `desc` string.
+- **CRITICAL — `desc` is a full overwrite, not a delta.** `data-core.js` merges an updated
+  node with object spread, which replaces the entire `desc` string.
   If you only write the new chapter's info, the character's Book 1 backstory disappears
   from their panel. Always use the latest same-id `desc` across Book 1, prior books,
   and earlier entries in the current book; copy it in full and append the new material — same accumulation style already used throughout `book1/nodes.js` (e.g.
@@ -330,8 +341,9 @@ chapter data to add to the project.
   maternal Snaka ancestry; Breca identifies both lobo and oso, but has not yet
   demonstrated all the abilities Biórr predicts. Keep predictions attributed rather
   than upgrading them to confirmed powers in descriptions or links.
-- Do not set `book` yourself — `mapa.js` stamps `n.book = 2` (etc.) automatically during
-  merge, which is also what drives the gold dashed "new in this book" ring on the node.
+- Do not set `book` yourself — `data-core.js` stamps it from the registered book during
+  merge. The current UI applies its dashed book styling to `book > 1`; Book One
+  rebuild additions do not receive that styling.
 - For a story told inside the chapter, distinguish its fictional characters from
   their real-world namesakes. Svik's fable in Book 2 Ch32 calls its characters Helka,
   Einar, Frek, and Hákon; their fictional actions are not biographical facts about
@@ -392,22 +404,32 @@ the first time this book's `summaries.js` goes from empty to non-empty.
 
 Summary entity links are generated by `mapa.js` using
 `CharacterReference.buildMentionMatcher` / `findMentions`, not by the `<strong>` tags.
-Check that each emphasized entity name resolves completely to its intended node with
-the preview's actual inventory and guides. Matching is case-sensitive: use canonical
+The chapter verifier checks that every `<strong>` term resolves completely to one node
+using the shared matcher and the preview's inventory and guides. Review that the resolved
+node is the intended entity; the automated check cannot establish identity. Matching is case-sensitive: use canonical
 capitalization (e.g. `Fell-Wolf`, `Tennur`, `Foso de los Vaesen`, `Runa Warding`) or a
-supported alias. Plain-text repetitions should resolve too. A named era such as
+supported alias. The matcher strips trailing parenthetical text from labels: for
+`Alþing (Althing)`, emphasize `Alþing`; neither the parenthetical alias nor the full
+parenthesized label resolves without a separate supported alias. A pronunciation suffix after the closing parenthesis
+(e.g. `Oskutreð (Árbol de Ceniza) [pron. Oskutreth]`) prevents that stripping; for a
+new staged node, keep the label as `Oskutreð (Árbol de Ceniza)` and put any needed
+pronunciation in its description. Verify the short name before finalizing the summary.
+Plain-text repetitions should resolve too. A named era such as
 `Friðaröld` needs its own non-structural node to be linkable; a mention only in the root
 description does not suffice. Staged previews must use the current summary dialog
 with `chapter-list` and `chapter-pane` elements and the shared renderer; an older copied
 HTML shell can prevent all summary links from rendering. Verify this contract with
-`node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs` during the rebuild.
+`node --test tests/book1-rebuild.test.cjs tests/characters.test.cjs tests/focus.test.cjs`
+during the rebuild. Name resolution alone does not prove a link opens: the rebuild
+regression suite also checks connection-viewer startup with empty guides and creature
+links reaching nodes with relationships.
 
 ## 4. Later-book discoveries — integrate directly into nodes and links
 
 The current book's node and link files are the single source of truth, including facts
 that recontextualize an earlier book. Do not create or maintain a separate revelations
-file or duplicate callouts. Book-capped loading already hides these updates from readers
-who have not reached that book.
+file or duplicate callouts. The live UI displays the complete loaded archive; it does
+not hide later-book updates. Keep the chronological rebuild isolated as described above.
 
 - Add confirmed facts to the existing node's accumulated `desc`, keeping a source marker
   such as `REPARTO DEL LIBRO 2`, `GLOSARIO DEL LIBRO 2`, or `LIBRO 2, CAPÍTULO 3`.
@@ -432,8 +454,15 @@ who have not reached that book.
 Create `book3/nodes.js`, `book3/links.js`, `book3/summaries.js` exporting empty
 `nodesBook3`, `linksBook3`, `chapterSummariesBook3` arrays (copy `book2`'s file headers as
 a template), and add the three `<script>` tags to `index.html` next to the Book 2 ones.
-Nothing else changes — `MAX_BOOK` in `mapa.js` auto-detects `nodesBook3` and the cap
-selector, badges, and chapter tabs all extend themselves.
+Register Book 3 in the array passed to `ArchiveData.merge` in `data-init.js`:
+
+```js
+{ book: 3, nodes: nodesBook3, links: linksBook3, summaries: chapterSummariesBook3 },
+```
+
+`MAX_BOOK` then comes from the merged archive, and chapter tabs derive from its summaries.
+Loading the scripts alone does not register the book. Keep an active Book One rebuild
+preview isolated from later-book data.
 
 ## Verification
 
@@ -449,8 +478,8 @@ endpoints against ids available at that book's reading cap, and requires unique 
 chapter summaries. It compares the current book's parsed arrays against the snapshot,
 requiring unchanged original prefixes and exactly one appended summary for the requested
 chapter. It also requires unique ids among appended nodes, `status: 'updated'` and a
-nonempty `previousState` for existing ids, and preservation of the full latest baseline
-`desc` and `star`. It evaluates trusted local data files only. A failure is fatal: fix it
+nonempty `previousState` for existing ids, preservation of the full latest baseline
+`desc` and `star`, and complete mention matches for emphasized summary terms. It evaluates trusted local data files only. A failure is fatal: fix it
 before reporting success. Repeated ids across earlier chapter sections remain valid.
 
 The `--review-links` option resolves endpoint labels at the current book cap and prints
@@ -459,7 +488,7 @@ sentences for semantic direction; the verifier cannot judge their meaning.
 
 These checks do not establish factual accuracy or visual correctness. Review the added
 content against the complete chapter, then open `index.html` and confirm: the new/updated
-node appears with the correct description and a gold ring, its connections show in the
+node appears with the correct description and book metadata, its connections show in the
 panel, the chapter appears under the right "Libro N" tab, and newly integrated facts
 appear in the intended descriptions or connections.
 

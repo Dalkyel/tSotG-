@@ -39,3 +39,41 @@ test('rebuild preview supplies the current summary UI and shared link renderer',
   assert.ok(!html.includes('src="book2/'));
   assert.ok(!html.includes('src="characters-data.js"'));
 });
+
+test('Chapter 7 creature mentions resolve to connection-map nodes with relationships', () => {
+  const revisions = load('nodes', 'nodes');
+  const nodes = [...new Map(revisions.map(n => [n.id, n])).values()];
+  const matcher = core.buildMentionMatcher(nodes, revisions, {});
+  const focus = require('../focus-core.js');
+  const graph = focus.index(nodes, load('links', 'links'));
+  for (const [term, id] of [['Arañas del Hielo', 'araña-hielo'], ['Trol', 'trol']]) {
+    assert.deepEqual(core.findMentions(term, matcher).map(m => m.id), [id]);
+    const view = focus.view(graph, focus.initial(id), {});
+    assert.ok(view.ids.has(id));
+    assert.ok(view.edges.length > 0, `${term} must open with its recorded relationships`);
+  }
+});
+
+test('connection viewer initializes with the rebuild preview’s empty character guides', () => {
+  const vm = require('node:vm');
+  const elements = new Map();
+  const element = () => ({
+    append() {}, setAttribute() {}, addEventListener() {}, add() {},
+  });
+  const selection = new Proxy({}, { get: (_, key) => key === 'node' ? () => ({}) : () => selection });
+  const window = {};
+  const context = {
+    nodes: load('nodes', 'nodes'), links: load('links', 'links'),
+    FocusMap: require('../focus-core.js'), CharacterReference: core,
+    CHARACTER_GUIDES: {}, CHARACTER_KEY_LINKS: {}, window,
+    clueSourceRevisions: load('nodes', 'nodes'),
+    document: { createElement: element, body: element(), getElementById(id) {
+      if (!elements.has(id)) elements.set(id, element());
+      return elements.get(id);
+    } },
+    d3: { select: () => selection, zoom: () => selection },
+    Option: function () {}, ResizeObserver: class { observe() {} },
+  };
+  vm.runInNewContext(fs.readFileSync(path.join(root, 'focus.js'), 'utf8'), context);
+  assert.equal(typeof window.openRelationshipMap, 'function', 'Creature summary links need this registered opener');
+});

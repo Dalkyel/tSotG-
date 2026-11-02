@@ -182,7 +182,7 @@
         const button = el('button', n.label); button.type = 'button';
         button.addEventListener('click', () => {
           if (!mayLeave()) return;
-          dirty = false; dialog.close(); window.openRelationshipMap(id);
+          dirty = false; dialog.close(); window.openRelationshipMap(id, () => dialog.showModal());
         });
         links.append(button);
       });

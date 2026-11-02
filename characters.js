@@ -5,6 +5,7 @@
   const byId = new Map(profiles.map(p => [p.node.id, p]));
   const visited = [];
   let activeId = null;
+  let returnTo = null;
   const categories = { people: 'Personajes y seres con nombre', factions: 'Compañías y poderes', events: 'Eventos',
     plots: 'Preguntas y tramas', places: 'Lugares', lore: 'Linajes, magia y objetos' };
   const types = { rel: 'Relación', conflict: 'Conflicto', event: 'Evento', magic: 'Magia', arc: 'Arco',
@@ -106,9 +107,12 @@
     const p = byId.get(id) || core.profile(node, clueSourceRevisions, {});
     pane.replaceChildren();
     const nav = el('div', undefined, 'reference-profile-nav');
-    const previous = button('← Volver a la ficha anterior', () => showProfile(visited.pop(), true));
-    previous.disabled = !visited.length;
-    nav.append(previous, BookmarkUI.button('node', node.id), button('Explorar conexiones', () => { dialog.close(); window.openRelationshipMap(node.id); }),
+    const previous = button('← Volver a la ficha anterior', () => {
+      if (visited.length) { showProfile(visited.pop(), true); return; }
+      if (returnTo) { const reopen = returnTo; returnTo = null; dialog.close(); reopen(); }
+    });
+    previous.disabled = !visited.length && !returnTo;
+    nav.append(previous, BookmarkUI.button('node', node.id), button('Explorar conexiones', () => { dialog.close(); window.openRelationshipMap(node.id, () => dialog.showModal()); }),
       button('Ver en el mapa ↗', () => navigateMap(node)));
     pane.append(nav);
     const heading = el('h2', node.label, 'reference-name'); heading.tabIndex = -1;
@@ -181,7 +185,11 @@
     }
   }
 
-  function open(id, query = '') {
+  function open(id, query = '', onReturn) {
+    if (!dialog.open) {
+      returnTo = onReturn || (summaryPanel.open ? () => summaryPanel.showModal() : null);
+      visited.length = 0; activeId = null;
+    }
     if (summaryPanel.open) summaryPanel.close();
     search.value = query; filter.value = '';
     if (!dialog.open) dialog.showModal();

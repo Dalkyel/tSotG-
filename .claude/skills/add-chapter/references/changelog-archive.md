@@ -1,5 +1,18 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch9 skill review — moved complete chapter retrieval before entity matching; defined a unique run directory for baseline and spec files, replacing the undefined scratchpad and contradictory `/tmp/spec.json` guidance; documented the exact rebuild regression command using `tests/chapter-verifier.test.cjs` and its three expected tests. Fully absorbed into SKILL.md and the rebuild reference.
+
+- 2026-11-02: Book One Ch9 — the reference Oskutreð label had a pronunciation suffix after its parenthetical subtitle, preventing the summary matcher from resolving the short name. Used the canonical name and parenthetical subtitle without the suffix in the new staged node; added this exact label-format rule to SKILL.md. Chapter verification now resolves all 21 emphasized terms. Archived immediately because the fix is fully absorbed into the skill.
+
+- 2026-11-02: Book One Ch6 skill review — a combined instruction read truncated,
+  reference matching repeated already-confirmed identities and exposed later labels,
+  and live-file hashes required a one-off script. Added bounded instruction reads,
+  restricted reference matching to unresolved identities, and made rebuild verification
+  check all six recorded live hashes automatically, rejecting missing hashes or changed
+  files. The launcher regression test covers each live file and missing-hash rejection;
+  all 14 targeted tests and Chapter 6 verification pass. These fixes are fully absorbed
+  into the skill, rebuild reference and launcher.
+
 Entries moved here on 2026-11-01 (after Ch37) because their fix is now fully and
 verbatim present in `SKILL.md` or a bundled script — rereading the entry below teaches
 nothing beyond rereading the current skill file. Kept verbatim (including original
@@ -328,3 +341,21 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
 - 2026-11-02: Book One Ch2 — several helper/read calls failed after mixing project-root paths with the staged working directory. Added the absolute-project-root/helper/input-path rule to SKILL.md; staged data paths remain relative to the staging directory.
 
 - 2026-11-02: Book One Ch3 was initially routed to the live archive despite the active rebuild. Reverted those edits and processed the staged chapter. SKILL.md and the rebuild reference now require checking progress.json before Book One preflight and defaulting to the incomplete rebuild unless the user explicitly selects live data.
+
+- 2026-11-02: Book One Ch4 rebuild ran its first preflight against the live archive and later attempted a root-relative progress path from the staging directory. Existing prose already warned against both errors. Added `scripts/rebuild.cjs` to pin helper execution to staged/reference data without caller directory changes, supply Book One automatically, resolve spec/baseline paths before launching, print the selected archive, and reject reference-mode writers. Updated SKILL.md and the rebuild procedure to use it. Verified staged preflight, reference matching from `/tmp`, reference-write rejection, and Chapter 4 verification through the launcher. This fix is fully incorporated in the script and procedure.
+
+- 2026-11-02: Book One Ch5 required a hand-built summary mention check, which caught an unresolved “Battle-Grim” reference in the guide-free preview. Integrated complete emphasized-term matching into `verify-chapter.cjs`; `rebuild.cjs` selects staged empty guides automatically. Documented the check in the skill and rebuild procedure; regression tests cover canonical names, unsupported aliases, partial matches and live-guide behavior.
+
+- 2026-11-02: Book One Ch7 — `trolls` missed the already-staged `Trol` label,
+  causing an unnecessary reference lookup before the compact inventory confirmed it.
+  Added singular/plural and translation retries before reference escalation. The run
+  also used direct file parsing to append links/summaries because this runtime lacks
+  the skill’s named `Read`/`Edit` tools; documented the asserted trailing-array insertion
+  fallback with JSON serialization and syntax checks. Both fixes are fully incorporated
+  in SKILL.md.
+
+- 2026-11-02: Chapter 7 summary links for Arañas del Hielo and Trol resolved correctly but could not open: focus.js spread missing protagonist arrays from the rebuild preview’s empty CHARACTER_KEY_LINKS, aborting viewer initialization. Defaulted those arrays to empty and added regression tests for startup with empty guides and both creature targets with relationships. The skill now includes connection-viewer tests in rebuild verification.
+
+- 2026-11-02: Book One Ch8 — the summary matcher strips trailing parentheses from labels. Both `Althing` and `Alþing (Althing)` failed the staged verifier; `Alþing` passed. Added this concrete naming rule to SKILL.md; matcher behavior is unchanged.
+
+- 2026-11-02: Post-Chapter 10 skill review found remaining loader documentation drift: references to `mapa.js`/`Object.assign`, reading-cap protection, automatic new-book discovery, and a gold ring for Book One additions no longer matched the implementation. Updated SKILL.md to name `data-core.js`, describe the full live archive, require registration in `data-init.js`, and distinguish `book > 1` styling from Book One rebuild additions. Fully incorporated in the skill; no runtime or chapter data changed.
