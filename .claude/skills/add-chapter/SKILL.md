@@ -370,6 +370,21 @@ chores, repeated background facts and every individual blow do not need separate
   update its accumulated history rather than duplicating a duel, rescue or capture
   already represented there. A fact appearing only in a profile, place, summary or
   `TRAMA` node does not satisfy event coverage.
+- When a chapter both resolves an existing pending EVENTO (a long-announced departure
+  finally happening) and introduces new content in that same scene (the reason behind
+  it), re-read the resolving EVENTO's final text and the new node's final text side by
+  side before finishing — it is easy to draft the new node so it repeats the scene the
+  existing EVENTO already owns. The verifier cannot catch this: it checks syntax and
+  link identity, not content overlap between sibling nodes. (In a Book 1 rebuild Chapter
+  20 run, a new "mission" EVENTO first repeated, almost verbatim, the departure sentence
+  already owned by the existing `partida-liga` EVENTO it was meant to follow from; caught
+  only by a manual side-by-side re-read after the verifier had already passed.)
+- A `TRAMA` node whose `desc` is growing into a full scene account rather than a
+  question-and-evidence log is a tell that a dedicated EVENTO for that scene is missing,
+  not that the TRAMA is doing its job well. If an open question's chapter-by-chapter
+  history already reads like narration, give the scene its own EVENTO and trim the
+  TRAMA back to the question's status and evidence, cross-referencing the EVENTO for
+  detail.
 - Record what actually happened, its source chapter, participants, place when known,
   and supported outcome. Distinguish witnessed action, a character's report and myth;
   the chapter of discovery is not necessarily the date of the incident. Preserve
@@ -572,6 +587,14 @@ that POV's storyline (the force layout pulls these toward that POV's centroid vi
 (objects/items), `DIOS` (dead gods), `MAGIA` (magic systems/rituals), `NORSE`
 (real-world culture/lore notes), `TRAMA` (open plot threads), `COSMO` (cosmology/myth).
 Never invent a new group key without also adding it to `groups.js`.
+A node's POV tie-in is the separate `cat-varg`/`cat-orka`/`cat-elvar` → `incluye` → id
+arc link, never the `group` field: an EVENTO or TRAMA node created for a single POV's own
+storyline (a new mission that POV receives, a question only that POV's chapters raise)
+still takes `group: 'EVENTO'`/`'TRAMA'`, not `group: 'VARG'`/`'ORKA'`/`'ELVAR'`, even
+though it is arc-linked to that POV's category. (A Book 1 rebuild Chapter 20 run first
+wrote three such nodes — a mission EVENTO, its TRAMA question, and a landing EVENTO —
+all with `group: 'VARG'`; a `group === 'TRAMA'` backlog query for the thread-lifecycle
+review then silently missed the TRAMA one, which is how the mistake surfaced.)
 
 ## 2. Links — `book{N}/links.js`
 

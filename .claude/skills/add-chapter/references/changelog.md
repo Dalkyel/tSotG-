@@ -8,6 +8,25 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
+- 2026-11-02: Book 1 rebuild Ch20 — two mistakes, both fixed directly in SKILL.md (now
+  absorbed there, not just here):
+  (1) Wrote three new nodes (a mission EVENTO, its TRAMA question, and a landing EVENTO)
+  with `group: 'VARG'` instead of `'EVENTO'`/`'TRAMA'`, confusing the POV arc-link
+  (`cat-varg → incluye → id`) with the structural `group` field. Surfaced only because a
+  `group === 'TRAMA'` backlog query for the thread-lifecycle review silently skipped the
+  mis-grouped node.
+  (2) The new mission EVENTO's first draft repeated, almost verbatim, the departure
+  sentence already owned by the existing `partida-liga` EVENTO (both scenes happen in the
+  same chapter beat: Helka's commission and the actual rowing-out). `verify-chapter.cjs`
+  passed anyway — it checks syntax and link identity, not content overlap between sibling
+  nodes — so this was caught only by manually re-reading both nodes' final text side by
+  side during the ownership review, not by any automated check.
+  Separately, the same chapter's event-coverage pass caught (correctly, as designed) that
+  Queen Helka's in-person arrival/mediation existed only in her profile and an open-TRAMA
+  node, which doesn't satisfy event coverage; added a dedicated EVENTO for it. Noted in
+  SKILL.md's event-coverage gate as a general tell: a TRAMA whose `desc` is ballooning
+  into scene narration usually means a dedicated EVENTO is missing, not that the TRAMA is
+  doing its job well.
 - 2026-11-01: Confirmed, on request, that this was not the first occurrence — Book 2 Ch6
   had made the identical mistake on the `elvar` node and it went uncaught at the time:
   Ch6's entire Elvar-POV update (the Vergelmir ambush, Skuld's punishment, the
