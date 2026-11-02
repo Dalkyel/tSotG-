@@ -179,6 +179,20 @@ If a read is truncated, retrieve the omitted sections before proceeding.
    since Chapter 10, named only on death; the new `vafri` node carries the backward
    cross-reference, and `sigrun`/`mord`/`virk`'s own historical entries were left as-is.)
 
+   A fourth case: a word that is also an ordinary common noun or kinship title (one
+   meaning "man", "brother", "maiden") can still be this person's actual name, distinct
+   from the generic-word-with-no-node case documented under Chapter summary emphasis
+   below (`Maður`). Mint the id only
+   when the text treats the word as one specific individual's own name: consistent
+   capitalization across every appearance, use as a direct address/vocative by other
+   characters, and the character carrying their own distinct actions and dialogue,
+   separate from any sibling or peer who already has a conventional given name. Absent
+   those signals, it is the `Maður` case — leave it as plain text and record the person
+   by role instead. Book 1, Chapter 23: `Broðir` ("brother" in Old Norse) is capitalized
+   throughout, addressed and quoted as an individual, and distinguished from his brother
+   Thorun, who already has a conventional name; minted as `brodir`, not left as a
+   role-only mention.
+
    Mechanics that apply throughout **a**–**d**: a compact inventory or excerpt list can
    still truncate when returned alongside whole files — budget the **combined** output of
    batched calls. Read chapter text and selected full entries in separate, bounded
