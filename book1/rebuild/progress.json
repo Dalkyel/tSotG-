@@ -1,5 +1,5 @@
 {
-  "source": "book1/chapter 29.xhtml",
+  "source": "book1/chapter 30.xhtml",
   "completedChapters": [
     1,
     2,
@@ -29,9 +29,10 @@
     26,
     27,
     28,
-    29
+    29,
+    30
   ],
-  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/book1-ch29.jck3yvbs/baseline",
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/book1-ch30.m8qs4qdn/baseline",
   "liveHashes": {
     "book1/links.js": "49bc4481c154b23ef58aabc21c0f6ae7b64a1fc4e51f307d45507d9da3d0c2c3",
     "book1/nodes.js": "e3c2aced9f170628b3d8383cb36e00fb34339b5fcd2e9a1280fac8126faeca03",

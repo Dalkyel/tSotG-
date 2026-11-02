@@ -1,5 +1,13 @@
 # Changelog archive
 
+- 2026-11-02: Book One Ch30 — inventory matching accepted `Svik` as a candidate
+  for `svik`, but the staged summary matcher rejected that short name because the
+  canonical label is `Svik Hrulfsson` and no short-name guide alias is loaded.
+  Corrected the summary and documented the distinction between inventory candidates
+  and rendered mentions, using existing canonical names rather than changing archive
+  identities or adding aliases to accommodate prose. Fully absorbed in SKILL.md;
+  archived immediately.
+
 - 2026-11-02: Book One Ch29 — guessed `cat-objetos` and `cat-lugares` endpoints
   failed verification because those category nodes do not exist in the staged archive.
   Replaced them with confirmed `cat-magia` and `cat-mundo` endpoints. Added an explicit
