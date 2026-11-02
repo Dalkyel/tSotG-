@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Bloodsworn Trilogy — Mapa Mental Interactivo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      <div class="header-title">Bloodsworn Trilogy</div>
+      <div class="header-sub">Mapa Mental Interactivo · Libro 1 Completo</div>
+    </div>
+    <select id="book-cap" title="Hasta qué libro has leído" aria-label="Progreso de lectura"></select>
+    <button id="btn-summaries" class="ctrl-btn" title="Ver resúmenes de capítulos" aria-label="Resúmenes">📖</button>
+  </header>
+  <div class="main">
+    <div id="graph-container">
+      <div class="rune-bg"></div>
+      <svg id="graph"></svg>
+      <div class="controls">
+        <input type="text" id="search-input" placeholder="Buscar nodo..." aria-label="Buscar nodo">
+        <button class="ctrl-btn" id="btn-zoom-in" title="Acercar" aria-label="Acercar">+</button>
+        <button class="ctrl-btn" id="btn-zoom-out" title="Alejar" aria-label="Alejar">−</button>
+        <button class="ctrl-btn" id="btn-reset" title="Restablecer vista" aria-label="Restablecer">⟳</button>
+      </div>
+    </div>
+    <div id="detail-panel" class="hidden">
+      <div class="panel-header" style="position:relative">
+        <div class="panel-type" id="p-type">Personaje</div>
+        <div class="panel-name" id="p-name">Nombre</div>
+        <span class="panel-close" id="panel-close">✕</span>
+      </div>
+      <div class="panel-body">
+        <div class="panel-desc" id="p-desc">Descripción</div>
+        <div class="connections-title">Conexiones</div>
+        <div id="p-connections"></div>
+        <div id="p-star"></div>
+      </div>
+    </div>
+  </div>
+  <div class="tooltip" id="tooltip">
+    <strong id="tt-name"></strong>
+    <span id="tt-desc"></span>
+  </div>
+
+  <div id="summary-panel" class="hidden">
+    <div class="panel-header">
+      <div class="panel-name">Resúmenes de Capítulos</div>
+      <span class="panel-close" id="summary-close">✕</span>
+    </div>
+    <div class="book-tabs" id="book-tabs"></div>
+    <div class="panel-body" id="summary-content"></div>
+  </div>
+
+  <script src="groups.js"></script>
+  <!-- Book 1 data -->
+  <script src="book1/nodes.js"></script>
+  <script src="book1/links.js"></script>
+  <script src="book1/summaries.js"></script>
+  <!-- Book 2 data (empty until read) -->
+  <script src="book2/nodes.js"></script>
+  <script src="book2/links.js"></script>
+  <script src="book2/summaries.js"></script>
+  <!-- Merge logic + visualization -->
+  <script src="mapa.js"></script>
+</body>
+</html>

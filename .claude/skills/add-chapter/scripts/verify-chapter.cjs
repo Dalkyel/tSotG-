@@ -1,0 +1,72 @@
+#!/usr/bin/env node
+// Run from the project root. Evaluates only trusted local project data files.
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const { execFileSync } = require('node:child_process');
+
+const [bookArg, chapterArg, baseline, ...options] = process.argv.slice(2);
+assert.ok(options.every(option => option === '--review-links'), 'Unknown option; supported: --review-links');
+const book = Number(bookArg), chapter = Number(chapterArg);
+assert.ok(Number.isInteger(book) && book >= 2 && Number.isInteger(chapter) && chapter > 0 && baseline,
+  'Usage: node .claude/skills/add-chapter/scripts/verify-chapter.cjs BOOK CHAPTER BASELINE_DIR');
+const kinds = ['nodes', 'links', 'summaries'];
+const variable = (kind, n) => (kind === 'summaries' ? 'chapterSummaries' : kind) + (n === 1 ? '' : `Book${n}`);
+const load = (file, name) => new Function(fs.readFileSync(file, 'utf8') + `; return ${name};`)();
+const ids = new Set(), latest = new Map();
+const current = {};
+for (let n = 1; n <= book; n++) {
+  const arrays = {};
+  for (const kind of kinds) {
+    const file = `book${n}/${kind}.js`;
+    execFileSync(process.execPath, ['--check', file], { stdio: 'pipe' });
+    arrays[kind] = load(file, variable(kind, n));
+  }
+  arrays.nodes.forEach(node => ids.add(node.id));
+  assert.deepEqual(arrays.links.filter(link => !ids.has(link.source) || !ids.has(link.target)), [],
+    `Book ${n}: unresolved link endpoints`);
+  const chapters = arrays.summaries.map(summary => summary.chapter);
+  assert.equal(new Set(chapters).size, chapters.length, `Book ${n}: duplicate chapter summaries`);
+  assert.deepEqual(chapters, [...chapters].sort((a, b) => a - b), `Book ${n}: summaries out of order`);
+  if (n < book) arrays.nodes.forEach(node => latest.set(node.id, node));
+  else Object.assign(current, arrays);
+}
+const added = {};
+for (const kind of kinds) {
+  const before = load(path.join(baseline, `${kind}.js`), variable(kind, book));
+  assert.deepEqual(current[kind].slice(0, before.length), before, `${kind}: baseline prefix changed`);
+  added[kind] = current[kind].slice(before.length);
+  if (kind === 'nodes') before.forEach(node => latest.set(node.id, node));
+}
+assert.equal(added.summaries.length, 1, 'Expected exactly one new chapter summary');
+assert.equal(added.summaries[0].chapter, chapter, 'Appended summary has the wrong chapter number');
+assert.equal(new Set(added.nodes.map(node => node.id)).size, added.nodes.length,
+  'Duplicate node id within the appended chapter');
+for (const node of added.nodes) {
+  const before = latest.get(node.id);
+  if (!before) continue;
+  assert.equal(node.status, 'updated', `${node.id}: existing node must be marked updated`);
+  assert.ok(typeof node.previousState === 'string' && node.previousState.trim(),
+    `${node.id}: missing previousState`);
+  for (const field of ['desc', 'star']) {
+    const baselineText = before[field] ?? '';
+    const actual = node[field];
+    if (typeof actual === 'string' && actual.startsWith(baselineText)) continue;
+    let i = 0;
+    while (i < baselineText.length && i < (actual ?? '').length && baselineText[i] === actual[i]) i++;
+    assert.fail(`${node.id}: ${field} does not preserve its latest baseline text (diverges at char ${i}/${baselineText.length})\n` +
+      `  baseline  ...${JSON.stringify(baselineText.slice(Math.max(0, i - 40), i + 40))}\n` +
+      `  appended  ...${JSON.stringify((actual ?? '').slice(Math.max(0, i - 40), i + 40))}`);
+  }
+}
+console.log(`PASS: Book ${book}, chapter ${chapter}: ${added.nodes.length} nodes, ${added.links.length} links, 1 summary appended.`);
+console.log('Syntax, endpoints at each book cap, summary order/uniqueness, baseline prefixes, and accumulated node text verified.');
+console.log('Content accuracy and browser appearance still require review.');
+if (options.includes('--review-links')) {
+  const labels = new Map([...latest.values(), ...current.nodes].map(node => [node.id, node.label]));
+  console.log('Appended links — review direction and meaning:');
+  for (const link of added.links) {
+    const sentence = `${labels.get(link.source)} → ${link.label} → ${labels.get(link.target)}`;
+    console.log(link.status === 'broken' ? `[BROKEN] ${sentence} (${link.reason ?? 'no reason supplied'})` : sentence);
+  }
+}
