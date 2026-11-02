@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Inventory review candidates, not inferred states: closed history and thematic
 // stars must still be classified by the reader against the complete chapter.
-const fs = require('node:fs');
 const assert = require('node:assert/strict');
+const { backlogCandidates } = require('./backlog-data.cjs');
 
 const [bookArg, pageArg, ...extra] = process.argv.slice(2);
 const book = Number(bookArg), page = Number(pageArg);
@@ -10,20 +10,7 @@ const indexOnly = extra.length === 1 && extra[0] === '--index';
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page >= 1 && (!extra.length || indexOnly),
   'Usage: node .claude/skills/add-chapter/scripts/read-backlog.cjs BOOK PAGE [--index]');
 
-const latest = new Map();
-for (let b = 1; b <= book; b++) {
-  const file = `book${b}/nodes.js`;
-  const variable = b === 1 ? 'nodes' : `nodesBook${b}`;
-  const nodes = new Function(fs.readFileSync(file, 'utf8') + `; return ${variable};`)();
-  nodes.forEach(node => latest.set(node.id, { file, node }));
-}
-const candidates = [...latest.values()]
-  .filter(({ node }) => node.group === 'TRAMA' || String(node.star ?? '').trim())
-  .map(({ file, node }) => ({
-    file, id: node.id, label: node.label, group: node.group,
-    ...(node.group === 'TRAMA' ? { desc: node.desc ?? '' } : {}),
-    star: node.star ?? '',
-  }));
+const candidates = backlogCandidates(book);
 const payload = indexOnly
   ? candidates.map(node => `${node.id}${node.group === 'TRAMA' ? ' [TRAMA]' : ''}${node.star.trim() ? ' [star]' : ''}`).join('\n')
   : JSON.stringify(candidates, null, 2);

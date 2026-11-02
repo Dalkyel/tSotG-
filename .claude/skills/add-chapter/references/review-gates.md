@@ -169,6 +169,24 @@ to create a thread once or to pass the JavaScript verifier.
    history and thematic notes, infers no states, and cannot replace the full review.
    Any checklist made from it starts with pending assessments; classify each item
    against the evidence before recording PASS.
+   Use the baseline-backed checklist to avoid hand-transcribing this inventory. After
+   capturing the chapter baseline, initialize it beside `thread-review.md` (never
+   overwrite an existing assessment file):
+
+   ```sh
+   node .claude/skills/add-chapter/scripts/review-backlog.cjs 2 40 "$chapter_baseline" init "$chapter_run/thread-checklist.json"
+   # Book One rebuild: book is implicit, chapter is not
+   node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 40 "$chapter_baseline" init "$chapter_run/thread-checklist.json"
+   ```
+
+   It uses the same candidate selector as the full reader and leaves every assessment
+   pending. Complete each item's `assessment` (`unchanged`, `advanced`, `partial`,
+   `resolved`, `disproved`, `closed-history`, or `thematic`), `evidence` (source and
+   item-specific reason), and `remaining` (pending question, or explicit `none`). Keep
+   the generated `id` and `fields`; cover every clue within a multi-clue star in the
+   evidence, or point to its explicit discussion in `thread-review.md`. Grouped prose
+   assessments remain valid, but each ID needs its own checklist row referencing the
+   applicable assessment. Do not fill rows with generic unchanged boilerplate.
    Inventory all open/partial threads and unresolved or not-yet-classified recorded clues,
    not just the current POV's named entities. Include `TRAMA` nodes and observations in
    `star` fields. Retain closed items as history; revisit them when new evidence bears
@@ -244,6 +262,19 @@ to create a thread once or to pass the JavaScript verifier.
    Unchanged items may use a compact list. Record `Thread lifecycle review: PASS` only
    when all items are accounted for and all required archive updates are complete.
    Review new evidence and all closure decisions semantically, then run normal checks.
-   Automated checks alone cannot establish that every clue was followed or that a mystery
-   was correctly resolved. Progress and completion require all three hard-gate review records.
+   Before recording PASS, check the completed checklist:
+
+   ```sh
+   node .claude/skills/add-chapter/scripts/review-backlog.cjs 2 40 "$chapter_baseline" check "$chapter_run/thread-checklist.json"
+   # Book One rebuild
+   node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 40 "$chapter_baseline" check "$chapter_run/thread-checklist.json"
+   ```
+
+   The check requires the union of baseline and current candidates, catching clues that
+   vanished from a later star as well as new questions. Add rows for newly created
+   candidates reported as missing and assess them; do not regenerate over completed
+   work. Duplicate/missing IDs, wrong-run metadata and unfinished fields fail. This is
+   a mechanical coverage check, not a semantic PASS: it cannot establish that every
+   subclue was followed, an explanation is accurate, or a mystery was correctly resolved.
+   Progress and completion still require all three hard-gate review records.
 

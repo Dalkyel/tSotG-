@@ -1,5 +1,15 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch40 skill review — reconciling 109 backlog candidates against
+  grouped prose required manual ID bookkeeping. Added `review-backlog.cjs` to generate
+  pending per-ID assessments and check coverage against both baseline and current
+  candidates, retaining clues removed by later revisions and requiring newly introduced
+  candidates. The full reader and checklist share one selector. Missing/duplicate IDs,
+  wrong-run metadata and unfinished assessments fail; semantic interpretation, subclue
+  coverage and all three review attestations remain manual. Added staged launcher path
+  handling, reference-write rejection, regression tests and gate instructions. Fully
+  absorbed into the scripts and workflow references; archived immediately.
+
 - 2026-11-02: Post-Ch38 skill review — readiness checking required a custom script
   to compare completed chapters with README logs, and a combined README/progress read
   truncated as the chronological log grew. Rebuild `check-chapter` now validates the
