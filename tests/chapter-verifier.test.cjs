@@ -13,8 +13,10 @@ function verify(term, staged = true, options = [], fixture = {}) {
     const baseline = path.join(cwd, 'baseline');
     fs.mkdirSync(baseline);
     for (const [kind, variable] of Object.entries({ nodes: 'nodes', links: 'links', summaries: 'chapterSummaries' })) {
-      fs.writeFileSync(path.join(baseline, `${kind}.js`), `const ${variable} = [];`);
+      const baselineData = kind === 'nodes' ? (fixture.baselineNodes ?? []) : [];
+      fs.writeFileSync(path.join(baseline, `${kind}.js`), `const ${variable} = ${JSON.stringify(baselineData)};`);
       const data = kind === 'nodes' ? [
+        ...baselineData,
         { id: 'elvar', label: 'Elvar', group: 'ELVAR', desc: 'Guerrera.' },
         { id: 'battle-grim', label: 'Terrores de la batalla (Battle-Grim)', group: 'ELVAR', desc: 'Compañía.' },
         { id: 'froa', label: 'Froa (†)', group: 'ORKA', desc: 'Guardiana fallecida.' },
@@ -34,6 +36,44 @@ test('chapter verifier accepts canonical summary names in a staged preview', () 
   const result = verify('Terrores de la batalla');
   assert.equal(result.status, 0, result.output);
   assert.match(result.output, /1 emphasized terms resolve completely \(staged preview; no guides\)/);
+});
+
+test('chapter verifier node review emits verified suffixes, complete new nodes and metadata changes', () => {
+  const before = { id: 'reviewed', label: 'Nombre anterior', group: 'ORKA', type: 'Pendiente', desc: 'Historia ya revisada.', star: 'Pista anterior.', legacy: 'retirar' };
+  const after = { id: 'reviewed', label: 'Nombre actual', group: 'ORKA', type: 'Resuelta', status: 'updated', previousState: 'Actualiza el nombre.', desc: before.desc + ' Nueva evidencia.', star: before.star + ' Pista aclarada.' };
+  const fixture = { baselineNodes: [before], nodes: [after] };
+  const result = verify('Elvar', true, ['--review-nodes=1'], fixture);
+  assert.equal(result.status, 0, result.output);
+  assert.match(result.output, /"descAppend": " Nueva evidencia\."/);
+  assert.match(result.output, /"starAppend": " Pista aclarada\."/);
+  assert.ok(!result.output.includes(before.desc));
+  assert.ok(!result.output.includes(before.star));
+  assert.match(result.output, /"before": "Nombre anterior"/);
+  assert.match(result.output, /"after": "Nombre actual"/);
+  assert.match(result.output, /"legacy": \{\s+"before": "retirar",\s+"after": null/);
+  assert.match(result.output, /"desc": "Guerrera\."/); // Full new entry.
+  assert.match(result.output, /END: all changed nodes displayed/);
+  const invalid = verify('Elvar', true, ['--review-nodes=1'], { ...fixture, nodes: [{ ...after, desc: 'Historia sobrescrita.' }] });
+  assert.notEqual(invalid.status, 0);
+  assert.match(invalid.output, /does not preserve its latest baseline text/);
+  assert.ok(!invalid.output.includes('Node review page'));
+});
+
+test('chapter verifier node review paginates without loss and rejects invalid pages', () => {
+  const fixture = { nodes: [{ id: 'large', label: 'Texto largo', group: 'ORKA', desc: 'inicio-' + 'x'.repeat(12000) + '-final' }] };
+  const first = verify('Elvar', true, ['--review-nodes=1'], fixture);
+  const second = verify('Elvar', true, ['--review-nodes=2'], fixture);
+  assert.equal(first.status, 0, first.output);
+  assert.equal(second.status, 0, second.output);
+  assert.match(first.output, /Node review page 1\/2/);
+  assert.match(first.output, /CONTINUES: use --review-nodes=2/);
+  assert.match(second.output, /-final/);
+  const pageText = output => output.split('prefixes verified.\n')[1].split(/\n(?:CONTINUES:|END:)/)[0];
+  const entries = JSON.parse(pageText(first.output) + pageText(second.output));
+  assert.equal(entries.find(entry => entry.node.id === 'large').node.desc, fixture.nodes[0].desc);
+  const invalid = verify('Elvar', true, ['--review-nodes=3'], fixture);
+  assert.notEqual(invalid.status, 0);
+  assert.match(invalid.output, /exceeds 2 pages/);
 });
 
 test('chapter verifier rejects unsupported and partially linked summary names', () => {

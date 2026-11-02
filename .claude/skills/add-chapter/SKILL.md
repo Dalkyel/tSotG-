@@ -411,8 +411,18 @@ Event coverage and ongoing mystery/clue tracking must also pass the separate
 [event-coverage gate](#hard-gate--key-event-coverage) and
 [thread-lifecycle gate](#hard-gate--thread-and-clue-lifecycle) below.
 
-**After writing, before completion:** read every changed full entry and each changed link
-as a sentence and repeat this ownership audit against the chapter. Record the reviewed ids,
+**After writing, before completion:** review every new entry in full, every updated entry's
+new text and changed metadata, and each changed link as a sentence; repeat the ownership
+audit against the chapter. When the complete latest baseline `desc`/`star` was already read
+and audited in this run, use the verifier's `--review-nodes=1` report instead of printing
+that unchanged history again. It runs all normal checks before reporting complete new
+nodes, exact appended `desc`/`star` suffixes and before/after values for changed metadata
+(including removed fields). Read numbered pages separately through `END`; keep node,
+link and summary reports in separate responses to avoid combined-output truncation.
+Use `read-latest` for complete entries whenever the baseline audit is missing, a page was
+truncated, an inherited ownership issue is suspected, or the new evidence requires
+reconsidering earlier text. Verified preservation does not establish semantic ownership.
+Record the reviewed ids,
 any relocations, and `Ownership review: PASS` in `ownership-review.md` inside the unique
 run directory, beside `baseline/`. Record PASS only after every violation is fixed. This
 is a mandatory semantic review; syntax, endpoint and mention-matching checks do not
@@ -801,6 +811,12 @@ chapter. It also requires unique ids among appended nodes, `status: 'updated'` a
 nonempty `previousState` for existing ids, preservation of the full latest baseline
 `desc` and `star`, and complete mention matches for emphasized summary terms. It evaluates trusted local data files only. A failure is fatal: fix it
 before reporting success. Repeated ids across earlier chapter sections remain valid.
+
+For the node ownership review, run a separate `verify-chapter.cjs BOOK CHAPTER BASELINE
+--review-nodes=1` call (or `rebuild.cjs verify-chapter CHAPTER BASELINE
+--review-nodes=1` for staged work), then request each indicated page. This report is
+available only after all normal verification checks pass; apply the baseline-audit
+conditions in the ownership gate above.
 
 The `--review-links` option resolves endpoint labels at the current book cap and prints
 only appended relationships, marking broken-link removals explicitly. Read these

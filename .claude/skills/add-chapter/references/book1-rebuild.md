@@ -39,6 +39,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-entries links /absolute/scratch/links.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-entries summaries /absolute/scratch/summaries.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs verify-chapter 4 /absolute/baseline --review-links --review-summary
+  node .claude/skills/add-chapter/scripts/rebuild.cjs verify-chapter 4 /absolute/baseline --review-nodes=1
   ```
 
   The `1` after `read-latest`, `read-backlog`, or `read-links` is a page number, not a

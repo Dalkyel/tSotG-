@@ -6,8 +6,11 @@ const assert = require('node:assert/strict');
 const { execFileSync } = require('node:child_process');
 
 const [bookArg, chapterArg, baseline, ...options] = process.argv.slice(2);
-assert.ok(options.every(option => ['--review-links', '--review-summary', '--staged-preview'].includes(option)),
-  'Unknown option; supported: --review-links, --review-summary, --staged-preview');
+assert.ok(options.every(option => ['--review-links', '--review-summary', '--staged-preview'].includes(option)
+  || /^--review-nodes=[1-9]\d*$/.test(option)),
+  'Unknown option; supported: --review-links, --review-summary, --review-nodes=PAGE, --staged-preview');
+const nodeReviewOptions = options.filter(option => option.startsWith('--review-nodes='));
+assert.ok(nodeReviewOptions.length <= 1, 'Supply only one --review-nodes=PAGE option');
 const book = Number(bookArg), chapter = Number(chapterArg);
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(chapter) && chapter > 0 && baseline,
   'Usage: node .claude/skills/add-chapter/scripts/verify-chapter.cjs BOOK CHAPTER BASELINE_DIR');
@@ -89,11 +92,41 @@ for (const term of summaryTerms) {
     `Chapter ${chapter}: summary term ${JSON.stringify(term)} does not resolve completely to one node; use a canonical name or supported alias`);
   summaryTargets.set(term, matches[0].id);
 }
+// Print only verified deltas for previously audited baselines. New entries are
+// complete; changed metadata includes both values so stale labels cannot hide.
+let nodeReview;
+if (nodeReviewOptions.length) {
+  const entries = added.nodes.map(node => {
+    const before = latest.get(node.id);
+    if (!before) return { mode: 'new', node };
+    const metadataChanges = {};
+    for (const key of new Set([...Object.keys(before), ...Object.keys(node)])) {
+      if (['id', 'desc', 'star'].includes(key)) continue;
+      if (JSON.stringify(before[key]) !== JSON.stringify(node[key])) {
+        metadataChanges[key] = { before: before[key] ?? null, after: node[key] ?? null };
+      }
+    }
+    return {
+      mode: 'update', id: node.id, label: node.label,
+      descAppend: node.desc.slice((before.desc ?? '').length),
+      starAppend: node.star.slice((before.star ?? '').length),
+      metadataChanges,
+    };
+  });
+  const text = JSON.stringify(entries, null, 2);
+  const page = Number(nodeReviewOptions[0].split('=')[1]);
+  const pages = Math.max(1, Math.ceil(text.length / 10000));
+  assert.ok(page <= pages, `Node review page ${page} exceeds ${pages} pages`);
+  nodeReview = `Node review page ${page}/${pages}; ${text.length} characters; baseline desc/star prefixes verified.\n`
+    + text.slice((page - 1) * 10000, page * 10000)
+    + (page < pages ? `\nCONTINUES: use --review-nodes=${page + 1}` : '\nEND: all changed nodes displayed.');
+}
 console.log(`PASS: Book ${book}, chapter ${chapter}: ${added.nodes.length} nodes, ${added.links.length} links, 1 summary appended.`);
 console.log('Syntax, endpoints at each book cap, summary order/uniqueness, baseline prefixes, and accumulated node text verified.');
 console.log(`Summary links: ${summaryTerms.length} emphasized terms resolve completely (${options.includes('--staged-preview') ? 'staged preview; no guides' : 'live guides'}).`);
 console.log(`Event category links: ${addedEvents.length} added/updated EVENTO nodes connected to EVENTOS CLAVE.`);
 console.log('Content accuracy and browser appearance still require review.');
+if (nodeReview) console.log(nodeReview);
 if (options.includes('--review-summary')) {
   const labels = new Map(resolved.map(node => [node.id, node.label]));
   console.log('Summary mentions — review intended identity:');

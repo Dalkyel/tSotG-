@@ -1,5 +1,18 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch26 skill review — the final ownership pass reprinted about
+  50,600 characters of complete entries after their baseline histories had already
+  been audited and verified unchanged. Added verifier `--review-nodes=PAGE`: full
+  new nodes, exact desc/star additions and before/after metadata changes, paginated
+  at 10,000 characters, emitted only after normal checks pass. The chapter-26
+  report is 18,596 characters across two pages. The skill permits this review
+  only after a complete baseline audit in the same run, requiring full-entry
+  reads when earlier evidence must be reconsidered or an ownership issue is
+  suspected. Added tests for preservation failures, complete new entries, changed
+  and removed metadata, lossless pagination and invalid pages. All eight focused
+  verifier/launcher tests and the real staged chapter verification pass. Fully
+  absorbed into the verifier, tests and workflow; archived immediately.
+
 - 2026-11-02: Post-Ch25 skill review — the run rewrote the routine links/summary
   insertion script because only nodes had a bundled appender. Added
   `append-entries.cjs BOOK links|summaries SPEC_FILE`, preserving original bytes before
