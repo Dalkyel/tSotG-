@@ -324,18 +324,8 @@ then capture a fresh chapter baseline. Never bypass preservation checks to conce
 When correcting this pattern, inspect the other entries of the affected kinds as well as
 the user's example.
 
-**POV coverage is also required:** for each storyline represented in the processed
-material, check its still-open goals and questions against `cat-tramas` and the existing
-thread nodes/links. `TRAMAS ACTIVAS` is shared by Orka, Varg and Elvar; do not populate
-it only for the first POV. Open questions that should appear in the plot filter need
-`group: 'TRAMA'` nodes, connected both to `cat-tramas` and to the relevant POV or
-participants. Category links to ordinary character/event nodes alone do not make those
-nodes plots: the relationship viewer excludes structural categories and filters by node
-kind. Reuse an existing thread where available; give a new one a distinct unresolved
-question or objective instead of duplicating a glossary definition or a whole scene.
-Preserve unresolved status and source chapter; do not add future
-answers or force equal thread counts across POVs. Record this coverage check in the
-ownership review before completion.
+POV coverage and ongoing mystery/clue tracking must also pass the separate
+[hard thread-lifecycle gate](#hard-gate--thread-and-clue-lifecycle) below.
 
 **After writing, before completion:** read every changed full entry and each changed link
 as a sentence and repeat this ownership audit against the chapter. Record the reviewed ids,
@@ -345,6 +335,81 @@ is a mandatory semantic review; syntax, endpoint and mention-matching checks do 
 establish ownership. Run the normal verifier after any resulting chapter edits. For a
 historical repair, validate the repair against its own snapshot rather than pretending
 it is an append-only chapter run. Only then update progress or report completion.
+
+## HARD GATE — Thread and clue lifecycle
+
+**Every mystery, open plot question, unresolved goal and recorded clue must be followed
+until the source resolves it or definitively disproves the associated hypothesis.** This
+is mandatory for every chapter and all POVs, including the Book One rebuild. Do not mark
+progress complete or report success while this review is incomplete. It is not enough
+to create a thread once or to pass the JavaScript verifier.
+
+1. **Review the existing backlog after reading the complete chapter, before drafting.**
+   Inventory all open/partial threads and unresolved or not-yet-classified recorded clues,
+   not just the current POV's named entities. Include `TRAMA` nodes and observations in
+   `star` fields. Retain closed items as history; revisit them when new evidence bears
+   on their closure. Use the
+   latest accumulated entries, their source markers and relevant links; read full entries
+   before updating them. Check whether the chapter supplies evidence for another POV's
+   mystery. Do not treat silence, elapsed chapters or a POV change as resolution.
+2. **Capture every new question and clue.** Review each storyline represented in the
+   material. `TRAMAS ACTIVAS` serves Orka, Varg and Elvar; do not populate it for only
+   one POV or force equal counts. Reuse an existing question when the evidence advances
+   it. Give each distinct unresolved question/objective a stable `group: 'TRAMA'` node,
+   linked to `cat-tramas`, its POV/participants, and relevant evidence. A clue may remain
+   a clearly identified observation in its subject's `star`, linked or explicitly
+   cross-referenced to the question it supports; it need not become a duplicate plot node.
+   Keep observations separate from theories, and do not invent a mystery or future answer
+   for ordinary descriptive detail. Preserve all already-recorded clues for review.
+3. **Persist the evidence trail in the archive.** For each question/clue, record its
+   precise question/observation, first source book/chapter, supporting or conflicting
+   evidence, related ids, and current state in its own `desc`/`star` and links. Never rely
+   on chat memory or a temporary audit file as the only record. Append chapter-marked
+   developments to the same id using the full-history rules. Keep the latest state
+   explicit in Spanish: `ESTADO: ABIERTA`, `ESTADO: PARCIAL`, `ESTADO: RESUELTA`, or
+   `ESTADO: DESCARTADA` (a disproved hypothesis). Do not overload node `status`, which
+   uses `updated`, or confuse it with browser-local clue-board status.
+4. **Assess each backlog item against the new evidence.** Record one outcome for every
+   open/partial item: unchanged, advanced, partially answered, resolved, or disproved.
+   No new archive revision is needed for an unchanged item, but it must appear in the
+   chapter's review record. A clue must remain linked to its question as evidence changes;
+   an unresolved question must never disappear because a new clue or name replaced it.
+   If one item bundles several questions, distinguish their outcomes and keep the
+   unanswered remainder open. For example, learning why Varg wants an akáll answers
+   its purpose, but does not mean the invocation has occurred or his revenge is complete.
+5. **Close only on source evidence.** Record the actual answer/payoff, the exact resolving
+   book/chapter and the evidence that establishes it. A character's guess, reader theory,
+   suggestive parallel, destination announcement or promised action is not completion.
+   Partial answers stay partial. Disproving a theory does not automatically solve the
+   underlying mystery. If later evidence genuinely overturns a closure, append an explicit
+   reopening with its source and explanation; preserve the earlier reasoning.
+6. **Make closure visible while preserving history.** Append a new revision with the
+   closure marker and answer, update a stale pending label/type when needed, and connect
+   it to the resolving event/entity. Retain earlier clues, questions and theories as
+   historical evidence, qualified by the latest outcome; do not delete or silently
+   rewrite them. Retire its active-category edge with a broken-link marker matching the
+   original source, target and label exactly, and cite the resolution in `reason`. Keep
+   the resolved node reachable through its participants/evidence. Partially resolved
+   threads retain their active edge. Check broken markers when reviewing category
+   history rather than assuming every stored edge is still active.
+7. **Verify discovery as well as records.** Category-only links to a character/event do
+   not create a plot: the relationship viewer excludes structural categories and its
+   plot filter requires `TRAMA` nodes. Confirm that active questions connect both to the
+   shared category and relevant participants, and that closed questions are no longer
+   presented there as active. Do not claim the plot filter or clue board automatically
+   understands prose states: `TRAMA` filters by kind, and source clue-board entries start
+   as `unreviewed`; saved board states are separate browser data. Do not alter the user's
+   board notes or claim their saved statuses changed merely by editing node text.
+8. **Record a completion gate result.** In `thread-review.md` beside the run's `baseline/`,
+   list every prior open/partial thread and unresolved/unclassified clue by stable id
+   (identify a `star`
+   clue by its owning node and source marker), its outcome, evidence chapter, remaining
+   question, and any new/changed links. Include new items, closures and POV coverage.
+   Unchanged items may use a compact list. Record `Thread lifecycle review: PASS` only
+   when all items are accounted for and all required archive updates are complete.
+   Review new evidence and all closure decisions semantically, then run normal checks.
+   Automated checks alone cannot establish that every clue was followed or that a mystery
+   was correctly resolved. Progress and completion require BOTH hard-gate review records.
 
 ## Capture the baseline before editing
 
@@ -557,8 +622,10 @@ The `--review-links` option resolves endpoint labels at the current book cap and
 only appended relationships, marking broken-link removals explicitly. Read these
 sentences for semantic direction; the verifier cannot judge their meaning.
 
-**Completion also requires the [hard ownership gate](#hard-gate--fact-ownership) to pass**
-and its review record to exist. A verifier PASS alone is insufficient.
+**Completion requires BOTH the [ownership gate](#hard-gate--fact-ownership) and the
+[thread-lifecycle gate](#hard-gate--thread-and-clue-lifecycle) to pass**, with
+`ownership-review.md` and `thread-review.md` in the run directory. A verifier PASS alone
+is insufficient; an unreviewed clue or missing closure blocks completion.
 
 These checks do not establish factual accuracy or visual correctness. Review the added
 content against the complete chapter, then open `index.html` and confirm: the new/updated

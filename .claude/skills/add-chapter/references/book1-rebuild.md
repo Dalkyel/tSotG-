@@ -58,9 +58,11 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 
   Confirm the output includes the three `chapter verifier` tests; a successful exit alone
   did not reveal a mistyped verifier-test filename in the Chapter 9 run.
-- Apply the mandatory fact-ownership gate in `SKILL.md` before writing and before
-  completion; keep its `ownership-review.md` record in the chapter run directory.
-  Update `completedChapters` only after both ownership review and verification succeed. Preview with
+- Apply BOTH mandatory gates in `SKILL.md`: fact ownership and thread/clue lifecycle.
+  Before each chapter, review the existing open/partial questions and clues across all
+  POVs; record developments and evidence-backed closures in the staged archive.
+  Keep `ownership-review.md` and `thread-review.md` in the chapter run directory.
+  Update `completedChapters` only after both semantic gates and verification succeed. Preview with
   `book1/rebuild/index.html`; regenerate that preview from the live HTML if its layout
   changes, retaining the base URL and staged-data substitutions described in the README.
 - Do not replace the live archive with a partial rebuild. At completion, reconcile
