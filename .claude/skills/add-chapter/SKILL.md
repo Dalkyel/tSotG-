@@ -308,6 +308,14 @@ If a read is truncated, retrieve the omitted sections before proceeding.
      ```
      Compare each count against the same check run against the pre-edit baseline
      (expect baseline+1), plus a final `node --check` on the file.
+   - When correcting entries appended in the current run, do not guess their source
+     formatting: `append-entries.cjs` writes compact JSON links, while
+     `append-node.cjs` writes spaced JS literals. A string replacement using the wrong
+     style can succeed as a command while changing nothing. Before writing, require
+     each exact replacement anchor to occur once in the current chapter section; fail
+     on zero or multiple matches. After writing, parse the array and assert the intended
+     endpoint/label/field values, then rerun the relevant verifier review. Keep these
+     corrections within the appended section so baseline history stays intact.
    - Retyping a `star` (or `desc`) field from a tool-output transcript is risky even when
      the transcript shows no truncation marker: an output-condensation layer between the
      tool and this context can silently drop a trailing clause it judges low-signal,

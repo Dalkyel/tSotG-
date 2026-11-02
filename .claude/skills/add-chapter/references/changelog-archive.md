@@ -459,3 +459,9 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
 - 2026-11-02: At the user’s request, promoted POV coverage and ongoing mystery/clue follow-up to a separate HARD thread-lifecycle gate. Every chapter must review prior open/partial questions and recorded clues across POVs, capture new evidence, persist explicit states in existing archive fields, and close only with a cited answer/payoff. Partial answers and disproved theories do not silently close broader mysteries. Requires historical preservation, exact broken active-category edges on closure, and a per-item `thread-review.md` PASS before completion alongside the ownership gate. Documents the actual plot-filter and browser-local clue-board limits; the rebuild procedure requires both gates. Fully incorporated in the skill and procedure.
 
 - 2026-11-02: Book One rebuild Ch14: `Hundur (Dios-Sabueso)` lost its parenthetical qualifier in summary matching and collided with the tracker. Added the distinct non-parenthetical staged-label instruction to SKILL.md; the god keeps canonical id `hundur-dios`. Both summary references were checked for intended identity.
+
+- 2026-11-02: Book One rebuild Ch27 — a link correction assumed spaced JS literals,
+  but append-entries.cjs had written compact JSON. The replacement command exited
+  successfully without changing the source or labels; the subsequent link review
+  exposed the no-op. Added exact-once, chapter-scoped replacement guards and parsed
+  post-edit value assertions to SKILL.md. Fully incorporated; no unresolved data issue.
