@@ -1,0 +1,15 @@
+{
+  "source": "book1/chapter 1.xhtml",
+  "completedChapters": [
+    1
+  ],
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/book1-ch1-baseline-t919vlcc",
+  "liveHashes": {
+    "book1/links.js": "49bc4481c154b23ef58aabc21c0f6ae7b64a1fc4e51f307d45507d9da3d0c2c3",
+    "book1/nodes.js": "e3c2aced9f170628b3d8383cb36e00fb34339b5fcd2e9a1280fac8126faeca03",
+    "book1/summaries.js": "454d0f65694c1d4ed7754c2ec95a8df02111e8138a7374be7ac0a2102448fceb",
+    "book2/links.js": "450f6f975c3699f5d2db45f095f60713d467f0c2119ba4e85c4cbd8d8fbfa845",
+    "book2/nodes.js": "1a65165b1e7100b2e5ce8311f7226fb48dfc26d158edfdeb46be3ba4b06ab778",
+    "book2/summaries.js": "86685bd7d3a291517ac222dae5a55d80ac6936ec1484242dba651798a8810c5b"
+  }
+}

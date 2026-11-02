@@ -238,7 +238,7 @@
   }
   ['clue-search', 'clue-status', 'clue-node'].forEach(id => $(id).addEventListener(id === 'clue-search' ? 'input' : 'change', renderList));
   $('btn-clues').addEventListener('click', () => {
-    summaryPanel.classList.remove('visible');
+    if (summaryPanel.open) summaryPanel.close();
     renderList();
     if (!selectedId) showEmptyDetail();
     dialog.showModal();

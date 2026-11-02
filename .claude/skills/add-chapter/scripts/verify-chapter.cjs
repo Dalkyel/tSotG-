@@ -8,7 +8,7 @@ const { execFileSync } = require('node:child_process');
 const [bookArg, chapterArg, baseline, ...options] = process.argv.slice(2);
 assert.ok(options.every(option => option === '--review-links'), 'Unknown option; supported: --review-links');
 const book = Number(bookArg), chapter = Number(chapterArg);
-assert.ok(Number.isInteger(book) && book >= 2 && Number.isInteger(chapter) && chapter > 0 && baseline,
+assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(chapter) && chapter > 0 && baseline,
   'Usage: node .claude/skills/add-chapter/scripts/verify-chapter.cjs BOOK CHAPTER BASELINE_DIR');
 const kinds = ['nodes', 'links', 'summaries'];
 const variable = (kind, n) => (kind === 'summaries' ? 'chapterSummaries' : kind) + (n === 1 ? '' : `Book${n}`);

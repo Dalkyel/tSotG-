@@ -13,12 +13,18 @@ description: >
 # Adding a chapter to the Bloodsworn mind map
 
 This project tracks characters, places, events, and lore across the Bloodsworn Saga
-trilogy in a D3 mind map (`index.html`). Book 1 (`book1/`) is complete and frozen — **never
-edit `book1/*.js`**. Every book club session on Book 2 (or later, Book 3) adds a delta to
-that book's own folder. The merge logic in `mapa.js` combines frozen base + deltas at load
-time, respecting each reader's own "read up to Book N" cap — this skill only has to
-produce correctly-shaped delta entries; the rendering, badging, tabs, and spoiler-capping
-already handle themselves.
+trilogy in a D3 mind map (`index.html`). Normal sessions append to the current book's
+own folder. `data-core.js` merges the full archive in book/array order: the latest
+same-id entry wins, and all revisions remain available. The app no longer hides data
+behind book/chapter reading caps. Reader helpers still accept a book cap to bound
+source inspection; this is not a display restriction.
+
+## Authorized Book One rebuild
+
+A separate, parallel effort (`book1/rebuild/`) with its own procedure — read
+[references/book1-rebuild.md](references/book1-rebuild.md) instead of this file when the
+user is actively continuing that rebuild. An ordinary "add chapter N" request (live Book
+One or Book Two) never needs it.
 
 ## Input types
 
@@ -225,6 +231,19 @@ already handle themselves.
      confirms it, a FAIL on "does not preserve its latest baseline text" means re-extract
      that exact field from the data file programmatically rather than trusting the
      earlier read.
+   - `links.js` and `summaries.js` have no bundled appender (unlike `append-node.cjs`
+     for `nodes.js`), so their closing `},\n];` is still edited directly with `Edit`.
+     Build that `old_string` from a `Read` of the file's tail, never from `Bash`
+     `cat`/`tail` output or a guessed indent: this environment's output-condensation
+     layer can silently normalize a cosmetic detail — quote style, a stray tab-width
+     inconsistency in indentation — that `Edit` still matches byte-exact against. One
+     run's `old_string` assumed the same 4-space indent every other entry used and
+     failed twice against a closing brace that actually had none; another's assumed
+     single-quoted keys against a file section that used double quotes. If an `Edit`
+     on that closing syntax fails to match once, don't retry with a second guess —
+     anchor `old_string` on the last few words of real content plus the literal
+     `},\n];` with no assumed indentation or quote style, re-reading via `Read` first
+     if still unsure.
    - If reading source lines, include the entire object: `desc` and `star` may be on
      following lines. For same-POV continuations, chapter boundary comments can locate
      the previous scene's cluster quickly; inspect later same-id entries before copying.
@@ -292,7 +311,7 @@ chapter data to add to the project.
   from their panel. Always use the latest same-id `desc` across Book 1, prior books,
   and earlier entries in the current book; copy it in full and append the new material — same accumulation style already used throughout `book1/nodes.js` (e.g.
   look at the `biorr` or `agnar` entries: one long, chronologically-growing paragraph).
-  `previousState` stays short — it's a maintenance note for future edits, not shown in the UI.
+`previousState` stays short — it's a maintenance note for future edits, not shown in the UI.
   Use `scripts/append-node.cjs` (see step 3 above) to apply this rule — it reads the
   latest `desc`/`star` from the file and appends your new text itself, so the full-overwrite
   requirement is satisfied by construction instead of by careful retyping.

@@ -74,6 +74,48 @@ test('grouping collects repeated connections without losing labels or directions
   assert.deepEqual(core.groupedConnections('orka', nodes, objectLinks), groups);
 });
 
+test('mention matcher links accented, Norse, shared, and unguided names without false positives', () => {
+  const { nodes } = view(2);
+  const matcher = core.buildMentionMatcher(nodes, revisions, data.guides);
+  const text = 'Guðvarr y Røkia hablan con Arild. Troll-Slayer observa. Mord y Lif escuchan.'
+    + ' Embargaron el Vargstad sin que Varg lo supiera.';
+  const matches = core.findMentions(text, matcher);
+  assert.deepEqual(matches.map(m => [m.text, m.id]), [
+    ['Guðvarr', 'gudvarr'], ['Røkia', 'rokia'], ['Arild', 'arild'],
+    ['Troll-Slayer', 'elvar'], ['Mord y Lif', 'mord-lif'], ['Varg', 'varg'],
+  ]);
+  // 'Arild' has no CHARACTER_GUIDES entry; the matcher still finds it from the node label.
+  assert.equal(data.guides.arild, undefined);
+  // "Vargstad"/"Embargaron" must not trigger a match for "Varg".
+  assert.ok(!matches.some(m => m.id === 'varg' && m.start !== text.lastIndexOf('Varg')));
+});
+
+test('mention matcher splits shared-ficha labels so each named person links on their own', () => {
+  const { nodes } = view(2);
+  const matcher = core.buildMentionMatcher(nodes, revisions, data.guides);
+  const soloSkuld = core.findMentions('Skuld vigila.', matcher);
+  assert.deepEqual(soloSkuld.map(m => [m.text, m.id]), [['Skuld', 'hijas-orna-ulfrir']]);
+  const combined = core.findMentions('Urd, Verdandi y Skuld custodian.', matcher);
+  assert.deepEqual(combined.map(m => [m.text, m.id]), [['Urd, Verdandi y Skuld', 'hijas-orna-ulfrir']]);
+});
+
+test('mention matcher links places, objects, factions, and lore, not just characters', () => {
+  const { nodes } = view(2);
+  const matcher = core.buildMentionMatcher(nodes, revisions, data.guides);
+  const text = 'Partieron de Fellur hacia Darl a bordo del Wave-Jarl, llevando Armring de plata'
+    + ' y un Seax bien afilado. Los Terrores de la batalla seguían el Seiðr de Vol.';
+  const matches = core.findMentions(text, matcher);
+  assert.deepEqual(matches.map(m => [m.text, m.id]), [
+    ['Fellur', 'fellur'], ['Darl', 'darl'], ['Wave-Jarl', 'wave-jarl'], ['Armring', 'armring'],
+    ['Seax', 'seax'], ['Terrores de la batalla', 'battle-grim'], ['Seiðr', 'seidr'], ['Vol', 'vol'],
+  ]);
+  // Event/plot titles joined with "y" are one phrase, not two entities — they must not be
+  // split the way shared character fichas ("Mord y Lif") are.
+  const eventNode = nodes.find(n => n.id === 'berak-venta');
+  assert.equal(eventNode.label, 'Viaje y venta de Berak en Snakavik');
+  assert.equal(core.findMentions('Viaje a ninguna parte.', matcher).length, 0);
+});
+
 test('profiles preserve complete source descriptions and all source snapshots', () => {
   const original = JSON.stringify(revisions);
   const { profiles } = view(2);

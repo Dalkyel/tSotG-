@@ -86,7 +86,53 @@
     });
     return groups;
   }
-  const api = { normalize, kind, excerpt, chapterSections, timeline, aliases, profile, search, groupedConnections };
+  function escapeRegExp(value) {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+  const LETTER = 'A-Za-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u00FF\\u00D0\\u00F0\\u00DE\\u00FE';
+  function buildMentionMatcher(nodes, revisions, guides) {
+    const seen = new Set();
+    const entries = [];
+    // Every node is mentionable (characters, places, objects, factions, events, lore, …)
+    // except the CENTER/CAT structural hubs, which aren't real archive entries.
+    nodes.filter(n => !['CENTER', 'CAT'].includes(n.group)).forEach(node => {
+      const id = node.id;
+      const isPerson = kind(node);
+      aliases(node, revisions, guides).forEach(raw => {
+        const stripped = String(raw || '').replace(/\s*\([^)]*\)\s*$/, '').trim();
+        // Shared-ficha labels ("Mord y Lif", "Urd, Verdandi y Skuld") name several people in
+        // one node with no individual alias of their own. Keep the combined phrase as a
+        // candidate but also split it, so a lone mention of "Skuld" still links somewhere.
+        // Only people/gods/beings get this treatment: an event or plot title like "Viaje y
+        // venta de Berak" is one phrase, not two entities, and splitting it on "y" would turn
+        // ordinary words into spurious links.
+        const parts = isPerson ? stripped.split(/,\s*|\s+y\s+/).map(p => p.trim()).filter(Boolean) : [];
+        const candidates = parts.length > 1 ? [stripped, ...parts] : [stripped];
+        candidates.forEach(name => {
+          const key = name.toLowerCase();
+          // Skip the lowercase id-slug fallback aliases() always includes first (e.g. "varg" for
+          // id "varg") so they never shadow the real, properly-cased name ("Varg") in the dedup.
+          if (name.length < 3 || !/^[A-ZÀ-ÖØ-ÞÐ]/.test(name) || seen.has(key)) return;
+          seen.add(key);
+          entries.push({ name, id });
+        });
+      });
+    });
+    entries.sort((a, b) => b.name.length - a.name.length);
+    const byName = new Map(entries.map(e => [e.name, e.id]));
+    const pattern = entries.map(e => escapeRegExp(e.name)).join('|');
+    const regex = pattern ? new RegExp(`(?<![${LETTER}])(?:${pattern})(?![${LETTER}])`, 'g') : null;
+    return { regex, idFor: name => byName.get(name) };
+  }
+  function findMentions(text, matcher) {
+    if (!matcher?.regex || !text) return [];
+    const matches = [];
+    for (const m of String(text).matchAll(matcher.regex)) {
+      matches.push({ start: m.index, end: m.index + m[0].length, text: m[0], id: matcher.idFor(m[0]) });
+    }
+    return matches;
+  }
+  const api = { normalize, kind, excerpt, chapterSections, timeline, aliases, profile, search, groupedConnections, buildMentionMatcher, findMentions };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.CharacterReference = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

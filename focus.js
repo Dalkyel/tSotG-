@@ -284,7 +284,7 @@
   function open(id) {
     const root = graph.nodes.has(id) ? id : state?.rootId || 'orka';
     if (!graph.nodes.has(root)) return;
-    summaryPanel.classList.remove('visible');
+    if (summaryPanel.open) summaryPanel.close();
     closeSearch(); $('focus-search').value = '';
     if (!dialog.open) dialog.showModal();
     if (!state || root !== state.rootId) { commit(initialState(root)); }

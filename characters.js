@@ -182,7 +182,7 @@
   }
 
   function open(id, query = '') {
-    summaryPanel.classList.remove('visible');
+    if (summaryPanel.open) summaryPanel.close();
     search.value = query; filter.value = '';
     if (!dialog.open) dialog.showModal();
     if (id) showProfile(id);

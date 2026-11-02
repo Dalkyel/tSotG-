@@ -8,14 +8,6 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
-- 2026-11-01: Book 2 Ch47 — checking whether "three ships ambushed the Sea-Wolf, Bloodsworn
-  searched beaches/seabed" (a detail recounted secondhand by Røkia) already had its own
-  event node, I reached for plain `grep -n "phrase1\|phrase2\|phrase3"` across `book2/nodes.js`
-  instead of `search-descriptions.cjs`. Each call returned 200KB+ of output because the
-  match landed inside Orka's single-line accumulated `desc`, dumping the whole line twice.
-  `search-descriptions.cjs` already supports arbitrary literal phrases (not just candidate
-  names) and paginates at 8,000 characters — it would have avoided this entirely. Added a
-  note in SKILL.md making this explicit at the point where the helper is introduced.
 - 2026-11-01: Confirmed, on request, that this was not the first occurrence — Book 2 Ch6
   had made the identical mistake on the `elvar` node and it went uncaught at the time:
   Ch6's entire Elvar-POV update (the Vergelmir ambush, Skuld's punishment, the
@@ -32,30 +24,6 @@ actually fixed.
   old_string/new_string — safer, but double-check every index arithmetic (a length
   added twice in one such script silently ate the next node's `id:`/`label:` prefix here,
   caught only because `node --check` then failed).
-- 2026-11-01: Post-Ch48 skill review (asked directly, not the per-chapter friction check):
-  scanning the full changelog archive, step 2 (entity resolution) turned out to be the
-  single most-patched part of the skill — Ilmur, Iva, Verdani/Skuld, Dead Drengr
-  translation, Járn, Úlfhéðnar, and now Gudrun (below) are seven separate incidents, all
-  in the same ~90-line prose block, each fixed by appending one more caveat. Restructured
-  step 2 into an explicit ordered checklist (match-entities → search-descriptions → re-run
-  match-entities for names found only inside *other* entities' descriptions →
-  mint-with-near-miss-checks), preserving every example and caveat's substance but making
-  the decision order explicit instead of requiring all seven to be held in mind at once.
-  The Ch48/Gudrun entry this generalizes from is now archived — its fix is fully present
-  in step 2c.
-- 2026-11-02: Book 2 Ch49 — appending the new link/summary section to the tail of
-  `links.js` and `summaries.js` via `Edit`, an `old_string` built from the last entry's
-  closing `},\n];` (copied at the same 4-space indent used by every other entry in the
-  file) failed to match twice in a row with no visible reason in the Read output. A
-  `python3` byte-level read of the file tail showed the actual closing brace before the
-  final `];` had *zero* leading spaces — an inconsistency from how an earlier chapter was
-  appended, invisible in Read's line-numbered rendering because the gap is only one
-  tab-stop wide. Fixed by shortening `old_string` to the last few words of the summary
-  text plus the literal `},\n];` with no assumed indentation. Lesson: when an `Edit` on
-  `nodes.js`/`links.js`/`summaries.js` fails to match purely at the file's closing
-  `},\n];`, don't retry with a guessed indent — drop the leading whitespace from
-  `old_string` entirely (anchor on content, not on brace indentation) rather than
-  spending a second failed attempt.
 - 2026-11-02: Book 2 Ch49 — needed to confirm six specific relationship pairs (e.g.
   ulfrir↔orka, sighvat↔halja-vali) had no existing link before adding new ones. Reasoned
   that batching all seven involved ids into one `read-links.cjs` call would be more
@@ -84,3 +52,5 @@ actually fixed.
   finds the nearest preceding `LIBRO N, CAPÍTULO M` marker inside each matched entity's own
   `desc` and prefixes every excerpt with it, so this lookup never needs a hand-rolled
   script again.
+
+- 2026-11-02: Started the user-authorized Book One chronological rebuild in `book1/rebuild/book1/`, with an immutable original reference copy and an isolated preview. The verifier rejected Book One solely because of its `book >= 2` argument guard; enabled Book One using its existing variable-name support. Documented staged helper working directories, canonical ID reuse without future facts, and the required final Book Two reconciliation. The live loader now merges the full archive, so replaced the stale frozen-base/reading-cap introduction.

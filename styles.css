@@ -81,15 +81,10 @@ svg:active{cursor:grabbing}
 .tooltip.visible{opacity:1}
 .tooltip strong{font-family:'Cinzel',serif;font-size:11px;color:var(--gold);display:block;margin-bottom:2px}
 
-#summary-panel{position:fixed;top:0;right:0;width:560px;height:100vh;background:linear-gradient(180deg,#1e160a,#130e06);border-left:1px solid #3a2a12;z-index:150;transform:translateX(100%);transition:transform .3s;overflow-y:auto;padding:20px}
-#summary-panel.visible{transform:translateX(0)}
-.chapter-item{margin-bottom:20px;padding:16px 18px;background:rgba(255,255,255,.03);border-left:3px solid var(--gold);border-radius:2px;cursor:pointer;transition:background .15s}
-.chapter-item:hover{background:rgba(255,255,255,.06)}
-.chapter-title{font-family:'Cinzel',serif;font-size:15px;color:var(--gold-lt);margin-bottom:8px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
-.chapter-toggle{font-size:14px;color:#7a6a50;transition:transform .2s}
-.chapter-toggle.expanded{transform:rotate(180deg)}
-.chapter-text{font-size:15px;line-height:1.75;color:#c8b890;max-height:10000px;overflow:hidden;transition:max-height .3s,margin-top .3s;margin-top:8px}
-.chapter-text.collapsed{max-height:0;margin-top:0}
+#chapter-pane{overflow-y:auto;padding:24px 30px 48px;min-width:0;line-height:1.65;scroll-margin-top:12px}
+.chapter-text{font-size:16px;line-height:1.8;color:#e8d8b0;max-width:720px}
+#summary-panel .mention{display:inline;border:0;padding:0;margin:0;min-height:0;background:none;color:#efc77d;font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+#summary-panel .mention:hover{color:var(--gold-lt)}
 
 /* Focused relationship explorer; separate layout objects preserve the full map. */
 .focus-dialog{position:fixed;inset:0;margin:auto;width:min(1440px,98vw);height:96vh;max-width:none;max-height:none;border:1px solid #725126;border-radius:8px;background:#17120d;color:var(--parch);padding:0;font:16px 'Crimson Pro',Georgia,serif;overflow:hidden}
@@ -208,7 +203,8 @@ svg:active{cursor:grabbing}
   .reference-layout{display:block;height:auto}.reference-index{border-right:0;border-bottom:1px solid #4c3820;padding:14px}
   #reference-list{max-height:230px;overflow-y:auto}.reference .reference-result{padding:10px}
   .reference-result span{display:none}#reference-protagonists{margin-bottom:10px}
-  #reference-profile{overflow:visible;padding:20px 14px 40px;scroll-margin-top:112px}
+  #reference-profile,#chapter-pane{overflow:visible;padding:20px 14px 40px;scroll-margin-top:112px}
+  #chapter-list{max-height:230px;overflow-y:auto}
   .reference-name{font-size:24px}.reference-intro{font-size:19px}.reference-latest{padding:14px}
   .reference-profile-nav{margin-bottom:18px}.reference-profile-nav button{font-size:13px;padding:7px 9px}
   header{padding-right:60px}header>.clue-button{padding:6px 10px;font-size:14px}
@@ -275,10 +271,9 @@ svg:active{cursor:grabbing}
   #clue-detail form{grid-template-columns:1fr}#clue-detail label{grid-column:1/-1}
 }
 
-@media(max-width:768px){header{flex-direction:column;gap:8px;padding:8px 12px;align-items:flex-start;position:relative}.header-title{font-size:14px}.header-sub{font-size:11px}#btn-summaries{position:absolute;top:8px;right:12px;width:36px;height:36px;font-size:20px}.legend{gap:8px;font-size:9px}.legend-dot{width:8px;height:8px}:root{--panel-w:100vw}#detail-panel{width:100vw;max-height:calc(100vh - 80px);position:fixed;bottom:0;left:0;top:auto;border-left:none;border-top:2px solid var(--gold);z-index:200;display:flex}#detail-panel.hidden{display:none}.panel-header{padding:12px 14px}.panel-name{font-size:15px}.panel-body{padding:12px 14px}.controls{bottom:12px;left:12px;gap:4px;flex-direction:row;flex-wrap:wrap;max-width:calc(100vw - 24px)}#search-input{width:calc(100vw - 180px);min-width:120px;height:36px;font-size:14px}.ctrl-btn{width:36px;height:36px;font-size:18px}.tooltip{max-width:180px;font-size:11px}svg{cursor:default}#summary-panel{width:100vw;height:100vh}}
+@media(max-width:768px){header{flex-direction:column;gap:8px;padding:8px 12px;align-items:flex-start;position:relative}.header-title{font-size:14px}.header-sub{font-size:11px}#btn-summaries{position:absolute;top:8px;right:12px;width:36px;height:36px;font-size:20px}.legend{gap:8px;font-size:9px}.legend-dot{width:8px;height:8px}:root{--panel-w:100vw}#detail-panel{width:100vw;max-height:calc(100vh - 80px);position:fixed;bottom:0;left:0;top:auto;border-left:none;border-top:2px solid var(--gold);z-index:200;display:flex}#detail-panel.hidden{display:none}.panel-header{padding:12px 14px}.panel-name{font-size:15px}.panel-body{padding:12px 14px}.controls{bottom:12px;left:12px;gap:4px;flex-direction:row;flex-wrap:wrap;max-width:calc(100vw - 24px)}#search-input{width:calc(100vw - 180px);min-width:120px;height:36px;font-size:14px}.ctrl-btn{width:36px;height:36px;font-size:18px}.tooltip{max-width:180px;font-size:11px}svg{cursor:default}}
 
 /* Keep header actions in rows after the legacy mobile rules. */
-#summary-panel:not(.visible){display:none}
 @media(max-width:768px){
   header{flex-direction:row;flex-wrap:wrap;align-items:center;gap:7px;padding:10px 52px 10px 12px;min-width:0}
   header>div:first-child{flex-basis:100%;min-width:0}

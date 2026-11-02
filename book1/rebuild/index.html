@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <base href="../../">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reconstrucción — Bloodsworn Trilogy — Mapa Mental Interactivo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      <div class="header-title">Bloodsworn Trilogy</div>
+      <div class="header-sub">Mapa Mental Interactivo · Libro 1 Completo</div>
+    </div>
+    <button id="btn-characters" class="clue-button" type="button">Personajes</button>
+    <button id="btn-focus" class="clue-button" type="button">Explorar conexiones</button>
+    <button id="btn-clues" class="clue-button" type="button">Pistas y preguntas</button>
+    <button id="btn-bookmarks" class="clue-button" type="button">★ Marcadores</button>
+    <button id="btn-summaries" class="ctrl-btn" title="Ver resúmenes de capítulos" aria-label="Resúmenes">📖</button>
+  </header>
+  <div id="bookmark-feedback" class="sr-only" role="status" aria-live="polite"></div>
+  <div class="main">
+    <div id="graph-container">
+      <div class="rune-bg"></div>
+      <svg id="graph"></svg>
+      <div class="controls">
+        <input type="text" id="search-input" placeholder="Buscar nodo..." aria-label="Buscar nodo">
+        <button class="ctrl-btn" id="btn-zoom-in" title="Acercar" aria-label="Acercar">+</button>
+        <button class="ctrl-btn" id="btn-zoom-out" title="Alejar" aria-label="Alejar">−</button>
+        <button class="ctrl-btn" id="btn-reset" title="Restablecer vista" aria-label="Restablecer">⟳</button>
+      </div>
+    </div>
+    <div id="detail-panel" class="hidden">
+      <div class="panel-header" style="position:relative">
+        <div class="panel-type" id="p-type">Personaje</div>
+        <div class="panel-name" id="p-name">Nombre</div>
+        <button class="panel-close" id="panel-close" type="button" aria-label="Cerrar detalle del nodo">✕</button>
+      </div>
+      <div class="panel-body">
+        <button id="p-reference" class="clue-button" type="button" hidden>Abrir ficha del personaje</button>
+        <button id="p-focus" class="clue-button" type="button">Explorar sus conexiones</button>
+        <div id="p-bookmark"></div>
+        <div class="panel-desc" id="p-overview"></div>
+        <details id="p-full-description"><summary>Descripción completa</summary><div class="panel-desc" id="p-desc">Descripción</div></details>
+        <div class="connections-title">Conexiones</div>
+        <label class="sr-only" for="p-connection-search">Buscar en las conexiones</label>
+        <input id="p-connection-search" type="search" placeholder="Buscar nombre o relación…">
+        <label class="sr-only" for="p-connection-type">Tipo de relación</label>
+        <select id="p-connection-type"><option value="">Todos los vínculos</option></select>
+        <p id="p-connection-count" role="status" aria-live="polite"></p>
+        <div id="p-connections"></div>
+        <details class="panel-original-notes"><summary>Observaciones originales</summary><div id="p-star"></div></details>
+      </div>
+    </div>
+  </div>
+  <div class="tooltip" id="tooltip">
+    <strong id="tt-name"></strong>
+    <span id="tt-desc"></span>
+  </div>
+
+  <div id="summary-panel" class="hidden">
+    <div class="panel-header">
+      <div class="panel-name">Resúmenes de Capítulos</div>
+      <button class="panel-close" id="summary-close" type="button" aria-label="Cerrar resúmenes">✕</button>
+    </div>
+    <div class="book-tabs" id="book-tabs"></div>
+    <div class="panel-body" id="summary-content"></div>
+  </div>
+
+  <script src="groups.js"></script>
+  <!-- Book 1 data -->
+  <script src="book1/rebuild/book1/nodes.js"></script>
+  <script src="book1/rebuild/book1/links.js"></script>
+  <script src="book1/rebuild/book1/summaries.js"></script>
+  <!-- Book 2 data (empty until read) -->
+  <!-- Merge logic + visualization -->
+  <script src="clues-core.js"></script>
+  <script>const CHARACTER_GUIDES = {}; const CHARACTER_KEY_LINKS = {}; const CHARACTER_RELATION_HINTS = {};</script>
+  <script src="characters-core.js"></script>
+  <script src="data-core.js"></script>
+  <script>
+// Load every recorded book, update, connection, and summary before building the UI.
+const archive = ArchiveData.merge([
+  { book: 1, nodes, links, summaries: chapterSummaries },
+]);
+const MAX_BOOK = archive.maxBook;
+const DATA_LABEL = `Reconstrucción · Libro 1 · Capítulo ${Math.max(...chapterSummaries.map(s => s.chapter))}`;
+const clueSourceRevisions = archive.revisions;
+nodes.splice(0, nodes.length, ...archive.nodes);
+links.splice(0, links.length, ...archive.links);
+chapterSummaries.splice(0, chapterSummaries.length, ...archive.summaries);
+document.querySelector('.header-sub').textContent = DATA_LABEL;
+
+// Old shared URLs can still open the project, but no longer set a reading limit.
+const archiveUrl = new URL(location.href);
+if (archiveUrl.searchParams.has('book') || archiveUrl.searchParams.has('chapter')) {
+  archiveUrl.searchParams.delete('book'); archiveUrl.searchParams.delete('chapter');
+  try { history.replaceState(history.state, '', archiveUrl.href); } catch (_) { /* Parameters are ignored regardless. */ }
+}
+
+</script>
+  <script src="bookmarks-core.js"></script>
+  <script src="bookmarks.js"></script>
+  <script src="mapa.js"></script>
+  <script src="clues.js"></script>
+  <script src="characters.js"></script>
+  <script src="focus-core.js"></script>
+  <script src="focus.js"></script>
+  <script src="readability.js"></script>
+</body>
+</html>

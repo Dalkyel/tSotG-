@@ -443,12 +443,15 @@ window.addEventListener('resize', () => {
 
 // ── Summary Panel ─────────────────────────────────────
 const summaryPanel = document.getElementById('summary-panel');
-const summaryContent = document.getElementById('summary-content');
+const chapterListEl = document.getElementById('chapter-list');
+const chapterPaneEl = document.getElementById('chapter-pane');
 const btnSummaries = document.getElementById('btn-summaries');
 const summaryClose = document.getElementById('summary-close');
 
 const bookTabsEl = document.getElementById('book-tabs');
 let activeBookTab = chapterSummaries.at(-1)?.book || MAX_BOOK;
+let activeChapter = chapterSummaries.at(-1)?.chapter ?? null;
+const mentionMatcher = CharacterReference.buildMentionMatcher(nodes, clueSourceRevisions, CHARACTER_GUIDES);
 
 function renderBookTabs() {
   const books = [...new Set(chapterSummaries.map(ch => ch.book || 1))].sort((a, b) => a - b);
@@ -458,6 +461,8 @@ function renderBookTabs() {
   bookTabsEl.querySelectorAll('.book-tab').forEach(btn => {
     btn.addEventListener('click', () => {
       activeBookTab = parseInt(btn.dataset.book, 10);
+      const chaptersInBook = chapterSummaries.filter(ch => (ch.book || 1) === activeBookTab);
+      activeChapter = chaptersInBook.at(-1)?.chapter ?? null;
       renderBookTabs();
       renderChapterList();
     });
@@ -465,43 +470,81 @@ function renderBookTabs() {
 }
 
 function renderChapterList() {
-  summaryContent.innerHTML = chapterSummaries
-    .filter(ch => (ch.book || 1) === activeBookTab)
-    .map(ch => `
-      <div class="chapter-item" data-chapter="${ch.chapter}">
-        <div class="chapter-title">
-          <span>${ch.title}</span>
-          <span class="chapter-toggle">▼</span>
-        </div>
-        <div class="chapter-text collapsed">${ch.summary}</div>
-      </div>
-    `).join('');
-  if (!summaryContent.children.length) summaryContent.textContent = 'Todavía no hay resúmenes para este libro.';
+  const chapters = chapterSummaries.filter(ch => (ch.book || 1) === activeBookTab);
+  chapterListEl.innerHTML = chapters.map(ch => `
+    <button class="reference-result" type="button" data-chapter="${ch.chapter}" aria-current="${ch.chapter === activeChapter}">
+      <strong>${ch.title}</strong>
+    </button>
+  `).join('');
+  if (!chapters.length) chapterListEl.innerHTML = '<p class="reference-empty">Todavía no hay resúmenes para este libro.</p>';
+  chapterListEl.querySelectorAll('.reference-result').forEach(btn => {
+    btn.addEventListener('click', () => showChapter(parseInt(btn.dataset.chapter, 10)));
+  });
+  showChapter(activeChapter);
+}
 
-  // Add click handlers for toggling
-  document.querySelectorAll('.chapter-item').forEach(item => {
-    const title = item.querySelector('.chapter-title');
-    const text = item.querySelector('.chapter-text');
-    const toggle = item.querySelector('.chapter-toggle');
+function showChapter(chapter) {
+  const entry = chapterSummaries.find(ch => (ch.book || 1) === activeBookTab && ch.chapter === chapter);
+  activeChapter = entry?.chapter ?? null;
+  chapterListEl.querySelectorAll('.reference-result').forEach(btn =>
+    btn.setAttribute('aria-current', parseInt(btn.dataset.chapter, 10) === activeChapter));
+  if (!entry) { chapterPaneEl.innerHTML = '<p class="reference-empty">Todavía no hay resúmenes para este libro.</p>'; return; }
+  chapterPaneEl.innerHTML = `
+    <p class="reference-eyebrow">Libro ${entry.book || 1} · Capítulo ${entry.chapter}</p>
+    <h2 class="reference-name">${entry.title}</h2>
+    <div class="chapter-text">${entry.summary}</div>
+  `;
+  linkifyMentions(chapterPaneEl.querySelector('.chapter-text'));
+  chapterPaneEl.scrollTop = 0;
+}
 
-    title.addEventListener('click', () => {
-      text.classList.toggle('collapsed');
-      toggle.classList.toggle('expanded');
+// Wraps mentions of any archive node (characters, places, objects, factions, events, lore…)
+// in clickable links without disturbing
+// the existing <strong>/<em>/<br> markup, by walking text nodes rather than the
+// raw HTML string.
+function linkifyMentions(container) {
+  if (!container || !mentionMatcher.regex) return;
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+  let node;
+  while ((node = walker.nextNode())) textNodes.push(node);
+  textNodes.forEach(textNode => {
+    const matches = CharacterReference.findMentions(textNode.data, mentionMatcher);
+    if (!matches.length) return;
+    const fragment = document.createDocumentFragment();
+    let cursor = 0;
+    matches.forEach(m => {
+      if (m.start > cursor) fragment.append(textNode.data.slice(cursor, m.start));
+      const link = document.createElement('button');
+      link.type = 'button'; link.className = 'mention'; link.dataset.id = m.id;
+      link.textContent = m.text;
+      fragment.append(link);
+      cursor = m.end;
     });
+    if (cursor < textNode.data.length) fragment.append(textNode.data.slice(cursor));
+    textNode.replaceWith(fragment);
   });
 }
+
+chapterPaneEl.addEventListener('click', event => {
+  const link = event.target.closest('.mention');
+  if (!link) return;
+  const id = link.dataset.id;
+  if (CharacterReference.kind(nodeMap[id])) window.openCharacterReference(id);
+  else window.openRelationshipMap(id);
+});
 
 function loadSummaries() {
   renderBookTabs();
   renderChapterList();
 }
 
-function toggleSummaryPanel() {
-  summaryPanel.classList.toggle('visible');
-  if (summaryPanel.classList.contains('visible') && bookTabsEl.innerHTML === '') {
-    loadSummaries();
-  }
+function openSummaries() {
+  if (bookTabsEl.innerHTML === '') loadSummaries();
+  if (!summaryPanel.open) summaryPanel.showModal();
 }
 
-btnSummaries.addEventListener('click', toggleSummaryPanel);
+btnSummaries.addEventListener('click', openSummaries);
+summaryClose.addEventListener('click', () => summaryPanel.close());
+openSummaries();
 summaryClose.addEventListener('click', () => summaryPanel.classList.remove('visible'));

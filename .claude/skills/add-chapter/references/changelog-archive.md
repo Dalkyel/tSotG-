@@ -278,6 +278,39 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   condensation threshold and costing an extra `caveman_retrieve` round-trip for content
   only needed to locate line numbers. SUPERSEDED: this is now `read-latest.cjs`'s job —
   it takes a list of ids directly and paginates the result, no grep needed.
+- 2026-11-01: Book 2 Ch47 — checking whether "three ships ambushed the Sea-Wolf, Bloodsworn
+  searched beaches/seabed" (a detail recounted secondhand by Røkia) already had its own
+  event node, I reached for plain `grep -n "phrase1\|phrase2\|phrase3"` across `book2/nodes.js`
+  instead of `search-descriptions.cjs`. Each call returned 200KB+ of output because the
+  match landed inside Orka's single-line accumulated `desc`, dumping the whole line twice.
+  `search-descriptions.cjs` already supports arbitrary literal phrases (not just candidate
+  names) and paginates at 8,000 characters — it would have avoided this entirely. ARCHIVED
+  2026-11-02: the fix is now the explicit "never raw grep" note in SKILL.md step 2b, and
+  held clean through Ch49 and Ch50 with no recurrence.
+- 2026-11-01: Post-Ch48 skill review (asked directly, not the per-chapter friction check):
+  scanning the full changelog archive, step 2 (entity resolution) turned out to be the
+  single most-patched part of the skill — Ilmur, Iva, Verdani/Skuld, Dead Drengr
+  translation, Járn, Úlfhéðnar, and Gudrun (the Ch48 entry above) are seven separate
+  incidents, all in the same ~90-line prose block, each fixed by appending one more
+  caveat. Restructured step 2 into an explicit ordered checklist (match-entities →
+  search-descriptions → re-run match-entities for names found only inside *other*
+  entities' descriptions → mint-with-near-miss-checks), preserving every example and
+  caveat's substance but making the decision order explicit instead of requiring all
+  seven to be held in mind at once. ARCHIVED 2026-11-02: the restructured step 2c is the
+  full fix, and Ch49/Ch50 raised no new entity-resolution confusion.
+- 2026-11-02: Book 2 Ch49 — appending the new link/summary section to the tail of
+  `links.js` and `summaries.js` via `Edit`, an `old_string` built from the last entry's
+  closing `},\n];` (copied at the same 4-space indent used by every other entry in the
+  file) failed to match twice in a row with no visible reason in the Read output. A
+  `python3` byte-level read of the file tail showed the actual closing brace before the
+  final `];` had *zero* leading spaces — an inconsistency from how an earlier chapter was
+  appended, invisible in Read's line-numbered rendering because the gap is only one
+  tab-stop wide. Fixed by shortening `old_string` to the last few words of the summary
+  text plus the literal `},\n];` with no assumed indentation. ARCHIVED 2026-11-02:
+  generalized together with the Ch50 quote-style entry below into one `SKILL.md` note
+  (step 2, near `append-node.cjs`) covering both — never anchor `old_string` on a file's
+  closing `},\n];` using indentation or quote style read from `Bash`/a guess; build it
+  from `Read` instead.
 - 2026-11-01: Book 2 Ch45 friction — `read-links.cjs 2 1 bloodsworn glornir berser oskutred`
   (checking whether Elvar had ever hired the Bloodsworn before) returned 140+ links across
   3 pages, almost all unrelated Book 1 history, because `bloodsworn`/`oskutred` are
