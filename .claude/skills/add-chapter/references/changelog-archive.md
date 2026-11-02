@@ -1,5 +1,18 @@
 # Changelog archive
 
+- 2026-11-02: Ch43 skill optimization — replaced manual addition of new checklist
+  candidates with `review-backlog ... sync CHECKLIST.json`. It preserves existing
+  notes and baseline-only clues, creates correctly shaped pending rows, and resets
+  assessments when evidence fields expand. Wrong-run metadata, duplicate IDs and
+  unknown IDs fail without writing; unchanged syncs preserve file bytes. Same-field
+  prose changes still require manual review. Tests and thread-gate instructions
+  cover the behavior; fully absorbed into the helper and workflow references.
+
+- 2026-11-02: Book 1 rebuild Ch43 — a manually added checklist row used `fields:
+  ['TRAMA']`, confusing the backlog index marker with the checklist's evidence fields.
+  The checker caught it; corrected to `['desc']`. The thread gate now explicitly
+  documents `desc`/`star` for new rows. Fully absorbed into that reference.
+
 - 2026-11-02: Post-Ch42 skill review — corrections to generated nodes/links hit quote-style
   and globally repeated label anchors even though the workflow already warned about
   them. Added `append-chapter --replace-applied PREVIOUS_SPEC`: reproduce the exact

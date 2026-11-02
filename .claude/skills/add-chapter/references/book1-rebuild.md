@@ -39,6 +39,7 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-backlog 1
   node .claude/skills/add-chapter/scripts/rebuild.cjs read-backlog 1 --index
   node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 4 /absolute/baseline init /absolute/run/thread-checklist.json
+  node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 4 /absolute/baseline sync /absolute/run/thread-checklist.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 4 /absolute/baseline check /absolute/run/thread-checklist.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-chapter 4 /absolute/baseline /absolute/scratch/chapter.json
   node .claude/skills/add-chapter/scripts/rebuild.cjs append-node varg /absolute/scratch/spec.json

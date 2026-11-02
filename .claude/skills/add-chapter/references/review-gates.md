@@ -262,7 +262,20 @@ to create a thread once or to pass the JavaScript verifier.
    Unchanged items may use a compact list. Record `Thread lifecycle review: PASS` only
    when all items are accounted for and all required archive updates are complete.
    Review new evidence and all closure decisions semantically, then run normal checks.
-   Before recording PASS, check the completed checklist:
+   After applying or revising chapter data, sync the checklist before completing its
+   final assessments. Sync adds new candidates with the correct evidence fields and
+   pending assessments, retains baseline-only clues and existing notes, and resets an
+   existing assessment to pending if that entry gains an evidence field. It does not
+   infer story states or detect changed prose within an already-listed field; manually
+   revisit every changed clue even when sync reports no additions.
+
+   ```sh
+   node .claude/skills/add-chapter/scripts/review-backlog.cjs 2 40 "$chapter_baseline" sync "$chapter_run/thread-checklist.json"
+   # Book One rebuild
+   node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 40 "$chapter_baseline" sync "$chapter_run/thread-checklist.json"
+   ```
+
+   Assess the pending rows, then check the completed checklist before recording PASS:
 
    ```sh
    node .claude/skills/add-chapter/scripts/review-backlog.cjs 2 40 "$chapter_baseline" check "$chapter_run/thread-checklist.json"
@@ -271,9 +284,9 @@ to create a thread once or to pass the JavaScript verifier.
    ```
 
    The check requires the union of baseline and current candidates, catching clues that
-   vanished from a later star as well as new questions. Add rows for newly created
-   candidates reported as missing and assess them; do not regenerate over completed
-   work. Duplicate/missing IDs, wrong-run metadata and unfinished fields fail. This is
+   vanished from a later star as well as new questions. Use sync for missing candidates
+   or evidence fields instead of transcribing inventory markers or regenerating the
+   checklist over completed work. Duplicate/missing IDs, wrong-run metadata and unfinished fields fail. This is
    a mechanical coverage check, not a semantic PASS: it cannot establish that every
    subclue was followed, an explanation is accurate, or a mystery was correctly resolved.
    Progress and completion still require all three hard-gate review records.

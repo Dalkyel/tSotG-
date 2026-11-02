@@ -109,6 +109,45 @@ test('checklist rejects duplicate IDs, unknown IDs, placeholders and mismatched 
   }
 });
 
+test('checklist sync preserves notes and baseline-only clues, adds pending rows and reopens expanded fields', t => {
+  const f = fixture(t);
+  nodes(f.root, 1, [{ id: 'removed', star: 'old clue' }, { id: 'both', group: 'TRAMA' },
+    { id: 'unchanged', group: 'TRAMA' }]);
+  f.snapshot(1);
+  assert.equal(f.run(1, 'init').status, 0);
+  f.save(assess(f.read()));
+  const before = f.read();
+  nodes(f.root, 1, [{ id: 'removed', star: '' }, { id: 'both', group: 'TRAMA', star: 'new clue' },
+    { id: 'unchanged', group: 'TRAMA' }, { id: 'new', group: 'TRAMA', star: 'new evidence' }]);
+  const sync = f.run(1, 'sync');
+  assert.equal(sync.status, 0, sync.stderr);
+  assert.match(sync.stdout, /1 new candidates; 1 expanded evidence fields/);
+  const data = f.read();
+  for (const id of ['removed', 'unchanged'])
+    assert.deepEqual(data.items.find(i => i.id === id), before.items.find(i => i.id === id));
+  const expanded = data.items.find(i => i.id === 'both');
+  assert.deepEqual(expanded.fields, ['desc', 'star']);
+  assert.equal(expanded.assessment, null);
+  assert.equal(expanded.evidence, before.items.find(i => i.id === 'both').evidence);
+  assert.equal(expanded.remaining, before.items.find(i => i.id === 'both').remaining);
+  assert.deepEqual(data.items.find(i => i.id === 'new'), {
+    id: 'new', fields: ['desc', 'star'], assessment: null, evidence: '', remaining: '',
+  });
+  assert.notEqual(f.run(1, 'check').status, 0);
+  const bytes = fs.readFileSync(f.file, 'utf8');
+  assert.equal(f.run(1, 'sync').status, 0);
+  assert.equal(fs.readFileSync(f.file, 'utf8'), bytes);
+  f.save(assess(data));
+  assert.equal(f.run(1, 'check').status, 0);
+  for (const mutate of [d => d.chapter++, d => d.items.push({ ...d.items[0] }),
+    d => d.items.push({ id: 'unknown', fields: [] })]) {
+    const bad = structuredClone(data); mutate(bad); f.save(bad);
+    const original = fs.readFileSync(f.file, 'utf8');
+    assert.notEqual(f.run(1, 'sync').status, 0);
+    assert.equal(fs.readFileSync(f.file, 'utf8'), original);
+  }
+});
+
 test('rebuild checklist resolves caller paths, stays staged and forbids reference writes', t => {
   const f = fixture(t);
   const local = path.join(f.root, '.claude/skills/add-chapter/scripts');
