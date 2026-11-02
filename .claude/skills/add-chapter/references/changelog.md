@@ -79,3 +79,25 @@ actually fixed.
   environment's output-condensation layer, so success was reconfirmed afterward with a
   `grep -c` per id plus a final `node --check`. Generalized both into SKILL.md's
   append-node bullet.
+
+- 2026-11-02: Book One Ch19 rebuild — three fixes, all applied directly.
+  (1) Vesli's drafted node entry restated the full attack account (wall-climbers,
+  Thorkel barring the gate, his transformation, the clawed attacker, the tennúr
+  grabbing for Breca) nearly verbatim against both `orka`'s own narration and the
+  `thorkel-muerte` EVENTO's reconstruction — three copies of one paragraph, caught only
+  by the after-writing ownership audit, not prevented by it. Generalized into a new
+  SKILL.md ownership-gate bullet: testimony belongs on the event node; narrator/listener
+  entries get only their own stake plus a pointer.
+  (2) The chapter summary emphasized `Maður` (Old Norse for "man," used in Vesli's
+  broken speech) as `<strong>Maður</strong>`; the verifier failed with "does not resolve
+  completely to one node." `match-entities.cjs` and `search-descriptions.cjs` had already
+  returned `UNMATCHED`/`NO MATCHES` for it earlier in the same run — the information to
+  avoid this was already in hand, just not connected to the emphasis step. Added a line
+  to SKILL.md's summary section to check pending `<strong>` terms against step 2's
+  UNMATCHED/NO MATCHES results before writing them.
+  (3) `book1/rebuild/progress.json` already listed Chapter 18 as complete (all three gate
+  reviews present on disk), but `README.md`'s chronological log had no Chapter 18
+  paragraph — a prior session's gap that nothing would have caught before Chapter 19
+  started, since the two files are never cross-checked. Backfilled the missing paragraph
+  and added a step to `book1-rebuild.md` to check README against `completedChapters`
+  before starting a new chapter.

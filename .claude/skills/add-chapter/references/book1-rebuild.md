@@ -15,6 +15,12 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
 - Read `book1/rebuild/progress.json` first. Continue in chapter order; inspect existing
   work rather than duplicating a completed chapter. Read source XHTML from the project
   root with `read-chapter.py`, just as for HTML.
+- Before starting a new chapter, confirm `README.md`'s chronological log already has a
+  paragraph for every chapter number in `progress.json`'s `completedChapters` — the two
+  can drift silently, since nothing re-checks README once a chapter's gates pass and its
+  number is recorded (Chapter 18 was found fully gated, verified and committed to
+  `completedChapters`, but its README paragraph was never written, only surfacing when
+  Chapter 19 started). Append any missing paragraph before writing the current chapter's.
 - Stay in the project root and use `.claude/skills/add-chapter/scripts/rebuild.cjs` to
   run Node helpers (not a top-level `scripts/rebuild.cjs` — no such path exists; the
   launcher lives only under the skill's own `scripts/` directory). It derives
