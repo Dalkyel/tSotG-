@@ -116,10 +116,21 @@ no chapter facts. Once the scene identity is settled, stop reference retrieval a
 from the complete supplied source. Keep connected occurrences in the appropriate event
 rather than minting a differently named duplicate because the guessed id was unmatched.
 
-When locating reference records by source chapter, search the full marker
-`"LIBRO 2, CAPÍTULO 18"`, rather than `"CAPÍTULO 18"`: the shorter phrase also
-matches accumulated Book One history. These are literal phrase searches; use the
-recorded punctuation, and confirm candidate labels before retrieving event excerpts.
+When several new-to-context names or events come from the same reviewed chapter,
+start reference discovery with one candidate-only search for the full source marker.
+This can find the canonical event and named participants in the same pass, even when
+the event's title is unknown. For Chapter 24, this surfaced both
+`infiltracion-bloodsworn-darl` and `aesa`:
+
+```sh
+node .claude/skills/add-chapter/scripts/reprocess.cjs --reference search-descriptions 1 "LIBRO 2, CAPÍTULO 24"
+```
+
+Use the full marker with its recorded punctuation so accumulated Book One history
+does not match. Confirm plausible ids by label and, when needed, a targeted excerpt.
+A missing marker is inconclusive: legacy descriptions may omit it or use different
+wording. Continue with the participant-name search above when the chapter-marker
+results leave an identity unsettled.
 
 The backlog reader currently recognizes ORKA/VARG/ELVAR as POV filters. For Guðvarr or
 Biórr chapters, use the unfiltered prose, or select affected existing POV families plus

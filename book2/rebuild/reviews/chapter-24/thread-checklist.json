@@ -1,0 +1,1802 @@
+{
+  "book": 2,
+  "chapter": 24,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch24.MbPWpZ/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Mujer enjaulada, sensibilidad, relatos de Skullsplitter y llamada.",
+      "remaining": "Mujer enjaulada, sensibilidad, relatos de Skullsplitter y llamada."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Prueba de sangre y consecuencias en sangre-thorkel.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Paradero, salud y rescate de Breca.",
+      "remaining": "Paradero, salud y rescate de Breca."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Autores del ataque familiar.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Autores del ataque familiar.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Paradero y destino.",
+      "remaining": "Paradero y destino."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La creación con barro y aliento Seiðr amplía la tradición mítica, distinta del motivo geográfico conservado en la nota.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: Se conserva la observación temática de Guðfalla (Caída de Dioses). La escena no abre una cuestión sobre ella. Registro previo: LIBRO 2, CAPÍTULO 22: Se conserva la lectura temática de «Guðfalla (Caída de Dioses)» del capítulo anterior. El episodio en el claro no ofrece un nuevo elemento para reinterpretarla.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Responsables y Harek.",
+      "remaining": "Responsables y Harek."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Origen de las heridas del Fell-Wolf.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Siente un pulso creciente que atribuye a Orna y ordena esperar al lobo antes del combate. Jökul lo llama hermano sin juramento, y el mercado solo localiza una posible vía hacia Frøya.",
+      "remaining": "Causa de las percepciones, control sostenido en combate, padres, edad, vínculo y destino de Frøya, y juramento formal."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Identidad exacta entre los nombres y el liberto.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Einar Medio-Trol conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Einar Medio-Trol» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Varg pregunta por el mercado y sigue hacia la torre; no habla con Vol ni realiza el rito.",
+      "remaining": "Rito, destino de Frøya y eventual venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Contenido Revelado de la Bolsa de Varg conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Contenido Revelado de la Bolsa de Varg» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La contención previa al combate y el pulso de Orna amplían las observaciones de control y sensibilidad.",
+      "remaining": "Control sostenido en combate y señales visibles, causa de sensibilidad, padres, edad y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Alcance y autoría de los raptos.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Acercamiento a Hakon, supervivencia, uso de los pergaminos y reacción de Sigrún.",
+      "remaining": "Acercamiento a Hakon, supervivencia, uso de los pergaminos y reacción de Sigrún."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Plan político oculto y reacción a Elvar.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Causa de la sensibilidad.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La hora de la cena sirve para el plan, sin decisión observada de Helka sobre los jarls, Fellur o Störr.",
+      "remaining": "Alcance de expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Los niños del Grimholt están con el carro que guarda el equipo; la escena no sigue su destino ni aporta identidad o autoría para los raptos.",
+      "remaining": "Seguridad de esos niños, Harek, Breca y los demás desaparecidos, responsables y alcance."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Varg vuelve a pensar en el mercader que la vendió; es su recuerdo y convicción, sin nuevo testimonio sobre su muerte.",
+      "remaining": "Destino de Frøya y lo que pueda aclarar Brimil."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Reclamación de propiedad frente a la libertad de Varg.",
+      "remaining": "Reclamación de propiedad frente a la libertad de Varg."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Sucesión, Bjarn, Biórr y control de Ulfrir; pistas históricas preservadas.",
+      "remaining": "Sucesión, Bjarn, Biórr y control de Ulfrir; pistas históricas preservadas."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Juramento, pasado y Gytha.",
+      "remaining": "Juramento, pasado y Gytha."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Causa de los presentimientos.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: Se conserva la observación temática de Kráka. La escena no abre una cuestión sobre ella. Registro previo: LIBRO 2, CAPÍTULO 22: Se conserva la lectura temática de «Kráka» del capítulo anterior. El episodio en el claro no ofrece un nuevo elemento para reinterpretarla.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Cicatrices, familia y contradicciones de Biórr.",
+      "remaining": "Cicatrices, familia y contradicciones de Biórr."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Libertad futura en liberar-berak.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Asalto y Persecución en Iskalt conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Asalto y Persecución en Iskalt» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Mecanismo en percepcion-liberacion-lik-rifa.",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Mecanismo del aviso y sueños.",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Objeto Quemado de Iskalt: Graskinna conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Objeto Quemado de Iskalt: Graskinna» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: Se conserva la observación temática de Snakavik. La escena no abre una cuestión sobre ella. Registro previo: LIBRO 2, CAPÍTULO 22: Se conserva la lectura temática de «Snakavik» del capítulo anterior. El episodio en el claro no ofrece un nuevo elemento para reinterpretarla.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Plan paterno separado en plan-oculto-storr.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Venta de Berak (pendiente) conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Venta de Berak (pendiente)» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Control y aptitud contra Lik-Rifa.",
+      "remaining": "Control y aptitud contra Lik-Rifa."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Mujer enjaulada, sensibilidad y conciliación histórica.",
+      "remaining": "Mujer enjaulada, sensibilidad y conciliación histórica."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Resultado de la reclamación, eventual caza y tema del intercambio en Darl.",
+      "remaining": "Resultado de la reclamación, eventual caza y tema del intercambio en Darl."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Hechos, culpabilidad y resolución de sulich-crisis.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Pruebas, culpabilidad y desenlace de la reclamación.",
+      "remaining": "Pruebas, culpabilidad y desenlace de la reclamación."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Jökul lo llama hermano y Varg actúa con la compañía sin que se pronuncie un juramento.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Bjarn, Berak y control de Ulfrir.",
+      "remaining": "Bjarn, Berak y control de Ulfrir."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Causalidad de piedra-gusanos.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Si la roca los atrajo y cómo.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Referente de Thorkel permanece en otras preguntas.",
+      "remaining": "Referente de Thorkel permanece en otras preguntas."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Autores y motivo del ataque al fresno.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Partida Familiar Truncada conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Partida Familiar Truncada» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Sangre, detección y consecuencias.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Autores, motivo y conexión con raptos.",
+      "remaining": "Autores, motivo y conexión con raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Venganza por Virk y Mord y seguridad de Lif.",
+      "remaining": "Venganza por Virk y Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Si recibirá la enseñanza pedida.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Partida de Liga (Bloodsworn) conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Partida de Liga (Bloodsworn)» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: El nuevo pulso en Darl no vincula causalmente con la astilla la presión sentida en Liga.",
+      "remaining": "Causa de la sensación junto a la viga."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Salida de Liga Pendiente conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Salida de Liga Pendiente» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Garras, paradero de Breca y venganza.",
+      "remaining": "Garras, paradero de Breca y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Ubicación, salud y rescate.",
+      "remaining": "Ubicación, salud y rescate."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Circunstancias de su muerte.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Reconciliar parentesco y sucesión del antiguo jefe.",
+      "remaining": "Reconciliar parentesco y sucesión del antiguo jefe."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: La reclamación sigue en sulich-crisis.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Motivos completos respecto de Logur y crisis.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Garras, forja y desenlace de la venganza.",
+      "remaining": "Garras, forja y desenlace de la venganza."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Represalia en venganza-seaxes.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: El aviso sobre su séquito y aprendices es táctico; no aparece para aclarar ataques, collar o textos.",
+      "remaining": "Ataques del norte, sustitución del collar y contenido y autenticidad de las copias."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Amenaza-norte-helka sigue parcial.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Responsables, víctimas y alcance.",
+      "remaining": "Responsables, víctimas y alcance."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Crisis continúa separada.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Plan de Störr para Elvar.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Hrung conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Hrung» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Llegada a Snakavik y Venta de Berak a Jarl Störr conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Llegada a Snakavik y Venta de Berak a Jarl Störr» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Revelación de Elvar como Hija de Jarl Störr conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Revelación de Elvar como Hija de Jarl Störr» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia.",
+      "remaining": "Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Consecuencias en fuga-orka-fellur.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Agente y desenlace de la orden, reacción de Sigrún y consecuencias legales.",
+      "remaining": "Agente y desenlace de la orden, reacción de Sigrún y consecuencias legales."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: Se conserva la observación temática de Thorun. La escena no abre una cuestión sobre ella. Registro previo: LIBRO 2, CAPÍTULO 22: Se conserva la lectura temática de «Thorun» del capítulo anterior. El episodio en el claro no ofrece un nuevo elemento para reinterpretarla.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: Se conserva la observación temática de Broðir. La escena no abre una cuestión sobre ella. Registro previo: LIBRO 2, CAPÍTULO 22: Se conserva la lectura temática de «Broðir» del capítulo anterior. El episodio en el claro no ofrece un nuevo elemento para reinterpretarla.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Historia compartida y obligaciones.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Plan oculto registrado aparte.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Plan-oculto-storr.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Rescate de Bjarn separado.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Venganza, formación y consecuencias en sus tramas.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Preparación para vencer a Guðvarr.",
+      "remaining": "Preparación para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Intención real de Störr.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Rescate-bjarn.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Recuperar a Bjarn y cumplir juramento.",
+      "remaining": "Recuperar a Bjarn y cumplir juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de ¿Conoce Uspa el Camino a Oskutreð? conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «¿Conoce Uspa el Camino a Oskutreð?» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Desenlace del feudo colectivo.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Cumplimiento del rito.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Destino de criatura y nexo no demostrado.",
+      "remaining": "Destino de criatura y nexo no demostrado."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Constructor del puente, origen de la huella y resistencia al fuego.",
+      "remaining": "Constructor del puente, origen de la huella y resistencia al fuego."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Rescate obligado y alcance del vínculo.",
+      "remaining": "Rescate obligado y alcance del vínculo."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Plan paterno y reacción a decisión.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Destino de sus habitantes.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Amenaza-norte-helka.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Consecuencias y formación renovada en otras tramas.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Rescate-breca.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Identidad, linaje y libertad del guerrero de Snakavik.",
+      "remaining": "Identidad, linaje y libertad del guerrero de Snakavik."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Conocimiento o autorización de Helka.",
+      "remaining": "Conocimiento o autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Identidad exacta, retraso y reencuentro.",
+      "remaining": "Identidad exacta, retraso y reencuentro."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Paradero y salud de Breca.",
+      "remaining": "Paradero y salud de Breca."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Resto de preguntas en sus tramas.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Akall continúa aparte.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Autoría y mecanismo de matanza.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Significado de la marca.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Alcance de lo oculto y conocimiento, permiso u órdenes de Helka.",
+      "remaining": "Alcance de lo oculto y conocimiento, permiso u órdenes de Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Historia afectiva y reencuentro.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Autores, número y amenaza próxima.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Autor de huella y puente.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Objetivo de Varg en akall.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: El pulso atribuido a Orna se percibe cerca de su esqueleto; la garra no interviene de forma aislable.",
+      "remaining": "Mecanismo de poder de la garra y causa de la sensibilidad."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Varg Sobrevive a la Espada de Hueso conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Varg Sobrevive a la Espada de Hueso» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Quién, cuándo/por qué, familia y represalia.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Venta, usos y consecuencias posteriores del botín.",
+      "remaining": "Venta, usos y consecuencias posteriores del botín."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Entran en Darl por separado y llegan cerca de la torre. El estallido precede a cualquier acceso o rescate mostrado.",
+      "remaining": "Entrada, liberación, posible cambio de collar, retirada de suturas y salida o reunión con el Sea-Wolf."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Ocupantes, salida de Rotta y destino de Breca.",
+      "remaining": "Ocupantes, salida de Rotta y destino de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Autoría y conexiones del altar.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: El disturbio se oye sin ver a los autores ni observar señales del culto.",
+      "remaining": "Autores de altares y conexión con la red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Control en pasado-varg.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Juramento y rescate en tramas respectivas.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Portador de Orna y genealogía exacta de Biórr.",
+      "remaining": "Portador de Orna y genealogía exacta de Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Circunstancias de muerte.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Consecuencias en destino-tesoros-oskutred.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Venganza-ilska.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Identidades restantes en trama.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Mujer del sabueso y composición restante de captores.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Holmganga: Agnar vs Skrið conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Holmganga: Agnar vs Skrið» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Propósito y destinos en ninos-robados/rescate.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Cicatrices/genealogía quedan aparte.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Cicatrices aparte.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Papel de Hakon y composición de los captores en tramas separadas.",
+      "remaining": "Papel de Hakon y composición de los captores en tramas separadas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Muerte Confirmada de Mord en el Grimholt conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Muerte Confirmada de Mord en el Grimholt» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Niños y conocimiento de Helka aparte.",
+      "remaining": "Niños y conocimiento de Helka aparte."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Uspa Sobrevive a la Apertura de Oskutreð conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Uspa Sobrevive a la Apertura de Oskutreð» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Muerte de Vörn Confirmada conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Muerte de Vörn Confirmada» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Nastrandir, reunión y campaña divina.",
+      "remaining": "Nastrandir, reunión y campaña divina."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Preguntas conservadas en sus tramas.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: LIBRO 2, CAPÍTULO 23: El episodio de Sepultura de Mord Cumplida conserva su desenlace anterior. La escena de Darl no reabre su evidencia. Registro previo: LIBRO 2, CAPÍTULO 22: El episodio en el claro no contradice el desenlace histórico de «Sepultura de Mord Cumplida» documentado en el checklist del capítulo 21.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Mecanismo y alcance del aviso y sueños.",
+      "remaining": "Mecanismo y alcance del aviso y sueños."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Si Elvar mata a Biórr.",
+      "remaining": "Si Elvar mata a Biórr."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Poder del arco frente a flechas.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Forja y relación de seaxes.",
+      "remaining": "Forja y relación de seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Jökul nombra a Yrsa como juramentada de Skalk y vuelve a plantear la venganza si la encuentra; recuerda Varg la muerte.",
+      "remaining": "Encuentro con Yrsa y cumplimiento y alcance de la represalia."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Contenido, cubierta y protecciones.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Detalles no aclarados conservados como límites.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Control, recuperación, encuentro y victoria.",
+      "remaining": "Control, recuperación, encuentro y victoria."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Alcance, mecanismos y cubierta.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Recogida y entrega del encargo.",
+      "remaining": "Recogida y entrega del encargo."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Recogida, destino de los hallazgos y entrega en la costa.",
+      "remaining": "Recogida, destino de los hallazgos y entrega en la costa."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Sometimiento efectivo y recuperación.",
+      "remaining": "Sometimiento efectivo y recuperación."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Intento prometido y libertad.",
+      "remaining": "Intento prometido y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: El lobo de Varg es una experiencia interna en vigilia; no muestra un emisor compartido con la llamada de Orka.",
+      "remaining": "Emisor, origen y atracción."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Svik exige ocultar la condición Tainted en Darl; la orden a su grupo no muestra a Lif ni cambia lo que sabe o la protección que recibe.",
+      "remaining": "Qué entendió Lif y cómo se resolverá la tensión con el secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: El gruñido interior en vigilia no identifica al hombre del sueño ni su llamada.",
+      "remaining": "Identidad, origen y significado de la llamada."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Destino de Frøya.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Pista de compra de Frøya.",
+      "remaining": "Pista de compra de Frøya."
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Frøya y Brimil en sus tramas.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Control autónomo y alcance de culto aparte.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Svik vuelve a bromear y dirige la aproximación, sin explicar su desasosiego desde el Grimholt.",
+      "remaining": "Causa del desasosiego."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "Los Tennúr Deben Guardar el Isbrún",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Destino de los pocos supervivientes y posible reunión con Lik-Rifa.",
+      "remaining": "Destino de los pocos supervivientes y posible reunión con Lik-Rifa."
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Breca, tatuajes y Rotta en sus tramas.",
+      "remaining": "Breca, tatuajes y Rotta en sus tramas."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Significado, portadores y universalidad.",
+      "remaining": "Significado, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Ruptura del encierro y destino posterior.",
+      "remaining": "Ruptura del encierro y destino posterior."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: El grupo cruza el anillo comercial sin examinar las jaulas ni identificar a los expuestos.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Las alas siguen visibles y el equipo solo se aproxima a la torre. No se revisan huesos, informe ni textos.",
+      "remaining": "Identidad de otros huesos, contenido y autenticidad de copias y efecto del informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "¿Quién Sucederá a Agnar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Jefatura, decisión de Elvar y eventual duelo.",
+      "remaining": "Jefatura, decisión de Elvar y eventual duelo."
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Propone Enfrentarse a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Æsa ubica el mercado; Svik aparta a Varg de esa búsqueda.",
+      "remaining": "Encuentro con Brimil, posible ajuste de cuentas y noticias de Frøya."
+    },
+    {
+      "id": "audiencia-gudvarr-helka",
+      "label": "La Recompensa y el Encargo de Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Qué pidió Jaromir y a quién se refería el fragmento sobre Seiðr.",
+      "remaining": "Qué pidió Jaromir y a quién se refería el fragmento sobre Seiðr."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "label": "El Encargo de Guðvarr sobre Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Acercamiento, descubrimientos y resultado.",
+      "remaining": "Acercamiento, descubrimientos y resultado."
+    },
+    {
+      "id": "aprendizaje-estrid-frek",
+      "label": "La Petición de Instrucción de Estrid",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Si recibe la instrucción y qué aprende.",
+      "remaining": "Si recibe la instrucción y qué aprende."
+    },
+    {
+      "id": "venganza-halja",
+      "label": "Halja Quiere Ajustar Cuentas por Vali",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Quiénes dieron la orden y si Halja logra alcanzarlos.",
+      "remaining": "Quiénes dieron la orden y si Halja logra alcanzarlos."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "label": "¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Relación, si existe, entre la muerte de Thorkel, el rapto de Breca y la vuelta de Lik-Rifa.",
+      "remaining": "Relación, si existe, entre la muerte de Thorkel, el rapto de Breca y la vuelta de Lik-Rifa."
+    },
+    {
+      "id": "kuru",
+      "label": "Kuru",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Supervivencia de Kuru.",
+      "remaining": "Supervivencia de Kuru."
+    },
+    {
+      "id": "implantacion-hyrndur",
+      "label": "El Espía dentro del Espía",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Identidad, continuidad entre avistamientos y posible función del halcón.",
+      "remaining": "Identidad, continuidad entre avistamientos y posible función del halcón."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "label": "El Control del Hyrndur sobre Guðvarr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 24: La aproximación de Svik a la torre en el capítulo 24 no aporta evidencia sobre este asunto. Evidencia y alcance conservados: Dónde se aloja, qué detecta y si se extrae sin matar a Guðvarr.",
+      "remaining": "Dónde se aloja, qué detecta y si se extrae sin matar a Guðvarr."
+    },
+    {
+      "id": "origen-estallido-darl",
+      "label": "¿Qué Provocó el Estallido cerca de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 24: Grito cortado, tumulto, acero, caballos y explosión cerca de la torre. El grupo corre sin averiguar el origen.",
+      "remaining": "Quién lucha, qué causa la explosión y cómo afecta el rescate."
+    }
+  ]
+}

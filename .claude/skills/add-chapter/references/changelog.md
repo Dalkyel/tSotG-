@@ -1,5 +1,9 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch24 — the full chapter marker surfaced the canonical
+  infiltration event and Æsa in one candidate search. Added the lookup order
+  and fallback to the Book Two reprocessing guide.
+
 - 2026-11-03: Book Two Ch23 — compact backlog pages cut across candidate records
   because the entire selection was one line. Compact JSON now places each candidate
   on its own line and prefers those boundaries within the same page limit.
