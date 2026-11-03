@@ -38,6 +38,79 @@ function compose(one, reference, reviewed, chapter) {
     summaries: [...reviewed.summaries, ...reference.summaries.filter(x => x.chapter > chapter)],
   };
 }
+function effectiveReference(stateRoot, state) {
+  const reference = A.loadBook(path.join(stateRoot, 'reference'), 2);
+  for (const [kind, hash] of Object.entries(state.reconciledHashes ?? {})) {
+    assert.ok(['nodes', 'links'].includes(kind), 'Unsupported reconciled record kind');
+    const file = path.join(stateRoot, `reconciled/book2/${kind}.js`);
+    assert.equal(A.hash(fs.readFileSync(file)), hash, 'Reconciled later records changed outside reconciliation');
+    reference[kind] = A.read(path.join(stateRoot, 'reconciled'), 2, kind);
+  }
+  return reference;
+}
+function reconcileLater(root, stateRoot, state, stateText, progressFile, args) {
+  assert.equal(args.length, 1, 'Usage: reprocess.cjs reconcile-later SPEC.json');
+  const spec = JSON.parse(fs.readFileSync(path.resolve(args[0]), 'utf8'));
+  assert.ok(typeof spec.log === 'string' && spec.log.trim(), 'Supply a reconciliation log');
+  assert.ok(['nodes','links'].some(k => Array.isArray(spec[k]) && spec[k].length), 'Supply explicit before/after records');
+  const actualHashes = A.hashes(root);
+  assert.deepEqual(actualHashes, spec.liveHashes, 'Live archive changed since reconciliation review');
+  for (const file of Object.keys(state.liveHashes).filter(file => !['book2/nodes.js','book2/links.js'].includes(file)))
+    assert.equal(actualHashes[file], state.liveHashes[file], 'Only later Book Two node/link edits can be reconciled');
+  const reference = effectiveReference(stateRoot, state), one = A.loadBook(root, 1);
+  const reviewed = A.loadBook(path.join(stateRoot, 'reviewed'), 2), cap = state.completedChapters.length;
+  for (const change of [...(spec.nodes ?? []), ...(spec.links ?? [])])
+    assert.ok(change.chapter > cap, 'Cannot reconcile the reviewed prefix or front matter');
+  const expected = cap ? compose(one, reference, reviewed, cap) : structuredClone(reference);
+  const live = A.loadBook(root, 2), changes = new Map();
+  let count = 0;
+  for (const kind of ['nodes','links']) {
+    assert.equal(A.hash(A.render(expected[kind], kind, 2)), state.liveHashes[`book2/${kind}.js`], `Cannot reconstruct expected live ${kind}`);
+    assert.equal(live[kind].length, expected[kind].length, 'Reconciliation cannot add or remove records');
+    const changed = new Set();
+    for (const change of spec[kind] ?? []) {
+      const i = change.index;
+      assert.ok(Number.isInteger(i) && i >= 0 && i < expected[kind].length && !changed.has(i), 'Invalid or duplicate record index');
+      changed.add(i);
+      assert.ok(expected[kind][i].chapter > cap, 'Cannot reconcile the reviewed prefix or front matter');
+      assert.equal(change.chapter, expected[kind][i].chapter, 'Chapter ownership differs');
+      assert.equal(live[kind][i].chapter, change.chapter, 'Live chapter ownership changed');
+      assert.deepEqual(change.before, expected[kind][i].value, 'Before record does not match expected archive');
+      assert.deepEqual(change.after, live[kind][i].value, 'After record does not match live archive');
+      assert.notDeepEqual(change.before, change.after, 'Reconciliation record is unchanged');
+      const ordinal = expected[kind].slice(0, i).filter(x => x.chapter === change.chapter).length;
+      const target = reference[kind].filter(x => x.chapter === change.chapter)[ordinal];
+      assert.ok(target, 'Missing reference record');
+      target.value = change.after;
+    }
+    expected[kind].forEach((record, i) => {
+      if (!changed.has(i)) {
+        assert.equal(live[kind][i].chapter, record.chapter, 'Unreviewed chapter move');
+        assert.deepEqual(live[kind][i].value, record.value, 'Unreviewed node/link change');
+      }
+    });
+    if (changed.size) {
+      const text = A.render(reference[kind], kind, 2);
+      changes.set(path.join(stateRoot, `reconciled/book2/${kind}.js`), text);
+      state.reconciledHashes ??= {}; state.reconciledHashes[kind] = A.hash(text);
+      count += changed.size;
+    }
+  }
+  const recomposed = cap ? compose(one, reference, reviewed, cap) : reference;
+  for (const kind of ['nodes','links'])
+    assert.equal(A.hash(A.render(recomposed[kind], kind, 2)), actualHashes[`book2/${kind}.js`], 'Reconciled records do not reproduce the live archive');
+  validateCombined(one, live, root);
+  const audit = `reconciliations/${(state.reconciliations?.length ?? 0) + 1}.json`;
+  state.reconciliations ??= [];
+  state.reconciliations.push({ file: audit, log: spec.log, chapters: [...new Set([...(spec.nodes ?? []), ...(spec.links ?? [])].map(x => x.chapter))], liveHashes: actualHashes });
+  state.liveHashes = actualHashes;
+  changes.set(path.join(stateRoot, audit), JSON.stringify(spec, null, 2) + '\n');
+  changes.set(progressFile, JSON.stringify(state, null, 2) + '\n');
+  assert.deepEqual(A.hashes(root), actualHashes, 'Live archive changed during reconciliation');
+  assert.equal(fs.readFileSync(progressFile, 'utf8'), stateText, 'Progress changed during reconciliation');
+  A.writeTransaction(changes);
+  console.log(`RECONCILED: ${count} later records preserved; immutable reference, live files and active chapter context unchanged.`);
+}
 function main(argv, root = path.resolve(__dirname, '../../../..')) {
   const stateRoot = path.join(root, 'book2/rebuild'), progressFile = path.join(stateRoot, 'progress.json');
   const [command, ...args] = argv;
@@ -52,9 +125,11 @@ function main(argv, root = path.resolve(__dirname, '../../../..')) {
   }
   const stateText = fs.readFileSync(progressFile, 'utf8'), state = JSON.parse(stateText);
   assert.deepEqual(state.completedChapters, Array.from({ length: state.completedChapters.length }, (_, i) => i + 1), 'Nonconsecutive Book Two progress');
-  assert.deepEqual(A.hashes(root), state.liveHashes, 'Live archive changed outside reprocessing; reconcile explicitly before continuing');
   assert.deepEqual(A.hashes(path.join(stateRoot, 'reference')), state.referenceHashes, 'Immutable Book Two reference changed');
   for (const kind of kinds) assert.equal(A.hash(fs.readFileSync(path.join(stateRoot, `reviewed/book2/${kind}.js`))), state.reviewedHashes[kind], 'Reviewed prefix changed outside completion');
+  if (command === 'reconcile-later') return reconcileLater(root, stateRoot, state, stateText, progressFile, args);
+  assert.deepEqual(A.hashes(root), state.liveHashes, 'Live archive changed outside reprocessing; reconcile explicitly before continuing');
+  effectiveReference(stateRoot, state);
   const next = state.completedChapters.length + 1;
   if (command === 'check-chapter') {
     assert.equal(args.length, 1); assert.equal(Number(args[0]), next, 'Reprocess chapters consecutively; inspect completed work rather than duplicating it');
@@ -95,7 +170,7 @@ function main(argv, root = path.resolve(__dirname, '../../../..')) {
     }
     child('verify-chapter', [next, active.baseline, '--staged-preview'], context);
     child('review-backlog', [next, active.baseline, 'check', path.join(active.run, 'thread-checklist.json')], context);
-    const one = A.loadBook(root, 1), reference = A.loadBook(path.join(stateRoot, 'reference'), 2), reviewed = A.loadBook(context, 2);
+    const one = A.loadBook(root, 1), reference = effectiveReference(stateRoot, state), reviewed = A.loadBook(context, 2);
     assert.deepEqual(reviewed.summaries.map(x => x.value.chapter), [...state.completedChapters, next], 'Reviewed summaries do not match progress');
     const live = compose(one, reference, reviewed, next); validateCombined(one, live, root);
     const changes = new Map();

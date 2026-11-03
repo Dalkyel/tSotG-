@@ -636,3 +636,14 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   caught source qualifiers between a preposition and its target and an accusation acting
   as the agent that prevents violence; added natural attributed-sentence and subject-role
   examples to the link rules. Fully incorporated; chapter data unchanged by this follow-up.
+
+- 2026-11-02: Book Two Ch2 — reference identity reads for Orv and captura-skuld
+  exposed full later-book profiles. Added targeted reference-description excerpts to
+  book2-reprocessing.md; mandatory chronological full reads remain unchanged.
+  Concurrent Drammur canonical-id repairs changed two profiles and five links after
+  prepare. Added guarded reconcile-later with separate effective-reference files,
+  exact before/after audit specs, all-record preservation checks and regression tests.
+  Original references and the chapter’s active baseline/context stay unchanged.
+  Updated integration regressions to compare reprocessed summaries with their reviewed
+  checkpoint while retaining original-prose checks on every unreviewed summary, and
+  to follow Mord’s source-reviewed event connection instead of a retired legacy edge.

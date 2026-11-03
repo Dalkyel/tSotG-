@@ -1,0 +1,141 @@
+{
+  "log": "User explicitly authorized preserving and reconciling the concurrent Drammur edits. Two later records in chapters 12 and 19 reuse canonical drammur, retain its Book One history, and preserve the external descriptions and previousState notes exactly. This reconciliation preserves external source work without certifying those later chapters as reprocessed.",
+  "liveHashes": {
+    "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
+    "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
+    "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
+    "book2/nodes.js": "b1b5f80fb2daba9f250676a60584f09a69b7a61726a671fd6fd16529f49eba1c",
+    "book2/links.js": "4bbfa4d314fdf419df3dd85f4b79de194d929b11cc012177e4870ec118ea38b8",
+    "book2/summaries.js": "8711e763d7e33ef38c69c2f18ac9b47bf0d110fa799ab77ecf04cf742b2c0fcf"
+  },
+  "nodes": [
+    {
+      "index": 155,
+      "chapter": 12,
+      "before": {
+        "id": "rio-drammur",
+        "label": "Río Drammur",
+        "group": "LUGAR",
+        "type": "Lugar — Río",
+        "desc": "LIBRO 2, CAPÍTULO 12: río por el que las dos snekkes de los supervivientes del Grimholt descienden hacia Darl. Tras cuatro días de remo han salido del valle escarpado que talla entre las Boneback; la corriente se hace más lenta y las orillas se abren a colinas y llanuras que descienden hacia el mar. Skapti calcula que aún falta un día hasta Darl.",
+        "star": ""
+      },
+      "after": {
+        "id": "drammur",
+        "label": "Drammur",
+        "group": "LUGAR",
+        "type": "Lugar — Río",
+        "desc": "LIBRO 1, CAPÍTULO 31: Río ancho y transitado del trayecto entre Fellur y Darl. No se identifica con el río que atraviesa el puerto de Darl. El desvío seguido para eludir una posible persecución se documenta en viaje-darl. LIBRO 2, CAPÍTULO 12: río por el que las dos snekkes de los supervivientes del Grimholt descienden hacia Darl. Tras cuatro días de remo han salido del valle escarpado que talla entre las Boneback; la corriente se hace más lenta y las orillas se abren a colinas y llanuras que descienden hacia el mar. Skapti calcula que aún falta un día hasta Darl.",
+        "star": "",
+        "status": "updated",
+        "previousState": "LIBRO 1: descrito como un río del trayecto Fellur–Darl, sin confirmar si era el mismo que cruza el puerto de Darl."
+      }
+    },
+    {
+      "index": 245,
+      "chapter": 19,
+      "before": {
+        "id": "rio-drammur",
+        "label": "Río Drammur",
+        "group": "LUGAR",
+        "type": "Lugar — Río",
+        "desc": "LIBRO 2, CAPÍTULO 12: río por el que las dos snekkes de los supervivientes del Grimholt descienden hacia Darl. Tras cuatro días de remo han salido del valle escarpado que talla entre las Boneback; la corriente se hace más lenta y las orillas se abren a colinas y llanuras que descienden hacia el mar. Skapti calcula que aún falta un día hasta Darl. LIBRO 2, CAPÍTULO 19: Varg y Røkia cruzan un puente de madera recién reparado, con marcas de fuego en los tablones antiguos, sobre un barranco recorrido por uno de sus afluentes; el puente no recibe nombre. Desde allí ven el Drammur ancho y lento, serpenteando por la llanura alrededor de Darl. Glornir planea seguir el río hacia el sur después de recuperar a Vol para encontrar al Sea-Wolf.",
+        "star": "",
+        "status": "updated",
+        "previousState": "Ruta de los fugitivos hacia Darl; se abre a las llanuras al salir de las Boneback."
+      },
+      "after": {
+        "id": "drammur",
+        "label": "Drammur",
+        "group": "LUGAR",
+        "type": "Lugar — Río",
+        "desc": "LIBRO 1, CAPÍTULO 31: Río ancho y transitado del trayecto entre Fellur y Darl. No se identifica con el río que atraviesa el puerto de Darl. El desvío seguido para eludir una posible persecución se documenta en viaje-darl. LIBRO 2, CAPÍTULO 12: río por el que las dos snekkes de los supervivientes del Grimholt descienden hacia Darl. Tras cuatro días de remo han salido del valle escarpado que talla entre las Boneback; la corriente se hace más lenta y las orillas se abren a colinas y llanuras que descienden hacia el mar. Skapti calcula que aún falta un día hasta Darl. LIBRO 2, CAPÍTULO 19: Varg y Røkia cruzan un puente de madera recién reparado, con marcas de fuego en los tablones antiguos, sobre un barranco recorrido por uno de sus afluentes; el puente no recibe nombre. Desde allí ven el Drammur ancho y lento, serpenteando por la llanura alrededor de Darl. Glornir planea seguir el río hacia el sur después de recuperar a Vol para encontrar al Sea-Wolf.",
+        "star": "",
+        "status": "updated",
+        "previousState": "Ruta de los fugitivos hacia Darl; se abre a las llanuras al salir de las Boneback. Confirma que es el mismo río que cruza el puerto de Darl, algo que Libro 1 había dejado sin identificar."
+      }
+    }
+  ],
+  "links": [
+    {
+      "index": 222,
+      "chapter": 12,
+      "before": {
+        "source": "huida-drammur",
+        "target": "rio-drammur",
+        "label": "desciende hacia Darl por el",
+        "type": "geo"
+      },
+      "after": {
+        "source": "huida-drammur",
+        "target": "drammur",
+        "label": "desciende hacia Darl por el",
+        "type": "geo"
+      }
+    },
+    {
+      "index": 223,
+      "chapter": 12,
+      "before": {
+        "source": "rio-drammur",
+        "target": "darl",
+        "label": "ruta fluvial de los fugitivos hacia",
+        "type": "geo"
+      },
+      "after": {
+        "source": "drammur",
+        "target": "darl",
+        "label": "ruta fluvial de los fugitivos hacia",
+        "type": "geo"
+      }
+    },
+    {
+      "index": 237,
+      "chapter": 12,
+      "before": {
+        "source": "drengr-arrojado-drammur",
+        "target": "rio-drammur",
+        "label": "el herido desaparece bajo las aguas del",
+        "type": "event"
+      },
+      "after": {
+        "source": "drengr-arrojado-drammur",
+        "target": "drammur",
+        "label": "el herido desaparece bajo las aguas del",
+        "type": "event"
+      }
+    },
+    {
+      "index": 363,
+      "chapter": 19,
+      "before": {
+        "source": "campamento-bloodsworn-darl",
+        "target": "rio-drammur",
+        "label": "prevé una marcha al sur siguiendo el",
+        "type": "geo"
+      },
+      "after": {
+        "source": "campamento-bloodsworn-darl",
+        "target": "drammur",
+        "label": "prevé una marcha al sur siguiendo el",
+        "type": "geo"
+      }
+    },
+    {
+      "index": 503,
+      "chapter": 29,
+      "before": {
+        "source": "partida-darl-liga",
+        "target": "rio-drammur",
+        "label": "sigue el curso del",
+        "type": "geo"
+      },
+      "after": {
+        "source": "partida-darl-liga",
+        "target": "drammur",
+        "label": "sigue el curso del",
+        "type": "geo"
+      }
+    }
+  ]
+}

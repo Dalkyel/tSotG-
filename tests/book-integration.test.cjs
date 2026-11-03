@@ -4,6 +4,8 @@ const A = require('../.claude/skills/add-chapter/scripts/archive-records.cjs');
 const { validateCombined } = require('../.claude/skills/add-chapter/scripts/reprocess.cjs');
 const root = path.resolve(__dirname, '..');
 const one = A.loadBook(root, 1), two = A.loadBook(root, 2);
+const state = JSON.parse(fs.readFileSync(path.join(root, 'book2/rebuild/progress.json')));
+const reviewed = A.loadBook(path.join(root, 'book2/rebuild/reviewed'), 2);
 test('live Book One is the complete rebuilt archive and both books resolve every endpoint and emphasized summary mention', () => {
   for (const kind of ['nodes', 'links', 'summaries']) assert.equal(fs.readFileSync(`${root}/book1/${kind}.js`, 'utf8'), fs.readFileSync(`${root}/book1/rebuild/book1/${kind}.js`, 'utf8'));
   assert.deepEqual(one.summaries.map(x => x.value.chapter), Array.from({ length: 53 }, (_, i) => i + 1));
@@ -22,16 +24,23 @@ test('every later shared profile preserves the rebuilt Book One history and indi
   const links = two.links.map(x => x.value);
   assert.ok(links.some(l => l.source === 'halja' && l.target === 'lif'));
   assert.ok(links.some(l => l.source === 'yrsa' && l.target === 'vol'));
-  assert.ok(links.some(l => l.source === 'mord' && l.target === 'grimholt'));
+  if (state.completedChapters.includes(1)) {
+    assert.ok(links.some(l => l.source === 'tumulo-mord' && l.target === 'mord'));
+    assert.ok(links.some(l => l.source === 'tumulo-mord' && l.target === 'grimholt'));
+  } else assert.ok(links.some(l => l.source === 'mord' && l.target === 'grimholt'));
   assert.ok(links.some(l => l.source === 'myrk' && l.target === 'hombre-ojos-rojos'));
   assert.ok(links.some(l => l.source === 'breca' && l.target === 'ulfhednar-linaje'));
   assert.ok(!links.some(l => l.source === 'breca' && l.target === 'guardia-ulfhednar-helka'));
 });
-test('original archives and promoted reference remain recoverable without changing visible summary prose', () => {
+test('reviewed chapters match their checkpoint and unreviewed summaries preserve original visible prose', () => {
   const backup = A.loadBook(path.join(root, 'book1/rebuild/integration/before'), 2);
   const plain = text => text.replace(/<[^>]*>/g, '');
-  for (let i = 0; i < backup.summaries.length; i++) assert.equal(plain(two.summaries[i].value.summary), plain(backup.summaries[i].value.summary));
-  const state = JSON.parse(fs.readFileSync(path.join(root, 'book2/rebuild/progress.json')));
+  for (const item of backup.summaries) {
+    const current = two.summaries.find(x => x.chapter === item.chapter);
+    if (state.completedChapters.includes(item.chapter)) {
+      assert.deepEqual(current.value, reviewed.summaries.find(x => x.chapter === item.chapter).value);
+    } else assert.equal(plain(current.value.summary), plain(item.value.summary));
+  }
   assert.deepEqual(A.hashes(path.join(root, 'book2/rebuild/reference')), state.referenceHashes);
 });
 test('promoted Book One refuses further staged writes', () => {

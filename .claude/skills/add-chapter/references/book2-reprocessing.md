@@ -74,6 +74,19 @@ unchanged for unfinished drafts. Use the original baseline and retain the exact 
 manifest. Review flags belong to verify, not append. Summary verification intentionally
 uses empty guides in context, so use the confirmed canonical names as in Book One.
 
+For reference-only identity checks, start with `--reference match-entities`.
+When prose is needed to distinguish candidates, prefer a targeted excerpt before
+`--reference read-latest`, which can expose the entity’s entire later-book history:
+
+```sh
+node .claude/skills/add-chapter/scripts/reprocess.cjs --reference search-descriptions 1 "Orv" --id orv-sneak --max-excerpts 1
+```
+
+A reference match establishes a candidate canonical id, not chapter evidence. Stop
+once identity is settled; compose the entry from the current chapter alone. Use the
+full reference entry only if the bounded excerpt cannot settle identity. This does not
+replace the mandatory full chronological-context read before updating an existing node.
+
 The backlog reader currently recognizes ORKA/VARG/ELVAR as POV filters. For Guðvarr or
 Biórr chapters, use the unfiltered prose, or select affected existing POV families plus
 all untagged candidates only when the review gate's relevance conditions justify it.
@@ -118,6 +131,38 @@ write failures; this is not crash-atomic. Hash drift, missing reviews, source ch
 out-of-order chapters and duplicate completion fail without publishing. Do not rewrite
 recorded hashes to suppress a mismatch. External edits need an explicit reconciliation
 and their own preservation review.
+
+## Reconcile an external later-chapter edit
+
+When the hash guard reports an external edit, preserve the live files and active run.
+Review the actual differences before accepting them. `reconcile-later` supports
+replacements of existing later Book Two node/link records; it rejects front matter,
+reviewed chapters, added/deleted records, changed Book One files or summaries, omitted
+changes and intervening drift. Other edit kinds still require a separate repair.
+Do not overwrite the immutable reference or hand-edit hashes.
+
+Create a JSON spec beside the active run’s baseline with a nonempty `log` explaining
+the authorized repair, `liveHashes` from `archive-records.cjs`’s `hashes(root)`, and
+`nodes`/`links` arrays of changes. Each change contains the zero-based parsed array
+`index`, owning `chapter`, and exact `before`/`after` objects. Reconstruct `before`
+from the last published archive, using `compose` with the reviewed checkpoint and
+the effective reference (original reference with any hash-checked `reconciled/`
+files substituted); do not use the unfinished active context. Compare all parsed
+records and review every changed field, including canonical-id endpoint repairs.
+
+```sh
+node .claude/skills/add-chapter/scripts/reprocess.cjs reconcile-later RUN/reconciliation.json
+```
+
+The command verifies every before/after object and all untouched records, reproduces
+the live archive from the proposed corrections, and validates endpoints and summary
+mentions before accepting new hashes. It writes separate `reconciled/book2/` files
+and an exact audit spec under `book2/rebuild/reconciliations/`, leaving live files,
+the immutable reference, the active baseline and drafting context unchanged. Later
+publications rebase this effective reference onto reviewed history; a corrected
+chapter is replaced normally when its own source is eventually reprocessed. Record
+the reconciliation and preservation checks in the current completion log. It is
+preservation of external work, not source-review completion for those later chapters.
 
 After each completion, inspect the combined live archive, its connections and both book
 summary tabs when browser access permits. Respect the existing local-file browser

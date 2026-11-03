@@ -2,7 +2,8 @@
   "status": "in-progress",
   "book": 2,
   "completedChapters": [
-    1
+    1,
+    2
   ],
   "chapters": [
     {
@@ -11,15 +12,22 @@
       "sourceHash": "216e4bc101bc6dcdad9f6d5e119724c407ecbf3c8aa3a2e513f9aba71df015be",
       "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch1.QsmT9k",
       "log": "Chapter 1: Reprocessed the complete source into 21 node revisions, 49 links and a Spanish summary. Recorded Orka’s wolf blood and voluntary departure with Thorkel, qualified conflicting Skullsplitter testimony, confirmed Mord’s death and retired the survival thread, retained pending burial and captured the river escape/dragon warning without claiming later outcomes. Ownership, event and 140-item clue reviews pass. All eight required regression suites passed. Local file preview was blocked by browser URL security policy; visual confirmation remains manual. All later live chapters retained."
+    },
+    {
+      "chapter": 2,
+      "source": "book2/chapter 2.html",
+      "sourceHash": "0634b5823abe1aba19997fb97542024408c5282d00e825bf6c7c32631c3a1ad7",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch2.vvf8R1",
+      "log": "Chapter 2: Reprocessed the complete Elvar source into 24 node revisions, 45 links and a Spanish summary. Captured Agnar’s funeral and revenge vow, observed oath sanctions and pending rescue support, recovered equipment and uncertain bow magic, Skuld’s identification/enslavement and unverified deeper treasure. Confirmed Uspa alive and Vörn dead, retired both survival threads, and reviewed all 142 baseline/current clue candidates. Ownership, event and thread reviews pass. Preserved the user-authorized concurrent Drammur repair (two profiles and five links across chapters 12, 19 and 29) through a guarded audited reconciliation, leaving immutable references and the active context unchanged. Improved reference lookup guidance and reconciliation safeguards; all 53 tests in nine regression files pass. Skill structure/reference checks pass; quick_validate.py could not run because PyYAML is unavailable. Existing local-file browser access restriction leaves visual confirmation manual. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "8067357fbeed1d8bd53e57f2492a55d014eea1767c1d175d48cb4eae15ed130a",
-    "book2/links.js": "6630ad87ef17276cdb2c2e74ebeafb8a1b6a57b1b633aad1a2cd6e3147b024a5",
-    "book2/summaries.js": "8711e763d7e33ef38c69c2f18ac9b47bf0d110fa799ab77ecf04cf742b2c0fcf"
+    "book2/nodes.js": "018cba5af75f5f2f2d23bed826cecc7c8f93e8a6bf5ba163603bf7bacb5d800b",
+    "book2/links.js": "baf2485aaf5252ab6340c50c6a002eceb3a75be191674c60971b69d17a5e7d4f",
+    "book2/summaries.js": "eadaa3fae6a36055be7513b64d6e29efee43ecc306ab9a917747a214087a120b"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -30,9 +38,32 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "8deb900a77f1977d18688589425831f390cc88cf8b7a8921e071ada69142fee6",
-    "links": "d6c0516ef6464e0e0b09be415aa599878cfae80202df1310684363c8bdeba478",
-    "summaries": "20c0624748f128e1265381581d531c3eb912d68bd29881c49c3820e1c6c8b699"
+    "nodes": "df91b55a272897ae823d25160c0cefe8da8a1e9eb43e6efba7df8db17b1c4975",
+    "links": "e0eaff1bd26ec5181c2ed1b7912ea7bcb587c4f8f603c97d1786bd8de4597627",
+    "summaries": "8e153872d805fb8ba11c8102a55c2b3829ad20350d98a8a36354bfe02aa575e7"
   },
-  "visibility": "keep-all-chapters"
+  "visibility": "keep-all-chapters",
+  "reconciledHashes": {
+    "nodes": "ccb0c4c7cdfe28a3a6bd0c2c25c9b25f6d23a8ed0e2cf172a8aaa82759959ebd",
+    "links": "d930de384a9e49097cecbf93b1e72e4e57f094c53bbc98d6d6dbcda66cc0b604"
+  },
+  "reconciliations": [
+    {
+      "file": "reconciliations/1.json",
+      "log": "User explicitly authorized preserving and reconciling the concurrent Drammur edits. Two later records in chapters 12 and 19 reuse canonical drammur, retain its Book One history, and preserve the external descriptions and previousState notes exactly. This reconciliation preserves external source work without certifying those later chapters as reprocessed.",
+      "chapters": [
+        12,
+        19,
+        29
+      ],
+      "liveHashes": {
+        "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
+        "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
+        "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
+        "book2/nodes.js": "b1b5f80fb2daba9f250676a60584f09a69b7a61726a671fd6fd16529f49eba1c",
+        "book2/links.js": "4bbfa4d314fdf419df3dd85f4b79de194d929b11cc012177e4870ec118ea38b8",
+        "book2/summaries.js": "8711e763d7e33ef38c69c2f18ac9b47bf0d110fa799ab77ecf04cf742b2c0fcf"
+      }
+    }
+  ]
 }

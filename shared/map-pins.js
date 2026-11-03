@@ -25,4 +25,8 @@ const mapPins = {
   'foso-vaesen': { x: 345, y: 302 },
   'rio-slagen': { x: 520, y: 515 },
   iskidan: { x: 585, y: 1178 },
+  'rio-hvita': { x: 345, y: 495 },
+  ulaz: { x: 615, y: 1080 },
+  'montanas-espinazo': { x: 620, y: 400 },
+  drammur: { x: 495, y: 705 },
 };
