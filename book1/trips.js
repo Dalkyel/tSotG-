@@ -10,7 +10,7 @@
 // elvar: Isla de Iskalt (cap. 5-9) → Snakavik (cap. 21-29) → Starl (cap. 32) →
 //   Lago Horndal (cap. 32) → Oskutreð (cap. 38-52).
 const characterTrips = {
-  orka: ['fellur', 'darl', 'montanas-espinazo', 'grimholt'],
+  orka: ['fellur', 'darl', 'grimholt'],
   varg: ['liga', 'rio-slagen', 'montanas-espinazo', 'grimholt'],
-  elvar: ['iskalt', 'snakavik', 'starl', 'lake-horndal', 'oskutred'],
+  elvar: ['iskalt', 'snakavik', 'rio-hvita', 'starl', 'lake-horndal', 'oskutred'],
 };

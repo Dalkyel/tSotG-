@@ -9,6 +9,13 @@
 // co-located with a pinned node (dead-drengr is in Darl; vergelmir/trapdoor-oskutred are
 // under Oskutreð), or non-point entries (vigrið = whole continent, llanura-batalla-norte
 // = broad region). Add them here if a source ever confirms a position.
+//
+// A river is drawn on vigrid.jpeg as a line, not a single point, so it may be
+// given several points instead of one — each a separate pin, same label and
+// click target, placed where that stretch of the line is actually drawn (not
+// a traced/connected path: through dense mountain icons the line often isn't
+// drawn at all, so points are only added where the line is unambiguous). The
+// first point is the one used elsewhere (e.g. character trips in book1/trips.js).
 const mapPins = {
   fellur: { x: 754, y: 717 },
   darl: { x: 602, y: 607 },
@@ -23,10 +30,10 @@ const mapPins = {
   eldrafell: { x: 478, y: 294 },
   oskutred: { x: 582, y: 284 },
   'foso-vaesen': { x: 345, y: 302 },
-  'rio-slagen': { x: 520, y: 515 },
+  'rio-slagen': [{ x: 526, y: 552 }],
   iskidan: { x: 585, y: 1178 },
-  'rio-hvita': { x: 345, y: 495 },
+  'rio-hvita': [{ x: 410, y: 507 }],
   ulaz: { x: 615, y: 1080 },
   'montanas-espinazo': { x: 620, y: 400 },
-  drammur: { x: 495, y: 705 },
+  drammur: { x: 500, y: 730 },
 };

@@ -17,6 +17,14 @@
   const IMG_W = 1000;
   const IMG_H = 1323;
 
+  // mapPins[id] is normally one {x,y}; a river may list several (see
+  // shared/map-pins.js). This always returns an array, first point first.
+  function pinPoints(id) {
+    const value = mapPins[id];
+    if (!value) return [];
+    return Array.isArray(value) ? value : [value];
+  }
+
   const TRIP_COLORS = { orka: '#c0392b', varg: '#4a90d9', elvar: '#5fbf6a' };
   const TRIP_NAMES = { orka: 'Orka', varg: 'Varg', elvar: 'Elvar' };
   const TRIP_ORDER = Object.keys(TRIP_COLORS);
@@ -88,7 +96,7 @@
 
     const segments = [];
     charIds.forEach(charId => {
-      const stops = (characterTrips[charId] || []).map(id => mapPins[id]).filter(Boolean);
+      const stops = (characterTrips[charId] || []).map(id => pinPoints(id)[0]).filter(Boolean);
       for (let i = 0; i < stops.length - 1; i++) segments.push({ charId, a: stops[i], b: stops[i + 1] });
     });
 
@@ -138,21 +146,23 @@
 
   function renderPins() {
     overlay.replaceChildren();
-    Object.entries(mapPins).forEach(([id, pos]) => {
+    Object.keys(mapPins).forEach(id => {
       const node = nodes.find(n => n.id === id);
       if (!node) return; // Not in the archive yet — skip rather than fail.
-      const pin = document.createElement('button');
-      pin.type = 'button';
-      pin.className = 'map-pin';
-      pin.style.left = `${(pos.x / IMG_W) * 100}%`;
-      pin.style.top = `${(pos.y / IMG_H) * 100}%`;
-      pin.setAttribute('aria-label', node.label);
-      pin.title = node.label;
-      pin.addEventListener('click', () => {
-        selectNode(node);
-        dialog.close();
+      pinPoints(id).forEach(pos => {
+        const pin = document.createElement('button');
+        pin.type = 'button';
+        pin.className = 'map-pin';
+        pin.style.left = `${(pos.x / IMG_W) * 100}%`;
+        pin.style.top = `${(pos.y / IMG_H) * 100}%`;
+        pin.setAttribute('aria-label', node.label);
+        pin.title = node.label;
+        pin.addEventListener('click', () => {
+          selectNode(node);
+          dialog.close();
+        });
+        overlay.append(pin);
       });
-      overlay.append(pin);
     });
   }
 
