@@ -1,5 +1,9 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch21 — the prior checklist index split
+  `emboscada-grimholt-bosque` across two pages. Index pages now prefer newline
+  boundaries, with bounded fallback for overlong rows.
+
 - 2026-11-03: Book Two Ch20 — comparing open questions across 169 checklist rows
   required extracting fields from the prior review JSON. Added a paginated
   `read-checklist.cjs --index` view for IDs, saved outcomes and remaining questions.

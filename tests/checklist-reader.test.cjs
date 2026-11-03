@@ -63,3 +63,16 @@ test('checklist index shows selected question states without evidence prose', t 
   assert.doesNotMatch(result.stdout, /Detailed evidence\.|two \|/);
   assert.notEqual(f.run(1, '--index', 'unknown').status, 0);
 });
+
+test('checklist index keeps rows together across page boundaries', t => {
+  const f = fixture(t, [
+    { id: 'first', remaining: 'x'.repeat(7975) },
+    { id: 'next-question', remaining: 'Still open.' }
+  ]);
+  const first = f.run(1, '--index');
+  const second = f.run(2, '--index');
+  assert.equal(first.status, 0, first.stderr);
+  assert.equal(second.status, 0, second.stderr);
+  assert.doesNotMatch(first.stdout, /next-question/);
+  assert.match(second.stdout, /^next-question \| pending \| Still open\.$/m);
+});

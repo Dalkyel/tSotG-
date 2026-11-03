@@ -1,0 +1,1742 @@
+{
+  "book": 2,
+  "chapter": 21,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch21.tcZLsV/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Su imagen en la pesadilla de Guðvarr es una experiencia de él. Skalk y Helka hablan de la reacción lobuna ya vista en el Grimholt; no aportan nueva manifestación, origen de la sensibilidad ni respuesta sobre la mujer enjaulada, Skullsplitter o la llamada.",
+      "remaining": "Mujer enjaulada, sensibilidad, relatos de Skullsplitter y llamada."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Thorkel (†)». Sigue pendiente: Prueba de sangre y consecuencias en sangre-thorkel.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Breca». Sigue pendiente: Paradero, salud y rescate de Breca.",
+      "remaining": "Paradero, salud y rescate de Breca."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Guðvarr recuerda haber buscado sin éxito a los asesinos y supone que usaron los ríos.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia recuerda a la pareja asesinada sin añadir autopsia ni identificar a sus agresores.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: El niño de la familia de las colinas se menciona como secuestrado en el relato retrospectivo. No aparece ni se descubre dónde está.",
+      "remaining": "Paradero y destino."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Snaka». Se conserva la clasificación del capítulo 20; véase su evaluación de snaka.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Guðfalla (Caída de Dioses)». Se conserva la clasificación del capítulo 20; véase su evaluación de gudfall.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Guðvarr recuerda la búsqueda infructuosa; su explicación sobre los ríos no identifica a los agresores ni localiza al niño.",
+      "remaining": "Responsables y Harek."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Encuentro con el Fell-Wolf». Sigue pendiente: Origen de las heridas del Fell-Wolf.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Varg». Sigue pendiente: Padres, edad, vínculo con Frøya, magia y control autónomo; juramento.",
+      "remaining": "Padres, edad, vínculo con Frøya, magia y control autónomo; juramento."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Snepil (†) / Kolskegg». Sigue pendiente: Identidad exacta entre los nombres y el liberto.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Einar Medio-Trol». Se conserva la clasificación del capítulo 20; véase su evaluación de einar.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Akáll de Varg». Sigue pendiente: Rito, destino de Frøya y eventual venganza.",
+      "remaining": "Rito, destino de Frøya y eventual venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Contenido Revelado de la Bolsa de Varg». Se conserva la clasificación del capítulo 20; véase su evaluación de bolsa-varg.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Orígenes y Recuerdos de Varg». Sigue pendiente: Control sostenido en combate, señales visibles, padres, edad, sensibilidad mágica y vínculo con Frøya.",
+      "remaining": "Control sostenido en combate, señales visibles, padres, edad, sensibilidad mágica y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Virk (†)». Sigue pendiente: Alcance y autoría de los raptos.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 21: El reconocimiento pasa del sueño a un brazalete real y a una tarea sin revelar. Sigrún lo ha recibido, pero él no le ha relatado su huida. Los pergaminos no se mencionan.",
+      "remaining": "Encargo, oportunidad de los pergaminos y reacción de Sigrún."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Jarl Störr». Sigue pendiente: Plan político oculto y reacción a Elvar.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Nudillo de Dios (Fellur)». Sigue pendiente: Causa de la sensibilidad.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Premia el auxilio a su Galdurman y manifiesta su interés por Orka. No se observa conquista, leva o nueva adhesión territorial.",
+      "remaining": "Alcance de expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Guðvarr recuerda un rastreo infructuoso cerca de Fellur y Skalk repite el rapto de Breca. No se identifica al niño que gritó ni se determina si los raptos comparten autoría.",
+      "remaining": "Harek, Breca, demás desaparecidos, responsables, alcance y seguridad del grupo en Darl."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Frøya (†?)». Sigue pendiente: Destino de Frøya y pista de Brimil.",
+      "remaining": "Destino de Frøya y pista de Brimil."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Leif Kolskeggson». Sigue pendiente: Reclamación de propiedad frente a la libertad de Varg.",
+      "remaining": "Reclamación de propiedad frente a la libertad de Varg."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Elvar». Sigue pendiente: Sucesión, Bjarn, Biórr y control de Ulfrir; pistas históricas preservadas.",
+      "remaining": "Sucesión, Bjarn, Biórr y control de Ulfrir; pistas históricas preservadas."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Grend». Sigue pendiente: Juramento, pasado y Gytha.",
+      "remaining": "Juramento, pasado y Gytha."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Agnar (†)». Sigue pendiente: Causa de los presentimientos.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Kráka». Se conserva la clasificación del capítulo 20; véase su evaluación de kraka.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Biórr». Sigue pendiente: Cicatrices, familia y contradicciones de Biórr.",
+      "remaining": "Cicatrices, familia y contradicciones de Biórr."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Berak Bjornasson». Sigue pendiente: Libertad futura en liberar-berak.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Asalto y Persecución en Iskalt». Se conserva la clasificación del capítulo 20; véase su evaluación de asalto-iskalt.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Spert». Sigue pendiente: Mecanismo en percepcion-liberacion-lik-rifa.",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Vesli». Sigue pendiente: Mecanismo del aviso y sueños.",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Objeto Quemado de Iskalt: Graskinna». Se conserva la clasificación del capítulo 20; véase su evaluación de objeto-quemado-iskalt.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Snakavik». Se conserva la clasificación del capítulo 20; véase su evaluación de snakavik.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Pasado de Elvar». Sigue pendiente: Plan paterno separado en plan-oculto-storr.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Venta de Berak (pendiente)». Se conserva la clasificación del capítulo 20; véase su evaluación de berak-venta.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Ulfrir». Sigue pendiente: Control y aptitud contra Lik-Rifa.",
+      "remaining": "Control y aptitud contra Lik-Rifa."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Helka identifica la condición Úlfhéðnar ya conocida por el lector. El recuerdo de Skalk sobre el llanto sitúa el estallido ya narrado; no resuelve la historia anterior de Orka.",
+      "remaining": "Mujer enjaulada, sensibilidad y conciliación histórica."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Sale furioso de una conversación apenas audible. Los fragmentos que cree oír Guðvarr no establecen el tema, ni resuelven la reclamación o la persecución.",
+      "remaining": "Resultado de la reclamación, eventual caza y tema del intercambio en Darl."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Sulich». Sigue pendiente: Hechos, culpabilidad y resolución de sulich-crisis.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Crisis por Sulich». Sigue pendiente: Pruebas, culpabilidad y desenlace de la reclamación.",
+      "remaining": "Pruebas, culpabilidad y desenlace de la reclamación."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Juramento de Varg al Bloodsworn (pendiente)». Sigue pendiente: Formalización del juramento de sangre.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Uspa». Sigue pendiente: Bjarn, Berak y control de Ulfrir.",
+      "remaining": "Bjarn, Berak y control de Ulfrir."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Roca de Juramento de Islas de Escarcha». Sigue pendiente: Causalidad de piedra-gusanos.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿La Roca Atrajo a los Gusanos?». Sigue pendiente: Si la roca los atrajo y cómo.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Existencia Contemporánea de los Dragon-Born». Sigue pendiente: Referente de Thorkel permanece en otras preguntas.",
+      "remaining": "Referente de Thorkel permanece en otras preguntas."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Froa (†)». Sigue pendiente: Autores y motivo del ataque al fresno.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Partida Familiar Truncada». Se conserva la clasificación del capítulo 20; véase su evaluación de decision-huida.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Helka confirma el regalo y la condición de Vafri, pero no se habla del seax lamido ni se confirma qué detectó.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Quién Mató a Froa?». Sigue pendiente: Autores, motivo y conexión con raptos.",
+      "remaining": "Autores, motivo y conexión con raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Guðvarr recuerda el duelo que acabó con la intervención de Vafri. Lif no se enfrenta a él y la venganza sigue pendiente.",
+      "remaining": "Venganza por Virk y Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Breca Quiere Aprender Espada». Sigue pendiente: Si recibirá la enseñanza pedida.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Partida de Liga (Bloodsworn)». Se conserva la clasificación del capítulo 20; véase su evaluación de partida-liga.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Astilla del Cuerno de Vackna». Sigue pendiente: Causa de la percepción de Varg.",
+      "remaining": "Causa de la percepción de Varg."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Salida de Liga Pendiente». Se conserva la clasificación del capítulo 20; véase su evaluación de salida-bloodsworn.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Drekr». Sigue pendiente: Garras, paradero de Breca y venganza.",
+      "remaining": "Garras, paradero de Breca y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: El interrogatorio se evoca en pasado. El llanto no se identifica como el de Breca y no se obtiene nueva pista de su posición o estado.",
+      "remaining": "Ubicación, salud y rescate."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Aslog». Sigue pendiente: Circunstancias de su muerte.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Skullsplitter (Partecráneos)». Sigue pendiente: Reconciliar parentesco y sucesión del antiguo jefe.",
+      "remaining": "Reconciliar parentesco y sucesión del antiguo jefe."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Emboscada de Jaromir en el Muelle de Liga». Sigue pendiente: La reclamación sigue en sulich-crisis.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Llegada de la Flota de Helka a Liga». Sigue pendiente: Motivos completos respecto de Logur y crisis.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Guðvarr conjetura que Orka culpaba a Sigrún por lo sucedido en su granja. No identifica a Drekr, el fabricante ni la naturaleza de las garras.",
+      "remaining": "Garras, forja y desenlace de la venganza."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Entierro de Thorkel y Juramento de Venganza de Orka». Sigue pendiente: Represalia en venganza-seaxes.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Yrsa corrobora el auxilio que recibió. Sus preguntas se refieren a Orka y Breca; no presenta a Vol ni trata el plan del norte o las copias.",
+      "remaining": "Responsabilidad en el norte, propósito con Vol y copias."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Encargo de Helka y Partida de los Bloodsworn hacia el Norte». Sigue pendiente: Amenaza-norte-helka sigue parcial.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La conversación vuelve al rescate de Skalk y a la cautividad de Orka. Helka no atribuye los ataques del norte a nadie en esta audiencia.",
+      "remaining": "Responsables, víctimas y alcance."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Desembarco de la Reina Helka en Liga». Sigue pendiente: Crisis continúa separada.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Silrið». Sigue pendiente: Plan de Störr para Elvar.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Hrung». Se conserva la clasificación del capítulo 20; véase su evaluación de hrung.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Llegada a Snakavik y Venta de Berak a Jarl Störr». Se conserva la clasificación del capítulo 20; véase su evaluación de llegada-venta-berak-snakavik.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Revelación de Elvar como Hija de Jarl Störr». Se conserva la clasificación del capítulo 20; véase su evaluación de revelacion-elvar-storr.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Helka confirma el regalo a Sigrún y la vincula a su jauría. Skalk da por hecha su muerte y Guðvarr solo atestigua la herida. Esto tampoco aclara la prueba de sangre, el doble linaje ni las órdenes de Hakon.",
+      "remaining": "Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Infiltración en Fellur y Rescate de Mord y Lif». Sigue pendiente: Consecuencias en fuga-orka-fellur.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Helka pide la comparecencia de Orka y declina el ofrecimiento de Guðvarr. Sigrún lo abraza antes de oír su versión.",
+      "remaining": "Agente y desenlace de la orden, reacción de Sigrún y consecuencias legales."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Thorun». Se conserva la clasificación del capítulo 20; véase su evaluación de thorun.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Broðir». Se conserva la clasificación del capítulo 20; véase su evaluación de brodir.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Gytha». Sigue pendiente: Historia compartida y obligaciones.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Oferta de Reconciliación de Jarl Störr a Elvar». Sigue pendiente: Plan oculto registrado aparte.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Elvar Rechaza la Oferta de Störr». Sigue pendiente: Plan-oculto-storr.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Motivo de la Huida de Uspa: la Persecución de Ilska». Sigue pendiente: Rescate de Bjarn separado.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Fuga por el Fiordo y Pacto con Mord y Lif». Sigue pendiente: Venganza, formación y consecuencias en sus tramas.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Aprendizaje de Armas de Mord y Lif». Sigue pendiente: Preparación para vencer a Guðvarr.",
+      "remaining": "Preparación para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Consulta de Elvar a Hrung». Sigue pendiente: Intención real de Störr.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Raid de los Raven-Feeders a la Taberna». Sigue pendiente: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «El Secreto de Uspa y el Precio del Rescate». Sigue pendiente: Rescate-bjarn.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Recuperar a Bjarn de los Raven-Feeders». Sigue pendiente: Recuperar a Bjarn y cumplir juramento.",
+      "remaining": "Recuperar a Bjarn y cumplir juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «¿Conoce Uspa el Camino a Oskutreð?». Se conserva la clasificación del capítulo 20; véase su evaluación de camino-oskutred.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Feudo de Agnar con Ilska». Sigue pendiente: Desenlace del feudo colectivo.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Despedida Marítima de Thrud (pendiente)». Sigue pendiente: Cumplimiento del rito.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Combate contra el Näcken del Río». Sigue pendiente: Destino de criatura y nexo no demostrado.",
+      "remaining": "Destino de criatura y nexo no demostrado."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Puente Isbrún». Sigue pendiente: Constructor del puente, origen de la huella y resistencia al fuego.",
+      "remaining": "Constructor del puente, origen de la huella y resistencia al fuego."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «El Blóð Svarið de los Terrores de la Batalla». Sigue pendiente: Rescate obligado y alcance del vínculo.",
+      "remaining": "Rescate obligado y alcance del vínculo."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Qué Plan Oculta Störr para Elvar?». Sigue pendiente: Plan paterno y reacción a decisión.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Granja Abandonada del Slågen». Sigue pendiente: Destino de sus habitantes.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Desembarco en el Slågen y Marcha a las Boneback». Sigue pendiente: Amenaza-norte-helka.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Travesía y Entrenamiento Hacia Darl». Sigue pendiente: Consecuencias y formación renovada en otras tramas.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Llegada a Darl y Desembarco de Helka». Sigue pendiente: Rescate-breca.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Había un Tainted Libre entre los Raven-Feeders?». Sigue pendiente: Identidad, linaje y libertad del guerrero de Snakavik.",
+      "remaining": "Identidad, linaje y libertad del guerrero de Snakavik."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Yrsa encuentra a Guðvarr en el desván. Esa visita no demuestra qué sabe Helka del cautiverio anterior.",
+      "remaining": "Conocimiento o autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿A Quién Esperan Vol y Glornir?». Sigue pendiente: Identidad exacta, retraso y reencuentro.",
+      "remaining": "Identidad exacta, retraso y reencuentro."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Colgante de Espada (Breca)». Sigue pendiente: Paradero y salud de Breca.",
+      "remaining": "Paradero y salud de Breca."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Combate en El Drengr Muerto». Sigue pendiente: Resto de preguntas en sus tramas.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Varg Rechaza el Trato de Skalk». Sigue pendiente: Akall continúa aparte.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Hallazgo de los 24 Cuerpos en las Boneback». Sigue pendiente: Autoría y mecanismo de matanza.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Skefil (†)». Sigue pendiente: Significado de la marca.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Helka confirma el regalo de Vafri y conoce el rapto de Breca por el intercambio sobre Orka. No se menciona el permiso de Hakon para los traslados ni los informes de Vafri.",
+      "remaining": "Qué sabe, permite u ordena Helka sobre la operación y alcance del plan de Hakon."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Gytha y Grend (Historia no Resuelta)». Sigue pendiente: Historia afectiva y reencuentro.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Quién Mató a los Alces del Norte?». Sigue pendiente: Autores, número y amenaza próxima.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Apertura del Puente Isbrún por Uspa». Sigue pendiente: Autor de huella y puente.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «La Ayuda de Torvik Queda Truncada». Sigue pendiente: Objetivo de Varg en akall.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «La Espada de Hueso». Sigue pendiente: Mecanismo de poder y sensibilidad de Varg.",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Varg Sobrevive a la Espada de Hueso». Se conserva la clasificación del capítulo 20; véase su evaluación de supervivencia-varg-boneback.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Las Cicatrices de Látigo de Biórr». Sigue pendiente: Quién, cuándo/por qué, familia y represalia.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Qué Traerán los Tesoros de Oskutreð?». Sigue pendiente: Venta, usos y consecuencias posteriores del botín.",
+      "remaining": "Venta, usos y consecuencias posteriores del botín."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Guðvarr cree oír «bruja Seiðr», sin identificar a Vol. Yrsa confirma el rescate de Skalk, no el estado de la cautiva.",
+      "remaining": "Libertad de Vol, collar y encuentro con el Sea-Wolf."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Cámara de Rotta (bajo Frang's Falls)». Sigue pendiente: Ocupantes, salida de Rotta y destino de Breca.",
+      "remaining": "Ocupantes, salida de Rotta y destino de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Altar de Lik-Rifa en el Pinar camino al Grimholt». Sigue pendiente: Autoría y conexiones del altar.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Quién Adora a Lik-Rifa junto al Grimholt?». Sigue pendiente: Autores y relaciones entre altares y red de Drekr.",
+      "remaining": "Autores y relaciones entre altares y red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Revelación: los Bloodsworn son Tainted». Sigue pendiente: Control en pasado-varg.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Invitación de Glornir y Partida Anunciada para Rescatar a Vol». Sigue pendiente: Juramento y rescate en tramas respectivas.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Vörn Askasdottir (†)». Sigue pendiente: Portador de Orna y genealogía exacta de Biórr.",
+      "remaining": "Portador de Orna y genealogía exacta de Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Aska». Sigue pendiente: Circunstancias de muerte.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Encuentro con Vörn en Oskutreð». Sigue pendiente: Consecuencias en destino-tesoros-oskutred.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Llegada de Ilska a la Llanura de Batalla». Sigue pendiente: Venganza-ilska.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Emboscada en el Bosque del Grimholt». Sigue pendiente: Identidades restantes en trama.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Quiénes son los Captores del Grimholt?». Sigue pendiente: Mujer del sabueso y composición restante de captores.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Holmganga: Agnar vs Skrið». Se conserva la clasificación del capítulo 20; véase su evaluación de holmganga-oskutred.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Revelación de los Dragon-Born y los Niños Cautivos». Sigue pendiente: Propósito y destinos en ninos-robados/rescate.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Traición de Biórr». Sigue pendiente: Cicatrices/genealogía quedan aparte.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Motivo de la Traición de Biórr Revelado». Sigue pendiente: Cicatrices aparte.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Yrsa corrobora el traslado de Skalk durante la retirada y Skalk recuerda el grito que precedió a la furia de Orka. La muerte de Mord ya está establecida en su propia trama.",
+      "remaining": "Papel de Hakon y composición de los captores en tramas separadas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La retirada del Grimholt se recuerda desde el rescate de Skalk. Nada contradice la observación del cadáver de Mord.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Batalla de los Muros de Escudos en Oskutreð». Sigue pendiente: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Liberación de Lik-Rifa». Sigue pendiente: Niños y conocimiento de Helka aparte.",
+      "remaining": "Niños y conocimiento de Helka aparte."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Uspa Sobrevive a la Apertura de Oskutreð». Se conserva la clasificación del capítulo 20; véase su evaluación de supervivencia-uspa-oskutred.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Muerte de Vörn Confirmada». Se conserva la clasificación del capítulo 20; véase su evaluación de supervivencia-vorn-oskutred.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Qué Hará Lik-Rifa tras su Liberación?». Sigue pendiente: Nastrandir, reunión y campaña divina.",
+      "remaining": "Nastrandir, reunión y campaña divina."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Convergencia en el Grimholt». Sigue pendiente: Preguntas conservadas en sus tramas.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La audiencia de Darl no modifica «Sepultura de Mord Cumplida». Se conserva la clasificación del capítulo 20; véase su evaluación de sepultura-mord.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La pesadilla de Guðvarr refleja sucesos que él teme. No contiene aviso de la liberación ni evidencia de transmisión sobrenatural.",
+      "remaining": "Mecanismo y alcance del aviso y sueños."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Elvar Jura Vengar a Agnar». Sigue pendiente: Si Elvar mata a Biórr.",
+      "remaining": "Si Elvar mata a Biórr."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Orv el Sigiloso (Orv the Sneak)». Sigue pendiente: Poder del arco frente a flechas.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Seaxes del Tainted-Garras». Sigue pendiente: Forja y relación de seaxes.",
+      "remaining": "Forja y relación de seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Vengar a Torvik». Sigue pendiente: Cumplimiento y alcance de represalia.",
+      "remaining": "Cumplimiento y alcance de represalia."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «El Libro Negro de Vergelmir». Sigue pendiente: Contenido, cubierta y protecciones.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Ataque de las Criaturas de Lik-Rifa en Vergelmir». Sigue pendiente: Detalles no aclarados conservados como límites.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Elvar y Skuld contra Lik-Rifa». Sigue pendiente: Control, recuperación, encuentro y victoria.",
+      "remaining": "Control, recuperación, encuentro y victoria."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Qué Oculta el Libro Negro de Vergelmir?». Sigue pendiente: Alcance, mecanismos y cubierta.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Myrk Sharp-Claw». Sigue pendiente: Recogida y entrega del encargo.",
+      "remaining": "Recogida y entrega del encargo."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «El Encargo de Myrk en la Cámara de Rotta». Sigue pendiente: Recogida, destino de los hallazgos y entrega en la costa.",
+      "remaining": "Recogida, destino de los hallazgos y entrega en la costa."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Resucitar y Someter a Ulfrir». Sigue pendiente: Sometimiento efectivo y recuperación.",
+      "remaining": "Sometimiento efectivo y recuperación."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Intentar Liberar a Berak de Störr». Sigue pendiente: Intento prometido y libertad.",
+      "remaining": "Intento prometido y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La pesadilla pertenece a Guðvarr y no muestra una llamada a Orka ni conocimiento compartido.",
+      "remaining": "Emisor, origen y atracción."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Proteger a Lif ante el Secreto Bloodsworn». Sigue pendiente: Qué entendió Lif y cómo se resolverá la tensión con el secreto.",
+      "remaining": "Qué entendió Lif y cómo se resolverá la tensión con el secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: El sueño de Guðvarr gira en torno a su recompensa y miedo. No se demuestra relación con la experiencia privada de Varg.",
+      "remaining": "Emisor, origen y significado."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Terna». Sigue pendiente: Destino de Frøya.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Brimil». Sigue pendiente: Pista de compra de Frøya.",
+      "remaining": "Pista de compra de Frøya."
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Interrogatorio en la Aldea de Njal». Sigue pendiente: Frøya y Brimil en sus tramas.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Emboscada del Culto del Dragón en la Aldea de Njal». Sigue pendiente: Control autónomo y alcance de culto aparte.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Qué le Perturba a Svik desde el Grimholt?». Sigue pendiente: Causa real del desasosiego.",
+      "remaining": "Causa real del desasosiego."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "Los Tennúr Deben Guardar el Isbrún",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Los Tennúr Deben Guardar el Isbrún». Sigue pendiente: Destino de los pocos supervivientes y posible reunión con Lik-Rifa.",
+      "remaining": "Destino de los pocos supervivientes y posible reunión con Lik-Rifa."
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «El Rastro de Breca en la Cámara de Rotta». Sigue pendiente: Breca, tatuajes y Rotta en sus tramas.",
+      "remaining": "Breca, tatuajes y Rotta en sus tramas."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Qué Significan los Tatuajes de Dragón?». Sigue pendiente: Significado, portadores y universalidad.",
+      "remaining": "Significado, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Cómo Salió Rotta de sus Cadenas?». Sigue pendiente: Ruptura del encierro y destino posterior.",
+      "remaining": "Ruptura del encierro y destino posterior."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Regreso de los Supervivientes del Grimholt a Darl». Sigue pendiente: Identidades, autores y afiliación efectiva.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La nueva audiencia reconoce el rescate, pero no retoma el examen de los pergaminos, los huesos ni las acusaciones anteriores.",
+      "remaining": "Origen de otros huesos, contenido y autenticidad de copias y efecto del informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "¿Quién Sucederá a Agnar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «¿Quién Sucederá a Agnar?». Sigue pendiente: Jefatura, decisión de Elvar y eventual duelo.",
+      "remaining": "Jefatura, decisión de Elvar y eventual duelo."
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Propone Enfrentarse a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 21: La citación y la audiencia de Darl no aportan un nuevo hecho para «Varg se Propone Enfrentarse a Brimil». Sigue pendiente: Si se enfrentará a Brimil, qué hará y si averiguará algo de Frøya.",
+      "remaining": "Si se enfrentará a Brimil, qué hará y si averiguará algo de Frøya."
+    },
+    {
+      "id": "audiencia-gudvarr-helka",
+      "label": "La Recompensa y el Encargo de Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Guðvarr cree oír dos palabras antes de la salida de Jaromir. Su enojo es visible, pero las palabras son inciertas.",
+      "remaining": "Qué pidió Jaromir y a quién se refería el fragmento sobre Seiðr."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "label": "El Encargo Pendiente de Guðvarr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Helka anuncia una tarea más cercana y Skalk llama a Guðvarr, que acepta sin conocerla.",
+      "remaining": "En qué consiste y si la cumplirá."
+    },
+    {
+      "id": "aprendizaje-estrid-frek",
+      "label": "La Petición de Instrucción de Estrid",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 21: Estrid solicita instrucción de Frek y sale con permiso de su madre.",
+      "remaining": "Si recibe la instrucción y qué aprende."
+    }
+  ]
+}

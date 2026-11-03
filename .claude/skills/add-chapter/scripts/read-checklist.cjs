@@ -30,7 +30,7 @@ try {
     ? selected.map(({ id, assessment, remaining }) =>
       `${id} | ${assessment || 'pending'} | ${remaining || '—'}`).join('\n') || 'NO ITEMS'
     : JSON.stringify(selected);
-  const chunks = paginate(payload);
+  const chunks = paginate(payload, undefined, { preferLines: index });
   const pages = chunks.length;
   assert.ok(page <= pages, `Requested page ${page}; only ${pages} pages available`);
   console.log(`Saved checklist: Book ${checklist.book}, chapter ${checklist.chapter}; ${selected.length}/${checklist.items.length} items selected.`);

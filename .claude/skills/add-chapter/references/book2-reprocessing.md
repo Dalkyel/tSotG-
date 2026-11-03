@@ -204,7 +204,8 @@ reports; do not invent missing attestations or regenerate them from later live d
 When the preceding chapter has a durable checklist, use
 `read-checklist.cjs CHECKLIST.json PAGE --index [ID ...]` to compare the previously
 recorded open questions with the current backlog by ID. The index shows saved outcomes
-and remaining questions without repeating evidence prose. Request full rows for
+and remaining questions without repeating evidence prose. Its pages prefer row
+boundaries, splitting a line only when it exceeds the page limit. Request full rows for
 ambiguous or multi-clue assessments. Keep the current checklist pending until reviewed
 against the new source, and record the current chapter's reason for each outcome.
 The prior index supplements the unfiltered current backlog and required prose reads.
