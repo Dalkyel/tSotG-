@@ -4,7 +4,8 @@
   "completedChapters": [
     1,
     2,
-    3
+    3,
+    4
   ],
   "chapters": [
     {
@@ -27,15 +28,22 @@
       "sourceHash": "bd1423e817a0f0f6d605b92e82bae10dd5c90d135151bf1c543f5a5638b9b5a0",
       "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch3.AH2vAT",
       "log": "Chapter 3: Reprocessed the full Varg source into 25 node revisions, 60 links and a Spanish summary. Completed Mord’s burial and retired its active thread, extended Lif’s existing revenge goal to Mord, recorded Jökul’s renewed Torvik pledge, the council and seax comparison, Varg’s dreams, and testimony leading to the decision for Darl. Kept common manufacture, cult connections, Skalk’s destination and magical implications qualified. Ownership/event reviews and all 144 baseline/current clue assessments pass; 53 tests across nine required regression files pass. Browser visual confirmation remains manual under the documented local-file restriction. All later live chapters retained."
+    },
+    {
+      "chapter": 4,
+      "source": "book2/chapter 4.html",
+      "sourceHash": "c6d44d5c8f316af3f78ba092d5243d792f9912051bce091bd14f7594166573c1",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch4.seDLxr",
+      "log": "Chapter 4: Reprocessed the complete Elvar source into 23 node additions/revisions, 58 links and a Spanish summary. Captured Skuld’s attributed custodial history, collar rules, descent and treasures, Verdani’s arrow evidence, soul road and Corpse-Gate, protected black book and inconclusive rune-blast/creature attack. Added discoverable goals for killing Lik-Rifa and understanding/recovering the book; kept bow magic, bloodline identifications and outcomes qualified. Ownership/event reviews and all 148 baseline/current clue assessments pass. All 53 tests across nine required regression files pass after replacing a stale legacy Yrsa-carrier expectation with reviewed Chapter 3 relationship preservation and its supported Vol endpoint. Improved reference label identity lookup and documented stale-assertion handling. Skill structural/reference checks pass; quick_validate.py unavailable because PyYAML is missing. Browser visual confirmation remains manual under the existing local-file access restriction. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "23864730f73ed8f7153025f7e034813245d35e7a40fcab3e94656e3f8ba8248d",
-    "book2/links.js": "e768119cbed58c7f22cbb180c2d5e339d0dc1655e5691a688cd9d9b91d2bd693",
-    "book2/summaries.js": "1e3f9737fdaa99d598d7adc1ed307aafe40d1f54d7c4fea9f73abed1852b261d"
+    "book2/nodes.js": "cdd9b2c974ce995ce98486909bebf6e3f4353a7628c80a120f093d5a6e64bdc9",
+    "book2/links.js": "378760a541dfff09edf68d69912aff5b5c83a7462686ed63315eafc171affcb2",
+    "book2/summaries.js": "dd4c94b1de4b5d5a444696f0495414c9b6ba3614a68be4cb0eec7d11f3b20990"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -46,9 +54,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "569c470dfec5eee8fda8b1322d21e80ba01751fec23ba48da4f9374d221035f2",
-    "links": "c21c607882b6d3ef862ad0e10a6f609001ea0cb1310fe634f7f956b3aebb6f28",
-    "summaries": "959fbd8c34bbed76c944e94e0bc3cca02f47cc207c330128db0a4cfae6672443"
+    "nodes": "81f1324f859a193e79649e6eae1335cdfd63109fc7e7e8e731cd894ce95a0ea2",
+    "links": "34dd827d3ae7238f65418789b0116188cd753a123ab05061bdb2a96818cad992",
+    "summaries": "9a816bbdec9e2a63ee97a224f8693405b5230ae7de0823f54d198a3fedcfcde6"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

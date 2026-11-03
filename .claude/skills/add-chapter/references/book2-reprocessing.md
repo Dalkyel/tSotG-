@@ -82,8 +82,13 @@ When prose is needed to distinguish candidates, prefer a targeted excerpt before
 node .claude/skills/add-chapter/scripts/reprocess.cjs --reference search-descriptions 1 "Orv" --id orv-sneak --max-excerpts 1
 ```
 
-A reference match establishes a candidate canonical id, not chapter evidence. Stop
-once identity is settled; compose the entry from the current chapter alone. Use the
+A reference match establishes a candidate canonical id, not chapter evidence. An
+unambiguous full character label matching the named individual and role in the source
+can settle that id without a prose read. Do not search that same name in its own
+`desc` merely to repeat the label check: descriptions often omit their subject's name,
+so `NO MATCHES` there does not invalidate a label match. Retrieve prose when needed to
+distinguish identities or check a translated event, not as a mandatory second lookup.
+Stop once identity is settled; compose the entry from the current chapter alone. Use the
 full reference entry only if the bounded excerpt cannot settle identity. This does not
 replace the mandatory full chronological-context read before updating an existing node.
 
@@ -104,6 +109,13 @@ review every proposed node/link against the complete source and run the relevant
 ```sh
 node --test tests/book2-reprocess.test.cjs tests/book-integration.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/backlog-reader.test.cjs tests/backlog-review.test.cjs tests/chapter-batch.test.cjs tests/link-reader.test.cjs
 ```
+
+If an integration regression requires a specific legacy relationship removed by a
+source-reviewed replacement, inspect the reference record and reviewed checkpoint
+before changing data. Correct an obsolete assertion to check preservation of the
+reviewed chapter's links and its supported canonical endpoints; never restore an
+unsupported identity just to satisfy the old expectation. Keep all syntax, endpoint,
+history-preservation and unreviewed-record checks intact.
 
 Prepare `RUN/completion.json` with the exact source recorded by prepare and one log
 paragraph describing changes, reviews, tests and any visual limitation:

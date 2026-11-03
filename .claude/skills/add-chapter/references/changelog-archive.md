@@ -654,3 +654,16 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   Updated integration regressions to compare reprocessed summaries with their reviewed
   checkpoint while retaining original-prose checks on every unreviewed summary, and
   to follow Mord’s source-reviewed event connection instead of a retired legacy edge.
+
+- 2026-11-03: Book Two reprocessing Ch4 — `--reference match-entities Urt`
+  settled the canonical full label/id, but a redundant same-name description search
+  returned `NO MATCHES` because his profile did not repeat his name. Updated
+  `book2-reprocessing.md`: an unambiguous source-matching full character label may
+  settle identity; search prose for real ambiguity, and do not treat absent self-name
+  text as invalidating a label match. Fully absorbed into the workflow reference.
+
+- 2026-11-03: Ch4 regression exposed a stale integration assertion requiring the legacy
+  Ch3 `yrsa → vol` carrier identification, already removed by the reviewed source as
+  unsupported. The assertion now preserves all reviewed Ch3 links and checks the
+  supported council-to-Vol endpoint. Documented how to investigate legacy assertions
+  during reprocessing without restoring unsupported data or weakening archive checks.

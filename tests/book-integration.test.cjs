@@ -23,7 +23,12 @@ test('every later shared profile preserves the rebuilt Book One history and indi
   assert.ok(two.links.every(({ value: l }) => !retired.includes(l.source) && !retired.includes(l.target)));
   const links = two.links.map(x => x.value);
   assert.ok(links.some(l => l.source === 'halja' && l.target === 'lif'));
-  assert.ok(links.some(l => l.source === 'yrsa' && l.target === 'vol'));
+  // The legacy Ch3 carrier was identified as Yrsa; source reprocessing leaves her unnamed.
+  // Check the reviewed relationships themselves instead of requiring that old claim.
+  if (state.completedChapters.includes(3)) {
+    assert.deepEqual(two.links.filter(x => x.chapter === 3).map(x => x.value), reviewed.links.filter(x => x.chapter === 3).map(x => x.value));
+    assert.ok(two.links.some(x => x.chapter === 3 && x.value.source === 'consejo-guerra-grimholt' && x.value.target === 'vol'));
+  } else assert.ok(links.some(l => l.source === 'yrsa' && l.target === 'vol'));
   if (state.completedChapters.includes(1)) {
     assert.ok(links.some(l => l.source === 'tumulo-mord' && l.target === 'mord'));
     assert.ok(links.some(l => l.source === 'tumulo-mord' && l.target === 'grimholt'));
