@@ -188,6 +188,12 @@ test('POV selection retains untagged clues, explicit cross-POV inclusions and fu
   assert.notEqual(run(root, 1, 1, '--pov').status, 0);
   assert.notEqual(run(root, 1, 1, '--include', 'drekr').status, 0);
   assert.notEqual(run(root, 1, 1, '--pov', 'ELVAR', '--include', 'unknown').status, 0);
+  const untagged = run(root, 1, 1, '--untagged', '--include', 'drekr');
+  assert.deepEqual(JSON.parse(pageText(untagged)).map(n => n.id), ['drekr', 'untagged']);
+  assert.match(untagged.stdout, /3 omitted/);
+  assert.deepEqual(JSON.parse(pageText(run(root, 1, 1, '--untagged'))).map(n => n.id), ['untagged']);
+  assert.notEqual(run(root, 1, 1, '--untagged', '--pov', 'ELVAR').status, 0);
+  assert.notEqual(run(root, 1, 1, '--untagged', '--include', 'unknown').status, 0);
   const union = run(root, 1, 1, '--pov', 'ELVAR', '--pov', 'ORKA', '--include', 'drekr');
   assert.deepEqual(JSON.parse(pageText(union)).map(n => n.id), ['elvar', 'elvar-thread', 'drekr', 'untagged']);
   assert.match(union.stdout, /ELVAR, ORKA/);

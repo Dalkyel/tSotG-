@@ -132,12 +132,12 @@ A missing marker is inconclusive: legacy descriptions may omit it or use differe
 wording. Continue with the participant-name search above when the chapter-marker
 results leave an identity unsettled.
 
-The backlog reader currently recognizes ORKA/VARG/ELVAR as POV filters. For Guðvarr or
-Biórr chapters, use the unfiltered prose, or select affected existing POV families plus
-all untagged candidates only when the review gate's relevance conditions justify it.
-Do not pass unsupported POV names or assume a new POV's clues are absent. Every candidate
-still needs an item-specific assessment. Reconcile newly shared Book One threads on
-source evidence; no migration or date alone establishes a closure.
+For a Guðvarr or Biórr chapter, start with the unfiltered index. When the evidence
+bounds the affected families, use `read-backlog 1 --compact --untagged --include ID`
+with the launcher. Repeat `--include` for every relevant tagged candidate, including
+the chapter POV's own evidence if it is stored under another arc. Read the same
+selection through END. If a family cannot be bounded, use the applicable `--pov`
+selection or unfiltered prose. Keep the full per-ID checklist in all cases.
 
 ## Review and publish
 

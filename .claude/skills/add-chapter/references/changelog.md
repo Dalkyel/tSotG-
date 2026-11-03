@@ -1,5 +1,9 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch25 — selecting both ORKA and VARG for Guðvarr’s
+  tower chapter pulled in long unrelated histories. The backlog reader now accepts
+  `--untagged` with explicit `--include` IDs for a bounded crossover review.
+
 - 2026-11-03: Book Two Ch24 — the full chapter marker surfaced the canonical
   infiltration event and Æsa in one candidate search. Added the lookup order
   and fallback to the Book Two reprocessing guide.

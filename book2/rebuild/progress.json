@@ -25,7 +25,8 @@
     21,
     22,
     23,
-    24
+    24,
+    25
   ],
   "chapters": [
     {
@@ -382,15 +383,33 @@
         }
       },
       "log": "Chapter 24: Varg and the Bloodsworn infiltrate Darl. Replaced the chapter with 12 node entries, 19 links and a Spanish summary. Reviewed ownership, event coverage and 178 clue candidates. Chapter verification and the pre-publication regression suite passed. The in-app browser blocks local file URLs, so visual confirmation remains manual."
+    },
+    {
+      "chapter": 25,
+      "source": "book2/chapter 25.html",
+      "sourceHash": "957b60075dc1b397ed0113167310b7cdbc7813f520c74d0b6401c051bd61c919",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch25.ySX718",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-25",
+        "hashes": {
+          "ownership-review.md": "c550e92231dc5132d4b02d404a5c6b72926e0b70e1bd93cf5b851ffcbf34f767",
+          "event-review.md": "8e107107d241041507a960a38a07c5b50c98fc79f61c28e57e44fb51854072cf",
+          "thread-review.md": "f419f55348b1db9c9f722bc2c50305496d32a44687d6422361aa1902c32a1172",
+          "thread-checklist.json": "4b9f5b2600c061c5fb48016574c180b94b57667f9ce40bc14269f8f8d89d540c",
+          "completion.json": "eebf5ce9e914d76bcd5f8c9663cd8784eea344101bf6c7f395a6e93e2146566a",
+          "chapter.json": "1529c79d020e4c49db7ae68932c15b839df81e6dc7096eb63dfde13a35b7b9e8"
+        }
+      },
+      "log": "Chapter 25: Reprocessed Guðvarr’s account of the attack on the tower, Vol’s capture, the bones attributed to Hraeg, Arild’s death and the escape through the tunnel. Reviewed fact ownership, event coverage, 182 thread and clue candidates, and summary links. Targeted regression tests passed. Browser preview was not performed."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "fb24a17ffe39f4763ad20ee555dc3622fe02c9b8316edb4d3e9c72fb7b037d16",
-    "book2/links.js": "359d6fb61431a79a35f3f07eab9fc3b81f4902c0318beb9d346f8b8c1f8e74ed",
-    "book2/summaries.js": "9d8f126a67b9274f88db2f687f4ea08d95a3c7d1dc1e1aee59ba14c06c6e7f8a"
+    "book2/nodes.js": "746296f2548019573bd2b1c702452c2c13248571b96dac40628c8e1393506451",
+    "book2/links.js": "ebbf979328e0f764c0c823cb8c4df12ba3628aac3db3b773ec17868427884a92",
+    "book2/summaries.js": "7796b038d1217eac30584fbcc254d5e5d03aa640f63d409e0ab5285923700c25"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -401,9 +420,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "be37ec1435e866fd081ed068b48709ee4cb821b2e8639d859b1d642478efa8f8",
-    "links": "102dd703a70432cdc63985c818f108d03c44307330f61e6e62d337a8c24e58dc",
-    "summaries": "ad6188d50993908ae785c576b6061ad75286c7bf7a5ba32c33893e9816feb02e"
+    "nodes": "52b2caf2f65ad7f04a6dc798a2da087fc6924380e61e4bb9b714caaf0f60e81c",
+    "links": "947adaf84c71f9ec8537ebeecadb0eece877e3d606099f99bf8b7dedf4b77d1d",
+    "summaries": "41be4459195b18233f0ec4cb7e865ce2857350256c1aab6d43e8604ebda9f659"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

@@ -208,6 +208,10 @@ to create a thread once or to pass the JavaScript verifier.
    retrieve their union with untagged candidates once. Duplicate POV options fail.
    Keep the same full selection on every numbered page through `END`, finish the read
    before applying chapter edits, and review changed evidence separately afterward.
+   For a chapter POV without a dedicated filter, `--untagged` retains all untagged
+   candidates. Add `--include ID` for each affected tagged candidate, including
+   the chapter POV’s clues stored under another arc. Use this only when relevance
+   can be bounded as above. `--untagged` and `--pov` are separate selection modes.
    A filter selects prose, not review obligations: the unfiltered checklist still
    covers all POVs. Never infer that an unread question is resolved or discarded.
    After reading the required backlog prose, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
