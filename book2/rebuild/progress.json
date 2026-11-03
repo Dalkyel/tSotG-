@@ -32,7 +32,8 @@
     28,
     29,
     30,
-    31
+    31,
+    32
   ],
   "chapters": [
     {
@@ -515,15 +516,33 @@
         }
       },
       "log": "Chapter 31: Orka traces the Raven-Feeders toward Horndal, revisits Myrk’s interrogation, and receives the reported Iskalt lead. Preserved separate pending threads for the oath and threat against Varg. Reviewed ownership, key events, all-POV clue coverage and 23 summary mentions; the 59-test pre-publication suite passed. Browser appearance was not checked."
+    },
+    {
+      "chapter": 32,
+      "source": "book2/chapter 32.html",
+      "sourceHash": "b25042d0ace0e2e015c0b5d19e2a95f99ae3d23b5db71bb5369a214f67237d02",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch32.eX9ZYG",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-32",
+        "hashes": {
+          "ownership-review.md": "b248a349719ea5378b77ca250af5553b9a008039d7f49eb99c8f948e27782235",
+          "event-review.md": "c59df60f77dbd3923d59b874446a62cfa34fa388f69281ff72b6e22380132a41",
+          "thread-review.md": "81e2439eb3511bf0421e5d02f4a98207295ef73ab941456f330a2c4a4f9fe77f",
+          "thread-checklist.json": "6985e7c73e0065823219d0086ae933acbcf0f3d0c0b90ba4ba486c40e65fd9fe",
+          "completion.json": "018f6fa1661ef1c0b2118996c2b02d1e6443e47d5fde66a7843b25048a78e156",
+          "chapter.json": "50a0afaf6a56e737602eeeba5181d5595f9ae71d5b162a4d7c37a94bd7f16dff"
+        }
+      },
+      "log": "Chapter 32: Varg. Reviewed the barrel reveal, revised terms for Hakon’s release at Liga, and Svik’s fable. Updated the two open threads and verified 191 checklist items, three semantic gates, chapter data and the regression suite. Visual preview left for manual confirmation."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "c1e1da2f3d77bff0a5e10580076ee3f5c778f709d2b02de60773acc2db8dfea9",
-    "book2/links.js": "86cc832a360375574445f18ba02cf5ad6a824a62836173d66edd0ffc06b73c91",
-    "book2/summaries.js": "aeb96bc3037fb700557f6e73799bbf62d53176a745117e0f61fbaa29405649ad"
+    "book2/nodes.js": "e42bc066472ac921281d793a29d46011f44485ed9dd056940b95a070dda0ec5e",
+    "book2/links.js": "c9dc67583ec041bfed6d8e2d4eaee0d9e862945dafa6438ca76f4e5a72100e17",
+    "book2/summaries.js": "b8a3ff8446238ae46a2819e2faae5d3b66cf3e352e21894b3a25d8cbf9fb7cf3"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -534,9 +553,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "51c2b1c079851d6f192839b6d1a736b937c96bf93fd78c248ee9d0014c621716",
-    "links": "efb04d2fdb181da6d404b87f94587adeda3e57adeb90660f7de1dc740c83fb95",
-    "summaries": "441d20eb87a3a080e18de44e677f61dd5f5add87cad6460eb3aed2223226dbde"
+    "nodes": "a63d84e5108059431cde793081aa346c1aa7b572db567ac70dcb5f2d32d2ceb5",
+    "links": "2ee2e93bd51c1274ce98d93fa77197751d06040ff11af959e83a8fdade3291f9",
+    "summaries": "8f9dd9a892dfd89d39e92079a06efe5c7f9b3dc64b0a7941d456a4c60ad73734"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

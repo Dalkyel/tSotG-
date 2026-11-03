@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch32 — documented how to summarize a fable with borrowed
+  names while linking readers to the intended profiles, and how to record a
+  change to a pending commitment before its outcome occurs. Added a title
+  example for events that several participants react to.
+
 - 2026-11-03: Book Two Ch31 — a 21-page backlog selection required repeating
   the same cross-POV flags. The reprocessing guide now shows how to save a
   page-only wrapper. The thread gate also records how to preserve both a newly

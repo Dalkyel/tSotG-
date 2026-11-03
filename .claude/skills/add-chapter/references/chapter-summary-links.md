@@ -27,7 +27,15 @@ parenthesized label resolves without a separate supported alias. A pronunciation
 (e.g. `Oskutreð (Árbol de Ceniza) [pron. Oskutreth]`) prevents that stripping; for a
 new staged node, keep the label as `Oskutreð (Árbol de Ceniza)` and put any needed
 pronunciation in its description. Verify the short name before finalizing the summary.
-When two distinct entities share a name, a parenthetical qualifier is stripped and cannot disambiguate their summary mentions (for example the Hundur-thrall versus the god). For a new staged entity, retain its canonical id and use a distinct non-parenthetical label such as `Hundur, Dios-Sabueso`; emphasize that complete label for the god and verify that each mention resolves to the intended id. Plain-text repetitions should resolve too. A named era such as
+When two distinct entities share a name, a parenthetical qualifier is stripped and cannot disambiguate their summary mentions (for example the Hundur-thrall versus the god). For a new staged entity, retain its canonical id and use a distinct non-parenthetical label such as `Hundur, Dios-Sabueso`; emphasize that complete label for the god and verify that each mention resolves to the intended id. Plain-text repetitions should resolve too.
+
+When a story within a chapter borrows names from its audience, use roles such as
+«el lobo» and «el hijo de la viuda» for fictional actions in the summary. Use
+canonical names for people acting in the framing scene. The renderer scans plain
+text as well as emphasized text, so a borrowed name can link to its namesake even
+without `<strong>` markup.
+
+A named era such as
 `Friðaröld` needs its own non-structural node to be linkable; a mention only in the root
 description does not suffice. Staged previews must use the current summary dialog
 with `chapter-list` and `chapter-pane` elements and the shared renderer; an older copied

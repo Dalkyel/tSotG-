@@ -137,6 +137,11 @@ chores, repeated background facts and every individual blow do not need separate
   and supported outcome. Distinguish witnessed action, a character's report and myth;
   the chapter of discovery is not necessarily the date of the incident. Preserve
   uncertainty about perpetrators, motives and consequences.
+  A change to the terms of a pending commitment can itself be an event. Record
+  the decision and its attributed rationale in the EVENTO, then update the
+  existing TRAMA with the new terms and the outcome still pending. In Book Two
+  Ch32, Glornir postpones Hakon's release until Liga. His account of pursuit
+  explains the decision. Both the pursuers and the release remain unobserved.
 - Give each event an active direct link to `cat-eventos` and meaningful links to its
   participants and relevant places/evidence. Respect link direction. A plot question
   retains its `TRAMA` id and connects to the event: the discovery of a death can be a
