@@ -1,0 +1,168 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 13 — VARG ──",
+  "nodes": [
+    {
+      "id": "varg",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: Sigue a Røkia y los exploradores de Glornir camino a Darl; en interrogatorio-aldea-njal reconoce entre los esclavos a Terna, antigua compañera de cautiverio de Frøya en la granja de Kolskegg, y recibe su testimonio sobre el destino incierto de su hermana; véase froya. Durante emboscada-culto-dragon-aldea se enfrenta a un grupo de niðings devotos de Lik-Rifa; véase leccion-control-lobo para su primera prueba real de control del lobo en ese combate. El control autónomo del lobo sigue sin demostrarse.",
+      "previousState": "Recibe testimonio sobre Frøya y pone a prueba el control del lobo en combate real.",
+      "starAppend": "CAPÍTULO 13: El testimonio de Terna reabre, sin resolver, si Frøya realmente murió; su búsqueda de venganza convive ahora con la posibilidad de que siga viva."
+    },
+    {
+      "id": "svik",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: Lleva a Varg a la aldea de Njal Olafsson para comprar noticias y queso con un anillo de plata, usando su apodo Tangle-Hair al presentarse; véase interrogatorio-aldea-njal. Varg nota que está inusualmente callado y huraño desde el Grimholt; Svik lo desvía con una broma sobre el queso, sin dar una razón real. Silencia al predicador del culto del dragón de un golpe con un queso y se enfrenta a varios de sus niðings armados en emboscada-culto-dragon-aldea, donde un destello verdoso-amarillo asoma brevemente en sus ojos. Sujeta por la muñeca a Varg antes de que remate a un enemigo caído y le exige «ser el amo, no el esclavo», negando a los niðings el honor de su furia plena.",
+      "previousState": "Muestra inquietud no explicada desde el Grimholt y contiene a Varg en combate."
+    },
+    {
+      "id": "froya",
+      "mode": "update",
+      "label": "Frøya (†?)",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: En interrogatorio-aldea-njal, Terna, antigua compañera de cautiverio en la granja de Kolskegg, afirma haberla visto viva y vendida junto a ella a Brimil, un mercader de esclavos de Darl, que la golpeaba por sus intentos de huida; Terna no tiene noticia de una muerte posterior. El testimonio no demuestra que siga viva ni refuta la percepción de muerte de Varg, pero reabre la cuestión; véase muerte-froya y akall.",
+      "previousState": "Añade testimonio de Terna que reabre, sin resolver, si Frøya sigue viva.",
+      "starAppend": "CAPÍTULO 13: El testimonio de Terna convierte la certeza de su muerte en una duda abierta, con Brimil como pista concreta."
+    },
+    {
+      "id": "muerte-froya",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: Terna, interrogada en interrogatorio-aldea-njal, certifica que Frøya seguía viva tras la separación de Varg, vendida junto a ella a Brimil en Darl; Terna no supo de una muerte posterior. Esto no refuta la percepción sentida por Varg ni demuestra que Frøya siga viva, pero deja la muerte sin testigo, cuerpo ni asesino confirmados, solo la sensación relatada por su hermano. Véase froya y akall.",
+      "previousState": "Añade testimonio de Terna que certifica su supervivencia tras la separación, sin confirmar una muerte posterior."
+    },
+    {
+      "id": "akall",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: El testimonio de Terna en interrogatorio-aldea-njal reabre si Frøya realmente murió, y señala a Brimil, el mercader de esclavos de Darl que la compró, como una vía concreta y no mágica para esclarecer su destino. Ni el rito ni esta nueva pista han resuelto todavía cuerpo, asesino o paradero.",
+      "previousState": "Añade una vía no mágica (Brimil) para esclarecer el destino de Frøya."
+    },
+    {
+      "id": "snepil",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: El testimonio de Terna en interrogatorio-aldea-njal confirma que vendió a Terna y a Frøya juntas a Brimil, un mercader de esclavos de Darl; no aporta nueva información sobre la identidad Snepil/Kolskegg ni sobre la matanza. Véase terna y froya.",
+      "previousState": "Añade confirmación de la venta conjunta de Terna y Frøya a Brimil."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: ESTADO: PARCIAL. En interrogatorio-aldea-njal, Njal confirma que dos snekkes llenas de guerreros, mujeres y niños heridos pasaron por su aldea hace tres o cuatro días rumbo río abajo hacia Darl, pidieron comida y dejaron a un muerto sin identificar para enterrarlo. Einar y Glornir confirman que el cadáver no es Skalk, por lo que el Galdurman sigue con vida. No se confirma la llegada a Darl ni el estado de Vol.",
+      "previousState": "Confirma el paso de las snekkes heridas y que el cadáver hallado no es Skalk."
+    },
+    {
+      "id": "culto-dragon",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: En emboscada-culto-dragon-aldea, Varg y Svik se topan con un predicador y un grupo de niðings armados y no Tainted que proclaman la llegada de Lik-Rifa muy al sur del Grimholt, en una aldea camino a Darl; Njal Olafsson los tolera por estar armados. El avistamiento confirma, de forma directa, la extensión del culto que Myrk solo atribuía a un relato de tercera mano.",
+      "previousState": "Confirma con un avistamiento directo la extensión del culto lejos del Grimholt."
+    },
+    {
+      "id": "leccion-control-lobo",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: En emboscada-culto-dragon-aldea, su primer combate real tras la lección, Varg recuerda la fórmula del arroyo y la presa y la frase «Oathsworn obey» y logra contener el impulso de matar a un enemigo caído, aunque solo gracias a la intervención física de Svik, que le sujeta la muñeca. Demuestra un progreso real y consciente, no un dominio autónomo.",
+      "previousState": "Añade la primera prueba real de la técnica en combate, con ayuda externa todavía necesaria."
+    },
+    {
+      "id": "pasado-varg",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 13: ESTADO: PARCIAL. En emboscada-culto-dragon-aldea, Varg aplica por primera vez en combate real la técnica de Røkia para contener al lobo, pero necesita la intervención física de Svik para detenerse del todo; véase leccion-control-lobo. El control autónomo sigue sin demostrarse. Padres, edad exacta y vínculo con Frøya siguen sin resolverse; véase froya para el nuevo testimonio de Terna.",
+      "previousState": "Añade la primera prueba real de control del lobo, con ayuda externa todavía necesaria."
+    },
+    {
+      "id": "terna",
+      "mode": "new",
+      "label": "Terna",
+      "group": "VARG",
+      "type": "Personaje — Esclava, antigua compañera de cautiverio de Frøya",
+      "desc": "LIBRO 2, CAPÍTULO 13: Esclava de cabello gris en la aldea de Njal Olafsson; antigua compañera de cautiverio de Frøya en la granja de Kolskegg, vendida junto a ella por Snepil/Kolskegg a Brimil, un mercader de esclavos de Darl. Reconoce a Varg por su parecido, pese a los cambios en él, y se sorprende al oír que Frøya ha muerto: afirma que seguía viva cuando Brimil la compró, que fue golpeada por intentar huir repetidamente y que hablaba a menudo de Varg y se preocupaba por él. No tiene noticia de una muerte posterior ni del paradero actual de Frøya; véase interrogatorio-aldea-njal para la escena completa y froya para la tensión que abre con la percepción de su muerte.",
+      "star": "★★ Primer testimonio directo y reciente sobre Frøya desde su separación de Varg."
+    },
+    {
+      "id": "brimil",
+      "mode": "new",
+      "label": "Brimil",
+      "group": "VARG",
+      "type": "Personaje — Mercader de esclavos en Darl",
+      "desc": "LIBRO 2, CAPÍTULO 13: Mercader de esclavos de Darl, descrito por Njal Olafsson como «respetado». Según el testimonio de Terna, compró a Terna y a Frøya cuando Snepil/Kolskegg las vendió, y golpeaba a Frøya con frecuencia por sus intentos de huida; no se muestra a Brimil directamente ni se confirma su paradero actual más allá de operar en Darl. Véase interrogatorio-aldea-njal.",
+      "star": "★ Pista concreta y no mágica para el destino de Frøya; véase akall."
+    },
+    {
+      "id": "njal",
+      "mode": "new",
+      "label": "Njal Olafsson",
+      "group": "VARG",
+      "type": "Personaje — Cabecilla de una aldea ribereña",
+      "desc": "LIBRO 2, CAPÍTULO 13: Cabecilla rubio, corpulento y de rostro curtido, con un torque de cobre al cuello, de una aldea ribereña sin nombre propio registrado, camino a Darl. Vende noticias y comida a cambio de plata a Svik; informa sobre el paso de dos snekkes heridas procedentes del Grimholt y permite enterrar a su muerto en un campo junto a la aldea. Tolera la presencia armada de un grupo itinerante del culto del dragón por evitar derramamiento de sangre entre su gente, aunque reconoce que tal culto está prohibido en las tierras de la Reina Helka. Terna es una de sus esclavas. Véase interrogatorio-aldea-njal y emboscada-culto-dragon-aldea.",
+      "star": ""
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "mode": "new",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "group": "EVENTO",
+      "type": "Evento — Interrogatorio y hallazgo de un cadáver",
+      "desc": "LIBRO 2, CAPÍTULO 13: Tras media jornada de marcha y rastreo guiados por Røkia, el grupo de Glornir halla una aldea ribereña sin nombre propio registrado. Svik elige a Varg para acompañarlo a averiguar noticias, explicando que su aspecto intimida lo suficiente sin provocar una huida general, a diferencia de llevar a Einar o a la propia Røkia. En el campo, los thralls huyen al reconocer el escudo de los Bloodsworn. En la aldea, Svik se presenta a su cabecilla, Njal Olafsson, como Svik Tangle-Hair, y compra noticias y un queso con un anillo de plata cercenado. Njal informa que dos snekkes llenas de guerreros, mujeres y niños, todos con heridas visibles, pasaron por la aldea hace tres o cuatro días, pidieron comida y dejaron a uno de sus muertos para que lo enterraran, sin revelar nombres ni destino declarado; una mujer de la aldea añade que ninguno de los heridos quiso explicar cómo se hicieron esas heridas. Entre los thralls de Njal, una esclava llamada Terna reconoce a Varg; véase terna para su testimonio sobre Frøya. Einar y Glornir desentierran al muerto dejado por las snekkes: un guerrero de cabello oscuro, anillo de bronce, un broche de plata con forma de ala de águila, rostro desgarrado y gusanos en las heridas, con un gusano nocturno saliendo de su boca. Einar confirma que no es Skalk, por lo que el Galdurman sigue con vida; véase huida-skalk-vol. Glornir, con el rostro frío y la muerte en los ojos, declara que se alegra de que no sea Skalk porque quiere ser él quien lo mate; véase skalk. Mientras tanto, un predicador ajeno a la aldea —uno de un grupo de niðings armados y no Tainted— proclama desde un carro la llegada de Lik-Rifa y el fin del mundo de los «pequeños gobernantes»; Njal explica que lo tolera por estar armado y no querer derramamiento de sangre entre su gente, aunque reconoce que semejante culto está prohibido en las tierras de la Reina Helka por la Ley del Althing. La escena deriva en emboscada-culto-dragon-aldea.",
+      "star": "★★ Reabre, sin resolver, si Frøya realmente murió, y confirma que el Galdurman Skalk sigue con vida rumbo a Darl."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "mode": "new",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "group": "EVENTO",
+      "type": "Evento — Emboscada y combate",
+      "desc": "LIBRO 2, CAPÍTULO 13: Hastiado de los gritos del predicador, Svik le lanza el queso recién comprado a la cara y lo derriba del carro; uno de sus niðings responde con una lanza que Svik esquiva con velocidad sobrenatural, dejando ver un destello verdoso-amarillo en sus ojos. Entre cinco y seis niðings armados y no Tainted se lanzan contra Svik y Varg; véase culto-dragon para su identificación como devotos itinerantes del culto. Varg, arrastrado por la rabia acumulada tras el testimonio de Terna sobre Frøya, carga contra ellos e incapacita a dos atacantes con su hacha de mano y después con los puños; uno de los niðings, un hombre grande y de ojos pequeños armado con una maza claveteada, lo derriba por sorpresa y lo golpea en el suelo antes de que Varg se libere a puñetazos. Varg recuerda entonces la lección de Røkia —un arroyo, no una inundación— y la fórmula aprendida, «Oathsworn obey», y se enfrenta al hombre de ojos pequeños usando su propio yelmo como arma hasta dejarlo reducido e indefenso en el barro; véase leccion-control-lobo para la primera prueba real de ese control. Varg levanta el brazo para aplastarle el cráneo, pero Svik le sujeta la muñeca, le ordena «ser el amo, no el esclavo» y le niega a los niðings el honor de su furia plena. Varg se detiene. La aldea queda con varios heridos y un prisionero arrodillado bajo vigilancia de los Bloodsworn; los aldeanos observan con temor y asombro. Njal pregunta de nuevo por cuero para la correa rota del yelmo de Varg.",
+      "star": "★★ Primera prueba real del control del lobo de Varg en combate, lograda solo con la intervención de Svik; también confirma la extensión del culto del dragón lejos del Grimholt."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "mode": "new",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "group": "TRAMA",
+      "type": "Trama — Pregunta abierta",
+      "desc": "LIBRO 2, CAPÍTULO 13: PRIMERA EVIDENCIA: capítulo 13, interrogatorio-aldea-njal. ESTADO: ABIERTA. Varg nota que Svik está inusualmente callado y huraño desde el Grimholt y le pregunta directamente qué le preocupa; Svik lo desvía con una broma sobre la falta de queso para desayunar, sin dar una razón real. Pendiente: qué le perturba realmente y si se relaciona con lo ocurrido en el Grimholt.",
+      "star": "★ Primera señal explícita de que algo inquieta a Svik desde el Grimholt, sin que él lo reconozca."
+    }
+  ],
+  "links": [
+    { "source": "cat-eventos", "target": "interrogatorio-aldea-njal", "label": "incluye", "type": "cat" },
+    { "source": "cat-eventos", "target": "emboscada-culto-dragon-aldea", "label": "incluye", "type": "cat" },
+    { "source": "cat-varg", "target": "interrogatorio-aldea-njal", "label": "incluye", "type": "arc" },
+    { "source": "cat-varg", "target": "emboscada-culto-dragon-aldea", "label": "incluye", "type": "arc" },
+    { "source": "cat-varg", "target": "terna", "label": "incluye", "type": "arc" },
+    { "source": "cat-varg", "target": "brimil", "label": "incluye", "type": "arc" },
+    { "source": "cat-varg", "target": "njal", "label": "incluye", "type": "arc" },
+    { "source": "cat-tramas", "target": "inquietud-svik-grimholt", "label": "incluye", "type": "arc" },
+    { "source": "cat-varg", "target": "inquietud-svik-grimholt", "label": "incluye", "type": "arc" },
+    { "source": "interrogatorio-aldea-njal", "target": "varg", "label": "cuenta con", "type": "event" },
+    { "source": "interrogatorio-aldea-njal", "target": "svik", "label": "cuenta con", "type": "event" },
+    { "source": "interrogatorio-aldea-njal", "target": "rokia", "label": "cuenta con", "type": "event" },
+    { "source": "interrogatorio-aldea-njal", "target": "glornir", "label": "cuenta con", "type": "event" },
+    { "source": "interrogatorio-aldea-njal", "target": "einar", "label": "cuenta con", "type": "event" },
+    { "source": "interrogatorio-aldea-njal", "target": "njal", "label": "tiene como informante a", "type": "event" },
+    { "source": "interrogatorio-aldea-njal", "target": "terna", "label": "recoge el testimonio de", "type": "event" },
+    { "source": "interrogatorio-aldea-njal", "target": "brimil", "label": "presenta por primera vez a", "type": "rel" },
+    { "source": "interrogatorio-aldea-njal", "target": "skalk", "label": "confirma que el cadáver examinado no pertenece a", "type": "event" },
+    { "source": "interrogatorio-aldea-njal", "target": "huida-skalk-vol", "label": "avanza la pista fluvial de", "type": "trama" },
+    { "source": "interrogatorio-aldea-njal", "target": "froya", "label": "aporta testimonio sobre el destino incierto de", "type": "trama" },
+    { "source": "interrogatorio-aldea-njal", "target": "muerte-froya", "label": "cuestiona, sin refutar, la base de", "type": "trama" },
+    { "source": "interrogatorio-aldea-njal", "target": "akall", "label": "reabre, sin resolver, la premisa de", "type": "trama" },
+    { "source": "interrogatorio-aldea-njal", "target": "darl", "label": "ocurre en una aldea camino a", "type": "geo" },
+    { "source": "interrogatorio-aldea-njal", "target": "inquietud-svik-grimholt", "label": "registra la primera señal de", "type": "trama" },
+    { "source": "glornir", "target": "skalk", "label": "quiere ser quien dé muerte personalmente a", "type": "conflict" },
+    { "source": "terna", "target": "froya", "label": "fue compañera de cautiverio junto a", "type": "history" },
+    { "source": "terna", "target": "varg", "label": "reconoce, pese a los cambios, a", "type": "rel" },
+    { "source": "terna", "target": "njal", "label": "es ahora esclava de", "type": "rel" },
+    { "source": "brimil", "target": "froya", "label": "según Terna, compró y golpeaba a", "type": "conflict" },
+    { "source": "brimil", "target": "terna", "label": "compró a", "type": "history" },
+    { "source": "snepil", "target": "brimil", "label": "vendió a Terna y a Frøya juntas a", "type": "history" },
+    { "source": "njal", "target": "darl", "label": "gobierna una aldea ribereña camino a", "type": "geo" },
+    { "source": "njal", "target": "culto-dragon", "label": "tolera, por estar armados, a los predicadores de", "type": "rel" },
+    { "source": "emboscada-culto-dragon-aldea", "target": "varg", "label": "cuenta con", "type": "event" },
+    { "source": "emboscada-culto-dragon-aldea", "target": "svik", "label": "cuenta con", "type": "event" },
+    { "source": "emboscada-culto-dragon-aldea", "target": "culto-dragon", "label": "enfrenta a niðings devotos de", "type": "conflict" },
+    { "source": "emboscada-culto-dragon-aldea", "target": "leccion-control-lobo", "label": "pone a prueba por primera vez la enseñanza de", "type": "trama" },
+    { "source": "emboscada-culto-dragon-aldea", "target": "njal", "label": "ocurre en la aldea de", "type": "geo" },
+    { "source": "svik", "target": "inquietud-svik-grimholt", "label": "muestra, sin explicar, una inquietud registrada en", "type": "trama" }
+  ],
+  "summary": {
+    "chapter": 13,
+    "title": "Capítulo 13 — Varg",
+    "summary": "Tras media jornada siguiendo el rastro con <strong>Røkia</strong> y los exploradores de <strong>Glornir</strong>, el grupo halla una aldea ribereña camino a <strong>Darl</strong>. <strong>Svik Hrulfsson</strong> elige a <strong>Varg</strong> para acompañarlo: su aspecto, dice, basta para intimidar sin provocar una huida general. Los thralls del campo corren al ver el escudo ensangrentado de los Bloodsworn; Varg, antiguo thrall él mismo, siente el peso del recuerdo.<br><br>En la aldea, Svik compra noticias y un queso a su cabecilla, <strong>Njal Olafsson</strong>, con un anillo de plata cercenado. Njal cuenta que dos snekkes llenas de guerreros, mujeres y niños heridos pasaron por allí hace tres o cuatro días, camino río abajo, y que dejaron a uno de sus muertos para enterrar. Entre los thralls de Njal, una mujer de cabello gris llamada <strong>Terna</strong> reconoce a Varg: fue compañera de cautiverio de su hermana <strong>Frøya</strong> en la granja de Kolskegg, vendida junto a ella a un mercader de Darl llamado <strong>Brimil</strong>. Terna afirma que Frøya seguía viva cuando Brimil la compró, que la golpeaba por sus intentos de huida y que hablaba a menudo de Varg; se sorprende al oír que, según él, ha muerto. Ni rito ni testigo confirman esa muerte: solo la sensación que Varg sintió hace tiempo.<br><br><strong>Einar Medio-Trol</strong> y Glornir desentierran al muerto dejado por las snekkes —anillo de bronce, broche con forma de ala de águila, rostro desgarrado por algo que no fue un arma— y confirman que no es <strong>Skalk</strong>: el Galdurman sigue con vida, rumbo a Darl con su cautiva. Glornir, con la muerte en los ojos, declara que se alegra: quiere ser él quien lo mate.<br><br>Mientras tanto, un predicador ajeno a la aldea proclama desde un carro la llegada de Lik-Rifa y el fin de los «pequeños gobernantes»; Njal lo tolera por estar armado. Hastiado, Svik le estampa el queso recién comprado en la cara. La respuesta es una lanza, y después una emboscada: cinco o seis niðings armados se lanzan contra Svik y Varg. Varg, arrastrado por la rabia del testimonio de Terna, derriba a dos; un tercero, un hombre grande de ojos pequeños, lo golpea por sorpresa antes de que Varg lo reduzca a golpes con su propio yelmo. Con el brazo en alto para aplastarle el cráneo, Varg recuerda la lección de <em>un arroyo, no una inundación</em> — pero es la mano de Svik en su muñeca, y su orden de ser <em>el amo, no el esclavo</em>, la que finalmente lo detiene.<br><br>Entre los heridos y el prisionero arrodillado, Varg nota que Svik ha estado extrañamente callado desde el Grimholt. Svik lo desvía con una broma sobre el queso. Njal, impertérrito, solo quiere saber si alguien tiene cuero para la correa rota del yelmo."
+  }
+}

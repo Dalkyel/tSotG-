@@ -1,0 +1,1632 @@
+{
+  "book": 2,
+  "chapter": 13,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch13.fyt7mG/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Capítulo 13: recibe el testimonio de Terna sobre Frøya y pone a prueba, en combate real, el control del lobo enseñado por Røkia; véase interrogatorio-aldea-njal y emboscada-culto-dragon-aldea.",
+      "remaining": "Padres, edad exacta, mecanismo del linaje y control autónomo del lobo siguen sin resolverse; véase pasado-varg."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Capítulo 13: el testimonio de Terna confirma que Snepil/Kolskegg las vendió a ambas (Terna y Frøya) juntas a Brimil.",
+      "remaining": "La identidad exacta entre los nombres Snepil y Kolskegg sigue sin resolver textualmente."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Capítulo 13: el testimonio de Terna abre una vía no mágica (localizar a Brimil en Darl) para esclarecer el destino de Frøya, sin que el rito se haya realizado.",
+      "remaining": "El akáll, el cuerpo, el asesino (si lo hay) y el paradero de Frøya siguen pendientes."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Capítulo 13: primera prueba real de control del lobo en combate (véase leccion-control-lobo), lograda solo con ayuda externa de Svik.",
+      "remaining": "Padres, edad exacta y control autónomo del lobo siguen sin resolverse."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Capítulo 13: Terna certifica que Frøya seguía viva tras la separación de Varg, vendida a Brimil en Darl; no hay noticia de una muerte posterior. No refuta la percepción de Varg, pero reabre la cuestión.",
+      "remaining": "Si Frøya está viva o muerta, y si Brimil puede confirmarlo, siguen sin resolverse."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Ya cerrada en el capítulo 45 (Torvik murió antes de poder cumplir su promesa); el capítulo 13 no la reabre ni la afecta.",
+      "remaining": "none"
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Capítulo 13: Njal confirma el paso de dos snekkes heridas rumbo a Darl hace 3-4 días; el cadáver que dejaron no es Skalk, confirmando que sigue con vida y en fuga.",
+      "remaining": "Llegada a Darl, estado de Vol y destino final de Skalk siguen sin confirmarse."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ELVAR] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Diferente POV ([ORKA] según el índice de backlog); el capítulo 13 es íntegramente de Varg (aldea de Njal, testimonio de Terna, enfrentamiento con el culto del dragón) y no menciona ni afecta a este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no aporta evidencia sobre esto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Revisado el contenido íntegro del capítulo 13 (aldea de Njal, testimonio de Terna sobre Frøya, enfrentamiento con el culto del dragón, inquietud de Svik); no guarda relación con este elemento.",
+      "remaining": "Pendiente lo mismo que en su última entrada registrada; el capítulo 13 no la afecta."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Nueva candidata del capítulo 13: primer testimonio directo y reciente sobre Frøya desde su separación de Varg.",
+      "remaining": "Si Frøya sigue viva, y si Terna sabe algo más que no ha dicho, siguen sin resolverse."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Nuevo candidato del capítulo 13: pista concreta y no mágica para el destino de Frøya, conocido solo por el relato de Terna.",
+      "remaining": "Su paradero exacto, y si puede ser localizado e interrogado, siguen pendientes."
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "EVENTO nuevo del capítulo 13: reabre, sin resolver, si Frøya murió, y confirma que Skalk sigue con vida.",
+      "remaining": "Las preguntas que abre (destino de Frøya, paradero de Skalk/Vol) siguen pendientes en sus propios ids."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "EVENTO nuevo del capítulo 13: primera prueba real del control del lobo de Varg y avistamiento confirmado del culto del dragón lejos del Grimholt.",
+      "remaining": "El dominio autónomo del lobo y el alcance real del culto del dragón siguen pendientes."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "TRAMA nueva del capítulo 13: Varg nota la inquietud no explicada de Svik desde el Grimholt; Svik la desvía sin dar una razón real.",
+      "remaining": "Qué perturba realmente a Svik y si se relaciona con el Grimholt siguen sin explicarse."
+    }
+  ]
+}

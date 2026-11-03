@@ -1,5 +1,22 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch13 — first real use of three tools added in a direct skill
+  review (not a per-chapter friction check): shared `scripts/paginate.cjs` across the
+  five pagination-based readers plus `verify-chapter.cjs`'s `--review-nodes` pager
+  (fixing an 8000-vs-10000 page-size drift and giving all of them the UTF-16
+  surrogate-pair safety only `read-checklist.cjs` had before); `verify-chapter.cjs
+  --review-overlap`, flagging a 12+-consecutive-word shared passage between appended
+  nodes; and `scripts/rebuild-guard.cjs`, warning when a shared reader is called
+  outside `rebuild.cjs`/`reprocess.cjs` while that book's rebuild/reprocessing is
+  active. `--review-overlap` caught a real violation on its first real use: `varg`
+  and `leccion-control-lobo` ended up sharing a verbatim 12-word clause ("logra
+  contener el impulso de matar a un enemigo caído, aunque solo...") because both
+  entries described the same wolf-control moment. Fixed through the normal
+  `--replace-applied` correction workflow (not a manual edit), not by inventing a new
+  procedure — the existing non-batch correction path already covered this case. No
+  other friction this run; `rebuild-guard.cjs` never fired on a legitimate call since
+  every book-2 read went through `reprocess.cjs`.
+
 - 2026-11-03: Book Two Ch12 — checking a still-pending 156-row checklist emitted
   468 diagnostics and truncated the response. `review-backlog.cjs check` now reports
   the full error count, first 24 diagnostics and the saved-row reader for inspection.

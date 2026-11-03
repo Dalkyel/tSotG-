@@ -13,7 +13,8 @@
     9,
     10,
     11,
-    12
+    12,
+    13
   ],
   "chapters": [
     {
@@ -154,15 +155,33 @@
         }
       },
       "log": "Chapter 12: Source-reviewed Guðvarr replacement: 10 accumulated profile/place/thread revisions, 2 canonical events, 24 links and Spanish summary. Full source and selected ORKA/VARG plus untagged backlog read, 156 individual checklist assessments; ownership, event coverage and thread lifecycle PASS. Diminished power and Sigrún’s demand remain attributed; arrival, collar replacement and rescue remain pending. Combined preview endpoints/summary mentions PASS. Required 56 regression tests passed; bounded checklist diagnostic improvement passed 6 focused tests. Browser visual verification blocked by local file URL policy; manual preview in index.html remains. Skill metadata validator unavailable because Python lacks PyYAML."
+    },
+    {
+      "chapter": 13,
+      "source": "book2/chapter 13.html",
+      "sourceHash": "3620b358327ff6fcf51264c37481064b829ee72894093fdcab9a2a28955b7762",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch13.fyt7mG",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-13",
+        "hashes": {
+          "ownership-review.md": "0868f675405a6eef53badbe380d0bf8d87b2cfbef92658c39a6b3972fc1721b7",
+          "event-review.md": "2a31876aaaab984388936ed657616c3548bfbe74e3d086fe4891d9600efecc8d",
+          "thread-review.md": "84d24ce37e8e1ba5aa204503a87243cb32952a849a9407d99f0813549a5c3699",
+          "thread-checklist.json": "ba895a8f7b22dc596c29ad638195360955aa390a2854f28cff3c6df863062463",
+          "completion.json": "5d7bd2e922470eed420f9df35ab55b1efb788ec094f4ac2fc453fb402c3b945b",
+          "chapter.json": "e74f917f26839c5ceb66be779ab3509262660d063fa2b362b96065cab9ad0f60"
+        }
+      },
+      "log": "Chapter 13: Reprocessed the complete Varg-POV source into 6 node revisions, 10 new nodes, 39 links and a Spanish summary. Recorded the interrogation at Njal's river village (two wounded snekkes from the Grimholt confirmed passing days ago, a buried unidentified corpse confirmed not to be Skalk) and the ambush/brawl with itinerant Dragon-Cult preachers, in which Varg applied Røkia's wolf-control lesson in real combat for the first time (partial success, with Svik's physical intervention still necessary). Recorded Terna's testimony that Frøya was alive and sold to Brimil after separating from Varg, with no later death reported — qualifying (not resolving) the archive's existing felt-death claim for Frøya, per the same qualify-without-disproving convention used for Harek; froya's label updated from (†) to (†?). Confirmed, with direct eyewitness evidence, Myrk's earlier claim that the Dragon-Cult is spreading. Opened a new thread (Svik's unexplained unease since the Grimholt) on an explicit in-dialogue hook. Ownership, event and 161-item cross-POV thread-lifecycle reviews pass; the single-POV (Varg) chapter's 95 ORKA/ELVAR candidates were assessed from the index tag per the established Ch46 shortcut, having confirmed the chapter's resolved entity list contains no Orka/Elvar names. All nine required regression suites (59 tests) pass. verify-chapter.cjs's new --review-overlap flag caught one real near-duplicate passage (varg/leccion-control-lobo sharing a 12-word clause) on the first pass; fixed via --replace-applied and reverified clean. Visual confirmation of the published archive follows this completion, per the gate's own ordering."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "0a173a1d7535b43750e45e5fc868c47755b43df0b96878d8bc704d420c98746a",
-    "book2/links.js": "9ac2c1c9e4e02c96929e2cb1ac566d8bb270d394d96da016317efa9c40664c1a",
-    "book2/summaries.js": "3554d9242d7768d6eb6c745f03e3a3a4d5095502eec6d99646552a4b17eaed85"
+    "book2/nodes.js": "75d8dc490bdfb407d0ddbfee38c70bb1ad387cf9b5727ca5d7d82a6d004d056d",
+    "book2/links.js": "82b2784e729dc0e745699ab8cc7530101a3bf3e2dcac91c1ad0774800fd6ad48",
+    "book2/summaries.js": "dc3e40aeb584b710f78246b5ed3ef4c300376f43460ebf257125eaf464998e3c"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -173,9 +192,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "595805575487ba9f2ce2f0b6538e310d99caebea02833fedea50c302e570e9ca",
-    "links": "e7370739d3200680d9822685cd4900fc5995e33ecbfc2552cada18b4bf7ce8f5",
-    "summaries": "6d2e527718b1058633533457074ff5054a3aa3140caa3e0fc8558f3408ebbefd"
+    "nodes": "f4502582c3cb58983bd901af1136d3ced284d31c5ddabd8a91a575b0cced4a1c",
+    "links": "26707b1861f59f13ed118125662f4119737ebace014b21c961235b5f385a6187",
+    "summaries": "bf9630a9f216735981e90751bfedd462c12c3a74a58c092b774854e80be6c37a"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {
