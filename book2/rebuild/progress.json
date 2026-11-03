@@ -9,7 +9,8 @@
     5,
     6,
     7,
-    8
+    8,
+    9
   ],
   "chapters": [
     {
@@ -78,15 +79,33 @@
           "chapter.json": "9b711d47694f03863fae750528ee552cc2ba4f8a8bba4f616b4d9051d9d10e14"
         }
       }
+    },
+    {
+      "chapter": 9,
+      "source": "book2/chapter 9.html",
+      "sourceHash": "550f5859566b4ccc694217292248b57a469aadfc682658e5705a7b84b53f7f24",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch9.5hxwij",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-9",
+        "hashes": {
+          "ownership-review.md": "fc3134c59c7b2a9c42c3246bbe90324c081171e6c54ffa12e59108a8811a98b4",
+          "event-review.md": "919b845ef7eebfc35d56b8c70b762b74afd0fdd8b0e9f30dafcab3777288ddd3",
+          "thread-review.md": "ff9f8c936f6b38272791355bdd881c937e3b105c2659ac152bd5b185ea0ee68f",
+          "thread-checklist.json": "5e0a594883abf2b0b89d9548b2016a69ec137c5bcd65f59ad374f4ec83337ee6",
+          "completion.json": "468253025b8be7886e7961c1b27805426f565ea8a595969195542be0f4b84911",
+          "chapter.json": "33170fe2ba2989531836688ee66856bbe49bf1e596c27a5b591251993c2b1fb6"
+        }
+      },
+      "log": "Chapter 9: Reprocessed the complete Biórr source into 20 node additions/revisions, 29 links and a Spanish summary. Captured Myrk’s actual departure with fifteen warriors versus ten assigned, reunion with Fain and Storolf, Kalv’s named parentage, Lik-Rifa’s killing of a guard, Drekr’s protection of Ilska, attributed resurrection perception, explicit Rauðskinna/chamber testimony and urgent Isbrún deadline. Kept anonymous figures unnamed, books distinct and arrivals, deliveries, control, recovery and rescues pending. Ownership/event reviews and all 153 baseline/current clue assessments pass. All 53 tests across nine required regression files pass. Visual confirmation was not performed under the documented local-file browser restriction; remains manual. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "c3d9a49503235ff5ff32f9a8eb3f2cd1bfea10c62c046aa7d205c9ac9a6ce223",
-    "book2/links.js": "73d4bd13f115a2a2d4ae645d1a45f4c3695a6896f4af65a8162a9156b5f92150",
-    "book2/summaries.js": "3d8a9ed3981584d055d0d123051f66cfe755e2ecf3d43381a6969d31340f491e"
+    "book2/nodes.js": "6169b4ee58ce11599a738bc97fa64c2203be521523e181f4344c900ca4fef502",
+    "book2/links.js": "9f060fb479321160abd7b68de1e57ca7a8a3fa6ae345bfbe8baa6b625567b6ac",
+    "book2/summaries.js": "8efa5f22189983f4a5e4be8504434885dfbb0f3a1e72e3edf5253e94e54c3bef"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -97,9 +116,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "264743bb1cc79d5eff3391bd81e699da190843bb9ed06a0f4064e81fda6f3a5b",
-    "links": "843c7413d73fa8360c37b568de0af3e8a2b4cb5e299c6959c49e8ad92fa37046",
-    "summaries": "e7533561e2ceed291a8a5f62d3a5040e4a337c98e84541f0cb6184553283f556"
+    "nodes": "1af9f90f04ea054e9da2d53dba4a6fe085294fc164fdf4b75deca9482d01c154",
+    "links": "9aadbfb49042da7a7df5d460c429674361fadf8aa084b2e3868481acd269980b",
+    "summaries": "4baf1dd07b0e7f1f064ef7da007894f9bbda40d3d114b4192b278dc543c54dc6"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

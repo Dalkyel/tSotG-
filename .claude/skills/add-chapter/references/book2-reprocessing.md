@@ -68,6 +68,10 @@ node .claude/skills/add-chapter/scripts/reprocess.cjs review-backlog 1 BASELINE 
 node .claude/skills/add-chapter/scripts/reprocess.cjs review-backlog 1 BASELINE check RUN/thread-checklist.json
 ```
 
+For a large backlog prose selection, append `--compact` on every page to retain all
+evidence with less formatting overhead. Do not switch formats mid-read or combine it
+with the separate `--index` inventory.
+
 `search-descriptions`, `append-node` and `append-entries` use the same implicit-book
 substitution as Book One. Batch manifests and `--replace-applied PREVIOUS_SPEC` work
 unchanged for unfinished drafts. Use the original baseline and retain the exact applied

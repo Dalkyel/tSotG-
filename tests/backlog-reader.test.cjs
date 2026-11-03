@@ -26,6 +26,38 @@ function pageText(result) {
     result.stdout.search(/\n(?:CONTINUES:|END:)/));
 }
 
+test('compact prose preserves every selected field across pages and reduces formatting overhead', t => {
+  const root = fixture(t);
+  writeNodes(root, 1, [
+    { id: 'elvar', label: 'Elvar', group: 'ELVAR', star: 'Latest clue: "á"\n'.repeat(900) },
+    { id: 'shared', label: 'Pregunta', group: 'TRAMA', desc: 'ESTADO: PARCIAL; evidencia íntegra', star: 'another clue' },
+    { id: 'drekr', group: 'ORKA', star: 'included cross-POV evidence' },
+    { id: 'varg', group: 'VARG', star: 'omitted evidence' },
+  ]);
+  const options = ['--pov', 'ELVAR', '--include', 'drekr'];
+  function readAll(...format) {
+    let payload = '', pages = 1;
+    for (let page = 1; page <= pages; page++) {
+      const result = run(root, 1, page, ...options, ...format);
+      const chunk = pageText(result);
+      assert.ok(chunk.length <= 8000);
+      pages = Number(result.stdout.match(/Page \d+\/(\d+)/)[1]);
+      payload += chunk;
+    }
+    return { payload, pages };
+  }
+  const normal = readAll(), compact = readAll('--compact');
+  assert.ok(compact.pages > 1);
+  assert.ok(compact.payload.length < normal.payload.length);
+  assert.deepEqual(JSON.parse(compact.payload), JSON.parse(normal.payload));
+  assert.deepEqual(JSON.parse(compact.payload).map(n => n.id), ['elvar', 'shared', 'drekr']);
+  assert.notEqual(run(root, 1, compact.pages + 1, ...options, '--compact').status, 0);
+  assert.notEqual(run(root, 1, 1, '--compact', '--compact').status, 0);
+  assert.notEqual(run(root, 1, 1, '--index', '--compact').status, 0);
+  writeNodes(root, 1, []);
+  assert.deepEqual(JSON.parse(pageText(run(root, 1, 1, '--compact'))), []);
+});
+
 test('backlog reader respects book caps and latest revisions across all POVs', t => {
   const root = fixture(t);
   writeNodes(root, 1, [
@@ -131,6 +163,9 @@ test('rebuild backlog dispatch stays isolated from live and reference archives',
     { cwd: os.tmpdir(), encoding: 'utf8' });
   assert.equal(pageText(index), 'staged-clue [TRAMA]');
   assert.doesNotMatch(index.stdout, /live-spoiler|reference-spoiler|staged evidence/);
+  const compact = spawnSync(process.execPath, [path.join(targetScripts, 'rebuild.cjs'), 'read-backlog', '1', '--compact'],
+    { cwd: os.tmpdir(), encoding: 'utf8' });
+  assert.deepEqual(JSON.parse(pageText(compact)), JSON.parse(pageText(result)));
 });
 
 test('POV selection retains untagged clues, explicit cross-POV inclusions and full index coverage', t => {

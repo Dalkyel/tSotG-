@@ -1,5 +1,18 @@
 # Changelog archive
 
+- 2026-11-03: Book Two reprocessing Ch9 — the 83-candidate backlog selection
+  required twelve pages with repeated JSON formatting. Added optional `--compact`
+  to the existing reader, preserving every selected field while removing indentation.
+  The actual final chronological-context selection drops from 95,612 to 91,915
+  characters (3.9%; still twelve pages), with decoded data identical. Default JSON
+  and index behavior stay compatible. Regression coverage checks complete Unicode,
+  quotes/newlines, multi-page evidence, cross-POV selection, empty results and invalid
+  options/pages; all eleven affected reader/integration tests pass. Documented stable
+  formatting across pages and separate index use in the entrypoint and workflow
+  references; fully absorbed and archived immediately. The standard skill validator
+  remains unavailable because PyYAML is missing; Ruby YAML, local references and
+  JavaScript syntax were checked instead.
+
 - 2026-11-03: Book Two reprocessing Ch8 — the prior chapter's recorded temporary
   run no longer contained its checklist, demonstrating that completion evidence can
   disappear with OS cleanup. `finish-chapter` now retains the three semantic reports,

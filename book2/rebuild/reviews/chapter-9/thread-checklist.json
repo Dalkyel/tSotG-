@@ -1,0 +1,1551 @@
+{
+  "book": 2,
+  "chapter": 9,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch9.5hxwij/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Biórr no encuentra a Orka ni recibe noticias de su búsqueda o pasado.",
+      "remaining": "Su hijo, pasado y destino tras la partida del Grimholt."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Drekr protege a Ilska; no relata el ataque a Thorkel ni explica su transformación.",
+      "remaining": "Transformación, muerte y testimonios sobre su historia."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El campamento no muestra un niño identificado como Breca.",
+      "remaining": "Localización y recuperación de Breca."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay testimonio nuevo del ataque a su familia.",
+      "remaining": "Autoría del ataque y destino de Harek."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La conversación de parentesco concierne a Fain y los hermanos de Ilska, no a Idrun.",
+      "remaining": "Autoría del ataque a su familia."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No aparece ni se localiza a Harek.",
+      "remaining": "Su destino tras el rapto."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 9: Lik-Rifa dice que su padre devoraba a sus hijos; esa afirmación pertenece a su testimonio y no verifica la geografía descrita por Thorkel.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Los reproches de Lik-Rifa a Rotta y Ulfrir aportan su perspectiva familiar, sin establecer paz ni sustituir los relatos de la guerra.",
+      "remaining": "Conservar versiones y efectos de la guerra divina."
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La muerte del guardia ocurre en otro lugar y no identifica a los asesinos de la familia ni a Harek.",
+      "remaining": "Quién atacó a la familia y dónde está Harek."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La resurrección de Ulfrir no identifica qué hirió al Fell-Wolf.",
+      "remaining": "Qué hirió al Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se narra un nuevo sueño de Varg ni se informa sobre sus orígenes o misión.",
+      "remaining": "Sus percepciones, origen y objetivos pendientes."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay aparición de Snepil ni dato sobre su vínculo con Varg.",
+      "remaining": "Conservar sus indicios previos."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay noticias del carro de Einar ni del destino de los niños que protege.",
+      "remaining": "Protección y destino del grupo de niños."
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El hechizo que Lik-Rifa dice sentir es resurrección de Ulfrir, no un akáll de Varg.",
+      "remaining": "Realización del akáll de Varg."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se abre ni describe la bolsa de Varg.",
+      "remaining": "Contenido y significado de la bolsa."
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Fain recuerda la llegada de Biórr a otra compañía, no los orígenes de Varg.",
+      "remaining": "Origen de Varg y explicación de sus recuerdos."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay relato nuevo de su muerte ni de su familia.",
+      "remaining": "Conservar los hechos y preguntas vinculados a su muerte."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Kalv es nombrado sin ubicación; no hay encuentro con Guðvarr ni resolución de sus actos contra los fugitivos.",
+      "remaining": "Destino y consecuencias de sus acciones contra los fugitivos."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La hueste de Ilska no revela los planes políticos ni la reacción de Störr a Elvar.",
+      "remaining": "Plan oculto y reacción a Elvar; el recuerdo no los revela."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La sensibilidad declarada por Lik-Rifa no explica la de Orka ante el nudillo.",
+      "remaining": "Causa de la sensibilidad de Orka ante la reliquia."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El aumento de la compañía de Ilska no demuestra una expansión del dominio de Helka.",
+      "remaining": "Alcance y consecuencias de su expansión."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Drekr aparece sin una nueva identificación infantil ni explicación de otros raptos; la mención de Kalv no lo convierte en niño cautivo.",
+      "remaining": "Destinos de los niños y alcance de la operación de raptos."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay investigación ni testigo de la muerte de Frøya.",
+      "remaining": "Su asesinato y objetivos de justicia conservados."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se menciona a Leif ni se aportan datos a sus indicios conservados.",
+      "remaining": "Conservar indicios del historial de Leif."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Lik-Rifa reacciona a Ulfrir vivo, pero Elvar no aparece, no demuestra control ni cobra venganza; los demás indicios de su star conservan sus estados y atribuciones.",
+      "remaining": "Control del dios, victoria, rescates y pistas antiguas aún abiertas en sus hilos."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Drekr defiende a su propia hermana; no explica la reacción de Grend al aullido, su juramento a la madre de Elvar ni su historia con Gytha.",
+      "remaining": "Origen de su reacción, palabras y circunstancias del juramento antiguo e historia con Gytha."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Las bromas sobre la infiltración no identifican la causa de los presentimientos de Agnar ni consuman la represalia.",
+      "remaining": "Causa de los presentimientos y represalia pendiente."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 9: No se observa a Kráka ni cambia la contradicción entre su magia protectora y su esclavitud histórica.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 9: Se añaden la calidez de Fain/Storolf y la objeción privada al dragón; no hay cambio de lealtad. El hombre con aparentes colmillos y muchos seaxes queda anónimo. Siguen sin explicar azotes, familia, reacciones antiguas y linaje atribuido; los compromisos y la confesión anteriores se conservan.",
+      "remaining": "Autor/fecha/motivo de los azotes, familia y posible represalia; consecuencias de su traición. Hombre de colmillos/seaxes observado sin identificar."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: El parentesco de Fain no altera la captura y venta de Berak ni lo libera de Störr.",
+      "remaining": "Su libertad continúa aparte en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: El ataque al guardia no reabre el desenlace de la persecución y captura de Iskalt.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La percepción de Lik-Rifa no explica cómo Spert supo de su liberación.",
+      "remaining": "Conservar sus indicios y vínculos pendientes."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La actuación protectora de Drekr no confirma garras vistas por Vesli ni transforma su relato sobre Thorkel.",
+      "remaining": "La evidencia que aportó sobre Thorkel conserva su alcance."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Ilska nombra Rauðskinna; no contradice la identificación de Graskinna destruido por Uspa.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 9: No se visita el puerto ni cambia su sistema de tributos.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Fain y sus hijos no aportan datos que reabran la familia o salida de Elvar.",
+      "remaining": "none"
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: No hay devolución, nueva venta ni contradicción de la transacción ya completada.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Lik-Rifa afirma sentirlo vivo y haber oído su respiración/aullido; no se muestra su recuperación, obediencia o disposición a combatir. La vida ya estaba confirmada en el capítulo 8.",
+      "remaining": "Recuperación y control antes de combatir al dragón."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La referencia a Orna no resuelve los testimonios sobre Skullsplitter o el pasado de Orka.",
+      "remaining": "Explicaciones pendientes del pasado y testimonios contradictorios."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El regreso acogido es el de Biórr, sin dato nuevo de Jaromir.",
+      "remaining": "Conservar sus preguntas e indicios propios."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se muestra a Sulich ni su estado.",
+      "remaining": "Su situación y los indicios de crisis registrados."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La crisis de Lik-Rifa es otra escena y no resuelve la de Sulich.",
+      "remaining": "Desenlace de su crisis."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La lealtad de Drekr a Ilska no cambia el juramento de Varg.",
+      "remaining": "Cumplimiento y consecuencias del juramento de Varg."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Lik-Rifa corrobora la atribución del libro; no se muestra a Uspa dando órdenes al dios ni rescatando a su familia. Sus otras pistas y cierres permanecen.",
+      "remaining": "Control efectivo y ambos rescates; alcance de su magia."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La muerte del guardia no explica la supervivencia de la roca o su posible atracción de gusanos.",
+      "remaining": "Atracción de gusanos aún no demostrada."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La percepción del hechizo declarada por Lik-Rifa no vincula causalmente roca y gusanos.",
+      "remaining": "Relación causal roca/gusanos y mecanismo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Drekr ya tenía identificación contemporánea; no hace falta reabrir la existencia confirmada ni suponer una transformación no observada.",
+      "remaining": "none"
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No aparecen nuevos autores o motivos del asesinato de Froa.",
+      "remaining": "Autoría y motivos de su asesinato."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La orden de salir del campamento no es la huida de Orka de su granja.",
+      "remaining": "Conservar su estado previo y consecuencias de la huida."
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay nueva lectura de sangre ni explicación de la transformación de Thorkel.",
+      "remaining": "Significado de su reconocimiento de sangre."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La violencia de Lik-Rifa en el campamento no prueba una conexión con el ataque a Froa.",
+      "remaining": "Autoría y vínculo con otros ataques."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay acción nueva de los hermanos contra los responsables de la muerte de Virk.",
+      "remaining": "Conservar el alcance de la venganza por Virk."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Breca no aparece ni demuestra poderes o aprendizaje.",
+      "remaining": "Aprendizaje y poderes de Breca."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Los caballos de Myrk no aportan indicios sobre la partida de los Bloodsworn de Liga.",
+      "remaining": "Conservar indicios de la partida de los Bloodsworn."
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se inspecciona el objeto oculto en la viga.",
+      "remaining": "Identidad y función del objeto."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La orden de marcha se dirige a la hueste de Ilska, sin noticias de los objetivos de viaje de los Bloodsworn.",
+      "remaining": "Desenlace de sus objetivos de viaje."
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Su defensa de Ilska no revela garras, no localiza a Breca y no explica la operación infantil. Su linaje ya estaba corroborado; el gesto familiar se conserva en su perfil/evento sin cerrar esas preguntas.",
+      "remaining": "Red de raptos, propósito y consecuencias de sus actos."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Ni el hombre con colmillos ni los hijos nombrados por Fain localizan o recuperan a Breca.",
+      "remaining": "Rescate de Breca."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se relata una acción de Aslog ni se altera su evidencia anterior.",
+      "remaining": "Conservar sus indicios previos."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se menciona el antiguo jefe ni se concilian el epíteto y la muerte naval atribuida.",
+      "remaining": "Reconciliar las versiones históricas aún contradictorias."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La agresión del dragón no aporta responsables o consecuencias de la emboscada del muelle.",
+      "remaining": "Conservar evidencia y consecuencias de aquella emboscada."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay llegada de Helka ni resultado político de su presencia en Liga.",
+      "remaining": "Desenlace político/militar de su llegada."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Drekr usa el hacha para proteger a Ilska; no demuestra garras. Los numerosos seaxes del hombre anónimo no se comparan con las armas de Orka/Varg ni prueban fabricante o venganza.",
+      "remaining": "Naturaleza de las garras, fabricante/conexiones de los seaxes y venganza contra Drekr; identidad del asesino ya confesada."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Drekr sobrevive; Orka no está presente para cumplir la represalia.",
+      "remaining": "Cumplimiento de su venganza."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Ilska confirma la cámara y Rauðskinna sin nombrar a Skalk ni revelar su destino o plan.",
+      "remaining": "Destino, objetivos y consecuencias de Skalk."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La partida de Myrk obedece al encargo de Ilska, sin resolver la misión de Helka al norte.",
+      "remaining": "Resultado y propósito de la misión al norte."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La advertencia sobre Isbrún no demuestra qué sabe Helka de la amenaza ni su alcance político.",
+      "remaining": "Naturaleza y alcance de esa amenaza."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay observación nueva del desembarco de Helka o sus consecuencias.",
+      "remaining": "Consecuencias del desembarco."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Las palabras de Lik-Rifa no revelan el plan insinuado por Silrið.",
+      "remaining": "Plan político insinuado en la oferta."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se consulta a Hrung ni se corrige su identificación de Elvar o su consejo.",
+      "remaining": "Conservar el alcance de su identificación y consejo."
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: El rito mencionado no contradice la venta ya observada de Berak.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Las relaciones de Fain no reabren la paternidad y reacción de Störr ya documentadas.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay noticia de su supervivencia ni testimonio sobre su servicio a Hakon.",
+      "remaining": "Grado de certeza sobre su muerte e implicaciones de su testimonio."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: El rescate realizado en Fellur permanece histórico; salvar a Ilska es otro suceso.",
+      "remaining": "none"
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se conoce una decisión legal de Fellur ni el cese de la persecución de Orka.",
+      "remaining": "Decisiones legales, persecución y represalias pendientes."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 9: No aparece Thorun ni cambia el contraste de obediencia en la familia de Störr.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 9: La bienvenida fraterna de Storolf no modifica el afecto de Broðir por Elvar.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se aportan datos del vínculo con Grend o de un futuro reencuentro.",
+      "remaining": "Historia y posible reencuentro con Grend."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El reclutamiento de Ilska no explica el poder ofrecido por Störr a Elvar ni el plan oculto.",
+      "remaining": "Plan alternativo conservado en plan-oculto-storr."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Elvar no revoca su elección de permanecer con los Battle-Grim.",
+      "remaining": "none"
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: La confirmación de Rauðskinna no contradice el motivo ya relatado para la urgencia de Uspa por Graskinna.",
+      "remaining": "none"
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se observa a los perseguidores de la fuga por el fiordo ni se amplía su resultado.",
+      "remaining": "Conservar el alcance observado de la evasión."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Lif no recibe aquí la formación reanudada con Orka.",
+      "remaining": "Nueva formación de Lif pendiente."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se interpreta de nuevo el enigma ni se revela el plan de Störr.",
+      "remaining": "El enigma no demuestra el plan de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Las nuevas caras de la hueste no identifican al atacante rubio del raid ni deshacen el rapto y muerte de Thrud.",
+      "remaining": "Rescate y feudo siguen en sus TRAMA propias."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Ilska habla de otro libro; el acuerdo histórico de camino/rescate permanece intacto.",
+      "remaining": "none"
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No aparece Bjarn ni se lo libera; conocer la vida de Ulfrir desde el dragón no cumple el juramento de rescate.",
+      "remaining": "Recuperarlo y cumplir el juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: La ruta ya comprobada a Oskutreð no se invalida por una nueva condición de regreso a través de Isbrún.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Ilska sobrevive al peligro gracias a Drekr; no hay represalia de los Battle-Grim ni arreglo del feudo.",
+      "remaining": "Desenlace del feudo entre compañías."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La comida compartida no narra el rito marítimo de Thrud ni aclara el barco.",
+      "remaining": "Realización de la despedida anunciada y discrepancia de barco."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay nueva criatura Näcken ni explicación de las pistas de aquel combate.",
+      "remaining": "Conservar sus indicios sin atribuirles el rito actual."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 9: Se añade la advertencia temporal de Lik-Rifa: cruzar antes de terminar Sólstöður. No se muestra cierre/cruce ni se identifica autor del hielo, su mecanismo o la huella.",
+      "remaining": "Autoría y mecanismo del puente/huella."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se invoca la sanción ni se cumple el rescate; tampoco se explica la situación de Kráka como juramentada ausente.",
+      "remaining": "Cumplimiento del rescate y límites del vínculo; situación de Kráka."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La decisión de Lik-Rifa no revela lo que Störr y Silrið planean para Elvar.",
+      "remaining": "Plan y reacción del padre a la elección de Elvar."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se vuelve a esa granja ni se identifican sus ocupantes o destino.",
+      "remaining": "Identidad y circunstancias de sus ocupantes/destino."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se visita Slagen ni se reinterpretan los indicios del desembarco.",
+      "remaining": "Conservar los indicios asociados al desembarco."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La partida al sur es la de Myrk, sin nuevo dato del viaje de Orka a Darl.",
+      "remaining": "Conservar consecuencias y pistas del viaje a Darl."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay retorno a Darl o dato nuevo de sus pistas.",
+      "remaining": "Conservar sus indicios previos."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Storolf es rubio pero no se identifica como el guerrero muerto en Snakavik; la bienvenida no prueba el linaje de aquel ni explica su libertad.",
+      "remaining": "Identidad, linaje y libertad del guerrero rubio."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El nombre del hombre de los seaxes no se da; no se revela naturaleza o historia del Drengr.",
+      "remaining": "Naturaleza e historia del Drengr."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Myrk parte hacia otro destino; no se la identifica con la mujer esperada por los Bloodsworn.",
+      "remaining": "Identidad y propósito de la mujer esperada."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se muestra el colgante de Breca ni una nueva conexión suya.",
+      "remaining": "Conexiones y destino asociados al colgante."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Drekr combate una amenaza nueva sin explicar las garras o cambiar el resultado de la lucha con Orka.",
+      "remaining": "Conservar indicios del adversario y consecuencias."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El libro nombrado por Ilska no cumple el trato de Varg con Skalk ni realiza su akáll.",
+      "remaining": "Cumplimiento del trato y akáll."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se examinan los cuerpos o datos del hallazgo en Boneback.",
+      "remaining": "Conservar evidencias y preguntas de aquel hallazgo."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Drekr presente no verifica todo el alcance del testimonio de Skefil ni informa sobre Hakon.",
+      "remaining": "Alcance de su testimonio sobre Drekr y Hakon."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Ilska atribuye generaciones de servicio a su familia, sin declarar lo que sabe, permite u ordena Hakon o Helka.",
+      "remaining": "Conocimiento, mando y propósito de Hakon/Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El gesto fraterno de Drekr no resuelve el vínculo afectivo o los juramentos de Gytha/Grend.",
+      "remaining": "Historia compartida y posibilidad de reunirse sin romper juramentos."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La carne del oso procede de la caza vista en capítulo 5; no identifica al autor de la matanza de alces ni demuestra seguimiento.",
+      "remaining": "Autoría, número de atacantes y amenaza cercana."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La advertencia de Lik-Rifa no identifica al dueño de la huella ni al constructor del puente.",
+      "remaining": "Dueño de la huella y autoría del paso."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay encuentro de Torvik con los responsables ni nuevo cumplimiento de la promesa por Frøya.",
+      "remaining": "Cumplimiento del apoyo prometido."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No aparece la garra de Orna usada como espada ni se explica la sensibilidad de Varg o el interés de Skalk.",
+      "remaining": "Mecanismo de su poder, sensibilidad de Varg e interés de Skalk."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La vida confirmada de Ulfrir no altera las secuelas o supervivencia observada de Varg.",
+      "remaining": "Conservar el estado previo de Varg y sus secuelas."
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Fain fue bondadoso con Biórr al llegar a la compañía, pero no cuenta quién lo azotó, cuándo o por qué; llamar hermano a Storolf no refuta la muerte de su familia biológica ni prueba represalia.",
+      "remaining": "Autor, fecha y motivo de azotes, destino familiar y posible represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 9: Se persiste una nueva repercusión de la resurrección: reacción y marcha urgente de Lik-Rifa; no hay venta/salida comprobada del botín ni desenlace de la guerra.",
+      "remaining": "Traslado, venta y consecuencias posteriores de reliquias."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La confirmación de Ilska sobre la cámara no localiza a Skalk o Vol tras su huida.",
+      "remaining": "Destino y consecuencias de la huida de Skalk."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 9: El testimonio de Ilska corrobora cámara hallada y uso de Rauðskinna; se persiste en desc/star. No identifica a los niños de los colchones ni su destino.",
+      "remaining": "Verificar físicamente la atribución; identidad y destino de los ocupantes infantiles."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La devoción familiar de Ilska no identifica a quien talló o usó el altar del pinar.",
+      "remaining": "Autores, función y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Generaciones de servicio de la familia de Ilska no prueban que esos devotos hicieron las tallas de Liga y del pinar ni su alcance.",
+      "remaining": "Identidad y conexiones de quienes lo usan."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El servicio de los dragon-born no modifica la revelación de Varg como Bloodsworn/Tainted.",
+      "remaining": "Conservar las implicaciones de la revelación de Varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay dato nuevo del compromiso o invitación de Glornir a Varg.",
+      "remaining": "Conservar su alcance y compromisos."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La autora atribuida del libro habla de Ulfrir, no identifica al portador de Orna ni demuestra el linaje concreto de Biórr.",
+      "remaining": "Portador de Orna y verificación del linaje atribuido a Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se explica la causa o fecha de la muerte de Aska.",
+      "remaining": "Causa y fecha de su muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: La muerte ya confirmada de Vörn no reabre la llegada y constatación del encierro observadas en aquel encuentro.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: El encuentro histórico se conserva; proteger a Ilska aquí no liquida el feudo pendiente.",
+      "remaining": "Feudo continúa en venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No se identifica un nuevo atacante del Grimholt ni se explican sus consecuencias.",
+      "remaining": "Conservar indicios y consecuencias del ataque."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El guardia muerto aquí es anónimo y no se vincula con los emboscadores del Grimholt.",
+      "remaining": "Autores y conexiones de la emboscada."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Drekr no reemplaza ni revive a Skrið; el resultado del duelo permanece histórico.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay nueva identificación infantil ni explicación de cómo Bjarn o Breca cambiarían el mundo.",
+      "remaining": "Alcance y propósito de la operación infantil."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Los tres años de infiltración y el afecto de sus compañeros no contradicen el asesinato o el motivo confesado. No aclaran las cicatrices o la atribución de Rotta.",
+      "remaining": "Linaje concreto conserva la atribución anterior y cicatrices siguen aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Storolf y Fain reconocen su infiltración y pertenencia; no desmienten el móvil confesado ni implican un cambio de bando.",
+      "remaining": "none"
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La presencia de Drekr no revela nuevos traslados infantiles o consecuencias de las represalias del Grimholt.",
+      "remaining": "Conservar sus pistas de cautiverio y represalias."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: La resurrección de Ulfrir no es evidencia de supervivencia o resurrección de Mord.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: La amenaza contra Ilska ocurre después y no cambia el resultado de la batalla, rescate pendiente o feudo.",
+      "remaining": "Rescate y feudo continúan en sus propios hilos."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Ilska identifica Rauðskinna como el instrumento de la liberación ya observada; esa atribución se conserva en el objeto y furia-likrafa-campamento, sin duplicar el rito.",
+      "remaining": "Objetivos posteriores de Lik-Rifa continúan en rumbo-lik-rifa."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Uspa no aparece; nada revoca su supervivencia ya confirmada ni detalla el auxilio intermedio.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: No se muestra a Vörn viva ni se contradice la muerte constatada de la guardiana.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 9: Se persisten consumo de un guardia y orden urgente de cruce tras percibir a Ulfrir. No se muestra el cruce, llegada a Nastrandir o recuperación completa.",
+      "remaining": "Llegada a Nastrandir, reunión de fieles y recuperación."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay una nueva reunión con Glornir, Orka o Varg ni una explicación de los testimonios históricos allí conservados.",
+      "remaining": "Conservar vínculos y evidencias del encuentro previo."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: No se deshace ni contradice el entierro completado de Mord.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La percepción que Lik-Rifa atribuye al uso de su propio hechizo es otro fenómeno, conservado en perfil/evento; no explica cómo los vaesen supieron de su liberación o los sueños de Orka/Varg.",
+      "remaining": "Mecanismo y alcance de las percepciones."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Biórr recibe una bienvenida; Elvar no está presente y no cumple su represalia.",
+      "remaining": "Encuentro y represalia de Elvar contra Biórr."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: Lik-Rifa conserva una herida de las mujeres aladas, sin identificar cuál arma la causó ni aislar la magia del arco y las flechas.",
+      "remaining": "Papel mágico del arco y munición en las heridas del dragón."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El hombre anónimo porta muchos seaxes, sin comparación del tallado ni identificación de fabricante o conexión con las armas recogidas por Orka/Varg.",
+      "remaining": "Fabricante, conexiones y responsables de las armas."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: No hay acción de Jökul contra Skalk ni cumplimiento de su promesa por Torvik.",
+      "remaining": "Cumplimiento del compromiso de Jökul por Torvik."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 9: Se añade la atribución de libro/hechizo de Lik-Rifa; sus protecciones, contenido completo y cubierta no se resuelven. La muerte de sus guardianes es inferida por ella.",
+      "remaining": "Contenido total, protecciones y discrepancia de cubierta."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 9: Lik-Rifa supone la muerte de sus hijos, sin observar ese ataque ni probar que todos los guardias murieron; no contradice el auxilio de Uspa o identifica la criatura gris con la rata.",
+      "remaining": "none"
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: El dragón está vivo y actúa; no hay encuentro con Elvar/Ulfrir ni prueba de control, recuperación y victoria de la fuerza propuesta.",
+      "remaining": "Control/recuperación, cooperación y victoria contra Lik-Rifa."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 9: Se persiste corroboración atribuida del libro y su hechizo de resurrección; no se agotan contenido, protecciones o discrepancia de cubierta.",
+      "remaining": "Contenido restante, protección y descripción material."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 9: La partida está comprobada con quince guerreros frente a diez asignados; encuentro íntimo previo confirmado por diálogo. La jerarquía deseada no está implantada y llegada/recogida/entrega siguen pendientes.",
+      "remaining": "Llegada, recogida y traslado; jerarquía futura no implantada."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 9: La salida se cumple en plan-likrafa-nastrandir, con diferencia de efectivos conservada; ni llegada al padre no nombrado ni entrega se observan.",
+      "remaining": "Llegar al padre, reunir tesoros y llevarlos a Corpse-Strand."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La afirmación del dragón añade testimonio de vida ya conocida; no se muestra obediencia o recuperación del dios y el plan sigue PARCIAL.",
+      "remaining": "Control efectivo y recuperación de Ulfrir."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 9: La hueste de Ilska no negocia con Störr ni libera a Berak.",
+      "remaining": "Cómo obtener la libertad de Berak y conseguirla."
+    }
+  ]
+}

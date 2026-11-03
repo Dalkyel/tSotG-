@@ -94,7 +94,9 @@ Use its heading index and read one gate per response. Completion requires:
   `Thread lifecycle review: PASS`. Use the gate's baseline-backed checklist helper
   to catch omitted IDs and unfinished assessments before recording PASS. The reader's
   `--pov` selection retains untagged clues; apply the gate's cross-POV conditions and
-  keep the unfiltered index/checklist for complete coverage.
+  keep the unfiltered index/checklist for complete coverage. Optional `--compact`
+  removes formatting overhead from prose pages without omitting evidence; keep the
+  same format throughout a paginated read.
 
 Keep these files beside the unique run's `baseline/`. Book Two reprocessing completion
 also archives them and the checklist in the project; see its workflow reference.
