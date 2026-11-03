@@ -226,7 +226,8 @@ function main(argv, root = path.resolve(__dirname, '../../../..')) {
   return child(command, args, context);
 }
 function child(helper, args, cwd) {
-  const result = spawnSync(process.execPath, [path.join(__dirname, helper + '.cjs'), '2', ...args.map(String)], { cwd, stdio: 'inherit' });
+  const result = spawnSync(process.execPath, [path.join(__dirname, helper + '.cjs'), '2', ...args.map(String)],
+    { cwd, env: { ...process.env, ADD_CHAPTER_STAGED: '1' }, stdio: 'inherit' });
   if (result.error) throw result.error; assert.equal(result.status, 0, `${helper} failed; live completion not published`);
 }
 if (require.main === module) { try { main(process.argv.slice(2)); } catch (error) { console.error('Book Two reprocessing failed: ' + error.message); process.exitCode = 1; } }

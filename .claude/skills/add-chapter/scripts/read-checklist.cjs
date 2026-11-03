@@ -3,6 +3,7 @@
 // This reports human-authored evidence; it never infers states or certifies coverage.
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
+const { paginate } = require('./paginate.cjs');
 
 try {
   const [file, pageArg, ...ids] = process.argv.slice(2);
@@ -24,14 +25,7 @@ try {
   const selected = ids.length ? checklist.items.filter(item => ids.includes(item.id)) : checklist.items;
   // Compact JSON retains every stored field, including long multi-clue evidence.
   const payload = JSON.stringify(selected);
-  const pageSize = 8000, chunks = [];
-  for (let start = 0; start < payload.length;) {
-    let end = Math.min(start + pageSize, payload.length);
-    // Keep non-BMP characters intact when stdout encodes each page as UTF-8.
-    if (end < payload.length && /[\uD800-\uDBFF]/.test(payload[end - 1])) end--;
-    chunks.push(payload.slice(start, end));
-    start = end;
-  }
+  const chunks = paginate(payload);
   const pages = chunks.length;
   assert.ok(page <= pages, `Requested page ${page}; only ${pages} pages available`);
   console.log(`Saved checklist: Book ${checklist.book}, chapter ${checklist.chapter}; ${selected.length}/${checklist.items.length} items selected.`);

@@ -119,3 +119,29 @@ test('chapter verifier requires active event-category links in either direction'
     }
   }
 });
+
+test('chapter verifier --review-overlap flags a shared 12+ word passage between sibling nodes', () => {
+  const shared = 'orka sale de la granja siguiendo el rastro de sangre hasta el rio helado';
+  const firstShingle = shared.split(' ').slice(0, 12).join(' ');
+  const nodes = [
+    { id: 'evento-rastro', label: 'El Rastro de Sangre', group: 'ORKA', desc: `Primera version. ${shared} Resto distinto A.` },
+    { id: 'trama-rastro', label: 'Pregunta del Rastro', group: 'TRAMA', desc: `Otra introduccion. ${shared} Final distinto B.` },
+  ];
+  const result = verify('Elvar', true, ['--review-overlap'], { nodes });
+  assert.equal(result.status, 0, result.output);
+  assert.match(result.output, /Shared-passage candidates \(12\+ identical consecutive words\)/);
+  assert.ok(result.output.includes(`evento-rastro (El Rastro de Sangre) ~ trama-rastro (Pregunta del Rastro): "${firstShingle}"`), result.output);
+});
+
+test('chapter verifier --review-overlap ignores short shared boilerplate and is non-fatal', () => {
+  const nodes = [
+    { id: 'trama-a', label: 'Pregunta A', group: 'TRAMA', desc: 'ESTADO: PARCIAL. Véase evento-id para el desarrollo completo.' },
+    { id: 'trama-b', label: 'Pregunta B', group: 'TRAMA', desc: 'ESTADO: ABIERTA. Véase evento-id para el desarrollo completo.' },
+  ];
+  const result = verify('Elvar', true, ['--review-overlap'], { nodes });
+  assert.equal(result.status, 0, result.output);
+  assert.match(result.output, /No shared passages of 12\+ consecutive words among the \d+ appended nodes\./);
+  const quiet = verify('Elvar', true, [], { nodes });
+  assert.equal(quiet.status, 0, quiet.output);
+  assert.ok(!quiet.output.includes('Shared-passage') && !quiet.output.includes('No shared passages'));
+});

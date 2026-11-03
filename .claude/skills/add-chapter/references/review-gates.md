@@ -98,8 +98,12 @@ chores, repeated background facts and every individual blow do not need separate
   finally happening) and introduces new content in that same scene (the reason behind
   it), re-read the resolving EVENTO's final text and the new node's final text side by
   side before finishing — it is easy to draft the new node so it repeats the scene the
-  existing EVENTO already owns. The verifier cannot catch this: it checks syntax and
-  link identity, not content overlap between sibling nodes. (In a Book 1 rebuild Chapter
+  existing EVENTO already owns. Run `verify-chapter.cjs` with `--review-overlap` to flag
+  any run of 12+ identical consecutive words shared between this chapter's appended
+  nodes; it only surfaces candidates (short intentional boilerplate, like a
+  "Véase EVENTO-ID" pointer, won't trigger it since it's well under 12 words) — it still
+  cannot judge whether a flagged pair is actually a defect, so read the flagged passage
+  yourself. (In a Book 1 rebuild Chapter
   20 run, a new "mission" EVENTO first repeated, almost verbatim, the departure sentence
   already owned by the existing `partida-liga` EVENTO it was meant to follow from; caught
   only by a manual side-by-side re-read after the verifier had already passed.)

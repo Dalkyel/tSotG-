@@ -164,7 +164,7 @@ test('failed revision publication restores the applied draft rather than the bas
 test('rebuild batch resolves caller paths, isolates staged writes and rejects reference mode', t => {
   const root = fixture(t), localScripts = path.join(root, '.claude/skills/add-chapter/scripts');
   fs.mkdirSync(localScripts, { recursive: true });
-  for (const helper of ['rebuild', 'append-chapter', 'append-node', 'append-entries', 'verify-chapter']) fs.copyFileSync(path.join(scripts, helper + '.cjs'), path.join(localScripts, helper + '.cjs'));
+  for (const helper of ['rebuild', 'append-chapter', 'append-node', 'append-entries', 'verify-chapter', 'paginate']) fs.copyFileSync(path.join(scripts, helper + '.cjs'), path.join(localScripts, helper + '.cjs'));
   fs.copyFileSync(path.resolve(__dirname, '../characters-core.js'), path.join(root, 'characters-core.js'));
   const { createHash } = require('node:crypto');
   const staged = path.join(root, 'book1/rebuild');

@@ -73,6 +73,7 @@ if (['verify-chapter', 'append-chapter'].includes(helper)) {
 console.error(`Book One ${reference ? 'reference (read only)' : 'rebuild'}: ${cwd}`);
 const result = spawnSync(process.execPath, [path.join(__dirname, `${helper === 'finish-chapter' ? 'finish-rebuild-chapter' : helper}.cjs`), '1', ...args], {
   cwd,
+  env: { ...process.env, ADD_CHAPTER_STAGED: '1' },
   stdio: 'inherit',
 });
 if (result.error) console.error(result.error.message);

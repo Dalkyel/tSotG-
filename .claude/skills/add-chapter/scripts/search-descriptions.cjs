@@ -2,6 +2,8 @@
 // Run from the project root; evaluates trusted local node arrays only.
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
+const { paginate } = require('./paginate.cjs');
+const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
 const [bookArg, pageArg, name, ...options] = process.argv.slice(2);
 const book = Number(bookArg), page = Number(pageArg);
@@ -9,6 +11,7 @@ assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page 
   options.length % 2 === 0 && options.every((value, index) =>
     index % 2 === 0 ? ['--id', '--max-excerpts'].includes(value) : value && !value.startsWith('--')),
   'Usage: node .claude/skills/add-chapter/scripts/search-descriptions.cjs BOOK PAGE NAME [--id ID ...] [--max-excerpts N]');
+warnIfBypassingActiveRebuild(book);
 const selectedIds = new Set();
 let maxExcerpts = Infinity;
 for (let index = 0; index < options.length; index += 2) {
@@ -82,10 +85,11 @@ if (selectedIds.size) {
     lines.push(`${id} | ${JSON.stringify([...labels])} | ${[...files].join(', ')} | ${count} matches`);
 }
 const payload = lines.join('\n') || 'NO MATCHES';
-const pageSize = 8000, pages = Math.ceil(payload.length / pageSize);
+const chunks = paginate(payload);
+const pages = chunks.length;
 assert.ok(page <= pages, `Requested page ${page}; only ${pages} pages available`);
 console.log(`${JSON.stringify(name)}; ${mode}; ${selectedIds.size ? 'excerpts for ' + [...selectedIds].join(', ') : 'candidate list'}.`);
 console.log(`Page ${page}/${pages}; ${payload.length} total characters.`);
-console.log(payload.slice((page - 1) * pageSize, page * pageSize));
+console.log(chunks[page - 1]);
 console.log(page < pages ? `CONTINUES: read page ${page + 1} with the same arguments.` : 'END: all results displayed.');
 console.log('Literal, case-insensitive Unicode name matching; try spelling/accent variants separately. Read full latest entries before editing.');

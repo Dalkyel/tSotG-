@@ -150,7 +150,7 @@ test('rebuild backlog dispatch stays isolated from live and reference archives',
   const root = fixture(t);
   const targetScripts = path.join(root, '.claude/skills/add-chapter/scripts');
   fs.mkdirSync(targetScripts, { recursive: true });
-  for (const helper of ['rebuild', 'read-backlog', 'backlog-data'])
+  for (const helper of ['rebuild', 'read-backlog', 'backlog-data', 'paginate', 'rebuild-guard'])
     fs.copyFileSync(path.join(scripts, `${helper}.cjs`), path.join(targetScripts, `${helper}.cjs`));
   writeNodes(root, 1, [{ id: 'live-spoiler', group: 'TRAMA' }]);
   writeNodes(path.join(root, 'book1/rebuild'), 1, [{ id: 'staged-clue', group: 'TRAMA', desc: 'staged evidence' }]);

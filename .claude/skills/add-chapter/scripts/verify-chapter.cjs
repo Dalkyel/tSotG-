@@ -4,11 +4,12 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
 const { execFileSync } = require('node:child_process');
+const { paginate } = require('./paginate.cjs');
 
 const [bookArg, chapterArg, baseline, ...options] = process.argv.slice(2);
-assert.ok(options.every(option => ['--review-links', '--review-summary', '--staged-preview'].includes(option)
+assert.ok(options.every(option => ['--review-links', '--review-summary', '--review-overlap', '--staged-preview'].includes(option)
   || /^--review-nodes=[1-9]\d*$/.test(option)),
-  'Unknown option; supported: --review-links, --review-summary, --review-nodes=PAGE, --staged-preview');
+  'Unknown option; supported: --review-links, --review-summary, --review-overlap, --review-nodes=PAGE, --staged-preview');
 const nodeReviewOptions = options.filter(option => option.startsWith('--review-nodes='));
 assert.ok(nodeReviewOptions.length <= 1, 'Supply only one --review-nodes=PAGE option');
 const book = Number(bookArg), chapter = Number(chapterArg);
@@ -115,10 +116,11 @@ if (nodeReviewOptions.length) {
   });
   const text = JSON.stringify(entries, null, 2);
   const page = Number(nodeReviewOptions[0].split('=')[1]);
-  const pages = Math.max(1, Math.ceil(text.length / 10000));
+  const chunks = paginate(text);
+  const pages = chunks.length;
   assert.ok(page <= pages, `Node review page ${page} exceeds ${pages} pages`);
   nodeReview = `Node review page ${page}/${pages}; ${text.length} characters; baseline desc/star prefixes verified.\n`
-    + text.slice((page - 1) * 10000, page * 10000)
+    + chunks[page - 1]
     + (page < pages ? `\nCONTINUES: use --review-nodes=${page + 1}` : '\nEND: all changed nodes displayed.');
 }
 console.log(`PASS: Book ${book}, chapter ${chapter}: ${added.nodes.length} nodes, ${added.links.length} links, 1 summary appended.`);
@@ -139,4 +141,33 @@ if (options.includes('--review-links')) {
     const sentence = `${labels.get(link.source)} → ${link.label} → ${labels.get(link.target)}`;
     console.log(link.status === 'broken' ? `[BROKEN] ${sentence} (${link.reason ?? 'no reason supplied'})` : sentence);
   }
+}
+if (options.includes('--review-overlap')) {
+  // Flags a candidate for the manual side-by-side re-read the ownership/event-coverage
+  // gates already require; it cannot judge whether the overlap is a real defect (some
+  // short boilerplate, like a "Véase EVENTO-ID" pointer, is meant to repeat verbatim).
+  const SHINGLE_SIZE = 12;
+  const newText = node => {
+    const before = latest.get(node.id);
+    return before ? node.desc.slice((before.desc ?? '').length) : node.desc;
+  };
+  const shingles = text => {
+    const words = text.toLowerCase().normalize('NFKC').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean);
+    const set = new Map();
+    for (let i = 0; i + SHINGLE_SIZE <= words.length; i++) set.set(words.slice(i, i + SHINGLE_SIZE).join(' '), i);
+    return set;
+  };
+  const entries = added.nodes.map(node => ({ node, shingles: shingles(newText(node)) }));
+  const found = [];
+  for (let i = 0; i < entries.length; i++) {
+    for (let j = i + 1; j < entries.length; j++) {
+      for (const [shingle] of entries[i].shingles) {
+        if (entries[j].shingles.has(shingle)) { found.push([entries[i].node, entries[j].node, shingle]); break; }
+      }
+    }
+  }
+  console.log(found.length
+    ? `Shared-passage candidates (${SHINGLE_SIZE}+ identical consecutive words) — review for duplicated ownership:`
+    : `No shared passages of ${SHINGLE_SIZE}+ consecutive words among the ${added.nodes.length} appended nodes.`);
+  for (const [a, b, shingle] of found) console.log(`${a.id} (${a.label}) ~ ${b.id} (${b.label}): "${shingle}"`);
 }

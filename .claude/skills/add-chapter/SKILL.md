@@ -350,7 +350,7 @@ Run the bundled verifier from the project root, using the actual unique pre-edit
 baseline directory saved above (replace the numbers for the current book/chapter):
 
 ```sh
-node .claude/skills/add-chapter/scripts/verify-chapter.cjs 2 11 "$chapter_baseline" --review-links --review-summary
+node .claude/skills/add-chapter/scripts/verify-chapter.cjs 2 11 "$chapter_baseline" --review-links --review-summary --review-overlap
 ```
 
 The verifier checks each book's files separately for JavaScript syntax, resolves link
@@ -375,6 +375,11 @@ Use `--review-summary` to print each distinct emphasized term with its resolved 
 and stable id. Check these identities against the source, especially where an individual,
 species or god shares a name. A complete match can still point to the wrong subject;
 this report replaces an ad hoc matcher query, not the semantic review.
+Use `--review-overlap` to flag any run of 12+ identical consecutive words shared between
+this chapter's appended nodes — the recurring sibling-narration-duplication failure (see
+the [event-coverage gate](references/review-gates.md#hard-gate--key-event-coverage)).
+It only surfaces candidates; read the flagged passage yourself before deciding whether to
+trim it.
 
 **Completion requires the [ownership gate](references/review-gates.md#hard-gate--fact-ownership),
 [event-coverage gate](references/review-gates.md#hard-gate--key-event-coverage) and

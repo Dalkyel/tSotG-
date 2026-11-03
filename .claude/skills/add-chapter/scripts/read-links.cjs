@@ -2,6 +2,8 @@
 // Run from the project root; evaluates trusted local node/link arrays only.
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
+const { paginate } = require('./paginate.cjs');
+const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
 const [bookArg, pageArg, ...args] = process.argv.slice(2);
 const between = args[0] === '--between';
@@ -11,6 +13,7 @@ assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page 
   'Usage: node .claude/skills/add-chapter/scripts/read-links.cjs BOOK PAGE ID [ID ...] | BOOK PAGE --between ID ID');
 assert.ok(ids.every(id => !id.startsWith('--')), 'Unknown or misplaced option');
 assert.ok(!between || ids.length === 2, '--between requires exactly two endpoint ids');
+warnIfBypassingActiveRebuild(book);
 
 const labels = new Map(), links = [];
 for (let n = 1; n <= book; n++) {
@@ -32,8 +35,9 @@ const payload = matches.map(({ file, link }) => {
   const sentence = `${labels.get(link.source)} [${link.source}] → ${link.label} → ${labels.get(link.target)} [${link.target}]`;
   return `${file} | ${link.status === 'broken' ? '[BROKEN] ' : ''}${sentence} | ${link.type ?? 'no type'}${link.reason ? ` | ${link.reason}` : ''}`;
 }).join('\n') || 'NO MATCHES';
-const pageSize = 8000, pages = Math.ceil(payload.length / pageSize);
+const chunks = paginate(payload);
+const pages = chunks.length;
 assert.ok(page <= pages, `Requested page ${page}; only ${pages} pages available`);
 console.log(`Page ${page}/${pages}; ${matches.length} stored links ${between ? 'between selected endpoints (both directions)' : 'touching selected ids'} through Book ${book}. Includes history and broken markers, not a resolved active graph.`);
-console.log(payload.slice((page - 1) * pageSize, page * pageSize));
+console.log(chunks[page - 1]);
 console.log(page < pages ? `CONTINUES: read page ${page + 1} with the same book and ids.` : 'END: all matching links displayed.');
