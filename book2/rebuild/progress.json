@@ -22,7 +22,8 @@
     18,
     19,
     20,
-    21
+    21,
+    22
   ],
   "chapters": [
     {
@@ -325,15 +326,33 @@
         }
       },
       "log": "Chapter 21: Reviewed Guðvarr’s audience, Frek and Estrid, Vafri’s attributed loss, and the pending requests. Verified 11 nodes, 36 links, 15 summary mentions and 172 backlog assessments. All three semantic gates and the pre-publication regression suite passed. Browser appearance was not verified."
+    },
+    {
+      "chapter": 22,
+      "source": "book2/chapter 22.html",
+      "sourceHash": "2fbd35a6eb5700d05983af271bae00fdfa630fd47d99d7dec57604400fab1f7b",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch22.56WZ18",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-22",
+        "hashes": {
+          "ownership-review.md": "e86defb66eead84839d989573e6307ad24a12454a53d83a32335b2b1998d1b1b",
+          "event-review.md": "dd4b2bc03400add5adc9c0b8486be5ade18ab9ff820c1ac0dd6bc6ffe19cc0fa",
+          "thread-review.md": "16a31289293617af34221ff8021f0339f92122ebe945a743a73889bb5fa275cd",
+          "thread-checklist.json": "e6323d169183545220f50cd3764050e4813d975a97840f647273b19bf1ac530c",
+          "completion.json": "3781aab057497b80db9c689396f7aa203e8ced3c58b50ad4bfff41f8dbb33353",
+          "chapter.json": "c3984cc09ac76895690075c03aeb5a66ef84fec2f8345f8636bb68f372e04a67"
+        }
+      },
+      "log": "Chapter 22: Reprocessed Orka's aftermath at Rotta, Myrk's interrogation and the volunteers for the proposed Starl route; reviewed ownership, event coverage, summary identities and 174 thread candidates. All 120 tests passed before publication. Visual preview pending."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "679151dfa1d779eea055ef8233849c5236f3b70ca11d049813b3911175d30ccf",
-    "book2/links.js": "cdfe7180d46e37c115b135bffe2bbf470c1511f7d8acbc542acc54ea9255817a",
-    "book2/summaries.js": "5794dd96717078a190c426bbee26a5044fea93e6e7a3a7a03328571d723d96af"
+    "book2/nodes.js": "b3308a927c580bb0e025568c67ea338fd5d7f1ab3dcfba5bf0715ee0214ed817",
+    "book2/links.js": "f2d894b94cd215ebbe0e09246afce5d9a4d4529b4d8d5c41d29e6a4f27046a7e",
+    "book2/summaries.js": "c86a402bd912b0a72427dcf17740ac75d4429b3fe9403fda329f8ee046dd5939"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -344,9 +363,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "0045ab197cac415cc73a8613e7a82726bf80f7636d6b476d89f4c7b8157c86d5",
-    "links": "00c80098c1b68169f948a1339a10be110f69efea67f5f294bd0dd797d1f41c7c",
-    "summaries": "9636dca6ddee1fce3c18e3580102ba0a512e721b819c720618b1572351ed4de3"
+    "nodes": "74bc59f3d8e01bf35cd718bab1028232aa311c375dadc413e247f86e53a2dade",
+    "links": "b88467a2df0a3078c2b86803dc0a6bc2f8b162b5a99189a688bbfd4a34cda3e9",
+    "summaries": "01e799c67121d12c3e13c3c245e774815a9d2215f3ce9ed7db64239bf2b0fc24"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

@@ -64,7 +64,8 @@ node .claude/skills/add-chapter/scripts/reprocess.cjs read-backlog 1 --pov ORKA
 node .claude/skills/add-chapter/scripts/reprocess.cjs review-backlog 1 BASELINE init RUN/thread-checklist.json
 node .claude/skills/add-chapter/scripts/reprocess.cjs append-chapter 1 BASELINE RUN/chapter.json
 node .claude/skills/add-chapter/scripts/reprocess.cjs verify-chapter 1 BASELINE --review-nodes=1
-node .claude/skills/add-chapter/scripts/reprocess.cjs verify-chapter 1 BASELINE --review-links --review-summary
+node .claude/skills/add-chapter/scripts/reprocess.cjs verify-chapter 1 BASELINE --review-links
+node .claude/skills/add-chapter/scripts/reprocess.cjs verify-chapter 1 BASELINE --review-summary
 node .claude/skills/add-chapter/scripts/reprocess.cjs review-backlog 1 BASELINE sync RUN/thread-checklist.json
 node .claude/skills/add-chapter/scripts/reprocess.cjs review-backlog 1 BASELINE check RUN/thread-checklist.json
 ```

@@ -116,7 +116,7 @@ if (nodeReviewOptions.length) {
   });
   const text = JSON.stringify(entries, null, 2);
   const page = Number(nodeReviewOptions[0].split('=')[1]);
-  const chunks = paginate(text);
+  const chunks = paginate(text, undefined, { preferLines: true });
   const pages = chunks.length;
   assert.ok(page <= pages, `Node review page ${page} exceeds ${pages} pages`);
   nodeReview = `Node review page ${page}/${pages}; ${text.length} characters; baseline desc/star prefixes verified.\n`

@@ -1,0 +1,449 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 22 — ORKA ──",
+  "nodes": [
+    {
+      "id": "curas-vesli-rotta",
+      "mode": "new",
+      "label": "Las Curas de Vesli tras el Combate",
+      "group": "EVENTO",
+      "type": "Evento — Curas tras el combate",
+      "desc": "LIBRO 2, CAPÍTULO 22: En el claro de la Cámara de Rotta, Orka comprueba que los Bloodsworn han sobrevivido al combate y que todos salvo Edel sangran por alguna herida. Vesli limpia la frente de Orka y recompone el borde de piel antes de aplicar una pasta verde que regurgita y amasa. Lava el hombro y extrae con las garras los fragmentos de malla antes de aplicar otra dosis; tras calor y hormigueo, Orka deja de sentir dolor en las heridas más graves. A petición de Orka, Vesli atiende también el tajo del muslo de Gunnar, que protesta por el olor; Revna le pide que siga. Lif tiembla y vomita pese a mostrar solo un corte en la mano. Reconoce que su escudo destrozado le ha salvado la vida repetidas veces. Ingmar va por el hidromiel cuando Lif no puede subir al campamento.",
+      "star": ""
+    },
+    {
+      "id": "interrogatorio-myrk",
+      "mode": "new",
+      "label": "El Interrogatorio de Myrk",
+      "group": "EVENTO",
+      "type": "Evento — Interrogatorio y cautiverio",
+      "desc": "LIBRO 2, CAPÍTULO 22: Orka encuentra a Myrk inconsciente, atada y amordazada, aparta su espada y su seax, le quita monedas y brazaletes de serpiente y guarda un trozo de lino manchado con la sangre de su mejilla. Al despertar, Myrk se debate con los ojos rojos; se le vuelven azules antes de que Orka la desamordace. Orka dice que es la única superviviente de su grupo. Myrk pregunta quién mató a su padre, desafía a Orka a una holmganga y, al ver a Spert, le reprocha haber luchado con ayuda. Amenaza con Lik-Rifa y deduce en voz alta ante Lif y los demás que los Bloodsworn son Tainted. Orka compara los seaxes y recuerda las heridas de Drekr. Myrk reconoce el arma de Drekr, confirma que él le habló del enfrentamiento en El Drengr Muerto y da a entender que sigue vivo. No contesta dónde está Breca. Orka la golpea repetidamente hasta que Edel, Halja y Revna la sujetan; sigue respirando, pero la vuelven a amordazar y la atan sobre su caballo para llevarla consigo.",
+      "star": ""
+    },
+    {
+      "id": "rumbo-starl-orka",
+      "mode": "new",
+      "label": "Orka Rumbo a Starl: Tres Voluntarios",
+      "group": "EVENTO",
+      "type": "Evento — Decisión y voluntarios",
+      "desc": "LIBRO 2, CAPÍTULO 22: En el claro de Rotta, Orka decide seguir el rastro de los Raven-Feeders y volver a preguntar a Myrk cuando despierte. Edel los vio llegar desde el noroeste siguiendo las Montañas Espinazo. Propone continuar hacia el Lago Horndal y Starl sin asegurar que vinieran de allí. Dice que los Raven-Feeders, la dragon-born y los sueños sobre Lik-Rifa la inquietan, y sospecha que Breca está implicado. Debe volver al Sea-Wolf para Glornir; como jefa de la escolta, autoriza que Halja, Gunnar y Revna se unan a Orka pese a la escasez de remeros. Halja dice que un trol al servicio de la dragon-born mató a su hermano y quiere alcanzar a quienes lo pusieron en marcha. Gunnar bromea con ahorrarse el remo; Revna quiere formar parte de la canción que imagina sobre Orka. Orka acepta la ayuda pese a sentir que no merece su ayuda por haber roto su juramento. Hay treinta caballos entre los dos grupos después de tomar las monturas enemigas. La partida queda acordada; todavía no salen del claro.",
+      "star": ""
+    },
+    {
+      "id": "venganza-halja",
+      "mode": "new",
+      "label": "Halja Quiere Ajustar Cuentas por Vali",
+      "group": "TRAMA",
+      "type": "Trama — Pregunta u objetivo pendiente",
+      "desc": "PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 22: En rumbo-starl-orka Halja acepta acompañar a Orka para alcanzar a quienes pusieron en marcha el ataque en el que cayó su hermano; dice que el trol que lo mató ya ha muerto. ESTADO: ABIERTA. Pendientes: a quién responsabilizará y si conseguirá ajustar cuentas.",
+      "star": ""
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "mode": "new",
+      "label": "¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?",
+      "group": "TRAMA",
+      "type": "Trama — Pregunta u objetivo pendiente",
+      "desc": "PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 22: La amenaza de Myrk en interrogatorio-myrk lleva a Orka a preguntarse en privado si la muerte de Thorkel y el rapto de Breca guardan relación con el regreso de Lik-Rifa. En rumbo-starl-orka Edel expresa por su cuenta la sospecha de que Breca está implicado. ESTADO: ABIERTA. Falta establecer qué papel tendría el niño, si existe una conexión con el asesinato y cómo encajan los Raven-Feeders.",
+      "star": ""
+    },
+    {
+      "id": "vesli",
+      "mode": "update",
+      "previousState": "Aplica su pasta verde a Orka y Gunnar y recoge dientes.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Limpia las heridas de Orka, extrae fragmentos de hierro de su hombro y aplica su pasta verde; también trata el tajo de Gunnar. Véase curas-vesli-rotta. Come y recoge tantos dientes que ya no le caben en la bolsa."
+    },
+    {
+      "id": "spert",
+      "mode": "update",
+      "previousState": "Recibe gachas y amedrenta a la cautiva con su aguijón.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Sigue a Orka desde su refugio en el barro y alza el aguijón cuando Myrk lo señala como la ayuda que tuvo Orka. Recibe de ella gachas mezcladas con sangre de su pulgar y saliva."
+    },
+    {
+      "id": "myrk",
+      "mode": "update",
+      "previousState": "Sobrevive como prisionera y reconoce el arma de Drekr.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Es la única de su partida que queda viva según Orka. Se resiste, desafía a su captora y se niega a localizar a Breca. Acaba atada y amordazada sobre su caballo tras los golpes de Orka; véase interrogatorio-myrk.",
+      "starAppend": "LIBRO 2, CAPÍTULO 22: Su amenaza en nombre de Lik-Rifa motiva la pregunta de breca-vinculo-lik-rifa. Su captura interrumpe su misión personal; véase traslado-tesoros-rotta."
+    },
+    {
+      "id": "halja",
+      "mode": "update",
+      "previousState": "Interviene para detener a Orka y se ofrece a acompañarla.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Ayuda a sujetar a Orka cuando golpea a Myrk. Se une a la búsqueda para alcanzar a los responsables de la muerte de su hermano, al que, según declara, mató un trol. Véanse rumbo-starl-orka y venganza-halja."
+    },
+    {
+      "id": "edel",
+      "mode": "update",
+      "previousState": "Aporta un rumbo y autoriza a tres voluntarios.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Sujeta a Orka durante el interrogatorio. Aporta su observación del rumbo de los jinetes y, como jefa de la escolta, permite que tres Bloodsworn se unan a Orka mientras ella se dispone a regresar al Sea-Wolf. Expresa que le gustaría acompañarla y se le llenan los ojos de lágrimas; véase rumbo-starl-orka."
+    },
+    {
+      "id": "gunnar-prow",
+      "mode": "update",
+      "previousState": "Recibe curas por el tajo y se suma a la búsqueda.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Recibe la pasta de Vesli en el muslo pese a protestar por su olor. Cojeando aún, se ofrece para acompañar a Orka; véanse curas-vesli-rotta y rumbo-starl-orka."
+    },
+    {
+      "id": "revna-hare-legs",
+      "mode": "update",
+      "previousState": "Auxilia a Gunnar, contiene a Orka y se ofrece para la búsqueda.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Corta la ropa de Gunnar para examinar su herida e insta a Vesli a curarlo. Ayuda a detener a Orka durante el interrogatorio. Se ofrece a acompañarla porque quiere figurar en la canción que espera que se componga sobre ella; véase rumbo-starl-orka."
+    },
+    {
+      "id": "ingmar",
+      "mode": "update",
+      "previousState": "Trae provisiones y expresa su afecto por sus antiguos compañeros.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Va por el hidromiel cuando Lif no puede, y regresa con el barril, la olla y un saco de avena. Comparte gachas con Orka, celebra volver a luchar con ella y recuerda a Thorkel como un buen amigo."
+    },
+    {
+      "id": "lif",
+      "mode": "update",
+      "previousState": "Reconoce el valor del escudo tras la batalla.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: Tiembla y vomita tras la lucha. Muestra un corte en la mano con la que empuña la lanza y dice que habría muerto varias veces sin el escudo, que queda astillado. Orka le aconseja beber hidromiel e Ingmar va a buscarlo. Más tarde Lif está mejor y prepara su montura; véase curas-vesli-rotta."
+    },
+    {
+      "id": "seaxes-tainted",
+      "mode": "update",
+      "previousState": "El seax de Myrk aporta una tercera comparación en manos de Orka.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: El seax de Myrk, más corto, ligero y estrecho que los dos de Drekr, muestra una empuñadura de fresno con nudos de serpiente y un trabajo semejante. Orka los compara ante ella; véase interrogatorio-myrk.",
+      "starAppend": "LIBRO 2, CAPÍTULO 22: La semejanza se extiende a la hoja de Myrk, sin identificar tallador ni forja; véase venganza-seaxes."
+    },
+    {
+      "id": "venganza-seaxes",
+      "mode": "update",
+      "previousState": "El arma de Myrk amplía el indicio de procedencia.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: ESTADO: PARCIAL. La comparación en interrogatorio-myrk amplía el indicio material; Myrk reconoce el arma de Drekr y da a entender que él sigue vivo. Siguen sin aclararse garras y fabricante; la venganza queda pendiente."
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "previousState": "Orka obtiene un rumbo de búsqueda, sin respuesta de Myrk.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: ESTADO: PARCIAL. Myrk no responde en interrogatorio-myrk. La pista de Edel en rumbo-starl-orka ofrece una ruta que seguir y Orka planea volver a interrogar a la cautiva. Siguen pendientes paradero, salud y rescate; la posible conexión con Lik-Rifa se sigue en breca-vinculo-lik-rifa."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "mode": "update",
+      "previousState": "La captura interrumpe la misión de Myrk.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: ESTADO: PARCIAL. El interrogatorio confirma que Myrk queda prisionera y Orka afirma que su partida ha perecido. No se comprueba si alguien recogió los hallazgos ni cuál fue su destino. Véase interrogatorio-myrk."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "mode": "update",
+      "previousState": "Myrk enuncia en presencia de Lif el secreto de la compañía.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: ESTADO: PARCIAL. En interrogatorio-myrk Myrk dice en voz alta que los Bloodsworn son Tainted; Edel lleva la mano al hacha, sin agredir a Lif. El joven sigue con Orka al acordarse la búsqueda; el capítulo no precisa cómo interpreta la revelación ni si cesó el riesgo."
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "mode": "update",
+      "previousState": "Edel alude a sueños sobre Lik-Rifa.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: ESTADO: ABIERTA. En rumbo-starl-orka Edel menciona sueños oscuros sobre Lik-Rifa al explicar su inquietud, sin identificar quién los tuvo ni aclarar su relación con la liberación o cómo los vaesen se enteraron."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "mode": "update",
+      "previousState": "Lif reconoce que el escudo le salvó la vida.",
+      "descAppend": "LIBRO 2, CAPÍTULO 22: ESTADO: PARCIAL. Tras la batalla Lif atribuye su supervivencia al escudo astillado; véase curas-vesli-rotta. La experiencia muestra el valor práctico de la lección del capítulo 18. Sigue pendiente su preparación para enfrentar a Guðvarr."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "curas-vesli-rotta",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-orka",
+      "target": "curas-vesli-rotta",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "interrogatorio-myrk",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-orka",
+      "target": "interrogatorio-myrk",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "rumbo-starl-orka",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-orka",
+      "target": "rumbo-starl-orka",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "venganza-halja",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "venganza-halja",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "breca-vinculo-lik-rifa",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "breca-vinculo-lik-rifa",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "vesli",
+      "target": "curas-vesli-rotta",
+      "label": "administra",
+      "type": "event"
+    },
+    {
+      "source": "curas-vesli-rotta",
+      "target": "orka",
+      "label": "atienden a",
+      "type": "event"
+    },
+    {
+      "source": "curas-vesli-rotta",
+      "target": "gunnar-prow",
+      "label": "atienden a",
+      "type": "event"
+    },
+    {
+      "source": "curas-vesli-rotta",
+      "target": "lif",
+      "label": "ocurren durante la recuperación de",
+      "type": "event"
+    },
+    {
+      "source": "curas-vesli-rotta",
+      "target": "combate-myrk-rotta",
+      "label": "siguen al",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "myrk",
+      "label": "tiene como cautiva a",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "orka",
+      "label": "es dirigido por",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "edel",
+      "label": "es interrumpido por",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "halja",
+      "label": "es interrumpido por",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "revna-hare-legs",
+      "label": "es interrumpido por",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "seaxes-tainted",
+      "label": "reúne para comparar los",
+      "type": "lore"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "drekr",
+      "label": "corrobora que Myrk conoce a",
+      "type": "rel"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "likrafa",
+      "label": "incluye la amenaza de Myrk en nombre de",
+      "type": "lore"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "combate-myrk-rotta",
+      "label": "sigue al",
+      "type": "event"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "orka",
+      "label": "presenta la decisión de",
+      "type": "event"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "edel",
+      "label": "parte de la pista aportada por",
+      "type": "event"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "halja",
+      "label": "incorpora a",
+      "type": "event"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "gunnar-prow",
+      "label": "incorpora a",
+      "type": "event"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "revna-hare-legs",
+      "label": "incorpora a",
+      "type": "event"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "montanas-espinazo",
+      "label": "se decide por la pista de las",
+      "type": "geo"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "lake-horndal",
+      "label": "propone seguir la ruta hacia",
+      "type": "geo"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "starl",
+      "label": "toma como posible rumbo",
+      "type": "geo"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "myrk",
+      "label": "incluye llevar presa a",
+      "type": "event"
+    },
+    {
+      "source": "rescate-breca",
+      "target": "rumbo-starl-orka",
+      "label": "avanza con la pista de",
+      "type": "trama"
+    },
+    {
+      "source": "traslado-tesoros-rotta",
+      "target": "interrogatorio-myrk",
+      "label": "se interrumpe en",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-seaxes",
+      "target": "interrogatorio-myrk",
+      "label": "recibe nueva evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "proteccion-lif-secreto",
+      "target": "interrogatorio-myrk",
+      "label": "cambia tras la revelación en",
+      "type": "trama"
+    },
+    {
+      "source": "percepcion-liberacion-lik-rifa",
+      "target": "rumbo-starl-orka",
+      "label": "recoge la alusión de Edel en",
+      "type": "trama"
+    },
+    {
+      "source": "breca-vinculo-lik-rifa",
+      "target": "interrogatorio-myrk",
+      "label": "nace de la amenaza durante",
+      "type": "trama"
+    },
+    {
+      "source": "breca-vinculo-lik-rifa",
+      "target": "rumbo-starl-orka",
+      "label": "recoge la sospecha expresada en",
+      "type": "trama"
+    },
+    {
+      "source": "breca-vinculo-lik-rifa",
+      "target": "breca",
+      "label": "indaga el papel de",
+      "type": "trama"
+    },
+    {
+      "source": "breca-vinculo-lik-rifa",
+      "target": "thorkel",
+      "label": "indaga el asesinato de",
+      "type": "trama"
+    },
+    {
+      "source": "breca-vinculo-lik-rifa",
+      "target": "likrafa",
+      "label": "indaga la relación con el regreso de",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-halja",
+      "target": "rumbo-starl-orka",
+      "label": "surge del compromiso en",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-halja",
+      "target": "halja",
+      "label": "es el objetivo de",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-halja",
+      "target": "vali",
+      "label": "parte de la muerte de",
+      "type": "trama"
+    },
+    {
+      "source": "curas-vesli-rotta",
+      "target": "camara-rotta",
+      "label": "tienen lugar en el claro de la",
+      "type": "geo"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "sea-wolf",
+      "label": "se acuerda antes del regreso de Edel al",
+      "type": "geo"
+    },
+    {
+      "source": "aprendizaje-mord-lif",
+      "target": "curas-vesli-rotta",
+      "label": "recibe confirmación práctica en",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 22,
+    "title": "Capítulo 22 — Orka",
+    "summary": "Tras el combate en la <strong>Cámara de Rotta</strong>, <strong>Vesli</strong> limpia las heridas de <strong>Orka Skullsplitter</strong>, extrae hierro de su hombro y aplica una pasta verde que calma el dolor. También atiende a <strong>Gunnar Prow</strong> pese a sus protestas. <strong>Lif</strong>, tembloroso y con náuseas, admite que su escudo destrozado le salvó la vida. <strong>Ingmar Ice</strong> va por el hidromiel.<br><br><strong>Myrk Sharp-Claw</strong>, atada y desarmada, exige saber quién mató a su padre. Amenaza con <strong>Lik-Rifa</strong> y dice que los <strong>Bloodsworn</strong> también son <strong>Tainted</strong>. Orka compara la hoja de Myrk con las de <strong>Drekr</strong> que sacó del cuerpo de Thorkel. Myrk reconoce el arma y dice que Drekr le habló del combate en <strong>El Drengr Muerto</strong>. Orka se pregunta si el regreso de Lik-Rifa está ligado al asesinato y al rapto de <strong>Breca</strong>. Cuando Myrk se niega a contestar, Orka la golpea hasta que <strong>Edel</strong>, <strong>Halja Nariz-Plana</strong> y <strong>Revna Hare-Legs</strong> la detienen.<br><br>Edel vio llegar a los <strong>Raven-Feeders</strong> desde el noroeste por las <strong>Montañas Espinazo</strong> y sugiere seguir el camino hacia el <strong>Lago Horndal</strong> y <strong>Starl</strong>. Orka decide rastrearlos y llevarse a Myrk para volver a interrogarla. Edel debe regresar al <strong>Sea-Wolf</strong>, pero autoriza que Halja, Gunnar y Revna se sumen a la búsqueda. Halja quiere alcanzar a quienes provocaron la muerte de su hermano y Revna aspira a compartir la fama de Orka. Orka acepta a los tres y se dispone a partir; Vesli ya no tiene sitio para todos los dientes que ha recogido."
+  }
+}

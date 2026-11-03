@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch22 — the verifier split Gunnar's appended description
+  in the middle of a word across two node review pages. Node review now prefers
+  line boundaries within the same output budget. The Book Two workflow also
+  shows separate link and summary review calls to keep their outputs bounded.
+
 - 2026-11-03: Book Two Ch21 — the prior checklist index split
   `emboscada-grimholt-bosque` across two pages. Index pages now prefer newline
   boundaries, with bounded fallback for overlong rows.

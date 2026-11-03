@@ -62,7 +62,8 @@ audit against the chapter. When the complete latest baseline `desc`/`star` was a
 and audited in this run, use the verifier's `--review-nodes=1` report instead of printing
 that unchanged history again. It runs all normal checks before reporting complete new
 nodes, exact appended `desc`/`star` suffixes and before/after values for changed metadata
-(including removed fields). Read numbered pages separately through `END`; keep node,
+(including removed fields). Pages prefer line boundaries, splitting a long field only
+when needed to stay within the output limit. Read numbered pages separately through `END`; keep node,
 link and summary reports in separate responses to avoid combined-output truncation.
 Use `read-latest` for complete entries whenever the baseline audit is missing, a page was
 truncated, an inherited ownership issue is suspected, or the new evidence requires

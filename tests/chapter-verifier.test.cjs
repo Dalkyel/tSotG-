@@ -62,18 +62,25 @@ test('chapter verifier node review emits verified suffixes, complete new nodes a
 test('chapter verifier node review paginates without loss and rejects invalid pages', () => {
   const fixture = { nodes: [{ id: 'large', label: 'Texto largo', group: 'ORKA', desc: 'inicio-' + 'x'.repeat(12000) + '-final' }] };
   const first = verify('Elvar', true, ['--review-nodes=1'], fixture);
-  const second = verify('Elvar', true, ['--review-nodes=2'], fixture);
   assert.equal(first.status, 0, first.output);
-  assert.equal(second.status, 0, second.output);
-  assert.match(first.output, /Node review page 1\/2/);
-  assert.match(first.output, /CONTINUES: use --review-nodes=2/);
-  assert.match(second.output, /-final/);
+  const pageCount = Number(first.output.match(/Node review page 1\/(\d+)/)[1]);
+  assert.ok(pageCount > 1);
   const pageText = output => output.split('prefixes verified.\n')[1].split(/\n(?:CONTINUES:|END:)/)[0];
-  const entries = JSON.parse(pageText(first.output) + pageText(second.output));
+  const firstPage = pageText(first.output);
+  assert.ok(firstPage.endsWith('\n'), 'the first page ends before the oversized description line');
+  let payload = firstPage;
+  for (let page = 2; page <= pageCount; page++) {
+    const result = verify('Elvar', true, [`--review-nodes=${page}`], fixture);
+    assert.equal(result.status, 0, result.output);
+    const chunk = pageText(result.output);
+    assert.ok(chunk.length <= 8000);
+    payload += chunk;
+  }
+  const entries = JSON.parse(payload);
   assert.equal(entries.find(entry => entry.node.id === 'large').node.desc, fixture.nodes[0].desc);
-  const invalid = verify('Elvar', true, ['--review-nodes=3'], fixture);
+  const invalid = verify('Elvar', true, [`--review-nodes=${pageCount + 1}`], fixture);
   assert.notEqual(invalid.status, 0);
-  assert.match(invalid.output, /exceeds 2 pages/);
+  assert.ok(invalid.output.includes(`exceeds ${pageCount} pages`));
 });
 
 test('chapter verifier rejects unsupported and partially linked summary names', () => {
