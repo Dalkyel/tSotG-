@@ -371,3 +371,18 @@ to create a thread once or to pass the JavaScript verifier.
    subclue was followed, an explanation is accurate, or a mystery was correctly resolved.
    Progress and completion still require all three hard-gate review records.
 
+   **Inspect saved assessments without dumping the full JSON.** The checklist can be
+   much larger than the source chapter. Use the standalone bounded reader for an
+   active or archived checklist; it needs neither live data nor the temporary baseline:
+
+   ```sh
+   node .claude/skills/add-chapter/scripts/read-checklist.cjs RUN/thread-checklist.json 1
+   node .claude/skills/add-chapter/scripts/read-checklist.cjs book2/rebuild/reviews/chapter-10/thread-checklist.json 1 orka sangre-thorkel
+   ```
+
+   Read numbered pages separately through END with the same path and ID selection.
+   Omit IDs to inspect all rows; supplied IDs select complete rows, including every
+   stored evidence/remaining field. Unknown or duplicate IDs fail. This reads saved
+   human assessments only: prior outcomes are context, not current-chapter verdicts.
+   It does not replace source/backlog reads, active-run sync/check, or semantic review.
+

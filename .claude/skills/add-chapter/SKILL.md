@@ -98,6 +98,8 @@ Use its heading index and read one gate per response. Completion requires:
   removes formatting overhead from prose pages without omitting evidence; keep the
   same format throughout a paginated read.
 
+Use `scripts/read-checklist.cjs CHECKLIST.json PAGE [ID ...]` for bounded inspection
+of saved assessments, including archived reviews whose temporary baselines have expired.
 Keep these files beside the unique run's `baseline/`. Book Two reprocessing completion
 also archives them and the checklist in the project; see its workflow reference.
 A verifier PASS does not replace

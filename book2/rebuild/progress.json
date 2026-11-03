@@ -10,7 +10,8 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ],
   "chapters": [
     {
@@ -97,15 +98,33 @@
         }
       },
       "log": "Chapter 9: Reprocessed the complete Biórr source into 20 node additions/revisions, 29 links and a Spanish summary. Captured Myrk’s actual departure with fifteen warriors versus ten assigned, reunion with Fain and Storolf, Kalv’s named parentage, Lik-Rifa’s killing of a guard, Drekr’s protection of Ilska, attributed resurrection perception, explicit Rauðskinna/chamber testimony and urgent Isbrún deadline. Kept anonymous figures unnamed, books distinct and arrivals, deliveries, control, recovery and rescues pending. Ownership/event reviews and all 153 baseline/current clue assessments pass. All 53 tests across nine required regression files pass. Visual confirmation was not performed under the documented local-file browser restriction; remains manual. All later live chapters retained."
+    },
+    {
+      "chapter": 10,
+      "source": "book2/chapter 10.html",
+      "sourceHash": "9b79d1e60300432604a906e7ee686087412968c588daf11226e85ce5d6b444ab",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch10.kWwQrE",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-10",
+        "hashes": {
+          "ownership-review.md": "65bec0e7a6ac7a306efb4199991a6d0f56e346bda9f8a2d1b411ec80e63c6098",
+          "event-review.md": "d0542db774dbd4e259de65c5872cb0bb047b1f306a781bef9db9c8a4cb857237",
+          "thread-review.md": "eb285f525a7a97745da043cf2816f15fdcfd8f077e450b22ea117723c6349f84",
+          "thread-checklist.json": "57abb2f127db1527e79b9dd027611d2f97cd5a0e6ed8241cf370b0b9d1f068bc",
+          "completion.json": "92531e011e7122dd8dfb3297c2a2de65ced332dc4916faf5888fd5e0427ce35b",
+          "chapter.json": "5b9b990af42fa9135310ab1a2b3823733e3c2459cf31f36817e8567f3d99e92a"
+        }
+      },
+      "log": "Chapter 10: Reprocessed the complete Orka source into 12 node additions/revisions, 33 links and a Spanish summary. Captured the night-hag attack, Seiðr formula, Lif’s rescue and failed watch, Ingmar’s named guard duty and the confrontation over the Bloodsworn secret. Recorded Orka’s unidentified private dream and explicit protection commitment as open threads; attributed Thorkel’s Berserkir identification and retained unresolved blood-test questions. Kept unspoken motives private, later identities excluded and arrivals/vengeance/rescue pending. Ownership/event reviews and all 155 baseline/current clue assessments pass. All 54 tests across nine required regression files pass. Visual confirmation was not performed under the existing documented local-file browser restriction; remains manual. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "6169b4ee58ce11599a738bc97fa64c2203be521523e181f4344c900ca4fef502",
-    "book2/links.js": "9f060fb479321160abd7b68de1e57ca7a8a3fa6ae345bfbe8baa6b625567b6ac",
-    "book2/summaries.js": "8efa5f22189983f4a5e4be8504434885dfbb0f3a1e72e3edf5253e94e54c3bef"
+    "book2/nodes.js": "b5c3cbe09dcfe2d6d6d81027c2f5bee2f9fd3e74ca6d987b49c808647e97062a",
+    "book2/links.js": "d6b8645ed709d27d21cd6f59c9ed6d7fee737c283ca9bb574ae1b654097bfcf1",
+    "book2/summaries.js": "8f0f03128d9431b052a2e3d44d2d84d50ff75d0aaa4f1e036f60144285952e15"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -116,9 +135,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "1af9f90f04ea054e9da2d53dba4a6fe085294fc164fdf4b75deca9482d01c154",
-    "links": "9aadbfb49042da7a7df5d460c429674361fadf8aa084b2e3868481acd269980b",
-    "summaries": "4baf1dd07b0e7f1f064ef7da007894f9bbda40d3d114b4192b278dc543c54dc6"
+    "nodes": "25ac9bacd5756db1b540a948d9420f44b8b98e36d2b86aee1345ecce2928208d",
+    "links": "497f0da4b4006f37cb9705f224c7b14f81613b5c14e566ad2ed3890f8d885b8f",
+    "summaries": "de21f17e1a7708bb147456085c4d1d8bb635d1194c9c12d6940695939f5ad532"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

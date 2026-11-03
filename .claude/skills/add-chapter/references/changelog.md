@@ -9,6 +9,15 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
+- 2026-11-03: Book Two Ch10 — dumping the archived 153-item checklist alongside
+  helper code truncated the response. Added `read-checklist.cjs` with lossless
+  8,000-character pages and optional exact-ID selection. It reads saved review rows
+  without requiring expired temporary baselines, preserves pending assessments and
+  all evidence fields, and explicitly does not certify coverage or semantic PASS.
+  Added two regression tests for pagination, archival independence, selection,
+  invalid arguments and non-mutation. Routed saved-review inspection to it in the
+  skill and review/reprocessing references.
+
 - 2026-11-02: Promoted all 53 rebuilt Book One chapters into the live archive and
   integrated the existing 50 Book Two chapters. Permanent before/reference copies retain
   the originals. Reconciled combined character IDs, reconnected canonical places/lineage,

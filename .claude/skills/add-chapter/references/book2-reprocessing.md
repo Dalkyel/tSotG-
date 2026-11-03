@@ -169,7 +169,9 @@ write failures; this is not crash-atomic. Completion also retains the three revi
 the per-ID checklist, completion spec and batch manifest (when present) under
 `book2/rebuild/reviews/chapter-N/` in that same transaction. The chapter's progress entry
 records this relative directory and the evidence hashes. Existing evidence files block
-completion rather than being overwritten. Use these durable reports for later audits;
+completion rather than being overwritten. Use these durable reports for later audits,
+inspecting checklist rows with the standalone
+`read-checklist.cjs CHECKLIST.json PAGE [ID ...]` reader;
 `run` and checklist baseline paths still identify temporary drafting context, which the
 OS may remove. Earlier chapters without a `reviews` entry may have only temporary
 reports; do not invent missing attestations or regenerate them from later live data.
