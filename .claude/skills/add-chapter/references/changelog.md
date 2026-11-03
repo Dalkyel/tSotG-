@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch19 — an immutable-reference lookup exposed the old
+  Chapter 29 `rio-drammur` endpoint after an existing reconciliation had already
+  changed the effective endpoint to `drammur`. Added a bounded parsed check of
+  the effective link before deciding whether a new reconciliation is needed.
+
 - 2026-11-03: Book Two Ch15 — a full entrypoint read contributed to truncated output.
   Moved the detailed summary mention/matcher and preview rules verbatim into
   `chapter-summary-links.md`, with a required read before summary drafting. The main

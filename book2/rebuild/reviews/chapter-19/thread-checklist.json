@@ -1,0 +1,1712 @@
+{
+  "book": 2,
+  "chapter": 19,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch19.DXxIYg/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Se menciona la promesa que le hizo Glornir. El episodio no modifica el pasado, la llamada ni la sensibilidad de Orka.",
+      "remaining": "Mujer enjaulada, sensibilidad, relatos de Skullsplitter y llamada."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Prueba de sangre y consecuencias en sangre-thorkel.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El grupo acompañado hasta Darl no da una pista nueva sobre dónde está Breca.",
+      "remaining": "Paradero, salud y rescate de Breca."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Autores del ataque familiar.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Autores del ataque familiar.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Los niños del carro siguen sin nombre; ninguno se identifica como Harek.",
+      "remaining": "Paradero y destino de Harek."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El relieve fluvial y las alas de Orna no amplían el relato de la geografía formada por Snaka.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La presencia del esqueleto de Orna no vuelve a narrar la caída de los dioses.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El grupo del carro no aporta la identidad de los asesinos ni la de Harek.",
+      "remaining": "Responsables y Harek."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El lobo que invoca Varg es el de su sangre; la criatura herida de Breca no aparece.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El uso voluntario del oído y la vista y la advertencia sobre sus ojos avanzan el control fuera del combate. Su idea sobre Brimil nace de la esclavitud recordada; no aclara sus lagunas, parentesco, edad, percepción mágica, vínculo con Frøya ni el juramento.",
+      "remaining": "Padres, edad, vínculo con Frøya, magia y control autónomo; juramento."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La memoria del collar no identifica al liberto ni aclara los nombres Snepil y Kolskegg.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El juego del trol es deliberado y recreativo. El duelo anterior con Varg terminó y la escena no aporta linaje ni una nueva explicación de la cojera.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La intención privada de enfrentar a Brimil avanza una vía separada de la invocación. No obtiene testimonio ni habla con Vol ni realiza el rito.",
+      "remaining": "Rito, destino de Frøya y eventual venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El mechón y su propósito ya se identificaron; Varg no usa la bolsa en el reconocimiento.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La aplicación deliberada de los sentidos del lobo comprueba progreso autónomo fuera del combate; persisten las otras preguntas del perfil y la regulación en combate.",
+      "remaining": "Control sostenido en combate, señales visibles, padres, edad, sensibilidad mágica y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Alcance y autoría de los raptos.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Qué hará con esa oportunidad y respuesta de Sigrún.",
+      "remaining": "Qué hará con esa oportunidad y respuesta de Sigrún."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: No se discuten el proyecto de Störr para Elvar ni su posición en la disputa con Helka.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La mención de la garra de Orna y el dolor residual de una herida no explican la reacción de Orka al nudillo de Fellur.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Las defensas visibles de Darl no muestran una nueva adhesión, conquista ni movilización contra Störr.",
+      "remaining": "Alcance de expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La escolta alcanza Darl y Glornir considera cumplido su compromiso de traslado. Einar advierte del riesgo de esclavización; el grupo no entra aún ni se identifica a Harek, Breca u otros desaparecidos.",
+      "remaining": "Entrada y seguridad del grupo en Darl; Harek, Breca y demás desaparecidos; autores y alcance común."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg piensa en Brimil sin encontrarlo. No recibe testimonio nuevo sobre el destino de su hermana ni sobre su vínculo sensible.",
+      "remaining": "Destino de Frøya y pista de Brimil."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg recuerda llevar collar, pero Leif no aparece ni se decide su antigua reclamación.",
+      "remaining": "Reclamación de propiedad frente a la libertad de Varg."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Sucesión, Bjarn, Biórr y control de Ulfrir; pistas históricas preservadas.",
+      "remaining": "Sucesión, Bjarn, Biórr y control de Ulfrir; pistas históricas preservadas."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Juramento, pasado y Gytha.",
+      "remaining": "Juramento, pasado y Gytha."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Causa de los presentimientos.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Kráka».",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Cicatrices, familia y contradicciones de Biórr.",
+      "remaining": "Cicatrices, familia y contradicciones de Biórr."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Libertad futura en liberar-berak.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El viaje del carro a Darl no modifica la captura anterior de Berak ni las bajas del asalto.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Mecanismo en percepcion-liberacion-lik-rifa.",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Mecanismo del aviso y sueños.",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Objeto Quemado de Iskalt: Graskinna».",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El tráfico fluvial de Darl no aporta datos sobre los tributos del puerto de Störr.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Plan paterno separado en plan-oculto-storr.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Venta de Berak (pendiente)».",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La práctica sensorial de Varg no muestra a Ulfrir ni prueba que pueda ser controlado o vencer a Lik-Rifa.",
+      "remaining": "Control y aptitud contra Lik-Rifa."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de las alas por Varg no explica la reacción de Orka a huesos divinos, la mujer enjaulada ni el conflicto de testimonios sobre Skullsplitter.",
+      "remaining": "Mujer enjaulada, sensibilidad y conciliación histórica."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El plan local se refiere a Vol; Jaromir no interviene ni se ejecuta su amenaza.",
+      "remaining": "Resultado de la reclamación y eventual caza."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento no aporta pruebas ni testigos sobre los cargos contra Sulich.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Los Bloodsworn se acercan a Darl, pero no comparecen ante Helka ni se dicta resolución sobre Sulich.",
+      "remaining": "Pruebas, culpabilidad y desenlace de la reclamación."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg llama amigos a sus compañeros y actúa como explorador. No se muestra el juramento formal.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Bjarn, Berak y control de Ulfrir.",
+      "remaining": "Bjarn, Berak y control de Ulfrir."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El puente no guarda relación demostrada con la roca preservada ni con los gusanos.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: No se observa ni se comenta la secuencia entre la activación de la roca y el ataque de los gusanos.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El cambio de ojos comentado se refiere al lobo de Varg. La existencia de los dragon-born ya está establecida y el referente de Thorkel sigue aparte.",
+      "remaining": "Referente de Thorkel permanece en otras preguntas."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Autores y motivo del ataque al fresno.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Se conserva la clasificación anterior de «Partida Familiar Truncada».",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Sangre, detección y consecuencias.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Autores, motivo y conexión con raptos.",
+      "remaining": "Autores, motivo y conexión con raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Venganza por Virk/Mord y seguridad de Lif.",
+      "remaining": "Venganza por Virk/Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Si recibirá la enseñanza pedida.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La compañía marcha por tierra cerca de Darl. La salida anterior de Liga sigue cumplida.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La agudeza sensorial que Varg busca deliberadamente no explica la presión involuntaria junto a la astilla.",
+      "remaining": "Causa de la percepción de Varg."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El nuevo plan de encuentro con el barco se produce después de la partida de Liga ya confirmada.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Garras, paradero de Breca y venganza.",
+      "remaining": "Garras, paradero de Breca y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La compañía lleva a un grupo distinto a Darl sin identificar a Breca ni localizarlo.",
+      "remaining": "Ubicación, salud y rescate."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El barco se menciona sin datos sobre su antiguo remero ni su muerte.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Se menciona la promesa a Orka sin aludir al apelativo, el parentesco o la sucesión.",
+      "remaining": "Reconciliar parentesco y sucesión del antiguo jefe."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento del puente no retoma el combate del muelle ni la exigencia interrumpida de Jaromir.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La vista de la fortaleza no revela los motivos de la visita anterior de Helka ni su trato con Logur.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Garras, fabricante y muerte de Drekr.",
+      "remaining": "Garras, fabricante y muerte de Drekr."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Represalia en venganza-seaxes.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg pregunta si la garra explica el interés de Skalk. Røkia dice ignorarlo; tampoco hay información sobre su acusación, Vol o las copias.",
+      "remaining": "Responsabilidad real en amenaza-norte-helka; planes sobre Vol/copias."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La partida en misión de Liga permanece como hecho histórico; el objetivo actual de Glornir es recuperar a Vol.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La procedencia de la espada no identifica a los autores de las matanzas ni explica el conjunto de la excavación.",
+      "remaining": "Responsables efectivos, víctimas y alcance de operación."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La intervención anterior de Helka en el muelle sigue establecida; no se muestra una nueva mediación.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El capítulo no aporta nada sobre su insinuación de una vía política alternativa para Elvar.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La visión del lobo de Varg no cambia la identificación olfativa anterior de Elvar por Hrung.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Llegada a Snakavik y Venta de Berak a Jarl Störr».",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Revelación de Elvar como Hija de Jarl Störr».",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Destino físico y consecuencias de probar sangre.",
+      "remaining": "Destino físico y consecuencias de probar sangre."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La escolta del carro es otro episodio; no cambia el rescate anterior de los hermanos.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El cumplimiento de la promesa hecha a Orka no comunica una decisión de Sigrún ni las consecuencias del ataque en Fellur.",
+      "remaining": "Respuesta a fracaso y consecuencias legales/personales."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Thorun».",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Broðir».",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento no ofrece testimonio sobre el vínculo anterior de Gytha y Grend.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La decisión de Glornir en Darl no afecta a la oferta anterior de Störr a Elvar.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La elección de permanecer con los Battle-Grim sigue hecha y aquí no se explica el plan político de Störr.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El plan de salir de Darl no cambia la explicación de Uspa sobre por qué quería dejar Snakavik.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Venganza, formación y consecuencias en sus tramas.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Preparación de Lif para el duelo.",
+      "remaining": "Preparación de Lif para el duelo."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Intención real de Störr.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Rescate-bjarn.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La llegada del grupo escoltado no identifica a Bjarn ni cambia su cautiverio.",
+      "remaining": "Recuperar a Bjarn y cumplir juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «¿Conoce Uspa el Camino a Oskutreð?».",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Desenlace del feudo colectivo.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Cumplimiento del rito.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Destino de criatura y nexo no demostrado.",
+      "remaining": "Destino de criatura y nexo no demostrado."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Constructor del puente, origen de la huella y resistencia al fuego.",
+      "remaining": "Constructor del puente, origen de la huella y resistencia al fuego."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Rescate obligado y alcance del vínculo.",
+      "remaining": "Rescate obligado y alcance del vínculo."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Plan paterno y reacción a decisión.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El bosque próximo a Darl no aporta información sobre los habitantes de la granja del Slågen.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El barco queda lejos de Darl; el desembarco anterior sigue confirmado y el encuentro futuro es otro episodio.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Consecuencias y formación renovada en otras tramas.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Rescate-breca.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Identidad/linaje del rubio y razón de libertad.",
+      "remaining": "Identidad/linaje del rubio y razón de libertad."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Conocimiento/autorización de Helka.",
+      "remaining": "Conocimiento/autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Glornir habla del rescate de Vol, sin nombrar a la mujer esperada ni mencionar su demora.",
+      "remaining": "Identidad exacta, retraso y reencuentro."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Paradero y salud de Breca.",
+      "remaining": "Paradero y salud de Breca."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Resto de preguntas en sus tramas.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg se propone enfrentarse a Brimil; eso no revierte su rechazo a jurar a Skalk ni realiza el rito.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Recordar la espada no revela quién mató a los veinticuatro guerreros ni cómo.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Significado de la marca.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: No se aporta un vínculo nuevo entre el grupo del carro y las órdenes de Hakon o el conocimiento de Helka.",
+      "remaining": "Alcance del plan de Hakon y qué sabe/autoriza Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Historia afectiva y reencuentro.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Autores, número y amenaza próxima.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Autor de huella y puente.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La iniciativa de Varg contra Brimil no cambia que la muerte de Torvik frustró su acompañamiento.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Røkia confirma a Varg lo ya corroborado en Darl sobre la garra. Su respuesta no explica el poder del objeto, la sensibilidad de Varg ni la motivación de Skalk.",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg se toca las costillas aún sensibles; la recuperación de conciencia y la supervivencia no se reabren.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Quién, cuándo/por qué, familia y represalia.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Venta, usos y consecuencias posteriores del botín.",
+      "remaining": "Venta, usos y consecuencias posteriores del botín."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Los perseguidores llegan a Darl y prevén reunirse con el Sea-Wolf al sur solo después de liberar a Vol. El rescate y el encuentro siguen pendientes.",
+      "remaining": "Liberación de Vol, amenaza del collar y encuentro posterior con el Sea-Wolf."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La escolta alcanza Darl, pero el relato no identifica a los antiguos ocupantes de la cámara ni explica la salida de Rotta.",
+      "remaining": "Ocupantes, salida de Rotta y destino de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Autoría y conexiones del altar.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Autores y relaciones entre altares y red de Drekr.",
+      "remaining": "Autores y relaciones entre altares y red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El uso del oído y de la vista aporta evidencia nueva al control en pasado-varg. No cambia la identificación previa del linaje.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg se siente entre amigos y participa en la búsqueda; ni se repite el acto de admisión ni se pronuncia el juramento.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Portador de Orna y genealogía exacta de Biórr.",
+      "remaining": "Portador de Orna y genealogía exacta de Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Circunstancias de muerte.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Consecuencias en destino-tesoros-oskutred.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Venganza-ilska.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Identidades restantes en trama.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Mujer del sabueso y composición restante de captores.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Holmganga: Agnar vs Skrið».",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Propósito y destinos en ninos-robados/rescate.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Cicatrices/genealogía quedan aparte.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Cicatrices aparte.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Hakon y captores en tramas respectivas.",
+      "remaining": "Hakon y captores en tramas respectivas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Se conserva la clasificación anterior de «Muerte Confirmada de Mord en el Grimholt».",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Niños y conocimiento de Helka aparte.",
+      "remaining": "Niños y conocimiento de Helka aparte."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Uspa Sobrevive a la Apertura de Oskutreð».",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Se conserva la clasificación anterior de «Muerte de Vörn Confirmada».",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Nastrandir, reunión y campaña divina.",
+      "remaining": "Nastrandir, reunión y campaña divina."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La llegada a Darl avanza el traslado del carro y el plan por Vol, sin resolver el cautiverio ni identificar a los niños.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Se conserva la clasificación anterior de «Sepultura de Mord Cumplida».",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Mecanismo y alcance de aviso/sueños.",
+      "remaining": "Mecanismo y alcance de aviso/sueños."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Si Elvar mata a Biórr.",
+      "remaining": "Si Elvar mata a Biórr."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Poder del arco frente a flechas.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La garra que hirió a Varg es un arma distinta; no aclara el origen de los seaxes comparados.",
+      "remaining": "Forja y relación de seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La determinación hacia Brimil es de Varg y no ejecuta ni altera la promesa de Jökul por Torvik.",
+      "remaining": "Cumplimiento y alcance de represalia."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Contenido, cubierta y protecciones.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Detalles no aclarados conservados como límites.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Control, recuperación, encuentro y victoria.",
+      "remaining": "Control, recuperación, encuentro y victoria."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Alcance, mecanismos y cubierta.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Llegada, recogida y entrega de encargo.",
+      "remaining": "Llegada, recogida y entrega de encargo."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Padre, recogida y transporte a costa.",
+      "remaining": "Padre, recogida y transporte a costa."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Sometimiento efectivo y recuperación.",
+      "remaining": "Sometimiento efectivo y recuperación."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Intento prometido y libertad.",
+      "remaining": "Intento prometido y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El uso consciente de los sentidos de Varg no prueba origen común con la llamada que recuerda Orka.",
+      "remaining": "Emisor, origen y atracción."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El aviso sobre los ojos confirma un riesgo de delación para Varg; no se muestra a Lif ni se resuelve su protección.",
+      "remaining": "Protección y tensión con secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La invocación deliberada durante la vigilia no identifica al hombre ni explica la llamada del sueño.",
+      "remaining": "Emisor, origen y significado."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La intención de enfrentar al mercader no añade testimonio al relato anterior de Terna.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg señala al mercader como primer objetivo. Brimil no aparece y su información sobre Frøya sigue por obtener.",
+      "remaining": "Pista de compra de Frøya."
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La marcha llega a Darl tras el testimonio sobre Skalk. Ningún testigo nuevo confirma el destino de Frøya.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El control fuera del combate avanza en pasado-varg; no cambia el papel de Svik en la emboscada ni aporta nuevos indicios sobre el culto.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Svik bromea y frena la protesta de Einar sin explicar qué lo inquietaba desde el Grimholt.",
+      "remaining": "Causa real del desasosiego."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "Los Tennúr Deben Guardar el Isbrún",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Destino de los pocos supervivientes y posible reunión con Lik-Rifa.",
+      "remaining": "Destino de los pocos supervivientes y posible reunión con Lik-Rifa."
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Breca, tatuajes y Rotta en sus tramas.",
+      "remaining": "Breca, tatuajes y Rotta en sus tramas."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Significado, portadores y universalidad.",
+      "remaining": "Significado, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Ruptura del encierro y destino posterior.",
+      "remaining": "Ruptura del encierro y destino posterior."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Orka. Sigue pendiente: Identidades, autores y afiliación efectiva.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: La identificación de la garra ya estaba corroborada. No se aclaran los otros huesos, las copias ni la acusación política.",
+      "remaining": "Origen de otros huesos, contenido/autenticidad de copias y efecto de informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "¿Quién Sucederá a Agnar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 19: El reconocimiento de Darl y la decisión de Glornir no tocan esta línea del arco de Elvar. Sigue pendiente: Jefatura, decisión de Elvar y eventual duelo.",
+      "remaining": "Jefatura, decisión de Elvar y eventual duelo."
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Propone Enfrentarse a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 19: Varg decide en privado ajustar cuentas primero con Brimil por su actividad esclavista; no se produce un encuentro.",
+      "remaining": "Si se enfrentará a Brimil, qué hará y si averiguará algo de Frøya."
+    }
+  ]
+}

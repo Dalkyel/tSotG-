@@ -19,7 +19,8 @@
     15,
     16,
     17,
-    18
+    18,
+    19
   ],
   "chapters": [
     {
@@ -268,15 +269,33 @@
         }
       },
       "log": "Chapter 18: Orka — replaced the chapter from the full two-page source with 8 cumulative updates, the shield definition, 2 key events, 26 links and a Spanish summary. Kept the arriving leader and grieving corpse unnamed, attributed Ingmar’s epithet and Berser lineage, advanced training/revenge/rescue without false closure, and reviewed all 168 backlog candidates with ownership/event/thread PASS reports. All 59 required regression tests and chapter preservation, mentions, category and overlap checks passed. Browser preview was blocked by the local-file URL policy; visual confirmation remains manual. Improved the skill reference to use full book/chapter markers for targeted identity searches; documented the change in the archive. The skill quick validator could not start because PyYAML is unavailable; changed Markdown and reference paths were checked directly."
+    },
+    {
+      "chapter": 19,
+      "source": "book2/chapter 19.html",
+      "sourceHash": "7c12a7534dc2d5a9756e4f79da6d05e6c05bb66d1cfe838ee40900b230925b41",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch19.DXxIYg",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-19",
+        "hashes": {
+          "ownership-review.md": "8b0a642db98b4d37839cf57056e59e2dd41c812ea20b7ea00d657fa4c612e8dd",
+          "event-review.md": "09c127186230b1f560a9448c7c6d7f4d3f943e4d1b5a53b12e8740738df31fa2",
+          "thread-review.md": "7029f6c8933fb076e5dd1b3bdba64921b622ca81c19bade68d31fcc3659bac00",
+          "thread-checklist.json": "2bbcc831936d9037bc17f907f8aaf4ec884bb10a33811ecebb4804a5f4ada175",
+          "completion.json": "7d068d4cb10332da48135bbf8cf1ef0f316c207838c54d3cf8fccc6ae2e23639",
+          "chapter.json": "4dffeb5f088ca978ac441e03cd308bdbad2b6ec0911502d3aae1f3ff88d1421a"
+        }
+      },
+      "log": "Chapter 19: Reprocessed Varg’s approach to Darl, the camp and Glornir’s decisions, voluntary wolf senses and the new Brimil objective. Used canonical drammur and confirmed that the existing reconciliation already covers the Chapter 29 reference. Ownership, event coverage, 169 thread assessments, summary mention verification and 59 pre-publication regression tests passed. Visual confirmation pending."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "fe6b65a7932499a843bd66edfcc2653bf01b01b319043486e78c609cce6f510b",
-    "book2/links.js": "de41d2e0dd89161f4040871fad06cb30da6eae2f5f6837543d419be4a056c0b6",
-    "book2/summaries.js": "76874fec0579e08fc9dd5ebed161bd8bc30e801dd8c56a03982a1029730f4ad6"
+    "book2/nodes.js": "2bbdfb91322aeec63dee4bf82791490e200d80cb46ff7d12597af2c854ad4163",
+    "book2/links.js": "a8c31d2f3481e711232679247e9821ac820031d5eaaa452f07cf98671291d73a",
+    "book2/summaries.js": "39356297cf60c58a0b991092f56806a93a349e43bee74ddd330027e1e899e091"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -287,9 +306,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "da487f9d60a7493b1ac07ddd836ac897c5865ec7cac239c25e2bf943330daf61",
-    "links": "ef93b95f8653e27f3fc8afaafa952caaf9b32c5b78de204b834acc9001a8cf88",
-    "summaries": "f04652508b3668cda91c8285016cdb667ff76cd3954c26f231e2844234d9d3a0"
+    "nodes": "c95eca80ec8bb909221e7f3845f7411fc377bc1f10f5d7871da3e4868adff75a",
+    "links": "4c25c968ca23197912883e5145fc6c3b1fbad94ebb7895b9971a7e433f5603bd",
+    "summaries": "59ffb9ce09ffb1b34a7ff8abdbb8c8afb9d374893ebec341a53a996f2d7c7b5b"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

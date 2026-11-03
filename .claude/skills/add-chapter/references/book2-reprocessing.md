@@ -205,6 +205,29 @@ out-of-order chapters and duplicate completion fail without publishing. Do not r
 recorded hashes to suppress a mismatch. External edits need an explicit reconciliation
 and their own preservation review.
 
+If an immutable-reference lookup shows a later link to an ID the reviewed prefix
+replaced, check the effective reference before treating it as a publication blocker.
+`--reference` reads the original snapshot. Publication uses the hash-checked
+reconciled file for each data kind listed in `progress.json` under
+`reconciledHashes`. For example, inspect the parsed Chapter 29 link as follows:
+
+```sh
+node - <<'JS'
+const archive = require('./.claude/skills/add-chapter/scripts/archive-records.cjs');
+const { reconciledHashes = {} } = require('./book2/rebuild/progress.json');
+const linksRoot = reconciledHashes.links ? 'reconciled' : 'reference';
+for (const { chapter, value } of archive.read('book2/rebuild/' + linksRoot, 2, 'links')) {
+  if (chapter === 29 && value.source === 'partida-darl-liga' && value.type === 'geo') {
+    console.log(chapter, value);
+  }
+}
+JS
+```
+
+Keep this check scoped to endpoint preservation. Use the chronological context and
+the supplied chapter for factual drafting. If the effective link already uses the
+canonical ID, resume the chapter without another reconciliation.
+
 ## Reconcile an external later-chapter edit
 
 When the hash guard reports an external edit, preserve the live files and active run.

@@ -28,6 +28,7 @@ const mapPins = {
   'lake-horndal': { x: 413, y: 390 },
   iskalt: { x: 150, y: 372 },
   eldrafell: { x: 478, y: 294 },
+  isbrun: { x: 478, y: 325 },
   oskutred: { x: 582, y: 284 },
   'foso-vaesen': { x: 345, y: 302 },
   'rio-slagen': [{ x: 526, y: 552 }],

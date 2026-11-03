@@ -12,5 +12,5 @@
 const characterTrips = {
   orka: ['fellur', 'darl', 'grimholt'],
   varg: ['liga', 'rio-slagen', 'montanas-espinazo', 'grimholt'],
-  elvar: ['iskalt', 'snakavik', 'rio-hvita', 'starl', 'lake-horndal', 'oskutred'],
+  elvar: ['iskalt', 'snakavik', 'rio-hvita', 'starl', 'lake-horndal', 'isbrun','oskutred'],
 };
