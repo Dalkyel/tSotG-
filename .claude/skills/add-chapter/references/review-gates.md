@@ -366,7 +366,10 @@ to create a thread once or to pass the JavaScript verifier.
    The check requires the union of baseline and current candidates, catching clues that
    vanished from a later star as well as new questions. Use sync for missing candidates
    or evidence fields instead of transcribing inventory markers or regenerating the
-   checklist over completed work. Duplicate/missing IDs, wrong-run metadata and unfinished fields fail. This is
+   checklist over completed work. Duplicate/missing IDs, wrong-run metadata and unfinished fields fail. Large failures
+   report the total error count and first 24 diagnostics; remaining errors still block
+   completion. Inspect the saved rows with `read-checklist.cjs CHECKLIST.json PAGE [ID ...]`,
+   correct them and rerun check until it passes. The diagnostic limit does not limit validation. This is
    a mechanical coverage check, not a semantic PASS: it cannot establish that every
    subclue was followed, an explanation is accurate, or a mystery was correctly resolved.
    Progress and completion still require all three hard-gate review records.

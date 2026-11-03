@@ -86,7 +86,13 @@ try {
       }
     }
     for (const id of required.keys()) if (!seen.has(id)) errors.push(`Missing candidate: ${id}`);
-    assert.equal(errors.length, 0, errors.join('\n'));
+    if (errors.length) {
+      const limit = 24;
+      const details = errors.slice(0, limit);
+      if (errors.length > limit) details.push(
+        `${errors.length - limit} additional errors omitted. Inspect checklist rows with read-checklist.cjs CHECKLIST.json PAGE [ID ...], fix them, then rerun check.`);
+      throw new Error(`${errors.length} checklist errors:\n${details.join('\n')}`);
+    }
     console.log(`COMPLETE: ${required.size} baseline/current candidate IDs accounted for. This checks coverage and filled fields only; semantic review and thread-review.md PASS are still required.`);
   }
 } catch (error) {

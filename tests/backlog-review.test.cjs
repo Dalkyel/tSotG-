@@ -167,3 +167,29 @@ test('rebuild checklist resolves caller paths, stays staged and forbids referenc
   assert.notEqual(run('--reference').status, 0);
   assert.equal(fs.existsSync(f.file), false);
 });
+
+
+test('large incomplete checklists fail with bounded diagnostics without changing evidence', t => {
+  const f = fixture(t);
+  nodes(f.root, 1, Array.from({ length: 100 }, (_, i) => ({
+    id: `question-${i}`, group: 'TRAMA', desc: `Unresolved question ${i}`,
+  })));
+  f.snapshot(1);
+  assert.equal(f.run(1, 'init').status, 0);
+  const before = fs.readFileSync(f.file, 'utf8');
+  const incomplete = f.run(1, 'check');
+  assert.notEqual(incomplete.status, 0);
+  assert.match(incomplete.stderr, /300 checklist errors/);
+  assert.match(incomplete.stderr, /Unassessed\/invalid outcome: question-0/);
+  assert.match(incomplete.stderr, /276 additional errors omitted/);
+  assert.match(incomplete.stderr, /read-checklist\.cjs/);
+  assert.ok(incomplete.stderr.split('\n').length < 30);
+  assert.equal(fs.readFileSync(f.file, 'utf8'), before);
+  const reviewed = assess(f.read());
+  // A problem beyond the displayed first batch still blocks completion.
+  reviewed.items.at(-1).remaining = '';
+  f.save(reviewed);
+  assert.match(f.run(1, 'check').stderr, /Missing remaining question or explicit none: question-99/);
+  f.save(assess(reviewed));
+  assert.equal(f.run(1, 'check').status, 0);
+});

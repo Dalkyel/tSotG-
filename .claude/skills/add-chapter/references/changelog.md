@@ -1,5 +1,13 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch12 — checking a still-pending 156-row checklist emitted
+  468 diagnostics and truncated the response. `review-backlog.cjs check` now reports
+  the full error count, first 24 diagnostics and the saved-row reader for inspection.
+  All rows still validate, failures remain fatal, and evidence files are untouched.
+  Added regression coverage for bounded output, non-mutation, an error on the final
+  row and success only after all assessments are complete. Documented recovery in
+  the thread gate.
+
 - 2026-11-03: Book Two Ch11 — the initial progress-file dump included growing
   historical logs and hashes and contributed to truncated output. Added guarded,
   read-only `reprocess.cjs status` for compact mode/next-chapter routing and active

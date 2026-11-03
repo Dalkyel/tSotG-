@@ -12,7 +12,8 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
   "chapters": [
     {
@@ -135,15 +136,33 @@
         }
       },
       "log": "Chapter 11: Reprocessed the complete Varg source into 11 node additions/revisions, 18 links and a Spanish summary. Captured the connected weapons/helmet lesson, Røkia’s reversible partial transformation and Varg’s explicit but unfulfilled control-learning request; retained the unnamed amber-eyed dream caller as a private open question with a qualified Orka parallel. Recorded scout succession and the ongoing three-day pursuit without arrival or rescue. Ownership/event reviews and all 156 baseline/current clue assessments pass. All 54 tests across nine required regression files pass. Visual confirmation was not performed under the existing documented local-file browser restriction; remains manual. All later live chapters retained."
+    },
+    {
+      "chapter": 12,
+      "source": "book2/chapter 12.html",
+      "sourceHash": "9b4040e0f32261c9ae9640d3a8b154c3293202a2e38a21703bad071f12611aed",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch12.bd61l9",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-12",
+        "hashes": {
+          "ownership-review.md": "0aaa5f2a35718805f678c2ba965b5e21ddfbf7bbb696a374c8655aa69c023b10",
+          "event-review.md": "ee7fb52cb699a69c708c824903f2ca49771d4e2286e8cac8fba6f50c5944f906",
+          "thread-review.md": "2375922c099ee26246fc74623f4007553ccb5b33a6a46d609d2ac1cf05e372f0",
+          "thread-checklist.json": "3fffb9aee1971bacd37f298e00dafaeaed12744e48b54cb75409f0ca0fcebfb5",
+          "completion.json": "36149c6964fcfa5d4a0ff59ee5abbd311035a9d0a5ed4bdce75b750e634ec33f",
+          "chapter.json": "3c31894f9962b87def53b4cf0e8cdab350ee04a48e86375f39f17198cef56e9f"
+        }
+      },
+      "log": "Chapter 12: Source-reviewed Guðvarr replacement: 10 accumulated profile/place/thread revisions, 2 canonical events, 24 links and Spanish summary. Full source and selected ORKA/VARG plus untagged backlog read, 156 individual checklist assessments; ownership, event coverage and thread lifecycle PASS. Diminished power and Sigrún’s demand remain attributed; arrival, collar replacement and rescue remain pending. Combined preview endpoints/summary mentions PASS. Required 56 regression tests passed; bounded checklist diagnostic improvement passed 6 focused tests. Browser visual verification blocked by local file URL policy; manual preview in index.html remains. Skill metadata validator unavailable because Python lacks PyYAML."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "9c13a1c3c449d5d7d41c3025ddb21558670ee35c1515d1a38655baf48d325765",
-    "book2/links.js": "42f3a90372ce8c5ff83e2d3267f3c383bad24a87abed22b2dd6b74d354099116",
-    "book2/summaries.js": "4c48b00b8e23e05a9bbdaac4a7b3afdd7cc0e7beea7a3b8793bee1ddd39c9294"
+    "book2/nodes.js": "0a173a1d7535b43750e45e5fc868c47755b43df0b96878d8bc704d420c98746a",
+    "book2/links.js": "9ac2c1c9e4e02c96929e2cb1ac566d8bb270d394d96da016317efa9c40664c1a",
+    "book2/summaries.js": "3554d9242d7768d6eb6c745f03e3a3a4d5095502eec6d99646552a4b17eaed85"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -154,9 +173,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "4fce935ebbc1f7df5b629f123b7eee473a58d0a11238366d5d93d044f7601348",
-    "links": "f901c6bf2f1f94e79308d4b359143207c7fbed5ac144adbef888901666be0699",
-    "summaries": "ab7b05b089ee18098b7393546941d952b915597e1451dff94d32a0f466383c4a"
+    "nodes": "595805575487ba9f2ce2f0b6538e310d99caebea02833fedea50c302e570e9ca",
+    "links": "e7370739d3200680d9822685cd4900fc5995e33ecbfc2552cada18b4bf7ce8f5",
+    "summaries": "6d2e527718b1058633533457074ff5054a3aa3140caa3e0fc8558f3408ebbefd"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

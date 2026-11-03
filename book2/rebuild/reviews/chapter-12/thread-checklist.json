@@ -1,0 +1,1581 @@
+{
+  "book": 2,
+  "chapter": 12,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch12.bd61l9/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El recuerdo temeroso de Guðvarr corrobora su violencia conocida, sin explicar los indicios acumulados en los capítulos 6–53 y 1/7/10 del Libro 2.",
+      "remaining": "Historia anterior, mujer enjaulada, sensibilidad y llamada del lobo."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No se añade evidencia al gesto de sangre, la transformación relatada por Vesli ni la identificación Berserkir del capítulo 10.",
+      "remaining": "Consecuencias de la sangre probada y pasado compartido."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Los niños anónimos de las snekkes no son identificados como Breca; no se aclaran sensibilidad ni destino.",
+      "remaining": "Paradero, rescate y capacidades del niño."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La violencia recordada en Grimholt no identifica a quienes atacaron a Asgrim.",
+      "remaining": "Autores del ataque a la familia y destino de Harek."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No se aporta evidencia sobre las lesiones y muerte lenta de Idrun.",
+      "remaining": "Autores y circunstancias pendientes del ataque."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Ninguno de los niños supervivientes recibe el nombre Harek.",
+      "remaining": "Paradero y destino de Harek."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La geografía mítica del cuerpo divino no recibe nueva explicación; el paisaje del Drammur pertenece al río.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La reflexión de Orka sobre guerra y paz sigue temática; el suceso fluvial no modifica la guerra de los dioses.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La fuga de Grimholt no establece la identidad de los asesinos ni de los niños a bordo.",
+      "remaining": "Autoría y destino del hijo desaparecido."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La picadura del guerrero es otro suceso y no explica las heridas del Fell-Wolf.",
+      "remaining": "Qué pudo herir al Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No aparece Varg ni se revelan datos sobre sus sensaciones o su sueño; la cautiva sigue siendo la vía pendiente del akáll, no una invocación realizada.",
+      "remaining": "Padres, edad, percepciones mágicas, vínculo con Frøya, control del lobo y emisor del sueño."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Los recuerdos de Guðvarr no conciernen a la matanza de Kolskegg ni identifican al liberto.",
+      "remaining": "Relación exacta entre Snepil/Kolskegg y el liberto estrangulado."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: El duelo con Varg ya terminó y la cojera atribuida a Svik no se explica de otra manera; no hay nuevo duelo ni parentesco trol demostrado.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Vol sigue cautiva y Skalk no ofrece ni realiza el rito en la snekke.",
+      "remaining": "Invocación, cuerpo de Frøya, asesino y venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: Contenido y finalidad del mechón de Frøya quedaron resueltos en Libro 1, capítulo 39; no se modifica esa respuesta.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La afirmación de Vol sobre Skalk no explica las percepciones o el linaje de Varg.",
+      "remaining": "Padres, edad, mecanismo de sensibilidad, vínculo con Frøya y dominio voluntario."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El patrón de desapariciones sugerido por Virk permanece ligado a ninos-robados; el recuerdo sesgado de Guðvarr no aporta otra desaparición.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La arrogancia y autoridad observadas en el Libro 1 reciben una nueva manifestación de crueldad en drengr-arrojado-drammur; el star es temático, no una pregunta pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Los guerreros de Helka no revelan las alternativas matrimoniales, el plan de Störr ni cambian la evidencia de su hird esclavo.",
+      "remaining": "Plan político con Silrið."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No se muestra el nudillo ni una percepción nueva de Orka.",
+      "remaining": "Causa de la sensibilidad de Orka ante el hueso."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El uso de sus guardias confirma una afiliación conocida, sin nuevo juramento territorial, conquista ni respuesta política.",
+      "remaining": "Desarrollo de su dominio y consecuencias de la lealtad de Sigrún."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Hay niños anónimos entre los fugitivos; no se vinculan con Harek, Breca ni los grupos de Darl/Oskutreð, ni se revela un nuevo propósito de los raptos.",
+      "remaining": "Identidad y destino de los desaparecidos, alcance común de la operación y protección permanente de los rescatados."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La amenaza de collar a Vol no responde las preguntas sobre Frøya.",
+      "remaining": "Asesino y explicación del vínculo con Varg."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Leif no interviene y la acción de Skalk contra Vol no resuelve esa reclamación distinta.",
+      "remaining": "Reclamación de propiedad contra Varg."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Elvar» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Elvar»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Grend» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Grend»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Agnar (†)» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Agnar (†)»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Kráka» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Kráka»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Biórr» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Biórr»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Berak Bjornasson» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Berak Bjornasson»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: La captura y esclavización posteriores ya resolvieron la persecución inicial; el drengr anónimo no es identificado con sus participantes.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Guðvarr menciona un vaesen de aguijón sin nombrarlo; no lo equipara con Spert ni aclara el aviso del capítulo 1.",
+      "remaining": "Mecanismo de la percepción de Lik-Rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No se añade nada sobre el conocimiento de Vesli; sus promesas y su protección de Breca quedan históricas.",
+      "remaining": "Mecanismo del aviso de Lik-Rifa."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Objeto Quemado de Iskalt: Graskinna» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Objeto Quemado de Iskalt: Graskinna»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: Los tributos y control del puerto por Störr permanecen históricos; no hay nueva visita a la ciudad.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Pasado de Elvar» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Pasado de Elvar»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Venta de Berak (pendiente)» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Venta de Berak (pendiente)»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La amenaza contra Vol no muestra a Ulfrir ni da evidencia sobre el plan de someterlo.",
+      "remaining": "Control, recuperación y consecuencias de su resurrección."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La descripción de su furia por Guðvarr no explica esas cuestiones ni aporta nueva historia de su jefatura.",
+      "remaining": "Mujer enjaulada, sensibilidad y conciliación de los relatos Skullsplitter."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: Su abandono de las pruebas en favor de la violencia permanece histórico; no actúa en el río.",
+      "remaining": "none"
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Skalk discute sobre Vol, no presenta nuevas acusaciones o pruebas contra Sulich.",
+      "remaining": "Cargos, pruebas y resolución de la amenaza de extradición."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El anunciado regreso a Darl no es juicio, entrega ni resolución de Sulich.",
+      "remaining": "Hechos del presunto asesinato, pruebas, culpabilidad y resolución."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La confianza de Vol en la compañía no muestra el juramento pendiente de Varg.",
+      "remaining": "Pronunciar las palabras formales del juramento."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Uspa» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Uspa»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: Supervivencia de la roca ya observada; la atracción de los gusanos sigue abierta por separado en piedra-gusanos.",
+      "remaining": "none"
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No hay roca activada ni gusanos; el aguijón de un vaesen no esclarece esa hipótesis.",
+      "remaining": "Causalidad entre la roca y los gusanos."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: La existencia contemporánea ya fue corroborada en los capítulos 45 y 50 del Libro 1; no se reabre ni se identifica un nuevo ejemplar.",
+      "remaining": "none"
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El recuerdo del Grimholt no identifica a los atacantes de Froa; asesinato-froa sigue PARCIAL, sin resolución.",
+      "remaining": "Autores y motivos del ataque al fresno; relación con los raptos."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: El proyecto familiar quedó truncado por la muerte de Thorkel, no cumplido; la nueva fuga de Guðvarr es otro proyecto.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Los recuerdos del duelo de Guðvarr no relatan qué probó o detectó Vafri.",
+      "remaining": "Sangre del seax, percepción de Vafri y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No se habla del ataque al fresno; el origen de los gritos ya aclarado permanece histórico.",
+      "remaining": "Autores, motivo y conexión con los raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Guðvarr vive y rememora su agresión a Mord; no encuentra a Lif ni cambia su juramento o preparación.",
+      "remaining": "Muerte de Guðvarr a manos de Lif y seguridad futura del joven."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La escena no muestra al niño ni una lección de armas.",
+      "remaining": "Si Breca recibirá enseñanza de espada."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: La salida de la compañía quedó completada en Libro 1, capítulo 20; no es la navegación de estos fugitivos.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La identidad del objeto ya es conocida; el cofre de Skalk no se abre ni explica esa presión.",
+      "remaining": "Causa de la presión que Varg sintió junto a la astilla."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: Preparativos y salida de Liga ya completados; el viaje a Darl no reabre aquel objetivo.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Ni Drekr ni una transformación aparecen; los niños de los barcos no son identificados como Breca.",
+      "remaining": "Garras, venganza y paradero de Breca."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La ruta fluvial de los fugitivos no identifica al niño ni resuelve la investigación de Orka.",
+      "remaining": "Ubicación, salud y recuperación de Breca."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El desprecio de Skalk hacia Glornir no informa sobre Aslog.",
+      "remaining": "Causa y fecha de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Guðvarr no emplea ese apelativo ni relata la historia del antiguo jefe.",
+      "remaining": "Conciliar epiteto, parentesco y relatos de la muerte naval."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El ataque de Jaromir y su interrupción por Helka son historia; Skalk no explica la conversación aplazada ni el caso Sulich.",
+      "remaining": "none"
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Los fugitivos no explican las conversaciones privadas de Helka en Liga.",
+      "remaining": "Relación de la visita con Logur y la crisis por Sulich."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El cofre permanece sin abrir; no se comparan seaxes ni se enfrenta a Drekr.",
+      "remaining": "Naturaleza de las garras, procedencia común de armas y venganza contra Drekr."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El juramento sobre Thorkel permanece histórico; la escena no cumple venganza-seaxes ni explica pasado-orka.",
+      "remaining": "none"
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La escena confirma la huida y heridas de Skalk, pero no identifica a los autores de las matanzas referidas en su star. Su papel de portavoz ya aclarado se conserva como historia.",
+      "remaining": "Autores y alcance pendientes de la amenaza del norte."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El encargo y la partida ya se produjeron; la amenaza pendiente se conserva en amenaza-norte-helka.",
+      "remaining": "none"
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Skalk alude a la caída de Glornir en la mina, sin identificar autores de matanzas, cautivos ni finalidad de la excavación.",
+      "remaining": "Autores, alcance, desaparecidos, ruta por Grimholt y finalidad última de la excavación."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La intervención de Helka en el muelle es historia; la discusión privada no recibe explicación.",
+      "remaining": "none"
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No hay mensaje ni actuación de Silrið; el rumbo a Darl no revela su plan.",
+      "remaining": "Contenido del plan alternativo de Störr."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El reconocimiento olfativo de Elvar permanece como hecho anterior; no se muestra otra detección.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Llegada a Snakavik y Venta de Berak a Jarl Störr» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Llegada a Snakavik y Venta de Berak a Jarl Störr»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Revelación de Elvar como Hija de Jarl Störr» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Revelación de Elvar como Hija de Jarl Störr»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La evocación del duelo no informa del destino de Vafri ni de lo que sabía Hakon. Los linajes autodeclarados y la pista Darl siguen atribuidos.",
+      "remaining": "Supervivencia cualificada y alcance de su testimonio sobre la red."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La liberación de los hermanos y el interrogatorio de Vafri son historia; sus revelaciones no se amplían en esta escena.",
+      "remaining": "none"
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 12: Guðvarr atribuye a Sigrún la expectativa de la cabeza de Orka y teme volver sin ella; evidencia persistida como testimonio, no sentencia observada.",
+      "remaining": "Respuesta de Sigrún y represalias o resolución de la persecución."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Thorun» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Thorun»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Broðir» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Broðir»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La escena en el río no presenta a Grend ni Gytha, ni otra evidencia sobre su relación.",
+      "remaining": "Historia afectiva con Grend y posible reencuentro."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El ofrecimiento y la insinuación de Silrið permanecen históricos, con plan-oculto-storr pendiente; Darl no añade una respuesta.",
+      "remaining": "none"
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La decisión de Elvar ya quedó resuelta en el Libro 1; el capítulo no la modifica ni revela el enigma de Hrung o las intenciones de Silrið.",
+      "remaining": "Comunicación de la decisión y plan no revelado de Störr (seguido en plan-oculto-storr)."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: Motivo de urgencia resuelto por el testimonio del robo de Graskinna y persecución de Ilska; este capítulo no lo contradice. El rescate de Bjarn permanece separado.",
+      "remaining": "none"
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La maniobra y el pacto son historia; la exigencia de Sigrún se mantiene en fuga-orka-fellur, sin reescribir aquella escena.",
+      "remaining": "none"
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Guðvarr permanece vivo; no se muestra entrenamiento de Lif ni su duelo. La instrucción previa cumplida sigue histórica.",
+      "remaining": "Preparación actual de Lif para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Consulta de Elvar a Hrung» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Consulta de Elvar a Hrung»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Raid de los Raven-Feeders a la Taberna» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Raid de los Raven-Feeders a la Taberna»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «El Secreto de Uspa y el Precio del Rescate» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «El Secreto de Uspa y el Precio del Rescate»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Recuperar a Bjarn de los Raven-Feeders» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Recuperar a Bjarn de los Raven-Feeders»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «¿Conoce Uspa el Camino a Oskutreð?» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «¿Conoce Uspa el Camino a Oskutreð?»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Feudo de Agnar con Ilska» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Feudo de Agnar con Ilska»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Despedida Marítima de Thrud (pendiente)» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Despedida Marítima de Thrud (pendiente)»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El contraste entre la fórmula y el seax ya ocurrió; el vaesen de aguijón no demuestra relación con ese combate ni con la amenaza del norte.",
+      "remaining": "none"
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Puente Isbrún» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Puente Isbrún»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «El Blóð Svarið de los Terrores de la Batalla» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «El Blóð Svarið de los Terrores de la Batalla»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «¿Qué Plan Oculta Störr para Elvar?» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «¿Qué Plan Oculta Störr para Elvar?»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La ausencia sigue siendo un indicio no explicado de amenaza-norte-helka; no se identifica a sus habitantes entre los fugitivos.",
+      "remaining": "Destino de los habitantes y causa de la ausencia, seguido en amenaza-norte-helka."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La transición de navegación a rastreo es historia; no se explica el abandono de la granja, conservado en amenaza-norte-helka.",
+      "remaining": "none"
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La enseñanza del Libro 1 y el trayecto están cumplidos; la fuga actual no altera aquel intercambio ni demuestra fin de persecución.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: Aquel desembarco permanece histórico; el anuncio de otro día para llegar no localiza a Breca ni confirma las inferencias de Orka.",
+      "remaining": "none"
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «¿Había un Tainted Libre entre los Raven-Feeders?» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «¿Había un Tainted Libre entre los Raven-Feeders?»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La guardia observada en la taberna no prueba órdenes de Helka; que otros drengrs viajen en el río tampoco las demuestra.",
+      "remaining": "none"
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Vol nombra a Glornir, pero no a la mujer esperada ni a Uspa; su cautiverio no demuestra la identidad de esa mujer.",
+      "remaining": "Identidad explícita de la esperada, retraso y reencuentro."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La pista física del paso de Breca por el desván sigue histórica; no se localiza al niño ahora.",
+      "remaining": "none"
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La identificación de Drekr y sus palabras siguen históricas; no hay nuevo pago de venganza ni explicación de sus garras.",
+      "remaining": "none"
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: La oferta quedó rechazada por Varg en Libro 1, capítulo 45 sin deuda ni juramento contraídos; Skalk no la renueva aquí.",
+      "remaining": "none"
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La fuerza real omitida y las marcas son evidencia anterior; Skalk no revela nuevos responsables de esas muertes.",
+      "remaining": "none"
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El tatuaje de serpiente no recibe una explicación; las heridas del drengr anónimo no establecen un linaje u organización.",
+      "remaining": "none"
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La mención de la guardia de Helka y el miedo a Sigrún no revelan qué sabe la reina de la operación de Hakon.",
+      "remaining": "Conocimiento de Hakon sobre el rito y qué sabe/permite Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Gytha y Grend (Historia no Resuelta)» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Gytha y Grend (Historia no Resuelta)»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «¿Quién Mató a los Alces del Norte?» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «¿Quién Mató a los Alces del Norte?»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Apertura del Puente Isbrún por Uspa» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Apertura del Puente Isbrún por Uspa»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: Proyecto de ayuda truncado por la muerte de Torvik; la supervivencia de Yrsa no devuelve esa posibilidad.",
+      "remaining": "none"
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El cofre de Skalk no es abierto; no se confirma aquí su contenido ni explica la sensibilidad de Varg. Su origen atribuido permanece histórico.",
+      "remaining": "Mecanismo de las percepciones de Varg y destino del objeto."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: Supervivencia de la herida confirmada en Libro 1, capítulo 45; no se reabre por la amenaza a Vol.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Las Cicatrices de Látigo de Biórr» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Las Cicatrices de Látigo de Biórr»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «¿Qué Traerán los Tesoros de Oskutreð?» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «¿Qué Traerán los Tesoros de Oskutreð?»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 12: Vol aparece viva con Skalk/Yrsa en camino a Darl y recibe una amenaza nueva; desarrollo persistido en huida-drammur y su propia revisión, ESTADO PARCIAL.",
+      "remaining": "Llegada a Darl, liberación de Vol y desenlace del nuevo collar."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El cofre sin abrir y los niños anónimos no identifican a los ocupantes de las cámaras. La identificación del lugar/libro ya registrada permanece atribuida.",
+      "remaining": "Procedencia y destino de sus ocupantes infantiles."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: La huida de Skalk no identifica adoradores ni autores del altar.",
+      "remaining": "Autores y vínculos del altar con la red de Drekr/Hakon."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: El uso de collares y el cofre no demuestran una conexión con el culto nombrado por Myrk.",
+      "remaining": "Autoría de los altares y alcance de una organización común."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La explicación de Røkia permanece histórica, sin prueba nueva del control voluntario del lobo.",
+      "remaining": "none"
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La admisión simbólica es historia; no se pronuncian aquí las palabras del juramento.",
+      "remaining": "none"
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Vörn Askasdottir (†)» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Vörn Askasdottir (†)»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Aska» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Aska»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Encuentro con Vörn en Oskutreð» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Encuentro con Vörn en Oskutreð»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Llegada de Ilska a la Llanura de Batalla» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Llegada de Ilska a la Llanura de Batalla»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La captura y pago de la ayuda de los cuervos ya están documentados; la continuidad de Yrsa/Vol se conserva con cautela en identidad-emboscada-grimholt.",
+      "remaining": "none"
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 12: Yrsa y Vol reaparecen nombradas junto a Skalk; continuidad registrada sin asegurar una identificación retrospectiva completa ni abrir el cofre.",
+      "remaining": "Contenido actual del cofre e identidades aún no comprobadas de la partida del bosque."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Holmganga: Agnar vs Skrið» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Holmganga: Agnar vs Skrið»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Revelación de los Dragon-Born y los Niños Cautivos» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Revelación de los Dragon-Born y los Niños Cautivos»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Traición de Biórr» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Traición de Biórr»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Motivo de la Traición de Biórr Revelado» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Motivo de la Traición de Biórr Revelado»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: La huida confirma supervivientes y el recuerdo de Guðvarr, sin nueva explicación de las confesiones o la laguna lobuna; huida-drammur cubre la continuación.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: Muerte confirmada en Libro 2, capítulo 1; el orgullo de Guðvarr por apuñalarlo no contradice ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Batalla de los Muros de Escudos en Oskutreð» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Batalla de los Muros de Escudos en Oskutreð»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Liberación de Lik-Rifa» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Liberación de Lik-Rifa»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Uspa Sobrevive a la Apertura de Oskutreð» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Uspa Sobrevive a la Apertura de Oskutreð»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Muerte de Vörn Confirmada» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Muerte de Vörn Confirmada»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «¿Qué Hará Lik-Rifa tras su Liberación?» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «¿Qué Hará Lik-Rifa tras su Liberación?»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 12: El encuentro y reconocimiento son historia; los fugitivos no añaden historia de Orka ni cumplen rescates.",
+      "remaining": "none"
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 12: La sepultura ya se completó en Libro 2, capítulo 3; la escena no la contradice.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No hay sueño nuevo ni aviso de Lik-Rifa en esta escena; la picadura no explica esa percepción.",
+      "remaining": "Cómo lo saben los vaesen y causalidad/alcance de los sueños."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Elvar Jura Vengar a Agnar» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Elvar Jura Vengar a Agnar»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Orv el Sigiloso (Orv the Sneak)» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Orv el Sigiloso (Orv the Sneak)»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No se abre el cofre ni se presentan armas para comparar; la semejanza previa sigue siendo indicio.",
+      "remaining": "Fabricante común u otra explicación de las armas semejantes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Yrsa sigue viva y ayuda a Skalk; no se enfrenta a los Bloodsworn ni se cumple la promesa de Jökul.",
+      "remaining": "Si se cumplirá la venganza y contra quiénes."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «El Libro Negro de Vergelmir» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «El Libro Negro de Vergelmir»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Ataque de las Criaturas de Lik-Rifa en Vergelmir» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Ataque de las Criaturas de Lik-Rifa en Vergelmir»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Elvar y Skuld contra Lik-Rifa» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Elvar y Skuld contra Lik-Rifa»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «¿Qué Oculta el Libro Negro de Vergelmir?» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «¿Qué Oculta el Libro Negro de Vergelmir?»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Myrk Sharp-Claw» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Myrk Sharp-Claw»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «El Encargo de Myrk en la Cámara de Rotta» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «El Encargo de Myrk en la Cámara de Rotta»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Resucitar y Someter a Ulfrir» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Resucitar y Someter a Ulfrir»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: «Intentar Liberar a Berak de Störr» pertenece al arco ELVAR no representado. La fuga, el nuevo collar anunciado y el cofre sin abrir no aportan evidencia sobre este asunto; se conserva su estado previo sin inferir cierre. Véase selección justificada en thread-review.md.",
+      "remaining": "Se conservan las cuestiones o indicios previos de «Intentar Liberar a Berak de Störr»; este capítulo no añade una respuesta."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: Guðvarr recuerda el combate de Orka, sin sueños ni llamada al lobo.",
+      "remaining": "Identidad del emisor y origen/significado de la atracción."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No se muestra a Lif ni una decisión sobre protegerlo o silenciarlo.",
+      "remaining": "Seguridad de Lif ante la tensión por el secreto Tainted."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 12: No se muestra un sueño de Varg ni una conexión con Ulfrir.",
+      "remaining": "Identidad del hombre gris y origen/significado de la llamada."
+    }
+  ]
+}
