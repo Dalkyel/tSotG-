@@ -167,35 +167,33 @@ to create a thread once or to pass the JavaScript verifier.
    and before updating its owner, and `read-links` for relevant relationships. This
    candidate list does not replace reviewing pending goals/clues found in those full
    entries or the new chapter.
-   This saga's chapters are each a single POV (Orka, Varg or Elvar); once the chapter's
-   full entity list from [entity resolution, step 2](source-and-entity-workflow.md) is
-   built and confirms no character, place or event from the other two POVs is named or
-   described, the backlog candidates belonging to those unrepresented POVs can be
-   assessed straight from the `--index` listing below as
-   `unchanged — different POV, not represented this chapter`, without first reading
-   their full paginated prose. Still read the full prose for every candidate in the
-   chapter's own POV, and for any other-POV candidate that the entity list does match.
-   Reading all 14 backlog pages (111,826 characters as of Book 1) to assess items whose
-   POV never appears is the exact, measured waste this shortcut removes — confirmed in
-   the Chapter 46 run, where every Varg/Elvar candidate ended up assessed on that single
-   shared reason with zero content drawn from its own prose.
-   To retrieve that permitted subset without printing unrelated POV histories, run
-   `read-backlog.cjs BOOK PAGE --pov ELVAR` (rebuild:
-   `rebuild.cjs read-backlog PAGE --pov ELVAR`). The filter always retains every untagged
-   candidate. Add repeatable `--include ID` options for known cross-POV candidates;
-   unknown IDs fail. Start from the **unfiltered** `--index`, use the same options on
-   every numbered page through `END`, and keep the all-POV checklist unchanged.
-   A filter selects prose, not review obligations. When another POV is represented
-   (Chapter 50 names Drekr), read that POV's complete candidate prose too; selecting
-   only Drekr does not satisfy the existing shortcut's condition. Repeat `--pov` for
-   every represented POV in one read, e.g. `rebuild.cjs read-backlog 1 --pov ORKA --pov VARG`
-   for Chapter 51, which names Skalk. This returns their union in archive order and
-   includes untagged candidates only once, avoiding duplicate shared-clue pages from
-   separate filtered reads. Duplicate POV options fail. Keep the same full selection
-   on every numbered page through `END`; the unfiltered checklist still covers all POVs.
-   Do not combine inventories from different drafts as if their page boundaries were
-   stable: finish a paginated read before applying chapter edits, then review changed
-   evidence separately.
+   **Choose prose by relevance, keeping the all-POV review complete.** Start with the
+   **unfiltered** `--index` and the complete chapter entity list. Read the full prose
+   for the chapter's own POV and every untagged candidate. Candidates in an unrepresented
+   POV may be assessed from the index as `unchanged — different POV, not represented
+   this chapter`; preserve their questions and evidence in the all-POV checklist.
+
+   A named character from another POV does not by itself require reading that POV's
+   entire unrelated history. Identify the affected clue families from the chapter's
+   actions/revelations, the index, and that character's relevant latest entry and links.
+   Read the full backlog prose for **every candidate those facts could affect**, including
+   questions whose owner is absent (for example, Drekr's child-blood rite affects the
+   missing-children, Breca, Hakon/Helka and cult questions, not just Drekr's own star).
+   Record the selected families and the reason the remaining other-POV candidates are
+   unaffected in `thread-review.md`; retain a per-id assessment for all candidates.
+   A tag or absence from the chapter's cast alone cannot establish irrelevance when
+   shared evidence connects the questions. If the affected families cannot be bounded
+   confidently, read that other POV's complete prose too.
+
+   Retrieve the chosen prose with `read-backlog.cjs BOOK PAGE --pov ELVAR` (rebuild:
+   `rebuild.cjs read-backlog PAGE --pov ELVAR`); every untagged candidate is retained.
+   Add repeatable `--include ID` for affected other-POV candidates; unknown IDs fail.
+   For broad crossover chapters, repeat `--pov`, e.g. `--pov ORKA --pov ELVAR`, to
+   retrieve their union with untagged candidates once. Duplicate POV options fail.
+   Keep the same full selection on every numbered page through `END`, finish the read
+   before applying chapter edits, and review changed evidence separately afterward.
+   A filter selects prose, not review obligations: the unfiltered checklist still
+   covers all POVs. Never infer that an unread question is resolved or discarded.
    After reading the required backlog prose, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
    `rebuild.cjs read-backlog PAGE --index`) for a compact list of the same candidate ids,
    each marked with any of `[ORKA]`/`[VARG]`/`[ELVAR]`, `[TRAMA]` and `[star]` that apply,

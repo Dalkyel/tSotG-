@@ -9,6 +9,16 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
+- 2026-11-02: Book One rebuild Ch52 — the mandatory whole-POV crossover rule selected
+  98 entries / 96,262 characters / 13 pages because Elvar's chapter names Drekr.
+  The complete read confirmed that the actual Orka developments concern Drekr, missing
+  children/Breca, Hakon/Helka and the cult; unrelated Orka histories stayed unchanged.
+  Updated `review-gates.md` to allow explicit affected-family selection through existing
+  `--include` options, with the chapter's own POV and untagged prose still mandatory,
+  all-POV per-id assessments retained, selection rationale recorded, and complete extra
+  POV reading required whenever relevance cannot be bounded confidently. No reader or
+  checklist behavior changed. This selection policy should be evaluated in later runs.
+
 - 2026-11-02: Book 1 rebuild Ch47 — two mechanical mistakes while running the already-
   documented helpers, both fixed directly in `book1-rebuild.md`/`review-gates.md` (now
   absorbed there, not just here):
