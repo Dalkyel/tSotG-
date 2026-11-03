@@ -57,6 +57,7 @@ node .claude/skills/add-chapter/scripts/reprocess.cjs match-entities Orka Lif
 node .claude/skills/add-chapter/scripts/reprocess.cjs --reference match-entities Myrk
 node .claude/skills/add-chapter/scripts/reprocess.cjs read-latest 1 orka lif
 node .claude/skills/add-chapter/scripts/reprocess.cjs read-links 1 rescate-breca
+node .claude/skills/add-chapter/scripts/reprocess.cjs read-links 1 --between orka glornir
 node .claude/skills/add-chapter/scripts/reprocess.cjs read-backlog 1 --index
 node .claude/skills/add-chapter/scripts/reprocess.cjs read-backlog 1 --pov ORKA
 node .claude/skills/add-chapter/scripts/reprocess.cjs review-backlog 1 BASELINE init RUN/thread-checklist.json
@@ -88,7 +89,7 @@ These are semantic attestations, not outputs the helper can infer. Before comple
 review every proposed node/link against the complete source and run the relevant tests:
 
 ```sh
-node --test tests/book2-reprocess.test.cjs tests/book-integration.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/backlog-reader.test.cjs tests/backlog-review.test.cjs tests/chapter-batch.test.cjs
+node --test tests/book2-reprocess.test.cjs tests/book-integration.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/backlog-reader.test.cjs tests/backlog-review.test.cjs tests/chapter-batch.test.cjs tests/link-reader.test.cjs
 ```
 
 Prepare `RUN/completion.json` with the exact source recorded by prepare and one log

@@ -208,16 +208,22 @@ archive as the factual baseline for an earlier replacement chapter.
    do that only when those relationships actually need review. For a local geography or
    arrival check, prefer the place, faction, or event ids over a blanket POV lookup —
    but a heavily-connected faction/place/concept id (`bloodsworn`, `oskutred`) is also a
-   hub and pulls its own large history. When the only question is whether one *specific*
-   pairing already has a link (e.g. "has Elvar ever hired the Bloodsworn before"), skip
-   the tool and `grep` the current book's links file for both ids together instead —
-   it's a single bounded check, not a relationship review. This still holds when there are
-   *several* specific pairings to check in the same chapter (e.g. confirming six different
-   pairs have no prior link before adding six new ones): run one targeted `grep` per pair,
-   never batch every id involved into one `read-links.cjs` call "for efficiency" — batching
-   returns the union of each id's entire history, not just links between the pairs you
-   asked about, so it costs more than the pair-by-pair greps it was meant to save (263+
-   stored links and several pages of irrelevant Book 1 history, in one observed case).
+   hub and pulls its own large history. For one specific pairing, use the exact-pair
+   option instead of reading either endpoint's whole history or grepping source files:
+
+   ```sh
+   node .claude/skills/add-chapter/scripts/read-links.cjs 2 1 --between elvar bloodsworn
+   # Active Book Two reprocessing: implicit book, chronological context only
+   node .claude/skills/add-chapter/scripts/reprocess.cjs read-links 1 --between elvar bloodsworn
+   ```
+
+   `--between` takes exactly two confirmed endpoint ids, retains both directions and
+   broken markers, and prints `NO MATCHES` when absent. It uses parsed data, so quote
+   style and field layout cannot hide a link. Use one call per pairing; ordinary multiple
+   ids still select their entire union. Read all indicated pages and inspect removals
+   before judging a connection active. Rebuild/reprocessing calls must use their launcher
+   to avoid the later live archive; never substitute a grep of `book2/links.js` while
+   reviewing an earlier replacement chapter.
    Read every entity you will update in full before editing; excerpts never replace that
    requirement. Keep unrelated long histories out of the same paginated batch so a small
    context check does not force reading several unnecessary pages.

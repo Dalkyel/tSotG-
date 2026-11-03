@@ -1,5 +1,13 @@
 # Changelog archive
 
+- 2026-11-02: Book Two reprocessing Ch1 — relationship checks retrieved unrelated
+  endpoint history, while the source workflow's raw-grep shortcut named the live book
+  file despite chronological-context isolation. Added parsed `read-links --between ID ID`
+  with both directions, broken markers, book caps, explicit absence and validated options.
+  Documented launcher usage in the source workflow and reprocessing reference; regression
+  tests cover pair selection, reverse edges, removals, caps and malformed input. Fully
+  absorbed in the helper and references; archived immediately.
+
 - 2026-11-02: Post-Ch51 skill review — ORKA and VARG both required full backlog
   review, but a second `--pov` was rejected; separate reads repeated every untagged
   clue (16 pages in total). The reader now accepts distinct repeatable `--pov`

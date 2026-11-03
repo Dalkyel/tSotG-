@@ -1,15 +1,25 @@
 {
-  "status": "ready",
+  "status": "in-progress",
   "book": 2,
-  "completedChapters": [],
-  "chapters": [],
+  "completedChapters": [
+    1
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "source": "book2/chapter 1.html",
+      "sourceHash": "216e4bc101bc6dcdad9f6d5e119724c407ecbf3c8aa3a2e513f9aba71df015be",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch1.QsmT9k",
+      "log": "Chapter 1: Reprocessed the complete source into 21 node revisions, 49 links and a Spanish summary. Recorded Orka’s wolf blood and voluntary departure with Thorkel, qualified conflicting Skullsplitter testimony, confirmed Mord’s death and retired the survival thread, retained pending burial and captured the river escape/dragon warning without claiming later outcomes. Ownership, event and 140-item clue reviews pass. All eight required regression suites passed. Local file preview was blocked by browser URL security policy; visual confirmation remains manual. All later live chapters retained."
+    }
+  ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "8845546d33a19ba1ffdb1e267d84bc27385303771f1eaffbd0dea635cbaa6619",
-    "book2/links.js": "cbe663281050c34b6576eea99050429271277e0d10ab8f9e9c150cf3c9c127a2",
-    "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
+    "book2/nodes.js": "8067357fbeed1d8bd53e57f2492a55d014eea1767c1d175d48cb4eae15ed130a",
+    "book2/links.js": "6630ad87ef17276cdb2c2e74ebeafb8a1b6a57b1b633aad1a2cd6e3147b024a5",
+    "book2/summaries.js": "8711e763d7e33ef38c69c2f18ac9b47bf0d110fa799ab77ecf04cf742b2c0fcf"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -20,9 +30,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "3b7a9114cf2e4b52853b1deeb6e4027439992a9e38b71eeea1037dc9f5fbffb5",
-    "links": "138f1a52bae577a1777ed21996f09514c6f58837ed711eb170d6984899fd1739",
-    "summaries": "6c6c533ce640283a5a20843a28be6245434893758ca250000cbab5b3fcb84a36"
+    "nodes": "8deb900a77f1977d18688589425831f390cc88cf8b7a8921e071ada69142fee6",
+    "links": "d6c0516ef6464e0e0b09be415aa599878cfae80202df1310684363c8bdeba478",
+    "summaries": "20c0624748f128e1265381581d531c3eb912d68bd29881c49c3820e1c6c8b699"
   },
   "visibility": "keep-all-chapters"
 }
