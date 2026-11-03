@@ -30,7 +30,10 @@ archive as the factual baseline for an earlier replacement chapter.
    ```
 
    It skips head/script/style content, preserves inline text (including drop-cap names),
-   and prints 10,000-character pages. Read each numbered page in a separate tool response
+   and prints pages of at most 10,000 characters, preferring paragraph boundaries,
+   then whitespace, with a hard split only for an overlong unbroken passage. Page
+   boundaries retain every character; do not mix pages from different source versions.
+   Read each numbered page in a separate tool response
    until `END`; do not batch chapter pages with inventories or full entries. If any output
    is truncated or condensed, retrieve the omitted content in smaller chunks before
    proceeding. Use `caveman_retrieve` for a `<<ccr:...>>` handle only when available.

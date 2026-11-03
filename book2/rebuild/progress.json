@@ -6,7 +6,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "chapters": [
     {
@@ -43,15 +44,22 @@
       "sourceHash": "7168721b20511c6166d6c3caeeeeef2d9af00b8eec8ded879c9e84280d9d2769",
       "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch5.w5GN3O",
       "log": "Chapter 5: Reprocessed the complete Biórr source into 20 node additions/revisions, 43 links and a Spanish summary. Captured the infiltrator’s reward, Myrk and the named cult, free adults versus collared children and Bjarn’s condition, Biórr’s private regret, the dragon’s feeding/healing and declared Nastrandir plan, and the accepted but unfulfilled ten-warrior errand. Kept claims attributed, the father unnamed, age statements source-marked, and rescue/arrival/recovery outcomes pending. Ownership/event reviews and all 150 baseline/current clue assessments pass. All 53 tests across nine required regression files pass. Browser visual confirmation remains manual under the existing documented local-file restriction. All later live chapters retained."
+    },
+    {
+      "chapter": 6,
+      "source": "book2/chapter 6.html",
+      "sourceHash": "c6a2252a63e0fb95fda2db7249a7a4ebe041a68c7ad32ddafeff24599317ad1c",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch6.19cHoB",
+      "log": "Chapter 6: Reprocessed the complete Elvar source into 19 node additions/revisions, 46 links and a Spanish summary. Captured the chamber battle, uncounted casualties, Uspa’s light and Skuld’s punishment without endorsing the trap accusation. Recorded recovery and attributed identification of the black Galdrabók, the resurrection/collar proposal, objections and conditional agreement, and separate pending goals to revive/control Ulfrir and attempt Berak’s freedom. Preserved uncertainty about magical capabilities, collective assent, rescue and execution. Ownership/event reviews and all 152 baseline/current clue assessments pass. All 53 tests across nine required regression files pass. Browser visual confirmation remains manual under the existing documented local-file restriction. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "8c2d11f39be0974b0e3f8f5318539c5f9662b43cf5b3ba211e8fc89bb2df3c3e",
-    "book2/links.js": "44b1a9f060a1d2897b19db7aace20552a0e6800dbc56f282f264a8b285a7f241",
-    "book2/summaries.js": "0d9084931d061a49aec1cccba39eaf0678e3965a93c16b3b9c37e6efe271d1ef"
+    "book2/nodes.js": "f9c89270039caf007337f585be43599ddb3b1c8bc5ef5f54f822755321ff2de2",
+    "book2/links.js": "dd171756592bcc0b069229c13415d6b6eb425ba58900e0ba014a082972fdeafc",
+    "book2/summaries.js": "6078d2bbee29e3cb34c4054d3c378955c744d465ed52f62dfdf8a55fcd6cf894"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -62,9 +70,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "f962b378bfa7b830433208512175cf53ecbc9ab7789c16c728ba96f9d44277b2",
-    "links": "81a83ca7e36e3bc71e49fc215bc9569bcd06443721147cfb4a0ac907b4156c6c",
-    "summaries": "6b79f2cf86e9b040fe9a6019c995721323b85a52c9a0f1017954a692f7054f8b"
+    "nodes": "88cd43ccaccca5fb66cf64a2f49c9f67491bc94aa2b7ada122ee04c326803238",
+    "links": "8a8e8f8503be8f3bdae609b30c7871cb0bc9e8a1b2be4a701153001450881fcf",
+    "summaries": "9b766c20124def4dc6a07436babdfeaaf9aea69434be6be49c3876c8bf189090"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

@@ -1,5 +1,14 @@
 # Changelog archive
 
+- 2026-11-03: Book Two reprocessing Ch6 — source pagination split “continued”
+  across pages, making the boundary harder to read. `read-chapter.py` now prefers
+  a paragraph boundary in the latter half of each bounded page, then whitespace,
+  and hard-splits only when neither is available. Separators and all source text
+  are preserved exactly. Documented the at-most-10,000-character contract; four
+  regression tests cover extraction/hidden content, lossless paragraph and word
+  boundaries, Unicode, overlong tokens and invalid pages. Fully absorbed in the
+  helper and source workflow; archived immediately.
+
 - 2026-11-03: Book Two reprocessing Ch5 — guessed event IDs missed the existing
   `plan-likrafa-nastrandir`; a candidate-only reference search for participant `Myrk`
   found it. Added that discovery sequence to `book2-reprocessing.md`: participant

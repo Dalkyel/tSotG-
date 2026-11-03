@@ -37,6 +37,26 @@ class ChapterText(HTMLParser):
         return "\n".join(line.strip() for line in "".join(self.parts).splitlines() if line.strip())
 
 
+def paginate(text, size=10000):
+    """Keep paragraphs/words together when possible, without dropping separators."""
+    pages = []
+    start = 0
+    while start < len(text):
+        end = min(start + size, len(text))
+        if end < len(text):
+            # Search the latter half so one short paragraph cannot create tiny pages.
+            floor = start + size // 2
+            boundary = text.rfind("\n", floor, end)
+            if boundary < 0:
+                boundary = next((i for i in range(end - 1, floor - 1, -1)
+                                 if text[i].isspace()), -1)
+            if boundary >= 0:
+                end = boundary + 1
+        pages.append(text[start:end])
+        start = end
+    return pages
+
+
 def main():
     args_parser = argparse.ArgumentParser(description=__doc__)
     args_parser.add_argument("file", type=Path)
@@ -46,13 +66,12 @@ def main():
     parser.feed(args.file.read_text(encoding="utf-8"))
     parser.close()
     text = parser.text()
-    size = 10000
-    pages = (len(text) + size - 1) // size
-    if not 1 <= args.page <= pages:
-        args_parser.error(f"Requested page {args.page}; {pages} pages available")
-    print(f"Page {args.page}/{pages}; {len(text)} total characters; {args.file}.")
-    print(text[(args.page - 1) * size:args.page * size])
-    print(f"CONTINUES: read page {args.page + 1} with the same file." if args.page < pages
+    pages = paginate(text)
+    if not 1 <= args.page <= len(pages):
+        args_parser.error(f"Requested page {args.page}; {len(pages)} pages available")
+    print(f"Page {args.page}/{len(pages)}; {len(text)} total characters; {args.file}.")
+    print(pages[args.page - 1])
+    print(f"CONTINUES: read page {args.page + 1} with the same file." if args.page < len(pages)
           else "END: complete chapter displayed across these pages.")
 
 
