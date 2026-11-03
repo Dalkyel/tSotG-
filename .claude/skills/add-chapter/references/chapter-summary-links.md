@@ -15,7 +15,7 @@ make a drafted summary pass; use the existing supported name and verify its iden
 The chapter verifier checks that every `<strong>` term resolves completely to one node
 using the shared matcher and the preview's inventory and guides. Review that the resolved
 node is the intended entity; the automated check cannot establish identity. Before emphasizing a term, check
-it is not a name that [entity resolution, step 2](references/source-and-entity-workflow.md) already returned as `UNMATCHED` (by `match-entities.cjs`) or
+it is not a name that [entity resolution, step 2](source-and-entity-workflow.md) already returned as `UNMATCHED` (by `match-entities.cjs`) or
 `NO MATCHES` (by `search-descriptions.cjs`): a generic word that looks like a proper
 noun — `Maður`, Old Norse for "man", is one observed case — has no node and will fail
 the verifier with "does not resolve completely to one node"; render it as plain text

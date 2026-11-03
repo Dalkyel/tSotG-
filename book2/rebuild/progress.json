@@ -16,7 +16,8 @@
     12,
     13,
     14,
-    15
+    15,
+    16
   ],
   "chapters": [
     {
@@ -211,15 +212,33 @@
         }
       },
       "log": "Chapter 15: Reprocessed Orka’s complete supplied source; added Gunnar and Revna, the mine inspection event and two explicit open questions; advanced Breca and missing-children evidence, retained attributed contradictory Valkyrie sagas, and preserved accumulated profiles and all later chapters. Ownership, event and 165-candidate thread reviews PASS; chapter verifier, 23 summary identities and overlap checks PASS; all 59 required regression tests PASS. Browser security policy blocked the local file preview, so visual confirmation remains manual."
+    },
+    {
+      "chapter": 16,
+      "source": "book2/chapter 16.html",
+      "sourceHash": "0c094380fb82081408f1cf7c4032a08180697ddb44839c6de761557fa085df29",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch16.vBGPFk",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-16",
+        "hashes": {
+          "ownership-review.md": "59f253b559d1b7694786b9ae4ce310ecf4f21618b6f3459e318cdc691f3c18d9",
+          "event-review.md": "299ff407ded91a08d035aeefb8b14dc9efaf6ae9720dd255f3364a9ea738143a",
+          "thread-review.md": "7f602f9d968c08a7860fbc29cb04eb10117e97dad47512fc8be98f0f47cedbbf",
+          "thread-checklist.json": "94659658989638629f0cf09817a62bd774721361d56f0e340cbbe6704930b8ff",
+          "completion.json": "1b216942541a2442278ee1c204f925a230cba64f29259ed9c145b9a825361ff5",
+          "chapter.json": "3787e973bffb7f749606f6d45cc4d564f3d1c5f3791d0ec57db9439f68ee56d0"
+        }
+      },
+      "log": "Chapter 16: Reprocessed Guðvarr’s return to Darl from the full source: 30 node revisions, 43 links, three key events and canonical Spanish summary; preserved later chapters and uncertainty about Störr, Helka/Hakon, Vol, copied Rauðskinna and unnamed arrivals. Full baseline ownership and all-POV lifecycle review completed with 167 individual assessments; all three semantic gates, verifier, 19 summary links and overlap review passed. Required regression suite: 59 tests passed. Browser preview not performed because the configured workflow discovery service was unavailable; visual confirmation remains manual."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "1ac3389b4b0cc81f3e502740c74cfee00ac20e06294f158425b3987ee434f63b",
-    "book2/links.js": "0f4978ad16b555bdb28b462f251df208bd5cdc53d935022042a1ece74cfbea87",
-    "book2/summaries.js": "4063495602f6a0105e9c615d2082b92c3ff6984c29450be85f0e41846f4f1dc4"
+    "book2/nodes.js": "00dacbaf3115160e7a577cd291810f4901fb2cbc40f80b7d67c56ecb463a9463",
+    "book2/links.js": "00f5568b5171d66eb1c163c2d1c8b80ec9be0977f8552aaee4e0732eef84db4e",
+    "book2/summaries.js": "41dbcf722d963e979fda61eccf6e35112f92bb8dc8c593f614800875c3bf75dd"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -230,9 +249,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "13cc0e5d065432ab47246b8d96836e5581ace17de042687067c5c17aaef69687",
-    "links": "9ab9c34d0f21dca95399c8d25b100fdbdf623938a998d73526a07ce8eda279ab",
-    "summaries": "f356193403e1682e79a0117a5b4b1ac2bda93403f9aefc4d4ac2cf41fa927077"
+    "nodes": "834fa466182b901d4cc6e88d56c1d01dbdf26a69e0d9effd01f63b3a4e375c7a",
+    "links": "c0832d786005dd3e020afb6866a1aa05700075a0f2e481c0d8311f016ea7c923",
+    "summaries": "e0e1f4eee26fbeb99aec9b09795334c451317b1f91428935f5b623ed2187e306"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

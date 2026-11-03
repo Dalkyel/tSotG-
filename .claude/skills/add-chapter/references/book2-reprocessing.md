@@ -130,8 +130,12 @@ These are semantic attestations, not outputs the helper can infer. Before comple
 review every proposed node/link against the complete source and run the relevant tests:
 
 ```sh
-node --test tests/book2-reprocess.test.cjs tests/book-integration.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/backlog-reader.test.cjs tests/backlog-review.test.cjs tests/chapter-batch.test.cjs tests/link-reader.test.cjs
+node --test --test-reporter=dot tests/book2-reprocess.test.cjs tests/book-integration.test.cjs tests/characters.test.cjs tests/focus.test.cjs tests/chapter-verifier.test.cjs tests/backlog-reader.test.cjs tests/backlog-review.test.cjs tests/chapter-batch.test.cjs tests/link-reader.test.cjs
 ```
+
+The compact dot reporter keeps successful multi-file runs bounded. Check the exit
+status; if nonzero, rerun with `--test-reporter=spec` to inspect failure details and
+resolve them before completing.
 
 If an integration regression requires a specific legacy relationship removed by a
 source-reviewed replacement, inspect the reference record and reviewed checkpoint

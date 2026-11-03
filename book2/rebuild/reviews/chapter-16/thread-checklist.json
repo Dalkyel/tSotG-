@@ -1,0 +1,1692 @@
+{
+  "book": 2,
+  "chapter": 16,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch16.vBGPFk/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Su pasado guerrero, sensibilidad a huesos y llamada de L2C10 no se explican por la restitución de Orna.",
+      "remaining": "Mujer enjaulada, sensibilidad, relatos de Skullsplitter y llamada."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: L2C10 atribuyó sangre Berserkir; la audiencia no determina la sangre probada por Vafri ni su efecto.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No aparece ni se lo identifica entre los pasajeros anónimos del puerto; compasión de L1C6/15 sigue histórica.",
+      "remaining": "Paradero, salud y rescate de Breca."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La acusación de Skalk sobre el norte no identifica al asesino de Asgrim ni vincula esa muerte con Störr.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Ningún informe de la audiencia explica la muerte lenta de Idrun ni sus atacantes.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Ni los detenidos de la plaza ni los viajeros son identificados como Harek.",
+      "remaining": "Paradero y destino de Harek."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La saga geográfica de L1 permanece; la garra devuelta pertenece a Orna.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La restitución no altera el juicio de Orka sobre la falsa paz posterior a la guerra divina.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El regreso de los fugitivos no resuelve autores ni paradero del hijo de Asgrim.",
+      "remaining": "Responsables y Harek."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se identifica qué hirió a la criatura encontrada por Breca.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Su lobo, sensibilidad y origen no se aclaran; restituir la garra no explica sus percepciones. Nadie pronuncia su juramento ni localiza a Frøya.",
+      "remaining": "Padres, edad, vínculo con Frøya, magia y control autónomo; juramento."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El diálogo de Darl no identifica al liberto de la laguna de Varg con Snepil/Kolskegg.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El duelo anunciado en L1C2 ya fue ganado por Einar en C4; Darl no lo reabre ni prueba parentesco trol.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Vol sigue cautiva y Varg ausente; ni invocación, cuerpo, asesino ni pista de Brimil se verifican aquí.",
+      "remaining": "Rito, destino de Frøya y eventual venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: L1C39 reveló el mechón y su finalidad; los pergaminos de Skalk no reabren esa identificación.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El linaje general sigue aclarado por Edel/Røkia, pero la garra no explica padres, edad, vínculo con Frøya o control independiente.",
+      "remaining": "Padres, edad, vínculo sensible, control y sensibilidad mágica."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El patrón de niños desaparecidos que señaló no se aclara con los cadáveres sin nombre de Darl.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El servicio a Skalk, temor a Sigrún y pensamiento de oportunidad amplían su ambición; no roba ni declara un plan.",
+      "remaining": "Qué hará con esa oportunidad y respuesta de Sigrún."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Su guardia Berserkir y la insinuación de Silrið siguen registradas; la acusación de Skalk no prueba su responsabilidad ni explica el plan para Elvar.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La restitución de una reliquia distinta no explica la sensibilidad de Orka al nudillo.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Glunn y Svard son vasallos confirmados; Helka frena una respuesta militar precipitada. No hay nueva conquista ni decisión de Fellur.",
+      "remaining": "Alcance de expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Skalk oculta su información sobre Hakon/Drekr; no identifica a los niños raptados ni se revela a Helka su papel en el rito.",
+      "remaining": "Harek, Breca y otros grupos; alcance común, destinos y responsables."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El testimonio de Terna de L2C13 sigue sin comprobación; la escena no visita a Brimil ni confirma vida o muerte.",
+      "remaining": "Destino de Frøya y pista de Brimil."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Jaromir no es Leif: no hay reclamación o acción nueva del hijo de Kolskegg contra Varg.",
+      "remaining": "Reclamación de propiedad frente a la libertad de Varg."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La cámara de Helka no revela la huella de Isbrún, el arco de Orv ni el control de Ulfrir; sus decisiones y contradicciones siguen registradas.",
+      "remaining": "Rescate, Biórr, control de Ulfrir y dudas propias del arco Elvar."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se explica su juramento a la madre de Elvar, su vínculo con Gytha ni su inmovilidad ante el aullido.",
+      "remaining": "Juramento, pasado y Gytha."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La acusación contra Störr no explica los presentimientos de Agnar; su muerte y la traición ya están confirmadas.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La función protectora de su magia para sus esclavizadores no recibe nuevo hecho en Darl.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La audiencia no aporta responsable de azotes, familia, lealtad nueva ni prueba de ascendencia de Rotta; el recuerdo infantil sigue atribuido a él.",
+      "remaining": "Cicatrices, familia y contradicciones de Biórr."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Captura, collar y venta a Störr ya ocurrieron; acusarlo no libera a Berak ni anula la transacción.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La persecución concluyó en captura en L1C7; la llegada a Darl no cambia su desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No aparece una explicación del conocimiento de los vaesen sobre la liberación de Lik-Rifa.",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Su lealtad y aviso permanecen; ninguna revelación de la audiencia explica cómo supo del dragón.",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Uspa identificó Graskinna y explicó su destrucción en L1C29; las copias de Rotta son otro objeto.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El control portuario observado en L1C21 no cambia por el informe acusatorio sobre su jarl.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Familia, salida por matrimonio impuesto y decisión propia ya aclaradas; la presencia de Hakon no reabre ese pasado.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Venta cumplida en L1C21; no se narra una liberación ni una nueva venta.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La recomposición de Orna no prueba control de Ulfrir ni recuperación del dios vivo.",
+      "remaining": "Control y aptitud contra Lik-Rifa."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Guðvarr teme a Orka pero no revela la mujer enjaulada, su sensibilidad o la contradicción del antiguo Skullsplitter.",
+      "remaining": "Mujer enjaulada, sensibilidad y conciliación histórica."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Tras el antecedente violento de L1C18, mantiene su reclamación y promete buscar a los Bloodsworn si no llegan.",
+      "remaining": "Resultado de la reclamación y eventual caza."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Sulich no es nombrado en la audiencia; la reclamación colectiva continúa, sin nuevas pruebas sobre su pasado.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Helka admite el arreglo previo y ofrece ayuda condicional; no hay entrega, juicio ni evidencia nueva y Sulich no es nombrado.",
+      "remaining": "Pruebas, culpabilidad y desenlace de la reclamación."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La audiencia no incluye a Varg ni juramento; el anillo y la aceptación anteriores no equivalen a palabras pronunciadas.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Viva y con resurrección ya demostrada, no aparece aquí; el otro libro no explica sus capacidades, rescate o libertad de Berak.",
+      "remaining": "Bjarn, Berak y control de Ulfrir."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La reliquia de Orna no explica si la piedra atrajo gusanos.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No hay nueva concentración de gusanos ni prueba de atracción por la roca.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La existencia contemporánea quedó confirmada antes; los cadáveres rotulados no se identifican como dragon-born.",
+      "remaining": "Referente de Thorkel permanece en otras preguntas."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Ni Skalk ni Helka identifican a los asesinos de la guardiana o su relación con raptos.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La mudanza familiar quedó truncada por muerte y rapto; regresar a Darl no la cumple ni reabre.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El recuerdo de Vafri por Guðvarr no prueba qué sangre probó, qué detectó o sus consecuencias; doble linaje sigue autodeclarado.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Los gritos se aclararon como Breca; no se resuelven autores, motivo o nexo causal con el fresno.",
+      "remaining": "Autores, motivo y conexión con raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Guðvarr sigue vivo y Lif no aparece; la nueva amenaza política contra la compañía no cumple su juramento.",
+      "remaining": "Venganza por Virk/Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Breca no aparece ni recibe instrucción de espada.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La salida de Liga ya se completó en L1C20; nueva llegada de otros viajeros no la reabre.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La garra de Orna no explica la presión que Varg sintió ante la astilla de Vackna.",
+      "remaining": "Causa de la percepción de Varg."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Preparativos y partida cumplidos en L1C20; la acusación nueva no cambia ese hecho.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Skalk confirma querer ocultar el trato del príncipe, no la naturaleza de sus garras ni el paradero de Breca.",
+      "remaining": "Garras, paradero de Breca y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El puerto contiene figuras anónimas sin identificar con Breca; no se amplía el rastro del lecho de L2C15.",
+      "remaining": "Ubicación, salud y rescate."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La audiencia no explica la fecha o causa de muerte de Aslog.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se relata sucesión ni se concilia la muerte naval con la fuga de Orka/Thorkel.",
+      "remaining": "Reconciliar parentesco y sucesión del antiguo jefe."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La emboscada sigue interrumpida por la flota en su momento; el arreglo revelado no altera ese hecho.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La promesa de atender a Jaromir al pagar aclara parte del arreglo oculto, no todos los motivos relativos a Logur y Liga.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Los útiles negros del cofre no se identifican como seaxes ni explican las garras de Drekr o una forja común.",
+      "remaining": "Garras, fabricante y muerte de Drekr."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El entierro y juramento ya ocurrieron; no se ejecuta aquí la venganza contra Drekr.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Controla testigos y falsea el informe; la acusación a Störr no prueba autoría. Conjura sin el bastón, sin cuantificar poder recuperado.",
+      "remaining": "Responsabilidad real en amenaza-norte-helka; planes sobre Vol/copias."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El encargo y la partida se mantienen; la audiencia es un informe posterior y atribuido.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Acusa a Störr con broches; una declaración junto a su mentira sobre los Bloodsworn no establece culpabilidad ni destino de víctimas.",
+      "remaining": "Responsables efectivos, víctimas y alcance de operación."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Su desembarco y arbitraje inmediato no cambian; los términos posteriores se registran en helka-llega-liga.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No hay nueva información sobre el plan que insinuó ni sus tareas de vidente.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La identificación olfativa de Elvar ya se confirmó; los guardias de Darl no lo involucran.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Transacción y destino inmediato de Berak siguen cumplidos; el informe no lo libera.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Paternidad y reacción posterior ya claras; la acusación política no reabre la identidad familiar.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Guðvarr recuerda su nombre y que Helka la regaló a Sigrún, pero no confirma muerte/supervivencia ni verifica su doble linaje.",
+      "remaining": "Destino físico y consecuencias de probar sangre."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La liberación en Fellur ocurrió; el retorno de Guðvarr no cambia las identidades allí reveladas.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Se cumple el retorno ante Sigrún, quien sonríe; no responde aún al fracaso ni abandona la persecución.",
+      "remaining": "Respuesta a fracaso y consecuencias legales/personales."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La obediencia familiar documentada no cambia; no está en la corte de Darl.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El afecto hacia Elvar sigue histórico y no recibe desarrollo en Darl.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La audiencia no explica su deferencia, relación afectiva con Grend o reencuentro.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Oferta ya realizada; la acusación contra Störr no explica el otro camino insinuado por Silrið.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El rechazo de Elvar ya se produjo; no se comunica aquí a Störr ni se descubre su plan.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El robo de Graskinna y reconocimiento de perseguidores explicaron su urgencia; las copias de Rotta no lo cambian.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El acuerdo y la maniobra ocurrieron; el regreso de perseguidores no prueba seguridad permanente de Orka.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se muestra nueva lección ni aptitud de Lif para vencer a Guðvarr; formación original cumplida, renovada parcial.",
+      "remaining": "Preparación de Lif para el duelo."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La interpretación de Elvar no se convierte en profecía por la acusación de Skalk a Störr.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Ataque y rapto observados siguen firmes; no se recupera a Bjarn ni se salda el feudo.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Revelación y acuerdo previos intactos; camino comprobado después, rescate aún no cumplido.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Las figuras portuarias no se identifican con Bjarn; no hay contacto con Elvar/Uspa ni rescate.",
+      "remaining": "Recuperar a Bjarn y cumplir juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Llegada efectiva a Oskutreð ya comprobó el camino; Darl no lo reabre.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No hay acuerdo ni represalia final entre compañías; Ilska ausente.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se muestra el traslado o entrega marítima de Thrud ni se aclara el barco discrepante.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Conjuros de Skalk sobre el cofre no prueban conexión del Näcken con la amenaza del norte ni su muerte.",
+      "remaining": "Destino de criatura y nexo no demostrado."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El final de Sólstöður es contexto temporal; no comprueba constructor, huella, resistencia al calor o eficacia del sello.",
+      "remaining": "Autoría, huella y eficacia de cierre."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se observa nueva sanción ni muerte por el juramento, ni se explica la ausente Kráka.",
+      "remaining": "Rescate obligado y alcance del vínculo."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Acusación de desapariciones no explica la oferta del warband ni su respuesta al rechazo de Elvar.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Skalk acusa genéricamente a Störr sin identificar habitantes o probar rapto/matanza en la granja.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La búsqueda terrestre ya comenzó; el informe no explica la granja ni altera el desembarco.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Instrucción pactada cumplida; el viaje de otros personajes no cambia el acuerdo original.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La llegada previa de Orka no queda reescrita por el regreso actual; Breca sigue no localizado.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Los cautivos y guardias de Helka no identifican al rubio de Snakavik ni prueban libertad universal con Ilska.",
+      "remaining": "Identidad/linaje del rubio y razón de libertad."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se descubre si Helka ordenó los raptos que se asociaban a guardias de su emblema.",
+      "remaining": "Conocimiento/autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Vol está en Darl y no se reúne con Uspa; no se equipara explícitamente a Uspa con la mujer esperada.",
+      "remaining": "Identidad exacta, retraso y reencuentro."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se amplía la prueba de paso previo de Breca por el desván ni se lo localiza ahora.",
+      "remaining": "Paradero y salud de Breca."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Drekr identificado y confesión previa intactos; no se explica la transformación completa de Orka o garras.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Varg ya rechazó el trato; la audiencia no contrae una deuda nueva ni realiza el rito.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Los broches mostrados no identifican a asesinos de los 24 ni explican frío y marcas.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El letrero sobre dragones no demuestra linaje o significado del tatuaje de serpiente de Skefil.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Skalk declara que ocultará a Hakon su conocimiento del trato; ante Helka no lo revela. Su conocimiento previo sigue sin determinarse.",
+      "remaining": "Alcance del plan de Hakon y qué sabe/autoriza Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No hay encuentro de Gytha y Grend ni solución a sus obligaciones.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Alianza reportada de humanos y vaesen no identifica matadores de alces ni prueba nexo con ese hallazgo.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Orna no se relaciona con la huella que Elvar comparaba con lobo/oso.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La muerte de Torvik sigue haciendo imposible el acompañamiento prometido; Yrsa viva no revierte ese cierre.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El encaje en Orna corrobora procedencia y cambia estado de arma a reliquia reintegrada; percepción de Varg sigue inexplicada.",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Varg ya despertó vivo; mostrar el arma en Darl no reabre la supervivencia confirmada.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La esclavitud infantil ya fue confirmada en L2C14; nadie en Darl nombra al amo, la familia o represalia.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La garra y copias proceden de la cámara de Rotta, no del botín de Oskutreð; no prueban su venta o nuevas consecuencias.",
+      "remaining": "Traslado/venta del botín y consecuencias posteriores."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Vol llega viva y cautiva ante Helka; destino de fuga confirmado. No hay nuevo collar ni rescate; Varg ya sobrevivió.",
+      "remaining": "Rescate y amenaza de esclavización de Vol."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Skalk corrobora por testimonio altar y cadenas, pero no identifica ocupantes infantiles o destino de Rotta; Breca sigue ausente.",
+      "remaining": "Ocupantes, salida de Rotta y destino de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Siete supuestos adoradores muertos no identifican al tallador del altar ni demuestran organización única.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El letrero de Darl amplía contexto de culto/rechazo, sin identificar constructores del pinar/Liga ni probar afiliación de muertos.",
+      "remaining": "Autores y relaciones entre altares y red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Linaje de Varg ya revelado; nadie lo identifica en la corte ni demuestra control voluntario.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Aceptación y anillo ya confirmados; audiencia no pronuncia el juramento ni cumple el rescate anunciado.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Muerte confirmada se conserva; la garra de Orna no identifica al portador de su sangre que olió Vörn ni verifica linaje de Biórr.",
+      "remaining": "Portador de Orna y genealogía exacta de Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se revela fecha/causa de muerte de Aska.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El encuentro confirmó encierro y ruta; recomponer Orna no cambia ese hecho.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Reencuentro ya ocurrido sin búsqueda de la compañía; el feudo sigue sin saldarse en Darl.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Captura y auxilio de cuervos se confirmaron después; el cofre aporta evidencia a identidad-emboscada, sin cambiar la escena.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Se abre el cofre de Skalk y se ven huesos, herramientas y copias; no se identifica a mujer del sabueso ni toda la partida.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Victoria del duelo y muerte posterior por traición ya firmes; la audiencia no cambia ese orden.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Niños y linajes observados permanecen; nadie en Darl explica las promesas de cambiar el mundo.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Motivo y lealtad declarados ya explicados; Skalk no aporta genealogía de Rotta ni nuevas intenciones de Biórr.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Motivo, lealtad e infiltración confirmados antes; las acusaciones de Skalk sobre otra compañía no los alteran.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Fuga y cofre avanzan otras preguntas, sin borrar pago de cuervos, confesión o muerte posterior de Mord.",
+      "remaining": "Hakon y captores en tramas respectivas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Muerte confirmada por cadáver en L2C1, no revertida por regreso de su asesino.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Dispersión tras rito ya firme; Darl no consuma rescate ni fin del feudo.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Rito ya ejecutado; manuscritos copiados de Rotta no identifican a todos los niños ni muestran saber de Helka.",
+      "remaining": "Niños y conocimiento de Helka aparte."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Viva en L2C2, sin nueva explicación del auxilio o secuelas; no se reabre supervivencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Resto carbonizado confirmó muerte; la restitución de Orna no constituye regreso de Vörn.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El final del Día Largo no muestra llegada a Nastrandir, recuperación completa o reencuentro con Ulfrir.",
+      "remaining": "Nastrandir, reunión y campaña divina."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Encuentro ya ocurrido; la audiencia no concilia pasado de Orka ni rescata a Vol/Breca.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Túmulo concluido en L2C3; no se altera por llegada de Guðvarr a Darl.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La reacción de guardias a la garra es otra observación y no explica los sueños de alas/ceniza o certeza de los vaesen.",
+      "remaining": "Mecanismo y alcance de aviso/sueños."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Elvar y Biórr ausentes; no hay encuentro ni represalia cumplida.",
+      "remaining": "Si Elvar mata a Biórr."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El cofre no contiene arco/flechas de Orv ni distingue su contribución mágica.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Los útiles de hierro negro no son identificados como estas armas ni prueban fabricante común.",
+      "remaining": "Forja y relación de seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Yrsa y Skalk siguen vivos; ni Jökul ni Varg ejecutan aquí su promesa.",
+      "remaining": "Cumplimiento y alcance de represalia."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Las copias atribuidas a Rotta no son el libro propio de Lik-Rifa; cubierta, protecciones y contenido completo no se explican.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Supervivencia inmediata resuelta en L2C6; Darl no identifica atacantes ni prueba conspiración de Skuld.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Orna es recompletada, no resucitada; no hay fuerza nueva demostrada para vencer a Lik-Rifa ni cooperación de Ulfrir.",
+      "remaining": "Control, recuperación, encuentro y victoria."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Rauðskinna copiada es objeto distinto; no aclara todos los hechizos, protecciones o cubierta del libro negro.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Las copias que robó Skalk no prueban que Myrk alcanzara a su padre o cumpliera la entrega.",
+      "remaining": "Llegada, recogida y entrega de encargo."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Ver parte de los tesoros en manos de Skalk no muestra el viaje ni la entrega de Myrk, ni identifica a su padre.",
+      "remaining": "Padre, recogida y transporte a costa."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Reintegrar la garra de Orna no demuestra obediencia o recuperación de Ulfrir.",
+      "remaining": "Sometimiento efectivo y recuperación."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La acusación contra Störr no negocia ni obtiene la libertad de Berak.",
+      "remaining": "Intento prometido y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Los gemidos de guardias no identifican al hombre/lobo de su sueño ni su mecanismo.",
+      "remaining": "Emisor, origen y atracción."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Lif ausente; no hay ataque por secreto Bloodsworn ni prueba de seguridad definitiva.",
+      "remaining": "Protección y tensión con secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: La cámara de Helka no revela al hombre gris ni demuestra emisor compartido con Orka.",
+      "remaining": "Emisor, origen y significado."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El informe no verifica ni contradice el reciente testimonio de Terna sobre Frøya.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se visita o interroga al mercader de Darl aunque otros personajes lleguen a la ciudad.",
+      "remaining": "Pista de compra de Frøya."
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Pista fluvial se confirma con llegada actual de Skalk; información de Frøya sigue sin resolución.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Control asistido de Varg y expansión del culto ya observados; cadáveres de Darl no prueban afiliación común.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Svik no está en la audiencia ni explica lo que le inquieta.",
+      "remaining": "Causa real del desasosiego."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "Los Tennúr Deben Guardar el Isbrún",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: No se observa llegada de Ulfrir al sello, ataque del enjambre o reunión posterior con la hueste.",
+      "remaining": "Eficacia del sello, ataque y reunión."
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El cofre no localiza a Breca ahora; los broches no aclaran tatuajes o destino de Rotta.",
+      "remaining": "Breca, tatuajes y Rotta en sus tramas."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: El letrero de adoradores no identifica tatuajes ni prueba universalidad de marca entre dragon-born.",
+      "remaining": "Significado, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Skalk dice haber visto cadenas rotas y altar; no explica cómo escapó Rotta ni su destino.",
+      "remaining": "Ruptura del encierro y destino posterior."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Hallazgo de siete cadáveres bajo acusación de culto, sin identidad, autor de muerte o afiliación demostrados.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "L2C16, cotejado con historial íntegro del candidato: Otros huesos quedan sin origen y copias atribuidas con reserva; el montaje contra Bloodsworn no acredita a Störr.",
+      "remaining": "Origen de otros huesos, contenido/autenticidad de copias y efecto de informe."
+    }
+  ]
+}

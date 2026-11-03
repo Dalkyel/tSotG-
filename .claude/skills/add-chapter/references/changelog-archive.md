@@ -1,5 +1,13 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch16 — corrected the summary reference’s relative link to
+  `source-and-entity-workflow.md`. The required regression suite passed 59 tests but
+  its default TAP output truncated a tool response; the Book Two workflow now uses
+  Node’s compact dot reporter, checking exit status and rerunning failures with the
+  spec reporter for diagnostic details.
+  Both documentation fixes were verified and are recorded in the archive; no helper
+  behavior changed.
+
 - 2026-11-03: Book Two Ch14 — final link review caught participles agreeing with
   implied scene nouns rather than the actual verb-phrase titles; corrected labels
   through `--replace-applied` and added a concise pre-draft agreement example to
