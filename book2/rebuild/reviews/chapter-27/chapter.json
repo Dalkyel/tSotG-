@@ -1,0 +1,388 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 27 — GUÐVARR ──",
+  "nodes": [
+    {
+      "id": "asalto-salon-helka",
+      "mode": "update",
+      "previousState": "Guðvarr relata el rapto y los tres desaparecidos reaparecen.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: Guðvarr reconoce al guerrero del hacha que vio en el patio de Skalk y al hombre de la cuchilla que lo persiguió. Helka nombra a Glornir. Mientras Røkia mantiene el seax al cuello de Hakon, Glornir exige a Vol y a Skalk. Guðvarr suelta el martillo y declara haber visto a Jaromir llevarse a la bruja en su montura y tomar el cofre; repite que Jaromir habló de los huesos de Hraeg. Varg lo acusa de matar a Jökul y huir; Glornir lo contiene. Helka afirma tener otra heredera y Estrid dice que gobernaría mejor que su hermano. Yrsa y Sturla entran sosteniendo a Skalk, que arrastra una pierna y lleva vendado el ojo herido por el halcón. Skalk atribuye a Jaromir el apoyo de una bruja Seiðr y un esclavo Tainted poderosos. Varg acusa a Yrsa de matar a Torvik a su lado y Glornir le ordena contenerse de nuevo. El desacuerdo sobre entregar a Skalk desemboca en pacto-caza-jaromir."
+    },
+    {
+      "id": "pacto-caza-jaromir",
+      "mode": "new",
+      "label": "Pacto de Helka y Glornir: Cazar a Jaromir",
+      "group": "EVENTO",
+      "type": "Evento — Contrato y garantía",
+      "desc": "LIBRO 2, CAPÍTULO 27: Helka se niega a entregar a Skalk y estima que los cuarenta Bloodsworn no pueden vencer a sus doscientos guerreros. Considera la afrenta de Jaromir mayor por haber sido su invitado y ofrece plata por capturarlo; Glornir podrá recuperar a Vol. Glornir aplaza su amenaza contra Skalk y exige la mitad del pago ahora y la otra mitad al entregar a Jaromir o su cabeza. Retendrá a Hakon como garantía hasta salir de Darl y pide un drakkar. Helka acepta con la condición de enviar a un Úlfhéðnar como guardián de su hijo; Glornir asiente. La reina manda traer plata, barco y refrigerio. El pacto se sella en el salón, con la salida, el pago y la persecución aún por realizar.",
+      "star": ""
+    },
+    {
+      "id": "capa-hakon-gudvarr",
+      "mode": "new",
+      "label": "Capa de Guðvarr para Hakon",
+      "group": "EVENTO",
+      "type": "Evento — Primer acercamiento",
+      "desc": "LIBRO 2, CAPÍTULO 27: Después de que Skalk lo mire, Guðvarr siente un pinchazo en el torso y cree que se ha movido el hyrndur. Recuerda el encargo de ganarse la amistad de Hakon. Toma la capa de un drengr muerto y pide permiso para cubrir al príncipe. Helka y Glornir lo autorizan, Røkia aparta un poco el seax y Hakon agradece la capa.",
+      "star": ""
+    },
+    {
+      "id": "aviso-lif-gudvarr",
+      "mode": "new",
+      "label": "Aviso de Lif a Guðvarr",
+      "group": "EVENTO",
+      "type": "Evento — Advertencia y confrontación",
+      "desc": "LIBRO 2, CAPÍTULO 27: Varg sujeta a Guðvarr por la muñeca, confirma su nombre y le transmite que Lif viene por él y le ha pedido que no lo mate. Le echa en cara las muertes de Mord y Jökul y duda de poder respetar la promesa. Guðvarr, que se sabe en mal estado, desprecia la amenaza de Lif y provoca a Varg con insultos y alusiones a una holmganga. Varg lo insta a retarlo; un guerrero pelirrojo lo secunda. Helka prohíbe más derramamiento de sangre esa noche. Varg solo lo suelta cuando Glornir se lo ordena por su nombre, que Guðvarr se promete recordar.",
+      "star": ""
+    },
+    {
+      "id": "gudvarr",
+      "mode": "update",
+      "previousState": "Advierte a Helka, se acerca a Hakon y recibe el aviso de Lif.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: Exhausto, permanece junto a los bancos mientras Sigrún está en el salón. Cree que Helka habría evitado la sorpresa de haber escuchado su advertencia. Testifica sobre el rapto y desea en privado que Glornir mate a Skalk. Intenta ganar el favor de Hakon al cubrirlo y recibe la amenaza de Lif de boca de Varg, a quien ya puede nombrar; véanse asalto-salon-helka, capa-hakon-gudvarr y aviso-lif-gudvarr.",
+      "starAppend": "LIBRO 2, CAPÍTULO 27: Inicia el acercamiento a Hakon bajo la presión del supuesto movimiento del hyrndur; véanse encargo-gudvarr-darl y vigilancia-hyrndur-gudvarr."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "mode": "update",
+      "previousState": "Primer acercamiento al príncipe.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: ESTADO: PARCIAL. El gesto de capa-hakon-gudvarr logra un agradecimiento. Siguen pendientes la amistad, los hallazgos y el resultado de la pesquisa."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "mode": "update",
+      "previousState": "Guðvarr cree sentir que el insecto se mueve.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: ESTADO: PARCIAL. Guðvarr interpreta el pinchazo de capa-hakon-gudvarr como movimiento del insecto y actúa al recordar su encargo. Siguen pendientes ubicación, vigilancia real y extracción."
+    },
+    {
+      "id": "venganza-jokul",
+      "mode": "update",
+      "previousState": "Varg confronta al asesino y lo identifica por su nombre.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: ESTADO: PARCIAL. Varg acusa y confronta a Guðvarr, pero lo suelta por orden de Glornir y expresa que quizá no pueda respetar por mucho tiempo la petición de Lif. La venganza sigue pendiente; véase aviso-lif-gudvarr."
+    },
+    {
+      "id": "venganza-torvik",
+      "mode": "update",
+      "previousState": "Varg señala a Yrsa ante Helka.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: ESTADO: ABIERTA. Varg acusa a Yrsa ante la corte y se acerca a ella, pero Glornir lo contiene. Pendiente el ajuste de cuentas; véase asalto-salon-helka."
+    },
+    {
+      "id": "venganza-virk",
+      "mode": "update",
+      "previousState": "Guðvarr recibe la advertencia de Lif.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: ESTADO: PARCIAL. Varg entrega el aviso de Lif a Guðvarr, que lo desdeña. Se cumple el aviso pedido, no la venganza; véase aviso-lif-gudvarr."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "mode": "update",
+      "previousState": "Los Bloodsworn se enteran de que Jaromir se llevó a Vol.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: ESTADO: PARCIAL. El testimonio de Guðvarr cambia el objetivo inmediato del rescate y Glornir pacta la caza de Jaromir. Vol continúa cautiva; pendientes paradero actual, liberación, collar, suturas y reunión con el Sea-Wolf. Véase pacto-caza-jaromir."
+    },
+    {
+      "id": "origen-estallido-darl",
+      "mode": "update",
+      "previousState": "Los Bloodsworn conocen lo que Jaromir se llevó.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: ESTADO: PARCIAL. La declaración en asalto-salon-helka identifica ante los Bloodsworn la captura de Vol y la toma del cofre. Sigue pendiente qué impacto produjo el estallido oído."
+    },
+    {
+      "id": "destino-grieta-darl",
+      "mode": "update",
+      "previousState": "Los tres reaparecen vivos en el salón.",
+      "descAppend": "LIBRO 2, CAPÍTULO 27: ESTADO: RESUELTA. En asalto-salon-helka, Yrsa y Sturla llegan al salón sosteniendo a Skalk herido. Los tres han sobrevivido y salido de la grieta; no se muestra la ruta que siguieron.",
+      "label": "Supervivencia de Skalk, Yrsa y Sturla",
+      "type": "Trama — Supervivencia confirmada"
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "mode": "new",
+      "label": "La Caza de Jaromir",
+      "group": "TRAMA",
+      "type": "Trama — Captura pendiente",
+      "desc": "LIBRO 2, CAPÍTULO 27: ESTADO: ABIERTA. En pacto-caza-jaromir, Helka encarga a los Bloodsworn que capturen a Jaromir y Glornir negocia que podrá entregar al príncipe o su cabeza. Pendientes persecución, entrega y pago; el rescate de Vol se sigue en huida-skalk-vol.",
+      "star": ""
+    },
+    {
+      "id": "salida-darl-hakon",
+      "mode": "new",
+      "label": "La Salida de Darl con Hakon",
+      "group": "TRAMA",
+      "type": "Trama — Garantía pendiente",
+      "desc": "LIBRO 2, CAPÍTULO 27: ESTADO: ABIERTA. En pacto-caza-jaromir, Glornir promete soltar al rehén Hakon una vez fuera de Darl. Helka exige que un Úlfhéðnar lo acompañe. Pendientes la escolta, la entrega del drakkar, la salida y la liberación.",
+      "star": ""
+    },
+    {
+      "id": "venganza-glornir-skalk",
+      "mode": "new",
+      "label": "La Amenaza de Glornir contra Skalk",
+      "group": "TRAMA",
+      "type": "Trama — Venganza aplazada",
+      "desc": "LIBRO 2, CAPÍTULO 27: ESTADO: ABIERTA. Glornir confirma que quiere matar a Skalk, pero le concede una tregua al negociar pacto-caza-jaromir. Pendiente si cumple la amenaza. La acusación contra Yrsa por Torvik se sigue en venganza-torvik.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "pacto-caza-jaromir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "capa-hakon-gudvarr",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "aviso-lif-gudvarr",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "caza-jaromir-darl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "salida-darl-hakon",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "venganza-glornir-skalk",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "asalto-salon-helka",
+      "target": "pacto-caza-jaromir",
+      "label": "desemboca en el",
+      "type": "event"
+    },
+    {
+      "source": "gudvarr",
+      "target": "rapto-vol-huesos-darl",
+      "label": "informa sobre",
+      "type": "event"
+    },
+    {
+      "source": "yrsa",
+      "target": "asalto-salon-helka",
+      "label": "reaparece en el",
+      "type": "event"
+    },
+    {
+      "source": "sturla",
+      "target": "asalto-salon-helka",
+      "label": "reaparece en el",
+      "type": "event"
+    },
+    {
+      "source": "skalk",
+      "target": "asalto-salon-helka",
+      "label": "reaparece herido en el",
+      "type": "event"
+    },
+    {
+      "source": "estrid",
+      "target": "hakon",
+      "label": "afirma que gobernaría mejor que",
+      "type": "rel"
+    },
+    {
+      "source": "pacto-caza-jaromir",
+      "target": "helka",
+      "label": "es propuesto por",
+      "type": "event"
+    },
+    {
+      "source": "pacto-caza-jaromir",
+      "target": "glornir",
+      "label": "es negociado con",
+      "type": "event"
+    },
+    {
+      "source": "pacto-caza-jaromir",
+      "target": "jaromir",
+      "label": "pone precio a la captura de",
+      "type": "goal"
+    },
+    {
+      "source": "pacto-caza-jaromir",
+      "target": "darl",
+      "label": "se acuerda en",
+      "type": "geo"
+    },
+    {
+      "source": "pacto-caza-jaromir",
+      "target": "hakon",
+      "label": "prevé retener como garantía a",
+      "type": "goal"
+    },
+    {
+      "source": "capa-hakon-gudvarr",
+      "target": "gudvarr",
+      "label": "es ofrecida por",
+      "type": "event"
+    },
+    {
+      "source": "capa-hakon-gudvarr",
+      "target": "hakon",
+      "label": "abriga a",
+      "type": "event"
+    },
+    {
+      "source": "encargo-gudvarr-darl",
+      "target": "capa-hakon-gudvarr",
+      "label": "avanza con la",
+      "type": "trama"
+    },
+    {
+      "source": "vigilancia-hyrndur-gudvarr",
+      "target": "capa-hakon-gudvarr",
+      "label": "cobra urgencia durante el gesto de la",
+      "type": "trama"
+    },
+    {
+      "source": "varg",
+      "target": "aviso-lif-gudvarr",
+      "label": "protagoniza el",
+      "type": "event"
+    },
+    {
+      "source": "aviso-lif-gudvarr",
+      "target": "gudvarr",
+      "label": "va dirigido a",
+      "type": "event"
+    },
+    {
+      "source": "aviso-lif-gudvarr",
+      "target": "lif",
+      "label": "transmite la amenaza de",
+      "type": "event"
+    },
+    {
+      "source": "glornir",
+      "target": "aviso-lif-gudvarr",
+      "label": "pone fin a la confrontación tras el",
+      "type": "event"
+    },
+    {
+      "source": "venganza-virk",
+      "target": "aviso-lif-gudvarr",
+      "label": "se anuncia con el",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-jokul",
+      "target": "aviso-lif-gudvarr",
+      "label": "avanza con la confrontación tras el",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-torvik",
+      "target": "yrsa",
+      "label": "se dirige contra",
+      "type": "goal"
+    },
+    {
+      "source": "huida-skalk-vol",
+      "target": "pacto-caza-jaromir",
+      "label": "cambia de rumbo con el",
+      "type": "trama"
+    },
+    {
+      "source": "origen-estallido-darl",
+      "target": "rapto-vol-huesos-darl",
+      "label": "se vincula al objetivo revelado en",
+      "type": "trama"
+    },
+    {
+      "source": "destino-grieta-darl",
+      "target": "asalto-salon-helka",
+      "label": "se confirma durante el",
+      "type": "trama"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "destino-grieta-darl",
+      "label": "incluye",
+      "status": "broken",
+      "reason": "LIBRO 2, CAPÍTULO 27: Los tres llegan vivos al salón."
+    },
+    {
+      "source": "caza-jaromir-darl",
+      "target": "pacto-caza-jaromir",
+      "label": "se encarga mediante el",
+      "type": "trama"
+    },
+    {
+      "source": "caza-jaromir-darl",
+      "target": "jaromir",
+      "label": "tiene por objetivo a",
+      "type": "goal"
+    },
+    {
+      "source": "caza-jaromir-darl",
+      "target": "bloodsworn",
+      "label": "es encomendada a los",
+      "type": "goal"
+    },
+    {
+      "source": "cat-varg",
+      "target": "caza-jaromir-darl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "salida-darl-hakon",
+      "target": "pacto-caza-jaromir",
+      "label": "queda pactada en el",
+      "type": "trama"
+    },
+    {
+      "source": "salida-darl-hakon",
+      "target": "hakon",
+      "label": "condiciona la liberación de",
+      "type": "goal"
+    },
+    {
+      "source": "salida-darl-hakon",
+      "target": "glornir",
+      "label": "queda a cargo de",
+      "type": "goal"
+    },
+    {
+      "source": "venganza-glornir-skalk",
+      "target": "pacto-caza-jaromir",
+      "label": "se aplaza con el",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-glornir-skalk",
+      "target": "glornir",
+      "label": "es anunciada por",
+      "type": "goal"
+    },
+    {
+      "source": "venganza-glornir-skalk",
+      "target": "skalk",
+      "label": "se dirige contra",
+      "type": "goal"
+    },
+    {
+      "source": "cat-varg",
+      "target": "venganza-glornir-skalk",
+      "label": "incluye",
+      "type": "arc"
+    }
+  ],
+  "summary": {
+    "chapter": 27,
+    "title": "Capítulo 27 — Guðvarr",
+    "summary": "Desde los bancos del salón de <strong>Darl</strong>, <strong>Guðvarr</strong> observa cómo la <strong>Reina Helka</strong> detiene el combate. <strong>Røkia</strong> mantiene un seax al cuello de <strong>Hakon</strong>, desnudo y aterido, mientras <strong>Glornir</strong> exige a <strong>Vol</strong> y a <strong>Skalk</strong>. Guðvarr deja caer el martillo con que mató a Jökul y declara que <strong>Principe Jaromir</strong> se llevó a la bruja en su montura y tomó el cofre cuyos huesos atribuyó a <strong>Hraeg</strong>. <strong>Yrsa</strong> y <strong>Sturla</strong> llegan sosteniendo a Skalk, malherido. <strong>Varg</strong> acusa a Guðvarr de matar a Jökul y después a Yrsa de matar a <strong>Torvik</strong>. Glornir lo contiene en ambas ocasiones. <strong>Princesa Estrid Helkasdóttir</strong> afirma que gobernaría mejor que su hermano.<br><br>Helka se niega a entregar a Skalk y contrata a los <strong>Bloodsworn</strong> para perseguir a Jaromir, de quien Glornir espera recuperar a Vol. Pactan la mitad del pago por adelantado y la otra mitad por el príncipe o su cabeza. Helka acepta darles un <strong>Drakkar</strong> y que conserven a Hakon como garantía hasta salir de Darl, acompañado por un guardián de la guardia Úlfhéðnar. Skalk queda a salvo por el momento.<br><br>Un pinchazo que Guðvarr atribuye al <strong>Hyrndur</strong> le recuerda el encargo de ganarse la amistad de Hakon. Cubre al príncipe con la capa de un muerto y recibe su agradecimiento. Varg lo agarra de la muñeca y le transmite la advertencia de <strong>Lif</strong>. Duda cuánto tiempo podrá respetar la petición de dejarlo con vida. Helka prohíbe más sangre esa noche y Glornir ordena a Varg que lo suelte. Guðvarr se promete recordar su nombre."
+  }
+}

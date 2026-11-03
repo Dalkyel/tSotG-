@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch27 — clause-style titles for the cloak, warning and
+  fissure resolution forced a second manifest pass to repair relationship grammar.
+  The link drafting steps now check proposed titles against their edge sentences
+  before applying the manifest.
+
 - 2026-11-03: Book Two Ch25 — selecting both ORKA and VARG for Guðvarr’s
   tower chapter pulled in long unrelated histories. The backlog reader now accepts
   `--untagged` with explicit `--include` IDs for a bounded crossover review.

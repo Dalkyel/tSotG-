@@ -27,7 +27,8 @@
     23,
     24,
     25,
-    26
+    26,
+    27
   ],
   "chapters": [
     {
@@ -420,15 +421,33 @@
         }
       },
       "log": "Chapter 26: Reprocessed Varg’s account of the tower fighting, Jökul’s death and Hakon’s capture. Verified ownership, two active key events, 183 thread assessments, 14 summary mentions and the pre-publication regression suite. Browser automation timed out, so visual confirmation is unavailable."
+    },
+    {
+      "chapter": 27,
+      "source": "book2/chapter 27.html",
+      "sourceHash": "044ac14b6e2510b9865dafd3d6f1904d26bdf29fc9df24460c5f5ee80e1309e4",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch27.hxtQoi",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-27",
+        "hashes": {
+          "ownership-review.md": "068ba07caf22e01ab3ec9de4f624b9d6696ccd660ff431523b5e6b827c49e248",
+          "event-review.md": "5031f27b0d9a502a4a85d89f6df03971f7775d22036035309b1489f981a01814",
+          "thread-review.md": "1f620e1ba96ff10c42ec0b5589aa03b2842cbce2c7b9b41df1654e2087fc3a06",
+          "thread-checklist.json": "cdddc4746b4618ad237ed78cb256b2ed7173433fa29ef72be5638b9ede6c33e9",
+          "completion.json": "492d30d7b4718e78e3c10b14a053f1e6e0874643cf1e1818d189dd4b16cf4a2c",
+          "chapter.json": "c5e6b5bf8cbf9ef67f2af5211d7a2abde5804a0275d87f70becab9893c876ad7"
+        }
+      },
+      "log": "Chapter 27: Reprocessed Guðvarr’s account of the hall standoff, Jaromir pact, first approach to Hakon and Lif’s warning. Recorded survival of the three who fell into the fissure and tracked the distinct open commitments. Reviewed ownership, key events and 186 thread candidates, verified links and summary mentions, and ran the full regression suite before publication. Visual preview remains manual."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "6efd1fdafe6078aaa588c5875945ef657ae9ea7ffd713f8458e8150cda3d54c4",
-    "book2/links.js": "760d9c55f9431ab012aac94d97e6d994b685241b4f462e2812a45b827d20d432",
-    "book2/summaries.js": "55d0933721edd3118448459ec3076ed614a14a204eaee133e556a6e3fb6c2c68"
+    "book2/nodes.js": "2e2c59bfb3d080a2e2c16d246aef732cee9dec12d91bf0f050bd35f360c49217",
+    "book2/links.js": "c3c229b029ee802967870680bcb9c1d9dcf06520fc866be2903459a813bc03bf",
+    "book2/summaries.js": "e338e845b08f17c3cdf1d8b3847f877563979e614f7e4e4e483638bcd8313437"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -439,9 +458,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "adb0892198c338fdea5be000f5d77da20856bb3a0303e8cfd3c1f0ab2b11782f",
-    "links": "8d023aa22200be312bfde1a1068edc83052cea7f5aea08cbb0ba0bfa77a194ad",
-    "summaries": "0045c951f3145ad702b21d7637baa28ef30fef40e2e9a1a5b6f5847560cb8aa9"
+    "nodes": "1535b54e9fbfef80182d9718abfda0b1be1194ea39b4221a2ccef1908b577220",
+    "links": "2dde63a8675af8a49d38db150501a18184fcc23bfc19e4c7d25df7161a2aad8a",
+    "summaries": "8a3fb1f096e14f43c323baaa976101459495e82dfe2f24bfb8891ba15c1407b2"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

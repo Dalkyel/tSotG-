@@ -244,6 +244,13 @@ Check agreement with the actual source title too, rather than an implied word su
 Esclavizada`, use `tiene como interlocutor a → Ilmur` rather than `escuchada por →
 Ilmur`; a verb phrase avoids a participle agreeing with an absent noun. Compose these
 labels against the confirmed full titles before applying the manifest.
+For a new event that will be the target of several links, read those sentences
+with its proposed title before settling the title. If several edges need an
+implied noun, use a title that names the action directly. For example,
+`El Encargo de Guðvarr sobre Hakon → avanza con la → Capa de Guðvarr para Hakon`
+reads through its target. A title that starts with «Guðvarr cubre…» would require
+rewriting the edge as a clause. Apply the same check when retitling a resolved
+thread, since its earlier edges will render with the new label.
 Put source attribution before the verb inside the link label, so the sentence still
 reads naturally through its target: `Cadena de Ulfrir → según Yrsa, sirvió para encadenar a
 → Ulfrir`, not `sirvió para encadenar a, según Yrsa → Ulfrir`. Keep the subject's role
