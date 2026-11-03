@@ -23,7 +23,8 @@
     19,
     20,
     21,
-    22
+    22,
+    23
   ],
   "chapters": [
     {
@@ -344,15 +345,33 @@
         }
       },
       "log": "Chapter 22: Reprocessed Orka's aftermath at Rotta, Myrk's interrogation and the volunteers for the proposed Starl route; reviewed ownership, event coverage, summary identities and 174 thread candidates. All 120 tests passed before publication. Visual preview pending."
+    },
+    {
+      "chapter": 23,
+      "source": "book2/chapter 23.html",
+      "sourceHash": "f0cc3de22a48980905e2600de58abb21dab56fd128d2ea02d855ed48282c7990",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch23.euMTrN",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-23",
+        "hashes": {
+          "ownership-review.md": "538e16cab54d17f5768445de55ed59d38e133a210ec09587e9a4aeb73901fe1c",
+          "event-review.md": "5c86738eaf918154ed959ece60aeb1254391e82b719e3cc6567846a9b0d3990c",
+          "thread-review.md": "c30b3acaba75ed16ec4cceeabe00b655291ee7312f1a05edd3ea1cc65732afa2",
+          "thread-checklist.json": "d29f67edee44ed6559108063834d8dfdeb30956c093a76e43f3aae92075ec512",
+          "completion.json": "3206826a6f78f6614d7d0ce04505f387e90a42727b1f63ccee053706bf899a80",
+          "chapter.json": "98e0b2c3f9bc5aa99e8dd9d24ad45c36dc1d69453ba41020f91f99c839ac1106"
+        }
+      },
+      "log": "Chapter 23: Reprocessed Guðvarr’s secret assignment, Sturla’s return, the tower prisoners and laboratory, and the hyrndur implantation. Reviewed ownership, five key events, link direction, summary identities and 177 clue candidates. Targeted automated tests passed. Browser preview was not part of this validation."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "b3308a927c580bb0e025568c67ea338fd5d7f1ab3dcfba5bf0715ee0214ed817",
-    "book2/links.js": "f2d894b94cd215ebbe0e09246afce5d9a4d4529b4d8d5c41d29e6a4f27046a7e",
-    "book2/summaries.js": "c86a402bd912b0a72427dcf17740ac75d4429b3fe9403fda329f8ee046dd5939"
+    "book2/nodes.js": "75c2635ea35941c8fcb883436b398d94f1d864663682759dd4df4e68535a7e54",
+    "book2/links.js": "78925cdba1f90f360f303dbaa705793ed54612324e67e52b58e1cee4c56630c4",
+    "book2/summaries.js": "0d8c56ac16d7a6ae5d074c63900b7858dd29e11f4fd4581dd6bb9397b38db551"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -363,9 +382,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "74bc59f3d8e01bf35cd718bab1028232aa311c375dadc413e247f86e53a2dade",
-    "links": "b88467a2df0a3078c2b86803dc0a6bc2f8b162b5a99189a688bbfd4a34cda3e9",
-    "summaries": "01e799c67121d12c3e13c3c245e774815a9d2215f3ce9ed7db64239bf2b0fc24"
+    "nodes": "a0dd065b2eb879f5d7fbcfcac70849b1a3cfe648abaac4f752a73768a7b11ffc",
+    "links": "0f9b48afe65e7ae48720a343a333285b83f3631d5585cacfd3dd1b3bf27875f6",
+    "summaries": "f9513bcc51e4dfd7865bdee961fc2c8dd11f943e92fdb219208feb6df04becba"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

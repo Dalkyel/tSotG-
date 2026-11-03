@@ -38,8 +38,10 @@ const candidates = selectedPovs.size
   : allCandidates;
 const payload = indexOnly
   ? candidates.map(node => `${node.id}${node.pov ? ` [${node.pov}]` : ''}${node.group === 'TRAMA' ? ' [TRAMA]' : ''}${node.star.trim() ? ' [star]' : ''}`).join('\n')
-  : JSON.stringify(candidates, null, compact ? undefined : 2);
-const chunks = paginate(payload);
+  : compact
+    ? `[${candidates.map(candidate => JSON.stringify(candidate)).join(',\n')}]`
+    : JSON.stringify(candidates, null, 2);
+const chunks = paginate(payload, undefined, { preferLines: compact });
 const pageCount = chunks.length;
 assert.ok(page <= pageCount, `Requested page ${page}; only ${pageCount} pages available`);
 console.log(`Backlog review candidates through Book ${book}: ${allCandidates.length} latest entries (all TRAMA nodes and nonempty star fields, across all POVs).`);

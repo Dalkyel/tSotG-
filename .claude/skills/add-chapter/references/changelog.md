@@ -1,5 +1,9 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch23 — compact backlog pages cut across candidate records
+  because the entire selection was one line. Compact JSON now places each candidate
+  on its own line and prefers those boundaries within the same page limit.
+
 - 2026-11-03: Book Two Ch22 — the verifier split Gunnar's appended description
   in the middle of a word across two node review pages. Node review now prefers
   line boundaries within the same output budget. The Book Two workflow also
