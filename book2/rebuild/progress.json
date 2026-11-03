@@ -3,7 +3,8 @@
   "book": 2,
   "completedChapters": [
     1,
-    2
+    2,
+    3
   ],
   "chapters": [
     {
@@ -19,15 +20,22 @@
       "sourceHash": "0634b5823abe1aba19997fb97542024408c5282d00e825bf6c7c32631c3a1ad7",
       "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch2.vvf8R1",
       "log": "Chapter 2: Reprocessed the complete Elvar source into 24 node revisions, 45 links and a Spanish summary. Captured Agnar’s funeral and revenge vow, observed oath sanctions and pending rescue support, recovered equipment and uncertain bow magic, Skuld’s identification/enslavement and unverified deeper treasure. Confirmed Uspa alive and Vörn dead, retired both survival threads, and reviewed all 142 baseline/current clue candidates. Ownership, event and thread reviews pass. Preserved the user-authorized concurrent Drammur repair (two profiles and five links across chapters 12, 19 and 29) through a guarded audited reconciliation, leaving immutable references and the active context unchanged. Improved reference lookup guidance and reconciliation safeguards; all 53 tests in nine regression files pass. Skill structure/reference checks pass; quick_validate.py could not run because PyYAML is unavailable. Existing local-file browser access restriction leaves visual confirmation manual. All later live chapters retained."
+    },
+    {
+      "chapter": 3,
+      "source": "book2/chapter 3.html",
+      "sourceHash": "bd1423e817a0f0f6d605b92e82bae10dd5c90d135151bf1c543f5a5638b9b5a0",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch3.AH2vAT",
+      "log": "Chapter 3: Reprocessed the full Varg source into 25 node revisions, 60 links and a Spanish summary. Completed Mord’s burial and retired its active thread, extended Lif’s existing revenge goal to Mord, recorded Jökul’s renewed Torvik pledge, the council and seax comparison, Varg’s dreams, and testimony leading to the decision for Darl. Kept common manufacture, cult connections, Skalk’s destination and magical implications qualified. Ownership/event reviews and all 144 baseline/current clue assessments pass; 53 tests across nine required regression files pass. Browser visual confirmation remains manual under the documented local-file restriction. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "018cba5af75f5f2f2d23bed826cecc7c8f93e8a6bf5ba163603bf7bacb5d800b",
-    "book2/links.js": "baf2485aaf5252ab6340c50c6a002eceb3a75be191674c60971b69d17a5e7d4f",
-    "book2/summaries.js": "eadaa3fae6a36055be7513b64d6e29efee43ecc306ab9a917747a214087a120b"
+    "book2/nodes.js": "23864730f73ed8f7153025f7e034813245d35e7a40fcab3e94656e3f8ba8248d",
+    "book2/links.js": "e768119cbed58c7f22cbb180c2d5e339d0dc1655e5691a688cd9d9b91d2bd693",
+    "book2/summaries.js": "1e3f9737fdaa99d598d7adc1ed307aafe40d1f54d7c4fea9f73abed1852b261d"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -38,9 +46,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "df91b55a272897ae823d25160c0cefe8da8a1e9eb43e6efba7df8db17b1c4975",
-    "links": "e0eaff1bd26ec5181c2ed1b7912ea7bcb587c4f8f603c97d1786bd8de4597627",
-    "summaries": "8e153872d805fb8ba11c8102a55c2b3829ad20350d98a8a36354bfe02aa575e7"
+    "nodes": "569c470dfec5eee8fda8b1322d21e80ba01751fec23ba48da4f9374d221035f2",
+    "links": "c21c607882b6d3ef862ad0e10a6f609001ea0cb1310fe634f7f956b3aebb6f28",
+    "summaries": "959fbd8c34bbed76c944e94e0bc3cca02f47cc207c330128db0a4cfae6672443"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

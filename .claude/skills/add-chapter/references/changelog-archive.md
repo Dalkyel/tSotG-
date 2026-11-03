@@ -1,5 +1,12 @@
 # Changelog archive
 
+- 2026-11-02: Book Two reprocessing Ch3 — final review corrected an internal dream
+  recollection drafted as a spoken report, and goal planning reused Lif's existing
+  Guðvarr revenge thread for the oath over Mord rather than splitting one continuing
+  objective. Added concise narration/testimony and renewed-vow identity checks to
+  review-gates.md, retaining the separate Torvik vengeance goal. Fully absorbed in
+  the shared review rules; archived immediately.
+
 - 2026-11-02: Book Two reprocessing Ch1 — relationship checks retrieved unrelated
   endpoint history, while the source workflow's raw-grep shortcut named the live book
   file despite chronological-context isolation. Added parsed `read-links --between ID ID`

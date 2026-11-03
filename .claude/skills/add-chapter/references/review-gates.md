@@ -24,6 +24,10 @@ you will touch, including inherited text, not just the proposed append. Apply th
   lineage; Berak owns his transformation. Snakavik owns supported place facts and
   connections; Agnar owns his sale plan and Elvar her emotional reaction. Source
   attribution may name another character without transferring ownership of the fact.
+- Distinguish private narration from testimony. A POV's remembered dream, sensation
+  or inference is not something they told the group unless the chapter shows that
+  exchange. Preserve both the source and who knows it: use "recuerda/había soñado"
+  for internal recollection, reserving "cuenta/informa a" for spoken reports.
 - When a character recounts an event to another character, the authoritative account
   belongs on the EVENTO node for that event, not copied in full onto the narrator's and
   the listener's own entries too. Give the narrator's and listener's entries only their
@@ -251,6 +255,12 @@ to create a thread once or to pass the JavaScript verifier.
    cross-referenced to the question it supports; it need not become a duplicate plot node.
    Keep observations separate from theories, and do not invent a mystery or future answer
    for ordinary descriptive detail. Preserve all already-recorded clues for review.
+   A renewed vow or additional motive may extend an existing objective rather than
+   create another one. Compare the actor, target and pending outcome first; when
+   those continue the same goal, append the new source-marked commitment to that id
+   and update its label if needed. Keep genuinely separate goals separate: Lif's oath
+   for Mord extends his existing revenge against Guðvarr, while Jökul's promise to
+   avenge Torvik is distinct from Torvik's earlier promise to help avenge Frøya.
    Before composing node specs, draft the new chapter's questions and goals in
    `thread-review.md`: source evidence → existing/new id → current state → pending
    outcome. Include explicit requests, vows and agreed plans even when they occur in
