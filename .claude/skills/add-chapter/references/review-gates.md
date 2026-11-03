@@ -335,6 +335,10 @@ to create a thread once or to pass the JavaScript verifier.
    Partial answers stay partial. Disproving a theory does not automatically solve the
    underlying mystery. If later evidence genuinely overturns a closure, append an explicit
    reopening with its source and explanation; preserve the earlier reasoning.
+   When a demonstration tests only part of an earlier claim, name the observed result
+   and keep the untested parts pending. In Book Two Ch33, Skalk's two commands make
+   the implanted hyrndur move and stop. That establishes deliberate control. It
+   leaves autonomous detection of betrayal and safe extraction unverified.
    When a new POV hears a plan that differs from movement already observed in another
    POV, track what each source establishes before revising the thread. In Book Two
    Ch31, Myrk gives Orka a reported westward destination near Iskalt after Ch30 showed

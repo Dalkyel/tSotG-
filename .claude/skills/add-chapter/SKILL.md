@@ -13,19 +13,19 @@ description: >
 
 # Adding a chapter to the Bloodsworn mind map
 
-Start with the routing and section index, not a full-file dump:
+Read only the startup and routing sections first:
 
 ```sh
-sed -n '1,90p' .claude/skills/add-chapter/SKILL.md
-rg -n '^## ' .claude/skills/add-chapter/SKILL.md
+sed -n '1,/^## Input types/p' .claude/skills/add-chapter/SKILL.md
 ```
 
-Then follow the required source/entity and semantic-gate references below, reading them
-in bounded responses. Read baseline capture, node/link/summary format and verification
-in this file before editing.
-Read later-book and new-book sections only when those operations apply. Read other
-skills and mode-specific references in separate responses; a combined dump can truncate
-even when each file would fit alone. Retrieve any omitted content before proceeding.
+Resolve the mode and confirm the requested chapter and source path first. Then use
+`rg -n '^## ' .claude/skills/add-chapter/SKILL.md` to locate the applicable sections.
+Before editing, read the applicable baseline procedure, node/link/summary formats,
+verification, and the required source/entity and semantic-gate references. Read each
+reference slice in its own tool response. Separate shell calls batched into one
+response still share its output limit. Retrieve any omitted content before proceeding.
+Read later-book and new-book sections only when those operations apply.
 
 This project tracks characters, places, events, and lore across the Bloodsworn Saga
 trilogy in a D3 mind map (`index.html`). Normal sessions append to the current book's

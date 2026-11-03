@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch33 — the combined reference read truncated required
+  sections. The startup now selects the mode before reading reference slices in
+  separate responses. The thread gate distinguishes demonstrated control of the
+  hyrndur from the untested claims about surveillance and removal.
+
 - 2026-11-03: Book Two Ch32 — documented how to summarize a fable with borrowed
   names while linking readers to the intended profiles, and how to record a
   change to a pending commitment before its outcome occurs. Added a title

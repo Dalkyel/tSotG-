@@ -33,7 +33,8 @@
     29,
     30,
     31,
-    32
+    32,
+    33
   ],
   "chapters": [
     {
@@ -534,15 +535,33 @@
         }
       },
       "log": "Chapter 32: Varg. Reviewed the barrel reveal, revised terms for Hakon’s release at Liga, and Svik’s fable. Updated the two open threads and verified 191 checklist items, three semantic gates, chapter data and the regression suite. Visual preview left for manual confirmation."
+    },
+    {
+      "chapter": 33,
+      "source": "book2/chapter 33.html",
+      "sourceHash": "f428253f2608ffc1e0b3fa1dccf2a2250435d4c4e8211c01d0d0fafe6b7dda17",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch33.e6ToHV",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-33",
+        "hashes": {
+          "ownership-review.md": "44254d48d1e51989fea0a2cbc1476f202c39f7709fa1abd0113067820f51d261",
+          "event-review.md": "1348a8f163e451c757ef90688312de4e2a10c48cfe52e8357272cb8f00b332e2",
+          "thread-review.md": "22880c5c6b026e4f472683dbd9cc60ae32ad939b458afa1073c7c5348ba75e75",
+          "thread-checklist.json": "c009a05fa55b4d52a3e8ca3d7f33c79c1ef777e2bcfde6a0053b5ad1cf842334",
+          "completion.json": "2399fc4010a9803ec3ee9c7b03171f1a1ca938d058a1cdf725b172a8d5134a92",
+          "chapter.json": "70e487e17e5fee3917fb52f71696ed238015d9a570bb99f659c8c1f9b5b3dd4f"
+        }
+      },
+      "log": "Chapter 33: Reprocessed Guðvarr’s return to the tower, Skalk’s new staff and renewed Hakon assignment, the open cell, and the private audience with Sigrún. Reviewed fact ownership, event coverage and 192 clue candidates against the full source. Chapter verifier and pre-publication regression suite passed. Browser appearance requires manual confirmation."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "e42bc066472ac921281d793a29d46011f44485ed9dd056940b95a070dda0ec5e",
-    "book2/links.js": "c9dc67583ec041bfed6d8e2d4eaee0d9e862945dafa6438ca76f4e5a72100e17",
-    "book2/summaries.js": "b8a3ff8446238ae46a2819e2faae5d3b66cf3e352e21894b3a25d8cbf9fb7cf3"
+    "book2/nodes.js": "ebd4094020dacb20392da2adb1627984f8adb73651d9c8d8a402f7e100744367",
+    "book2/links.js": "14e2aaf97163c851e5278782c8585fe5f3648531d9d04901c6b03b244a99ef54",
+    "book2/summaries.js": "ae245f1235e8c63b22f903c5b8fee6d5887cc9dd8f92c77ae9ce3a086ad00064"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -553,9 +572,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "a63d84e5108059431cde793081aa346c1aa7b572db567ac70dcb5f2d32d2ceb5",
-    "links": "2ee2e93bd51c1274ce98d93fa77197751d06040ff11af959e83a8fdade3291f9",
-    "summaries": "8f9dd9a892dfd89d39e92079a06efe5c7f9b3dc64b0a7941d456a4c60ad73734"
+    "nodes": "6443aaf1b118857c43c51ca4522b424fc0321fc3f44a2e4605aab16f1f995f5a",
+    "links": "31d17aa5d7e001b98fe7fa7a20b0c55db10f6ffb9c07f71fabf5e7ad8a62de1b",
+    "summaries": "172be2534d0f0fb0750dc1c41de4c504ab69f3213f098a466a5f3ffc37e11460"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

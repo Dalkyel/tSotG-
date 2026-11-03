@@ -1,0 +1,362 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 33 — GUÐVARR ──",
+  "nodes": [
+    {
+      "id": "gudvarr",
+      "mode": "update",
+      "previousState": "Busca a su tía después de que Skalk vuelva a coaccionarlo.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: Le duelen el brazo y las marcas de las ataduras; sufre pesadillas y recuerdos intrusivos de Arild y los barriles. Tras recordatorio-skalk-gudvarr teme que Skalk lo mate cuando deje de serle útil. En vez de volver al desván con Vilja, muestra el brazalete de Helka para entrar en la fortaleza y pide hablar a solas con su tía; véase consulta-gudvarr-sigrun.",
+      "starAppend": "LIBRO 2, CAPÍTULO 33: La coacción rúnica es observable; la capacidad de detectar traiciones y la extracción siguen pendientes en vigilancia-hyrndur-gudvarr. Admite a su tía que tiene problemas, sin contarle aún la huida ni qué le ha hecho Skalk."
+    },
+    {
+      "id": "skalk",
+      "mode": "update",
+      "previousState": "Trabaja de nuevo en la torre y emplea un bastón nuevo.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: Guðvarr lo encuentra en una cámara alta de la torre, con heridas vendadas de los zarpazos del halcón y un ojo perdido. Ha terminado baston-froa-skalk y lo emplea para reafirmar su control y renovar el encargo; véase recordatorio-skalk-gudvarr."
+    },
+    {
+      "id": "yrsa",
+      "mode": "update",
+      "previousState": "Escolta a Guðvarr de nuevo a la torre.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: Lleva una herida con costra en la frente. Ayuda a Sturla a buscar a Guðvarr en la taberna y lo sostiene cuando flaquea ante Skalk; véase recordatorio-skalk-gudvarr."
+    },
+    {
+      "id": "sturla",
+      "mode": "update",
+      "previousState": "Regresa a la torre y conduce a Guðvarr ante Skalk.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: La aprendiz camina con cojera y tiene ampollas en una mano. Los guardias se inclinan ante ella al franquearle la entrada. Lleva a Guðvarr a la cámara alta, sirve cerveza a Skalk y reconoce el bastón terminado; véase recordatorio-skalk-gudvarr.",
+      "type": "Personaje — Aprendiz Galdur de Darl"
+    },
+    {
+      "id": "sigrun",
+      "mode": "update",
+      "previousState": "Recibe a su sobrino en privado en la fortaleza.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: Se encuentra en una casa larga de techo de césped próxima a las murallas de la fortaleza de Darl, con el seax sobre el regazo. Dice que lleva buscándolo desde antes de la huida de Jaromir; aparta a sus acompañantes cuando él pide hablar a solas. Véase consulta-gudvarr-sigrun."
+    },
+    {
+      "id": "torre-galdur-darl",
+      "mode": "update",
+      "previousState": "Guðvarr observa reparaciones y una cámara alta de Skalk.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: La empalizada muestra zonas carbonizadas, el portón está abierto y se hacen reparaciones en el patio y en la puerta hacia las celdas. Hay manchas oscuras y cadáveres apilados, incluidos caballos. Más arriba, una escalera de caracol conduce a la cámara circular de Skalk, con herramientas, pergaminos y barriles."
+    },
+    {
+      "id": "hyrndur",
+      "mode": "update",
+      "previousState": "Se observa el control rúnico de un ejemplar dentro de un huésped.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: En un caso observado, dos órdenes rúnicas acompañadas por un bastón hacen que el insecto implantado se mueva y vuelva a quedar inmóvil. Véanse recordatorio-skalk-gudvarr y vigilancia-hyrndur-gudvarr para la demostración y los límites de la evidencia."
+    },
+    {
+      "id": "retencion-testigos-darl",
+      "mode": "update",
+      "previousState": "La puerta de la celda está abierta en el regreso de Guðvarr.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: Guðvarr pasa por el corredor silencioso y ve abierta la celda donde habían retenido a Skapti, Hrolf y los demás. Imagina que pudieron ser asesinados como Arild, sin ver sus cuerpos ni enterarse de su destino. Véase destino-testigos-torre."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "mode": "update",
+      "previousState": "Se demuestra el mando sobre el insecto dentro del pecho.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: ESTADO: PARCIAL. recordatorio-skalk-gudvarr demuestra que Skalk puede provocar movimiento doloroso y hacerlo cesar. La sensación y el testimonio lo sitúan en el pecho, sin precisar su posición. Quedan pendientes la detección autónoma de traiciones, la extracción y la supervivencia de Guðvarr."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "mode": "update",
+      "previousState": "Skalk indica cómo aprovechar el gesto de la capa y la taberna.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: ESTADO: PARCIAL. En recordatorio-skalk-gudvarr, Skalk le encarga aprovechar el favor de la capa y buscar el trato de Hakon en El Drengr Muerto cuando regrese. Guðvarr acepta. No hay nuevo contacto ni hallazgos de la pesquisa."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "mode": "update",
+      "previousState": "Skalk informa de visitas recurrentes de Hakon a la taberna fuera de horario.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: ESTADO: PARCIAL. En recordatorio-skalk-gudvarr, Skalk atribuye a Orka la noticia del encuentro con Drekr y dice haber averiguado que Hakon frecuentaba la taberna de noche o antes de abrir. La pauta es un indicio atribuido. Siguen pendientes el propósito de las visitas, el alcance del plan y qué sabe o autoriza Helka."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "mode": "update",
+      "previousState": "El lector vuelve a localizar a Skalk y ve terminado el nuevo bastón.",
+      "descAppend": "LIBRO 2, CAPÍTULO 33: ESTADO: PARCIAL. recordatorio-skalk-gudvarr sitúa a Skalk de nuevo en la torre y confirma que terminó baston-froa-skalk. Es evidencia disponible para el lector. No se muestra un cambio de collar ni se localiza o libera a Vol."
+    },
+    {
+      "id": "vilja",
+      "mode": "new",
+      "label": "Vilja",
+      "group": "ORKA",
+      "type": "Personaje — Trabajadora sexual",
+      "desc": "LIBRO 2, CAPÍTULO 33: Pelirroja. Está con Guðvarr en el desván de El Drengr Muerto cuando Yrsa y Sturla los interrumpen para llevarlo ante Skalk.",
+      "star": ""
+    },
+    {
+      "id": "jarn",
+      "mode": "new",
+      "label": "Járn",
+      "group": "ORKA",
+      "type": "Personaje — Drengr",
+      "desc": "LIBRO 2, CAPÍTULO 33: Joven lancero de barba rala que guarda la casa larga de Jarl Sigrún en la fortaleza de Darl. Confirma que la jarl está allí, lleva tiempo preguntando por Guðvarr y está disgustada.",
+      "star": ""
+    },
+    {
+      "id": "baston-froa-skalk",
+      "mode": "new",
+      "label": "El Nuevo Bastón de Skalk",
+      "group": "OBJETO",
+      "type": "Objeto — Bastón Galdur",
+      "desc": "LIBRO 2, CAPÍTULO 33: Bastón de fresno gris con una cabeza engrosada que conserva un rizo y rasgos de ojos, nariz y boca. Guðvarr reconoce en ellos los restos del espíritu de fresno abatido por los aprendices de Sturla. La veta se ilumina al tacto de Skalk y los ojos brillan en verde al conjurar. Su primer uso observado se recoge en recordatorio-skalk-gudvarr.",
+      "star": ""
+    },
+    {
+      "id": "recordatorio-skalk-gudvarr",
+      "mode": "new",
+      "label": "El Recordatorio de Skalk",
+      "group": "EVENTO",
+      "type": "Evento — Coacción y encargo",
+      "desc": "LIBRO 2, CAPÍTULO 33: Menos de dos días después de zarpar los Bloodsworn, Yrsa y Sturla sacan a Guðvarr del desván de El Drengr Muerto y lo escoltan ante Skalk. En su cámara de la torre, Skalk muestra el bastón recién terminado y afirma que con él cambiaría el resultado de otro enfrentamiento con quienes lo vencieron. Ante la sonrisa de Guðvarr, le apunta con el bastón y ordena moverse al hyrndur dentro de su cuerpo. Guðvarr siente dolor agudo en el pecho y pierde el aliento; Yrsa lo sostiene. Skalk ordena dormir al insecto y cesa el movimiento. Amenaza con un castigo peor si lo desobedece. Le manda que, cuando regrese Hakon, aproveche la gratitud del príncipe por haberlo cubierto con la capa. Dice que Orka le contó que Hakon se reunió con Drekr en la taberna, y que sus propias pesquisas indican muchas visitas nocturnas o antes de abrir. Sugiere aprovechar las visitas habituales de Guðvarr para acercarse al príncipe. Guðvarr acepta y sale tembloroso.",
+      "star": ""
+    },
+    {
+      "id": "consulta-gudvarr-sigrun",
+      "mode": "new",
+      "label": "La Petición de Audiencia Privada a Sigrún",
+      "group": "EVENTO",
+      "type": "Evento — Confidencia iniciada",
+      "desc": "LIBRO 2, CAPÍTULO 33: Guðvarr cambia de rumbo tras salir de la torre y entra en la fortaleza al mostrar el brazalete real. Járn lo encamina a la casa larga de su tía. Sigrún le reprocha que la evite; él recuerda en privado que primero temía hablar de su huida ante Orka en el Grimholt y después quiso evitarlo todo. Pide privacidad, la jarl despide a los presentes y él admite que se ha metido en problemas. El capítulo termina antes de explicar el problema o recibir una respuesta.",
+      "star": ""
+    },
+    {
+      "id": "destino-testigos-torre",
+      "mode": "new",
+      "label": "¿Dónde Están los Testigos Presos de la Torre?",
+      "group": "TRAMA",
+      "type": "Trama — Paradero pendiente",
+      "desc": "LIBRO 2, CAPÍTULO 33: ESTADO: ABIERTA. En retencion-testigos-darl, Guðvarr vuelve a pasar por la celda de Skapti y Hrolf y encuentra abierta su puerta. Teme que hayan acabado como Arild. Se ignora qué pasó con esos presos y dónde están. La conjetura de Guðvarr no confirma su muerte.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "consulta-gudvarr-sigrun",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "destino-testigos-torre",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "consulta-gudvarr-sigrun",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "destino-testigos-torre",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "vilja",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "jarn",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-magia",
+      "target": "baston-froa-skalk",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "recordatorio-skalk-gudvarr",
+      "target": "torre-galdur-darl",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "recordatorio-skalk-gudvarr",
+      "target": "dead-drengr",
+      "label": "comienza en",
+      "type": "geo"
+    },
+    {
+      "source": "skalk",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "da a Guðvarr",
+      "type": "event"
+    },
+    {
+      "source": "gudvarr",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "sufre la coacción de",
+      "type": "event"
+    },
+    {
+      "source": "yrsa",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "escolta y sostiene a Guðvarr durante",
+      "type": "event"
+    },
+    {
+      "source": "sturla",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "conduce a Guðvarr ante Skalk para",
+      "type": "event"
+    },
+    {
+      "source": "vilja",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "está con Guðvarr antes de",
+      "type": "event"
+    },
+    {
+      "source": "vilja",
+      "target": "dead-drengr",
+      "label": "acompaña a Guðvarr en el desván de",
+      "type": "geo"
+    },
+    {
+      "source": "recordatorio-skalk-gudvarr",
+      "target": "hyrndur",
+      "label": "incluye una orden rúnica dirigida al",
+      "type": "magic"
+    },
+    {
+      "source": "recordatorio-skalk-gudvarr",
+      "target": "baston-froa-skalk",
+      "label": "demuestra el uso de",
+      "type": "magic"
+    },
+    {
+      "source": "skalk",
+      "target": "baston-froa-skalk",
+      "label": "termina de tallar",
+      "type": "magic"
+    },
+    {
+      "source": "baston-froa-skalk",
+      "target": "froa-especie",
+      "label": "se talla con los restos de un",
+      "type": "magic"
+    },
+    {
+      "source": "baston-froa-skalk",
+      "target": "regreso-sturla-froa",
+      "label": "aprovecha el cuerpo traído en",
+      "type": "magic"
+    },
+    {
+      "source": "recordatorio-skalk-gudvarr",
+      "target": "capa-hakon-gudvarr",
+      "label": "retoma como ventaja la",
+      "type": "event"
+    },
+    {
+      "source": "recordatorio-skalk-gudvarr",
+      "target": "encargo-gudvarr-darl",
+      "label": "renueva",
+      "type": "trama"
+    },
+    {
+      "source": "recordatorio-skalk-gudvarr",
+      "target": "vigilancia-hyrndur-gudvarr",
+      "label": "demuestra parte de",
+      "type": "trama"
+    },
+    {
+      "source": "recordatorio-skalk-gudvarr",
+      "target": "hakon-operacion-oculta",
+      "label": "aporta un indicio para",
+      "type": "trama"
+    },
+    {
+      "source": "huida-skalk-vol",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "incorpora como pista sobre Skalk",
+      "type": "trama"
+    },
+    {
+      "source": "gudvarr",
+      "target": "consulta-gudvarr-sigrun",
+      "label": "hace",
+      "type": "event"
+    },
+    {
+      "source": "sigrun",
+      "target": "consulta-gudvarr-sigrun",
+      "label": "accede a",
+      "type": "event"
+    },
+    {
+      "source": "jarn",
+      "target": "consulta-gudvarr-sigrun",
+      "label": "orienta a Guðvarr antes de",
+      "type": "event"
+    },
+    {
+      "source": "jarn",
+      "target": "sigrun",
+      "label": "monta guardia ante la casa de",
+      "type": "rel"
+    },
+    {
+      "source": "consulta-gudvarr-sigrun",
+      "target": "darl",
+      "label": "ocurre en la fortaleza de",
+      "type": "geo"
+    },
+    {
+      "source": "consulta-gudvarr-sigrun",
+      "target": "recordatorio-skalk-gudvarr",
+      "label": "sigue a",
+      "type": "event"
+    },
+    {
+      "source": "consulta-gudvarr-sigrun",
+      "target": "vigilancia-hyrndur-gudvarr",
+      "label": "responde a la coacción de",
+      "type": "trama"
+    },
+    {
+      "source": "destino-testigos-torre",
+      "target": "retencion-testigos-darl",
+      "label": "surge de",
+      "type": "trama"
+    },
+    {
+      "source": "destino-testigos-torre",
+      "target": "skapti",
+      "label": "concierne a",
+      "type": "trama"
+    },
+    {
+      "source": "destino-testigos-torre",
+      "target": "hrolf",
+      "label": "concierne a",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 33,
+    "title": "Capítulo 33 — Guðvarr",
+    "summary": "<strong>Yrsa</strong> y <strong>Sturla</strong> encuentran a <strong>Guðvarr</strong> con <strong>Vilja</strong> en el desván de <strong>El Drengr Muerto</strong> y lo llevan a la <strong>Torre Galdur de Darl</strong>. Menos de dos días después de la partida de los <strong>Bloodsworn</strong>, el patio está en reparaciones y hay cadáveres apilados. Guðvarr ve abierta la celda donde estaban <strong>Skapti</strong> y <strong>Hrolf</strong>. La imagen de <strong>Arild</strong> muerta lo lleva a temer lo peor para los presos.<br><br><strong>Skalk</strong>, herido y tuerto, ha terminado <strong>El Nuevo Bastón de Skalk</strong>. Guðvarr reconoce en su madera los rasgos del espíritu abatido por los aprendices. Cuando se le escapa una sonrisa al recordar la caída de Skalk, el Galdurman apunta con el bastón y ordena al <strong>Hyrndur</strong> que se mueva dentro de su pecho. Guðvarr pierde el aliento y Yrsa lo sostiene. El movimiento cesa tras una segunda orden y el dolor va menguando. Skalk le advierte que eso es solo una muestra del castigo que puede infligirle.<br><br>Skalk le manda sacar partido del favor de la capa cuando vuelva <strong>Hakon</strong>. Dice que <strong>Orka</strong> le habló de la reunión del príncipe con <strong>Drekr</strong> y que sus pesquisas sitúan a Hakon repetidas veces en la taberna fuera del horario de apertura. Guðvarr acepta el encargo, pero teme que Skalk lo mate cuando ya no lo necesite.<br><br>En vez de volver con Vilja, muestra el brazalete que le dio la <strong>Reina Helka</strong> para entrar en la fortaleza. <strong>Járn</strong> le indica que su tía lo espera. <strong>Jarl Sigrún</strong> le reprocha que la haya evitado desde antes de la huida de Jaromir. Cuando ella despide a los presentes, Guðvarr reúne el valor para admitir que se ha metido en problemas."
+  }
+}
