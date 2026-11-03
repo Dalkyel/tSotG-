@@ -118,7 +118,12 @@ test('profiles preserve complete source descriptions and all source snapshots', 
   const original = JSON.stringify(revisions);
   const { profiles } = view(2);
   const elvar = profiles.find(p => p.node.id === 'elvar');
-  assert.ok(elvar.node.desc.length > 29000);
+  assert.equal(elvar.node.desc, revisions.filter(n => n.id === 'elvar').at(-1).desc);
+  const longNode = { ...elvar.node, desc: 'Historia completa sin recortes. '.repeat(1200) };
+  const longProfile = core.profile(longNode, [longNode], {});
+  assert.equal(longProfile.node.desc, longNode.desc);
+  assert.equal(longProfile.revisions[0].desc, longNode.desc);
+  assert.ok(longProfile.intro.length < 400);
   assert.ok(elvar.intro.length < 400);
   assert.equal(elvar.revisions.length, revisions.filter(n => n.id === 'elvar').length);
   assert.equal(JSON.stringify(revisions), original);

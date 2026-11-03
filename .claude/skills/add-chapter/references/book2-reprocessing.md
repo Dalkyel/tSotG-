@@ -134,6 +134,10 @@ before changing data. Correct an obsolete assertion to check preservation of the
 reviewed chapter's links and its supported canonical endpoints; never restore an
 unsupported identity just to satisfy the old expectation. Keep all syntax, endpoint,
 history-preservation and unreviewed-record checks intact.
+Likewise, a minimum live-description length is not a preservation guarantee: reviewed
+ownership changes can legitimately shorten prose. Compare the profile with its exact
+latest source description and use a deliberately long fixture to test that long text
+and revision snapshots remain complete, rather than preserving a stale word-count floor.
 
 Prepare `RUN/completion.json` with the exact source recorded by prepare and one log
 paragraph describing changes, reviews, tests and any visual limitation:

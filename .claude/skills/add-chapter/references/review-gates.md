@@ -295,6 +295,16 @@ to create a thread once or to pass the JavaScript verifier.
    Partial answers stay partial. Disproving a theory does not automatically solve the
    underlying mystery. If later evidence genuinely overturns a closure, append an explicit
    reopening with its source and explanation; preserve the earlier reasoning.
+   If a completed objective receives a new explicit commitment with the same actor,
+   target and outcome, reuse its id and distinguish the completed scope from the newly
+   pending scope. Inspect its category history with `read-links --between` before
+   restoring discovery. `data-core.js` suppresses every link whose exact
+   source/target/label key has a broken marker, regardless of array order: appending the
+   old link again cannot reactivate it. Add a source-supported category edge with a
+   distinct meaningful label, retain the old marker, and check the merged graph for
+   the new active edge. Book Two Ch7 uses `retoma la formación de Lif` for
+   `cat-tramas → aprendizaje-mord-lif`, whose original `incluye` edge was retired
+   after the Book One teaching agreement was fulfilled.
 6. **Make closure visible while preserving history.** Append a new revision with the
    closure marker and answer, update a stale pending label/type when needed, and connect
    it to the resolving event/entity. Retain earlier clues, questions and theories as

@@ -1,5 +1,16 @@
 # Changelog archive
 
+- 2026-11-03: Book Two reprocessing Ch7 — Lif renews a previously completed
+  training goal. Confirmed that `data-core.js` permanently suppresses an exact
+  source/target/label key once broken, so re-adding `incluye` would leave the thread
+  undiscoverable. Documented scope-preserving reopening, pair-history inspection,
+  a distinct meaningful category label and merged-graph verification in
+  `review-gates.md`. The existing broken marker remains historical. Also replaced
+  a failing legacy Elvar `desc.length > 29000` assertion with exact latest-source
+  preservation and a deliberately long fixture; documented this regression repair
+  in `book2-reprocessing.md`. All 53 required tests pass. Fully absorbed into the
+  workflow references and test; archived immediately.
+
 - 2026-11-03: Book Two reprocessing Ch6 — source pagination split “continued”
   across pages, making the boundary harder to read. `read-chapter.py` now prefers
   a paragraph boundary in the latter half of each bounded page, then whitespace,

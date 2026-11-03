@@ -7,7 +7,8 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "chapters": [
     {
@@ -51,15 +52,22 @@
       "sourceHash": "c6a2252a63e0fb95fda2db7249a7a4ebe041a68c7ad32ddafeff24599317ad1c",
       "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch6.19cHoB",
       "log": "Chapter 6: Reprocessed the complete Elvar source into 19 node additions/revisions, 46 links and a Spanish summary. Captured the chamber battle, uncounted casualties, Uspa’s light and Skuld’s punishment without endorsing the trap accusation. Recorded recovery and attributed identification of the black Galdrabók, the resurrection/collar proposal, objections and conditional agreement, and separate pending goals to revive/control Ulfrir and attempt Berak’s freedom. Preserved uncertainty about magical capabilities, collective assent, rescue and execution. Ownership/event reviews and all 152 baseline/current clue assessments pass. All 53 tests across nine required regression files pass. Browser visual confirmation remains manual under the existing documented local-file restriction. All later live chapters retained."
+    },
+    {
+      "chapter": 7,
+      "source": "book2/chapter 7.html",
+      "sourceHash": "79f36d8a3999d34d660ae3fbc1df3378689ebb218717baa65837e7a975ab8e5b",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch7.uyHoLI",
+      "log": "Chapter 7: Reprocessed the complete Orka source into 16 node additions/revisions, 40 links and a Spanish summary. Confirmed her old chiefship and Ulfrir ancestry while preserving contradictory Skullsplitter testimony; captured the refused return, Lif’s renewed training choice and reserved revenge, children’s protected departure, and the two routes toward Darl and the western mine/Sea-Wolf. Kept arrivals, rescue, teaching readiness and vengeance pending. Reopened the existing training thread with a distinct active category-link key while retaining its old broken marker. Ownership/event reviews and all 152 baseline/current clue assessments pass. All 53 tests across nine required regression files pass after replacing an obsolete Elvar prose-length threshold with exact source preservation and a deliberate long-description fixture. Visual confirmation was not performed under the documented local-file browser restriction; remains manual. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "f9c89270039caf007337f585be43599ddb3b1c8bc5ef5f54f822755321ff2de2",
-    "book2/links.js": "dd171756592bcc0b069229c13415d6b6eb425ba58900e0ba014a082972fdeafc",
-    "book2/summaries.js": "6078d2bbee29e3cb34c4054d3c378955c744d465ed52f62dfdf8a55fcd6cf894"
+    "book2/nodes.js": "63677d84bb4eeee639580bcd055d656c97492d58fd9bef8c4f186197814d9cbe",
+    "book2/links.js": "a8349089c7975f1d9202618ab74dc2e8f978458c8450b1754da178108b43d240",
+    "book2/summaries.js": "e6bd4c7cf58d63990c005786ee42d26dffcb68d63a4ea3bed04584a19bfa7a5b"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -70,9 +78,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "88cd43ccaccca5fb66cf64a2f49c9f67491bc94aa2b7ada122ee04c326803238",
-    "links": "8a8e8f8503be8f3bdae609b30c7871cb0bc9e8a1b2be4a701153001450881fcf",
-    "summaries": "9b766c20124def4dc6a07436babdfeaaf9aea69434be6be49c3876c8bf189090"
+    "nodes": "04a9c42ee1b0b5b7732a30ba71deb2e0487369cb2b434eaa259adc1f6e07ffd2",
+    "links": "005facc4bcbb0c3e7f2b9e43d0d74c1aa73e074537d9040d84bfd404570da1ee",
+    "summaries": "ff47226850224c0bcc5b58ce94a1b5466497ee27fe834d9a3e102b78beededbd"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {
