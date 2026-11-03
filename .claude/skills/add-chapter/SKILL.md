@@ -38,6 +38,13 @@ source inspection; this is not a display restriction.
 
 Check the relevant progress file before preflight or inventory reads:
 
+For initialized Book Two reprocessing, use
+`node .claude/skills/add-chapter/scripts/reprocess.cjs status` instead of dumping
+`progress.json`. It reports the mode, next chapter and existing run/baseline paths
+without historical logs, evidence hashes or chapter prose. Resume a reported active
+run rather than preparing it again; this status is routing information, not source
+or semantic validation.
+
 - **Book One:** `book1/rebuild/progress.json` with `status: "promoted"` means the
   complete rebuild is already live. Use live files for explicitly requested repairs;
   do not resume the archived staged rebuild or infer a chapter 54. For an incomplete

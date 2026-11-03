@@ -146,6 +146,20 @@ function main(argv, root = path.resolve(__dirname, '../../../..')) {
   assert.deepEqual(A.hashes(root), state.liveHashes, 'Live archive changed outside reprocessing; reconcile explicitly before continuing');
   effectiveReference(stateRoot, state);
   const next = state.completedChapters.length + 1;
+  if (command === 'status') {
+    assert.equal(args.length, 0, 'Usage: reprocess.cjs status');
+    console.log(JSON.stringify({
+      status: state.status,
+      completedCount: state.completedChapters.length,
+      nextChapter: state.status === 'complete' ? null : next,
+      visibleChapters: A.loadBook(root, 2).summaries.length,
+      active: state.active ? {
+        chapter: state.active.chapter, source: state.active.source,
+        run: state.active.run, baseline: state.active.baseline,
+      } : null,
+    }, null, 2));
+    return;
+  }
   if (command === 'check-chapter') {
     assert.equal(args.length, 1); assert.equal(Number(args[0]), next, 'Reprocess chapters consecutively; inspect completed work rather than duplicating it');
     console.log(`Book Two: ${next - 1} reprocessed chapters; next: ${next}; all ${A.loadBook(root, 2).summaries.length} live chapters visible.`); return;

@@ -11,7 +11,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ],
   "chapters": [
     {
@@ -116,15 +117,33 @@
         }
       },
       "log": "Chapter 10: Reprocessed the complete Orka source into 12 node additions/revisions, 33 links and a Spanish summary. Captured the night-hag attack, Seiðr formula, Lif’s rescue and failed watch, Ingmar’s named guard duty and the confrontation over the Bloodsworn secret. Recorded Orka’s unidentified private dream and explicit protection commitment as open threads; attributed Thorkel’s Berserkir identification and retained unresolved blood-test questions. Kept unspoken motives private, later identities excluded and arrivals/vengeance/rescue pending. Ownership/event reviews and all 155 baseline/current clue assessments pass. All 54 tests across nine required regression files pass. Visual confirmation was not performed under the existing documented local-file browser restriction; remains manual. All later live chapters retained."
+    },
+    {
+      "chapter": 11,
+      "source": "book2/chapter 11.html",
+      "sourceHash": "6dcf11de12dfd4597cf06f888a59f55aff3de732a9377af3e218c91445e2ba42",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch11.PEPhB4",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-11",
+        "hashes": {
+          "ownership-review.md": "d1843b369f7b03e7f4823449c4a18d4d0fa9608801b4bffba9050f7acb0ba7d1",
+          "event-review.md": "0cf403dda760bc67043ab45aaf0ec7b2cb8f06e87a2e387fd65e155234376be3",
+          "thread-review.md": "5b8a6e78a4c8480973bcaf2b12f4afcf86665306b883ba80ec2ef6022c2788e2",
+          "thread-checklist.json": "4481c306c6809abf4144e1e7103f5336caeec55bbe8a6055ab531c130406bf76",
+          "completion.json": "306296245769f76a7fe1e28a540ddacb5f24c4ef414c7eb35f097cd599f7a11a",
+          "chapter.json": "053b6999f1db408b416ef197d31e481a9bf2600bbd96c24f0778e06f7515d787"
+        }
+      },
+      "log": "Chapter 11: Reprocessed the complete Varg source into 11 node additions/revisions, 18 links and a Spanish summary. Captured the connected weapons/helmet lesson, Røkia’s reversible partial transformation and Varg’s explicit but unfulfilled control-learning request; retained the unnamed amber-eyed dream caller as a private open question with a qualified Orka parallel. Recorded scout succession and the ongoing three-day pursuit without arrival or rescue. Ownership/event reviews and all 156 baseline/current clue assessments pass. All 54 tests across nine required regression files pass. Visual confirmation was not performed under the existing documented local-file browser restriction; remains manual. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "b5c3cbe09dcfe2d6d6d81027c2f5bee2f9fd3e74ca6d987b49c808647e97062a",
-    "book2/links.js": "d6b8645ed709d27d21cd6f59c9ed6d7fee737c283ca9bb574ae1b654097bfcf1",
-    "book2/summaries.js": "8f0f03128d9431b052a2e3d44d2d84d50ff75d0aaa4f1e036f60144285952e15"
+    "book2/nodes.js": "9c13a1c3c449d5d7d41c3025ddb21558670ee35c1515d1a38655baf48d325765",
+    "book2/links.js": "42f3a90372ce8c5ff83e2d3267f3c383bad24a87abed22b2dd6b74d354099116",
+    "book2/summaries.js": "4c48b00b8e23e05a9bbdaac4a7b3afdd7cc0e7beea7a3b8793bee1ddd39c9294"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -135,9 +154,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "25ac9bacd5756db1b540a948d9420f44b8b98e36d2b86aee1345ecce2928208d",
-    "links": "497f0da4b4006f37cb9705f224c7b14f81613b5c14e566ad2ed3890f8d885b8f",
-    "summaries": "de21f17e1a7708bb147456085c4d1d8bb635d1194c9c12d6940695939f5ad532"
+    "nodes": "4fce935ebbc1f7df5b629f123b7eee473a58d0a11238366d5d93d044f7601348",
+    "links": "f901c6bf2f1f94e79308d4b359143207c7fbed5ac144adbef888901666be0699",
+    "summaries": "ab7b05b089ee18098b7393546941d952b915597e1451dff94d32a0f466383c4a"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

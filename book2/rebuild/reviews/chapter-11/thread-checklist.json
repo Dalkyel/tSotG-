@@ -1,0 +1,1581 @@
+{
+  "book": 2,
+  "chapter": 11,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch11.PEPhB4/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 11: El paralelo con el sueño privado de Varg se persiste en llamada-lobo-orka; no equivale a información recibida por Orka. No resuelve su pasado, cofre, títulos o motivación histórica de abandono.",
+      "remaining": "Emisor y causa de la llamada; relatos históricos aún incompletos."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Thorkel (†). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Qué detectó Vafri y consecuencias; detalles de la transformación no presenciados. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Qué detectó Vafri y consecuencias; detalles de la transformación no presenciados."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Breca. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Localización, salud y recuperación de Breca; conservar las observaciones de compasión. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Localización, salud y recuperación de Breca; conservar las observaciones de compasión."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Asgrim (†). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Autoría del ataque y destino de Harek. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Autoría del ataque y destino de Harek."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Idrun (†). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Responsables del ataque familiar. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Responsables del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Harek. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Paradero y supervivencia de Harek. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Paradero y supervivencia de Harek."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 11: La geografía montañosa no añade un relato sobre el cuerpo divino.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 11: No se discute la guerra de los dioses ni la observación de Orka sobre la paz.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Los niños del carro no reciben nombres ni se vinculan al ataque familiar.",
+      "remaining": "Autores del ataque y paradero de Harek."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: El hombre soñado y la demostración de Røkia no identifican al animal herido que encontró Breca.",
+      "remaining": "Causa de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 11: El nuevo sueño se persiste en sueno-lobo-varg; la petición y el ejemplo quedan en pasado-varg. Las lagunas de Snepil/Kolskegg conservan su atribución al linaje, sin nueva identidad; bolsa resuelta en su propia trama. Las percepciones de viga, llama, espada, Orka y alas/ceniza no reciben mecanismo; ingreso aceptado no equivale a juramento. La lección no demuestra dominio de Varg.",
+      "remaining": "Padres, edad, sensibilidad y vínculo con Frøya; llamada y control; juramento, akáll y venganzas pendientes."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No hay nuevo recuerdo de la granja ni aclaración de la equivalencia Snepil/Kolskegg o del liberto estrangulado.",
+      "remaining": "Identidades históricas que el texto no equipara expresamente."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: El duelo ganado en Libro 1 y la cojera atribuida a Svik conservan su cierre; dormir junto al carro no identifica una ascendencia de trol.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La petición final es aprender a controlar el lobo, no una invocación a Frøya; Vol no está presente.",
+      "remaining": "Invocación, esclarecimiento del asesinato, cuerpo y venganza de Frøya."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: La bolsa no se abre aquí; su contenido y finalidad ya se resolvieron en Libro 1 Ch39, sin contradicción.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 11: Se añade petición explícita y ejemplo de control en leccion-control-lobo; el sueño tiene su pregunta propia. No se identifican padres, edad, mecanismo del vínculo con Frøya ni sensibilidad a magia; linaje general ya revelado.",
+      "remaining": "Control propio demostrado y restantes orígenes, edad y mecanismos."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Virk (†). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Venganza y seguridad de Lif siguen en venganza-virk. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Venganza y seguridad de Lif siguen en venganza-virk."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Guðvarr. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Consecuencias de sus actos y venganza pendiente. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Consecuencias de sus actos y venganza pendiente."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: El campamento de Glornir no contiene noticias del hird esclavizado, la respuesta al reencuentro con Elvar ni el plan de Silrið.",
+      "remaining": "Reacción y proyecto político de Störr."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: El estremecimiento percibido por Varg ante Røkia no explica la reacción de Orka junto al nudillo de Fellur.",
+      "remaining": "Mecanismo de la sensibilidad a esa reliquia."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No hay conquista, juramento de Fellur ni decisión política nueva de Helka.",
+      "remaining": "Consecuencias de la expansión y subordinación de Fellur."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Los niños duermen protegidos en el carro; esto mantiene la marcha documentada en Ch7, sin nombres, llegada, destino permanente ni identificación con los desaparecidos. Nada nuevo sobre autores, propósito común o grupos de Oskutreð.",
+      "remaining": "Harek, Breca y otros desaparecidos; destinos, responsabilidades y alcance común de los raptos."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La llamada no identifica a Frøya ni explica el vínculo que Varg le atribuyó por compartir naturaleza Tainted; tampoco identifica al asesino.",
+      "remaining": "Asesino, vínculo sensible y venganza."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La práctica de lanza no supone aparición de Leif ni nueva reclamación de propiedad.",
+      "remaining": "Consecuencias de la reclamación de Leif frente a la libertad de Varg."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Elvar. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Control del dios, victoria, rescates y pistas antiguas aún abiertas en sus hilos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Control del dios, victoria, rescates y pistas antiguas aún abiertas en sus hilos."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Grend. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Origen de su reacción, palabras y circunstancias del juramento antiguo e historia con Gytha. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Origen de su reacción, palabras y circunstancias del juramento antiguo e historia con Gytha."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Agnar (†). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Causa de los presentimientos y represalia pendiente. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Causa de los presentimientos y represalia pendiente."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Kráka. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Biórr. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Autor/fecha/motivo de los azotes, familia y posible represalia; consecuencias de su traición. Hombre de colmillos/seaxes observado sin identificar. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Autor/fecha/motivo de los azotes, familia y posible represalia; consecuencias de su traición. Hombre de colmillos/seaxes observado sin identificar."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Berak Bjornasson. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Su libertad continúa aparte en liberar-berak. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Su libertad continúa aparte en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: El entrenamiento actual no modifica la captura ya consumada ni sus bajas documentadas en Libro 1 Ch7.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Spert. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Mecanismo del conocimiento registrado en percepcion-liberacion-lik-rifa. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Mecanismo del conocimiento registrado en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Vesli. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Explicación de su percepción y alcance de testimonios previos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Explicación de su percepción y alcance de testimonios previos."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Objeto Quemado de Iskalt: Graskinna. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 11: No se visita el puerto ni se informa sobre sus tributos y controles.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Pasado de Elvar. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Venta de Berak (pendiente). La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No se nombra al hombre del sueño como Ulfrir; ojos ámbar y lobos no prueban contacto, control del collar o recuperación del dios.",
+      "remaining": "Control y recuperación tras resucitar; eficacia frente a Lik-Rifa."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Pasado y Furia de Orka. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Esas preguntas históricas continúan; llamada-lobo-orka conserva la pista nueva. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Esas preguntas históricas continúan; llamada-lobo-orka conserva la pista nueva."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: No aparece ni se modifica el abandono de su promesa de pruebas para recurrir a violencia.",
+      "remaining": "La reclamación pendiente continúa en sulich-crisis."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No se habla de cargos o pasado de Sulich durante la instrucción.",
+      "remaining": "Hechos imputados y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La persecución de Skalk no produce pruebas sobre el asesinato que este atribuye a Sulich, juicio, entrega o absolución.",
+      "remaining": "Cargos concretos, pruebas, culpabilidad y resolución."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: El entrenamiento y la petición de instrucción no contienen palabras de juramento; no se altera la admisión simbólica ya aceptada.",
+      "remaining": "Juramento formal de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Uspa. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Control efectivo y ambos rescates; alcance de su magia. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Control efectivo y ambos rescates; alcance de su magia."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La transformación parcial no da información sobre la roca superviviente o su relación con gusanos.",
+      "remaining": "Relación causal planteada en piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No aparece roca activada ni concentración de gusanos; el ejemplo del lobo no comprueba aquella hipótesis.",
+      "remaining": "Causalidad entre roca y gusanos."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: El yelmo y la malla recuerdan al dragon-born ya muerto y reconocido en Libro 1; no reabren su existencia contemporánea ni aclaran Thorkel.",
+      "remaining": "none"
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Froa (†). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Autoría y motivo del ataque. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Autoría y motivo del ataque."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Partida Familiar Truncada. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a La Sangre Lamida por la Esclava. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Prueba de sangre y sus consecuencias. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Prueba de sangre y sus consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Quién Mató a Froa?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Responsables, motivo y relación causal con los raptos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Responsables, motivo y relación causal con los raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Vengar a Virk y Mord. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Venganza por Virk y Mord; supervivencia futura de Lif. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Venganza por Virk y Mord; supervivencia futura de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Breca Quiere Aprender Espada. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Si recibirá la enseñanza solicitada. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Si recibirá la enseñanza solicitada."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: Que sigan en marcha por las montañas no cambia la salida de Liga consumada en Libro 1 Ch20.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Varg siente la transformación de Røkia, pero el capítulo no explica causalmente su presión ante el cuerno de Vackna.",
+      "remaining": "Mecanismo de aquella percepción."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: Los preparativos actuales no son la partida de Liga, ya cumplida en Libro 1 Ch20.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Drekr. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Garras, cautivos, propósito y venganza. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Garras, cautivos, propósito y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Recuperar a Breca. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Paradero, salud y recuperación. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Paradero, salud y recuperación."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Se utiliza una lanza sin noticia nueva de la muerte de Aslog ni sus circunstancias.",
+      "remaining": "Momento y causa de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La referencia a Orka Skullsplitter no explica ni reconcilia el testimonio de muerte naval, parentesco y sucesión del antiguo jefe.",
+      "remaining": "Reconciliación de testimonios históricos sobre Skullsplitter."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: El mal ajuste del yelmo es un nuevo fallo de equipo, sin modificación de la emboscada ni de las promesas incumplidas de Jaromir.",
+      "remaining": "La crisis de Sulich permanece en su propia trama."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No se explica el propósito de Helka frente a Logur/Jaromir ni su conversación privada; la misión contratada ya estaba aclarada.",
+      "remaining": "Motivos de Helka relativos a Logur y crisis por Sulich."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Drekr, los Seaxes y las Garras sin Explicar. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Garras, armas y venganza contra Drekr. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Garras, armas y venganza contra Drekr."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Entierro de Thorkel y Juramento de Venganza de Orka. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Muerte de Drekr y cumplimiento del propósito. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Muerte de Drekr y cumplimiento del propósito."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La compañía intenta alcanzarlo, sin avistarlo ni añadir información sobre su papel en el encargo inicial o culpables del norte.",
+      "remaining": "Su destino y rescate de Vol; responsables de la amenaza en sus tramas."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La persecución actual no añade responsables del encargo original ni esclarece todos los desaparecidos.",
+      "remaining": "Cuestiones pendientes en amenaza-norte-helka."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Estar tres días al sur y usar el botín del dragon-born no identifica autores de matanzas anteriores, ruta por Grimholt, víctimas de la granja ni propósito final de la excavación.",
+      "remaining": "Autores y alcance de ataques, desaparecidos, rutas y fin de excavación."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: Ningún nuevo desembarco real ni resolución del asunto que Helka aplazó en Liga.",
+      "remaining": "La reclamación de Sulich sigue separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No participa en el campamento ni revela los otros caminos insinuados a Störr.",
+      "remaining": "Plan alternativo de Störr."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: No se añade evidencia sobre su identificación olfativa de Elvar o el reencuentro desencadenado.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Llegada a Snakavik y Venta de Berak a Jarl Störr. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Revelación de Elvar como Hija de Jarl Störr. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Vafri (†?). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Certeza de su muerte y alcance de la prueba de sangre/servicio a Hakon. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Certeza de su muerte y alcance de la prueba de sangre/servicio a Hakon."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: No se modifica el rescate de Fellur ni la cadena de mando relatada por Vafri.",
+      "remaining": "Raptos y represalias siguen en sus preguntas propias."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: El grupo de Glornir persigue a Skalk; no se muestran decisiones legales de Fellur, captura de Orka o final de la persecución por Guðvarr.",
+      "remaining": "Represalias y consecuencias legales/políticas de Fellur."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Thorun. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Broðir. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No aparece Grend ni Gytha; la lección no explica su historia compartida.",
+      "remaining": "Pasado y posible reencuentro con Grend."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: La elección de Elvar ya tiene desenlace propio y el plan no revelado conserva su hilo separado; nada cambia aquí.",
+      "remaining": "Plan oculto en su propia trama."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: No se revoca la elección de quedarse con los Battle-Grim ni se revela el plan de Silrið.",
+      "remaining": "Plan pendiente en plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: La instrucción de Varg no altera el motivo ya revelado de la urgencia de Uspa: robo de Graskinna y persecución de Ilska.",
+      "remaining": "Rescate de Bjarn se conserva aparte."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Fuga por el Fiordo y Pacto con Mord y Lif. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Evasión local cumplida; fin de la persecución continúa aparte. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Evasión local cumplida; fin de la persecución continúa aparte."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Aprendizaje de Armas de Mord y Lif. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Preparación actual de Lif para enfrentar al drengr. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Preparación actual de Lif para enfrentar al drengr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Consulta de Elvar a Hrung. La lección, la persecución de Vol y el sueño privado de Varg no responden a: El enigma no demuestra el plan de Störr. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "El enigma no demuestra el plan de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Raid de los Raven-Feeders a la Taberna. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Rescate y feudo siguen en sus TRAMA propias. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Rescate y feudo siguen en sus TRAMA propias."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a El Secreto de Uspa y el Precio del Rescate. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Recuperar a Bjarn de los Raven-Feeders. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Recuperarlo y cumplir el juramento. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Recuperarlo y cumplir el juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Conoce Uspa el Camino a Oskutreð?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Feudo de Agnar con Ilska. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Desenlace del feudo entre compañías. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Desenlace del feudo entre compañías."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Despedida Marítima de Thrud (pendiente). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Realización de la despedida anunciada y discrepancia de barco. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Realización de la despedida anunciada y discrepancia de barco."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Combate contra el Näcken del Río. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Conservar límites del combate previo. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Conservar límites del combate previo."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Puente Isbrún. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Autoría y mecanismo del puente/huella. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Autoría y mecanismo del puente/huella."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a El Blóð Svarið de los Terrores de la Batalla. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Cumplimiento del rescate y límites del vínculo; situación de Kráka. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Cumplimiento del rescate y límites del vínculo; situación de Kráka."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Qué Plan Oculta Störr para Elvar?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Plan y reacción del padre a la elección de Elvar. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Plan y reacción del padre a la elección de Elvar."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Los niños actuales no se identifican con habitantes de la granja del Slågen.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: El campamento posterior no cambia el desembarco y comienzo de búsqueda terrestre.",
+      "remaining": "La granja desierta sigue en amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Travesía y Entrenamiento Hacia Darl. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Persecución y venganza continúan en sus hilos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Persecución y venganza continúan en sus hilos."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Llegada a Darl y Desembarco de Helka. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Conservar indicios sin elevar inferencias a hechos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Conservar indicios sin elevar inferencias a hechos."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Había un Tainted Libre entre los Raven-Feeders?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Identidad, linaje y libertad del guerrero rubio. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Identidad, linaje y libertad del guerrero rubio."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a El Drengr Muerto (taberna). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Conexión política y operación de raptos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Conexión política y operación de raptos."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No hay noticias de Uspa, Vol o reunión; no se equipara a la mujer esperada con una persona concreta.",
+      "remaining": "Identidad exacta, retraso y reencuentro."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Colgante de Espada (Breca). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Paradero y salud actuales de Breca. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Paradero y salud actuales de Breca."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Combate en El Drengr Muerto. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Preguntas de pasado-orka y venganza-seaxes conservadas. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Preguntas de pasado-orka y venganza-seaxes conservadas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: No se renueva ni acepta la oferta que Varg rechazó atacando a Olvir.",
+      "remaining": "Akáll y rescate de Vol siguen en sus propias tramas."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: El capítulo transcurre en esas montañas, sin identificar autores de la matanza de veinticuatro guerreros ni explicar frío o runas.",
+      "remaining": "Responsables, mecanismo y relación con amenaza-norte-helka."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Skefil (†). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Sentido del tatuaje y límites del testimonio. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Sentido del tatuaje y límites del testimonio."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Qué Sabe Helka de la Operación de Hakon?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Función, propósito y autorización de Hakon/Helka. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Función, propósito y autorización de Hakon/Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Gytha y Grend (Historia no Resuelta). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Historia compartida y posibilidad de reunirse sin romper juramentos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Historia compartida y posibilidad de reunirse sin romper juramentos."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Quién Mató a los Alces del Norte?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Autoría, número de atacantes y amenaza cercana. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Autoría, número de atacantes y amenaza cercana."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Apertura del Puente Isbrún por Uspa. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Dueño de la huella y autoría del paso. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Dueño de la huella y autoría del paso."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: No puede cumplirse el acompañamiento prometido por Torvik, ya muerto; la petición de aprender a Røkia no lo reabre.",
+      "remaining": "Akáll y venganza de Frøya permanecen pendientes aparte."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: El botín que lleva Varg es malla y yelmo; no se presenta información nueva de la garra de Orna ni del interés de Skalk.",
+      "remaining": "Mecanismo de percepciones de Varg e interés de Skalk."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 11: La herida nueva de cabeza en entrenamiento no revoca la supervivencia ya confirmada al golpe de la espada.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Las Cicatrices de Látigo de Biórr. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Autor, fecha y motivo de azotes, destino familiar y posible represalia. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Autor, fecha y motivo de azotes, destino familiar y posible represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Qué Traerán los Tesoros de Oskutreð?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Traslado, venta y consecuencias posteriores de reliquias. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Traslado, venta y consecuencias posteriores de reliquias."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 11: Se persiste continuidad de persecución tres días al sur, sin contacto visual con captores, llegada a Darl o rescate.",
+      "remaining": "Localizar a Vol y liberarla; destino de captores y cofre."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: El destino de Edel/Orka se menciona retrospectivamente sin una llegada ni identificación de ocupantes infantiles.",
+      "remaining": "Identidad y destino de ocupantes infantiles."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Altar de Lik-Rifa en el Pinar camino al Grimholt. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Autores y conexiones de los altares. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Autores y conexiones de los altares."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Quién Adora a Lik-Rifa junto al Grimholt?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Autores del altar y conexiones aún sin demostrar. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Autores del altar y conexiones aún sin demostrar."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Røkia confirma con hechos control propio; Varg solo lo solicita. El ejemplo queda en leccion-control-lobo y la tarea pendiente en pasado-varg, sin convertir el ejemplo en capacidad demostrada del aprendiz.",
+      "remaining": "Control voluntario de Varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No se pronuncian palabras formales de juramento ni ocurre el rescate de Vol.",
+      "remaining": "Juramento y rescate."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Vörn Askasdottir (†). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Portador de Orna y verificación del linaje atribuido a Biórr. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Portador de Orna y verificación del linaje atribuido a Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Aska. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Causa y fecha de su muerte. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Causa y fecha de su muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Encuentro con Vörn en Oskutreð. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Llegada de Ilska a la Llanura de Batalla. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Feudo continúa en venganza-ilska. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Feudo continúa en venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Emboscada en el Bosque del Grimholt. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Cuestiones conservadas en identidad-emboscada-grimholt. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Cuestiones conservadas en identidad-emboscada-grimholt."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Quiénes son los Captores del Grimholt?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Mujer acompañante y contenido del cofre; Vol ya identificada en el historial. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Mujer acompañante y contenido del cofre; Vol ya identificada en el historial."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Holmganga: Agnar vs Skrið. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Revelación de los Dragon-Born y los Niños Cautivos. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Alcance y propósito de la operación infantil. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Alcance y propósito de la operación infantil."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Traición de Biórr. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Linaje concreto conserva la atribución anterior y cicatrices siguen aparte. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Linaje concreto conserva la atribución anterior y cicatrices siguen aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Motivo de la Traición de Biórr Revelado. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Masacre en la Torre del Grimholt. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Pasado de Orka y operación de niños en sus hilos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Pasado de Orka y operación de niños en sus hilos."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Muerte Confirmada de Mord en el Grimholt. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Batalla de los Muros de Escudos en Oskutreð. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Rescate y feudo continúan en sus propios hilos. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Rescate y feudo continúan en sus propios hilos."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Liberación de Lik-Rifa. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Objetivos posteriores de Lik-Rifa continúan en rumbo-lik-rifa. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Objetivos posteriores de Lik-Rifa continúan en rumbo-lik-rifa."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Uspa Sobrevive a la Apertura de Oskutreð. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Muerte de Vörn Confirmada. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Qué Hará Lik-Rifa tras su Liberación?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Llegada a Nastrandir, reunión de fieles y recuperación. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Llegada a Nastrandir, reunión de fieles y recuperación."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La referencia a Orka Skullsplitter y a la partida de Edel no amplía el encuentro familiar ni resuelve identidades de niños, Breca o Vol.",
+      "remaining": "Rescates y testimonios históricos aún pendientes."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Sepultura de Mord Cumplida. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Cómo Perciben la Liberación de Lik-Rifa?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Cómo supieron los vaesen de la liberación y relación causal de los sueños. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Cómo supieron los vaesen de la liberación y relación causal de los sueños."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Elvar Jura Vengar a Agnar. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Encuentro y represalia de Elvar contra Biórr. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Encuentro y represalia de Elvar contra Biórr."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Orv el Sigiloso (Orv the Sneak). La lección, la persecución de Vol y el sueño privado de Varg no responden a: Papel mágico del arco y munición en las heridas del dragón. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Papel mágico del arco y munición en las heridas del dragón."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: No se comparan seaxes ni se identifica forjador, dueño original o parentesco.",
+      "remaining": "Procedencia común sospechada y vínculo con venganza-seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: La persecución continúa, sin encuentro con Yrsa o ejecución de la venganza prometida.",
+      "remaining": "Cumplimiento y destinatarios efectivos de la venganza."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a El Libro Negro de Vergelmir. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Contenido total, protecciones y discrepancia de cubierta. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Contenido total, protecciones y discrepancia de cubierta."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Ataque de las Criaturas de Lik-Rifa en Vergelmir. La lección, la persecución de Vol y el sueño privado de Varg no responden a: none Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Elvar y Skuld contra Lik-Rifa. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Control/recuperación, cooperación y victoria contra Lik-Rifa. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Control/recuperación, cooperación y victoria contra Lik-Rifa."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a ¿Qué Oculta el Libro Negro de Vergelmir?. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Contenido restante, protección y descripción material. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Contenido restante, protección y descripción material."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Myrk Sharp-Claw. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Llegada, recogida y traslado; jerarquía futura no implantada. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Llegada, recogida y traslado; jerarquía futura no implantada."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a El Encargo de Myrk en la Cámara de Rotta. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Llegar al padre, reunir tesoros y llevarlos a Corpse-Strand. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Llegar al padre, reunir tesoros y llevarlos a Corpse-Strand."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Resucitar y Someter a Ulfrir. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Control efectivo y recuperación de Ulfrir. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Control efectivo y recuperación de Ulfrir."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Intentar Liberar a Berak de Störr. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Cómo obtener la libertad de Berak y conseguirla. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Cómo obtener la libertad de Berak y conseguirla."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 11: La nueva llamada de Varg permite un paralelo de lector, persistido en la trama; no prueba emisor común, comunicación real o vínculo con Lik-Rifa.",
+      "remaining": "Quién llama a Orka y mediante qué mecanismo."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 11: Otro POV, sin acción o revelación que afecte a Proteger a Lif ante el Secreto Bloodsworn. La lección, la persecución de Vol y el sueño privado de Varg no responden a: Seguridad de Lif y conciliación con el secreto de la compañía. Se conserva la evidencia anterior sin atribuirles el sueño ni cerrarlo por ausencia.",
+      "remaining": "Seguridad de Lif y conciliación con el secreto de la compañía."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 11: Nueva pregunta persistida: manada enorme, hombre gris de ojos ámbar y llamada recordada en privado. No se identifica al hombre ni se comunica el sueño.",
+      "remaining": "Identidad, origen y significado de la llamada."
+    }
+  ]
+}

@@ -37,6 +37,7 @@ as in the Book One rebuild. All ownership, full-entry reads, event-category cove
 all-POV clue lifecycle, Spanish summaries and identity checks remain mandatory.
 
 ```sh
+node .claude/skills/add-chapter/scripts/reprocess.cjs status
 node .claude/skills/add-chapter/scripts/reprocess.cjs check-chapter 1
 node .claude/skills/add-chapter/scripts/reprocess.cjs prepare 1 "book2/chapter 1.xhtml"
 ```

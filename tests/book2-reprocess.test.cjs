@@ -25,6 +25,38 @@ test('section ownership follows comments despite chapter references and braces i
 test('unmarked rewritten descriptions fail instead of discarding unknown content', () => {
   assert.throws(()=>suffix('No source marker','Previous history',2),/Cannot isolate/);
 });
+test('compact status exposes resumable routing without prose, hashes or mutations', () => fixture(root => {
+  main(['init'], root);
+  const progressFile = root + '/book2/rebuild/progress.json';
+  const readStatus = () => {
+    const before = fs.readFileSync(progressFile), hashes = A.hashes(root), messages = [];
+    const log = console.log;
+    try { console.log = value => messages.push(value); main(['status'], root); }
+    finally { console.log = log; }
+    assert.deepEqual(fs.readFileSync(progressFile), before);
+    assert.deepEqual(A.hashes(root), hashes);
+    assert.equal(messages.length, 1);
+    return JSON.parse(messages[0]);
+  };
+  assert.deepEqual(readStatus(), { status: 'ready', completedCount: 0, nextChapter: 1, visibleChapters: 3, active: null });
+  main(['prepare', '1', 'book2/chapter 1.xhtml'], root);
+  const active = JSON.parse(fs.readFileSync(progressFile)).active;
+  assert.deepEqual(readStatus().active, { chapter: 1, source: active.source, run: active.run, baseline: active.baseline });
+  assert.throws(() => main(['status', '1'], root), /Usage/);
+  fs.appendFileSync(root + '/book2/links.js', '\n// drift');
+  assert.throws(() => main(['status'], root), /outside reprocessing/);
+}));
+test('completed status has no next chapter and omits historical completion records', () => fixture(root => {
+  main(['init'], root);
+  const progressFile = root + '/book2/rebuild/progress.json';
+  const state = JSON.parse(fs.readFileSync(progressFile));
+  Object.assign(state, { status: 'complete', completedChapters: [1, 2, 3], chapters: [{ log: 'Long historical prose', reviews: { hashes: 'internal evidence' } }] });
+  fs.writeFileSync(progressFile, JSON.stringify(state));
+  const messages = [], log = console.log;
+  try { console.log = value => messages.push(value); main(['status'], root); }
+  finally { console.log = log; }
+  assert.deepEqual(JSON.parse(messages[0]), { status: 'complete', completedCount: 3, nextChapter: null, visibleChapters: 3, active: null });
+}));
 test('Book Two replacement keeps all chapters visible and rebases later revisions onto reviewed history', () => fixture(root => {
   main(['init'],root);const before=A.hashes(root);const original=A.loadBook(root,2);
   assert.throws(()=>main(['prepare','2','book2/chapter 1.xhtml'],root),/in order/);

@@ -1,0 +1,193 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 11 — VARG ──",
+  "nodes": [
+    {
+      "id": "varg",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: Se siente lento tras dormir mal y soñar con una llamada; véase sueno-lobo-varg, experiencia que no comunica a sus compañeros. Durante la práctica cae y se golpea la cabeza con el borde de su escudo: llevaba al cinto el yelmo ganado al dragon-born por tener floja la correa, aunque ya viste su malla. Comprueba que el yelmo ajusta tras la intervención de Røkia y le pide que le enseñe a controlar la bestia interior; véase leccion-control-lobo. La petición no demuestra dominio adquirido.",
+      "previousState": "Entrenamiento, mal descanso y petición de controlar el lobo.",
+      "starAppend": "LIBRO 2, CAPÍTULO 11: La llamada onírica queda abierta en sueno-lobo-varg; el control voluntario sigue pendiente en pasado-varg pese al ejemplo de Røkia."
+    },
+    {
+      "id": "rokia",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: Dirige ahora a los exploradores del grupo de Glornir desde que Edel se separó para guiar a Orka hasta la cámara de Rotta. Entrena a Varg antes de que despierte el campamento y exige automatizar la técnica de armas sin depender del lobo. Muestra una transformación parcial y reversible al arreglar la correa de su yelmo; véase leccion-control-lobo. Glornir le encarga encabezar la marcha cuando esté lista.",
+      "previousState": "Jefa de exploración en ausencia de Edel y demostración de control parcial."
+    },
+    {
+      "id": "svik",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: Se ha quedado sin queso y no encontró más en los barriles de víveres tomados del Grimholt; se resigna a galletas frías y arenque en escabeche. Presencia la demostración de Røkia y aconseja a Varg que haga servir a la bestia de su sangre, sin convertirse en su esclavo; véase leccion-control-lobo.",
+      "previousState": "Acompaña la lección y aconseja dominar la bestia interior."
+    },
+    {
+      "id": "glornir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: Mantiene prohibidos los fuegos hasta alcanzar a Skalk y a quienes huyeron del Grimholt. Varg lo observa afilar su hacha larga con el rostro endurecido, sin que se verbalice aquí una emoción o intención nueva. Ordena prepararse y encarga a Røkia conducir la marcha.",
+      "previousState": "Prohíbe fuegos durante la persecución y dispone la marcha."
+    },
+    {
+      "id": "bloodsworn",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: El grupo de Glornir lleva tres días al sur del Grimholt y sigue en las alturas de las Montañas Espinazo. Acampa al abrigo de una pendiente entre pinos, cerca de una meseta sobre un río no nombrado. Transporta víveres tomados de la fortaleza y no enciende fuegos por orden del jefe mientras persigue a Skalk. Los niños Tainted duermen en el carro junto al que descansa Einar. Røkia encabeza ahora a sus exploradores en ausencia de Edel. No se muestra llegada a Darl ni alcance de los fugitivos.",
+      "previousState": "Situación del grupo tres días al sur del Grimholt."
+    },
+    {
+      "id": "edel",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: Su separación del grupo de Glornir para guiar a Orka explica que Røkia ocupe ahora la jefatura de sus exploradores. No aparece en este campamento ni se confirma aquí llegada a la cámara o al Sea-Wolf.",
+      "previousState": "Aclara la sustitución de su función en el grupo de Glornir."
+    },
+    {
+      "id": "pasado-varg",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: ESTADO: PARCIAL. La demostración de Røkia ofrece a Varg un ejemplo visible de control graduado y reversible, y él solicita expresamente aprenderlo; véase leccion-control-lobo. Sigue pendiente que consiga regular su propio lobo: ni el consejo ni la petición equivalen a dominio. La nueva llamada privada se registra en sueno-lobo-varg, sin identificar al emisor ni resolver padres, edad, vínculo con Frøya o sensibilidad mágica.",
+      "previousState": "Añade petición explícita de aprendizaje sin dar por logrado el control."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: ESTADO: PARCIAL. Tres días al sur del Grimholt, el grupo de Glornir sigue tras Skalk y mantiene la prohibición de fuegos hasta alcanzarlo; véase bloodsworn. No se observa a Vol ni a sus captores, no se confirma que hayan llegado a Darl y no se cumple el rescate.",
+      "previousState": "Continúa la persecución sin contacto ni rescate."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 11: ESTADO: ABIERTA. La experiencia privada de Varg en sueno-lobo-varg presenta otra llamada asociada al lobo. Es un paralelo accesible al lector, no un intercambio entre ambos personajes ni prueba de un emisor o mecanismo común. La identidad de quien llama a Orka sigue sin confirmarse.",
+      "previousState": "Relaciona dos sueños sin confirmar una causa común."
+    },
+    {
+      "id": "leccion-control-lobo",
+      "mode": "new",
+      "label": "La Lección del Lobo y la Presa",
+      "group": "EVENTO",
+      "type": "Evento — Entrenamiento y demostración",
+      "desc": "LIBRO 2, CAPÍTULO 11: Tres días al sur del Grimholt, en una meseta junto a un río de las Montañas Espinazo, Røkia derriba a Varg durante la práctica anterior al despertar del campamento. Le reprocha no aprovechar el alcance de la lanza frente a su hacha y le exige que la técnica se vuelva tan automática como respirar: la sangre del lobo no basta contra un guerrero hábil. El golpe en la cabeza expone su falta de yelmo y la correa floja que usaba como excusa. Røkia recuerda que las agujas de hueso de Varg, compradas en Liga, no son adecuadas para perforar cuero. Ante Varg y Svik sus músculos se tensan, los ojos adquieren motas ámbar y los colmillos se alargan; perfora con un diente la correa y después devuelve ojos y dientes a la normalidad. Varg percibe un estremecimiento en la piel y comprueba el mejor ajuste. Svik aconseja que la bestia lo sirva en vez de esclavizarlo; Røkia compara la regulación con dejar salir de una presa un arroyo estable en lugar de una inundación. Varg pide que le enseñe. La demostración y la petición ocurren, pero no se muestra una respuesta ni que Varg consiga ejecutar el control. Véase pasado-varg para el objetivo pendiente.",
+      "star": ""
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "mode": "new",
+      "label": "La Llamada en el Sueño de Varg",
+      "group": "TRAMA",
+      "type": "Trama — Llamada onírica sin identificar",
+      "desc": "LIBRO 2, CAPÍTULO 11: PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 11. Varg ha dormido mal y sueña con una manada imposiblemente enorme de lobos aullando. Un hombre gris como un lobo, de ojos ámbar, está en el centro y lo llama. Es un sueño recordado por el POV, no un relato que comparta con Røkia o Svik. ESTADO: ABIERTA. Pendientes: identidad del hombre, origen y significado de la llamada. El paralelo con llamada-lobo-orka no demuestra un emisor común, comunicación real ni relación causal con la resurrección de Ulfrir; no se identifica al hombre con un dios.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-varg",
+      "target": "leccion-control-lobo",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "sueno-lobo-varg",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "leccion-control-lobo",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "sueno-lobo-varg",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "leccion-control-lobo",
+      "target": "rokia",
+      "label": "es impartida por",
+      "type": "rel"
+    },
+    {
+      "source": "leccion-control-lobo",
+      "target": "varg",
+      "label": "instruye a",
+      "type": "rel"
+    },
+    {
+      "source": "leccion-control-lobo",
+      "target": "svik",
+      "label": "recibe el consejo de",
+      "type": "rel"
+    },
+    {
+      "source": "leccion-control-lobo",
+      "target": "montanas-espinazo",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "leccion-control-lobo",
+      "target": "ulfhednar-linaje",
+      "label": "muestra control parcial de la sangre",
+      "type": "magic"
+    },
+    {
+      "source": "pasado-varg",
+      "target": "leccion-control-lobo",
+      "label": "incorpora la petición de aprendizaje de",
+      "type": "trama"
+    },
+    {
+      "source": "sueno-lobo-varg",
+      "target": "varg",
+      "label": "es un sueño privado de",
+      "type": "trama"
+    },
+    {
+      "source": "sueno-lobo-varg",
+      "target": "llamada-lobo-orka",
+      "label": "presenta un paralelo sin causa común confirmada con",
+      "type": "trama"
+    },
+    {
+      "source": "pasado-varg",
+      "target": "sueno-lobo-varg",
+      "label": "incorpora la nueva observación de",
+      "type": "trama"
+    },
+    {
+      "source": "rokia",
+      "target": "bloodsworn",
+      "label": "dirige ahora a los exploradores de",
+      "type": "rel"
+    },
+    {
+      "source": "rokia",
+      "target": "edel",
+      "label": "sustituye como jefa de exploradores del grupo de Glornir a",
+      "type": "rel"
+    },
+    {
+      "source": "glornir",
+      "target": "rokia",
+      "label": "encarga encabezar la marcha a",
+      "type": "rel"
+    },
+    {
+      "source": "glornir",
+      "target": "skalk",
+      "label": "mantiene prohibidos los fuegos hasta alcanzar a",
+      "type": "goal"
+    },
+    {
+      "source": "bloodsworn",
+      "target": "montanas-espinazo",
+      "label": "acampa aún en las alturas de",
+      "type": "geo"
+    }
+  ],
+  "summary": {
+    "chapter": 11,
+    "title": "Capítulo 11 — Varg",
+    "summary": "Tres días al sur del <strong>Grimholt</strong>, los <strong>Bloodsworn</strong> continúan por las <strong>Montañas Espinazo</strong> sin encender fuegos, por orden de <strong>Glornir</strong>, hasta alcanzar a <strong>Skalk</strong>. Los niños Tainted duermen en el carro junto a <strong>Einar Medio-Trol</strong>. <strong>Røkia</strong>, que dirige a los exploradores desde la separación de <strong>Edel</strong> para guiar a <strong>Orka</strong>, entrena a <strong>Varg</strong> antes del despertar del campamento.<br><br>Varg cae, pierde la lanza y se golpea la cabeza con el escudo. Su instructora le exige aprovechar el alcance del arma y aprender a reaccionar sin pensar: la sangre del lobo no sustituye la destreza. Él se siente lento tras dormir mal; ha soñado con una inmensa manada de lobos y un hombre gris de ojos ámbar que lo llama, sin identificarlo ni contar esa experiencia al grupo. Lleva puesta la malla ganada al dragon-born, pero el yelmo cuelga de su cinto porque tiene floja la correa.<br><br>Ante Varg y <strong>Svik Hrulfsson</strong>, Røkia transforma parcialmente ojos y colmillos, perfora el cuero con un diente y recupera después su aspecto normal. El yelmo ya ajusta. Svik le aconseja hacer servir a la bestia en lugar de ser su esclavo; Røkia compara el control con dejar fluir un arroyo desde una presa en vez de soltar una inundación. Varg le pide que le enseñe: <em>la petición queda abierta, sin dominio demostrado</em>."
+  }
+}

@@ -1,5 +1,12 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch11 — the initial progress-file dump included growing
+  historical logs and hashes and contributed to truncated output. Added guarded,
+  read-only `reprocess.cjs status` for compact mode/next-chapter routing and active
+  source/run/baseline recovery. Routed initialization checks to it and tested ready,
+  active and complete states, non-mutation, invalid arguments and archive-drift
+  rejection. It does not replace source reads or semantic reviews.
+
 Entries here are either recent (not yet proven in over several more chapters) or
 describe a still-open/unresolved issue in the actual data files. Once an entry's fix is
 fully and verbatim absorbed into `SKILL.md`, its workflow references or a bundled script
