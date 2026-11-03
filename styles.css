@@ -60,7 +60,7 @@ svg:active{cursor:grabbing}
 
 .node.new-book circle{stroke:var(--gold-lt);stroke-width:2.5px;stroke-dasharray:3,2}
 
-#map-overlay-wrap{height:calc(100% - 92px);overflow:auto;background:#0f0c08}
+#map-overlay-wrap{height:calc(100% - 92px);overflow:auto;background:#0f0c08;touch-action:pan-x pan-y}
 #map-stage{position:relative;width:min(900px,100%);margin:0 auto;transform-origin:top center;transition:transform .15s}
 #map-image{display:block;width:100%;height:auto}
 #map-overlay{position:absolute;inset:0;pointer-events:none;transition:opacity .15s}

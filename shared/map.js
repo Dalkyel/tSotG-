@@ -32,6 +32,34 @@
   zoomOutBtn.addEventListener('click', () => setScale(scale / 1.4));
   zoomResetBtn.addEventListener('click', resetView);
 
+  // Two-finger pinch zoom. wrap's touch-action (pan-x pan-y, no native
+  // pinch-zoom) hands the gesture to us instead of the whole page.
+  let pinchStartDist = null;
+  let pinchStartScale = 1;
+  const touchDistance = ([a, b]) => Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+
+  wrap.addEventListener('touchstart', e => {
+    if (e.touches.length === 2) {
+      pinchStartDist = touchDistance(e.touches);
+      pinchStartScale = scale;
+      stage.style.transition = 'none';
+    }
+  }, { passive: true });
+
+  wrap.addEventListener('touchmove', e => {
+    if (e.touches.length === 2 && pinchStartDist) {
+      e.preventDefault();
+      setScale(pinchStartScale * (touchDistance(e.touches) / pinchStartDist));
+    }
+  }, { passive: false });
+
+  wrap.addEventListener('touchend', e => {
+    if (e.touches.length < 2) {
+      pinchStartDist = null;
+      stage.style.transition = '';
+    }
+  });
+
   togglePinsBtn.addEventListener('click', () => {
     const hidden = overlay.classList.toggle('pins-hidden');
     togglePinsBtn.setAttribute('aria-pressed', String(hidden));
