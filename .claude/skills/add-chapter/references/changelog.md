@@ -181,3 +181,19 @@ actually fixed.
   chapter. review-gates.md's thread-lifecycle gate now documents the shortcut: once the
   entity list confirms no overlap, assess an unrepresented POV's candidates straight from
   the cheap `--index` listing instead of their full paginated prose.
+
+- 2026-11-02: Book 1 rebuild Ch48 — the Ch46 shortcut above ("assess straight from the
+  `--index` listing") told the reader to group unrepresented-POV candidates by POV, but
+  `--index` never actually printed a POV tag, only `[TRAMA]`/`[star]`. Classifying all
+  123 candidates into Orka/Varg/Elvar still required inferring each id's POV by hand from
+  its label — and got several wrong by confident guessing: `virk`, `gudvarr`, `drekr` and
+  `combate-nacken` read as Varg's own companions, but are actually tied to Orka's
+  Mord-and-Lif rescue arc via their `cat-orka` link; `fuga-orka-fellur`'s own label named
+  Orka directly but carries no POV arc link in the archive at all. Fixed the gap instead
+  of re-guessing: `backlog-data.cjs` now also resolves each candidate's POV from the
+  node's own `group` (when it's itself ORKA/VARG/ELVAR) or its `cat-orka`/`cat-varg`/
+  `cat-elvar` arc link, and `read-backlog.cjs --index` prints that tag inline (e.g.
+  `virk [ORKA] [star]`); an id with neither still prints untagged rather than guessing.
+  `tests/backlog-reader.test.cjs` covers both the direct-group and arc-link paths.
+  review-gates.md's thread-lifecycle gate now describes the tag's two sources and this
+  exact misclassification as the reason to trust the printed tag over the label.

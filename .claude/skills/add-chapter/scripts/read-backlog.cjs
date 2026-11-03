@@ -12,7 +12,7 @@ assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page 
 
 const candidates = backlogCandidates(book);
 const payload = indexOnly
-  ? candidates.map(node => `${node.id}${node.group === 'TRAMA' ? ' [TRAMA]' : ''}${node.star.trim() ? ' [star]' : ''}`).join('\n')
+  ? candidates.map(node => `${node.id}${node.pov ? ` [${node.pov}]` : ''}${node.group === 'TRAMA' ? ' [TRAMA]' : ''}${node.star.trim() ? ' [star]' : ''}`).join('\n')
   : JSON.stringify(candidates, null, 2);
 const pageSize = 8000, pages = Math.ceil(payload.length / pageSize);
 const pageCount = Math.max(1, pages);

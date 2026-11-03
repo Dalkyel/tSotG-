@@ -88,8 +88,10 @@ test('backlog index uses the same latest candidates without exposing prose or in
     { id: 'plain', group: 'ORKA', star: '  ' },
   ]);
   writeNodes(root, 2, [{ id: 'profile', group: 'ORKA', star: '' }]);
+  fs.writeFileSync(path.join(root, 'book1/links.js'),
+    `const links = ${JSON.stringify([{ source: 'cat-orka', target: 'closed', label: 'incluye', type: 'arc' }])};`);
   const index = run(root, 1, 1, '--index');
-  assert.equal(pageText(index), 'profile [star]\nclosed [TRAMA]\nboth [TRAMA] [star]\ntheme [star]');
+  assert.equal(pageText(index), 'profile [ORKA] [star]\nclosed [ORKA] [TRAMA]\nboth [TRAMA] [star]\ntheme [star]');
   assert.doesNotMatch(index.stdout, /private history|old observation|latest observation|ESTADO: RESUELTA|unique thematic evidence/);
   const full = JSON.parse(pageText(run(root, 1, 1)));
   assert.deepEqual(pageText(index).split('\n').map(line => line.split(' ')[0]), full.map(n => n.id));

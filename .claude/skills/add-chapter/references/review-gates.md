@@ -171,7 +171,7 @@ to create a thread once or to pass the JavaScript verifier.
    full entity list from [entity resolution, step 2](source-and-entity-workflow.md) is
    built and confirms no character, place or event from the other two POVs is named or
    described, the backlog candidates belonging to those unrepresented POVs can be
-   assessed straight from the `--index` listing below (grouped by their known POV) as
+   assessed straight from the `--index` listing below as
    `unchanged — different POV, not represented this chapter`, without first reading
    their full paginated prose. Still read the full prose for every candidate in the
    chapter's own POV, and for any other-POV candidate that the entity list does match.
@@ -181,8 +181,19 @@ to create a thread once or to pass the JavaScript verifier.
    shared reason with zero content drawn from its own prose.
    After reading the full backlog, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
    `rebuild.cjs read-backlog PAGE --index`) for a compact list of the same candidate ids,
-   marked `[TRAMA]` and/or `[star]`, when checking the final review record for omissions.
-   This avoids a one-off parser with guessed array names. The index includes closed
+   each marked with any of `[ORKA]`/`[VARG]`/`[ELVAR]`, `[TRAMA]` and `[star]` that apply,
+   when checking the final review record for omissions. The POV tag comes from the
+   candidate's own `group` when that is itself a POV (a character/vaesen node), or
+   otherwise from its `cat-orka`/`cat-varg`/`cat-elvar` arc link when one exists; a
+   candidate with neither still prints untagged and needs the same manual judgment as
+   before — the tag is a confirmed shortcut, never a claim that an untagged id has no POV.
+   Trust a printed tag over your own recollection of who a character belongs to: in the
+   Chapter 48 run, `virk`, `gudvarr`, `drekr` and `combate-nacken` read as Varg's own
+   companions from their labels alone, but their `cat-orka` arc links show they actually
+   belong to Orka's Mord-and-Lif rescue thread — the tag caught what a confident guess
+   from the label would have gotten wrong. This avoids a one-off parser with guessed
+   array names, and avoids misclassifying the "different POV" shortcut itself. The index
+   includes closed
    history and thematic notes, infers no states, and cannot replace the full review.
    Any checklist made from it starts with pending assessments; classify each item
    against the evidence before recording PASS.
