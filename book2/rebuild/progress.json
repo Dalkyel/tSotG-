@@ -17,7 +17,8 @@
     13,
     14,
     15,
-    16
+    16,
+    17
   ],
   "chapters": [
     {
@@ -230,15 +231,33 @@
         }
       },
       "log": "Chapter 16: Reprocessed Guðvarr’s return to Darl from the full source: 30 node revisions, 43 links, three key events and canonical Spanish summary; preserved later chapters and uncertainty about Störr, Helka/Hakon, Vol, copied Rauðskinna and unnamed arrivals. Full baseline ownership and all-POV lifecycle review completed with 167 individual assessments; all three semantic gates, verifier, 19 summary links and overlap review passed. Required regression suite: 59 tests passed. Browser preview not performed because the configured workflow discovery service was unavailable; visual confirmation remains manual."
+    },
+    {
+      "chapter": 17,
+      "source": "book2/chapter 17.html",
+      "sourceHash": "8f53dee26a475a7c3942960c02df6266826af29f20283e751c208532ea0c91c4",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch17.1Rml30",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-17",
+        "hashes": {
+          "ownership-review.md": "e52b5f0b087d99f8efdc90c3c673e460be995427fccb0555359c3e8dced21663",
+          "event-review.md": "bd2d9a091147f27f907827ea25b5cd3b3348dca669a2ca1b1a737817241a3333",
+          "thread-review.md": "ffe3afa2ad0b7b99d763078e0898c1d8989a9553d7b104d5711c4a8c886d02c6",
+          "thread-checklist.json": "94a3417af70882221958d8cc996f1720b7f518c12aa4cf3a3862d22cece24965",
+          "completion.json": "f94e2fea627022c2d2b88f4b34ed06980d3939d34789a11ed2cf6cebf7f52578",
+          "chapter.json": "a6d4ac3b8d391592c4ea6e16e6273adffdaa761952e99acdf8006f07108f5c84"
+        }
+      },
+      "log": "Chapter 17: Elvar — replaced chapter from complete source; 17 node revisions, 43 links and Spanish summary cover succession dispute, broken Isbrún seal, treasure transport and tennúr ambush. Audited 168 backlog candidates; ownership, event and thread gates PASS, verifier and nine-file 59-test regression suite PASS. Browser preview unavailable: local file URL blocked by browser security policy; no workaround attempted. Later chapters preserved."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "00dacbaf3115160e7a577cd291810f4901fb2cbc40f80b7d67c56ecb463a9463",
-    "book2/links.js": "00f5568b5171d66eb1c163c2d1c8b80ec9be0977f8552aaee4e0732eef84db4e",
-    "book2/summaries.js": "41dbcf722d963e979fda61eccf6e35112f92bb8dc8c593f614800875c3bf75dd"
+    "book2/nodes.js": "45fc0ec385a13ca1ba93a446def9a13754d31b567285f8cc1490ecbc6147ccae",
+    "book2/links.js": "902a8e1fea62d9549fd8dd1524a8524d3b46ae3f5f2e8ea82223d3c090e043dd",
+    "book2/summaries.js": "f83ebb69d39c8514a5a771069734b24c6b59b8f561fc1b43913339619a0d1c7a"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -249,9 +268,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "834fa466182b901d4cc6e88d56c1d01dbdf26a69e0d9effd01f63b3a4e375c7a",
-    "links": "c0832d786005dd3e020afb6866a1aa05700075a0f2e481c0d8311f016ea7c923",
-    "summaries": "e0e1f4eee26fbeb99aec9b09795334c451317b1f91428935f5b623ed2187e306"
+    "nodes": "d0b6bcf8c96503050f992a9c2703faa5b082a211b4434d0b747edc61a22b444b",
+    "links": "411f29ff25f54abe44d811396fc5266911991879e719336ba6daf05c6307d578",
+    "summaries": "dc124e190f2695e32bc71414017af5ef54121d9cee3630a12dbac2d0c486e40c"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

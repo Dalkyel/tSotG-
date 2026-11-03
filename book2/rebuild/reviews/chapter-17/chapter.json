@@ -1,0 +1,390 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 17 — ELVAR ──",
+  "nodes": [
+    {
+      "id": "elvar",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: Marcha agotada en vanguardia y sigue herida del hombro. Recuerda con dolor la intimidad y traición de Biórr; ya no piensa en Uspa como esclava, aunque reconoce que sigue prisionera. Ante las burlas de Huld desea vencerla o matarla, sin saber aún si quiere ser jefa. Recuerda los insultos y palizas de Thorun en el patio de armas y su promesa al dejar Snakavik de no volver a tolerarlos. Véase disputa-sucesion-battle-grim. Mantiene la mirada ante Ulfrir y le propone una causa común contra Lik-Rifa. Casi cae al intentar pisar el puente ausente y después corta la palma del dios cuando este lo pide; véase reapertura-isbrun-ulfrir. Ordena formar el muro y corre a combatir al descubrir el verdadero blanco del enjambre: cree imprescindible que Ulfrir viva. Véase emboscada-tennur-ulfrir.",
+      "previousState": "Crisis de autoridad, memoria del maltrato y combate tras el cruce.",
+      "starAppend": "LIBRO 2, CAPÍTULO 17: Su autoridad informal queda cuestionada: sucesion-battle-grim. La ayuda de Ulfrir no demuestra obediencia impuesta ni victoria sobre el dragón."
+    },
+    {
+      "id": "grend",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: Defiende a Elvar incluso ante las amenazas de Ulfrir, le recuerda al dios que le debe la vida y rechaza que ella sea un cordero. Detiene su mano cuando va a desenvainar contra Huld y advierte que el cansancio provoca errores. En reapertura-isbrun-ulfrir la salva sujetando su malla, con ayuda de Sighvat. En emboscada-tennur-ulfrir se coloca a su lado para aliviar la carga sobre su hombro y después corre tras ella hacia el carro.",
+      "previousState": "Defensa de Elvar, rescate en el Foso y ayuda durante la emboscada."
+    },
+    {
+      "id": "uspa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: Conduce el carro de Ulfrir y atiende sus heridas junto a Skuld. Ante Huld niega ser esclava y exige continuar antes del cierre estacional: según ella, perder el paso supondría esperar medio año hasta Langdagur. Su sangre y fórmula no revelan el puente sellado; ayuda al dios a bajar del carro y después a regresar a él. Véase reapertura-isbrun-ulfrir. Durante emboscada-tennur-ulfrir crea un escudo de runas llameantes que gira contra el enjambre y quema a muchos atacantes.",
+      "previousState": "Cuidados de Ulfrir, advertencia temporal y defensa rúnica."
+    },
+    {
+      "id": "ulfrir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: Viaja en carro, pálido, demacrado y muy débil, con el collar nuevo. Uspa y Skuld le han retirado la malla rota, lavado las heridas y aplicado miel y vendas de lino con salvia. Ya no tiembla, aunque su recuperación es lenta. Lamenta a Orna, Verdani y Urd, y llama padre a Snaka y hermana a Lik-Rifa. Al saber que Elvar es su dueña amenaza con someterla; Skuld le advierte del dolor del collar, sin que se lo active contra él. Reconoce una causa común cuando Elvar propone matar a su hermana. Rompe el sello del paso en reapertura-isbrun-ulfrir y afirma después que Lik-Rifa sabe que vive. Durante emboscada-tennur-ulfrir toma forma de lobo, mata a muchos atacantes y sobrevive con numerosas heridas pequeñas; termina aullando.",
+      "previousState": "Recuperación lenta, rechazo del collar y poder demostrado en el puente y el ataque.",
+      "starAppend": "LIBRO 2, CAPÍTULO 17: ESTADO: PARCIAL en resucitar-y-someter-ulfrir: coopera y combate, pero no se demuestra control coercitivo ni recuperación completa. Véase muerte-lik-rifa."
+    },
+    {
+      "id": "skuld",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: Atiende a su padre junto a Uspa, lo ayuda a sentarse y beber y le explica que Elvar es su nueva dueña. Atribuye la tragedia familiar a Lik-Rifa y Snaka, y advierte a Ulfrir del collar rúnico antes de que actúe contra Elvar. Lo sostiene durante reapertura-isbrun-ulfrir y celebra que Lik-Rifa sepa que vive. Combate volando contra los tennúr; cae y al final consigue incorporarse sobre una rodilla, sin demostración de curación completa. Véase emboscada-tennur-ulfrir.",
+      "previousState": "Cuidados del padre y supervivencia herida a la emboscada."
+    },
+    {
+      "id": "huld",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: Lleva una garra de oso colgada del cuello, sin que eso establezca un linaje. Cuestiona la autoridad de Elvar y se ofrece como mejor sustituta de Agnar, llamándola hija mimada de jarl; véase disputa-sucesion-battle-grim. Acepta aplazar la parada hasta cruzar tras la advertencia de Uspa. Al otro lado quiere acampar, pero acepta alejarse de la colina del antiguo ataque. Forma junto a Elvar en el muro de emboscada-tennur-ulfrir; la hostilidad previa queda desplazada por el peligro común.",
+      "previousState": "Candidatura al mando y desafío aplazado por el peligro."
+    },
+    {
+      "id": "battle-grim",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: Ha abandonado Oskutreð y atraviesa las Colinas de Luna Oscura con tres carros de riquezas y otro para el dios herido. Huld calcula cuatro días de marcha o más, sin certeza por la luz de aquellas tierras. La falta de sucesor de Agnar provoca disputa-sucesion-battle-grim; siguen comprometidos contra el dragón pero no han elegido jefe. Todos cruzan el Foso con los cuatro carros en reapertura-isbrun-ulfrir y luego combaten en emboscada-tennur-ulfrir. No se declara una nueva jefatura ni se muestra venta del botín.",
+      "previousState": "Salida efectiva con cuatro carros, conflicto sucesorio y cruce completado."
+    },
+    {
+      "id": "isbrun",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: El paso está ausente cuando llega la compañía de Elvar; la sangre de Uspa revela la huella en la roca, pero no el puente. Ulfrir rompe el sello y vuelve a aparecer el hielo luminoso. Todos los Battle-Grim y sus cuatro carros lo cruzan desde el norte; véase reapertura-isbrun-ulfrir. Según Uspa, al terminar Sólstöður el paso cerrará y deberán esperar medio año hasta Langdagur.",
+      "previousState": "Sello roto y segundo cruce completado.",
+      "starAppend": "LIBRO 2, CAPÍTULO 17: El intento comprueba el efecto del sello y su ruptura por Ulfrir; no revela el constructor, la resistencia al fuego ni el origen de la huella. Véase reapertura-isbrun-ulfrir."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: ESTADO: PARCIAL. reapertura-isbrun-ulfrir responde sobre el sello: no impide el cruce final. emboscada-tennur-ulfrir cumple el ataque dirigido al dios, pero él y Skuld sobreviven y la mayoría del enjambre muere. Escapa un puñado; no se muestra que se reúna con Lik-Rifa. La vigilancia fracasa en detener a la compañía; queda pendiente el destino de esos supervivientes.",
+      "previousState": "Guardia frustrada; regreso del pequeño grupo superviviente pendiente."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: ESTADO: PARCIAL. Ulfrir conoce el collar y recibe la advertencia de Skuld, pero no se observa una orden punitiva ni dolor impuesto. Reconoce la causa común con Elvar y ayuda en reapertura-isbrun-ulfrir; cooperación interesada no demuestra sometimiento mágico. Sigue herido después de emboscada-tennur-ulfrir. Pendientes: control efectivo y recuperación.",
+      "previousState": "Cooperación observada sin prueba de obediencia coercitiva."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: ESTADO: PARCIAL. Ulfrir acepta que comparte un enemigo con Elvar y demuestra poder en reapertura-isbrun-ulfrir y emboscada-tennur-ulfrir. Su ayuda es real, pero continúa herido y hostil a su esclavitud. Pendientes: cooperación sostenida, recuperación, encuentro con Lik-Rifa y muerte del dragón.",
+      "previousState": "Ulfrir reconoce causa común y actúa, sin victoria final."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 17: ESTADO: PARCIAL. La salida con las riquezas queda comprobada: tres carros de botín acompañan al cuarto carro de Ulfrir y alcanzan el lado sur del Foso en reapertura-isbrun-ulfrir. No se muestra venta o distribución final ni se agotan las consecuencias del uso de las reliquias.",
+      "previousState": "Transporte del botín fuera del norte comprobado; venta y efectos pendientes."
+    },
+    {
+      "id": "langdagur",
+      "mode": "new",
+      "label": "Langdagur (La Noche Larga)",
+      "group": "NORSE",
+      "type": "Calendario — Noche Larga",
+      "desc": "LIBRO 2, CAPÍTULO 17: Nombre de la Noche Larga. Según Uspa, es la próxima oportunidad de paso por Isbrún si pierden el cierre de Sólstöður, con una espera de medio año. La advertencia no muestra ese cierre estacional ni establece otras prácticas de la fecha.",
+      "star": ""
+    },
+    {
+      "id": "disputa-sucesion-battle-grim",
+      "mode": "new",
+      "label": "Huld Cuestiona el Mando de Elvar",
+      "group": "EVENTO",
+      "type": "Evento — Disputa sucesoria durante la marcha",
+      "desc": "LIBRO 2, CAPÍTULO 17: Tras varios días de marcha agotadora desde Oskutreð, Huld detiene la columna para descansar y exige discutir quién sustituirá a Agnar. Recuerda que Elvar no ha sido elegida y afirma que ella misma podría hacerlo mejor. Elvar recuerda que varias candidaturas suelen decidirse por holmganga, pero nadie convoca ni libra aquí un duelo. Orv admite cansancio y Sighvat hambre. Grend impide que Elvar desenvaine y la advierte del agotamiento. Uspa niega ser esclava y explica que perder Isbrún supondría quedar al norte medio año hasta Langdagur. Sighvat, Orv y Sólín la respaldan y Huld acepta seguir. Ulfrir se burla de que Elvar pretenda dominar a un dios cuando los suyos no la obedecen. La disputa sucesoria queda aplazada, no resuelta.",
+      "star": ""
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "mode": "new",
+      "label": "¿Quién Sucederá a Agnar?",
+      "group": "TRAMA",
+      "type": "Trama — Jefatura de los Battle-Grim pendiente",
+      "desc": "LIBRO 2, CAPÍTULO 17: PRIMERA EVIDENCIA: la vacante tras la muerte de Agnar ya consta en los capítulos 50 y 52 del Libro 1 y 2 del Libro 2; en LIBRO 2, CAPÍTULO 17, disputa-sucesion-battle-grim la convierte en disputa explícita. Huld reclama elección y se ofrece frente a Elvar, cuya autoridad informal cuestiona. ESTADO: ABIERTA. Pendientes: quién será elegido, si habrá candidaturas enfrentadas y holmganga, y si Elvar quiere realmente el mando. El peligro obliga a seguir; no hay nombramiento ni duelo consumado.",
+      "star": ""
+    },
+    {
+      "id": "reapertura-isbrun-ulfrir",
+      "mode": "new",
+      "label": "Ulfrir Rompe el Sello del Isbrún",
+      "group": "EVENTO",
+      "type": "Evento — Ruptura del sello y cruce del Foso",
+      "desc": "LIBRO 2, CAPÍTULO 17: Elvar encuentra el puente ausente y casi cae al intentar pisarlo; Grend la sostiene de la malla mientras Sighvat sujeta al guerrero y la recuperan. Uspa comprueba el vacío y aplica sangre y fórmula a la roca: aparece la huella, pero no el paso. Ulfrir atribuye el bloqueo a su hermana. Con Skuld y Sighvat sosteniéndolo, pide a Elvar que le corte la palma y apoya la sangre en el granito. Tras invocar la ruptura del sello, dos nubes de vapor toman figuras que Elvar distingue como lobo y dragón; chocan y el lobo desgarra la garganta del dragón de niebla. El puente de hielo reaparece. Ulfrir queda exhausto y afirma que su hermana sabe que vive; Skuld lo celebra. A instancias de Grend, toda la compañía cruza con los cuatro carros hacia la llanura al sur del Foso. Huld quiere acampar, pero Elvar recuerda el peligro de la colina de los tennúr y siguen caminando.",
+      "star": ""
+    },
+    {
+      "id": "emboscada-tennur-ulfrir",
+      "mode": "new",
+      "label": "Los Tennúr Atacan a Ulfrir",
+      "group": "EVENTO",
+      "type": "Evento — Emboscada tras el cruce del Isbrún",
+      "desc": "LIBRO 2, CAPÍTULO 17: Al pasar junto a la colina después del cruce, la tierra tiembla y salen centenares de tennúr. Elvar ordena un muro de escudos de tres filas; Grend se coloca a su lado y Huld al otro, mientras Orv abate a uno con una flecha. El enjambre sobrevuela el muro y ataca el carro de Ulfrir y Skuld. Elvar identifica el blanco y corre a defenderlo, seguida por Grend y otros. Ulfrir adopta forma de lobo, dispersa atacantes con un aullido y los mata con dientes y garras; algunos se aferran a un colmillo e intentan arrancarlo. Skuld combate en el aire. Uspa hace avanzar un escudo de runas llameantes que quema a numerosos vaesen, y Elvar lucha bajo el enjambre. Solo un puñado escapa. Ulfrir queda en pie, sangrando por muchas heridas; Skuld yace en el suelo y luego se incorpora sobre una rodilla. No se confirma recuperación completa de ninguno ni el destino de los tennúr supervivientes.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "disputa-sucesion-battle-grim",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "disputa-sucesion-battle-grim",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "reapertura-isbrun-ulfrir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "reapertura-isbrun-ulfrir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "emboscada-tennur-ulfrir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "emboscada-tennur-ulfrir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "disputa-sucesion-battle-grim",
+      "target": "huld",
+      "label": "tiene como impulsora a",
+      "type": "event"
+    },
+    {
+      "source": "disputa-sucesion-battle-grim",
+      "target": "elvar",
+      "label": "cuestiona la autoridad informal de",
+      "type": "event"
+    },
+    {
+      "source": "disputa-sucesion-battle-grim",
+      "target": "grend",
+      "label": "incluye la intervención de",
+      "type": "event"
+    },
+    {
+      "source": "disputa-sucesion-battle-grim",
+      "target": "uspa",
+      "label": "incluye la advertencia de",
+      "type": "event"
+    },
+    {
+      "source": "disputa-sucesion-battle-grim",
+      "target": "battle-grim",
+      "label": "afecta a la jefatura de",
+      "type": "event"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "sucesion-battle-grim",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "sucesion-battle-grim",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "sucesion-battle-grim",
+      "target": "disputa-sucesion-battle-grim",
+      "label": "surge explícitamente en",
+      "type": "trama"
+    },
+    {
+      "source": "sucesion-battle-grim",
+      "target": "huld",
+      "label": "tiene como candidata declarada a",
+      "type": "trama"
+    },
+    {
+      "source": "sucesion-battle-grim",
+      "target": "elvar",
+      "label": "plantea una elección personal a",
+      "type": "trama"
+    },
+    {
+      "source": "sucesion-battle-grim",
+      "target": "agnar",
+      "label": "busca sustituto para",
+      "type": "trama"
+    },
+    {
+      "source": "sucesion-battle-grim",
+      "target": "battle-grim",
+      "label": "concierne a",
+      "type": "trama"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "ulfrir",
+      "label": "tiene como ejecutor a",
+      "type": "event"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "elvar",
+      "label": "incluye el rescate de",
+      "type": "event"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "grend",
+      "label": "incluye el auxilio de",
+      "type": "event"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "sighvat",
+      "label": "incluye la ayuda de",
+      "type": "event"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "uspa",
+      "label": "sigue al intento fallido de",
+      "type": "event"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "skuld",
+      "label": "incluye el apoyo de",
+      "type": "event"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "isbrun",
+      "label": "restablece el paso por",
+      "type": "event"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "sellado-isbrun",
+      "label": "revierte el bloqueo de",
+      "type": "event"
+    },
+    {
+      "source": "reapertura-isbrun-ulfrir",
+      "target": "battle-grim",
+      "label": "permite el cruce de",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "ulfrir",
+      "label": "tiene como blanco principal a",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "skuld",
+      "label": "hiere también a",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "tennur",
+      "label": "tiene como atacantes a",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "elvar",
+      "label": "encuentra resistencia de",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "uspa",
+      "label": "incluye la defensa rúnica de",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "grend",
+      "label": "encuentra también resistencia de",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "orv-sneak",
+      "label": "incluye un disparo de",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "battle-grim",
+      "label": "sorprende a",
+      "type": "event"
+    },
+    {
+      "source": "emboscada-tennur-ulfrir",
+      "target": "isbrun",
+      "label": "ocurre después del cruce de",
+      "type": "geo"
+    },
+    {
+      "source": "guardia-tennur-isbrun",
+      "target": "reapertura-isbrun-ulfrir",
+      "label": "ve frustrado el bloqueo en",
+      "type": "trama"
+    },
+    {
+      "source": "guardia-tennur-isbrun",
+      "target": "emboscada-tennur-ulfrir",
+      "label": "desemboca en",
+      "type": "trama"
+    },
+    {
+      "source": "muerte-lik-rifa",
+      "target": "ulfrir",
+      "label": "recibe reconocimiento de causa común de",
+      "type": "trama"
+    },
+    {
+      "source": "muerte-lik-rifa",
+      "target": "reapertura-isbrun-ulfrir",
+      "label": "avanza mediante la ayuda de",
+      "type": "trama"
+    },
+    {
+      "source": "resucitar-y-someter-ulfrir",
+      "target": "reapertura-isbrun-ulfrir",
+      "label": "observa cooperación sin control probado en",
+      "type": "trama"
+    },
+    {
+      "source": "destino-tesoros-oskutred",
+      "target": "reapertura-isbrun-ulfrir",
+      "label": "comprueba la salida del botín en",
+      "type": "trama"
+    },
+    {
+      "source": "isbrun",
+      "target": "langdagur",
+      "label": "según Uspa, volverá a permitir el paso en",
+      "type": "lore"
+    }
+  ],
+  "summary": {
+    "chapter": 17,
+    "title": "Capítulo 17 — Elvar",
+    "summary": "<strong>Elvar</strong> avanza agotada con los <strong>Terrores de la batalla</strong>, tres carros de riquezas y un cuarto para <strong>Ulfrir</strong>. <strong>Uspa</strong> y <strong>Skuld</strong> atienden al dios, que sigue débil y rechaza su collar. Elvar le propone matar a <strong>Lik-Rifa</strong>, y él reconoce una causa común sin demostrar obediencia impuesta. <strong>Huld</strong> exige descansar y elegir sucesor de <strong>Agnar</strong>; se presenta como mejor candidata que Elvar. <strong>Grend</strong> evita que esta desenvaine, y Uspa logra que sigan: perder el <strong>Puente Isbrún</strong> supondría esperar medio año hasta <strong>Langdagur</strong>.<br><br>El puente está ausente y Elvar casi cae al vacío; Grend la salva con ayuda de <strong>Sighvat</strong>. El rito de Uspa revela la huella del granito, pero no el paso. Ulfrir aplica su sangre y rompe el sello de su hermana: dos figuras de niebla, lobo y dragón, chocan sobre el Foso y el lobo desgarra al dragón. El hielo reaparece y todos cruzan con los cuatro carros. La jefatura sigue pendiente.<br><br>Al bordear la colina, un enjambre de <strong>Tennur</strong> emerge del suelo. Elvar manda formar un muro y <strong>Orv el Sigiloso</strong> abate a uno, pero las criaturas sobrevuelan a los guerreros y atacan el carro del dios. Ulfrir toma forma de lobo; Skuld lucha en el aire, Uspa quema atacantes con runas y Elvar corre a ayudar. Solo escapa un puñado. Ulfrir termina sangrando por numerosas heridas, mientras Skuld logra alzarse sobre una rodilla. Ambos sobreviven; no se demuestra su recuperación completa."
+  }
+}

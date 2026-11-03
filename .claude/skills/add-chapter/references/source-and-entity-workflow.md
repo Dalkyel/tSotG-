@@ -53,7 +53,10 @@ archive as the factual baseline for an earlier replacement chapter.
 
    Pass every named entity, including context-only references; quote multiword names. It
    builds the complete parsed inventory through the book cap (retaining historical labels)
-   and matches accent-insensitive complete names within ids and labels, printing candidate
+   and matches accent-insensitive complete names within ids and labels, treating spaces
+   and hyphens (including Unicode dashes) as equivalent separators. For example,
+   `Dark of Moon` finds `Dark-of-Moon Hills`; word boundaries remain required, so
+   `DarkofMoon` does not. It prints candidate
    ids per name, grouped matching labels, and an explicit unmatched list. Two things it does
    **not** do: confirm identity (a match is a candidate, not a confirmed one — event and
    category labels can contain a character's name too) or translate (`The Dead Drengr`

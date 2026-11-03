@@ -1,5 +1,13 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch17 — `Dark of Moon` missed the existing
+  `Dark-of-Moon Hills` label and required another lookup. The entity matcher now
+  treats whitespace and hyphens/Unicode dashes as equivalent, retaining accent-insensitive matching,
+  Unicode whole-name boundaries, literal other punctuation, historical labels and
+  book caps. Documented in the source/entity workflow and tested with isolated
+  fixtures, including negative substring/concatenation cases and non-mutation.
+  Fully absorbed into the helper/reference; archived immediately.
+
 - 2026-11-03: Book Two Ch16 — corrected the summary reference’s relative link to
   `source-and-entity-workflow.md`. The required regression suite passed 59 tests but
   its default TAP output truncated a tool response; the Book Two workflow now uses

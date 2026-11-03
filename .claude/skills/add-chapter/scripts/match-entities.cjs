@@ -29,7 +29,10 @@ if (dumpAll) {
   for (const [id, labels] of inventory) console.log(`${id} | ${JSON.stringify([...labels])}`);
   process.exit(0);
 }
-const normalize = value => value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+// Source prose may space a compound that inventory labels/ids hyphenate.
+// Normalize separators without removing word boundaries or other punctuation.
+const normalize = value => value.normalize('NFD').replace(/\p{M}/gu, '')
+  .toLowerCase().replace(/[\p{Dash_Punctuation}\s]+/gu, ' ').trim();
 const escape = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const matched = new Map();
 const unmatched = [];
