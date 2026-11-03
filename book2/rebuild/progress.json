@@ -29,7 +29,8 @@
     25,
     26,
     27,
-    28
+    28,
+    29
   ],
   "chapters": [
     {
@@ -458,15 +459,33 @@
         }
       },
       "log": "Chapter 28: Elvar wins the holmganga, succeeds Agnar and orders Huld's burial and the return to the Wave-Jarl. The replacement records Uspa's intervention, preserves the unresolved rescue and campaign, closes the succession question and tracks both pending orders. Ownership, event and thread reviews and 59 prepublication tests passed. Browser appearance was not checked."
+    },
+    {
+      "chapter": 29,
+      "source": "book2/chapter 29.html",
+      "sourceHash": "6614c878bc7756f39954f0efc8272425c43a9fc4cf5d05dab30ac97d3daa0cb6",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch29.eZVmdC",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-29",
+        "hashes": {
+          "ownership-review.md": "a7eeab5a95e33edeca7fa55be69e97a869e680286e281985f97916b534aaea42",
+          "event-review.md": "b3b5c8ad16396c142894d016d6df70a2b20c2b71331566365da9214341c82ee9",
+          "thread-review.md": "a6a37f3d425535c75b5b7c954fad01f68c34b1fcee27b633be14b9a4ca9fce32",
+          "thread-checklist.json": "889ce148971318d15dcbb5cb8b43c4542f1cd9da5b30197698bf6e00cf8f7e79",
+          "completion.json": "21320a08925a58963bf67cecd5bff51ef510913d51c024b6f2b74227f3e6f7df",
+          "chapter.json": "595818d3196566027ab550e6bbf1c9fafd129fe9505126408c804d0b83340a16"
+        }
+      },
+      "log": "Chapter 29: Varg. Reviewed the supplied chapter, the Brimil encounter, the Darl departure and their open questions. Verified accumulated text, event discovery, summary mentions, relationship directions and the 188-item checklist. The prescribed pre-publication test suite passed. No manual browser preview."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "e474728b8a45d5812906e93b40e6a5eed059c823f430b1e325bb0c4c94fc6a06",
-    "book2/links.js": "7ad9a47ce4fc261eb6141801eecf96eccb9e82c26c1fafee25a3433cc2782a9e",
-    "book2/summaries.js": "d9b6f88106395a9f89cd4546fd2d0dad5696e77fabf2a72f1023472370882129"
+    "book2/nodes.js": "7cbccd890446cdcf968bc4b9d2d44d9897d489163c52d53440e67aaaced4378a",
+    "book2/links.js": "f64e14459fefc8d015f27ff1100aeb91b8ad781838e77a34ce820ea31fc4e282",
+    "book2/summaries.js": "b361df8380b3ecc452abbe22627f16ecf0fb21f8cc5401cdbb71849689910528"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -477,9 +496,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "5e78d6b831af3cbbe1b25f5537bc2c14717c2dbaf7619b091b7d3e4e5aabd47f",
-    "links": "5e3cc9f7f1185c2346ad03252522454e049c82afa891daa0634f70918f47644e",
-    "summaries": "ae00cb74dd7d4cdb9e8e71bea269214863013821813250590f042e2eb466cf90"
+    "nodes": "5f13f2572ac7beb46ffc44e595130e30c5a16a88b401e55de026f889747a3905",
+    "links": "4edbc5205e12d0d8ea8be98a4adaa209e0e6de6181f36a63bd3b41c35552dfa4",
+    "summaries": "cd03a3d0b9b815f67f1eaee5c7c5bab690e1ec9daad6053d3d3a57c5f1ab15ee"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

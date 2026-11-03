@@ -239,6 +239,14 @@ relationship. Check grammar against the complete endpoint title too: `protagoniz
 La Escala…` avoids `dirige la → La Escala…`, and `presencia → Los Battle-Grim…`
 avoids `observa la → Los Battle-Grim…`. Avoid generating links from a shared template
 when their verbs require different directions or articles.
+When batching participant links, choose the shared endpoint from the grammatical
+subject of the labels before building the array. With actor verbs, use the event
+as the shared target, as in `Svik Hrulfsson → organiza la estratagema en →
+Interrogatorio y Muerte de Brimil`. If the event is the shared source, write labels
+from its perspective, such as `ocurre en` for a place or `tiene como testigo a` for a
+witness. Keep participant, place and category links in separate batches when their
+directions differ. Read one full sentence from each batch before applying, then
+review every resulting link with `--review-links`.
 Check agreement with the actual source title too, rather than an implied word such as
 «conversación», «alianza» or «misión». For a title like `Biórr Revela su Infancia
 Esclavizada`, use `tiene como interlocutor a → Ilmur` rather than `escuchada por →

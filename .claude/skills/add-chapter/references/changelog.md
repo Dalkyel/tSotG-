@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch29 — a batch used actor verbs with the event as the
+  source, requiring a second manifest application. The link drafting rules now
+  explain how to choose the shared endpoint from the verb and spot-check each
+  batch before applying.
+
 - 2026-11-03: Book Two Ch28 — work stopped at a prepared run with the
   backlog partly read. The reprocessing guide now specifies how to checkpoint
   exact reader selections and review progress, resume at the next unchecked

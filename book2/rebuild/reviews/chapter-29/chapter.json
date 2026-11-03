@@ -1,0 +1,358 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 29 — VARG ──",
+  "nodes": [
+    {
+      "id": "interrogatorio-brimil",
+      "mode": "new",
+      "label": "Interrogatorio y Muerte de Brimil",
+      "group": "EVENTO",
+      "type": "Evento — Confrontación y pista",
+      "desc": "LIBRO 2, CAPÍTULO 29: Con permiso de Glornir, Varg sale del cuartel de los muelles con Svik, Røkia y Einar bajo el pretexto de comprar provisiones. En el mercado de esclavos, Svik hace que Varg se ponga su antiguo collar y lo presenta como fugitivo ante Brimil en El Drengr Muerto. Varg arremete, derriba al tabernero Rog y golpea al mercader. Røkia hiere y reduce a la guarda interior; Einar noquea al guarda de la puerta. Brimil reconoce la compra de Terna y Frøya a Kolskegg y admite castigar las fugas de Frøya; sus palabras dan a entender abuso sexual. El lobo desborda a Varg, que le arranca un trozo de mejilla de un mordisco antes de que Einar lo contenga. Brimil identifica como comprador a Brák Trolls-Bane, cazador a sueldo y trampero ausente de Darl que suele beber allí. Svik degüella a Brimil y explica que vio cambiar los ojos de Varg y que deben proteger el secreto compartido; Røkia y Einar matan a los dos guardas. Rog queda inmóvil tras golpearse la cabeza, con destino incierto. Røkia ayuda a Varg a quitarse el collar y le advierte que otra pérdida de control puede costarles la vida o la esclavitud."
+    },
+    {
+      "id": "partida-darl-liga",
+      "mode": "new",
+      "label": "Partida de Darl: Interceptar a Jaromir en Liga",
+      "group": "EVENTO",
+      "type": "Evento — Embarque y persecución",
+      "desc": "LIBRO 2, CAPÍTULO 29: Los Bloodsworn cargan provisiones y cuatro cadáveres amortajados, entre ellos Jökul, en el drakkar negro de veinte remos que presta Helka. Glornir promete a Varg que Brák rendirá cuentas. Æsa vigila al rehén Hakon en la proa, ya vestido y alimentado, y Helka envía como escolta al Úlfhéðnar Frek, que lleva collar de hierro. Helka exige el regreso pronto e indemne de su hijo y promete otro cofre de plata por Jaromir; Glornir reafirma su palabra y anuncia que volverá también por Skalk, ausente por sus heridas según Helka. La compañía larga amarras y rema por el Drammur al ritmo de Einar. Sulich explica que, pese a haber huido a caballo, Jaromir necesitará sus barcos en Liga para volver a Iskidan; allí esperan interceptarlo."
+    },
+    {
+      "id": "brak-trolls-bane",
+      "mode": "new",
+      "label": "Brák Trolls-Bane",
+      "group": "VARG",
+      "type": "Personaje — Trampero y cazador a sueldo",
+      "desc": "LIBRO 2, CAPÍTULO 29: Brimil lo identifica como comprador de Frøya y dice que frecuenta El Drengr Muerto cuando está en Darl, pero se halla fuera de la ciudad. Varg recibe su nombre durante interrogatorio-brimil y Glornir promete que rendirá cuentas. Su paradero concreto y la suerte de Frøya siguen pendientes en akall."
+    },
+    {
+      "id": "bruised-men",
+      "mode": "new",
+      "label": "Bruised Men (sur de Iskidan)",
+      "group": "COSMO",
+      "type": "Pueblo — Sur de Iskidan",
+      "desc": "LIBRO 2, CAPÍTULO 29: Nombre que Svik da a personas del sur de Iskidan. Varg ve a varias de piel muy oscura esclavizadas en una subasta de Darl; según Svik, tienen la lengua azul y la piel cambia de tono con la luz o al mojarse. Svik distingue su procedencia de la del grupo norteño de Jaromir."
+    },
+    {
+      "id": "pacto-caza-jaromir",
+      "mode": "update",
+      "previousState": "Se presenta la primera plata y se fijan alojamiento y custodia.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: Tras el acuerdo, Helka ofrece comida y bebida y presentan a Glornir un cofre abierto lleno de plata, que él cierra con el hacha. Rechaza alojarse en la fortaleza y se acuerda un cuartel junto a los muelles. Los Bloodsworn llevan allí a sus cuatro muertos mientras Røkia mantiene el seax contra la garganta de Hakon; Æsa toma después la custodia. El embarque y la ratificación en el muelle se narran en partida-darl-liga."
+    },
+    {
+      "id": "brimil",
+      "mode": "update",
+      "previousState": "Muere tras identificar al comprador de Frøya.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: Se identifica personalmente en El Drengr Muerto y presume de su trato con los fugitivos. Muere degollado por Svik tras revelar el nombre de Brák; véase interrogatorio-brimil.",
+      "label": "Brimil (†)",
+      "type": "Personaje — Mercader de esclavos fallecido"
+    },
+    {
+      "id": "rog",
+      "mode": "update",
+      "previousState": "Aparece un tabernero llamado Rog; su vínculo con la mención anterior es incierto.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: Brimil llama Rog al tabernero canoso de El Drengr Muerto, que cojea con un tobillo vendado. Cae y queda inmóvil tras el choque con Varg; véase interrogatorio-brimil. El capítulo no establece si es el Rog mencionado en el Grimholt.",
+      "type": "Personaje — Tabernero de Darl"
+    },
+    {
+      "id": "froya",
+      "mode": "update",
+      "previousState": "Añade testimonio de Brimil sobre la venta, sin confirmar su suerte.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: Brimil recuerda sus fugas, los castigos y su posterior venta a Brák Trolls-Bane; véase interrogatorio-brimil. Varg recuerda en privado cómo ella le limpiaba el rostro tras una pelea en la granja. Sigue sin conocerse su paradero ni confirmarse su muerte.",
+      "type": "Personaje — Hermana de Varg, destino incierto",
+      "starAppend": "LIBRO 2, CAPÍTULO 29: La pista de Brimil conduce a Brák; no aclara la muerte percibida, el vínculo entre hermanos ni el paradero actual."
+    },
+    {
+      "id": "dead-drengr",
+      "mode": "update",
+      "previousState": "Se ven las ventanas reparadas y su uso por mercaderes de esclavos.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: Desde el mercado de esclavos se llega bajando hacia el río. Varg ve las ventanas aparentemente reparadas; la sala tiene barra, mesas y lámparas de aceite de morsa. Brimil recibe allí a sus visitantes y dice que Brák suele beber en la taberna. Véase interrogatorio-brimil."
+    },
+    {
+      "id": "frek",
+      "mode": "update",
+      "previousState": "Embarca como escolta de Hakon.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: Helka lo designa para acompañar a Hakon en el barco prestado a los Bloodsworn. Sube armado, con cota de malla y collar de hierro, y se coloca junto al príncipe y Æsa; véase partida-darl-liga."
+    },
+    {
+      "id": "iskidan",
+      "mode": "update",
+      "previousState": "Svik distingue los orígenes septentrionales y meridionales.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: Svik describe Iskidan como mucho más vasto que Vigrið y sitúa a los Bruised Men en el sur y a Jaromir y su druzhina en el norte."
+    },
+    {
+      "id": "gravka",
+      "mode": "update",
+      "previousState": "Svik compara el tamaño de la sede imperial con Snakavik.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: Svik presenta a Gravka, ciudad del emperador, como mucho mayor que Snakavik."
+    },
+    {
+      "id": "akall",
+      "mode": "update",
+      "previousState": "La búsqueda de Frøya obtiene un nombre y el apoyo de Glornir.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: ESTADO: PARCIAL. En interrogatorio-brimil surge el nombre de Brák Trolls-Bane, última pista de la venta de Frøya. En partida-darl-liga, Glornir promete un ajuste de cuentas. Queda por localizar al cazador y esclarecer el paradero o la muerte de Frøya; el rito y la venganza siguen pendientes."
+    },
+    {
+      "id": "pasado-varg",
+      "mode": "update",
+      "previousState": "Una pérdida de control compromete el secreto compartido.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: ESTADO: PARCIAL. Durante interrogatorio-brimil Varg logra contenerse por un momento, pero pierde el control al oír a Brimil hablar de Frøya y necesita que Einar lo sujete para recobrar la calma. Svik dice que Brimil vio cambiar sus ojos. La capacidad de ocultar y regular el lobo bajo presión sigue sin demostrarse; tampoco se aclaran padres, edad, sensibilidad mágica ni vínculo con Frøya."
+    },
+    {
+      "id": "venganza-brimil",
+      "mode": "update",
+      "previousState": "El encuentro y la obtención de una pista se cumplen.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: ESTADO: RESUELTA en cuanto al encuentro con Brimil y la pista que podía ofrecer. Varg lo enfrenta y obtiene el nombre de Brák; Svik mata al mercader. Véase interrogatorio-brimil. La búsqueda de Frøya sigue en akall.",
+      "label": "Varg se Enfrenta a Brimil",
+      "type": "Trama — Enfrentamiento resuelto"
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "mode": "update",
+      "previousState": "La persecución empieza con una ruta propuesta.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: ESTADO: PARCIAL. En partida-darl-liga la compañía zarpa y Sulich propone interceptar a Jaromir en Liga por sus barcos. Falta la captura, la entrega y el pago restante."
+    },
+    {
+      "id": "salida-darl-hakon",
+      "mode": "update",
+      "previousState": "Se cumplen el préstamo, la escolta y la partida.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: ESTADO: PARCIAL. En partida-darl-liga se cumplen el préstamo del barco, la escolta de Frek y la salida del muelle con Hakon. La liberación y el regreso indemne del príncipe siguen pendientes."
+    },
+    {
+      "id": "venganza-glornir-skalk",
+      "mode": "update",
+      "previousState": "Glornir reitera que volverá por Skalk.",
+      "descAppend": "LIBRO 2, CAPÍTULO 29: ESTADO: ABIERTA. En partida-darl-liga Glornir reafirma que regresará por Skalk; Helka lo declara ausente por sus heridas. El ajuste de cuentas queda pendiente."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "interrogatorio-brimil",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "interrogatorio-brimil",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "partida-darl-liga",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "partida-darl-liga",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "venganza-brimil",
+      "label": "incluye",
+      "status": "broken",
+      "reason": "Libro 2, capítulo 29: Varg enfrenta a Brimil y consigue una pista sobre Frøya."
+    },
+    {
+      "source": "varg",
+      "target": "interrogatorio-brimil",
+      "label": "busca respuestas sobre Frøya en",
+      "type": "rel"
+    },
+    {
+      "source": "svik",
+      "target": "interrogatorio-brimil",
+      "label": "organiza la estratagema y mata a Brimil en",
+      "type": "rel"
+    },
+    {
+      "source": "rokia",
+      "target": "interrogatorio-brimil",
+      "label": "reduce a la guarda y ayuda a Varg en",
+      "type": "rel"
+    },
+    {
+      "source": "einar",
+      "target": "interrogatorio-brimil",
+      "label": "contiene a Varg y mata al guarda en",
+      "type": "rel"
+    },
+    {
+      "source": "brimil",
+      "target": "interrogatorio-brimil",
+      "label": "revela la venta antes de morir en",
+      "type": "rel"
+    },
+    {
+      "source": "rog",
+      "target": "interrogatorio-brimil",
+      "label": "queda inmóvil tras el golpe en",
+      "type": "rel"
+    },
+    {
+      "source": "froya",
+      "target": "interrogatorio-brimil",
+      "label": "su venta se esclarece en",
+      "type": "rel"
+    },
+    {
+      "source": "brak-trolls-bane",
+      "target": "interrogatorio-brimil",
+      "label": "es identificado como comprador en",
+      "type": "rel"
+    },
+    {
+      "source": "interrogatorio-brimil",
+      "target": "dead-drengr",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "brak-trolls-bane",
+      "target": "froya",
+      "label": "la compra según Brimil",
+      "type": "rel"
+    },
+    {
+      "source": "bruised-men",
+      "target": "iskidan",
+      "label": "proceden del sur según Svik",
+      "type": "geo"
+    },
+    {
+      "source": "bruised-men",
+      "target": "darl",
+      "label": "vistos en la subasta de",
+      "type": "geo"
+    },
+    {
+      "source": "partida-darl-liga",
+      "target": "darl",
+      "label": "zarpa de",
+      "type": "geo"
+    },
+    {
+      "source": "partida-darl-liga",
+      "target": "liga",
+      "label": "rumbo de la persecución según Sulich",
+      "type": "geo"
+    },
+    {
+      "source": "partida-darl-liga",
+      "target": "drammur",
+      "label": "navega por",
+      "type": "geo"
+    },
+    {
+      "source": "bloodsworn",
+      "target": "partida-darl-liga",
+      "label": "salen en",
+      "type": "rel"
+    },
+    {
+      "source": "glornir",
+      "target": "partida-darl-liga",
+      "label": "ordena largar amarras en",
+      "type": "rel"
+    },
+    {
+      "source": "helka",
+      "target": "partida-darl-liga",
+      "label": "presta el barco para",
+      "type": "rel"
+    },
+    {
+      "source": "hakon",
+      "target": "partida-darl-liga",
+      "label": "viaja como rehén en",
+      "type": "rel"
+    },
+    {
+      "source": "aesa",
+      "target": "partida-darl-liga",
+      "label": "vigila a Hakon en",
+      "type": "rel"
+    },
+    {
+      "source": "frek",
+      "target": "partida-darl-liga",
+      "label": "escolta a Hakon en",
+      "type": "rel"
+    },
+    {
+      "source": "sulich",
+      "target": "partida-darl-liga",
+      "label": "propone el rumbo de",
+      "type": "rel"
+    },
+    {
+      "source": "partida-darl-liga",
+      "target": "jaromir",
+      "label": "inicia la persecución de",
+      "type": "rel"
+    },
+    {
+      "source": "partida-darl-liga",
+      "target": "jokul",
+      "label": "transporta el cadáver de",
+      "type": "rel"
+    },
+    {
+      "source": "venganza-brimil",
+      "target": "interrogatorio-brimil",
+      "label": "evidencia del capítulo 29",
+      "type": "rel"
+    },
+    {
+      "source": "akall",
+      "target": "interrogatorio-brimil",
+      "label": "evidencia del capítulo 29",
+      "type": "rel"
+    },
+    {
+      "source": "pasado-varg",
+      "target": "interrogatorio-brimil",
+      "label": "evidencia del capítulo 29",
+      "type": "rel"
+    },
+    {
+      "source": "caza-jaromir-darl",
+      "target": "partida-darl-liga",
+      "label": "evidencia del capítulo 29",
+      "type": "rel"
+    },
+    {
+      "source": "salida-darl-hakon",
+      "target": "partida-darl-liga",
+      "label": "evidencia del capítulo 29",
+      "type": "rel"
+    },
+    {
+      "source": "venganza-glornir-skalk",
+      "target": "partida-darl-liga",
+      "label": "evidencia del capítulo 29",
+      "type": "rel"
+    },
+    {
+      "source": "pacto-caza-jaromir",
+      "target": "partida-darl-liga",
+      "label": "comienza a ejecutarse en",
+      "type": "rel"
+    },
+    {
+      "source": "frek",
+      "target": "hakon",
+      "label": "lo acompaña por orden de Helka",
+      "type": "rel"
+    }
+  ],
+  "summary": {
+    "chapter": 29,
+    "title": "Capítulo 29 — Varg",
+    "summary": "<strong>Varg</strong> sale del cuartel de los muelles de <strong>Darl</strong> con la oreja perdida, cauterizada por <strong>Glornir</strong>, y de duelo por <strong>Jökul Mano-Martillo</strong>. La noche anterior la reina ha presentado un cofre de plata tras el pacto y la compañía ha llevado a sus cuatro muertos al cuartel. Con permiso de Glornir, Varg acompaña a <strong>Svik Hrulfsson</strong>, <strong>Røkia</strong> y <strong>Einar Medio-Trol</strong> al mercado de esclavos. Allí ve subastar a personas del sur de <strong>Iskidan</strong>, llamadas <strong>Bruised Men</strong> por Svik. Se pone su antiguo collar para hacerse pasar por un fugitivo que Svik ofrece vender.<br><br>En <strong>El Drengr Muerto</strong>, Varg derriba al tabernero <strong>Rog</strong> y golpea a <strong>Brimil</strong>. El mercader admite los castigos infligidos a <strong>Frøya</strong> por sus fugas e insinúa abuso sexual. Varg pierde el control y lo muerde; Einar lo contiene. Brimil confiesa que vendió a Frøya a <strong>Brák Trolls-Bane</strong>, un cazador y trampero ausente de Darl que bebe allí cuando está en la ciudad. Svik lo degüella para guardar el secreto del lobo y Røkia y Einar matan a sus guardas. Røkia ayuda a Varg a quitarse el collar y le advierte del peligro que su pérdida de control supone para todos.<br><br>En los muelles, Glornir promete que Brák rendirá cuentas. La compañía embarca sus provisiones y los cuatro cuerpos en el drakkar prestado por la <strong>Reina Helka</strong>. <strong>Æsa</strong> custodia al rehén <strong>Hakon</strong> y <strong>Frek</strong> sube como escolta por orden de la reina. Helka exige que su hijo vuelva ileso y promete más plata por <strong>Principe Jaromir</strong>; Glornir dice que volverá también por <strong>Skalk</strong>. Al zarpar por el <strong>Drammur</strong>, <strong>Sulich</strong> explica que Jaromir necesita sus barcos en <strong>Liga</strong> para regresar a Iskidan y que pueden interceptarlo allí si se apresuran."
+  }
+}
