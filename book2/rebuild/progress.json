@@ -15,7 +15,8 @@
     11,
     12,
     13,
-    14
+    14,
+    15
   ],
   "chapters": [
     {
@@ -192,15 +193,33 @@
         }
       },
       "log": "Chapter 14: Biórr — replaced legacy content with 15 source-reviewed node revisions, 33 links and a Spanish summary; covered childhood testimony, tennúr alliance and Isbrún seal, retained partial mysteries and added the pending guard assignment. Ownership, event coverage and all 162 clue checklist items reviewed; verifier and 59 regression tests pass. Browser visual preview was blocked by the local file URL policy; no workaround attempted."
+    },
+    {
+      "chapter": 15,
+      "source": "book2/chapter 15.html",
+      "sourceHash": "9ca3546d568b66385aad97723a6c4f05ac64c4c3a851b19c62df44f34fb90c48",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch15.4T5zvx",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-15",
+        "hashes": {
+          "ownership-review.md": "c18e00b44d72afc783d8925175a24927a912116f71162e377fb6f12a780a949f",
+          "event-review.md": "8c0b0f9712a9f40fa796c287660f385539ce026d90b1631c81f4e64a0c505fd0",
+          "thread-review.md": "8ed1bc93dff32d02dec754119b5b5b6ca7141f880f6ee04bcfd2a4ea95496e3d",
+          "thread-checklist.json": "f8e9451dcc5c38cb56c57af96ebbf931ecb23df92bff5e36894688439855babd",
+          "completion.json": "bed9351a898c72deb4b8d97e133dd22016fa08d23dca6f81bd970ffe4bb17652",
+          "chapter.json": "32a7131d338ea07c0ec1bb1f92886a3a2f5f353470af4023dd36e8028d5f3a05"
+        }
+      },
+      "log": "Chapter 15: Reprocessed Orka’s complete supplied source; added Gunnar and Revna, the mine inspection event and two explicit open questions; advanced Breca and missing-children evidence, retained attributed contradictory Valkyrie sagas, and preserved accumulated profiles and all later chapters. Ownership, event and 165-candidate thread reviews PASS; chapter verifier, 23 summary identities and overlap checks PASS; all 59 required regression tests PASS. Browser security policy blocked the local file preview, so visual confirmation remains manual."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "2cf166cb3ddcf63aff4a59496624aef7103360b289178b2f87b422766b35cfc3",
-    "book2/links.js": "d0ac8b987a6837715d10683f1a32ceb80704722f99dfbe57bd97cedac508b3d2",
-    "book2/summaries.js": "f62c6ae35227048a24f03d5831cf6fbebeedfe4862ac126c1ea0e1ec6c849824"
+    "book2/nodes.js": "1ac3389b4b0cc81f3e502740c74cfee00ac20e06294f158425b3987ee434f63b",
+    "book2/links.js": "0f4978ad16b555bdb28b462f251df208bd5cdc53d935022042a1ece74cfbea87",
+    "book2/summaries.js": "4063495602f6a0105e9c615d2082b92c3ff6984c29450be85f0e41846f4f1dc4"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -211,9 +230,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "7d1d74cd47aa1401c34b1245fcbb18257b8471b3395cd7a904d675560bb2959d",
-    "links": "ba9c18d7ac754894522f161ca12ee67c7e398847ee6fe9a129a599ad5bba94df",
-    "summaries": "4ab0644983d8b7cbb5cd87e1a37fc8150a12db99117d4a055a50e669a22223ae"
+    "nodes": "13cc0e5d065432ab47246b8d96836e5581ace17de042687067c5c17aaef69687",
+    "links": "9ab9c34d0f21dca95399c8d25b100fdbdf623938a998d73526a07ce8eda279ab",
+    "summaries": "f356193403e1682e79a0117a5b4b1ac2bda93403f9aefc4d4ac2cf41fa927077"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

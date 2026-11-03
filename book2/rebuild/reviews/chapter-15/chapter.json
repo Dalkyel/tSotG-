@@ -1,0 +1,377 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 15 — ORKA ──",
+  "nodes": [
+    {
+      "id": "orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Reconoce el cadáver del dragon-born del que habló Glornir y examina su tatuaje; véase rastro-breca-camara-rotta. Ordena a Vesli quitarle los dientes. En la losa siente al lobo de su sangre inquieto, sin explicar la causa. Sugiere recoger los pergaminos para Glornir y Vol, y le preocupa que Skalk disponga de aquellos secretos. Ante el lecho atribuido a Breca se arrodilla, llora y renueva privadamente su promesa de encontrarlo. Gunnar solicita su parecer sobre el campamento; ella lo remite a Edel, desaconseja dormir dentro por la única entrada y permanece buscando cuando los demás se retiran.",
+      "previousState": "Inspecciona la mina y encuentra una pista de Breca sin recuperarlo."
+    },
+    {
+      "id": "lif",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Acompaña a Orka por la cámara y se aparta con náuseas cuando Vesli come un diente de una muerta. Al oír el tormento atribuido a Rotta dice que le gustaría infligírselo a Guðvarr; véase venganza-virk. Reconoce que no sabe leer y lo explica por su oficio de pescador al entregar un pergamino a Orka. Pregunta si ella vuelve con los demás, pero se marcha cuando decide seguir buscando.",
+      "previousState": "Declara que no sabe leer y reafirma su hostilidad hacia Guðvarr."
+    },
+    {
+      "id": "breca",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Spert afirma que estuvo en una colchoneta de la cámara de Rotta y Vesli reconoce el mismo rastro. No aparece en persona ni se determina cuándo partió, adónde fue llevado o cómo se encuentra. Véanse rastro-breca-camara-rotta y rescate-breca.",
+      "previousState": "Los vaesen identifican un lecho que ocupó en la mina."
+    },
+    {
+      "id": "spert",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Viaja dormido sobre la silla de Orka y vuelve a pedir comida. Examina cadáveres introduciendo sus antenas en heridas y probando lo extraído: distingue al anciano, «humano, pero no», de un humano y de una mujer diferente del anciano, a la que Orka interpreta como otra Tainted no dragon-born. Es una discriminación observada en estos cuerpos, no una regla demostrada para todos los linajes. Recorre la losa de Rotta con las antenas y luego identifica el lecho donde estuvo Breca; véase rastro-breca-camara-rotta.",
+      "previousState": "Distingue cuerpos mediante sus antenas y detecta el rastro del niño."
+    },
+    {
+      "id": "vesli",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Conserva la media lanza de Breca y anuncia el olor de los muertos al llegar a la mina. Arranca dientes de una guerrera, come uno y guarda otros en una bolsa de cuero; obedece a Orka haciendo lo mismo con el anciano dragon-born. Tiembla ante la losa de Rotta y dice que no le gusta. En la sala infantil olfatea la misma colchoneta que Spert señala como ocupada por Breca; véase rastro-breca-camara-rotta.",
+      "previousState": "Recoge dientes y contribuye al reconocimiento del rastro de Breca."
+    },
+    {
+      "id": "edel",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Lleva a Orka y Lif hasta el claro de la mina con sus dos perros, al frente de una escolta de diez Bloodsworn. Envía a los sabuesos a inspeccionar el claro, el bosque del otro lado y la entrada de la excavación antes de avanzar. Orka la reconoce como la persona a quien Gunnar debe consultar dónde acampar.",
+      "previousState": "Llega a la mina y dirige el reconocimiento inicial."
+    },
+    {
+      "id": "halja",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Acompaña a Orka junto a las Montañas Espinazo. Es joven y lleva el pelo rojizo dorado recogido en trenzas. Se detiene ante uno de los cuatro túmulos recientes del claro; Orka interpreta por su postura y expresión que llora a alguien, sin identificar el túmulo ni al difunto.",
+      "previousState": "Se detiene de duelo ante un túmulo no identificado."
+    },
+    {
+      "id": "gunnar-prow",
+      "mode": "new",
+      "label": "Gunnar Prow (Gunnar Proa)",
+      "group": "ORKA",
+      "type": "Personaje — Guerrero Bloodsworn",
+      "desc": "LIBRO 2, CAPÍTULO 15: Guerrero joven, rubio, alto y delgado, con una nariz prominente y curva que explica su sobrenombre. Se incorporó a los Bloodsworn después de que Orka los dejara. Es amante de Revna Hare-Legs; no ocultan la relación durante el viaje. Sabe leer. Ofrece una antorcha a Orka y guía la inspección de las salas que conoce de su anterior visita; véase rastro-breca-camara-rotta. Aporta la versión de las sagas conservada en castigo-rotta y lee el encabezamiento de un pergamino de Rotta, pero evita seguir. Consulta a Orka dónde acampar y acepta dirigirse a Edel.",
+      "star": ""
+    },
+    {
+      "id": "revna-hare-legs",
+      "mode": "new",
+      "label": "Revna Hare-Legs (Revna Patas de Liebre)",
+      "group": "ORKA",
+      "type": "Personaje — Guerrera Bloodsworn",
+      "desc": "LIBRO 2, CAPÍTULO 15: Joven incorporada después de la marcha de Orka, llamada así por su velocidad en batalla. Es amante de Gunnar Prow, relación que ambos muestran abiertamente en el viaje. Enciende antorchas con pedernal y hierro y acompaña la inspección; véase rastro-breca-camara-rotta. Relata el tormento de Rotta y pregunta por su liberación y ausencia de las sagas de Guðfalla. Acepta recoger los pergaminos para Glornir y Vol y comienza a reunirlos. Muestra a Orka la sala de los lechos infantiles y después propone volver con los demás.",
+      "star": ""
+    },
+    {
+      "id": "camara-rotta",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: El acceso oriental del claro se abre en un acantilado al borde de las Montañas Espinazo, entre pinares. Hay escombros y carros abandonados; Gunnar dice que la excavación quedó incompleta y forma una madriguera de túneles y salas pequeñas y húmedas. Orka observa la losa central con cuatro cadenas de hierro acabadas en grilletes rotos y marcas negras en la piedra. Otra sala conserva nichos con pergaminos enrollados, una mesa rota, tinteros de arcilla y útiles de hueso; comunica con la estancia donde, según Gunnar, se guardaba la garra de Orna. La sala infantil contiene decenas de colchones pequeños y huele a orina y excrementos. La inspección y el reconocimiento de un lecho constan en rastro-breca-camara-rotta.",
+      "previousState": "Inspección directa de accesos, grilletes rotos, escritos y dormitorio infantil.",
+      "type": "Lugar — Cámara atribuida a Rotta",
+      "starAppend": "LIBRO 2, CAPÍTULO 15: Un lecho recibe identificación concreta como rastro de Breca, sin localizarlo ahora; véase rescate-breca. Los grilletes rotos sostienen la pregunta destino-rotta, no una supervivencia confirmada."
+    },
+    {
+      "id": "castigo-rotta",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Gunnar cuenta otra versión de las sagas: Rotta estranguló y desolló a su sobrina Valkyrie, hija de Orna y Ulfrir, la colgó de un árbol y culpó a Lik-Rifa. Los padres descubrieron el engaño; Rotta huyó a estas cámaras y escribió Rauðskinna en la piel de la víctima. Según Gunnar, Vol identificó la losa como aquella donde Orna y Ulfrir lo encadenaron porque querían una venganza más larga que la muerte. Revna describe el tormento eterno con veneno de serpiente; Orka recuerda la tradición de serpientes nacidas de Snaka enjauladas en el techo. Son relatos atribuidos: esta versión difiere de la acusación de Kráka contra Lik-Rifa en el Libro 1, capítulo 48, y no la borra. Las cadenas rotas observadas ahora no revelan cómo salió Rotta ni su destino.",
+      "previousState": "Añade el relato de Gunnar y Revna, conservando la contradicción mítica."
+    },
+    {
+      "id": "valkyrie",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Gunnar atribuye su muerte a Rotta y dice que este culpó falsamente a Lik-Rifa; véase castigo-rotta para el relato de estrangulamiento, desollamiento y uso de la piel. Esta versión contradice la atribución a Lik-Rifa hecha por Kráka en el Libro 1, capítulo 48; se conservan ambas como testimonios de sagas, sin resolver cuál es correcta.",
+      "previousState": "Conserva dos atribuciones incompatibles de su asesinato."
+    },
+    {
+      "id": "raudskinna",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Según Gunnar, Rotta escribió sus secretos en la piel desollada de Valkyrie mientras se ocultaba de Orna y Ulfrir. Es una atribución de las sagas; véase castigo-rotta. El encabezamiento leído ahora identifica un pergamino como copia de fragmentos del Galdrabok de Rotta, no como el propio volumen completo.",
+      "previousState": "Precisa el soporte atribuido y distingue el libro de las copias fragmentarias."
+    },
+    {
+      "id": "rotta",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: Gunnar lo identifica como hermano de Orna y Ulfrir y tío de Valkyrie. Su versión atribuye a Rotta el asesinato y el engaño contra Lik-Rifa; véase castigo-rotta para el relato y su contradicción con Kráka. Revna no conoce una saga que lo sitúe en la última batalla de Guðfalla y pregunta cómo salió de sus cadenas. Su ausencia de la cámara y los grilletes rotos no confirman muerte ni supervivencia; véase destino-rotta.",
+      "previousState": "Añade parentesco atribuido y la pregunta explícita sobre su destino."
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "mode": "new",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "group": "EVENTO",
+      "type": "Evento — Inspección y descubrimiento",
+      "desc": "LIBRO 2, CAPÍTULO 15: La escolta de diez Bloodsworn encabezada por Edel lleva a Orka y Lif a la mina en las Montañas Espinazo. Los perros reconocen el lugar. En el claro encuentran un trol, skraelings y humanos muertos, despojados y en descomposición, y cuatro túmulos recientes; Halja se detiene ante uno. Orka reconoce al anciano dragon-born que Glornir mencionó y descubre en pecho y hombro un dragón alado tatuado, semejante al de Drekr y a una talla de la roca de juramento vista camino al Grimholt; no identifica al muerto por nombre ni conoce el significado del símbolo. Vesli toma dientes y Spert discrimina entre los cuerpos de un humano y dos Tainted, uno el anciano. Gunnar y Revna guían al grupo junto a la losa de cadenas rotas y relatan las sagas del castigo de Rotta. En la sala de los escritos, Gunnar señala dónde capturaron a Vol y dice que Varg mató a un drengr de Skalk. Lee un pergamino que se presenta como copia de fragmentos del Galdrabok de Rotta; Revna dice que había muchos más en el cofre que Skalk robó al raptar a Vol. Orka pide recoger los restantes para Glornir y Vol; Revna comienza a hacerlo. Después entran en una sala de colchones pequeños que Orka reconoce como prisión infantil, semejante a la de Darl. Spert y Vesli señalan uno y Spert afirma que Breca estuvo allí. Orka se arrodilla y llora, sin hallar al niño. Cuando Gunnar plantea acampar dentro, Orka lo remite a Edel y aconseja el bosque porque solo hay una entrada. Los otros se retiran y ella continúa buscando.",
+      "star": "LIBRO 2, CAPÍTULO 15: El rastro confirma un paso anterior de Breca, no su ubicación actual. Las coincidencias del tatuaje quedan pendientes en tatuajes-dragon; los grilletes rotos en destino-rotta."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "mode": "new",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "group": "TRAMA",
+      "type": "Trama — Significado pendiente",
+      "desc": "LIBRO 2, CAPÍTULO 15: PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 15. En rastro-breca-camara-rotta Orka reconoce un dragón alado tatuado en el anciano dragon-born y recuerda la imagen de Drekr y la roca de juramento que vio camino al Grimholt. Se pregunta si todos los dragon-born llevan esa marca o si significa algo más. Es una comparación y una pregunta de Orka, no una propiedad general demostrada ni prueba de pertenencia común a una organización. ESTADO: ABIERTA. Pendientes: significado de la marca, quiénes la llevan y si es universal entre los dragon-born.",
+      "star": ""
+    },
+    {
+      "id": "destino-rotta",
+      "mode": "new",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "group": "TRAMA",
+      "type": "Trama — Destino divino desconocido",
+      "desc": "LIBRO 2, CAPÍTULO 15: PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 15. Ante los grilletes rotos de la cámara, Revna pregunta cómo escapó Rotta y señala que no aparece en ninguna saga de la última batalla de Guðfalla que ella conozca. Orka observa que no está allí. Véanse castigo-rotta y rastro-breca-camara-rotta. ESTADO: ABIERTA. Pendientes: cómo se rompió el encierro y qué ocurrió después con Rotta; la ausencia y el recuerdo incompleto de las sagas no establecen muerte ni supervivencia.",
+      "star": ""
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: ESTADO: PARCIAL. Los vaesen reconocen un lecho que ocupó Breca; Orka renueva en silencio la promesa de encontrarlo. Véase rastro-breca-camara-rotta para el hallazgo. Su ubicación actual, salud, salida de la mina y rescate continúan pendientes.",
+      "previousState": "Nueva pista de su paso por la cámara, sin rescate."
+    },
+    {
+      "id": "ninos-robados",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: ESTADO: PARCIAL. La inspección de rastro-breca-camara-rotta identifica un lecho de Breca entre las colchonetas infantiles. No identifica a Harek ni a los demás ocupantes, ni determina sus destinos actuales o una autoría común de todos los raptos.",
+      "previousState": "La sala infantil aporta un ocupante identificado, no el destino de todos."
+    },
+    {
+      "id": "venganza-virk",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 15: ESTADO: PARCIAL. Lif dice que le gustaría infligir a Guðvarr el tormento que las sagas atribuyen a Rotta. Reafirma el deseo de venganza, sin encontrarlo ni atacarlo; véase rastro-breca-camara-rotta para el contexto. La venganza por Virk y Mord y su propia seguridad siguen pendientes.",
+      "previousState": "Nueva expresión de venganza, sin cumplimiento."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-orka",
+      "target": "gunnar-prow",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "revna-hare-legs",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "rastro-breca-camara-rotta",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "tatuajes-dragon",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "destino-rotta",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "rastro-breca-camara-rotta",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "tatuajes-dragon",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "destino-rotta",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "orka",
+      "label": "tiene como participante a",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "lif",
+      "label": "tiene como participante a",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "edel",
+      "label": "tiene como participante a",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "halja",
+      "label": "tiene como participante a",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "gunnar-prow",
+      "label": "tiene como participante a",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "revna-hare-legs",
+      "label": "tiene como participante a",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "spert",
+      "label": "tiene como participante a",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "vesli",
+      "label": "tiene como participante a",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "camara-rotta",
+      "label": "transcurre en",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "breca",
+      "label": "reconoce un rastro anterior de",
+      "type": "event"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "castigo-rotta",
+      "label": "recoge nuevas versiones de",
+      "type": "lore"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "galdrabok",
+      "label": "encuentra copias fragmentarias de un",
+      "type": "lore"
+    },
+    {
+      "source": "rastro-breca-camara-rotta",
+      "target": "skalk",
+      "label": "recoge el testimonio del robo de un cofre de escritos por",
+      "type": "event"
+    },
+    {
+      "source": "gunnar-prow",
+      "target": "revna-hare-legs",
+      "label": "es amante de",
+      "type": "rel"
+    },
+    {
+      "source": "gunnar-prow",
+      "target": "bloodsworn",
+      "label": "pertenece a",
+      "type": "rel"
+    },
+    {
+      "source": "revna-hare-legs",
+      "target": "bloodsworn",
+      "label": "pertenece a",
+      "type": "rel"
+    },
+    {
+      "source": "camara-rotta",
+      "target": "montanas-espinazo",
+      "label": "se abre en un claro de",
+      "type": "geo"
+    },
+    {
+      "source": "castigo-rotta",
+      "target": "ulfrir",
+      "label": "según Gunnar, también es impuesto por",
+      "type": "lore"
+    },
+    {
+      "source": "castigo-rotta",
+      "target": "valkyrie",
+      "label": "según Gunnar, venga el asesinato de",
+      "type": "lore"
+    },
+    {
+      "source": "castigo-rotta",
+      "target": "likrafa",
+      "label": "según Gunnar, deriva de una acusación falsa contra",
+      "type": "lore"
+    },
+    {
+      "source": "raudskinna",
+      "target": "valkyrie",
+      "label": "según Gunnar, fue escrito en la piel de",
+      "type": "lore"
+    },
+    {
+      "source": "tatuajes-dragon",
+      "target": "rastro-breca-camara-rotta",
+      "label": "recibe evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "destino-rotta",
+      "target": "rastro-breca-camara-rotta",
+      "label": "recibe evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "rescate-breca",
+      "target": "rastro-breca-camara-rotta",
+      "label": "recibe evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "ninos-robados",
+      "target": "rastro-breca-camara-rotta",
+      "label": "recibe evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "tatuajes-dragon",
+      "target": "orka",
+      "label": "recoge la pregunta de",
+      "type": "trama"
+    },
+    {
+      "source": "tatuajes-dragon",
+      "target": "drekr",
+      "label": "compara la marca de",
+      "type": "trama"
+    },
+    {
+      "source": "destino-rotta",
+      "target": "rotta",
+      "label": "investiga el destino de",
+      "type": "trama"
+    },
+    {
+      "source": "destino-rotta",
+      "target": "revna-hare-legs",
+      "label": "recoge la pregunta de",
+      "type": "trama"
+    },
+    {
+      "source": "destino-rotta",
+      "target": "castigo-rotta",
+      "label": "investiga el fin de",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 15,
+    "title": "Capítulo 15 — Orka",
+    "summary": "<strong>Orka Skullsplitter</strong> llega con <strong>Lif</strong>, <strong>Edel</strong> y su escolta a la <strong>Cámara de Rotta</strong>. Entre cadáveres despojados y cuatro túmulos recientes, <strong>Halja Nariz-Plana</strong> guarda duelo ante una tumba. Orka reconoce al anciano dragon-born muerto y descubre un tatuaje de dragón alado semejante al de <strong>Drekr</strong> y a una talla vista durante su viaje. <strong>Vesli</strong> recoge dientes de los muertos; <strong>Spert</strong> examina sus heridas y distingue a dos Tainted de un humano.<br><br><strong>Gunnar Prow</strong> y <strong>Revna Hare-Legs</strong>, jóvenes amantes de los <strong>Bloodsworn</strong>, guían la inspección. Gunnar cuenta que, según las sagas, <strong>Rotta</strong> mató a <strong>Valkyrie</strong>, culpó a <strong>Lik-Rifa</strong> y escribió <strong>Rauðskinna</strong> en la piel de la víctima. Él y Revna atribuyen a <strong>Orna</strong> y <strong>Ulfrir</strong> el tormento del dios bajo veneno de serpientes. Los grilletes de la losa están rotos: Revna pregunta cómo salió Rotta y qué fue de él. Lif expresa que querría ese castigo para <strong>Guðvarr</strong>.<br><br>Entre los escritos, Gunnar lee el comienzo de una copia de fragmentos del <strong>Galdrabók</strong> de Rotta. Revna explica que <strong>Skalk</strong> robó muchos más dentro del cofre al raptar a <strong>Vol</strong>. Orka pide recoger los restantes para ella y <strong>Glornir</strong>, y Revna comienza a reunirlos. En una sala de colchones infantiles, Spert y Vesli reconocen el rastro de <strong>Breca</strong>. Orka se arrodilla llorando y renueva en silencio su promesa de encontrarlo. Recomienda acampar fuera porque la mina tiene una única entrada y se queda buscando cuando los otros se retiran."
+  }
+}

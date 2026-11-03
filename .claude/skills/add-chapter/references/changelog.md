@@ -1,5 +1,11 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch15 — a full entrypoint read contributed to truncated output.
+  Moved the detailed summary mention/matcher and preview rules verbatim into
+  `chapter-summary-links.md`, with a required read before summary drafting. The main
+  summary heading, schema and formatting conventions remain stable, including existing
+  links into that section. This reduces startup material without dropping safeguards.
+
 - 2026-11-03: Book Two Ch13 — first real use of three tools added in a direct skill
   review (not a per-chapter friction check): shared `scripts/paginate.cjs` across the
   five pagination-based readers plus `verify-chapter.cjs`'s `--review-nodes` pager

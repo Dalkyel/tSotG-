@@ -1,0 +1,1672 @@
+{
+  "book": 2,
+  "chapter": 15,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch15.4T5zvx/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 15: Su reacción ante la losa añade una sensación sin causa explicada; su dolor y promesa son privados. No se aclaran infancia, mujer enjaulada ni la historia Skullsplitter.",
+      "remaining": "Causas de sensibilidad, historia no contada y llamada de lobo."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El tatuaje del anciano no explica qué vio Thorkel ni la transformación incompleta narrada por Vesli.",
+      "remaining": "Sentido exacto de dragon-born en su agonía y consecuencias de la prueba de sangre."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 15: El reconocimiento olfativo de su antiguo lecho aporta una pista concreta, registrada en su perfil y rescate-breca.",
+      "remaining": "Paradero y salud actuales; recuperación."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Los cuerpos de la mina no identifican a los asesinos de Asgrim.",
+      "remaining": "Autoría del ataque a la granja."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Ninguno de los cuerpos o lechos identifica a Idrun, sus atacantes o su hijo.",
+      "remaining": "Autores y destino de Harek."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Solo Breca es identificado por los vaesen; no se reconoce el rastro de Harek.",
+      "remaining": "Paradero y supervivencia de Harek."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: El recuerdo de serpientes nacidas de Snaka es tradición de castigo-rotta, no nueva prueba de la geografía de su cuerpo.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Revna no conoce sagas que sitúen a Rotta en la última batalla; no revisa la guerra ni resuelve la crítica de Orka a la supuesta paz.",
+      "remaining": "Destino de Rotta separado en destino-rotta; contexto histórico conservado."
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La inspección de la mina no nombra asesinos de la familia ni localiza a Harek.",
+      "remaining": "Autoría y destino de Harek."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El trol muerto y los demás cadáveres no explican la lesión del fell-wolf del primer capítulo.",
+      "remaining": "Qué lo hirió."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Orígenes y control del lobo interior de Varg.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Orígenes y control del lobo interior de Varg."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidad y testimonios sobre Snepil/Kolskegg conservados sin identificación nueva.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidad y testimonios sobre Snepil/Kolskegg conservados sin identificación nueva."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Pistas propias de Einar y el cuidado de los niños de su grupo.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Pistas propias de Einar y el cuidado de los niños de su grupo."
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Akáll y respuesta sobre Frøya.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Akáll y respuesta sobre Frøya."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none; se conserva la revelación previa de su contenido.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none; se conserva la revelación previa de su contenido."
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Padres, edad y control autónomo del lobo de Varg.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Padres, edad y control autónomo del lobo de Varg."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La pista de Breca no resuelve el patrón de desapariciones que Virk denunció.",
+      "remaining": "Otros desaparecidos; venganza sigue en venganza-virk."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Lif expresa un deseo de castigarlo; no se muestra al drengr ni cambia su autoridad o situación.",
+      "remaining": "Represalias y destino; venganza-virk permanece parcial."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Las sagas y escritos de Rotta no revelan el plan político de Störr ni su reacción a Elvar.",
+      "remaining": "Plan oculto de Störr."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La inquietud de Orka ante otra losa no demuestra el mecanismo de su sensibilidad al nudillo divino.",
+      "remaining": "Causa de esa sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La mina no muestra nuevas decisiones de lealtad, tributos o guerra entre Helka y Störr.",
+      "remaining": "Consecuencias de expansión y sumisión de Fellur."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 15: La identificación del lecho de Breca aporta un ocupante a la sala antes anónima; los demás niños y la autoría común no quedan establecidos.",
+      "remaining": "Identificar y recuperar a los otros desaparecidos y a Breca."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Estado y paradero de Frøya, incluida la vía de Brimil.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Estado y paradero de Frøya, incluida la vía de Brimil."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Responsabilidades y pasado de Leif conservados sin información nueva.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Responsabilidades y pasado de Leif conservados sin información nueva."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Rescate de Bjarn, venganza y lucha con Lik-Rifa.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Rescate de Bjarn, venganza y lucha con Lik-Rifa."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Juramento a la madre de Elvar y gytha-grend.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Juramento a la madre de Elvar y gytha-grend."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Causa de los presentimientos; muerte ya confirmada y venganza en venganza-biorr.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Causa de los presentimientos; muerte ya confirmada y venganza en venganza-biorr."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Situación del juramento de sangre de Kráka como ausente.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Situación del juramento de sangre de Kráka como ausente."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Amo y circunstancias, familia y represalia en biorr-cicatrices; identidad del hombre con seaxes del cap. 9.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Amo y circunstancias, familia y represalia en biorr-cicatrices; identidad del hombre con seaxes del cap. 9."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Libertad de Berak, seguida en liberar-berak.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Libertad de Berak, seguida en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Distingue cuerpos con las antenas, pero eso no explica cómo conoció la liberación del dragón ni renueva su antiguo vínculo con Orka.",
+      "remaining": "Mecanismo de aquel conocimiento y naturaleza de su vínculo actual."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Su ayuda para hallar el lecho continúa la lealtad; no renueva un juramento ni explica su expulsión, el conocimiento del dragón o la transformación de Thorkel.",
+      "remaining": "Origen del aviso, expulsión y transformación incompleta relatada."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: No hay visita al puerto ni cambio de sus tributos; la inspección ocurre en la mina.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Las sagas le atribuyen participación en el castigo de Rotta; no muestran control ni recuperación del Ulfrir resucitado.",
+      "remaining": "Control, recuperación y confrontación."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La nueva inquietud en la losa no explica la sensibilidad ni la mujer enjaulada o los relatos históricos Skullsplitter. Su mando sugerido por Gunnar es conducta presente.",
+      "remaining": "Historia no contada y causas de sensibilidad."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Historia y situación de Jaromir en el arco de Varg.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Historia y situación de Jaromir en el arco de Varg."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Situación de Sulich y consecuencias de su crisis previa.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Situación de Sulich y consecuencias de su crisis previa."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Resultado y consecuencias de la crisis de Sulich conservados.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Resultado y consecuencias de la crisis de Sulich conservados."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Alcance y cumplimiento del juramento de Varg.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Alcance y cumplimiento del juramento de Varg."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Bjarn, Berak y obligaciones actuales; supervivencia ya respondida.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Bjarn, Berak y obligaciones actuales; supervivencia ya respondida."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La roca cuyo dibujo recuerda Orka es otra observación de su viaje; no explica la roca de las islas ni su relación con los gusanos.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: No hay gusanos ni ensayo de atracción por la roca; el tatuaje de dragón no prueba causalidad.",
+      "remaining": "Si la roca atrajo los gusanos y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: El anciano reconocido muerto corrobora una existencia ya demostrada; la universalidad del tatuaje se pregunta por separado.",
+      "remaining": "none"
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: No se vincula con pruebas al anciano ni a los cuerpos de la mina con el asesinato de Froa.",
+      "remaining": "Autores y motivos."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: El proyecto de mudanza con Thorkel sigue truncado; buscar a Breca no lo reabre ni lo cumple.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La discriminación de cuerpos por Spert no aclara de quién era la sangre del seax ni qué percibió Vafri. Se conserva la identificación Berserkir y su doble linaje autodeclarado.",
+      "remaining": "Sangre probada, percepción de Vafri y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Ni tatuajes semejantes ni el lecho de Breca identifican al asesino de Froa o prueban la ruptura causal de su protección.",
+      "remaining": "Autoría y nexo con los raptos; los gritos ya fueron identificados."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 15: Lif vuelve a desear un castigo para Guðvarr, sin encuentro ni agresión; se persiste esa reafirmación.",
+      "remaining": "Vengar a Virk y Mord y conservar la vida de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El lecho es huella de un paso anterior; no se muestra enseñanza de espada a Breca.",
+      "remaining": "Recibir la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none para la partida histórica; conservar sus pistas.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none para la partida histórica; conservar sus pistas."
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidad, naturaleza o consecuencias de ese objeto según sus pistas previas.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidad, naturaleza o consecuencias de ese objeto según sus pistas previas."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Objetivos y resultado del viaje de los Bloodsworn.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Objetivos y resultado del viaje de los Bloodsworn."
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 15: Su tatuaje se compara con otro y con una talla; la nueva pregunta se guarda en tatuajes-dragon. No se explican las garras ni la promesa de cambiar el mundo.",
+      "remaining": "Significado del símbolo, garras, situación actual de Breca."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 15: El reconocimiento de los vaesen confirma un paso anterior; la promesa privada de Orka reutiliza el objetivo existente.",
+      "remaining": "Ubicación actual, salud, ruta de salida y rescate."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Historia y pistas de Aslog en su arco.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Historia y pistas de Aslog en su arco."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Que Gunnar consulte a Orka no reconcilia los testimonios del antiguo jefe y de su parentesco con Glornir.",
+      "remaining": "Conciliación de las historias del epíteto."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Pistas históricas del ataque del muelle conservadas.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Pistas históricas del ataque del muelle conservadas."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Propósitos y consecuencias de la llegada de Helka.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Propósitos y consecuencias de la llegada de Helka."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La semejanza del tatuaje es otro indicio, pero no identifica fabricante de armas, explica garras ni mata a Drekr.",
+      "remaining": "Garras, origen común de armas y venganza."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Orka ordena quitar dientes al dragon-born ya muerto; no mata a Drekr ni cumple su venganza por Thorkel.",
+      "remaining": "Represalia contra Drekr en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Revna reitera que robó el cofre con escritos; no aclara su antiguo papel más allá del servicio y misión ya documentados.",
+      "remaining": "Destino actual de Vol y escritos en las tramas respectivas."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Propósito y desenlace de la misión al norte.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Propósito y desenlace de la misión al norte."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidad y alcance de la amenaza del norte según los testimonios previos.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidad y alcance de la amenaza del norte según los testimonios previos."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none; conservar los indicios de aquella llegada.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none; conservar los indicios de aquella llegada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El relato de Rotta no aporta el plan insinuado por Silrið y Störr.",
+      "remaining": "Plan de Störr."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: La discriminación por Spert no cambia la identificación previa de Elvar que hizo Hrung por el olfato.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El tatuaje del cadáver no prueba qué detectó Vafri ni confirma si sobrevivió a Orka. Su confesión y salvedades quedan intactas.",
+      "remaining": "Supervivencia y efecto de la prueba de sangre."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Los hermanos fueron liberados en Fellur; la inspección no revierte ese rescate ni la confesión de Vafri.",
+      "remaining": "none"
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: No aparece Sigrún ni se anuncia fin de la persecución; el odio de Lif no añade decisión legal.",
+      "remaining": "Represalias personales y políticas."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La relación explícita de Gunnar y Revna no revela la historia distinta de Gytha y Grend.",
+      "remaining": "Historia y posible reencuentro con Grend."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La revisión de la mina no revela el plan político insinuado en la oferta de Störr.",
+      "remaining": "Plan oculto; elección de Elvar ya tomada."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Elvar no reaparece ni cambia su rechazo; las sagas de Rotta no responden las intenciones de Störr.",
+      "remaining": "none para su decisión; plan-oculto-storr sigue abierto."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Nada contradice la explicación de Uspa sobre el robo y persecución de Ilska; el lecho de Breca no localiza a Bjarn.",
+      "remaining": "none para el motivo; rescate-bjarn continúa."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La nueva pista de la mina no demuestra que Sigrún abandonara la persecución iniciada en Fellur.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Lif escucha sagas y declara que no sabe leer; no hay una nueva lección de armas ni prueba de preparación contra Guðvarr.",
+      "remaining": "Formación renovada de Lif."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidad del guerrero en tainted-raven-feeders; rescate en rescate-bjarn.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidad del guerrero en tainted-raven-feeders; rescate en rescate-bjarn."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Recuperar a Bjarn y cumplir el blóð svarið.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Recuperar a Bjarn y cumplir el blóð svarið."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Desenlace colectivo por Thrud y Agnar.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Desenlace colectivo por Thrud y Agnar."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Cumplir la despedida y aclarar Sea-Wolf/Wave-Jarl.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Cumplir la despedida y aclarar Sea-Wolf/Wave-Jarl."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: No reaparece el Näcken ni se prueba aquí la fórmula contra él; la losa y cadáveres no lo conectan con la amenaza del norte.",
+      "remaining": "Ninguna muerte nueva confirmada; contexto conservado."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Autoría y resistencia al calor; eficacia del sello frente a los perseguidores.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Autoría y resistencia al calor; eficacia del sello frente a los perseguidores."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Cumplimiento del rescate y situación de Kráka como juramentada ausente.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Cumplimiento del rescate y situación de Kráka como juramentada ausente."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Finalidad política de la oferta y reacción de Störr.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Finalidad política de la oferta y reacción de Störr."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Circunstancias y pistas del abandono según el arco de Varg.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Circunstancias y pistas del abandono según el arco de Varg."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none; preservar sus observaciones históricas.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none; preservar sus observaciones históricas."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Las lecciones pactadas del viaje a Darl ya se recibieron; el capítulo no altera ese cumplimiento.",
+      "remaining": "none para el pacto original; nueva formación en aprendizaje-mord-lif."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El rastro posterior de Breca no reinterpreta las identificaciones de la llegada a Darl ni sus consecuencias políticas.",
+      "remaining": "Consecuencias de Helka y de la persecución, en sus tramas."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidad y linaje del guerrero rubio; protección selectiva sigue documentada.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidad y linaje del guerrero rubio; protección selectiva sigue documentada."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Orka recuerda el dormitorio de Darl como comparación; no prueba una orden de Helka ni cambia sus observaciones.",
+      "remaining": "Alcance de la red infantil."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidad y cumplimiento del encuentro esperado.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidad y cumplimiento del encuentro esperado."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El lecho aporta otra pista, pero no cambia la identidad o procedencia del colgante recogido en Darl.",
+      "remaining": "Paradero actual de Breca en rescate-breca."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La marca del anciano no resuelve las garras de Drekr ni cambia la huida de Orka; el nuevo hallazgo se guarda en su propio evento.",
+      "remaining": "Garras, salud y rescate de Breca; sensibilidad de Orka."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Cumplimiento del trato y rito de Varg.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Cumplimiento del trato y rito de Varg."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidad y circunstancias de los cuerpos y conexiones infantiles pendientes.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidad y circunstancias de los cuerpos y conexiones infantiles pendientes."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La comparación nueva no identifica una organización común para su tatuaje ni demuestra la autoría de los altares.",
+      "remaining": "Significado de las marcas y alcance de la red."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El testimonio sobre el cofre de Skalk y el lecho de Breca no informa qué sabía o autorizó Hakon o Helka.",
+      "remaining": "Conocimiento de Helka y alcance de Hakon."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Historia afectiva y posibilidad de reunión.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Historia afectiva y posibilidad de reunión."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Autoría de la matanza y amenaza o seguimiento relacionado.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Autoría de la matanza y amenaza o seguimiento relacionado."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Autor de puente y huella; no confundir uso actual con autoría.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Autor de puente y huella; no confundir uso actual con autoría."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Alcance del compromiso y búsqueda de Frøya.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Alcance del compromiso y búsqueda de Frøya."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Gunnar señala la sala donde se guardaba la garra de Orna; el origen ya conocido no cambia ni se explica el mecanismo de las percepciones de Varg.",
+      "remaining": "Mecanismo y relación con su linaje."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Conservar la respuesta previa sobre su supervivencia, sin nueva evidencia.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Conservar la respuesta previa sobre su supervivencia, sin nueva evidencia."
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Responsable, edad y circunstancias precisas, familia y represalia.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Responsable, edad y circunstancias precisas, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Consecuencias del uso, traslado y venta de tesoros.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Consecuencias del uso, traslado y venta de tesoros."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Gunnar y Revna relatan captura y robo conocidos; no observan la situación presente de Vol ni consuman el rescate.",
+      "remaining": "Llegada, liberación e intento de esclavización de Vol."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 15: Se identifica un lecho de Breca, sin identificar a los otros ocupantes ni su destino; la nueva pista se persiste en desc/star.",
+      "remaining": "Destinos presentes de Breca y otros niños; salida de Rotta en destino-rotta."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El dibujo comparado por Orka es una roca de juramento; no identifica a quienes sacrificaron el águila del altar.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Los tatuajes semejantes no demuestran una organización única ni identifican autores de las tallas del pinar y Liga.",
+      "remaining": "Autores, alcance y conexiones del culto local."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidad y mecanismo del linaje de Varg según su propia evidencia.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidad y mecanismo del linaje de Varg según su propia evidencia."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Consecuencias de la invitación y compromisos propios de Varg.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Consecuencias de la invitación y compromisos propios de Varg."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Portadores detectados por Vörn y atribución exacta de linajes.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Portadores detectados por Vörn y atribución exacta de linajes."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Causa y fecha desconocidas.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Causa y fecha desconocidas."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Identidades de los portadores divinos aún no aclaradas.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Identidades de los portadores divinos aún no aclaradas."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Feudo colectivo en venganza-ilska.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Feudo colectivo en venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: La inspección no aporta nombres de los cuervos ni de todos los captores; conserva el pago posterior ya narrado.",
+      "remaining": "Partida de captores, en identidad-emboscada-grimholt."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El testimonio del cofre corresponde al rapto previo de Vol; no abre el cofre del Grimholt ni identifica a la mujer del sabueso.",
+      "remaining": "Contenido e identidades aún no confirmadas de la partida."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Destino de los niños en ninos-robados.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Destino de los niños en ninos-robados."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Cicatrices parcialmente aclaradas por su propia trama.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Cicatrices parcialmente aclaradas por su propia trama."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none para el móvil; detalles del pasado en biorr-cicatrices.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none para el móvil; detalles del pasado en biorr-cicatrices."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El lecho de Breca no cambia la confesión de Skapti ni explica la laguna de Orka o la orden completa de Hakon.",
+      "remaining": "Pasado de Orka y alcance de la red, en sus tramas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Mord sigue muerto y sepultado; el deseo de Lif no reabre su supervivencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Rescate y feudo siguen pendientes en sus tramas.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Rescate y feudo siguen pendientes en sus tramas."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Objetivos posteriores en rumbo-lik-rifa.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Objetivos posteriores en rumbo-lik-rifa."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Llegada al salón, reunión, recuperación, gobierno y confrontación con Ulfrir.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Llegada al salón, reunión, recuperación, gobierno y confrontación con Ulfrir."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Pistas compartidas y objetivos posteriores de los supervivientes.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Pistas compartidas y objetivos posteriores de los supervivientes."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Los cuatro túmulos de la mina no son el de Mord; su sepultura ya cumplida no se reabre.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Olfatear un lecho o discriminar cuerpos no establece cómo los vaesen conocieron la liberación ni una causa de los sueños.",
+      "remaining": "Mecanismo y alcance de la percepción y sueños."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Encuentro y represalia por Agnar.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Encuentro y represalia por Agnar."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Papel del arco y de las flechas en las heridas y su poder.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Papel del arco y de las flechas en las heridas y su poder."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Orka observa semejanza de tatuajes; no se comparan nuevas armas ni se demuestra fabricante o parentesco común.",
+      "remaining": "Origen y relación de las armas."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Represalia de Jökul por Torvik.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Represalia de Jökul por Torvik."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Contenido completo, protección y diferencia de color.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Contenido completo, protección y diferencia de color."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «none para la supervivencia inmediata; mantener balance no precisado.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "none para la supervivencia inmediata; mantener balance no precisado."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Cooperación y control del dios, confrontación y victoria.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Cooperación y control del dios, confrontación y victoria."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Contenido completo, protecciones y diferencia de cubierta.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Contenido completo, protecciones y diferencia de cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Recogida y entrega en traslado-tesoros-rotta.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Recogida y entrega en traslado-tesoros-rotta."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: No aparece Myrk ni se identifica por nombre al anciano; los escritos restantes y el cofre robado no demuestran que se ejecutara su encargo.",
+      "remaining": "Llegada al padre, recogida y entrega a la costa."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Control efectivo y recuperación del dios.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Control efectivo y recuperación del dios."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Obtener la libertad de Berak.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Obtener la libertad de Berak."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: El lobo inquieto ante la losa no llama su nombre ni revela el emisor o mecanismo del sueño.",
+      "remaining": "Identidad del emisor y significado de la atracción."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Lif acompaña la inspección sin agresión ni revelación colectiva de la naturaleza Bloodsworn; la tensión con Edel no queda resuelta.",
+      "remaining": "Seguridad futura de Lif y preservación del secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Vínculo y significado del sueño del lobo.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Vínculo y significado del sueño del lobo."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Verificación del testimonio de Terna y destino de Frøya.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Verificación del testimonio de Terna y destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Localización de Brimil y noticias que pueda dar de Frøya.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Localización de Brimil y noticias que pueda dar de Frøya."
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Comprobar la ruta de Frøya y el testimonio sobre su venta.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Comprobar la ruta de Frøya y el testimonio sobre su venta."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Consecuencias y alcance de la presencia del culto en la aldea.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Consecuencias y alcance de la presencia del culto en la aldea."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Causa y significado de la inquietud de Svik.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Causa y significado de la inquietud de Svik."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "Los Tennúr Deben Guardar el Isbrún",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 15: Otra línea no representada en el capítulo: la inspección de Orka no añade respuesta a «Impedir paso o atacar al grupo de Ulfrir, efecto del sello y reunión posterior del enjambre.». Se conserva la evidencia anterior; no se infiere cierre de la ausencia.",
+      "remaining": "Impedir paso o atacar al grupo de Ulfrir, efecto del sello y reunión posterior del enjambre."
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 15: El evento registra el rastro antiguo, la comparación del tatuaje y los grilletes rotos; las dos preguntas derivadas tienen TRAMA propio.",
+      "remaining": "Rescate de Breca, significado del tatuaje y destino de Rotta."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 15: Nueva pregunta explícita de Orka sobre la marca del anciano, la de Drekr y una talla; enlazada al evento y a Orka/Drekr.",
+      "remaining": "Significado y universalidad del tatuaje."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 15: Nueva pregunta explícita de Revna ante grilletes rotos y ausencia de Rotta en sus sagas de Guðfalla.",
+      "remaining": "Cómo acabó el encierro y qué fue de Rotta."
+    }
+  ]
+}
