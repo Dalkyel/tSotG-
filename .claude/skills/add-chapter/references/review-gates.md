@@ -90,6 +90,12 @@ chores, repeated background facts and every individual blow do not need separate
   update its accumulated history rather than duplicating a duel, rescue or capture
   already represented there. A fact appearing only in a profile, place, summary or
   `TRAMA` node does not satisfy event coverage.
+  When consecutive POVs overlap, compare the previous event and the new account
+  using distinctive details such as a weapon, location and sequence of actions.
+  Extend the existing event for the shared occurrence, link any separate follow-on
+  event, and distinguish a reader-level identification from what the current POV
+  knows. In Book Two Ch26, Jökul's hammer and the escape into the tunnel connect
+  Varg's account to Guðvarr's Ch25 flight; the fighting in Helka's hall is a new event.
   For a conversation containing several important revelations, check each against
   the proposed event's actual text before applying the manifest. A shared scene title
   or participant list does not capture an omitted revelation. Include connected
@@ -277,6 +283,11 @@ to create a thread once or to pass the JavaScript verifier.
    and update its label if needed. Keep genuinely separate goals separate: Lif's oath
    for Mord extends his existing revenge against Guðvarr, while Jökul's promise to
    avenge Torvik is distinct from Torvik's earlier promise to help avenge Frøya.
+   When a character dies or can no longer act, check that character's earlier
+   promises in the backlog before drafting new threads. Record which participant's
+   commitment is cut short and whether the shared objective remains open. In
+   Book Two Ch26, Jökul's death ends his part in the promise to avenge Torvik and
+   prompts a separate pursuit of Jökul's killer.
    Before composing node specs, draft the new chapter's questions and goals in
    `thread-review.md`: source evidence → existing/new id → current state → pending
    outcome. Include explicit requests, vows and agreed plans even when they occur in

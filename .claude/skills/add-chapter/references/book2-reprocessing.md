@@ -49,6 +49,12 @@ root, one page per response through END. If an active run already exists, contin
 do not initialize again, recapture a baseline or remove progress to bypass a failure.
 `init` is a one-time setup command, already completed for this archive.
 
+Compare the requested chapter with `nextChapter` from status and check the supplied
+path before opening the longer review references. If the filename is absent, check
+the local ebook's chapter heading or table of contents: numbered export files can
+contain the requested chapter under a different filename. Prepare the verified
+source path only when its chapter is next in sequence.
+
 Every helper below reads/writes the active chronological context. Leading `1` on a
 reader means page 1; chapter numbers and baseline/spec paths are separate arguments.
 Replace `RUN` and `BASELINE` with the absolute paths printed by prepare.

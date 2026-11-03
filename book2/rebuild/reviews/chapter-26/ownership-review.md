@@ -1,0 +1,5 @@
+# Libro 2, capítulo 26 — titularidad de hechos
+
+Se leyeron los registros cronológicos completos de jokul, rokia, glornir, sulich, hakon, helka, torre-galdur-darl, asalto-torre-galdur, pasado-varg, huida-skalk-vol, origen-estallido-darl y venganza-torvik. Se revisaron los apéndices, los cambios de etiqueta y tipo y las entradas completas yana, guardia-ulfhednar-helka, asalto-salon-helka y venganza-jokul. Los perfiles registran la participación propia; los dos eventos reúnen el desarrollo. La torre conserva la descripción del edificio y su túnel. El grupo de guardia conserva su función, sus collares y su conducta colectiva; la reacción de Varg queda en el evento, junto con su herida, y la evidencia de control queda en pasado-varg. No se amplió el perfil acumulado de Varg, que ya contiene extensas recapitulaciones históricas de otros sucesos. El aviso de la bruja queda atribuido a Hakon; el asesino se coteja con el capítulo 25 sin atribuir a Varg conocimiento del nombre. Se revisaron las 40 relaciones en ambos extremos, las menciones del resumen y los prefijos históricos.
+
+Ownership review: PASS

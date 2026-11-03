@@ -364,15 +364,11 @@ trim it.
 is insufficient; an unreviewed clue or missing closure blocks completion.
 
 These checks do not establish factual accuracy or visual correctness. Review the added
-content against the complete chapter, then open `index.html` and confirm: the new/updated
+content against the complete chapter. Visual confirmation in `index.html` (the new/updated
 node appears with the correct description and book metadata, its connections show in the
 panel, the chapter appears under the right "Libro N" tab, and newly integrated facts
-appear in the intended descriptions or connections.
-
-If browser automation is unavailable, its browser is not installed, or access to the
-local page is blocked, report the checks actually completed and leave visual confirmation
-in `index.html` to the user. Respect browser restrictions; do not install a browser or try
-alternate access methods merely to complete this optional visual check.
+appear in the intended descriptions or connections) is left to the user — report the checks
+actually completed and do not attempt browser automation to perform it.
 
 ## Improving this skill
 

@@ -1,5 +1,10 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch26 — documented early sequence and source-path checks
+  after the requested Ch28 path was missing and the checkpoint was at Ch25.
+  Added guidance for overlapping POV accounts and for checking whether a death
+  changes an earlier promise. Both review findings are covered in the active gates.
+
 - 2026-11-03: Book Two Ch18 — searching reference descriptions for
   `CAPÍTULO 18` also returned Book One history. Documented full book-and-chapter
   source markers for chapter-specific discovery in `book2-reprocessing.md`.
