@@ -34,7 +34,8 @@
     30,
     31,
     32,
-    33
+    33,
+    34
   ],
   "chapters": [
     {
@@ -553,15 +554,33 @@
         }
       },
       "log": "Chapter 33: Reprocessed Guðvarr’s return to the tower, Skalk’s new staff and renewed Hakon assignment, the open cell, and the private audience with Sigrún. Reviewed fact ownership, event coverage and 192 clue candidates against the full source. Chapter verifier and pre-publication regression suite passed. Browser appearance requires manual confirmation."
+    },
+    {
+      "chapter": 34,
+      "source": "book2/chapter 34.html",
+      "sourceHash": "5c25557e2b19c34a4784fe81b6e13b413d34f4e70b993b880e6396c1a52f5068",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch34.YDtnGe",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-34",
+        "hashes": {
+          "ownership-review.md": "96dceec935649cc0676589a72e77a4ba6aa7147e50d634bc86a600db5fc9ef2f",
+          "event-review.md": "b0d8c6e0b35e0a04425c727fb5d29e6d07c6745bae3a9041b1ab563dedc3a6c5",
+          "thread-review.md": "12bcf1e4bda3041ce5323422dde6b639e5856c4a5c1a569656c7b16b93dfb494",
+          "thread-checklist.json": "ebd2e81bd9862a4d8e73be0e6fbdb06ff335eb571ea2b7911c9f5e5a778e3fe3",
+          "completion.json": "6348ba6cacc2a1c5fd0316359d78d0901a726831d3f053524739e602c78d7571",
+          "chapter.json": "939302eddacf4337dc582f818d53a38e9dba418da35eb26cb5d576058de102ee"
+        }
+      },
+      "log": "Chapter 34: Reprocessed Elvar’s return to the Wave-Jarl, Uspa’s testimony, Skuld’s account of the imprisonment, and the confrontation with Ulfrir. Reviewed fact ownership, event coverage and 193 thread candidates. Chapter verifier and prepublication regression suite passed. Visual preview is left for manual confirmation."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "ebd4094020dacb20392da2adb1627984f8adb73651d9c8d8a402f7e100744367",
-    "book2/links.js": "14e2aaf97163c851e5278782c8585fe5f3648531d9d04901c6b03b244a99ef54",
-    "book2/summaries.js": "ae245f1235e8c63b22f903c5b8fee6d5887cc9dd8f92c77ae9ce3a086ad00064"
+    "book2/nodes.js": "568ef91d1039d7e02c3818397127666b905ba68e2ec342fa7d4ff3f064ccd785",
+    "book2/links.js": "18f48a3df0a2f3051049d7a6e66b428beca47c157f76a2184104fe6c9369bea6",
+    "book2/summaries.js": "c54e3b5c3926089ab8550f73d94a9864eb4ea15ef1b84d9826af33ea97066d6c"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -572,9 +591,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "6443aaf1b118857c43c51ca4522b424fc0321fc3f44a2e4605aab16f1f995f5a",
-    "links": "31d17aa5d7e001b98fe7fa7a20b0c55db10f6ffb9c07f71fabf5e7ad8a62de1b",
-    "summaries": "172be2534d0f0fb0750dc1c41de4c504ab69f3213f098a466a5f3ffc37e11460"
+    "nodes": "1e7c4ad9ff31b84b6bd6eee9f7e92b3bf029e987d01643efccae2dc4d7890313",
+    "links": "8c716c52188b2993d3bc1b5e3906cdea9e4492dc51463c56df7701453ec35a7a",
+    "summaries": "4ea97b6c434d5d8c3a728072796d513c337d59a33e4606f666aa423b3a3f983f"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

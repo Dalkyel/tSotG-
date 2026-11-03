@@ -761,3 +761,8 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   unsupported. The assertion now preserves all reviewed Ch3 links and checks the
   supported council-to-Vol endpoint. Documented how to investigate legacy assertions
   during reprocessing without restoring unsupported data or weakening archive checks.
+
+- 2026-11-03: Book Two Ch34 checklist comparison showed why the previous question
+  and the new verdict need separate handling. The reprocessing reference now documents
+  an ID-based lookup and a fresh assessment of each question against the current source,
+  including the distinction between earlier progress and an unchanged current chapter.

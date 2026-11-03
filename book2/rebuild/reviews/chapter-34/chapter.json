@@ -1,0 +1,423 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 34 — ELVAR ──",
+  "nodes": [
+    {
+      "id": "llegada-wave-jarl-horndal",
+      "mode": "new",
+      "label": "El Reencuentro con el Wave-Jarl",
+      "group": "EVENTO",
+      "type": "Evento — Capítulo 34",
+      "desc": "LIBRO 2, CAPÍTULO 34: Elvar conduce a los Battle-Grim hacia el sur hasta avistar el lago Horndal. Orv aparece entre los árboles y anuncia el barco. Esa noche el Wave-Jarl está amarrado a un sauce en el río; los que se quedaron de guardia preguntan por Oskutreð. Elvar confía a Grend que la logística, la vigilancia y la seguridad de la compañía desplazan su antigua búsqueda de fama. Grend se ríe y dice que está madurando. Ya en el claro, Ketil pone a prueba a la nueva jefa con sus bromas, pero rehúsa disputar la piel de Agnar y acepta su mando."
+    },
+    {
+      "id": "uspa-graskinna-horndal",
+      "mode": "new",
+      "label": "La Revelación de Uspa sobre Ilska",
+      "group": "EVENTO",
+      "type": "Evento — Capítulo 34",
+      "desc": "LIBRO 2, CAPÍTULO 34: En el campamento de Horndal, Uspa lleva comida a Elvar y le dice que está ejerciendo bien el mando. Explica que ella y Berak, ambos Tainted, viajaron un tiempo con los Raven-Feeders por invitación de Ilska. Según Uspa, buscaba venganza y sustituir una opresión por otra. Robaron Graskinna para frustrar sus planes, y Uspa confirma que intentaba destruirlo cuando los encontraron en Iskalt. Reprocha a Elvar la captura, la venta de Berak y el trato de esclavos dispensado a ella y a su hijo. Elvar invoca la costumbre; Uspa defiende que las personas eligen si perpetúan la esclavitud. Elvar responde con ironía ante la idea de extender su responsabilidad más allá de sus cuarenta guerreros y se marcha sin asumir ese objetivo."
+    },
+    {
+      "id": "recuerdo-elvar-maltrato-storr",
+      "mode": "new",
+      "label": "El Maltrato Recordado por Elvar",
+      "group": "EVENTO",
+      "type": "Evento — Capítulo 34",
+      "desc": "LIBRO 2, CAPÍTULO 34: Al pensar en la responsabilidad de su padre como jefe, Elvar recuerda en privado cómo él golpeaba a su madre. Thorun la retuvo entre risas cuando intentó intervenir. Grend derribó la puerta y se abalanzó hacia Störr, pero obedeció a la madre de Elvar cuando le ordenó detenerse. Elvar interpreta el episodio como una provocación para que Grend desenvainara contra su jarl, delito castigado con la muerte. Störr le ordenó quedarse a mirar mientras seguía golpeándola."
+    },
+    {
+      "id": "sagas-divinas-horndal",
+      "mode": "new",
+      "label": "La Conversación sobre los Dioses junto al Wave-Jarl",
+      "group": "EVENTO",
+      "type": "Evento — Capítulo 34",
+      "desc": "LIBRO 2, CAPÍTULO 34: Ketil pregunta a Ulfrir por sus hazañas. Skuld cifra en cerca de quinientos, frente al centenar de Ketil, los hijos de Lik-Rifa muertos y colgados en el Bosque de las Horcas. Cuenta que su padre combatió a cincuenta Sjávarorm en una competición de natación contra Krodil, dios del sur, y corrige que el rival no fue Berser. Ulfrir reduce la historia de un clan de gigantes a un solo adversario al que arrancó una mano de un mordisco. También da a conocer a Skuggar, hermana de Snaka y su contraparte: él creaba, ella deshacía. Las precisiones sobre el encierro del dragón se conservan en encierro-lik-rifa. Grend interrumpe para avisar que algo se acerca."
+    },
+    {
+      "id": "encierro-lik-rifa",
+      "mode": "update",
+      "previousState": "Skuld explica el señuelo y atribuye el aviso a Rotta.",
+      "descAppend": "LIBRO 2, CAPÍTULO 34: En las revelaciones del campamento, Skuld atribuye a Orna el hallazgo del Camino de las Almas y el engaño: sabía que la obsesión de Lik-Rifa con la frontera entre vida y muerte la atraería a las profundidades. Según Skuld, Rotta les avisó del ejército secreto de vaesen y Lik-Rifa se preparaba para acabar con los demás dioses."
+    },
+    {
+      "id": "muerte-ketil-sumision-ulfrir",
+      "mode": "new",
+      "label": "Muerte de Ketil y Sometimiento de Ulfrir",
+      "group": "EVENTO",
+      "type": "Evento — Capítulo 34",
+      "desc": "LIBRO 2, CAPÍTULO 34: Una Froa-espíritu sin nombre irrumpe en el claro buscando a Ulfrir. Ketil le clava una lanza en el pecho; otros le henden las piernas y ella arroja a varios guerreros. Cuando Ketil carga con una rama encendida, Ulfrir se transforma en un lobo gigantesco, lo parte con las fauces y devora parte de su cuerpo. Prohíbe atacar a la visitante, quien se arrodilla, le asegura la lealtad de los Froa y se retira. Elvar exige que respete a su gente: con Eldsverkur hace arder el collar del dios. Skuld le pide que se someta y Ulfrir vuelve a su forma humanoide. Elvar ordena a Skuld arrancarse un ojo y, cuando Ulfrir intenta detenerla, lo castiga con Sársauki. Tras oírle suplicar, detiene a Skuld antes de que se hiera y termina el dolor de Ulfrir con Sársauki endar. Skuld le recuerda que siguen vivos para matar a Lik-Rifa y vengar a Orna; él promete no devorar a más Battle-Grim."
+    },
+    {
+      "id": "ketil-silent",
+      "mode": "new",
+      "label": "Ketil el Silencioso (†)",
+      "group": "ELVAR",
+      "type": "Personaje — Guerrero de los Battle-Grim, fallecido",
+      "desc": "LIBRO 2, CAPÍTULO 34: Guerrero locuaz cuyo sobrenombre es irónico. Ha permanecido con la guardia del Wave-Jarl. Acepta el mando de Elvar y pregunta a los dioses por sus antiguas hazañas. Muere atacando a la visitante Froa; véase muerte-ketil-sumision-ulfrir."
+    },
+    {
+      "id": "krodil",
+      "mode": "new",
+      "label": "Krodil",
+      "group": "DIOS",
+      "type": "Divinidad — Dios del sur",
+      "desc": "LIBRO 2, CAPÍTULO 34: Según Skuld, dios meridional que presumía de ser el mejor nadador del mundo y compitió con Ulfrir. Véase sagas-divinas-horndal."
+    },
+    {
+      "id": "skuggar",
+      "mode": "new",
+      "label": "Skuggar",
+      "group": "DIOS",
+      "type": "Divinidad — Hermana de Snaka",
+      "desc": "LIBRO 2, CAPÍTULO 34: Ulfrir la presenta como hermana de Snaka, inclinada a las sombras, y la llama la que deshace frente a Snaka, el hacedor. Véase sagas-divinas-horndal."
+    },
+    {
+      "id": "wave-jarl",
+      "mode": "update",
+      "previousState": "La compañía vuelve al barco bajo el mando de Elvar.",
+      "descAppend": "LIBRO 2, CAPÍTULO 34: Está amarrado a un sauce en el río cerca del lago Horndal cuando los Battle-Grim se reúnen con su guardia. Elvar lo reconoce como su barco; véase llegada-wave-jarl-horndal."
+    },
+    {
+      "id": "collar-ulfrir",
+      "mode": "update",
+      "previousState": "Queda demostrado su uso coercitivo por Elvar.",
+      "descAppend": "LIBRO 2, CAPÍTULO 34: Responde a Eldsverkur calentándose al rojo y causando dolor, incluso con Ulfrir en forma de lobo. Elvar vuelve a infligir dolor con Sársauki y lo detiene con Sársauki endar, tras lo cual el hierro vuelve a oscurecerse. Véase muerte-ketil-sumision-ulfrir."
+    },
+    {
+      "id": "retorno-wave-jarl",
+      "mode": "update",
+      "previousState": "Llegada comprobada.",
+      "descAppend": "LIBRO 2, CAPÍTULO 34: ESTADO: RESUELTA. Orv encuentra el barco y la compañía se reúne con su guardia en llegada-wave-jarl-horndal.",
+      "label": "El Regreso al Wave-Jarl",
+      "type": "Trama — Regreso cumplido"
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "mode": "update",
+      "previousState": "Control coercitivo observado; recuperación pendiente.",
+      "descAppend": "LIBRO 2, CAPÍTULO 34: ESTADO: PARCIAL. muerte-ketil-sumision-ulfrir demuestra que Elvar puede castigar a Ulfrir y obtener una concesión expresa. Quedan pendientes su recuperación completa y la duración práctica de la obediencia."
+    },
+    {
+      "id": "venganza-biorr",
+      "mode": "update",
+      "previousState": "Elvar reitera en privado su propósito.",
+      "descAppend": "LIBRO 2, CAPÍTULO 34: ESTADO: ABIERTA. El recuerdo de su primer beso en el claro aviva la amenaza de matarlo si vuelven a encontrarse. No se produce un encuentro."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "mode": "update",
+      "previousState": "Skuld reafirma su ayuda y la venganza por Orna.",
+      "descAppend": "LIBRO 2, CAPÍTULO 34: ESTADO: PARCIAL. Skuld se ofrece a combatir y después invoca ante Ulfrir la muerte de Lik-Rifa y la venganza por su madre. Elvar expresa confianza ante su gente con dudas en privado; la fuerza mostrada por Ulfrir no establece recuperación completa, cooperación sostenida ni victoria."
+    },
+    {
+      "id": "snaka",
+      "mode": "update",
+      "previousState": "Ulfrir revela el parentesco y contrapone sus papeles.",
+      "descAppend": "LIBRO 2, CAPÍTULO 34: Según Ulfrir, es hermano de Skuggar; él buscaba que el mundo lo mirara y era el hacedor frente a ella, la que deshace."
+    },
+    {
+      "id": "promesa-ulfrir-battle-grim",
+      "mode": "new",
+      "label": "La Promesa de Ulfrir a los Battle-Grim",
+      "group": "TRAMA",
+      "type": "Trama — Promesa bajo coacción",
+      "desc": "LIBRO 2, CAPÍTULO 34: ESTADO: ABIERTA. En muerte-ketil-sumision-ulfrir, Ulfrir se compromete a no devorar a más miembros de la compañía después del castigo de Elvar y la amenaza a Skuld. Queda pendiente si respeta el compromiso."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "llegada-wave-jarl-horndal",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "llegada-wave-jarl-horndal",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "uspa-graskinna-horndal",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "uspa-graskinna-horndal",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "recuerdo-elvar-maltrato-storr",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "recuerdo-elvar-maltrato-storr",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "sagas-divinas-horndal",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "sagas-divinas-horndal",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "muerte-ketil-sumision-ulfrir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "muerte-ketil-sumision-ulfrir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "promesa-ulfrir-battle-grim",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "promesa-ulfrir-battle-grim",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "promesa-ulfrir-battle-grim",
+      "target": "ulfrir",
+      "label": "es pronunciada por",
+      "type": "trama"
+    },
+    {
+      "source": "promesa-ulfrir-battle-grim",
+      "target": "battle-grim",
+      "label": "protege en sus términos a",
+      "type": "trama"
+    },
+    {
+      "source": "muerte-ketil-sumision-ulfrir",
+      "target": "promesa-ulfrir-battle-grim",
+      "label": "desemboca en",
+      "type": "trama"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "retorno-wave-jarl",
+      "label": "incluye",
+      "status": "broken",
+      "reason": "Libro 2, capítulo 34: se confirma el regreso al barco."
+    },
+    {
+      "source": "retorno-wave-jarl",
+      "target": "llegada-wave-jarl-horndal",
+      "label": "se cumple con",
+      "type": "trama"
+    },
+    {
+      "source": "resucitar-y-someter-ulfrir",
+      "target": "muerte-ketil-sumision-ulfrir",
+      "label": "queda demostrado en",
+      "type": "trama"
+    },
+    {
+      "source": "muerte-lik-rifa",
+      "target": "muerte-ketil-sumision-ulfrir",
+      "label": "recibe un nuevo compromiso durante",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-wave-jarl-horndal",
+      "target": "lake-horndal",
+      "label": "ocurre cerca del",
+      "type": "geo"
+    },
+    {
+      "source": "llegada-wave-jarl-horndal",
+      "target": "wave-jarl",
+      "label": "reúne a la compañía con el",
+      "type": "rel"
+    },
+    {
+      "source": "orv-sneak",
+      "target": "llegada-wave-jarl-horndal",
+      "label": "anuncia el barco durante",
+      "type": "rel"
+    },
+    {
+      "source": "elvar",
+      "target": "llegada-wave-jarl-horndal",
+      "label": "conduce a la compañía durante",
+      "type": "rel"
+    },
+    {
+      "source": "grend",
+      "target": "llegada-wave-jarl-horndal",
+      "label": "escucha las dudas de Elvar durante",
+      "type": "rel"
+    },
+    {
+      "source": "uspa-graskinna-horndal",
+      "target": "elvar",
+      "label": "tiene como interlocutora a",
+      "type": "rel"
+    },
+    {
+      "source": "uspa-graskinna-horndal",
+      "target": "graskinna",
+      "label": "explica el robo de",
+      "type": "rel"
+    },
+    {
+      "source": "uspa-graskinna-horndal",
+      "target": "ilska",
+      "label": "expone la oposición de Uspa a",
+      "type": "rel"
+    },
+    {
+      "source": "uspa-graskinna-horndal",
+      "target": "berak",
+      "label": "identifica como partícipe del robo a",
+      "type": "rel"
+    },
+    {
+      "source": "uspa-graskinna-horndal",
+      "target": "secreto-uspa-oskutred",
+      "label": "amplía el testimonio de",
+      "type": "history"
+    },
+    {
+      "source": "recuerdo-elvar-maltrato-storr",
+      "target": "elvar",
+      "label": "tiene como testigo a",
+      "type": "rel"
+    },
+    {
+      "source": "recuerdo-elvar-maltrato-storr",
+      "target": "storr",
+      "label": "fue infligido por",
+      "type": "rel"
+    },
+    {
+      "source": "thorun",
+      "target": "recuerdo-elvar-maltrato-storr",
+      "label": "retiene a Elvar durante",
+      "type": "rel"
+    },
+    {
+      "source": "grend",
+      "target": "recuerdo-elvar-maltrato-storr",
+      "label": "interviene durante",
+      "type": "rel"
+    },
+    {
+      "source": "sagas-divinas-horndal",
+      "target": "encierro-lik-rifa",
+      "label": "amplía el relato de",
+      "type": "history"
+    },
+    {
+      "source": "sagas-divinas-horndal",
+      "target": "gallows-wood",
+      "label": "recoge el recuento de Skuld sobre el",
+      "type": "lore"
+    },
+    {
+      "source": "sagas-divinas-horndal",
+      "target": "sjavarom",
+      "label": "recoge una hazaña contra la especie",
+      "type": "lore"
+    },
+    {
+      "source": "sagas-divinas-horndal",
+      "target": "krodil",
+      "label": "da a conocer a",
+      "type": "lore"
+    },
+    {
+      "source": "sagas-divinas-horndal",
+      "target": "skuggar",
+      "label": "da a conocer a",
+      "type": "lore"
+    },
+    {
+      "source": "skuggar",
+      "target": "snaka",
+      "label": "según Ulfrir, es hermana de",
+      "type": "lore"
+    },
+    {
+      "source": "encierro-lik-rifa",
+      "target": "camino-almas",
+      "label": "según Skuld, se consigue usando como señuelo el",
+      "type": "lore"
+    },
+    {
+      "source": "encierro-lik-rifa",
+      "target": "rotta",
+      "label": "según Skuld, sigue al aviso de",
+      "type": "history"
+    },
+    {
+      "source": "ketil-silent",
+      "target": "battle-grim",
+      "label": "milita entre los",
+      "type": "rel"
+    },
+    {
+      "source": "ketil-silent",
+      "target": "muerte-ketil-sumision-ulfrir",
+      "label": "muere durante",
+      "type": "event"
+    },
+    {
+      "source": "ulfrir",
+      "target": "muerte-ketil-sumision-ulfrir",
+      "label": "mata a Ketil durante",
+      "type": "event"
+    },
+    {
+      "source": "elvar",
+      "target": "muerte-ketil-sumision-ulfrir",
+      "label": "reclama obediencia durante",
+      "type": "event"
+    },
+    {
+      "source": "skuld",
+      "target": "muerte-ketil-sumision-ulfrir",
+      "label": "pide a su padre que ceda durante",
+      "type": "event"
+    },
+    {
+      "source": "muerte-ketil-sumision-ulfrir",
+      "target": "froa-especie",
+      "label": "comienza con la llegada de una",
+      "type": "event"
+    },
+    {
+      "source": "muerte-ketil-sumision-ulfrir",
+      "target": "collar-ulfrir",
+      "label": "demuestra el control mediante el",
+      "type": "magic"
+    }
+  ],
+  "summary": {
+    "chapter": 34,
+    "title": "Capítulo 34 — Elvar",
+    "summary": "Tras vencer a Huld, <strong>Elvar</strong> guía a su compañía hacia el <strong>Lago Horndal</strong>. La responsabilidad por sus guerreros desplaza sus ansias de fama, algo que divierte a <strong>Grend</strong>. <strong>Orv el Sigiloso</strong> anuncia el hallazgo del <strong>Wave-Jarl</strong>. Ya en el claro, Elvar piensa en sus obligaciones como jefa y recuerda en privado cómo <strong>Jarl Störr</strong> golpeaba a su madre mientras Thorun le impedía intervenir. El lugar también le recuerda su primer beso con <strong>Biórr</strong> y reaviva su deseo de matarlo.<br><br><strong>Uspa</strong> le lleva comida y cuenta que ella y <strong>Berak Bjornasson</strong> viajaron con los <strong>Raven-Feeders</strong>. Robaron el <strong>Graskinna</strong> para frustrar a Ilska, cuyo propósito Uspa juzga vengativo. Uspa confirma que quemó el libro en Iskalt y confronta a Elvar con la esclavitud de su familia. Elvar apela a la costumbre, pero Uspa insiste en que son las personas quienes eligen perpetuarla.<br><br>Junto al fuego, <strong>Ketil el Silencioso</strong> acepta el mando de Elvar y pregunta a los dioses por sus hazañas. <strong>Skuld</strong> corrige el recuento de muertos del Bosque de las Horcas y recuerda la competición de <strong>Ulfrir</strong> contra <strong>Krodil</strong>. Atribuye a <strong>Orna</strong> el uso del <strong>Camino de las Almas</strong> como señuelo para encerrar a <strong>Lik-Rifa</strong>, y a <strong>Rotta</strong> el aviso sobre el ejército secreto. Ulfrir revela que <strong>Skuggar</strong>, hermana de <strong>Snaka</strong>, deshacía lo que él era conocido por crear.<br><br>Una <strong>Froa-espíritu</strong> busca a Ulfrir y los guerreros la atacan. El dios toma forma de lobo, mata a Ketil y prohíbe hacer daño a su aliada. Elvar activa su collar y amenaza con obligar a Skuld a sacarse un ojo. Ulfrir suplica; Elvar detiene a Skuld a tiempo y pone fin al dolor del dios. Skuld le recuerda que aún deben matar a Lik-Rifa y vengar a su madre. Ulfrir promete no devorar a nadie más de la compañía."
+  }
+}

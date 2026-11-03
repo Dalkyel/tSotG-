@@ -248,8 +248,13 @@ When the preceding chapter has a durable checklist, use
 recorded open questions with the current backlog by ID. The index shows saved outcomes
 and remaining questions without repeating evidence prose. Its pages prefer row
 boundaries, splitting a line only when it exceeds the page limit. Request full rows for
-ambiguous or multi-clue assessments. Keep the current checklist pending until reviewed
-against the new source, and record the current chapter's reason for each outcome.
+ambiguous or multi-clue assessments. When both checklists are available, match rows
+by ID to look up the previously recorded pending question. Carry forward the question
+only after checking it against the current source and backlog. Write the current
+chapter's assessment and evidence separately. A previous `advanced` or `partial`
+verdict can become `unchanged` for this chapter while the question remains open.
+Review missing IDs, changed evidence fields, and changes inside an existing field
+individually before finalizing the current checklist.
 The prior index supplements the unfiltered current backlog and required prose reads.
 
 Hash drift, missing reviews, source changes,

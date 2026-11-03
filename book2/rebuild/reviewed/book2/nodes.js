@@ -3728,4 +3728,107 @@ const nodesBook2 = [
         desc: "LIBRO 2, CAPÍTULO 33: ESTADO: ABIERTA. En retencion-testigos-darl, Guðvarr vuelve a pasar por la celda de Skapti y Hrolf y encuentra abierta su puerta. Teme que hayan acabado como Arild. Se ignora qué pasó con esos presos y dónde están. La conjetura de Guðvarr no confirma su muerte.",
         star: ""
     },
+
+// ── LIBRO 2, CAPÍTULO 34 — ELVAR ──
+    {
+        id: "llegada-wave-jarl-horndal", label: "El Reencuentro con el Wave-Jarl", group: "EVENTO", type: "Evento — Capítulo 34",
+        desc: "LIBRO 2, CAPÍTULO 34: Elvar conduce a los Battle-Grim hacia el sur hasta avistar el lago Horndal. Orv aparece entre los árboles y anuncia el barco. Esa noche el Wave-Jarl está amarrado a un sauce en el río; los que se quedaron de guardia preguntan por Oskutreð. Elvar confía a Grend que la logística, la vigilancia y la seguridad de la compañía desplazan su antigua búsqueda de fama. Grend se ríe y dice que está madurando. Ya en el claro, Ketil pone a prueba a la nueva jefa con sus bromas, pero rehúsa disputar la piel de Agnar y acepta su mando.",
+        star: ""
+    },
+    {
+        id: "uspa-graskinna-horndal", label: "La Revelación de Uspa sobre Ilska", group: "EVENTO", type: "Evento — Capítulo 34",
+        desc: "LIBRO 2, CAPÍTULO 34: En el campamento de Horndal, Uspa lleva comida a Elvar y le dice que está ejerciendo bien el mando. Explica que ella y Berak, ambos Tainted, viajaron un tiempo con los Raven-Feeders por invitación de Ilska. Según Uspa, buscaba venganza y sustituir una opresión por otra. Robaron Graskinna para frustrar sus planes, y Uspa confirma que intentaba destruirlo cuando los encontraron en Iskalt. Reprocha a Elvar la captura, la venta de Berak y el trato de esclavos dispensado a ella y a su hijo. Elvar invoca la costumbre; Uspa defiende que las personas eligen si perpetúan la esclavitud. Elvar responde con ironía ante la idea de extender su responsabilidad más allá de sus cuarenta guerreros y se marcha sin asumir ese objetivo.",
+        star: ""
+    },
+    {
+        id: "recuerdo-elvar-maltrato-storr", label: "El Maltrato Recordado por Elvar", group: "EVENTO", type: "Evento — Capítulo 34",
+        desc: "LIBRO 2, CAPÍTULO 34: Al pensar en la responsabilidad de su padre como jefe, Elvar recuerda en privado cómo él golpeaba a su madre. Thorun la retuvo entre risas cuando intentó intervenir. Grend derribó la puerta y se abalanzó hacia Störr, pero obedeció a la madre de Elvar cuando le ordenó detenerse. Elvar interpreta el episodio como una provocación para que Grend desenvainara contra su jarl, delito castigado con la muerte. Störr le ordenó quedarse a mirar mientras seguía golpeándola.",
+        star: ""
+    },
+    {
+        id: "sagas-divinas-horndal", label: "La Conversación sobre los Dioses junto al Wave-Jarl", group: "EVENTO", type: "Evento — Capítulo 34",
+        desc: "LIBRO 2, CAPÍTULO 34: Ketil pregunta a Ulfrir por sus hazañas. Skuld cifra en cerca de quinientos, frente al centenar de Ketil, los hijos de Lik-Rifa muertos y colgados en el Bosque de las Horcas. Cuenta que su padre combatió a cincuenta Sjávarorm en una competición de natación contra Krodil, dios del sur, y corrige que el rival no fue Berser. Ulfrir reduce la historia de un clan de gigantes a un solo adversario al que arrancó una mano de un mordisco. También da a conocer a Skuggar, hermana de Snaka y su contraparte: él creaba, ella deshacía. Las precisiones sobre el encierro del dragón se conservan en encierro-lik-rifa. Grend interrumpe para avisar que algo se acerca.",
+        star: ""
+    },
+    {
+        id: "encierro-lik-rifa", label: "Encierro de Lik-Rifa bajo Oskutreð", group: "EVENTO", type: "Evento mítico — Encarcelamiento divino",
+        status: "updated",
+        previousState: "Skuld explica el señuelo y atribuye el aviso a Rotta.",
+        desc: "LIBRO 1, CAPÍTULO 9: Según el relato de Grend, la diosa dragón Lik-Rifa fue encerrada mediante astucia bajo el Árbol de Ceniza antes de la Guðfalla y por ello no acudió a la batalla con Snaka. Elvar cuestiona que siga viva casi trescientos años después. Es un acontecimiento de la tradición contado en este capítulo, no un encarcelamiento presenciado por la tripulación. LIBRO 1, CAPÍTULO 14: Uspa identifica las cavernas y cámaras entre las raíces como la prisión. Relata que Orna descubrió el plan de Lik-Rifa de destruirla con vaesen y la atrajo allí para encerrarla con sus hermanos. Presenta ese acto como detonante de la guerra; la información sigue atribuida al relato. LIBRO 1, CAPÍTULO 48: Vörn Askasdottir, nueva guardiana de Oskutreð, confirma en persona a los Battle-Grim que Lik-Rifa sigue viva y encerrada bajo las raíces del árbol, trescientos años después; una trampilla sellada con cientos de pernos vibra con un pulso rítmico sobre la prisión. Nombra a Urd, Verdani y Skuld, hijas de Orna y Ulfrir, como las gaoleras que custodian la puerta, y advierte que no tomarían con agrado verla abierta. Es la primera confirmación directa y presenciada, y no solo relatada, de que el encierro sigue vigente; véase encuentro-vorn-oskutred. LIBRO 1, CAPÍTULO 52: El encierro termina en liberacion-lik-rifa, presenciada por Elvar. La diosa atribuye a Orna el engaño que la llevó a la jaula y cifra en trescientos años su cautiverio; se conserva como testimonio suyo sobre el pasado. LIBRO 2, CAPÍTULO 4: Skuld aporta su testimonio sobre la custodia: las hermanas juraron a su padre mantener a Lik-Rifa en la jaula. En los primeros días intentaron matarla con flechas y lanzas y luego hacerla morir de hambre, sin conseguirlo. Según Skuld, se alimentó de algunas almas y de criaturas subterráneas, con ayuda de seres que alteraba; véase likrafa. La libertad de las hermanas para salir de caza no era libertad para abandonar el juramento. LIBRO 2, CAPÍTULO 34: En las revelaciones del campamento, Skuld atribuye a Orna el hallazgo del Camino de las Almas y el engaño: sabía que la obsesión de Lik-Rifa con la frontera entre vida y muerte la atraería a las profundidades. Según Skuld, Rotta les avisó del ejército secreto de vaesen y Lik-Rifa se preparaba para acabar con los demás dioses.",
+        star: ""
+    },
+    {
+        id: "muerte-ketil-sumision-ulfrir", label: "Muerte de Ketil y Sometimiento de Ulfrir", group: "EVENTO", type: "Evento — Capítulo 34",
+        desc: "LIBRO 2, CAPÍTULO 34: Una Froa-espíritu sin nombre irrumpe en el claro buscando a Ulfrir. Ketil le clava una lanza en el pecho; otros le henden las piernas y ella arroja a varios guerreros. Cuando Ketil carga con una rama encendida, Ulfrir se transforma en un lobo gigantesco, lo parte con las fauces y devora parte de su cuerpo. Prohíbe atacar a la visitante, quien se arrodilla, le asegura la lealtad de los Froa y se retira. Elvar exige que respete a su gente: con Eldsverkur hace arder el collar del dios. Skuld le pide que se someta y Ulfrir vuelve a su forma humanoide. Elvar ordena a Skuld arrancarse un ojo y, cuando Ulfrir intenta detenerla, lo castiga con Sársauki. Tras oírle suplicar, detiene a Skuld antes de que se hiera y termina el dolor de Ulfrir con Sársauki endar. Skuld le recuerda que siguen vivos para matar a Lik-Rifa y vengar a Orna; él promete no devorar a más Battle-Grim.",
+        star: ""
+    },
+    {
+        id: "ketil-silent", label: "Ketil el Silencioso (†)", group: "ELVAR", type: "Personaje — Guerrero de los Battle-Grim, fallecido",
+        desc: "LIBRO 2, CAPÍTULO 34: Guerrero locuaz cuyo sobrenombre es irónico. Ha permanecido con la guardia del Wave-Jarl. Acepta el mando de Elvar y pregunta a los dioses por sus antiguas hazañas. Muere atacando a la visitante Froa; véase muerte-ketil-sumision-ulfrir.",
+        star: ""
+    },
+    {
+        id: "krodil", label: "Krodil", group: "DIOS", type: "Divinidad — Dios del sur",
+        desc: "LIBRO 2, CAPÍTULO 34: Según Skuld, dios meridional que presumía de ser el mejor nadador del mundo y compitió con Ulfrir. Véase sagas-divinas-horndal.",
+        star: ""
+    },
+    {
+        id: "skuggar", label: "Skuggar", group: "DIOS", type: "Divinidad — Hermana de Snaka",
+        desc: "LIBRO 2, CAPÍTULO 34: Ulfrir la presenta como hermana de Snaka, inclinada a las sombras, y la llama la que deshace frente a Snaka, el hacedor. Véase sagas-divinas-horndal.",
+        star: ""
+    },
+    {
+        id: "wave-jarl", label: "Wave-Jarl", group: "ELVAR", type: "Barco — Drakkar",
+        status: "updated",
+        previousState: "La compañía vuelve al barco bajo el mando de Elvar.",
+        desc: "LIBRO 1, CAPÍTULO 5: Drakkar de proa de dragón que transporta a los Battle-Grim a Iskalt. Cincuenta remos lo impulsan bajo el ritmo de Sighvat, mientras Agnar maneja el remo de gobierno. Al llegar a Iskalt se recogen los remos en sus soportes y se cierran los agujeros con tapones giratorios. Sus cofres de mar sirven de asiento y guardan el equipo. Kráka canta para mantener a serpientes y otros Vaesen marinos lejos del casco. Entra en un puerto natural y queda amarrado a un muelle; diez o doce guerreros permanecen como guardia. LIBRO 1, CAPÍTULO 9: Carga pescado conservado, carne de tiburón, marfil de morsa, pieles, cabras y los restos valiosos del trol, además de los cautivos. Una serpiente devora parte de una cabra y rompe la borda al caer sobre cubierta; los guerreros revisan las tracas del casco después. La esposa de Berak la ahuyenta con su canto. Parte con cincuenta remos, iza mástil y vela y navega hacia el sur con Kráka protegiéndolo. Agnar anuncia Snakavik como destino. LIBRO 1, CAPÍTULO 14: Tras dos días de navegación al sur de Iskalt, aproximadamente a mitad de camino de Snakavik, queda varado por encima de la marea en una playa estrecha de guijarros de la isla más meridional de las Islas de la Escarcha. Lo amarran con cuerdas a rocas y cinco hombres lo custodian. La meseta del campamento mantiene el barco a la vista. LIBRO 1, CAPÍTULO 21: Llega a Snakavik y entra en su puerto natural dentro de la calavera de Snaka; Sighvat ordena recoger los remos y Agnar guía el barco a un amarre libre. Agnar paga los derechos de puerto a una oficial local a cambio de un bloque de madera con runas talladas. Media docena de guerreros quedan a bordo custodiándolo mientras el resto de la tripulación desembarca. LIBRO 1, CAPÍTULO 32: Tras doce días desde el juramento y casi cien leguas de remo, ha recibido dos días de mantenimiento en Starl: recalafateado con brea de pino y crin, sebo nuevo en la vela de lana y limpieza del casco. Carga provisiones, cinco carros desmontados y ocho ponis; cruza Horndal a vela y queda amarrado en una ensenada de la orilla norte con guardias designados por sorteo. Véase cruce-horndal. LIBRO 2, CAPÍTULO 34: Está amarrado a un sauce en el río cerca del lago Horndal cuando los Battle-Grim se reúnen con su guardia. Elvar lo reconoce como su barco; véase llegada-wave-jarl-horndal.",
+        star: ""
+    },
+    {
+        id: "collar-ulfrir", label: "Collar de Ulfrir", group: "OBJETO", type: "Objeto — Collar vinculado a Uspa y Elvar",
+        status: "updated",
+        previousState: "Queda demostrado su uso coercitivo por Elvar.",
+        desc: "LIBRO 2, CAPÍTULO 8: Anillo de hierro creado para el dios en la forja bajo Oskutreð. Recibe sangre de Uspa y Elvar y una fórmula que reclama obediencia a ambas. No tiene llave ni cerradura: se abre y cierra a las palabras de Elvar, crece para rodear las vértebras y queda fijado mediante una fórmula que nombra a Ulfrir y vincula huesos, carne, sangre, tendones y alma. Se amplía de nuevo al reconstruirse el cuello vivo. La fabricación y colocación se observan en resurreccion-ulfrir; aún no se demuestra que doblegue la voluntad del dios. El plan de usar la antigua cadena consta en plan-resurreccion-ulfrir, pero el capítulo no vuelve a identificar expresamente el origen de la barra trabajada. LIBRO 2, CAPÍTULO 34: Responde a Eldsverkur calentándose al rojo y causando dolor, incluso con Ulfrir en forma de lobo. Elvar vuelve a infligir dolor con Sársauki y lo detiene con Sársauki endar, tras lo cual el hierro vuelve a oscurecerse. Véase muerte-ketil-sumision-ulfrir.",
+        star: ""
+    },
+    {
+        id: "retorno-wave-jarl", label: "El Regreso al Wave-Jarl", group: "TRAMA", type: "Trama — Regreso cumplido",
+        status: "updated",
+        previousState: "Llegada comprobada.",
+        desc: "LIBRO 2, CAPÍTULO 28: ESTADO: ABIERTA. Tras holmganga-elvar-huld, Elvar anuncia el regreso al sur hacia el Wave-Jarl. Quedan pendientes la partida y la llegada al barco. LIBRO 2, CAPÍTULO 34: ESTADO: RESUELTA. Orv encuentra el barco y la compañía se reúne con su guardia en llegada-wave-jarl-horndal.",
+        star: ""
+    },
+    {
+        id: "resucitar-y-someter-ulfrir", label: "Resucitar y Someter a Ulfrir", group: "TRAMA", type: "Trama — Dios resucitado; control pendiente",
+        status: "updated",
+        previousState: "Control coercitivo observado; recuperación pendiente.",
+        desc: "LIBRO 2, CAPÍTULO 6: PRIMERA EVIDENCIA: plan-resurreccion-ulfrir. Elvar propone usar libro-negro-vergelmir y los restos de cadena-ulfrir para revivir al dios y sujetarlo con un nuevo collar. Uspa acepta y declara que puede hacerlo; Skuld desea su regreso. ESTADO: ABIERTA. Pendientes: reunir y trabajar los eslabones, fabricar el collar, devolver la vida al dios y comprobar que puedan controlarlo. La capacidad declarada no equivale a ejecución; el uso contra Lik-Rifa continúa en muerte-lik-rifa. LIBRO 2, CAPÍTULO 8: ESTADO: PARCIAL. El collar está forjado y vinculado, cambia de tamaño al recibir órdenes y Ulfrir vuelve a vivir; véanse collar-ulfrir y resurreccion-ulfrir. No recibe una orden de obediencia después de resucitar: el sometimiento efectivo sigue sin probarse. La recuperación física también queda pendiente. LIBRO 2, CAPÍTULO 17: ESTADO: PARCIAL. Ulfrir conoce el collar y recibe la advertencia de Skuld, pero no se observa una orden punitiva ni dolor impuesto. Reconoce la causa común con Elvar y ayuda en reapertura-isbrun-ulfrir; cooperación interesada no demuestra sometimiento mágico. Sigue herido después de emboscada-tennur-ulfrir. Pendientes: control efectivo y recuperación. LIBRO 2, CAPÍTULO 34: ESTADO: PARCIAL. muerte-ketil-sumision-ulfrir demuestra que Elvar puede castigar a Ulfrir y obtener una concesión expresa. Quedan pendientes su recuperación completa y la duración práctica de la obediencia.",
+        star: ""
+    },
+    {
+        id: "venganza-biorr", label: "Elvar Jura Vengar a Agnar", group: "TRAMA", type: "Trama — Venganza pendiente",
+        status: "updated",
+        previousState: "Elvar reitera en privado su propósito.",
+        desc: "LIBRO 2, CAPÍTULO 2: PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 2. En funeral-agnar Elvar promete matar a Biórr por asesinar a su jefe y traicionar a la compañía y su confianza. ESTADO: ABIERTA. Pendiente: si lo encuentra y cumple la represalia. El juramento verbal no se presenta como otro blóð svarið; motivo-traicion-biorr ya había explicado el móvil declarado del traidor, no su castigo. LIBRO 2, CAPÍTULO 34: ESTADO: ABIERTA. El recuerdo de su primer beso en el claro aviva la amenaza de matarlo si vuelven a encontrarse. No se produce un encuentro.",
+        star: ""
+    },
+    {
+        id: "muerte-lik-rifa", label: "Elvar y Skuld contra Lik-Rifa", group: "TRAMA", type: "Trama — Propósito de matar a la diosa dragón",
+        status: "updated",
+        previousState: "Skuld reafirma su ayuda y la venganza por Orna.",
+        desc: "LIBRO 2, CAPÍTULO 4: PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 4. Elvar declara que busca la muerte de Lik-Rifa y ofrece a Skuld la ocasión de vengar a sus hermanas. Skuld sigue sometida y hostil; la causa común declarada no demuestra una alianza voluntaria. Elvar rechaza que Skuld pueda vencer sola y piensa en una fuerza de dioses o de Tainted esclavizados, recordando la imagen de Ulfrir encadenado en la roca de juramento. ESTADO: ABIERTA. Pendientes: si cooperan, cómo reunirían esa fuerza y si logran matar a Lik-Rifa. No se confunde con rescate-bjarn ni con venganza-biorr. LIBRO 2, CAPÍTULO 6: ESTADO: PARCIAL. plan-resurreccion-ulfrir concreta una posible fuerza: revivir y someter a Ulfrir. Skuld solicita su regreso y Uspa acepta intentarlo por Bjarn; no hay victoria, ejecución del plan ni adhesión colectiva de la compañía. La ayuda del dios depende aún de resucitar-y-someter-ulfrir. LIBRO 2, CAPÍTULO 8: ESTADO: PARCIAL. La compañía confirma su apoyo y Ulfrir está vivo en resurreccion-ulfrir, pero cae herido y exhausto. La pregunta final de Sighvat expresa duda sobre su aptitud para matar al dragón. Pendientes: control, recuperación y cooperación efectiva del dios, encuentro con Lik-Rifa y victoria. LIBRO 2, CAPÍTULO 17: ESTADO: PARCIAL. Ulfrir acepta que comparte un enemigo con Elvar y demuestra poder en reapertura-isbrun-ulfrir y emboscada-tennur-ulfrir. Su ayuda es real, pero continúa herido y hostil a su esclavitud. Pendientes: cooperación sostenida, recuperación, encuentro con Lik-Rifa y muerte del dragón. LIBRO 2, CAPÍTULO 28: ESTADO: PARCIAL. Orv recuerda que necesitan guerreros para matar al dragón. Elvar considera que Ulfrir sigue lejos de sanar y que son menos de cuarenta lanzas, y ordena regresar al Wave-Jarl. Pendientes la recuperación y la cooperación sostenida del dios, el encuentro con Lik-Rifa y el desenlace. LIBRO 2, CAPÍTULO 34: ESTADO: PARCIAL. Skuld se ofrece a combatir y después invoca ante Ulfrir la muerte de Lik-Rifa y la venganza por su madre. Elvar expresa confianza ante su gente con dudas en privado; la fuerza mostrada por Ulfrir no establece recuperación completa, cooperación sostenida ni victoria.",
+        star: ""
+    },
+    {
+        id: "snaka", label: "Snaka", group: "DIOS", type: "Dios Muerto — Padre",
+        status: "updated",
+        previousState: "Ulfrir revela el parentesco y contrapone sus papeles.",
+        desc: "LIBRO 1, CAPÍTULO 1: Según la tradición relatada por Thorkel, Snaka es la serpiente, el Más Anciano y padre de los dioses; algunos lo consideran el mayor de ellos, y era el más grande. Había crecido desde el nacimiento del mundo. Sus hijos incluyen águila, oso, lobo y dragón, todavía sin nombres propios en esta fuente. Murió a manos de sus hijos en la guerra divina. Su caída destrozó reinos y sus huesos, cubiertos de tierra, forman montañas. LIBRO 1, CAPÍTULO 9: Según Grend, Lik-Rifa es su hija dragón y quedó encerrada antes de Guðfalla, sin poder luchar junto a él. Agnar le atribuye también la ascendencia divina de la esposa de Berak; es una genealogía no confirmada por ella. LIBRO 1, CAPÍTULO 13: La saga de Galinn lo llama serpiente y segador de almas; canta que muda la piel al despertar y que su caída, entre veneno y destrucción de tierras y montañas, quebró las laderas del monte Eldrafell. Se conserva como tradición cantada. LIBRO 1, CAPÍTULO 14: La roca lo representa con veneno en los colmillos, entrando en la lucha y devorando a sus hijos. Kráka dice que amaba a sus creaciones cuando no se alimentaba de ellas. Elvar atribuye sangre suya tanto a Kráka como a Uspa; son identificaciones de Elvar, no una nueva demostración genealógica. LIBRO 1, CAPÍTULO 25: Hrung le atribuye haber creado a él y a sus parientes gigantes con afición por palabras y enigmas. También sostiene que un fragmento de su poder moribundo mantuvo viva su cabeza; se conserva como testimonio de Hrung, no como mecanismo demostrado de toda reliquia divina. Véase decapitacion-rescate-hrung. LIBRO 2, CAPÍTULO 24: Según la saga que refiere Jökul, Snaka moldeó a las personas con barro como un alfarero y les dio vida con su aliento Seiðr. Según esa tradición, al apagarse la chispa de vida las personas vuelven a la tierra. LIBRO 2, CAPÍTULO 34: Según Ulfrir, es hermano de Skuggar; él buscaba que el mundo lo mirara y era el hacedor frente a ella, la que deshace.",
+        star: "★★ La geografía se presenta como el resto material de un cuerpo divino, a través de la saga de Thorkel."
+    },
+    {
+        id: "promesa-ulfrir-battle-grim", label: "La Promesa de Ulfrir a los Battle-Grim", group: "TRAMA", type: "Trama — Promesa bajo coacción",
+        desc: "LIBRO 2, CAPÍTULO 34: ESTADO: ABIERTA. En muerte-ketil-sumision-ulfrir, Ulfrir se compromete a no devorar a más miembros de la compañía después del castigo de Elvar y la amenaza a Skuld. Queda pendiente si respeta el compromiso.",
+        star: ""
+    },
 ];
