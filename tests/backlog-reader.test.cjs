@@ -153,7 +153,12 @@ test('POV selection retains untagged clues, explicit cross-POV inclusions and fu
   assert.notEqual(run(root, 1, 1, '--pov').status, 0);
   assert.notEqual(run(root, 1, 1, '--include', 'drekr').status, 0);
   assert.notEqual(run(root, 1, 1, '--pov', 'ELVAR', '--include', 'unknown').status, 0);
-  assert.notEqual(run(root, 1, 1, '--pov', 'ELVAR', '--pov', 'ORKA').status, 0);
+  const union = run(root, 1, 1, '--pov', 'ELVAR', '--pov', 'ORKA', '--include', 'drekr');
+  assert.deepEqual(JSON.parse(pageText(union)).map(n => n.id), ['elvar', 'elvar-thread', 'drekr', 'untagged']);
+  assert.match(union.stdout, /ELVAR, ORKA/);
+  assert.equal(pageText(run(root, 1, 1, '--index', '--pov', 'ELVAR', '--pov', 'ORKA')),
+    'elvar [ELVAR] [star]\nelvar-thread [ELVAR] [TRAMA]\ndrekr [ORKA] [star]\nuntagged [TRAMA]');
+  assert.notEqual(run(root, 1, 1, '--pov', 'ELVAR', '--pov', 'ELVAR').status, 0);
   assert.notEqual(run(root, 1, 1, '--pov', 'ELVAR', '--include').status, 0);
 
   writeNodes(root, 1, [{ id: 'long', group: 'ELVAR', star: 'clue '.repeat(4000) }, { id: 'other', group: 'VARG', star: 'omit' }]);
@@ -167,4 +172,29 @@ test('POV selection retains untagged clues, explicit cross-POV inclusions and fu
   assert.ok(pages > 1);
   assert.equal(JSON.parse(payload)[0].star, 'clue '.repeat(4000));
   assert.equal(JSON.parse(payload).length, 1);
+});
+
+test('multiple POV pages form one lossless union including untagged and explicit candidates once', t => {
+  const root = fixture(t);
+  const nodes = [
+    { id: 'orka', group: 'ORKA', star: 'orka clue '.repeat(1400) },
+    { id: 'untagged', group: 'TRAMA', desc: 'shared clue '.repeat(1200) },
+    { id: 'varg', group: 'VARG', star: 'varg clue '.repeat(1100) },
+    { id: 'included', group: 'ELVAR', star: 'cross-POV clue' },
+    { id: 'omitted', group: 'ELVAR', star: 'not represented' },
+  ];
+  writeNodes(root, 1, nodes);
+  const options = ['--pov', 'ORKA', '--pov', 'VARG', '--include', 'included', '--include', 'orka'];
+  let payload = '', pages = 1;
+  for (let page = 1; page <= pages; page++) {
+    const result = run(root, 1, page, ...options);
+    pages = Number(result.stdout.match(/Page \d+\/(\d+)/)[1]);
+    payload += pageText(result);
+  }
+  assert.ok(pages > 1);
+  const entries = JSON.parse(payload);
+  assert.deepEqual(entries.map(n => n.id), ['orka', 'untagged', 'varg', 'included']);
+  assert.equal(entries[0].star, nodes[0].star);
+  assert.equal(entries[1].desc, nodes[1].desc);
+  assert.equal(entries[2].star, nodes[2].star);
 });

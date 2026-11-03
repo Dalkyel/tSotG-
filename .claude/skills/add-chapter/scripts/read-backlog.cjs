@@ -6,27 +6,29 @@ const { backlogCandidates } = require('./backlog-data.cjs');
 
 const [bookArg, pageArg, ...extra] = process.argv.slice(2);
 const book = Number(bookArg), page = Number(pageArg);
-let indexOnly = false, selectedPov = null;
+let indexOnly = false;
+const selectedPovs = new Set();
 const include = new Set();
-const usage = 'Usage: read-backlog.cjs BOOK PAGE [--index] [--pov ORKA|VARG|ELVAR] [--include ID ...]';
+const usage = 'Usage: read-backlog.cjs BOOK PAGE [--index] [--pov ORKA|VARG|ELVAR ...] [--include ID ...]';
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page >= 1, usage);
 for (let i = 0; i < extra.length; i++) {
   if (extra[i] === '--index' && !indexOnly) indexOnly = true;
-  else if (extra[i] === '--pov' && !selectedPov) {
-    selectedPov = extra[++i];
-    assert.ok(['ORKA', 'VARG', 'ELVAR'].includes(selectedPov), usage);
+  else if (extra[i] === '--pov') {
+    const pov = extra[++i];
+    assert.ok(['ORKA', 'VARG', 'ELVAR'].includes(pov) && !selectedPovs.has(pov), usage);
+    selectedPovs.add(pov);
   } else if (extra[i] === '--include') {
     const id = extra[++i];
     assert.ok(id && !id.startsWith('--') && !include.has(id), usage);
     include.add(id);
   } else assert.fail(usage);
 }
-assert.ok(!include.size || selectedPov, '--include requires --pov');
+assert.ok(!include.size || selectedPovs.size, '--include requires --pov');
 const allCandidates = backlogCandidates(book);
 for (const id of include) assert.ok(allCandidates.some(node => node.id === id), `Unknown backlog candidate: ${id}`);
 // Untagged items always remain: absence of a tag does not establish irrelevance.
-const candidates = selectedPov
-  ? allCandidates.filter(node => !node.pov || node.pov === selectedPov || include.has(node.id))
+const candidates = selectedPovs.size
+  ? allCandidates.filter(node => !node.pov || selectedPovs.has(node.pov) || include.has(node.id))
   : allCandidates;
 const payload = indexOnly
   ? candidates.map(node => `${node.id}${node.pov ? ` [${node.pov}]` : ''}${node.group === 'TRAMA' ? ' [TRAMA]' : ''}${node.star.trim() ? ' [star]' : ''}`).join('\n')
@@ -35,7 +37,7 @@ const pageSize = 8000, pages = Math.ceil(payload.length / pageSize);
 const pageCount = Math.max(1, pages);
 assert.ok(page <= pageCount, `Requested page ${page}; only ${pageCount} pages available`);
 console.log(`Backlog review candidates through Book ${book}: ${allCandidates.length} latest entries (all TRAMA nodes and nonempty star fields, across all POVs).`);
-if (selectedPov) console.log(`POV selection: ${candidates.length} selected entries for ${selectedPov} plus all untagged candidates and ${include.size} explicit inclusions; ${allCandidates.length - candidates.length} omitted. Use the unfiltered index and checklist for all-POV coverage.`);
+if (selectedPovs.size) console.log(`POV selection: ${candidates.length} selected entries for ${[...selectedPovs].join(', ')} plus all untagged candidates and ${include.size} explicit inclusions; ${allCandidates.length - candidates.length} omitted. Use the unfiltered index and checklist for all-POV coverage.`);
 if (indexOnly) console.log('INDEX ONLY: candidate ids and evidence fields, not inferred states or a substitute for the full paginated review.');
 console.log(`Page ${page}/${pageCount}; ${payload.length} total characters.`);
 console.log(payload.slice((page - 1) * pageSize, page * pageSize));

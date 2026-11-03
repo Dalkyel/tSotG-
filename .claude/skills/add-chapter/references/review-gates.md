@@ -186,8 +186,13 @@ to create a thread once or to pass the JavaScript verifier.
    unknown IDs fail. Start from the **unfiltered** `--index`, use the same options on
    every numbered page through `END`, and keep the all-POV checklist unchanged.
    A filter selects prose, not review obligations. When another POV is represented
-   (Chapter 50 names Drekr), read that POV's complete candidate prose too, for example
-   `--pov ORKA`; selecting only Drekr does not satisfy the existing shortcut's condition.
+   (Chapter 50 names Drekr), read that POV's complete candidate prose too; selecting
+   only Drekr does not satisfy the existing shortcut's condition. Repeat `--pov` for
+   every represented POV in one read, e.g. `rebuild.cjs read-backlog 1 --pov ORKA --pov VARG`
+   for Chapter 51, which names Skalk. This returns their union in archive order and
+   includes untagged candidates only once, avoiding duplicate shared-clue pages from
+   separate filtered reads. Duplicate POV options fail. Keep the same full selection
+   on every numbered page through `END`; the unfiltered checklist still covers all POVs.
    Do not combine inventories from different drafts as if their page boundaries were
    stable: finish a paginated read before applying chapter edits, then review changed
    evidence separately.

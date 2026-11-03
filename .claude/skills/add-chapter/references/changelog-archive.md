@@ -1,5 +1,14 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch51 skill review — ORKA and VARG both required full backlog
+  review, but a second `--pov` was rejected; separate reads repeated every untagged
+  clue (16 pages in total). The reader now accepts distinct repeatable `--pov`
+  options and emits one ordered union, retaining untagged clues and explicit
+  inclusions once. Duplicate/invalid selections still fail; the unfiltered checklist
+  remains mandatory. Added union/index, overlap and lossless multipage regression
+  coverage; documented the combined command in review-gates.md. Fully absorbed
+  into the script and workflow reference; archived immediately.
+
 - 2026-11-02: Post-Ch50 skill review — the unrepresented-POV shortcut lacked a
   prose-selection command. Added `read-backlog --pov ORKA|VARG|ELVAR` with all
   untagged candidates retained, repeatable validated `--include ID`, explicit omitted
