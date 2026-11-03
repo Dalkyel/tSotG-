@@ -2072,4 +2072,22 @@ const links = [
     {"source":"cat-dioses","target":"skuld","label":"incluye","type":"cat"},
     {"source":"cat-elvar","target":"vorn","label":"incluye","type":"arc"},
     {"source":"cat-elvar","target":"aska","label":"incluye","type":"arc"},
+
+// ── LIBRO 1, CAPÍTULO 49 — ORKA ──
+    {"source":"cat-eventos","target":"emboscada-grimholt-bosque","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"emboscada-grimholt-bosque","label":"incluye","type":"arc"},
+    {"source":"orka","target":"emboscada-grimholt-bosque","label":"participa en","type":"event"},
+    {"source":"mord","target":"emboscada-grimholt-bosque","label":"participa en","type":"event"},
+    {"source":"lif","target":"emboscada-grimholt-bosque","label":"participa en","type":"event"},
+    {"source":"araña-hielo","target":"emboscada-grimholt-bosque","label":"acosa a un cuervo gigante enredado y ataca después a Orka, Mord y Lif en","type":"event"},
+    {"source":"emboscada-grimholt-bosque","target":"grimholt","label":"ocurre en un claro del pinar cercano a","type":"geo"},
+    {"source":"fuga-norte-grimholt","target":"emboscada-grimholt-bosque","label":"conduce directamente a","type":"event"},
+    {"source":"emboscada-grimholt-bosque","target":"breca","label":"evoca el recuerdo de la lección de la polilla de","type":"history"},
+    {"source":"rescate-breca","target":"emboscada-grimholt-bosque","label":"continúa pendiente tras","type":"trama"},
+    {"source":"venganza-seaxes","target":"emboscada-grimholt-bosque","label":"continúa pendiente tras","type":"trama"},
+    {"source":"venganza-virk","target":"emboscada-grimholt-bosque","label":"continúa pendiente tras","type":"trama"},
+    {"source":"aprendizaje-mord-lif","target":"emboscada-grimholt-bosque","label":"recibe su primera prueba de combate real en","type":"event"},
+    {"source":"cat-tramas","target":"identidad-emboscada-grimholt","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"identidad-emboscada-grimholt","label":"incluye","type":"arc"},
+    {"source":"identidad-emboscada-grimholt","target":"emboscada-grimholt-bosque","label":"incorpora evidencia de","type":"trama"},
 ];

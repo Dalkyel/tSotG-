@@ -29,6 +29,15 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   the project root from its own location, pins the child process to the staged archive,
   supplies book argument `1`, and prints the selected archive. Do not pass a book number.
   Use `--reference` for original canonical ID/label matching; that mode rejects writers.
+  Calling a helper script directly (e.g. `node scripts/search-descriptions.cjs 1 1 term` or
+  `scripts/read-latest.cjs`, skipping the `rebuild.cjs` launcher) does not fail or warn —
+  it silently reads the live, fully-spoiled `book1/*.js` at the project root instead of the
+  staged rebuild archive, since those bare scripts default to the live book whenever no
+  launcher pins them to `book1/rebuild/book1/`. A match or id that "shouldn't" exist yet
+  in the rebuild (an id `read-latest` calls unknown while a plain search script just found
+  it) is the tell that the launcher was skipped, not a real archive inconsistency — always
+  invoke `search-descriptions`/`read-latest`/`read-links`/etc. through `rebuild.cjs`, never
+  the bare `scripts/*.cjs` path, while working a rebuild chapter.
   Examples from the project root:
 
   ```sh

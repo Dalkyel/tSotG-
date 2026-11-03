@@ -197,3 +197,22 @@ actually fixed.
   `tests/backlog-reader.test.cjs` covers both the direct-group and arc-link paths.
   review-gates.md's thread-lifecycle gate now describes the tag's two sources and this
   exact misclassification as the reason to trust the printed tag over the label.
+
+- 2026-11-02: Book 1 rebuild Ch49 — two fixes, both absorbed directly into the workflow
+  references (not just here):
+  (1) Called `search-descriptions.cjs` and `read-latest.cjs` directly (bypassing the
+  `rebuild.cjs` launcher) while checking for a moth/raven/staff-mage reference. The bare
+  scripts silently defaulted to the live, fully-spoiled `book1/*.js` at the project root
+  instead of erroring — a canonical id (`emboscada-grimholt-bosque`) appeared to "already
+  exist" in results, which briefly looked like a staged-archive inconsistency before the
+  cause (skipped launcher) was found. Cost several tool calls to diagnose. book1-rebuild.md
+  now states explicitly that calling a helper script directly, without `rebuild.cjs`, reads
+  the live archive with no warning, and names the symptom (an id the launcher calls unknown
+  that a bare script just matched) as the tell.
+  (2) A bounded `--reference` search run to confirm an event id for two unnamed giant
+  ravens also surfaced their eventual named node ("Grok y Kló"). Correctly left them
+  unnamed in the chapter's nodes/links/summary (no node minted at all, per the existing
+  unnamed-character rule), but the near-miss — almost reusing a future name recovered
+  incidentally from an identity check, rather than one actually being verified — wasn't
+  called out anywhere. source-and-entity-workflow.md's unnamed-character rule now names
+  this exact trap with that example.

@@ -117,7 +117,15 @@ source reading, identity resolution and accumulation requirements still apply.
 
    **d. Still genuinely absent? Mint a new id** — lowercase, hyphenated, no accents —
    unless the person is unnamed (record their appearance in the chapter summary instead,
-   mint no id until they're named). First rule out two near-misses: a near-miss spelling in
+   mint no id until they're named). This applies even after a bounded reference check
+   (book1-rebuild.md's identity-check procedure) turns up a fully-named node for what the
+   current chapter only shows as an anonymous character/creature: the match confirms the
+   figure will matter later, not that today's unnamed appearance may borrow that future
+   name or label. In a Book 1 rebuild Chapter 49 run, a reference search to confirm an
+   event id for two unnamed giant ravens also surfaced their eventual named node ("Grok y
+   Kló"); the ravens stayed unnamed in that chapter's own text and link/summary prose,
+   with no node minted for them at all, exactly as this rule requires. First rule out two
+   near-misses: a near-miss spelling in
    extracted text (match context to the established id — e.g. Verdani/Verdandi — retain the
    canonical label and note the source variant rather than creating a duplicate) and a
    combined legacy id that actually represents multiple people. Named people must have
