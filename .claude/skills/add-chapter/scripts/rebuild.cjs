@@ -28,13 +28,21 @@ if (helper === 'append-chapter') {
   if (index !== -1 && args[index + 1]) args[index + 1] = path.resolve(args[index + 1]);
 }
 const cwd = path.join(root, 'book1/rebuild', reference ? 'reference' : '');
+const lifecycleFile = path.join(root, 'book1/rebuild/progress.json');
+const lifecycle = fs.existsSync(lifecycleFile) ? JSON.parse(fs.readFileSync(lifecycleFile, 'utf8')) : {};
+if (lifecycle.status === 'promoted' && !reference && !readers.includes(helper)) {
+  console.error('Book One rebuild is complete and promoted. Use the live archive for repairs; use reprocess.cjs for Book Two.');
+  process.exit(1);
+}
 if (helper === 'check-chapter' && !reference) {
   try {
     const { checkRebuildState } = require('./check-rebuild-state.cjs');
     const progress = JSON.parse(fs.readFileSync(path.join(cwd, 'progress.json'), 'utf8'));
     const readme = fs.readFileSync(path.join(cwd, 'README.md'), 'utf8');
     const latest = checkRebuildState(progress, readme);
-    console.log(`Rebuild metadata: ${latest} completed chapters; README log/header and progress source agree; next chapter: ${latest + 1}.`);
+    console.log(lifecycle.status === 'promoted'
+      ? `Book One rebuild promoted: all ${latest} chapters complete; staged data is an archived reference.`
+      : `Rebuild metadata: ${latest} completed chapters; README log/header and progress source agree; next chapter: ${latest + 1}.`);
   } catch (error) {
     console.error(`Rebuild preflight failed: ${error.message}`);
     process.exit(1);

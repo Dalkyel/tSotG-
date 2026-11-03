@@ -20,7 +20,7 @@ function view(cap) {
 test('name search resolves accent, Norse lettering, phonetics, and shared entries', () => {
   const { profiles } = view(2);
   for (const [query, expected] of Object.entries({ Gudvarr: 'gudvarr', Guthvarr: 'gudvarr', Guðvarr: 'gudvarr',
-    Ilmur: 'hundur', Lif: 'mord-lif', Mord: 'mord-lif', Saeunn: 'saeunn', Rokia: 'rokia', Froya: 'froya', 'Pelo-Enredado': 'svik' })) {
+    Ilmur: 'hundur', Lif: 'lif', Mord: 'mord', Saeunn: 'saeunn', Rokia: 'rokia', Froya: 'froya', 'Pelo-Enredado': 'svik' })) {
     assert.equal(core.search(profiles, query)[0]?.node.id, expected, query);
   }
   assert.ok(core.search(profiles, '', 'gods').every(p => p.kind === 'gods'));
@@ -82,7 +82,7 @@ test('mention matcher links accented, Norse, shared, and unguided names without 
   const matches = core.findMentions(text, matcher);
   assert.deepEqual(matches.map(m => [m.text, m.id]), [
     ['Guðvarr', 'gudvarr'], ['Røkia', 'rokia'], ['Arild', 'arild'],
-    ['Troll-Slayer', 'elvar'], ['Mord y Lif', 'mord-lif'], ['Varg', 'varg'],
+    ['Troll-Slayer', 'elvar'], ['Mord', 'mord'], ['Lif', 'lif'], ['Varg', 'varg'],
   ]);
   // 'Arild' has no CHARACTER_GUIDES entry; the matcher still finds it from the node label.
   assert.equal(data.guides.arild, undefined);
@@ -94,26 +94,24 @@ test('mention matcher splits shared-ficha labels so each named person links on t
   const { nodes } = view(2);
   const matcher = core.buildMentionMatcher(nodes, revisions, data.guides);
   const soloSkuld = core.findMentions('Skuld vigila.', matcher);
-  assert.deepEqual(soloSkuld.map(m => [m.text, m.id]), [['Skuld', 'hijas-orna-ulfrir']]);
+  assert.deepEqual(soloSkuld.map(m => [m.text, m.id]), [['Skuld', 'skuld']]);
   const combined = core.findMentions('Urd, Verdandi y Skuld custodian.', matcher);
-  assert.deepEqual(combined.map(m => [m.text, m.id]), [['Urd, Verdandi y Skuld', 'hijas-orna-ulfrir']]);
+  assert.deepEqual(combined.map(m => [m.text, m.id]), [['Urd', 'urd'], ['Verdandi', 'verdani'], ['Skuld', 'skuld']]);
 });
 
 test('mention matcher links places, objects, factions, and lore, not just characters', () => {
   const { nodes } = view(2);
   const matcher = core.buildMentionMatcher(nodes, revisions, data.guides);
-  const text = 'Partieron de Fellur hacia Darl a bordo del Wave-Jarl, llevando Armring de plata'
-    + ' y un Seax bien afilado. Los Terrores de la batalla seguían el Seiðr de Vol.';
+  const text = 'Partieron de Fellur hacia Darl a bordo del Wave-Jarl, llevando una Brynja bien ajustada. Los Terrores de la batalla seguían el Seiðr de Vol.';
   const matches = core.findMentions(text, matcher);
   assert.deepEqual(matches.map(m => [m.text, m.id]), [
-    ['Fellur', 'fellur'], ['Darl', 'darl'], ['Wave-Jarl', 'wave-jarl'], ['Armring', 'armring'],
-    ['Seax', 'seax'], ['Terrores de la batalla', 'battle-grim'], ['Seiðr', 'seidr'], ['Vol', 'vol'],
+    ['Fellur', 'fellur'], ['Darl', 'darl'], ['Wave-Jarl', 'wave-jarl'], ['Brynja', 'brynja'], ['Terrores de la batalla', 'battle-grim'], ['Seiðr', 'seidr'], ['Vol', 'vol'],
   ]);
   // Event/plot titles joined with "y" are one phrase, not two entities — they must not be
   // split the way shared character fichas ("Mord y Lif") are.
-  const eventNode = nodes.find(n => n.id === 'berak-venta');
-  assert.equal(eventNode.label, 'Viaje y venta de Berak en Snakavik');
-  assert.equal(core.findMentions('Viaje a ninguna parte.', matcher).length, 0);
+  const eventNode = {id: 'test-viaje', label: 'Viaje y venta de Berak en Snakavik', group: 'EVENTO', type: 'Evento'};
+  const eventMatcher = core.buildMentionMatcher([...nodes, eventNode], [...revisions, eventNode], data.guides);
+  assert.equal(core.findMentions('Viaje a ninguna parte.', eventMatcher).length, 0);
 });
 
 test('profiles preserve complete source descriptions and all source snapshots', () => {
@@ -124,5 +122,5 @@ test('profiles preserve complete source descriptions and all source snapshots', 
   assert.ok(elvar.intro.length < 400);
   assert.equal(elvar.revisions.length, revisions.filter(n => n.id === 'elvar').length);
   assert.equal(JSON.stringify(revisions), original);
-  assert.ok(Object.keys(data.guides).every(id => profiles.some(p => p.node.id === id)));
+  assert.ok(Object.keys(data.guides).every(id => view(2).nodes.some(n => n.id === id)));
 });

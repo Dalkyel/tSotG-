@@ -9,6 +9,19 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
+- 2026-11-02: Promoted all 53 rebuilt Book One chapters into the live archive and
+  integrated the existing 50 Book Two chapters. Permanent before/reference copies retain
+  the originals. Reconciled combined character IDs, reconnected canonical places/lineage,
+  preserved rebuilt descriptions through later revisions, and repaired summary entity
+  matching without changing visible prose. Added `book2-reprocessing.md`, chapter-owned
+  record parsing, rebasing and the `reprocess.cjs` workflow: review only the chronological
+  prefix, publish into existing live files, keep later chapters visible. Added explicit
+  promoted/ready routing, review/hash/source/completion guards and migration/replacement
+  regression coverage. Existing Book Two evidence has been structurally integrated, not
+  re-read from chapter sources; its ownership and clue lifecycle still need the planned
+  source reprocessing. Unscoped legacy clue notes and the shared Skullsplitter claim
+  remain recorded for that review, not silently resolved by migration.
+
 - 2026-11-02: Book One rebuild Ch53 — a canonical-event identity search surfaced
   reference `convergencia-grimholt` prose that interprets «Orka Skullsplitter» as proof
   she was the former chief. The chapter establishes the epithet and Glornir/Thorkel

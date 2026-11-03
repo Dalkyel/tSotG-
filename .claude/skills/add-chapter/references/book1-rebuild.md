@@ -1,10 +1,18 @@
 # Authorized Book One rebuild
 
+**Completed and promoted:** all 53 chapters now live in `book1/*.js`. The staged files
+and original reference are retained as historical checkpoints. When progress has
+`status: "promoted"`, do not run staged writers or expect another chapter; use the live
+archive for authorized repairs. For Book Two, follow
+[book2-reprocessing.md](book2-reprocessing.md), retaining the shared workflow and gates.
+
+The procedure below describes the original staged rebuild.
+
 This governs a separate, parallel effort — a user-authorized fresh chronological rebuild
 of Book One, tracked in `book1/rebuild/` — not the normal "add the chapter we just read"
 workflow in `SKILL.md`. An incomplete `book1/rebuild/progress.json` makes this the default
 workflow for Book One chapter requests unless the user explicitly selects the live archive.
-Book Two requests continue to use the live workflow.
+Book Two requests now use the separate reprocessing routing above.
 
 The user requested a fresh chronological rebuild, starting with Chapter 1. During this
 rebuild, write to `book1/rebuild/book1/{nodes,links,summaries}.js`, not the live

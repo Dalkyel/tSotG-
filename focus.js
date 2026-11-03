@@ -10,7 +10,7 @@
   const batchSize = () => matchMedia('(max-width: 1100px)').matches ? 6 : 12;
   const preferred = {
     ...CHARACTER_KEY_LINKS,
-    orka: [...(CHARACTER_KEY_LINKS.orka ?? []), 'mord-lif', 'saeunn', 'elvar', 'myrk', 'spert', 'vesli', 'halja', 'varg'],
+    orka: [...(CHARACTER_KEY_LINKS.orka ?? []), 'lif', 'mord', 'saeunn', 'elvar', 'myrk', 'spert', 'vesli', 'halja', 'varg'],
     varg: [...(CHARACTER_KEY_LINKS.varg ?? []), 'rokia', 'einar', 'torvik', 'terna', 'brimil', 'brak-trolls-bane', 'leif', 'refna'],
     elvar: [...(CHARACTER_KEY_LINKS.elvar ?? []), 'agnar', 'bjarn', 'sighvat', 'orka', 'ulfrir', 'skuld', 'ilska', 'brodir'],
   };

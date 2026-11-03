@@ -1,14 +1,14 @@
 # Book One chronological rebuild
 
-The active archive is unchanged. `book1/` in this folder contains the new chapter-by-chapter data, using the same variables and revision conventions as the live archive. `reference/book1/` preserves the original three Book One data files for identity matching and final comparison. Do not use later facts from that reference in an earlier chapter.
+The complete 53-chapter rebuild was promoted to the live `book1/{nodes,links,summaries}.js` on 2026-11-02. Those files match the staged rebuild byte-for-byte. `reference/book1/` preserves the original archive; `integration/before/` preserves both books immediately before promotion. `integration/report.json` records the cross-book identity migration and remaining source-review questions.
 
 Completed: Chapters 1–53. Latest source: `../chapter 53.xhtml`.
 
-Open `index.html` in this folder to preview the rebuilt chapters independently. It reuses the live UI through `<base href="../../">`, loads only staged Book One data and uses empty character guides so the live reading aids do not introduce later revelations. D3 still requires its existing CDN connection. Regenerate the preview after live HTML changes using these same substitutions. The normal project `index.html` continues to show the original complete archive.
+The normal project `index.html` now shows the rebuilt Book One together with all 50 existing Book Two chapters. The preview `index.html` in this folder remains a Book-One-only historical view. Local-file browser access was blocked by browser policy; visual confirmation is manual.
 
-From the project root, run helpers through `node .claude/skills/add-chapter/scripts/rebuild.cjs HELPER ARGS…`; Book One and the staged working directory are selected automatically. Add `--reference` before the helper name for canonical identity lookup; reference-mode writes are rejected. Keep the caller in the project root. For subsequent chapters, baseline the three staged files before appending and verify normally. Progress and initial live-file SHA-256 hashes are recorded in `progress.json`.
+Book Two uses separate character identities, resolved endpoints and cumulative descriptions rebased onto rebuilt Book One. `book2/rebuild/progress.json` tracks the next source reprocessing chapter. All unreviewed Book Two chapters stay visible while reviewed replacements update the same live files. The skill's `references/book2-reprocessing.md` describes its launcher, immutable reference, source boundaries and mandatory reviews.
 
-Before replacing live data after Chapter 53, validate all original IDs and Book Two link endpoints, compare against the reference for omissions, and propagate recovered earlier facts through later accumulated descriptions. Do not switch a partial rebuild into the live app.
+The chapter logs below are historical records of the staged rebuild. The original live-file hashes in `progress.json` remain the pre-promotion hashes; they are not updated to conceal the authorized promotion. `status: "promoted"` prevents further staged writes.
 
 Chapter 1: passed the chapter verifier (syntax, endpoints, ordered unique summaries, append-only baseline, and link review), group/duplicate checks and archive merge checks. Live-file hashes and reference copies match. The existing project suite passed 25/26 tests; the unchanged live archive fails the clue-count assertion (376 versus 377). Browser visual inspection was blocked because the browser disallows local file URLs; the preview remains available for manual inspection.
 

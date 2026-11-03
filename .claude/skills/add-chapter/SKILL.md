@@ -8,6 +8,7 @@ description: >
   what happened in this chapter", "validate this cast list/glossary against the map",
   "check this against what we already have". Takes chapter notes, a summary, raw chapter
   text, or non-chapter reference material (cast list, glossary, recap, map key) as input.
+  Also reprocess existing Book Two chapters while retaining later chapters in the live app.
 ---
 
 # Adding a chapter to the Bloodsworn mind map
@@ -33,19 +34,29 @@ same-id entry wins, and all revisions remain available. The app no longer hides 
 behind book/chapter reading caps. Reader helpers still accept a book cap to bound
 source inspection; this is not a display restriction.
 
-## Authorized Book One rebuild
+## Rebuild and reprocessing routing
 
-A separate, parallel effort (`book1/rebuild/`) has its own routing, paths and completion
-procedure in [references/book1-rebuild.md](references/book1-rebuild.md). It replaces
-the live commands below, while the shared source/entity workflow, formats, three hard
-gates and review requirements still apply. For a Book One request, first check whether
-`book1/rebuild/progress.json` exists and records an incomplete rebuild. If it does,
-continue that rebuild by default, including for an ordinary "add chapter N" request,
-unless the user explicitly selects the live archive. Read the rebuild procedure before
-running preflight or editing data. Book Two requests use the live workflow. For staged
-runs, use `.claude/skills/add-chapter/scripts/rebuild.cjs` as described in that procedure; it selects the staged or
-read-only reference archive without changing the caller's working directory. Capture the
-absolute project root for source, progress and README paths.
+Check the relevant progress file before preflight or inventory reads:
+
+- **Book One:** `book1/rebuild/progress.json` with `status: "promoted"` means the
+  complete rebuild is already live. Use live files for explicitly requested repairs;
+  do not resume the archived staged rebuild or infer a chapter 54. For an incomplete
+  rebuild only, follow [book1-rebuild.md](references/book1-rebuild.md) and its
+  `rebuild.cjs` launcher.
+- **Book Two:** while `book2/rebuild/progress.json` is `ready` or `in-progress`,
+  follow [book2-reprocessing.md](references/book2-reprocessing.md) before any reads
+  or edits. Its `reprocess.cjs` launcher selects a chronological review context and
+  replaces the reviewed chapter in the existing live files, keeping every later
+  chapter visible. Existing live summaries are not completed reprocessing progress.
+  If the user explicitly asks to append a new live chapter instead, use the normal
+  live workflow; reconcile that external change with reprocessing before resuming it.
+- **Normal additions:** when no active rebuild/reprocessing applies, append to the
+  requested book's live files using the commands below.
+
+All modes share the complete source/entity workflow, formats, three hard semantic
+gates and final review requirements. The original Book One procedures remain available
+for historical reference; Book Two reprocessing preserves their safeguards. Capture the
+absolute project root and use absolute run/baseline paths supplied by the launcher.
 
 ## Input types
 

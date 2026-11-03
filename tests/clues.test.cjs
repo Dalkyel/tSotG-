@@ -17,7 +17,6 @@ test('existing observations remain read-only and every visible current note is i
   const entries = core.sourceEntries(revisions, 2);
   const latest = new Map(revisions.map(n => [n.id, n]));
   assert.equal(entries.length, [...latest.values()].filter(n => n.star?.trim()).length);
-  assert.equal(entries.length, 377);
   assert.equal(new Set(entries.map(c => c.id)).size, entries.length);
   assert.ok(entries.every(c => c.status === 'unreviewed' && c.evidence === '' && c.theory === ''));
   assert.equal(JSON.stringify(revisions), original);

@@ -2,7 +2,10 @@
 
 Read this complete procedure for chapter additions and the applicable steps for reference
 integration. Book One rebuild commands are substituted by [book1-rebuild.md](book1-rebuild.md);
-source reading, identity resolution and accumulation requirements still apply.
+source reading, identity resolution and accumulation requirements still apply. For active
+Book Two reprocessing, substitute the `reprocess.cjs` commands and chronological context
+from [book2-reprocessing.md](book2-reprocessing.md); never inspect the full live Book Two
+archive as the factual baseline for an earlier replacement chapter.
 
 ## Before writing anything
 

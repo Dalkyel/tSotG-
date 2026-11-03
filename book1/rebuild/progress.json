@@ -70,5 +70,12 @@
     "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/book1-event-backfill-1f4a5dz6/baseline",
     "review": "book1/rebuild/event-review.md",
     "evidence": "Archived chapter summaries and profiles; source XHTML unavailable"
+  },
+  "status": "promoted",
+  "totalChapters": 53,
+  "promotion": {
+    "date": "2026-11-02",
+    "backup": "book1/rebuild/integration/before",
+    "report": "book1/rebuild/integration/report.json"
   }
 }
