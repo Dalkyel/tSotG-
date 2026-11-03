@@ -1,0 +1,279 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 30 — BIÓRR ──",
+  "nodes": [
+    {
+      "id": "biorr",
+      "mode": "update",
+      "previousState": "La culpa se intensifica y cuestiona en privado el cautiverio de los niños.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: Los elogios por matar a Agnar lo incomodan: recuerda su confianza, juzga el duelo de Agnar contra Skrið digno de una saga y su propio acto un asesinato y tiene pesadillas en que Elvar lo mira con reproche. Se pregunta en privado si la lucha contra la esclavitud justifica haber sometido a los suyos. Se une con lentitud a la aclamación de Lik-Rifa y al amanecer interviene verbalmente ante la paliza de Breca. Véanse adoctrinamiento-ninos-likrafa y fuga-castigo-breca.",
+      "starAppend": "LIBRO 2, CAPÍTULO 30: La culpa y la objeción moral pertenecen a su pensamiento; su aclamación pública y su protesta ante Brák son las acciones observadas."
+    },
+    {
+      "id": "likrafa",
+      "mode": "update",
+      "previousState": "Recaba información de Ilska y reclama la lealtad de los niños.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: Viaja varios días en forma humana e interroga a Ilska sobre la historia y los poderes actuales. Se proclama segunda hija y predilecta de Snaka, ordena quitar los collares y exige que los niños la reconozcan como familia y reina; véase adoctrinamiento-ninos-likrafa."
+    },
+    {
+      "id": "bjarn",
+      "mode": "update",
+      "previousState": "La retirada colectiva de collares cambia las condiciones de su cautiverio.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: Kráka lo lleva de la mano a la reunión; Biórr lo ve desorientado. Está en el grupo al que se le quitan los collares en adoctrinamiento-ninos-likrafa; no se muestra una reacción individual posterior ni su retorno con Uspa.",
+      "type": "Personaje — Hijo de Berak y Uspa, aún con la hueste de Lik-Rifa"
+    },
+    {
+      "id": "hundur",
+      "mode": "update",
+      "previousState": "Realiza su primer encargo de rastreo para la hueste.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: Ayuda a organizar a los niños y cuenta satisfecho a Biórr que su primer encargo fue rastrear a un fugitivo; véase fuga-castigo-breca. Biórr interpreta su afán de complacer como un hábito de su antigua esclavitud."
+    },
+    {
+      "id": "breca",
+      "mode": "update",
+      "previousState": "Reaparece vivo; Brák lo recaptura y lo hiere.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: Se identifica dos veces como Breca Thorkelsson, aun cuando el cazador intenta quitarle el patronímico. Sigue cautivo después de resistirse; termina con la nariz y huesos de la mano rotos y un corte profundo bajo el ojo. Véase fuga-castigo-breca."
+    },
+    {
+      "id": "brak-trolls-bane",
+      "mode": "update",
+      "previousState": "Se identifica ante Breca y aparece como miembro de la partida de Drekr.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: Biórr lo ve regresar al campamento con un niño fugitivo y lo reconoce como integrante de la partida de Drekr. Lleva pluma negra de cuervo, un collar de dientes o colmillos curvos, numerosos cuchillos y espada. Se presenta como Brák Trolls-Bane al marcar a Breca; véase fuga-castigo-breca. El capítulo no precisa su linaje ni atribuye a sus armas el asesinato de Thorkel.",
+      "starAppend": "LIBRO 2, CAPÍTULO 30: Los colmillos y los numerosos cuchillos recuerdan al hombre sin identificar que vio Biórr en el capítulo 9; la semejanza sugiere una identidad posible. Su aparición sitúa al comprador nombrado por Brimil, pero no aclara el destino de Frøya, el origen de los seaxes de Drekr ni las garras descritas por Vesli."
+    },
+    {
+      "id": "jarl-orlyg",
+      "mode": "update",
+      "previousState": "Ilska lo incluye entre los tres poderes en ascenso de Vigríð.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: En su informe a Lik-Rifa, Ilska presenta a Orlyg de Svelgarth junto a Störr y Helka como poderes que atraen o absorben a jarls menores, sin nombrar nuevas incorporaciones de Orlyg."
+    },
+    {
+      "id": "ninos-robados",
+      "mode": "update",
+      "previousState": "Se observa la retirada de collares y se identifica a Breca bajo custodia.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: ESTADO: PARCIAL. adoctrinamiento-ninos-likrafa y fuga-castigo-breca muestran al grupo sin los collares y a Breca recapturado bajo la autoridad de la hueste. El caso aporta evidencia de control posterior al rito, sin identificar a Harek ni a los demás desaparecidos o probar una autoría común."
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "previousState": "El lector ve a Breca vivo, herido y todavía cautivo.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: ESTADO: PARCIAL. fuga-castigo-breca sitúa al niño vivo en la columna que viaja al este junto al Foso; está herido y sigue bajo custodia. Orka no presencia la escena. El rescate y la ruta original de los raptores siguen pendientes."
+    },
+    {
+      "id": "rescate-bjarn",
+      "mode": "update",
+      "previousState": "Bjarn sigue con la columna tras la retirada de los collares.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: ESTADO: PARCIAL. adoctrinamiento-ninos-likrafa confirma que Bjarn sigue vivo y presente con la hueste que marcha al este; se retiran los collares del grupo. Elvar y Uspa no reciben esta información ni recuperan al niño."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "mode": "update",
+      "previousState": "Breca aparece bajo el mando de la hueste, sin establecerse su función en el rito.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: ESTADO: PARCIAL. fuga-castigo-breca sitúa a Breca entre los niños de la hueste y muestra a Brák invocando el discurso de Lik-Rifa para exigirle que renuncie a su pasado. El papel de Breca en la liberación y la relación con el asesinato de Thorkel siguen sin establecerse."
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "mode": "update",
+      "previousState": "La diosa avanza al este y reclama nuevos súbditos.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: ESTADO: PARCIAL. adoctrinamiento-ninos-likrafa muestra un primer ejercicio de autoridad sobre los niños: promete protección y exige lealtad. Continúa al este; siguen pendientes llegada, recuperación, alcance de su autoridad y encuentro con Ulfrir."
+    },
+    {
+      "id": "akall",
+      "mode": "update",
+      "previousState": "El lector localiza al último comprador conocido de Frøya junto a la hueste de Lik-Rifa.",
+      "descAppend": "LIBRO 2, CAPÍTULO 30: ESTADO: PARCIAL. fuga-castigo-breca sitúa a Brák en el campamento de la hueste que marcha al este. Varg no recibe esa pista. Sigue sin saberse qué ocurrió con Frøya; no hay rito ni ajuste de cuentas."
+    },
+    {
+      "id": "adoctrinamiento-ninos-likrafa",
+      "mode": "new",
+      "group": "EVENTO",
+      "type": "Evento — Retirada de collares y proclamación",
+      "label": "Los Niños ante Lik-Rifa: sin Collares, bajo su Mando",
+      "desc": "LIBRO 2, CAPÍTULO 30: La columna avanza al este junto al río de lava del Foso de los Vaesen. Biórr oye a Ilska informar a Lik-Rifa sobre el mundo tras la Guðfalla: ascenso humano, aparición de practicantes de Galdur, persecución de los Tainted, forja de collares con fragmentos de la cadena de Ulfrir, auge de Störr, Helka y Orlyg y gobierno de Kirill en Iskidan, al sur del mar que lo separa de Vigríð. En el campamento Kráka conduce de la mano a Bjarn, aún aturdido. Lik-Rifa ordena quitar los collares a casi cien niños. Ilska y los dragon-born abren las cerraduras mientras recitan una fórmula para devolver voluntad y fuerza; los niños recobran la atención entre llantos y desconcierto. Lik-Rifa adopta fugazmente forma de dragón para imponer silencio. Declara que los padres ocultaron a los niños su sangre divina, se erige en familia y reina, promete protección y sustento y exige lealtad. Ilska inicia la aclamación; se suman Drekr, los guerreros, Biórr y voces infantiles. La reacción de los niños es desigual.",
+      "star": ""
+    },
+    {
+      "id": "fuga-castigo-breca",
+      "mode": "new",
+      "group": "EVENTO",
+      "type": "Evento — Fuga, recaptura y castigo",
+      "label": "La Fuga de Breca y la Cicatriz de Brák",
+      "desc": "LIBRO 2, CAPÍTULO 30: Al amanecer Ilmur vuelve de rastrear a un fugitivo y Brák lo arrastra al campamento. El niño muerde al cazador y corre; Brák lo derriba con un cuchillo envainado, lo patea y le rompe la nariz. Biórr le pide que cese, pero el niño saca el cuchillo y alcanza el brazo de Brák. El cazador lo derriba de un puñetazo, le rompe huesos de la mano con la bota y recupera el arma. Al preguntarle su nombre, el niño insiste en llamarse Breca Thorkelsson pese a la orden de olvidar su pasado. Brák le corta la mejilla bajo el ojo para que recuerde el castigo y se identifica. Breca responde que no lo olvidará.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "fuga-castigo-breca",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "fuga-castigo-breca",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "fuga-castigo-breca",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "adoctrinamiento-ninos-likrafa",
+      "target": "foso-vaesen",
+      "label": "ocurre en las inmediaciones de",
+      "type": "geo"
+    },
+    {
+      "source": "adoctrinamiento-ninos-likrafa",
+      "target": "likrafa",
+      "label": "tiene como figura central a",
+      "type": "event"
+    },
+    {
+      "source": "ilska",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "retira collares e inicia la aclamación en",
+      "type": "event"
+    },
+    {
+      "source": "dragon-born",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "participan en",
+      "type": "magic"
+    },
+    {
+      "source": "drekr",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "se suma a la aclamación en",
+      "type": "event"
+    },
+    {
+      "source": "biorr",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "presencia",
+      "type": "event"
+    },
+    {
+      "source": "adoctrinamiento-ninos-likrafa",
+      "target": "bjarn",
+      "label": "incluye entre los niños a",
+      "type": "event"
+    },
+    {
+      "source": "kraka",
+      "target": "bjarn",
+      "label": "lleva de la mano a",
+      "type": "rel"
+    },
+    {
+      "source": "raven-feeders",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "presencian",
+      "type": "event"
+    },
+    {
+      "source": "adoctrinamiento-ninos-likrafa",
+      "target": "collares",
+      "label": "marca la retirada de los",
+      "type": "magic"
+    },
+    {
+      "source": "adoctrinamiento-ninos-likrafa",
+      "target": "fuga-castigo-breca",
+      "label": "precede a",
+      "type": "event"
+    },
+    {
+      "source": "brak-trolls-bane",
+      "target": "drekr",
+      "label": "integra la partida de",
+      "type": "rel"
+    },
+    {
+      "source": "brak-trolls-bane",
+      "target": "fuga-castigo-breca",
+      "label": "recaptura y castiga al fugitivo en",
+      "type": "event"
+    },
+    {
+      "source": "hundur",
+      "target": "fuga-castigo-breca",
+      "label": "rastrea al fugitivo en",
+      "type": "event"
+    },
+    {
+      "source": "biorr",
+      "target": "fuga-castigo-breca",
+      "label": "protesta por la paliza en",
+      "type": "event"
+    },
+    {
+      "source": "fuga-castigo-breca",
+      "target": "breca",
+      "label": "documenta la recaptura de",
+      "type": "event"
+    },
+    {
+      "source": "fuga-castigo-breca",
+      "target": "foso-vaesen",
+      "label": "ocurre en un campamento próximo al",
+      "type": "geo"
+    },
+    {
+      "source": "ninos-robados",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "documenta un nuevo trato a los cautivos en",
+      "type": "trama"
+    },
+    {
+      "source": "rescate-bjarn",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "recibe una pista sobre el niño en",
+      "type": "trama"
+    },
+    {
+      "source": "rescate-breca",
+      "target": "fuga-castigo-breca",
+      "label": "recibe una confirmación del paradero en",
+      "type": "trama"
+    },
+    {
+      "source": "breca-vinculo-lik-rifa",
+      "target": "fuga-castigo-breca",
+      "label": "recibe evidencia del vínculo con la hueste en",
+      "type": "trama"
+    },
+    {
+      "source": "rumbo-lik-rifa",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "registra el reclamo de lealtad en",
+      "type": "trama"
+    },
+    {
+      "source": "akall",
+      "target": "fuga-castigo-breca",
+      "label": "se vincula con la pista sobre Brák en",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 30,
+    "title": "Capítulo 30 — Biórr",
+    "summary": "<strong>Biórr</strong> marcha al este con los <strong>Raven-Feeders</strong>, paralelos al <strong>Foso de los Vaesen</strong>. Durante el camino, <strong>Ilska Raven-Feeder</strong> pone a <strong>Lik-Rifa</strong> al corriente de la historia desde la <strong>Guðfalla</strong>: la persecución de los <strong>Tainted</strong>, la forja de collares y el auge de <strong>Jarl Störr</strong>, la <strong>Reina Helka</strong> y <strong>Jarl Orlyg</strong>. Los elogios por la muerte de <strong>Agnar</strong> pesan sobre Biórr, que recuerda la confianza del hombre al que mató y sueña con el reproche de <strong>Elvar</strong>.<br><br>Al anochecer, <strong>Kráka</strong> conduce a <strong>Bjarn</strong> entre casi un centenar de niños. Biórr se pregunta cómo pueden combatir la esclavitud mientras someten a los suyos. Lik-Rifa ordena que les quiten los collares; Ilska y los <strong>Dragon-Born</strong> abren las cerraduras y cantan. La diosa adopta por un instante forma de dragón para imponer silencio. Se declara hija predilecta de <strong>Snaka</strong>, se proclama nueva familia y reina de los niños y les exige lealtad. Ilska inicia la aclamación y Biórr termina sumándose.<br><br>Al amanecer, <strong>Ilmur</strong> vuelve de su primer encargo: rastrear a un niño fugado. El cazador que lo trae lo golpea, y el muchacho se defiende con el cuchillo que le arrebata. Biórr protesta al ver la paliza. El niño insiste en llamarse <strong>Breca</strong> Thorkelsson pese a la orden de olvidar a sus padres. El cazador le corta la mejilla para marcarlo y se presenta como <strong>Brák Trolls-Bane</strong>."
+  }
+}

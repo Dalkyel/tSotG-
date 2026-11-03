@@ -195,6 +195,14 @@ to create a thread once or to pass the JavaScript verifier.
    POV may be assessed from the index as `unchanged — different POV, not represented
    this chapter`; preserve their questions and evidence in the all-POV checklist.
 
+   Before opening the prose pages, check newly named or newly located people
+   against the preceding chapter's open questions, using its durable checklist
+   index when available. Add affected IDs to the first prose selection. In Book
+   Two Ch30, Biórr sees Brák with Drekr's party, giving the reader a location for
+   the person Varg seeks in `akall`. Record the reader's evidence and keep Varg's
+   search and Frøya's fate pending. Apply the same distinction to an observed
+   captive's whereabouts and the rescuer's knowledge.
+
    A named character from another POV does not by itself require reading that POV's
    entire unrelated history. Identify the affected clue families from the chapter's
    actions/revelations, the index, and that character's relevant latest entry and links.

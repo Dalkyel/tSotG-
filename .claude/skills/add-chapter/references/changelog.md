@@ -1,5 +1,11 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch30 — the first backlog selection covered the captives
+  but missed Varg's search for Brák, requiring a second prose selection. The
+  thread gate now checks newly named or located people against the preceding
+  chapter's open questions before paging and distinguishes reader evidence from
+  what the searching character knows.
+
 - 2026-11-03: Book Two Ch29 — a batch used actor verbs with the event as the
   source, requiring a second manifest application. The link drafting rules now
   explain how to choose the shared endpoint from the verb and spot-check each
