@@ -31,7 +31,8 @@
     27,
     28,
     29,
-    30
+    30,
+    31
   ],
   "chapters": [
     {
@@ -496,15 +497,33 @@
         }
       },
       "log": "Chapter 30: Reviewed Biórr’s account of Lik-Rifa removing the collars and demanding loyalty, and Brák recapturing Breca. Preserved the open rescue and Frøya questions across arcs. Ownership, events, checklist and automated regressions passed; browser preview left for manual confirmation."
+    },
+    {
+      "chapter": 31,
+      "source": "book2/chapter 31.html",
+      "sourceHash": "61b27b2b1e7ba61a9451e104762c1aeb5ae60e0a89883d4bac0dfd23b7d532d3",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch31.oNQ2Sp",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-31",
+        "hashes": {
+          "ownership-review.md": "1fa4702133338ba7c0b1cdddc6b564616edc3090b6f2aac91b64d39badf22f37",
+          "event-review.md": "5446937ea9f7799cad94d614902fc8c60f2f1ff2b390a9a162239093bebf32f5",
+          "thread-review.md": "e9974536e8e70c73a74db2f9f9de2e9be1c032202630b001fbedc3c6f8ac7fb8",
+          "thread-checklist.json": "7f1aa3445e031159af26c384beb0aa290dad46e459d2b59ecb4e60a7c9bb33ad",
+          "completion.json": "ccca6aed20ff0cb0fcb39985209f103f1ea90419e272d27b7ace51d5fd75b72d",
+          "chapter.json": "b92d342fdf3611f0967fc6d5158873cd2778dd0bd882e26a4330ac3797de2451"
+        }
+      },
+      "log": "Chapter 31: Orka traces the Raven-Feeders toward Horndal, revisits Myrk’s interrogation, and receives the reported Iskalt lead. Preserved separate pending threads for the oath and threat against Varg. Reviewed ownership, key events, all-POV clue coverage and 23 summary mentions; the 59-test pre-publication suite passed. Browser appearance was not checked."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "38ebf3036b491af9b3da0875186325971cfb9c991fef26e79760d5cef95ce50b",
-    "book2/links.js": "910f12b0204594f55f35058ee937c816adefc6f7de90e783afd866bba10a97bb",
-    "book2/summaries.js": "1aac8e45e2dbb93ae58b78cdd06fe17b75ced57f575e3108ced978c7e95269df"
+    "book2/nodes.js": "c1e1da2f3d77bff0a5e10580076ee3f5c778f709d2b02de60773acc2db8dfea9",
+    "book2/links.js": "86cc832a360375574445f18ba02cf5ad6a824a62836173d66edd0ffc06b73c91",
+    "book2/summaries.js": "aeb96bc3037fb700557f6e73799bbf62d53176a745117e0f61fbaa29405649ad"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -515,9 +534,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "19e3fde0de1eaba261148a437bd5dcabefadd223b9ffd48ccaef979372beec68",
-    "links": "15eb71e954af7979d82d40db7b4a40d1a48ac71fcbfe477b96162a7bd9847d58",
-    "summaries": "fbc4d1d89c0734ae3e0ef0dacd5021d1a734232ed8b0f355dc3baa6cabcfc6ad"
+    "nodes": "51c2b1c079851d6f192839b6d1a736b937c96bf93fd78c248ee9d0014c621716",
+    "links": "efb04d2fdb181da6d404b87f94587adeda3e57adeb90660f7de1dc740c83fb95",
+    "summaries": "441d20eb87a3a080e18de44e677f61dd5f5add87cad6460eb3aed2223226dbde"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

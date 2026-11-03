@@ -330,6 +330,12 @@ to create a thread once or to pass the JavaScript verifier.
    Partial answers stay partial. Disproving a theory does not automatically solve the
    underlying mystery. If later evidence genuinely overturns a closure, append an explicit
    reopening with its source and explanation; preserve the earlier reasoning.
+   When a new POV hears a plan that differs from movement already observed in another
+   POV, track what each source establishes before revising the thread. In Book Two
+   Ch31, Myrk gives Orka a reported westward destination near Iskalt after Ch30 showed
+   the host heading east. Record the report as a lead available to Orka and keep the
+   observed movement in the reader's evidence. Leave the connection between them open
+   until the source establishes how the routes fit together.
    If a completed objective receives a new explicit commitment with the same actor,
    target and outcome, reuse its id and distinguish the completed scope from the newly
    pending scope. Inspect its category history with `read-links --between` before

@@ -90,6 +90,20 @@ For a large backlog prose selection, append `--compact` on every page to retain 
 evidence with less formatting overhead. Do not switch formats mid-read or combine it
 with the separate `--index` inventory.
 
+For a long selection with multiple cross-POV inclusions, save the exact launcher
+command as a page-only wrapper beside the baseline before paging. From the project
+root, run `sh RUN/read-backlog.sh 1`, then increment only the page argument:
+
+```sh
+node .claude/skills/add-chapter/scripts/reprocess.cjs read-backlog "$1" \
+  --compact --pov ORKA --include myrk --include rumbo-lik-rifa
+```
+
+Replace the example IDs with the full selection for the run. Record the last reviewed
+page in `source-notes.md`. If another affected family surfaces, read the added evidence
+separately or restart with the expanded selection. Page numbers from the original
+selection cannot be carried over to a changed selection.
+
 `search-descriptions`, `append-node` and `append-entries` use the same implicit-book
 substitution as Book One. Batch manifests and `--replace-applied PREVIOUS_SPEC` work
 unchanged for unfinished drafts. Use the original baseline and retain the exact applied

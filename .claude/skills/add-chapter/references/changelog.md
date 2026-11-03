@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch31 — a 21-page backlog selection required repeating
+  the same cross-POV flags. The reprocessing guide now shows how to save a
+  page-only wrapper. The thread gate also records how to preserve both a newly
+  reported itinerary and conflicting or unconfirmed movement seen in another POV.
+
 - 2026-11-03: Book Two Ch30 — the first backlog selection covered the captives
   but missed Varg's search for Brák, requiring a second prose selection. The
   thread gate now checks newly named or located people against the preceding

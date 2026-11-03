@@ -1,0 +1,336 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 31 — ORKA ──",
+  "nodes": [
+    {
+      "id": "rumbo-starl-orka",
+      "mode": "update",
+      "previousState": "La partida acordada se convierte en un rastreo efectivo.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: La compañía ya lleva varios días de marcha desde la cámara de Rotta. Orka sigue al noroeste las hogueras apagadas, la hierba aplastada y el estiércol de la partida de Myrk por las estribaciones de las Montañas Espinazo, cada vez más cerca del Lago Horndal, como había previsto Edel. Se detienen junto a un arroyo. Véase interrogatorio-myrk para la nueva pista; aún no llegan a Starl."
+    },
+    {
+      "id": "interrogatorio-myrk",
+      "mode": "update",
+      "previousState": "La segunda ronda obtiene una pista sobre Breca y termina con una amenaza contra Varg.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: Varios días después, junto a un arroyo en las estribaciones de las Montañas Espinazo, Orka desamordaza a Myrk, que sigue atada. Halja propone intercambiar la pista de Breca por el nombre del matador del padre de Myrk. La cautiva forcejea con los ojos enrojecidos cuando Halja insulta a su padre; Orka, Spert y Vesli la hacen quedarse quieta al amenazarla con sus armas. Gunnar y Revna apoyan el trato. Orka se corta la palma y jura por la vida de su hijo que, si Myrk habla, la mantendrá viva hasta encontrarlo, la soltará y le concederá la holmganga que pide. Myrk atribuye la liberación de Lik-Rifa al hallazgo de Rauðskinna en la cámara de Rotta y a un hechizo que exigía abundante sangre Tainted. Orka imagina a Breca degollado y le arranca un ojo a Myrk con la empuñadura del seax. Después contiene el lobo y la niebla roja. Myrk afirma que ningún niño Tainted murió en el rito, aunque no sabe si Breca estaba entre ellos. Dice que las pruebas con Tainted mayores salieron mal y que a los niños resulta más fácil dominarlos combinando Seiðr y Galdur. Cuenta que siguieron a los Battle-Grim por el Isbrún hasta Oskutreð y que Uspa, esclavizada por la compañía, abrió el puente. Afirma que Kráka se les ha unido y que ignora si Uspa sobrevivió a la batalla. Orka se pregunta en privado qué ha sido de Berak. Myrk sitúa a Breca con Ilska al norte del puente cuando se separaron y dice que el plan era cruzar antes de acabar Sólstöður y marchar al oeste hacia la costa frente a las islas de Iskalt, donde Lik-Rifa le había ordenado llevar a su padre. Orka tiene por fin un destino que investigar, aunque duda de la veracidad del relato. Halja nombra a Varg como matador del padre y Myrk amenaza con acortarle la vida."
+    },
+    {
+      "id": "practica-lanza-lif-revna",
+      "mode": "new",
+      "label": "Práctica de Lanza de Lif con Revna",
+      "group": "EVENTO",
+      "type": "Evento — Entrenamiento",
+      "desc": "LIBRO 2, CAPÍTULO 31: Junto al arroyo de las Montañas Espinazo, Lif practica con Revna mientras Orka interroga a Myrk. La alcanza en el vientre con el regatón cuando ella responde a Orka. Revna contraataca y hace retroceder a Lif hasta que cae al agua. Halja le presta una manta y le aconseja quitarse la cota para secarla."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "mode": "update",
+      "previousState": "Lif acierta a Revna durante una práctica de lanza.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: ESTADO: PARCIAL. La práctica con Revna demuestra un acierto con el regatón, seguido de una caída al arroyo al retroceder; véase practica-lanza-lif-revna. Sigue sin comprobarse su preparación para enfrentarse a Guðvarr."
+    },
+    {
+      "id": "myrk",
+      "mode": "update",
+      "previousState": "Pierde un ojo en cautiverio y amenaza a Varg.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: Sigue atada y magullada. Pierde un ojo a manos de Orka y negocia la información de la que dispone a cambio del nombre del matador de su padre. Al oír el nombre de Varg lo amenaza. Véanse interrogatorio-myrk, holmganga-orka-myrk y venganza-myrk-varg."
+    },
+    {
+      "id": "raudskinna",
+      "mode": "update",
+      "previousState": "Myrk atribuye al libro un método para romper el sello.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: Myrk afirma que su grupo encontró el volumen y que este contenía un modo de romper el sello de la prisión de Lik-Rifa, entre otros secretos que no detalla. Su testimonio en interrogatorio-myrk concuerda con el uso referido por Ilska en el capítulo 9 y no identifica las copias que llegaron a Darl."
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "previousState": "Orka recibe una pista sobre Ilska, Isbrún y la costa frente a Iskalt.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: ESTADO: PARCIAL. Myrk da a Orka una última ubicación atribuida y un destino de búsqueda, la costa frente a Iskalt; véase interrogatorio-myrk. Orka duda del relato. La marcha al este observada por el lector en el capítulo 30 no confirma el plan occidental. Siguen pendientes el paradero actual, la recuperación del niño y el trayecto original del rapto."
+    },
+    {
+      "id": "ninos-robados",
+      "mode": "update",
+      "previousState": "Myrk explica por qué eligieron niños y afirma que sobrevivieron al rito.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: ESTADO: PARCIAL. interrogatorio-myrk aporta un testimonio sobre ensayos fallidos con Tainted mayores, control infantil con Seiðr y Galdur y supervivencia de los niños durante el rito. No individualiza a todos los participantes ni identifica a los demás desaparecidos. Quedan pendientes la seguridad y el destino de los grupos."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "mode": "update",
+      "previousState": "La sangre infantil se vincula al hechizo sin identificar a Breca entre sus donantes.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: ESTADO: PARCIAL. Myrk vincula la sangre Tainted con el hechizo que liberó a Lik-Rifa pero no reconoce a Breca entre los niños del rito; véase interrogatorio-myrk. Su papel individual y el vínculo con el asesinato de Thorkel siguen sin demostrarse."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "mode": "update",
+      "previousState": "Myrk atribuye a Lik-Rifa la orden de llevar a su padre a la costa.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: ESTADO: PARCIAL. En interrogatorio-myrk Myrk sitúa la cita frente a Iskalt y atribuye a Lik-Rifa la orden de llevar allí a su padre, a quien ya encontró muerto en el capítulo 20. No confirma que se recogieran o entregaran los hallazgos ni identifica expresamente ese punto con Corpse-Strand."
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "mode": "update",
+      "previousState": "Myrk refiere un plan occidental cuya ejecución queda pendiente.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: ESTADO: PARCIAL. Myrk refiere un plan de dirigirse desde Isbrún hacia la costa frente a Iskalt y una orden de reunir allí a su padre; véase interrogatorio-myrk. Es un plan referido y no una llegada observada ni una explicación de cómo encaja con la marcha al este del capítulo 30. Nastrandir, la reunión de fieles y el encuentro con Ulfrir siguen pendientes."
+    },
+    {
+      "id": "kraka",
+      "mode": "update",
+      "previousState": "Myrk comunica a Orka la adhesión que atribuye a Kráka.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: Myrk afirma ante Orka y sus compañeros que Kráka se les ha unido. El testimonio concuerda con su presencia sin collar en el campamento, vista por Biórr, pero no aclara el alcance de su colaboración ni su posición en el blóð svarið. Véase interrogatorio-myrk."
+    },
+    {
+      "id": "holmganga-orka-myrk",
+      "mode": "new",
+      "label": "La Holmganga Prometida entre Orka y Myrk",
+      "group": "TRAMA",
+      "type": "Trama — Duelo condicionado",
+      "desc": "LIBRO 2, CAPÍTULO 31: ESTADO: ABIERTA. En interrogatorio-myrk Orka sella con sangre la promesa de mantener viva a Myrk hasta encontrar a Breca si responde, y de soltarla entonces para batirse con ella. Myrk responde a las preguntas. Queda pendiente que se cumplan la condición, la liberación y el duelo."
+    },
+    {
+      "id": "venganza-myrk-varg",
+      "mode": "new",
+      "label": "La Amenaza de Myrk contra Varg",
+      "group": "TRAMA",
+      "type": "Trama — Represalia pendiente",
+      "desc": "LIBRO 2, CAPÍTULO 31: ESTADO: ABIERTA. Halja responde a la pregunta de Myrk al identificar a Varg como quien mató a su padre. Myrk, aún cautiva, amenaza a Varg en interrogatorio-myrk. Queda por ver si lo busca y si logra vengarse."
+    },
+    {
+      "id": "pasado-orka",
+      "mode": "update",
+      "previousState": "Orka contiene el lobo tras herir a Myrk.",
+      "descAppend": "LIBRO 2, CAPÍTULO 31: ESTADO: PARCIAL. En interrogatorio-myrk Orka reconoce y contiene la niebla roja después de herir a la cautiva. Es otra observación de su control, sin aclarar la mujer enjaulada, su sensibilidad ni los relatos sobre Skullsplitter."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "practica-lanza-lif-revna",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-orka",
+      "target": "practica-lanza-lif-revna",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "holmganga-orka-myrk",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "holmganga-orka-myrk",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "holmganga-orka-myrk",
+      "target": "interrogatorio-myrk",
+      "label": "nace en",
+      "type": "trama"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "venganza-myrk-varg",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "venganza-myrk-varg",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "venganza-myrk-varg",
+      "target": "interrogatorio-myrk",
+      "label": "nace en",
+      "type": "trama"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "rumbo-starl-orka",
+      "label": "se retoma durante el viaje registrado en",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "montanas-espinazo",
+      "label": "ocurre en las estribaciones de las",
+      "type": "geo"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "spert",
+      "label": "cuenta con la vigilancia de",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "vesli",
+      "label": "cuenta con la vigilancia de",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "gunnar-prow",
+      "label": "cuenta con el apoyo de",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "halja",
+      "label": "incluye el trato propuesto por",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "revna-hare-legs",
+      "label": "incluye el asentimiento de",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "raudskinna",
+      "label": "recoge el testimonio de Myrk sobre",
+      "type": "lore"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "apertura-isbrun",
+      "label": "da a conocer a Orka la",
+      "type": "lore"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "liberacion-lik-rifa",
+      "label": "recoge el testimonio de Myrk sobre la",
+      "type": "lore"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "iskalt",
+      "label": "sitúa la cita prevista frente a la",
+      "type": "geo"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "uspa",
+      "label": "lleva al grupo de Orka noticias sobre",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "kraka",
+      "label": "recoge la adhesión que Myrk atribuye a",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "ilska",
+      "label": "sitúa a Breca, según Myrk, con",
+      "type": "event"
+    },
+    {
+      "source": "interrogatorio-myrk",
+      "target": "varg",
+      "label": "identifica por boca de Halja a",
+      "type": "event"
+    },
+    {
+      "source": "rumbo-starl-orka",
+      "target": "lake-horndal",
+      "label": "sigue la pista hacia el",
+      "type": "geo"
+    },
+    {
+      "source": "practica-lanza-lif-revna",
+      "target": "lif",
+      "label": "pone a prueba a",
+      "type": "event"
+    },
+    {
+      "source": "practica-lanza-lif-revna",
+      "target": "revna-hare-legs",
+      "label": "tiene como instructora a",
+      "type": "event"
+    },
+    {
+      "source": "aprendizaje-mord-lif",
+      "target": "practica-lanza-lif-revna",
+      "label": "avanza con la",
+      "type": "trama"
+    },
+    {
+      "source": "rescate-breca",
+      "target": "interrogatorio-myrk",
+      "label": "obtiene una nueva pista en",
+      "type": "trama"
+    },
+    {
+      "source": "ninos-robados",
+      "target": "interrogatorio-myrk",
+      "label": "recibe el testimonio de Myrk en",
+      "type": "trama"
+    },
+    {
+      "source": "breca-vinculo-lik-rifa",
+      "target": "interrogatorio-myrk",
+      "label": "recibe evidencia indirecta en",
+      "type": "trama"
+    },
+    {
+      "source": "rumbo-lik-rifa",
+      "target": "interrogatorio-myrk",
+      "label": "recibe un itinerario atribuido en",
+      "type": "trama"
+    },
+    {
+      "source": "traslado-tesoros-rotta",
+      "target": "interrogatorio-myrk",
+      "label": "recibe una precisión sobre la cita en",
+      "type": "trama"
+    },
+    {
+      "source": "holmganga-orka-myrk",
+      "target": "orka",
+      "label": "es jurada por",
+      "type": "trama"
+    },
+    {
+      "source": "holmganga-orka-myrk",
+      "target": "myrk",
+      "label": "es reclamada por",
+      "type": "trama"
+    },
+    {
+      "source": "holmganga-orka-myrk",
+      "target": "holmganga",
+      "label": "se rige por la forma de la",
+      "type": "lore"
+    },
+    {
+      "source": "venganza-myrk-varg",
+      "target": "myrk",
+      "label": "es formulada por",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-myrk-varg",
+      "target": "varg",
+      "label": "se dirige contra",
+      "type": "trama"
+    },
+    {
+      "source": "pasado-orka",
+      "target": "interrogatorio-myrk",
+      "label": "añade un episodio de contención en",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 31,
+    "title": "Capítulo 31 — Orka",
+    "summary": "<strong>Orka Skullsplitter</strong> sigue el rastro de los <strong>Raven-Feeders</strong> hacia el <strong>Lago Horndal</strong>. Junto a un arroyo, <strong>Revna Hare-Legs</strong> practica con <strong>Lif</strong> mientras <strong>Spert</strong> y <strong>Vesli</strong> vigilan a <strong>Myrk Sharp-Claw</strong>. A propuesta de <strong>Halja Nariz-Plana</strong>, Orka ofrece un intercambio y jura con sangre que, si Myrk habla, la dejará vivir hasta encontrar a <strong>Breca</strong> y entonces la soltará para una <strong>Holmganga</strong>.<br><br>Myrk dice que encontraron el <strong>Rauðskinna</strong> en la cámara de <strong>Rotta</strong> y que el libro les enseñó a romper el sello de la prisión de <strong>Lik-Rifa</strong> bajo <strong>Oskutreð</strong> con sangre Tainted. Temiendo por su hijo, Orka le arranca un ojo. Myrk afirma que ninguno de los niños murió, aunque ignora si Breca participó, y atribuye su control a la combinación de <strong>Seiðr</strong> y <strong>Galdur</strong>.<br><br>Según Myrk, <strong>Uspa</strong> abrió el <strong>Puente Isbrún</strong> para los Battle-Grim y <strong>Kráka</strong> se ha unido a los Raven-Feeders. Dice que dejó a Breca con <strong>Ilska Raven-Feeder</strong> al norte del puente y que el plan era cruzar y marchar al oeste, hacia la costa frente a la <strong>Isla de Iskalt</strong>. Orka tiene una dirección que seguir, aunque duda del relato. Halja identifica a <strong>Varg</strong> como el matador del padre de Myrk, y la cautiva lo amenaza."
+  }
+}
