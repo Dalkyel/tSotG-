@@ -143,3 +143,23 @@ actually fixed.
   SKILL.md's event-coverage gate making this the default drafting instruction (write the
   TRAMA append short on the first pass, not narrative-then-trim) rather than only a
   post-hoc detection step.
+
+- 2026-11-02: Book 1 rebuild Ch46 — two mistakes, both fixed directly in SKILL.md and
+  review-gates.md (now absorbed there, not just here):
+  (1) `ownership-review.md`/`event-review.md`/`thread-review.md` were first written with
+  the PASS markers wrapped in Markdown bold (`**Ownership review: PASS**`), matching how
+  the rest of each file was formatted. `finish-chapter` rejected all three with "Missing
+  Ownership review: PASS in ownership-review.md" even though the text was plainly present
+  as a substring — `finish-rebuild-chapter.cjs` requires an exact, trimmed, standalone
+  line match, not a substring search. Cost a full completion round-trip to diagnose and
+  re-edit three files. SKILL.md's semantic-gates bullet list now states the bare-line,
+  no-Markdown requirement explicitly.
+  (2) Read all 14 pages of the full cross-POV backlog (111,826 characters) before
+  assessing the thread-lifecycle checklist, even though the chapter's complete entity
+  list (built during entity resolution) contained zero Varg or Elvar names — every one of
+  the ~80 Varg/Elvar backlog candidates was ultimately assessed on the single shared
+  reason "different POV, not represented this chapter," with nothing drawn from its own
+  prose. Since this saga's chapters are each strictly one POV, this waste recurs on every
+  chapter. review-gates.md's thread-lifecycle gate now documents the shortcut: once the
+  entity list confirms no overlap, assess an unrepresented POV's candidates straight from
+  the cheap `--index` listing instead of their full paginated prose.

@@ -167,6 +167,18 @@ to create a thread once or to pass the JavaScript verifier.
    and before updating its owner, and `read-links` for relevant relationships. This
    candidate list does not replace reviewing pending goals/clues found in those full
    entries or the new chapter.
+   This saga's chapters are each a single POV (Orka, Varg or Elvar); once the chapter's
+   full entity list from [entity resolution, step 2](source-and-entity-workflow.md) is
+   built and confirms no character, place or event from the other two POVs is named or
+   described, the backlog candidates belonging to those unrepresented POVs can be
+   assessed straight from the `--index` listing below (grouped by their known POV) as
+   `unchanged — different POV, not represented this chapter`, without first reading
+   their full paginated prose. Still read the full prose for every candidate in the
+   chapter's own POV, and for any other-POV candidate that the entity list does match.
+   Reading all 14 backlog pages (111,826 characters as of Book 1) to assess items whose
+   POV never appears is the exact, measured waste this shortcut removes — confirmed in
+   the Chapter 46 run, where every Varg/Elvar candidate ended up assessed on that single
+   shared reason with zero content drawn from its own prose.
    After reading the full backlog, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
    `rebuild.cjs read-backlog PAGE --index`) for a compact list of the same candidate ids,
    marked `[TRAMA]` and/or `[star]`, when checking the final review record for omissions.

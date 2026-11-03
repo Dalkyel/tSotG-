@@ -85,6 +85,12 @@ Use its heading index and read one gate per response. Completion requires:
 
 Keep these files beside the unique run's `baseline/`. A verifier PASS does not replace
 any semantic gate. The linked procedures remain mandatory, not optional background.
+Each marker (`Ownership review: PASS`, `Event coverage review: PASS`,
+`Thread lifecycle review: PASS`) must appear as its own bare line, exact text, trimmed,
+with no Markdown emphasis or heading markup around it (not `**Ownership review:
+PASS**`) — `finish-chapter`/`finish-rebuild-chapter.cjs` checks for an exact line match
+and fails with a misleading "Missing ... in ...-review.md" if the marker is decorated,
+even though the text is plainly present in the file.
 
 ## Capture the baseline before editing
 

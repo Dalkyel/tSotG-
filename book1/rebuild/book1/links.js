@@ -1956,4 +1956,17 @@ const links = [
     {"source":"ayuda-torvik-froya","target":"traicion-skalk","label":"encuentra su desenlace en","type":"trama"},
     {"source":"cat-tramas","target":"trato-skalk-akall","label":"incluye","status":"broken","reason":"LIBRO 1, CAPÍTULO 45: Varg responde atacando a Olvir; no acepta ni jura a Skalk."},
     {"source":"trato-skalk-akall","target":"traicion-skalk","label":"encuentra su desenlace en","type":"trama"},
+
+// ── LIBRO 1, CAPÍTULO 46 — ORKA ──
+    {"source":"cat-eventos","target":"altar-lik-rifa-pinar","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"altar-lik-rifa-pinar","label":"incluye","type":"arc"},
+    {"source":"orka","target":"altar-lik-rifa-pinar","label":"participa en","type":"event"},
+    {"source":"mord","target":"altar-lik-rifa-pinar","label":"participa en","type":"event"},
+    {"source":"lif","target":"altar-lik-rifa-pinar","label":"identifica primero las alas de la talla en","type":"event"},
+    {"source":"altar-lik-rifa-pinar","target":"grimholt","label":"se halla en el pinar camino a","type":"geo"},
+    {"source":"orka","target":"likrafa","label":"identifica, y no como culto a Snaka, el altar hallado como propio de","type":"lore"},
+    {"source":"altar-lik-rifa-pinar","target":"likrafa","label":"aporta evidencia de culto activo a","type":"lore"},
+    {"source":"cat-tramas","target":"culto-likrifa-pinar","label":"incluye","type":"arc"},
+    {"source":"cat-orka","target":"culto-likrifa-pinar","label":"incluye","type":"arc"},
+    {"source":"culto-likrifa-pinar","target":"altar-lik-rifa-pinar","label":"incorpora evidencia de","type":"trama"},
 ];
