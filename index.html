@@ -92,6 +92,7 @@
     <div id="map-overlay-wrap">
       <div id="map-stage">
         <img src="shared/vigrid.jpeg" alt="Mapa oficial de Vigríð" id="map-image">
+        <svg id="map-routes" viewBox="0 0 1000 1323" preserveAspectRatio="none"></svg>
         <div id="map-overlay"></div>
       </div>
     </div>
@@ -100,6 +101,14 @@
       <button class="ctrl-btn" id="btn-map-zoom-out" title="Alejar" aria-label="Alejar">−</button>
       <button class="ctrl-btn" id="btn-map-zoom-reset" title="Restablecer vista" aria-label="Restablecer">⟳</button>
       <button class="ctrl-btn" id="btn-map-toggle-pins" title="Ocultar marcadores" aria-label="Ocultar marcadores" aria-pressed="false">📍</button>
+      <select id="map-trip-select" aria-label="Ver rutas de personajes">
+        <option value="">Sin rutas</option>
+        <option value="all">Todas las rutas</option>
+        <option value="orka">Ruta de Orka</option>
+        <option value="varg">Ruta de Varg</option>
+        <option value="elvar">Ruta de Elvar</option>
+      </select>
+      <div id="map-trip-legend" class="legend" hidden></div>
     </div>
   </dialog>
 
@@ -108,6 +117,7 @@
   <script src="book1/nodes.js"></script>
   <script src="book1/links.js"></script>
   <script src="book1/summaries.js"></script>
+  <script src="book1/trips.js"></script>
   <!-- Book 2 data (empty until read) -->
   <script src="book2/nodes.js"></script>
   <script src="book2/links.js"></script>

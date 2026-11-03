@@ -63,6 +63,8 @@ svg:active{cursor:grabbing}
 #map-overlay-wrap{height:calc(100% - 92px);overflow:auto;background:#0f0c08;touch-action:pan-x pan-y}
 #map-stage{position:relative;width:min(900px,100%);margin:0 auto;transform-origin:top center;transition:transform .15s}
 #map-image{display:block;width:100%;height:auto}
+#map-routes{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#map-routes .trip-line{stroke-width:5;stroke-linecap:round;opacity:.85}
 #map-overlay{position:absolute;inset:0;pointer-events:none;transition:opacity .15s}
 #map-overlay.pins-hidden{opacity:0;pointer-events:none}
 #map-overlay .map-pin{position:absolute;transform:translate(-50%,-50%);width:16px;height:16px;min-height:0;border-radius:50%;background:var(--crimson);border:2px solid var(--gold-lt);padding:0;cursor:pointer;pointer-events:auto;box-shadow:0 0 6px rgba(0,0,0,.6);transition:transform .15s,background .15s}
@@ -86,6 +88,8 @@ svg:active{cursor:grabbing}
 .ctrl-btn:hover{background:rgba(50,35,15,.95);border-color:var(--gold)}
 .reference .ctrl-btn{width:32px;height:32px;min-height:0;padding:0;background:rgba(26,20,10,.85);border:1px solid #3a2a12}
 .reference .ctrl-btn:hover{background:rgba(50,35,15,.95);border-color:var(--gold)}
+#map-trip-select{width:150px;min-height:32px;padding:4px 8px;font-size:13px}
+#map-trip-legend{flex-direction:column;align-items:flex-start;gap:4px;width:150px;background:rgba(26,20,10,.85);border:1px solid #3a2a12;border-radius:4px;padding:6px 8px}
 
 .rune-bg{position:absolute;inset:0;pointer-events:none;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Ctext x='10' y='40' font-size='28' fill='white'%3Eᚱᚢᚾᚨ%3C/text%3E%3Ctext x='10' y='80' font-size='28' fill='white'%3Eᚠᚢᚦᚨ%3C/text%3E%3Ctext x='10' y='115' font-size='22' fill='white'%3Eᚷᚹᚺᚾ%3C/text%3E%3C/svg%3E")}
 
