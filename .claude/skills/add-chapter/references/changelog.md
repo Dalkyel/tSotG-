@@ -9,6 +9,24 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
+- 2026-11-02: Book 1 rebuild Ch47 — two mechanical mistakes while running the already-
+  documented helpers, both fixed directly in `book1-rebuild.md`/`review-gates.md` (now
+  absorbed there, not just here):
+  (1) Called `append-chapter` with `--review-links --review-summary`; those flags belong
+  only to `verify-chapter` and `append-chapter` rejected the call with `Unknown, duplicate
+  or incomplete option`. `book1-rebuild.md` now says explicitly that `append-chapter` only
+  takes `--staged-preview`/`--replace-applied` and that the review flags need a separate
+  `verify-chapter` call afterward.
+  (2) Tried to read page 3 of an already-read id by appending `3` after the id
+  (`read-latest 1 varg 3`) instead of replacing the leading page argument
+  (`read-latest 3 varg`); the trailing `3` was parsed as a second, unresolvable id and
+  failed with `Unknown ids: 3`. `book1-rebuild.md` now gives both forms side by side.
+  (3) Left the thread-lifecycle checklist's `remaining` field as `""` on every
+  `unchanged` item; `review-backlog.cjs check` failed on all 108 of them at once with
+  `Missing remaining question or explicit none` — the gate text already said "or explicit
+  `none`" but it read as optional rather than as a required literal value.
+  `review-gates.md` now says explicitly that `remaining` must be nonempty text and gives
+  the literal word `none` as what to write.
 - 2026-11-02: Book 1 rebuild Ch20 — two mistakes, both fixed directly in SKILL.md (now
   absorbed there, not just here):
   (1) Wrote three new nodes (a mission EVENTO, its TRAMA question, and a landing EVENTO)

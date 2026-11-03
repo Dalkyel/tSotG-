@@ -199,7 +199,12 @@ to create a thread once or to pass the JavaScript verifier.
    It uses the same candidate selector as the full reader and leaves every assessment
    pending. Complete each item's `assessment` (`unchanged`, `advanced`, `partial`,
    `resolved`, `disproved`, `closed-history`, or `thematic`), `evidence` (source and
-   item-specific reason), and `remaining` (pending question, or explicit `none`). Keep
+   item-specific reason), and `remaining` (pending question, or explicit `none`) —
+   `remaining` must be nonempty text even for an item with no pending question; write the
+   literal word `none` there, since `review-backlog.cjs check` rejects an empty string
+   with `Missing remaining question or explicit none` for every such row (confirmed in the
+   Book 1 Chapter 47 run: a first pass left `remaining: ""` on every `unchanged` item and
+   `check` failed on all of them at once). Keep
    the generated `id` and `fields`; cover every clue within a multi-clue star in the
    evidence, or point to its explicit discussion in `thread-review.md`. Grouped prose
    assessments remain valid, but each ID needs its own checklist row referencing the

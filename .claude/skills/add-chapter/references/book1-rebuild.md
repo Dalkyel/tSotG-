@@ -52,7 +52,16 @@ not factual baselines to copy into chapter descriptions. Live Book Two stays int
   The `1` after `read-latest`, `read-backlog`, or `read-links` is a page number, not a
   book cap — the launcher already supplies book `1` implicitly, so passing a book
   argument before the page number (as the live-workflow `read-links.cjs` signature
-  requires) raises `Unknown ids: 1`. Batch arguments are `append-chapter CHAPTER BASELINE SPEC`; all three data
+  requires) raises `Unknown ids: 1`. To read a later page of the same ids, replace that
+  leading page number and repeat the full id list (`read-latest 3 varg`) — appending the
+  new page number after the ids instead (`read-latest 1 varg 3`) is parsed as a second,
+  unresolvable id and fails with `Unknown ids: 3`.
+  `append-chapter` itself only accepts `--staged-preview`/`--replace-applied`; it does not
+  take `--review-links`, `--review-summary` or `--review-nodes` — passing one fails with
+  `Unknown, duplicate or incomplete option`. `append-chapter` already runs a plain
+  `verify-chapter` internally before writing, so run those review flags as a separate
+  `verify-chapter` call afterward (as in the two examples below) to get the human-readable
+  reports. Batch arguments are `append-chapter CHAPTER BASELINE SPEC`; all three data
   files must still match that pre-edit baseline on the initial append. For corrections
   before completion, use `append-chapter CHAPTER BASELINE NEW_SPEC --replace-applied PREVIOUS_SPEC`
   as described in the shared workflow; retain the exact applied manifest rather than
