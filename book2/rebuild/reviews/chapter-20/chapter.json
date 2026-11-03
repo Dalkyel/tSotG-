@@ -1,0 +1,211 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 20 — ORKA ──",
+  "nodes": [
+    {
+      "id": "myrk",
+      "mode": "update",
+      "previousState": "Identifica al difunto como su padre y cae inconsciente en el combate.",
+      "descAppend": "LIBRO 2, CAPÍTULO 20: Los guerreros la llaman Myrk Sharp-Claw. Llorosa y airada, identifica al anciano muerto como su padre y exige saber quién lo mató. Reconoce el nombre de Drekr y ordena apresar a los recién llegados. Pelea con ojos rojos y dientes afilados; conjura runas de fuego pese a tener un brazo roto. Queda inconsciente tras un codazo de Orka; véase combate-myrk-rotta.",
+      "starAppend": "LIBRO 2, CAPÍTULO 20: Alcanza la cámara y encuentra muerto a su padre. Véase traslado-tesoros-rotta para lo que sigue pendiente."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "mode": "update",
+      "previousState": "Llegada comprobada y padre hallado muerto; recogida y entrega sin verificar.",
+      "descAppend": "LIBRO 2, CAPÍTULO 20: ESTADO: PARCIAL. Myrk llega a la cámara y encuentra muerto al hombre con quien debía reunirse. Queda inconsciente en combate-myrk-rotta. Dos guerreros entraron en la cámara antes del combate; sigue sin comprobarse si recogieron algo, qué ocurrió con los hallazgos y si llegaron al punto de entrega."
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "previousState": "Myrk reconoce a Drekr; el interrogatorio no localiza a Breca.",
+      "descAppend": "LIBRO 2, CAPÍTULO 20: ESTADO: PARCIAL. Orka pregunta a Myrk por su hijo y obtiene una reacción de reconocimiento al nombrar a Drekr, sin respuesta sobre el niño. Myrk queda inconsciente al final de combate-myrk-rotta. Paradero, salud y rescate siguen pendientes."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "mode": "update",
+      "previousState": "Lif combate al lado de Orka y los Bloodsworn y sigue vivo al terminar el combate.",
+      "descAppend": "LIBRO 2, CAPÍTULO 20: ESTADO: PARCIAL. Orka envía a Vesli en auxilio de Lif durante combate-myrk-rotta. Lif está a la vista de la compañía al acabar la lucha, después de sus manifestaciones Tainted; el capítulo no muestra qué entiende de lo visto ni cómo se resolverá la tensión con el secreto."
+    },
+    {
+      "id": "hombre-ojos-rojos",
+      "mode": "new",
+      "label": "El Hombre de Ojos Rojos (†)",
+      "group": "FACCION",
+      "type": "Personaje — Dragon-born fallecido",
+      "desc": "LIBRO 2, CAPÍTULO 20: Anciano dragon-born fallecido, reconocido por Myrk Sharp-Claw como su padre ante la cámara de Rotta. Es el difunto examinado en rastro-breca-camara-rotta. Su nombre personal sigue sin revelarse.",
+      "star": ""
+    },
+    {
+      "id": "combate-myrk-rotta",
+      "mode": "new",
+      "label": "Combate contra Myrk en la Cámara de Rotta",
+      "group": "EVENTO",
+      "type": "Evento — Combate y auxilio",
+      "desc": "LIBRO 2, CAPÍTULO 20: En el claro, Orka cuenta doce adversarios, incluida su jefa, y recuerda que dos más entraron en la cámara. Lif propone razonar; Orka piensa dejar a uno con vida para obtener respuestas. Myrk reconoce a su padre muerto y pregunta si Vesli comió sus dientes. Orka pregunta por su hijo; al mencionar a Drekr, Myrk le exige que explique cómo lo conoce y manda capturar al grupo. Orka contiene al lobo hasta decidir soltarlo; su percepción se agudiza, aumenta su fuerza y se le afilan dientes y garras. Vesli hiere en la pierna a la guerrera que acosa a Lif y él la abate de una lanzada en la boca. Orka arroja su hacha contra otro atacante que amenaza a Vesli. Revna rompe el cerco y los Bloodsworn cargan desde los árboles. Ingmar arranca un escudo de las manos de su adversario y se abalanza con las mandíbulas abiertas. Un Berserkir derriba y estrangula a Orka; Spert lo alcanza en la mejilla y al guerrero se le ennegrecen las venas y se le hincha la lengua. Suelta a Orka y un sabueso lo derriba. Myrk muerde a Orka a través de la malla; Orka le rompe un brazo. Myrk conjura un círculo de runas de fuego que quema la mejilla de Orka y luego avanza como una red. Orka pasa por debajo y deja inconsciente a Myrk de un codazo; el fuego se disipa. Orka apacigua al lobo. Halja remata a un Raven-Feeder; Gunnar sangra por debajo de la rodilla y Revna corre hacia él. Edel aparece con sus sabuesos ensangrentados. Lif tiembla, con el escudo maltrecho y sangre en la lanza. Vesli celebra los dientes disponibles. La lucha acaba sin respuesta sobre Breca.",
+      "star": ""
+    },
+    {
+      "id": "pasado-orka",
+      "mode": "update",
+      "previousState": "La manifestación lobuna pasa de irrupción recordada a liberación deliberada en el claro.",
+      "descAppend": "LIBRO 2, CAPÍTULO 20: ESTADO: PARCIAL. En combate-myrk-rotta, Orka distingue esta vez el cambio que puede contener, desatar al empezar la lucha y apaciguar al terminar, frente a la irrupción que recuerda del Grimholt. Siguen pendientes la mujer enjaulada, la sensibilidad a los restos divinos y la historia del antiguo jefe."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "mode": "update",
+      "previousState": "La formación renovada afronta otra prueba real junto a Orka.",
+      "descAppend": "LIBRO 2, CAPÍTULO 20: ESTADO: PARCIAL. Orka le aconseja pasos cortos en el barro. En combate-myrk-rotta Lif tropieza al retroceder, sostiene el escudo y aprovecha el auxilio de Vesli para acertar con la lanza. Su actuación no demuestra que esté listo para el duelo con Guðvarr."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "mode": "update",
+      "previousState": "La lucha corrobora la presencia de combatientes Tainted en la hueste de Myrk.",
+      "descAppend": "LIBRO 2, CAPÍTULO 20: ESTADO: PARCIAL. combate-myrk-rotta muestra a Myrk con ojos rojos y dientes afilados y a un Berserkir entre los atacantes de su grupo. Es evidencia adicional de composición Tainted; no identifica al guerrero rubio de Snakavik, su linaje ni la razón de su libertad."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "combate-myrk-rotta",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-orka",
+      "target": "combate-myrk-rotta",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "combate-myrk-rotta",
+      "target": "camara-rotta",
+      "label": "ocurre en el claro de la",
+      "type": "geo"
+    },
+    {
+      "source": "combate-myrk-rotta",
+      "target": "llegada-raven-feeders-rotta",
+      "label": "estalla después de",
+      "type": "event"
+    },
+    {
+      "source": "orka",
+      "target": "combate-myrk-rotta",
+      "label": "desata su fuerza lobuna durante",
+      "type": "event"
+    },
+    {
+      "source": "myrk",
+      "target": "combate-myrk-rotta",
+      "label": "conjura runas de fuego durante",
+      "type": "magic"
+    },
+    {
+      "source": "myrk",
+      "target": "hombre-ojos-rojos",
+      "label": "es hija de",
+      "type": "rel"
+    },
+    {
+      "source": "lif",
+      "target": "combate-myrk-rotta",
+      "label": "abate a una atacante durante",
+      "type": "event"
+    },
+    {
+      "source": "spert",
+      "target": "combate-myrk-rotta",
+      "label": "hace soltar al Berserkir que estrangula a Orka durante",
+      "type": "event"
+    },
+    {
+      "source": "bloodsworn",
+      "target": "combate-myrk-rotta",
+      "label": "intervienen desde el bosque durante",
+      "type": "event"
+    },
+    {
+      "source": "revna-hare-legs",
+      "target": "combate-myrk-rotta",
+      "label": "rompe el cerco de Orka durante",
+      "type": "event"
+    },
+    {
+      "source": "ingmar",
+      "target": "combate-myrk-rotta",
+      "label": "desarma a un adversario durante",
+      "type": "event"
+    },
+    {
+      "source": "halja",
+      "target": "combate-myrk-rotta",
+      "label": "remata a un Raven-Feeder durante",
+      "type": "event"
+    },
+    {
+      "source": "gunnar-prow",
+      "target": "combate-myrk-rotta",
+      "label": "sufre una herida en la pierna durante",
+      "type": "event"
+    },
+    {
+      "source": "edel",
+      "target": "combate-myrk-rotta",
+      "label": "acude con sus sabuesos a",
+      "type": "event"
+    },
+    {
+      "source": "raven-feeders",
+      "target": "combate-myrk-rotta",
+      "label": "se enfrentan a los Bloodsworn durante",
+      "type": "conflict"
+    },
+    {
+      "source": "rescate-breca",
+      "target": "combate-myrk-rotta",
+      "label": "motiva la pregunta de Orka durante",
+      "type": "trama"
+    },
+    {
+      "source": "traslado-tesoros-rotta",
+      "target": "combate-myrk-rotta",
+      "label": "sufre un revés en",
+      "type": "trama"
+    },
+    {
+      "source": "proteccion-lif-secreto",
+      "target": "combate-myrk-rotta",
+      "label": "se pone a prueba durante",
+      "type": "trama"
+    },
+    {
+      "source": "pasado-orka",
+      "target": "combate-myrk-rotta",
+      "label": "recibe evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "aprendizaje-mord-lif",
+      "target": "combate-myrk-rotta",
+      "label": "recibe evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "tainted-raven-feeders",
+      "target": "combate-myrk-rotta",
+      "label": "recibe evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "vesli",
+      "target": "combate-myrk-rotta",
+      "label": "hiere a la atacante de Lif durante",
+      "type": "event"
+    }
+  ],
+  "summary": {
+    "chapter": 20,
+    "title": "Capítulo 20 — Orka",
+    "summary": "<strong>Orka Skullsplitter</strong> sale al claro ante la cámara de <strong>Rotta</strong> con <strong>Lif</strong> y <strong>Vesli</strong>. <strong>Myrk Sharp-Claw</strong>, al frente de los <strong>Raven-Feeders</strong>, pregunta por la muerte de su padre. Orka exige saber adónde se llevaron a <strong>Breca</strong>. Myrk reacciona al nombre de <strong>Drekr</strong> y ordena apresarlos. Orka suelta al lobo de su sangre.<br><br>Vesli hiere a la guerrera que acosa a Lif y él la abate. <strong>Revna Hare-Legs</strong> rompe el cerco y los <strong>Bloodsworn</strong> salen del bosque. Un Berserkir estrangula a Orka hasta que <strong>Spert</strong> lo alcanza en la mejilla y un sabueso lo derriba. Myrk muerde a Orka; con un brazo roto, conjura runas de fuego. Orka esquiva la red ardiente y la deja inconsciente de un codazo.<br><br><strong>Halja Nariz-Plana</strong> remata a un enemigo y Revna acude junto a <strong>Gunnar Prow</strong>, herido. <strong>Edel</strong> encuentra a Orka aún en pie. Lif tiembla tras la lucha y Vesli se alegra de los dientes que podrá recoger. Orka sigue sin saber dónde está Breca."
+  }
+}

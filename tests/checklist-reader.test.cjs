@@ -49,3 +49,17 @@ test('targeted checklist reads retain stored order, fail unknown IDs and never m
   f.data.items.push({ id: 'one' }); fs.writeFileSync(f.file, JSON.stringify(f.data));
   assert.match(f.run(1).stderr, /duplicate checklist id/);
 });
+
+test('checklist index shows selected question states without evidence prose', t => {
+  const f = fixture(t, [
+    { id: 'one', assessment: 'partial', evidence: 'Detailed evidence.', remaining: 'Question?' },
+    { id: 'two', assessment: 'closed-history', evidence: 'Closed.', remaining: 'none' },
+    { id: 'three', assessment: null, evidence: '', remaining: '' }
+  ]);
+  const result = f.run(1, '--index', 'three', 'one');
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /INDEX ONLY/);
+  assert.match(result.stdout, /one \| partial \| Question\?\nthree \| pending \| —/);
+  assert.doesNotMatch(result.stdout, /Detailed evidence\.|two \|/);
+  assert.notEqual(f.run(1, '--index', 'unknown').status, 0);
+});

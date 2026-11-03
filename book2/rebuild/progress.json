@@ -20,7 +20,8 @@
     16,
     17,
     18,
-    19
+    19,
+    20
   ],
   "chapters": [
     {
@@ -287,15 +288,33 @@
         }
       },
       "log": "Chapter 19: Reprocessed Varg’s approach to Darl, the camp and Glornir’s decisions, voluntary wolf senses and the new Brimil objective. Used canonical drammur and confirmed that the existing reconciliation already covers the Chapter 29 reference. Ownership, event coverage, 169 thread assessments, summary mention verification and 59 pre-publication regression tests passed. Visual confirmation pending."
+    },
+    {
+      "chapter": 20,
+      "source": "book2/chapter 20.html",
+      "sourceHash": "63e39fad5530380d7ae8001ee138fdce8f9bb8e64626f7a209725c3462a0b8ea",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch20.rxWYmC",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-20",
+        "hashes": {
+          "ownership-review.md": "b6961402de43220467c7b48a5bb03a49caab93446f42c9c25955eee74a1f102c",
+          "event-review.md": "fde379fe3004ba759e9f839662d1b1959adb30a6d4f64c102ee66e27b9a079f0",
+          "thread-review.md": "9678168366a29e970bb11728f8685005393cd60f7222e7babd1c822de3e941ee",
+          "thread-checklist.json": "d718bbce339cfe218c21646286dc8c8587b9a8ce465dda7d99bcc3b876ea7f17",
+          "completion.json": "084b3118b9fd700bbd38f36bfd8f8a14985338d97fcf1bfeebb3aa8941caf587",
+          "chapter.json": "d3544cba015843c842636e43abd301fa108ee2f8ef80fb653b3a0394a9e52ca5"
+        }
+      },
+      "log": "Chapter 20: Reprocessed Orka’s confrontation with Myrk, the Bloodsworn intervention, and the related thread evidence. Ownership, event coverage, all 169 clue assessments, chapter verification, and pre-publication regression tests passed. Local browser access was blocked by the file URL policy."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "2bbdfb91322aeec63dee4bf82791490e200d80cb46ff7d12597af2c854ad4163",
-    "book2/links.js": "a8c31d2f3481e711232679247e9821ac820031d5eaaa452f07cf98671291d73a",
-    "book2/summaries.js": "39356297cf60c58a0b991092f56806a93a349e43bee74ddd330027e1e899e091"
+    "book2/nodes.js": "c71f6eff5a09be0202452900019057953e9e41cadf766960f83d885d33df3d46",
+    "book2/links.js": "d9e7612e99c7a9995f1dbe9fbba1d656eee165d9a1ef959f88d349968d9d5990",
+    "book2/summaries.js": "1e273652f0473119970701446fab27eadf10df39c8d3670792cd0e646d65191f"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -306,9 +325,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "c95eca80ec8bb909221e7f3845f7411fc377bc1f10f5d7871da3e4868adff75a",
-    "links": "4c25c968ca23197912883e5145fc6c3b1fbad94ebb7895b9971a7e433f5603bd",
-    "summaries": "59ffb9ce09ffb1b34a7ff8abdbb8c8afb9d374893ebec341a53a996f2d7c7b5b"
+    "nodes": "4a5866e5c38e99620e3f2f85a1ad533cd81d801e1f0ccddbfc75f050c22d6e88",
+    "links": "c35f34770bdbba659acc49c4dd1adf4f2783d17bb9450ceaf73229411e96acb9",
+    "summaries": "7cc7258d138abf669fb0fb4d20e35db0921d2644d3344ebcdddc99a2f92cd1a5"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

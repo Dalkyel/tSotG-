@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch20 — comparing open questions across 169 checklist rows
+  required extracting fields from the prior review JSON. Added a paginated
+  `read-checklist.cjs --index` view for IDs, saved outcomes and remaining questions.
+  Complete evidence remains available in the default view.
+
 - 2026-11-03: Book Two Ch19 — an immutable-reference lookup exposed the old
   Chapter 29 `rio-drammur` endpoint after an existing reconciliation had already
   changed the effective endpoint to `drammur`. Added a bounded parsed check of
