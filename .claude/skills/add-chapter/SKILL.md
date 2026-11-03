@@ -96,7 +96,9 @@ Use its heading index and read one gate per response. Completion requires:
   `--pov` selection retains untagged clues; apply the gate's cross-POV conditions and
   keep the unfiltered index/checklist for complete coverage.
 
-Keep these files beside the unique run's `baseline/`. A verifier PASS does not replace
+Keep these files beside the unique run's `baseline/`. Book Two reprocessing completion
+also archives them and the checklist in the project; see its workflow reference.
+A verifier PASS does not replace
 any semantic gate. The linked procedures remain mandatory, not optional background.
 Each marker (`Ownership review: PASS`, `Event coverage review: PASS`,
 `Thread lifecycle review: PASS`) must appear as its own bare line, exact text, trimmed,

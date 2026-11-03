@@ -8,6 +8,21 @@ const A = require('./archive-records.cjs'), { rebase } = require('./rebase-archi
 const kinds = ['nodes', 'links', 'summaries'];
 const readers = ['match-entities', 'search-descriptions', 'read-latest', 'read-links', 'read-backlog', 'check-chapter'];
 const helpers = [...readers, 'review-backlog', 'append-chapter', 'append-node', 'append-entries', 'verify-chapter'];
+// Keep semantic evidence after the OS removes the temporary drafting context.
+function collectReviewEvidence(root, chapter, run, completion) {
+  assert.ok(Number.isInteger(chapter) && chapter > 0, 'Invalid review chapter');
+  const directory = `book2/rebuild/reviews/chapter-${chapter}`;
+  const files = new Map(), hashes = {};
+  for (const name of ['ownership-review.md', 'event-review.md', 'thread-review.md', 'thread-checklist.json', 'completion.json', 'chapter.json']) {
+    const source = name === 'completion.json' ? completion : path.join(run, name);
+    if (name === 'chapter.json' && !fs.existsSync(source)) continue; // Individual appenders need no batch manifest.
+    const destination = path.join(root, directory, name);
+    assert.ok(!fs.existsSync(destination), `Review evidence already exists: ${destination}`);
+    const bytes = fs.readFileSync(source);
+    files.set(destination, bytes); hashes[name] = A.hash(bytes);
+  }
+  return { files, record: { directory, hashes } };
+}
 function validateCombined(one, two, root) {
   const ids = new Set(one.nodes.map(x => x.value.id));
   for (const data of [one, two]) {
@@ -179,7 +194,9 @@ function main(argv, root = path.resolve(__dirname, '../../../..')) {
       changes.set(path.join(stateRoot, `reviewed/book2/${kind}.js`), text);
       changes.set(path.join(root, `book2/${kind}.js`), A.render(live[kind], kind, 2)); state.reviewedHashes[kind] = A.hash(text);
     }
-    state.completedChapters.push(next); state.chapters.push({ chapter: next, source: active.source, sourceHash: active.sourceHash, run: active.run, log: spec.log });
+    const evidence = collectReviewEvidence(root, next, active.run, path.resolve(args[1]));
+    for (const [file, bytes] of evidence.files) changes.set(file, bytes);
+    state.completedChapters.push(next); state.chapters.push({ chapter: next, source: active.source, sourceHash: active.sourceHash, run: active.run, reviews: evidence.record, log: spec.log });
     state.status = next === reference.summaries.at(-1)?.value.chapter ? 'complete' : 'in-progress'; delete state.active;
     for (const kind of kinds) state.liveHashes[`book2/${kind}.js`] = A.hash(changes.get(path.join(root, `book2/${kind}.js`)));
     changes.set(progressFile, JSON.stringify(state, null, 2) + '\n');
@@ -199,4 +216,4 @@ function child(helper, args, cwd) {
   if (result.error) throw result.error; assert.equal(result.status, 0, `${helper} failed; live completion not published`);
 }
 if (require.main === module) { try { main(process.argv.slice(2)); } catch (error) { console.error('Book Two reprocessing failed: ' + error.message); process.exitCode = 1; } }
-module.exports = { main, compose, validateCombined };
+module.exports = { main, compose, validateCombined, collectReviewEvidence };

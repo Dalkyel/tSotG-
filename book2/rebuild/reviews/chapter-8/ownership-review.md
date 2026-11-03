@@ -1,0 +1,6 @@
+# Chapter 8 ownership review
+Read full latest chronological entries before editing: elvar (2 pages), grend (2), uspa, sighvat, huld, solin, ulfrir, skuld, silrid, collares, battle-grim, botin-oskutred, libro-negro-vergelmir and all five changed TRAMA. Also read galdur, graskinna and plan-resurreccion-ulfrir for context. Audited inherited descriptions; no new relocation needed.
+Read both verifier node-review pages, every appended link as a sentence and all 17 summary mention identities. Reviewed all 21 entries against both source pages. Named collar owns its special capacities; collares only gains scoped mechanics; Guldurstafir defines a technique with bounded observation. The event owns the coherent rite and connected commitment/reunion; profiles retain individual stakes and actions. Threads carry short state/evidence pointers. Elvar’s private memories stay private; tusk, skin identity, wounds and bloodline implications remain attributed. No imported future facts; the canonical event ID was confirmed by a bounded reference excerpt, not copied for evidence.
+All latest desc/star prefixes are programmatically preserved. Ulfrir’s obsolete death type is updated. No individual’s reaction is treated as generic lore or proof of lineage.
+
+Ownership review: PASS

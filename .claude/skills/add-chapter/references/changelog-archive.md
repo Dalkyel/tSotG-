@@ -1,5 +1,19 @@
 # Changelog archive
 
+- 2026-11-03: Book Two reprocessing Ch8 — the prior chapter's recorded temporary
+  run no longer contained its checklist, demonstrating that completion evidence can
+  disappear with OS cleanup. `finish-chapter` now retains the three semantic reports,
+  checklist, completion spec and optional batch manifest under
+  `book2/rebuild/reviews/chapter-N/`, records their hashes in progress and includes
+  them in the publication transaction. Existing evidence blocks overwriting. Chapter
+  8's still-available evidence was archived after completion; earlier missing reports
+  were not recreated. Regression coverage checks exact bytes/hashes, survival after
+  temporary-file removal and collision refusal without live publication. All 53
+  chapter suites passed; the 10 affected reprocessing/integration tests passed after
+  the change. Guidance is fully absorbed in `book2-reprocessing.md` and the launcher;
+  archived immediately. PyYAML remains unavailable for the standard skill validator;
+  Ruby YAML frontmatter, local reference and JavaScript syntax checks were used.
+
 - 2026-11-03: Book Two reprocessing Ch7 — Lif renews a previously completed
   training goal. Confirmed that `data-core.js` permanently suppresses an exact
   source/target/label key once broken, so re-adding `incluye` would leave the thread

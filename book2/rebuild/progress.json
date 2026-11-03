@@ -8,7 +8,8 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
   "chapters": [
     {
@@ -59,15 +60,33 @@
       "sourceHash": "79f36d8a3999d34d660ae3fbc1df3378689ebb218717baa65837e7a975ab8e5b",
       "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch7.uyHoLI",
       "log": "Chapter 7: Reprocessed the complete Orka source into 16 node additions/revisions, 40 links and a Spanish summary. Confirmed her old chiefship and Ulfrir ancestry while preserving contradictory Skullsplitter testimony; captured the refused return, Lif’s renewed training choice and reserved revenge, children’s protected departure, and the two routes toward Darl and the western mine/Sea-Wolf. Kept arrivals, rescue, teaching readiness and vengeance pending. Reopened the existing training thread with a distinct active category-link key while retaining its old broken marker. Ownership/event reviews and all 152 baseline/current clue assessments pass. All 53 tests across nine required regression files pass after replacing an obsolete Elvar prose-length threshold with exact source preservation and a deliberate long-description fixture. Visual confirmation was not performed under the documented local-file browser restriction; remains manual. All later live chapters retained."
+    },
+    {
+      "chapter": 8,
+      "source": "book2/chapter 8.html",
+      "sourceHash": "c74c650c0e82154758873d213fbf4fdb12b4def74b2324e193a7392cf4d53636",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch8.hypMtx",
+      "log": "Chapter 8: Reprocessed the complete Elvar source into 21 node additions/revisions, 31 links and a Spanish summary. Captured divine-collar forging and observed commands, collective support, the blood/runic rite, actual resurrection, persistent wounds, human transformation and reunion with Skuld. Kept control, recovery, rescues and victory pending; attributed the tusk, remembered lessons and book-cover discrepancy. Ownership/event reviews and all 153 baseline/current clue assessments pass. All 53 tests across nine required regression files pass. Visual confirmation was not performed under the documented local-file browser restriction; remains manual. All later live chapters retained. Skill completion now durably archives semantic reviews and manifests with hashes and overwrite protection; 10 affected reprocessing/integration tests pass. Standard skill validator could not run because PyYAML is absent.",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-8",
+        "hashes": {
+          "ownership-review.md": "ba1a69febf533e8e2707278a4b53787083cbb123d4ea33258ad111113ed4cc8f",
+          "event-review.md": "e0b96ff083402670035455c9d4dc76ff740ce1527124545f39f011084ab68b6a",
+          "thread-review.md": "ed107f1a06a4b27be75865e3bc467c993025d8b501bb632aab2162976be4583f",
+          "thread-checklist.json": "e72d38181f9e4186e086815ed7a8ed36db022fbd44d63c6472e10332ff084453",
+          "completion.json": "b6e1dc4c91e3213364d0b3167a57c0c372223a28e3ccd65548d54614f80bf5de",
+          "chapter.json": "9b711d47694f03863fae750528ee552cc2ba4f8a8bba4f616b4d9051d9d10e14"
+        }
+      }
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "63677d84bb4eeee639580bcd055d656c97492d58fd9bef8c4f186197814d9cbe",
-    "book2/links.js": "a8349089c7975f1d9202618ab74dc2e8f978458c8450b1754da178108b43d240",
-    "book2/summaries.js": "e6bd4c7cf58d63990c005786ee42d26dffcb68d63a4ea3bed04584a19bfa7a5b"
+    "book2/nodes.js": "c3d9a49503235ff5ff32f9a8eb3f2cd1bfea10c62c046aa7d205c9ac9a6ce223",
+    "book2/links.js": "73d4bd13f115a2a2d4ae645d1a45f4c3695a6896f4af65a8162a9156b5f92150",
+    "book2/summaries.js": "3d8a9ed3981584d055d0d123051f66cfe755e2ecf3d43381a6969d31340f491e"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -78,9 +97,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "04a9c42ee1b0b5b7732a30ba71deb2e0487369cb2b434eaa259adc1f6e07ffd2",
-    "links": "005facc4bcbb0c3e7f2b9e43d0d74c1aa73e074537d9040d84bfd404570da1ee",
-    "summaries": "ff47226850224c0bcc5b58ce94a1b5466497ee27fe834d9a3e102b78beededbd"
+    "nodes": "264743bb1cc79d5eff3391bd81e699da190843bb9ed06a0f4064e81fda6f3a5b",
+    "links": "843c7413d73fa8360c37b568de0af3e8a2b4cb5e299c6959c49e8ad92fa37046",
+    "summaries": "e7533561e2ceed291a8a5f62d3a5040e4a337c98e84541f0cb6184553283f556"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

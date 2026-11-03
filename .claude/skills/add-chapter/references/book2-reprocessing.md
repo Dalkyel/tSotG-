@@ -161,7 +161,15 @@ resolve its identity/source-supported record or repair its actual reference befo
 retrying, rather than silently restoring every removed chapter node.
 
 Live files, reviewed checkpoint and progress update together with restoration on caught
-write failures; this is not crash-atomic. Hash drift, missing reviews, source changes,
+write failures; this is not crash-atomic. Completion also retains the three review reports,
+the per-ID checklist, completion spec and batch manifest (when present) under
+`book2/rebuild/reviews/chapter-N/` in that same transaction. The chapter's progress entry
+records this relative directory and the evidence hashes. Existing evidence files block
+completion rather than being overwritten. Use these durable reports for later audits;
+`run` and checklist baseline paths still identify temporary drafting context, which the
+OS may remove. Earlier chapters without a `reviews` entry may have only temporary
+reports; do not invent missing attestations or regenerate them from later live data.
+Hash drift, missing reviews, source changes,
 out-of-order chapters and duplicate completion fail without publishing. Do not rewrite
 recorded hashes to suppress a mismatch. External edits need an explicit reconciliation
 and their own preservation review.

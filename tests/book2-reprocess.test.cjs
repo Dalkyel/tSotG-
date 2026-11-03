@@ -39,11 +39,25 @@ test('Book Two replacement keeps all chapters visible and rebases later revision
   const completion=active.run+'/completion.json';fs.writeFileSync(completion,JSON.stringify({source:active.source,log:'Chapter 1: Fixture reviewed with later chapters retained.'}));
   assert.throws(()=>main(['finish-chapter','1',completion],root));assert.deepEqual(A.hashes(root),before,'Missing review must leave live data intact');
   for(const [file,marker]of [['ownership-review.md','Ownership review: PASS'],['event-review.md','Event coverage review: PASS'],['thread-review.md','Thread lifecycle review: PASS']])fs.writeFileSync(active.run+'/'+file,marker+'\n');
+  const reviewDir=root+'/book2/rebuild/reviews/chapter-1';
+  fs.mkdirSync(reviewDir,{recursive:true});fs.writeFileSync(reviewDir+'/ownership-review.md','Existing evidence');
+  assert.throws(()=>main(['finish-chapter','1',completion],root),/Review evidence already exists/);
+  assert.deepEqual(A.hashes(root),before,'Evidence collision must not publish live data');
+  assert.equal(progress().completedChapters.length,0);
+  fs.rmSync(reviewDir,{recursive:true});
   main(['finish-chapter','1',completion],root);
   const live=A.loadBook(root,2);assert.equal(live.summaries.length,3);assert.equal(live.summaries[0].value.summary,'Reviewed source.');
   assert.deepEqual(live.summaries.slice(1).map(x=>x.value),original.summaries.slice(1).map(x=>x.value));
   assert.match(live.nodes.at(-1).value.desc,/Reviewed one\..*Legacy 2\..*Legacy 3\./);assert.doesNotMatch(live.nodes.at(-1).value.desc,/Legacy 1/);
   assert.equal(progress().completedChapters.length,1);assert.deepEqual(A.hashes(root),progress().liveHashes);
+  const evidence=progress().chapters[0].reviews;
+  assert.equal(evidence.directory,'book2/rebuild/reviews/chapter-1');
+  for(const [file,hash]of Object.entries(evidence.hashes)) {
+    const archived=fs.readFileSync(root+'/'+evidence.directory+'/'+file);
+    assert.deepEqual(archived,fs.readFileSync(active.run+'/'+file));assert.equal(A.hash(archived),hash);
+    fs.rmSync(active.run+'/'+file);
+    assert.equal(A.hash(fs.readFileSync(root+'/'+evidence.directory+'/'+file)),hash,'Evidence survives temporary-file removal');
+  }
   assert.throws(()=>main(['finish-chapter','1',completion],root),/Prepare/);
   fs.appendFileSync(root+'/book2/links.js','\n// outside edit');assert.throws(()=>main(['check-chapter','2'],root),/outside reprocessing/);
 }));
