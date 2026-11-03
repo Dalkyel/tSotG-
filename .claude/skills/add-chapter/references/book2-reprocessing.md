@@ -115,6 +115,11 @@ no chapter facts. Once the scene identity is settled, stop reference retrieval a
 from the complete supplied source. Keep connected occurrences in the appropriate event
 rather than minting a differently named duplicate because the guessed id was unmatched.
 
+When locating reference records by source chapter, search the full marker
+`"LIBRO 2, CAPÍTULO 18"`, rather than `"CAPÍTULO 18"`: the shorter phrase also
+matches accumulated Book One history. These are literal phrase searches; use the
+recorded punctuation, and confirm candidate labels before retrieving event excerpts.
+
 The backlog reader currently recognizes ORKA/VARG/ELVAR as POV filters. For Guðvarr or
 Biórr chapters, use the unfiltered prose, or select affected existing POV families plus
 all untagged candidates only when the review gate's relevance conditions justify it.
@@ -161,6 +166,18 @@ and contain no newline. Put the POV or other subtitle after that prefix;
 ```sh
 node .claude/skills/add-chapter/scripts/reprocess.cjs finish-chapter 1 RUN/completion.json
 ```
+
+After publication, run the live-archive checks before reporting completion:
+
+```sh
+node --test --test-reporter=dot tests/book-integration.test.cjs tests/characters.test.cjs tests/focus.test.cjs
+```
+
+The pre-publication suite reads the previous live chapter, not the unfinished
+chronological context. It therefore cannot catch a legacy integration assertion
+invalidated only when this replacement becomes live. Apply the obsolete-assertion
+procedure above if needed; retain the completed archive and its evidence rather than
+rewriting them to satisfy an unsupported legacy direction or identity.
 
 Finish reruns chapter verification and checklist checks, verifies source and archive
 hashes, then publishes the reviewed prefix plus all later reference chapters. It rebases

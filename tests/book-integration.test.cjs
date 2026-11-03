@@ -22,7 +22,12 @@ test('every later shared profile preserves the rebuilt Book One history and indi
   assert.ok(retired.every(id => !ids.has(id)));
   assert.ok(two.links.every(({ value: l }) => !retired.includes(l.source) && !retired.includes(l.target)));
   const links = two.links.map(x => x.value);
-  assert.ok(links.some(l => l.source === 'halja' && l.target === 'lif'));
+  // Ch18's reviewed account gives Lif the act of offering shared grief to Halja.
+  // Preserve the reviewed direction rather than requiring the legacy inverse edge.
+  if (state.completedChapters.includes(18)) {
+    assert.deepEqual(two.links.filter(x => x.chapter === 18).map(x => x.value), reviewed.links.filter(x => x.chapter === 18).map(x => x.value));
+    assert.ok(two.links.some(x => x.chapter === 18 && x.value.source === 'lif' && x.value.target === 'halja' && x.value.label === 'comparte el duelo por un hermano con'));
+  } else assert.ok(links.some(l => l.source === 'halja' && l.target === 'lif'));
   // The legacy Ch3 carrier was identified as Yrsa; source reprocessing leaves her unnamed.
   // Check the reviewed relationships themselves instead of requiring that old claim.
   if (state.completedChapters.includes(3)) {

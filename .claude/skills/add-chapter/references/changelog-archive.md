@@ -1,5 +1,16 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch18 — searching reference descriptions for
+  `CAPÍTULO 18` also returned Book One history. Documented full book-and-chapter
+  source markers for chapter-specific discovery in `book2-reprocessing.md`.
+  Post-publication checks also caught a legacy Halja→Lif direction assertion that
+  passed against the previous live archive. Confirmed the source-reviewed Lif→Halja
+  relationship and updated the test to require the chapter's reviewed links and exact
+  supported individual endpoints. Added the live-archive integration/profile/focus
+  checks after publication because pre-publication tests cannot exercise the new live
+  replacement. Fully absorbed into the reference/test; archived immediately. No helper
+  behavior changed.
+
 - 2026-11-03: Book Two Ch17 — `Dark of Moon` missed the existing
   `Dark-of-Moon Hills` label and required another lookup. The entity matcher now
   treats whitespace and hyphens/Unicode dashes as equivalent, retaining accent-insensitive matching,

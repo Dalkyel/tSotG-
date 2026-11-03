@@ -18,7 +18,8 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ],
   "chapters": [
     {
@@ -249,15 +250,33 @@
         }
       },
       "log": "Chapter 17: Elvar — replaced chapter from complete source; 17 node revisions, 43 links and Spanish summary cover succession dispute, broken Isbrún seal, treasure transport and tennúr ambush. Audited 168 backlog candidates; ownership, event and thread gates PASS, verifier and nine-file 59-test regression suite PASS. Browser preview unavailable: local file URL blocked by browser security policy; no workaround attempted. Later chapters preserved."
+    },
+    {
+      "chapter": 18,
+      "source": "book2/chapter 18.html",
+      "sourceHash": "8858c337bf1070fc2eb56c2421bd1e9949811d63b5816bd41741b2a043cda601",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch18.TnBVnK",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-18",
+        "hashes": {
+          "ownership-review.md": "438691eb61a4775b06ec653bddce6b9684477a3839ca3c8e0f0346961ac82b0c",
+          "event-review.md": "e39479c81ae9179bec0d80839119ea4ebe65c338bb540d3f5432d280188bb073",
+          "thread-review.md": "ef32b47cdfedb7be011fb21c83ad3368dfa9ceec95248653bc098a9ebc64de3e",
+          "thread-checklist.json": "54b7f257ab2b714c94552358c0e705a782e97e7a583ae8a2a2a0ec2e81418649",
+          "completion.json": "d3a5022e611be7eb0a04cce768fad9cde18e50471a4656d9db8bbffff43e3da7",
+          "chapter.json": "a756038dd211e3b817819bdb2f9acf7fac6f0f356e0beb2962cdba3a9594eca6"
+        }
+      },
+      "log": "Chapter 18: Orka — replaced the chapter from the full two-page source with 8 cumulative updates, the shield definition, 2 key events, 26 links and a Spanish summary. Kept the arriving leader and grieving corpse unnamed, attributed Ingmar’s epithet and Berser lineage, advanced training/revenge/rescue without false closure, and reviewed all 168 backlog candidates with ownership/event/thread PASS reports. All 59 required regression tests and chapter preservation, mentions, category and overlap checks passed. Browser preview was blocked by the local-file URL policy; visual confirmation remains manual. Improved the skill reference to use full book/chapter markers for targeted identity searches; documented the change in the archive. The skill quick validator could not start because PyYAML is unavailable; changed Markdown and reference paths were checked directly."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "45fc0ec385a13ca1ba93a446def9a13754d31b567285f8cc1490ecbc6147ccae",
-    "book2/links.js": "902a8e1fea62d9549fd8dd1524a8524d3b46ae3f5f2e8ea82223d3c090e043dd",
-    "book2/summaries.js": "f83ebb69d39c8514a5a771069734b24c6b59b8f561fc1b43913339619a0d1c7a"
+    "book2/nodes.js": "fe6b65a7932499a843bd66edfcc2653bf01b01b319043486e78c609cce6f510b",
+    "book2/links.js": "de41d2e0dd89161f4040871fad06cb30da6eae2f5f6837543d419be4a056c0b6",
+    "book2/summaries.js": "76874fec0579e08fc9dd5ebed161bd8bc30e801dd8c56a03982a1029730f4ad6"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -268,9 +287,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "d0b6bcf8c96503050f992a9c2703faa5b082a211b4434d0b747edc61a22b444b",
-    "links": "411f29ff25f54abe44d811396fc5266911991879e719336ba6daf05c6307d578",
-    "summaries": "dc124e190f2695e32bc71414017af5ef54121d9cee3630a12dbac2d0c486e40c"
+    "nodes": "da487f9d60a7493b1ac07ddd836ac897c5865ec7cac239c25e2bf943330daf61",
+    "links": "ef93b95f8653e27f3fc8afaafa952caaf9b32c5b78de204b834acc9001a8cf88",
+    "summaries": "f04652508b3668cda91c8285016cdb667ff76cd3954c26f231e2844234d9d3a0"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {
