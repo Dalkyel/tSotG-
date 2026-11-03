@@ -179,7 +179,19 @@ to create a thread once or to pass the JavaScript verifier.
    POV never appears is the exact, measured waste this shortcut removes — confirmed in
    the Chapter 46 run, where every Varg/Elvar candidate ended up assessed on that single
    shared reason with zero content drawn from its own prose.
-   After reading the full backlog, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
+   To retrieve that permitted subset without printing unrelated POV histories, run
+   `read-backlog.cjs BOOK PAGE --pov ELVAR` (rebuild:
+   `rebuild.cjs read-backlog PAGE --pov ELVAR`). The filter always retains every untagged
+   candidate. Add repeatable `--include ID` options for known cross-POV candidates;
+   unknown IDs fail. Start from the **unfiltered** `--index`, use the same options on
+   every numbered page through `END`, and keep the all-POV checklist unchanged.
+   A filter selects prose, not review obligations. When another POV is represented
+   (Chapter 50 names Drekr), read that POV's complete candidate prose too, for example
+   `--pov ORKA`; selecting only Drekr does not satisfy the existing shortcut's condition.
+   Do not combine inventories from different drafts as if their page boundaries were
+   stable: finish a paginated read before applying chapter edits, then review changed
+   evidence separately.
+   After reading the required backlog prose, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
    `rebuild.cjs read-backlog PAGE --index`) for a compact list of the same candidate ids,
    each marked with any of `[ORKA]`/`[VARG]`/`[ELVAR]`, `[TRAMA]` and `[star]` that apply,
    when checking the final review record for omissions. The POV tag comes from the

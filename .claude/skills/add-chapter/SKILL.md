@@ -81,7 +81,9 @@ Use its heading index and read one gate per response. Completion requires:
 - **Thread and clue lifecycle:** review the complete cross-POV backlog, persist new
   evidence and evidence-backed closures, recorded in `thread-review.md` with
   `Thread lifecycle review: PASS`. Use the gate's baseline-backed checklist helper
-  to catch omitted IDs and unfinished assessments before recording PASS.
+  to catch omitted IDs and unfinished assessments before recording PASS. The reader's
+  `--pov` selection retains untagged clues; apply the gate's cross-POV conditions and
+  keep the unfiltered index/checklist for complete coverage.
 
 Keep these files beside the unique run's `baseline/`. A verifier PASS does not replace
 any semantic gate. The linked procedures remain mandatory, not optional background.

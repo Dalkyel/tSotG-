@@ -1,5 +1,15 @@
 # Changelog archive
 
+- 2026-11-02: Post-Ch50 skill review — the unrepresented-POV shortcut lacked a
+  prose-selection command. Added `read-backlog --pov ORKA|VARG|ELVAR` with all
+  untagged candidates retained, repeatable validated `--include ID`, explicit omitted
+  counts and pagination reminders. The unfiltered index/checklist still cover every
+  candidate. Documented that Drekr represents ORKA in Ch50, so the complete ORKA
+  backlog is required too; including only Drekr is insufficient. Regression coverage
+  checks arc/group selection, untagged retention, cross-POV inclusions, invalid
+  options and lossless pagination. Fully absorbed in scripts and review-gates.md;
+  archived immediately.
+
 - 2026-11-02: Post-Ch45 skill review — the run individually assessed 115 checklist
   candidates, then copied every row into Markdown as well. The thread gate now makes
   the companion checklist the preferred complete per-id record, with a shorter
