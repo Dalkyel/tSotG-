@@ -1,0 +1,11 @@
+{
+  "name": "tsotg",
+  "private": true,
+  "description": "Interactive mind map for the Bloodsworn Saga book club",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
