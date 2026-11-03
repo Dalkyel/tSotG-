@@ -239,6 +239,11 @@ relationship. Check grammar against the complete endpoint title too: `protagoniz
 La Escala…` avoids `dirige la → La Escala…`, and `presencia → Los Battle-Grim…`
 avoids `observa la → Los Battle-Grim…`. Avoid generating links from a shared template
 when their verbs require different directions or articles.
+Check agreement with the actual source title too, rather than an implied word such as
+«conversación», «alianza» or «misión». For a title like `Biórr Revela su Infancia
+Esclavizada`, use `tiene como interlocutor a → Ilmur` rather than `escuchada por →
+Ilmur`; a verb phrase avoids a participle agreeing with an absent noun. Compose these
+labels against the confirmed full titles before applying the manifest.
 Put source attribution before the verb inside the link label, so the sentence still
 reads naturally through its target: `Cadena de Ulfrir → según Yrsa, sirvió para encadenar a
 → Ulfrir`, not `sirvió para encadenar a, según Yrsa → Ulfrir`. Keep the subject's role

@@ -1,5 +1,13 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch14 — final link review caught participles agreeing with
+  implied scene nouns rather than the actual verb-phrase titles; corrected labels
+  through `--replace-applied` and added a concise pre-draft agreement example to
+  `SKILL.md`. Completion also rejected `Chapter 14 — Biórr:` because its guard
+  requires the exact `Chapter N: ` prefix and no newline; made that contract
+  explicit in `book2-reprocessing.md`. Both fixes are fully absorbed here and
+  archived immediately; no helper behavior changed.
+
 - 2026-11-03: Book Two reprocessing Ch9 — the 83-candidate backlog selection
   required twelve pages with repeated JSON formatting. Added optional `--compact`
   to the existing reader, preserving every selected field while removing indentation.

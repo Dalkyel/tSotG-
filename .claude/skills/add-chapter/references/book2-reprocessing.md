@@ -146,6 +146,9 @@ and revision snapshots remain complete, rather than preserving a stale word-coun
 
 Prepare `RUN/completion.json` with the exact source recorded by prepare and one log
 paragraph describing changes, reviews, tests and any visual limitation:
+The `log` must start with the literal `Chapter N: ` (chapter number, colon and space)
+and contain no newline. Put the POV or other subtitle after that prefix;
+`Chapter 14 — Biórr:` is rejected even though it describes the right chapter.
 
 ```json
 {"source":"book2/chapter 1.xhtml","log":"Chapter 1: Describe the reviewed replacement and validation."}
