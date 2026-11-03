@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch28 — work stopped at a prepared run with the
+  backlog partly read. The reprocessing guide now specifies how to checkpoint
+  exact reader selections and review progress, resume at the next unchecked
+  step, and carry an unblocked run through publication and live checks.
+
 - 2026-11-03: Book Two Ch27 — clause-style titles for the cloak, warning and
   fissure resolution forced a second manifest pass to repair relationship grammar.
   The link drafting steps now check proposed titles against their edge sentences

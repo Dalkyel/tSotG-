@@ -49,6 +49,16 @@ root, one page per response through END. If an active run already exists, contin
 do not initialize again, recapture a baseline or remove progress to bypass a failure.
 `init` is a one-time setup command, already completed for this archive.
 
+Preparation is a checkpoint. When the source is available and the guards pass,
+continue through publication and the live checks in the same turn. If interrupted,
+save a short `source-notes.md` in the active run. Record whether the source reached
+END, the exact backlog reader arguments and last consecutive page reviewed, the
+event and thread inventory, the applied manifest path if any, and the next command.
+On resume, read the note and confirm the run and baseline with `status`. Continue
+from the first unchecked page or gate using the same reader selection. If earlier
+evidence is missing or the source or context changed, repeat the affected review
+before relying on it. An initialized checklist is still pending review.
+
 Compare the requested chapter with `nextChapter` from status and check the supplied
 path before opening the longer review references. If the filename is absent, check
 the local ebook's chapter heading or table of contents: numbered export files can
