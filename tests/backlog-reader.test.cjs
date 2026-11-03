@@ -29,6 +29,7 @@ function pageText(result) {
 test('compact prose preserves every selected field across pages and reduces formatting overhead', t => {
   const root = fixture(t);
   writeNodes(root, 1, [
+    { id: 'early-clue', label: 'Pista', group: 'ELVAR', star: 'Short clue before a long record' },
     { id: 'elvar', label: 'Elvar', group: 'ELVAR', star: 'Latest clue: "á"\n'.repeat(900) },
     { id: 'shared', label: 'Pregunta', group: 'TRAMA', desc: 'ESTADO: PARCIAL; evidencia íntegra', star: 'another clue' },
     { id: 'drekr', group: 'ORKA', star: 'included cross-POV evidence' },
@@ -48,9 +49,10 @@ test('compact prose preserves every selected field across pages and reduces form
   }
   const normal = readAll(), compact = readAll('--compact');
   assert.ok(compact.pages > 1);
+  assert.equal(pageText(run(root, 1, 1, ...options, '--compact')).length, 8000);
   assert.ok(compact.payload.length < normal.payload.length);
   assert.deepEqual(JSON.parse(compact.payload), JSON.parse(normal.payload));
-  assert.deepEqual(JSON.parse(compact.payload).map(n => n.id), ['elvar', 'shared', 'drekr']);
+  assert.deepEqual(JSON.parse(compact.payload).map(n => n.id), ['early-clue', 'elvar', 'shared', 'drekr']);
   assert.notEqual(run(root, 1, compact.pages + 1, ...options, '--compact').status, 0);
   assert.notEqual(run(root, 1, 1, '--compact', '--compact').status, 0);
   assert.notEqual(run(root, 1, 1, '--index', '--compact').status, 0);

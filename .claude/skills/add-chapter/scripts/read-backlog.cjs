@@ -45,7 +45,7 @@ const payload = indexOnly
   : compact
     ? `[${candidates.map(candidate => JSON.stringify(candidate)).join(',\n')}]`
     : JSON.stringify(candidates, null, 2);
-const chunks = paginate(payload, undefined, { preferLines: compact });
+const chunks = paginate(payload);
 const pageCount = chunks.length;
 assert.ok(page <= pageCount, `Requested page ${page}; only ${pageCount} pages available`);
 console.log(`Backlog review candidates through Book ${book}: ${allCandidates.length} latest entries (all TRAMA nodes and nonempty star fields, across all POVs).`);

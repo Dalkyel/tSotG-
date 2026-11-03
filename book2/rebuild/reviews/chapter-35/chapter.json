@@ -1,0 +1,475 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 35 — BIÓRR ──",
+  "nodes": [
+    {
+      "id": "marcha-sur-foso-vaesen",
+      "mode": "new",
+      "label": "La Hueste Deja Atrás el Foso de los Vaesen",
+      "group": "EVENTO",
+      "type": "Evento — Marcha hacia el sur",
+      "desc": "LIBRO 2, CAPÍTULO 35: Lik-Rifa e Ilska conducen la columna hacia el sur, dejando atrás el río de lava. Siguen los riscos del borde oriental de Vigríð, con el Mar Helado al otro lado, en dirección al extremo oriental de las Montañas Espinazo. El terreno se vuelve nevado; Fain describe el tramo como el último esfuerzo y Storolf bromea sobre el frío. Kráka viaja en el pescante de un carro con Bjarn y Breca. Se observa la partida y el rumbo, sin llegada al destino."
+    },
+    {
+      "id": "tafl-biorr-breca",
+      "mode": "new",
+      "label": "Biórr Juega al Tafl con Breca",
+      "group": "EVENTO",
+      "type": "Evento — Encuentro con los niños",
+      "desc": "LIBRO 2, CAPÍTULO 35: Biórr busca a Bjarn junto a los carros y le ofrece jugar como en Snakavik. El niño sonríe débilmente y aparta la vista sin responder. Kráka observa que unos niños han vuelto en sí y otros siguen ausentes; espera que se les pase lo que atribuye al Seiðr. Breca toma el lugar de Bjarn y elige al jarl para practicar cómo escapar. Kráka le advierte que hablar así le expone a otro castigo; el recuerdo de su padre le arranca lágrimas. Mientras Biórr reparte cerveza, Kráka le señala a Ilmur junto al fuego de Brák y Drekr, que afila armas. En el tablero de lino, Breca captura varias piezas, pero Biórr inmoviliza al jarl y le aconseja maniobrar con sus fuerzas inferiores en vez de cargar de frente. Breca pide repetir y Biórr acepta; la llegada de Lik-Rifa interrumpe la escena."
+    },
+    {
+      "id": "reconocimiento-linajes-ninos",
+      "mode": "new",
+      "label": "Los Niños Reconocen su Sangre Divina",
+      "group": "EVENTO",
+      "type": "Evento — Reconocimiento de linajes",
+      "desc": "LIBRO 2, CAPÍTULO 35: Lik-Rifa se dirige a los niños desde una roca. Rechaza que la ascendencia divina sea motivo de vergüenza y condena que se persiga y esclavice a los Tainted. Su forma de dragón asoma brevemente al enfurecerse. Por orden suya, Ilska muestra ojos rojos, garras y colmillos; la diosa la identifica como descendiente suya. Tras enumerar linajes y posibles facultades, les pide evocar el dolor de haber sido arrancados de sus familias, reconocer a la bestia interior y hablarle mentalmente. Harek llora, Breca aprieta el puño sano y Bjarn permanece sereno. Bjarn nombra al oso, Harek al jabalí y Breca al lobo y al oso. Biórr considera inusual sentir ambos linajes y cree que Breca llegará a ser formidable; los niños identifican animales sin mostrar las capacidades que se les atribuyen. Kráka aprieta la mano sana de Breca. Lik-Rifa acusa a sus padres de engañarlos y se presenta como su nueva familia, prometiendo verdad y respeto."
+    },
+    {
+      "id": "regreso-tennur-noticia-isbrun",
+      "mode": "new",
+      "label": "Los Tennúr Anuncian el Cruce del Isbrún",
+      "group": "EVENTO",
+      "type": "Evento — Regreso de exploradores y aviso",
+      "desc": "LIBRO 2, CAPÍTULO 35: Lik-Rifa interrumpe su discurso al mirar al oeste. Biórr oye el zumbido y busca su seax; Drekr se acerca a Ilska con su hacha larga y los dragon-born alzan fuego rúnico. La diosa los detiene al reconocer a sus criaturas. Los tennúr se reúnen a su alrededor, se posan sobre ella y le hablan a la vez; Biórr no distingue sus palabras. Lik-Rifa pasa de la alegría a la ira y anuncia que su hermano cruzó el Puente Isbrún. El cruce se observó en reapertura-isbrun-ulfrir; aquí se observa que la noticia llega a la hueste."
+    },
+    {
+      "id": "biorr",
+      "mode": "update",
+      "previousState": "Busca a Bjarn y la prédica de Lik-Rifa le devuelve orgullo.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Recuerda en privado haber organizado el rapto de Bjarn en Snakavik y se culpa de separarlo de Uspa. Aunque se siente distante de sus antiguos amigos tras los años con Agnar, busca al niño y juega con Breca en tafl-biorr-breca. Le preocupa que la compañía de Brák y Drekr dificulte a Ilmur adaptarse a la libertad. En reconocimiento-linajes-ninos la condena de la esclavitud le hace sentir orgullo y valor en su propia sangre, antes motivo de temor y vergüenza. Considera valioso el doble linaje de Breca y predice sus capacidades."
+    },
+    {
+      "id": "likrafa",
+      "mode": "update",
+      "previousState": "Enseña a reconocer la bestia interior y recibe la noticia del cruce.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Dirige la hueste hacia el sur con Ilska. En reconocimiento-linajes-ninos usa el recuerdo del rapto para guiar a los niños a identificar su sangre divina y refuerza su pretensión de reemplazar a sus familias. Reconoce a los tennúr que llegan desde el oeste y les da la bienvenida; la noticia sobre su hermano provoca su ira en regreso-tennur-noticia-isbrun."
+    },
+    {
+      "id": "ilska",
+      "mode": "update",
+      "previousState": "Manifiesta rasgos de su linaje ante los niños.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Guía la marcha con Lik-Rifa y la acompaña como guardia. A petición de la diosa muestra ojos rojos, garras y colmillos en reconocimiento-linajes-ninos; Lik-Rifa la identifica expresamente como descendiente suya."
+    },
+    {
+      "id": "kraka",
+      "mode": "update",
+      "previousState": "Cuida a los niños y plantea que el Seiðr residual podría desvanecerse.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Viaja y acampa con los niños. Atribuye de forma tentativa la ausencia de algunos al Seiðr y espera que se les pase. Advierte a Breca del peligro de otro castigo y le aprieta la mano sana cuando identifica sus dos bestias. Véanse tafl-biorr-breca y reconocimiento-linajes-ninos."
+    },
+    {
+      "id": "hundur",
+      "mode": "update",
+      "previousState": "Kráka señala que ha empezado a frecuentar a Brák y Drekr.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Biórr lo ve sentado junto a Brák y Drekr y teme en privado que esa compañía dificulte su adaptación a la libertad. Kráka dice que ha hecho nuevos amigos; el encuentro no precisa qué relación ha establecido con ellos."
+    },
+    {
+      "id": "bjarn",
+      "mode": "update",
+      "previousState": "Responde oso durante el ejercicio, pese a su atención intermitente.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Viaja en el carro de Kráka y sigue con la hueste tras la retirada del collar. Apenas responde a la invitación a jugar al tafl; luego permanece sereno durante el ejercicio e identifica al oso enseguida. Su respuesta concuerda con el linaje paterno sin invalidar su ascendencia materna ni demostrar una transformación."
+    },
+    {
+      "id": "harek",
+      "mode": "update",
+      "previousState": "Reaparece vivo junto a Breca y reconoce al jabalí.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Biórr lo ve vivo en el campamento, junto a Breca. Pregunta cómo reconocer su sangre divina, llora durante el ejercicio y acaba identificando al jabalí, asociado a Svin. Su aparición aclara su suerte inmediata; no identifica quién lo arrancó de Fellur ni muestra que su gente sepa dónde está.",
+      "type": "Personaje — Niño Tainted en la hueste de Lik-Rifa",
+      "starAppend": "LIBRO 2, CAPÍTULO 35: Reaparece vivo en reconocimiento-linajes-ninos; quedan por aclarar los responsables y las circunstancias de su desaparición."
+    },
+    {
+      "id": "breca",
+      "mode": "update",
+      "previousState": "Identifica al lobo y al oso y mantiene su deseo de escapar.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Sigue cautivo, con la mano vendada y entablillada. Cuestiona que esté a salvo con un dragón y elige jugar como jarl para practicar la huida. Llora al recordar a Thorkel. Identifica al lobo y al oso en reconocimiento-linajes-ninos, coherentes con los linajes de sus padres; no manifiesta en escena la fuerza ni las otras facultades que Biórr le augura.",
+      "type": "Personaje — Cautivo Tainted de doble linaje",
+      "starAppend": "LIBRO 2, CAPÍTULO 35: Reconoce dos bestias; su alcance práctico y su posible papel en el rito siguen sin establecerse."
+    },
+    {
+      "id": "tainted",
+      "mode": "update",
+      "previousState": "Distingue ascendencia, bestia reconocida y facultades manifestadas.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Según Lik-Rifa, la emoción intensa ayuda a sentir la bestia interior y el reconocimiento consciente de esta permite aprender a manejar sus facultades. Enumera cualidades posibles asociadas a distintos linajes. Biórr explica que suele dominar un linaje parental, que sentir ambos es raro y que los jarls valoran especialmente a los Tainted que reconocen ambos. Véase reconocimiento-linajes-ninos para el ejercicio y sus límites."
+    },
+    {
+      "id": "tafl",
+      "mode": "update",
+      "previousState": "Precisa los bandos desiguales y el objetivo de fuga.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: Puede jugarse con figuras talladas sobre posiciones marcadas en una tela. El jarl y los juramentados ocupan el centro; una banda asaltante más numerosa los rodea. Biórr explica que el bando menor puede escapar mediante posición y maniobra. Véase tafl-biorr-breca para la partida."
+    },
+    {
+      "id": "ninos-robados",
+      "mode": "update",
+      "previousState": "Se localiza vivo a Harek entre los niños de la hueste.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: ESTADO: PARCIAL. reconocimiento-linajes-ninos sitúa a Harek vivo con los cautivos y registra su identificación con el jabalí. No se establece la cadena concreta de su traslado ni quién mató a sus padres. Siguen pendientes su salida, el destino de los demás grupos y la autoría y alcance de los raptos."
+    },
+    {
+      "id": "asgrim-death",
+      "mode": "update",
+      "previousState": "El lector descubre que Harek sigue vivo.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: reconocimiento-linajes-ninos sitúa vivo a Harek en la hueste de Lik-Rifa; el hallazgo no identifica a los responsables de la matanza.",
+      "starAppend": "LIBRO 2, CAPÍTULO 35: Resuelto el paradero inmediato de Harek; la autoría sigue abierta en ninos-robados."
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "previousState": "Se confirma su rumbo actual y su intención de escapar.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: ESTADO: PARCIAL. marcha-sur-foso-vaesen sitúa a Breca con la columna al sur del Foso, con la mano entablillada. tafl-biorr-breca confirma su deseo de huir. Es evidencia para el lector; Orka no la recibe. Rescate, recuperación física, trayecto original y relación con la pista de Myrk siguen pendientes."
+    },
+    {
+      "id": "rescate-bjarn",
+      "mode": "update",
+      "previousState": "Se observa su estado individual y el rumbo actual de la hueste.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: ESTADO: PARCIAL. marcha-sur-foso-vaesen y tafl-biorr-breca lo sitúan con Kráka en la marcha al sur. Su respuesta intermitente y el posterior reconocimiento del oso precisan su estado sin demostrar recuperación completa. Uspa y Elvar no reciben esta noticia ni se cumple el rescate."
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "mode": "update",
+      "previousState": "La marcha vira al sur y la noticia del Isbrún alcanza a la diosa.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: ESTADO: PARCIAL. marcha-sur-foso-vaesen aporta el tramo observado hacia el extremo oriental de las Montañas Espinazo. reconocimiento-linajes-ninos amplía su reclamo de autoridad sobre los niños y regreso-tennur-noticia-isbrun muestra que conoce el cruce de su hermano. Sigue sin explicarse cómo encaja la cita occidental referida por Myrk; quedan pendientes la llegada, la recuperación y el enfrentamiento."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "mode": "update",
+      "previousState": "La diosa se interesa por el linaje del niño sin aclarar su papel ritual.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: ESTADO: PARCIAL. reconocimiento-linajes-ninos confirma que Breca sigue entre los niños a quienes Lik-Rifa reclama como familia y que identifica dos bestias. La revelación no establece su participación en el rito ni el vínculo con el asesinato de Thorkel."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "mode": "update",
+      "previousState": "Un grupo vuelve con la noticia del cruce.",
+      "descAppend": "LIBRO 2, CAPÍTULO 35: ESTADO: RESUELTA. En regreso-tennur-noticia-isbrun un grupo de tennúr vuelve a Lik-Rifa y ella anuncia que su hermano cruzó. La secuencia responde al regreso pendiente tras el ataque fallido del capítulo 17, aunque Biórr no puede identificar a cada superviviente ni entender su informe.",
+      "label": "La Guardia del Isbrún y el Regreso de los Tennúr",
+      "type": "Trama — Encargo resuelto"
+    },
+    {
+      "id": "secuelas-seidr-ninos",
+      "mode": "new",
+      "label": "¿Se Recuperarán los Niños del Sometimiento?",
+      "group": "TRAMA",
+      "type": "Trama — Pregunta u objetivo pendiente",
+      "desc": "LIBRO 2, CAPÍTULO 35: PRIMERA EVIDENCIA: capítulo 35. ESTADO: ABIERTA. Kráka espera que la ausencia de algunos niños sea un efecto pasajero del Seiðr. Bjarn apenas responde en tafl-biorr-breca y luego identifica su bestia en reconocimiento-linajes-ninos. Quedan por confirmar la causa y la recuperación completa."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "marcha-sur-foso-vaesen",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "marcha-sur-foso-vaesen",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "tafl-biorr-breca",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "tafl-biorr-breca",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "regreso-tennur-noticia-isbrun",
+      "label": "incluye",
+      "type": "cat"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "regreso-tennur-noticia-isbrun",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "guardia-tennur-isbrun",
+      "label": "incluye",
+      "type": "arc",
+      "status": "broken",
+      "reason": "LIBRO 2, CAPÍTULO 35: vuelven los tennúr con la noticia del cruce tras fracasar la guardia."
+    },
+    {
+      "source": "cat-tramas",
+      "target": "secuelas-seidr-ninos",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "secuelas-seidr-ninos",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "likrafa",
+      "target": "marcha-sur-foso-vaesen",
+      "label": "encabeza",
+      "type": "event"
+    },
+    {
+      "source": "ilska",
+      "target": "marcha-sur-foso-vaesen",
+      "label": "encabeza",
+      "type": "event"
+    },
+    {
+      "source": "marcha-sur-foso-vaesen",
+      "target": "foso-vaesen",
+      "label": "parte de",
+      "type": "geo"
+    },
+    {
+      "source": "marcha-sur-foso-vaesen",
+      "target": "montanas-espinazo",
+      "label": "se dirige al extremo oriental de",
+      "type": "geo"
+    },
+    {
+      "source": "marcha-sur-foso-vaesen",
+      "target": "vigrið",
+      "label": "sigue el borde oriental de",
+      "type": "geo"
+    },
+    {
+      "source": "biorr",
+      "target": "tafl-biorr-breca",
+      "label": "propone la partida en",
+      "type": "event"
+    },
+    {
+      "source": "breca",
+      "target": "tafl-biorr-breca",
+      "label": "juega como jarl en",
+      "type": "event"
+    },
+    {
+      "source": "tafl-biorr-breca",
+      "target": "bjarn",
+      "label": "tiene como primer invitado a",
+      "type": "event"
+    },
+    {
+      "source": "tafl-biorr-breca",
+      "target": "kraka",
+      "label": "recoge la explicación de",
+      "type": "event"
+    },
+    {
+      "source": "tafl-biorr-breca",
+      "target": "tafl",
+      "label": "muestra una partida de",
+      "type": "lore"
+    },
+    {
+      "source": "tafl-biorr-breca",
+      "target": "fuga-castigo-breca",
+      "label": "ocurre tras",
+      "type": "history"
+    },
+    {
+      "source": "likrafa",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "dirige",
+      "type": "event"
+    },
+    {
+      "source": "ilska",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "manifiesta su linaje en",
+      "type": "event"
+    },
+    {
+      "source": "ilska",
+      "target": "likrafa",
+      "label": "es identificada como descendiente de",
+      "type": "magic"
+    },
+    {
+      "source": "reconocimiento-linajes-ninos",
+      "target": "adoctrinamiento-ninos-likrafa",
+      "label": "da continuidad a",
+      "type": "history"
+    },
+    {
+      "source": "bjarn",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "identifica al oso en",
+      "type": "event"
+    },
+    {
+      "source": "harek",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "identifica al jabalí en",
+      "type": "event"
+    },
+    {
+      "source": "breca",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "identifica al lobo y al oso en",
+      "type": "event"
+    },
+    {
+      "source": "harek",
+      "target": "svin",
+      "label": "reconoce la bestia asociada a",
+      "type": "magic"
+    },
+    {
+      "source": "bjarn",
+      "target": "berser",
+      "label": "reconoce la bestia asociada a",
+      "type": "magic"
+    },
+    {
+      "source": "breca",
+      "target": "ulfrir",
+      "label": "reconoce la bestia asociada a",
+      "type": "magic"
+    },
+    {
+      "source": "breca",
+      "target": "berser",
+      "label": "reconoce la bestia asociada a",
+      "type": "magic"
+    },
+    {
+      "source": "reconocimiento-linajes-ninos",
+      "target": "tainted",
+      "label": "expone las facultades atribuidas a los",
+      "type": "lore"
+    },
+    {
+      "source": "reconocimiento-linajes-ninos",
+      "target": "asgrim-death",
+      "label": "aporta una pista posterior a",
+      "type": "history"
+    },
+    {
+      "source": "tennur",
+      "target": "regreso-tennur-noticia-isbrun",
+      "label": "regresan en",
+      "type": "event"
+    },
+    {
+      "source": "likrafa",
+      "target": "regreso-tennur-noticia-isbrun",
+      "label": "recibe la noticia en",
+      "type": "event"
+    },
+    {
+      "source": "drekr",
+      "target": "regreso-tennur-noticia-isbrun",
+      "label": "acude en defensa de Ilska durante",
+      "type": "event"
+    },
+    {
+      "source": "regreso-tennur-noticia-isbrun",
+      "target": "reapertura-isbrun-ulfrir",
+      "label": "lleva a la hueste noticias de",
+      "type": "history"
+    },
+    {
+      "source": "regreso-tennur-noticia-isbrun",
+      "target": "isbrun",
+      "label": "informa del cruce del",
+      "type": "geo"
+    },
+    {
+      "source": "guardia-tennur-isbrun",
+      "target": "regreso-tennur-noticia-isbrun",
+      "label": "concluye con",
+      "type": "trama"
+    },
+    {
+      "source": "rescate-breca",
+      "target": "marcha-sur-foso-vaesen",
+      "label": "sitúa al cautivo en",
+      "type": "trama"
+    },
+    {
+      "source": "rescate-bjarn",
+      "target": "marcha-sur-foso-vaesen",
+      "label": "sitúa al cautivo en",
+      "type": "trama"
+    },
+    {
+      "source": "rumbo-lik-rifa",
+      "target": "marcha-sur-foso-vaesen",
+      "label": "registra la ruta en",
+      "type": "trama"
+    },
+    {
+      "source": "ninos-robados",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "localiza a Harek en",
+      "type": "trama"
+    },
+    {
+      "source": "breca-vinculo-lik-rifa",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "registra nueva evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "secuelas-seidr-ninos",
+      "target": "tafl-biorr-breca",
+      "label": "surge de la observación en",
+      "type": "trama"
+    },
+    {
+      "source": "secuelas-seidr-ninos",
+      "target": "bjarn",
+      "label": "tiene como caso observado a",
+      "type": "trama"
+    },
+    {
+      "source": "kraka",
+      "target": "secuelas-seidr-ninos",
+      "label": "plantea una explicación para",
+      "type": "trama"
+    },
+    {
+      "source": "tafl-biorr-breca",
+      "target": "hundur",
+      "label": "sitúa en el fuego vecino a",
+      "type": "event"
+    },
+    {
+      "source": "tafl-biorr-breca",
+      "target": "brak-trolls-bane",
+      "label": "sitúa en el fuego vecino a",
+      "type": "event"
+    },
+    {
+      "source": "tafl-biorr-breca",
+      "target": "drekr",
+      "label": "sitúa en el fuego vecino a",
+      "type": "event"
+    }
+  ],
+  "summary": {
+    "chapter": 35,
+    "title": "Capítulo 35 — Biórr",
+    "summary": "<p><strong>Lik-Rifa</strong> e <strong>Ilska Raven-Feeder</strong> dejan atrás el <strong>Foso de los Vaesen</strong> y guían la columna hacia el sur, por los riscos del borde oriental de <strong>Vigríð</strong>, rumbo a las <strong>Montañas Espinazo</strong>. En el campamento, <strong>Biórr</strong> busca a <strong>Bjarn</strong>, a quien se siente culpable de haber separado de Uspa. El niño apenas responde a su invitación a jugar al <strong>Tafl</strong>. <strong>Kráka</strong> espera que el aturdimiento de algunos niños sea un efecto pasajero del <strong>Seiðr</strong>. <strong>Breca</strong>, con la mano entablillada, juega en su lugar y elige al jarl para practicar la fuga. Biórr lo cerca y le aconseja que maniobre en vez de atacar de frente. Cerca de allí, <strong>Ilmur</strong> está con <strong>Brák Trolls-Bane</strong> y <strong>Drekr</strong>, una compañía que preocupa a Biórr.</p><p>Lik-Rifa reivindica la sangre de los <strong>Tainted</strong> y hace que Ilska muestre los ojos rojos, las garras y los colmillos de su linaje. Pide a los niños revivir el dolor del rapto y escuchar a la bestia interior. Bjarn reconoce al oso, <strong>Harek</strong> reaparece vivo y reconoce al jabalí, y Breca nombra al lobo y al oso. Biórr considera excepcional que sienta ambos linajes. La diosa acusa a los padres de ocultar la verdad y se proclama la nueva familia de los niños. Entonces llegan volando los <strong>Tennur</strong>. Lik-Rifa los recibe con alegría, pero se enfurece al saber que <strong>Ulfrir</strong> ha cruzado el <strong>Puente Isbrún</strong>.</p>"
+  }
+}

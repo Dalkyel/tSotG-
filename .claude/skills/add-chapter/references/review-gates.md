@@ -192,8 +192,9 @@ to create a thread once or to pass the JavaScript verifier.
    rebuild and reprocessing readers and with the same POV/include filters. Keep it on
    every numbered page: formatting changes page boundaries, so never combine compact
    and default-format pages. Use `--index` separately; it is not a prose format.
-   Compact pages prefer whole candidate records. A record longer than the page
-   limit continues on the next page.
+   Compact output puts each record on its own line and fills pages up to the
+   character limit. A record at a page boundary can continue on the next page.
+   Restart an interrupted compact read at page 1 if it began before this pagination change.
    **Choose prose by relevance, keeping the all-POV review complete.** Start with the
    **unfiltered** `--index` and the complete chapter entity list. Read the full prose
    for the chapter's own POV and every untagged candidate. Candidates in an unrepresented

@@ -1,5 +1,9 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch35 — compact backlog pagination left a short page
+  before a record that had to span pages. Compact backlog pages now fill the
+  available space, reducing this review from 11 pages to 10 with the same evidence.
+
 - 2026-11-03: Book Two Ch33 — the combined reference read truncated required
   sections. The startup now selects the mode before reading reference slices in
   separate responses. The thread gate distinguishes demonstrated control of the
