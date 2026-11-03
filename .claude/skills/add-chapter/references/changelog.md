@@ -9,6 +9,15 @@ teaches nothing beyond rereading the current skill file — move it to
 archive an entry that flags an unresolved problem in `book{N}/*.js` until that problem is
 actually fixed.
 
+- 2026-11-02: Book One rebuild Ch53 — a canonical-event identity search surfaced
+  reference `convergencia-grimholt` prose that interprets «Orka Skullsplitter» as proof
+  she was the former chief. The chapter establishes the epithet and Glornir/Thorkel
+  kinship, but does not explain the earlier `skullsplitter` naval-death account or
+  establish that office. Added the shared-epithet check to the source/entity workflow;
+  staged profiles and `pasado-orka` preserve the distinction. The reference/live event's
+  stronger leadership/identity claim remains unresolved for final source reconciliation;
+  do not copy it into the rebuild merely because the canonical event id matches.
+
 - 2026-11-02: Book One rebuild Ch52 — the mandatory whole-POV crossover rule selected
   98 entries / 96,262 characters / 13 pages because Elvar's chapter names Drekr.
   The complete read confirmed that the actual Orka developments concern Drekr, missing

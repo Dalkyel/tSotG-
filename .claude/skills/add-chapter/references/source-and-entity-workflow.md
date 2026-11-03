@@ -67,6 +67,19 @@ source reading, identity resolution and accumulation requirements still apply.
    stem or translate names. This can confirm an existing staged id without exposing
    later reference labels; it does not establish an unfamiliar translation by itself.
 
+   **A shared epithet is a candidate, not an identity merger.** When a newly revealed
+   name matches an existing person's title, compare the independently established people,
+   relationships and attributed history before reusing that person's id. Preserve the
+   new name on the confirmed person and keep any unexplained overlap as qualified evidence
+   in the relevant existing thread; do not transfer the other profile's rank, death or
+   deeds. Read reference prose only to settle the requested identity, and check its
+   conclusions against the current chapter rather than importing its interpretation.
+   In Chapter 53, «Orka Skullsplitter» identifies Orka and the exchange establishes
+   Thorkel as Glornir's brother; it does not by itself establish that Orka held the
+   former chief's office or explain the earlier naval-death account attached to
+   `skullsplitter`. Keep those historical claims attributed until source evidence
+   reconciles them.
+
    **b. Still unmatched? Search descriptions, not grep.** A name can be absent from every
    label yet already tracked — revealed only in prose (Ilmur was named inside the `hundur`
    description) — or a fact/event may already have its own node under different wording.
