@@ -1,5 +1,12 @@
 # Changelog archive
 
+- 2026-11-03: Book Two reprocessing Ch5 — guessed event IDs missed the existing
+  `plan-likrafa-nastrandir`; a candidate-only reference search for participant `Myrk`
+  found it. Added that discovery sequence to `book2-reprocessing.md`: participant
+  candidate search, label/id confirmation, minimal scene excerpt, then stop and draft
+  from the supplied source. A failed guessed-id match is not evidence of event absence.
+  Fully absorbed into the workflow reference; archived immediately.
+
 - 2026-11-02: Book Two reprocessing Ch3 — final review corrected an internal dream
   recollection drafted as a spoken report, and goal planning reused Lif's existing
   Guðvarr revenge thread for the oath over Mord rather than splitting one continuing

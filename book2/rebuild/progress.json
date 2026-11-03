@@ -5,7 +5,8 @@
     1,
     2,
     3,
-    4
+    4,
+    5
   ],
   "chapters": [
     {
@@ -35,15 +36,22 @@
       "sourceHash": "c6d44d5c8f316af3f78ba092d5243d792f9912051bce091bd14f7594166573c1",
       "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch4.seDLxr",
       "log": "Chapter 4: Reprocessed the complete Elvar source into 23 node additions/revisions, 58 links and a Spanish summary. Captured Skuld’s attributed custodial history, collar rules, descent and treasures, Verdani’s arrow evidence, soul road and Corpse-Gate, protected black book and inconclusive rune-blast/creature attack. Added discoverable goals for killing Lik-Rifa and understanding/recovering the book; kept bow magic, bloodline identifications and outcomes qualified. Ownership/event reviews and all 148 baseline/current clue assessments pass. All 53 tests across nine required regression files pass after replacing a stale legacy Yrsa-carrier expectation with reviewed Chapter 3 relationship preservation and its supported Vol endpoint. Improved reference label identity lookup and documented stale-assertion handling. Skill structural/reference checks pass; quick_validate.py unavailable because PyYAML is missing. Browser visual confirmation remains manual under the existing local-file access restriction. All later live chapters retained."
+    },
+    {
+      "chapter": 5,
+      "source": "book2/chapter 5.html",
+      "sourceHash": "7168721b20511c6166d6c3caeeeeef2d9af00b8eec8ded879c9e84280d9d2769",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch5.w5GN3O",
+      "log": "Chapter 5: Reprocessed the complete Biórr source into 20 node additions/revisions, 43 links and a Spanish summary. Captured the infiltrator’s reward, Myrk and the named cult, free adults versus collared children and Bjarn’s condition, Biórr’s private regret, the dragon’s feeding/healing and declared Nastrandir plan, and the accepted but unfulfilled ten-warrior errand. Kept claims attributed, the father unnamed, age statements source-marked, and rescue/arrival/recovery outcomes pending. Ownership/event reviews and all 150 baseline/current clue assessments pass. All 53 tests across nine required regression files pass. Browser visual confirmation remains manual under the existing documented local-file restriction. All later live chapters retained."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "cdd9b2c974ce995ce98486909bebf6e3f4353a7628c80a120f093d5a6e64bdc9",
-    "book2/links.js": "378760a541dfff09edf68d69912aff5b5c83a7462686ed63315eafc171affcb2",
-    "book2/summaries.js": "dd4c94b1de4b5d5a444696f0495414c9b6ba3614a68be4cb0eec7d11f3b20990"
+    "book2/nodes.js": "8c2d11f39be0974b0e3f8f5318539c5f9662b43cf5b3ba211e8fc89bb2df3c3e",
+    "book2/links.js": "44b1a9f060a1d2897b19db7aace20552a0e6800dbc56f282f264a8b285a7f241",
+    "book2/summaries.js": "0d9084931d061a49aec1cccba39eaf0678e3965a93c16b3b9c37e6efe271d1ef"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -54,9 +62,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "81f1324f859a193e79649e6eae1335cdfd63109fc7e7e8e731cd894ce95a0ea2",
-    "links": "34dd827d3ae7238f65418789b0116188cd753a123ab05061bdb2a96818cad992",
-    "summaries": "9a816bbdec9e2a63ee97a224f8693405b5230ae7de0823f54d198a3fedcfcde6"
+    "nodes": "f962b378bfa7b830433208512175cf53ecbc9ab7789c16c728ba96f9d44277b2",
+    "links": "81a83ca7e36e3bc71e49fc215bc9569bcd06443721147cfb4a0ac907b4156c6c",
+    "summaries": "6b79f2cf86e9b040fe9a6019c995721323b85a52c9a0f1017954a692f7054f8b"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

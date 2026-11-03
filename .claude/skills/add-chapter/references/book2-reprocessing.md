@@ -92,6 +92,24 @@ Stop once identity is settled; compose the entry from the current chapter alone.
 full reference entry only if the bounded excerpt cannot settle identity. This does not
 replace the mandatory full chronological-context read before updating an existing node.
 
+For a new chronological event whose canonical reference id is unknown, a failed
+match of a guessed id does not establish absence. Search the reference descriptions
+for a distinctive named participant using the default candidate-only output, select
+the plausible event candidates, then confirm their labels/ids and retrieve only the
+excerpt needed to distinguish the scene. For example, Chapter 5's `Myrk` candidate
+search reveals `plan-likrafa-nastrandir`, which guesses such as `encargo-myrk` miss:
+
+```sh
+node .claude/skills/add-chapter/scripts/reprocess.cjs --reference search-descriptions 1 Myrk
+node .claude/skills/add-chapter/scripts/reprocess.cjs --reference match-entities plan-likrafa-nastrandir
+node .claude/skills/add-chapter/scripts/reprocess.cjs --reference search-descriptions 1 "CAPÍTULO 5" --id plan-likrafa-nastrandir --max-excerpts 1
+```
+
+Read further candidate pages when indicated; reference identity discovery still supplies
+no chapter facts. Once the scene identity is settled, stop reference retrieval and draft
+from the complete supplied source. Keep connected occurrences in the appropriate event
+rather than minting a differently named duplicate because the guessed id was unmatched.
+
 The backlog reader currently recognizes ORKA/VARG/ELVAR as POV filters. For Guðvarr or
 Biórr chapters, use the unfiltered prose, or select affected existing POV families plus
 all untagged candidates only when the review gate's relevance conditions justify it.
