@@ -1,7 +1,0 @@
-# Ownership review — Book Two Chapter 46
-Full latest baseline audit: gudvarr (2 pages), hakon, kalv, skapti, hrolf (1 page), drekr/hakon-operacion-oculta/encargo-gudvarr-darl/destino-testigos-torre (2 pages), rog/vilja/dead-drengr (1 page), fuga-orka-fellur (1 page). No inherited ownership violation requiring relocation found. Context-only cast matched independently; Gudrun confirmed against reference label and absent from chronological context. Reference search by chapter marker and Kalv supplied identities, not drafting facts.
-
-Final changes: 12 updates plus Gudrun and mensaje-kalv-hakon. Event owns message, dialogue sequence, invitation and arrival. Profiles record their own actions and stakes; threads carry status/evidence pointers. Rog's reappearance establishes survival, not the identity behind the older Grimholt mention. Vilja's entry explicitly assigns the memory gap to Guðvarr. No new universal tattoo, divine lineage or insect mechanism is inferred. The two witnesses' similar arrival sentences describe each person's own observed return; the overlap detector flags these 12 words, accepted as supported individual facts rather than duplicate scene narratives.
-
-Node delta pages 1–2 read; corrected Vilja pronoun and singular thread title audited against source and inherited links. Link sentences and summary identities reviewed; category and event coverage confirmed. Full baseline desc/star preserved mechanically.
-Ownership review: PASS

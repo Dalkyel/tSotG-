@@ -199,8 +199,8 @@ to create a thread once or to pass the JavaScript verifier.
    this chapter`; preserve their questions and evidence in the all-POV checklist.
 
    Before opening the prose pages, check newly named or newly located people
-   against the preceding chapter's open questions, using its durable checklist
-   index when available. Add affected IDs to the first prose selection. In Book
+   against the current open questions in the live backlog index and relevant latest
+   entries. Add affected IDs to the first prose selection. In Book
    Two Ch30, Biórr sees Brák with Drekr's party, giving the reader a location for
    the person Varg seeks in `akall`. Record the reader's evidence and keep Varg's
    search and Frøya's fate pending. Apply the same distinction to an observed
@@ -435,11 +435,11 @@ to create a thread once or to pass the JavaScript verifier.
 
    **Inspect saved assessments without dumping the full JSON.** The checklist can be
    much larger than the source chapter. Use the standalone bounded reader for an
-   active or archived checklist; it needs neither live data nor the temporary baseline:
+   checklist in this run's temporary directory; it needs neither live data nor the baseline:
 
    ```sh
    node .claude/skills/add-chapter/scripts/read-checklist.cjs RUN/thread-checklist.json 1
-   node .claude/skills/add-chapter/scripts/read-checklist.cjs audits/book2-chapter-51/thread-checklist.json 1 orka sangre-thorkel
+   node .claude/skills/add-chapter/scripts/read-checklist.cjs "$chapter_run/thread-checklist.json" 1 orka sangre-thorkel
    ```
 
    Read numbered pages separately through END with the same path and ID selection.

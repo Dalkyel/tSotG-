@@ -26,7 +26,6 @@ npm test
 - `characters.js`, `clues.js`, `focus.js`, `bookmarks.js`, `readability.js` — feature panels (character reference, clue board, connection explorer, bookmarks, legend/readability), each paired with a `*-core.js` module holding the testable logic.
 - `book1/`, `book2/` — live per-book `nodes.js`, `links.js`, `summaries.js` data.
 - `.claude/skills/add-chapter/` — source reading, entity matching, safe appenders and semantic checks for new chapters.
-- `audits/` — chapter reviews, clue checklists and archive-wide audit evidence; see [audits/README.md](audits/README.md).
 - `shared/` — assets and logic shared across books (the Vigríð map overlay).
 - `tests/` — the Node test suite.
 
@@ -36,10 +35,9 @@ Book Two, Chapter 50 was the last rebuilt chapter. Continue with Chapter 51 by
 following [.claude/skills/add-chapter/SKILL.md](.claude/skills/add-chapter/SKILL.md).
 Add new nodes, relationships and a summary directly to the live book files; preserve
 existing history using the baseline-backed appenders. Run the chapter verifier,
-complete the ownership/event/thread reviews, and run `npm test`. Save each new chapter's
-manifest and review evidence under `audits/bookN-chapter-C/`.
+complete the ownership/event/thread reviews, and run `npm test`. Keep the baseline,
+manifest, review notes and checklist in the unique temporary run directory through
+completion. Persist chapter facts, clue states and pending questions in the live
+book files; review artifacts do not need to be stored in the repository.
 
-The retired rebuild folders and duplicate snapshots have been removed. Previous chapter
-reviews are available in `audits/book2-chapter-C/`; consult newer archive-wide audits
-and current live data when an older assessment has been superseded. Repairs to an
-existing chapter are separate, explicitly requested work.
+Repairs to an existing chapter are separate, explicitly requested work.

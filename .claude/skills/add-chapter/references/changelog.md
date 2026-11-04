@@ -1,5 +1,11 @@
 # Changelog
 
+- 2026-11-04: Removed the audits folder at the user's request. Chapter manifests,
+  review notes and clue checklists now remain temporary working files through
+  completion. The next chapter reads accumulated evidence and pending questions
+  from live nodes/links, without depending on a previous saved checklist. This
+  supersedes the earlier instructions to retain chapter review artifacts.
+
 - 2026-11-04: Removed `book1/rebuild/` and `book2/rebuild/` after checking their
   final data against the live archive. Preserved all 43 Book Two chapters' semantic
   reviews/checklists in `audits/book2-chapter-C/`, the Chapter 50 manifest, and Book

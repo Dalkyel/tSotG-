@@ -13,9 +13,8 @@ description: >
 # Adding a chapter to the Bloodsworn mind map
 
 Book Two, Chapter 50 was the final rebuilt chapter. From Chapter 51 onward, create
-new chapters directly in the live archive. The rebuild folders have been removed;
-use live files for history and `audits/book2-chapter-C/` for prior chapter reviews.
-See `audits/README.md` for later audits that supersede older clue assessments.
+new chapters directly in the live archive. Use the live book files for accumulated
+history, current clues and pending questions.
 Determine the requested book/chapter and source path, then run the live preflight.
 If that chapter already exists, inspect for an unfinished addition or an explicitly
 requested correction rather than appending it twice.
@@ -78,11 +77,11 @@ budget. Retrieve omitted content before drafting. Completion requires:
   same format throughout a paginated read.
 
 Use `scripts/read-checklist.cjs CHECKLIST.json PAGE [ID ...]` for bounded inspection
-of saved assessments, including archived reviews whose temporary baselines have expired.
-Keep these files beside the unique run's `baseline/`. At completion, save the manifest,
-three review files and checklist under `audits/bookN-chapter-C/` so the next chapter can
-consult them after the temporary baseline expires. Replace N/C with the book/chapter.
-Keep the original baseline path in the checklist; do not claim it remains available.
+of this run's assessments. Keep the manifest, three review files and checklist beside
+the unique temporary run's `baseline/` through verification and completion. These are
+temporary working files; do not copy them into the repository. Persist new evidence,
+clue states and pending questions in the live nodes and links so the next chapter
+can continue without past review files.
 A verifier PASS does not replace
 any semantic gate. The linked procedures remain mandatory, not optional background.
 Each marker (`Ownership review: PASS`, `Event coverage review: PASS`,
