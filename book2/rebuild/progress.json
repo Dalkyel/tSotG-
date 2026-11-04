@@ -45,7 +45,8 @@
     41,
     42,
     43,
-    44
+    44,
+    45
   ],
   "chapters": [
     {
@@ -762,15 +763,33 @@
         }
       },
       "log": "Chapter 44: Biórr — source-reviewed replacement with 16 node revisions, 40 relationships and a Spanish summary. Extended the Ch42 reunion with Rotta’s escape testimony, lasting injuries, acknowledged crime, pledge against Ulfrir and recognition of Biórr; added Tannbursta, Oleif, the tooth incident, the vaesen summons and an open reparative promise. Kept escape mechanism, reinforcements, rescues, Orna carrier and battle outcomes pending. Corrected legacy-summary sequence and meal details against the full source. Ownership, event coverage and thread lifecycle PASS; 205-ID checklist complete; chapter syntax, preservation, endpoints, category, mention and overlap checks PASS. Nine-file reprocessing regression suite passed. All later chapters preserved by publication; visual confirmation of index.html and both summary tabs remains manual."
+    },
+    {
+      "chapter": 45,
+      "source": "book2/chapter 45.html",
+      "sourceHash": "e79e7abd6e0dc247417a2e1be987b2f9e282ea3fc9074e9a6bd090e6ad5404ba",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch45.3qFNtH",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-45",
+        "hashes": {
+          "ownership-review.md": "019e1be0ba3ed9a1620df87e8b3956aa8370296c33fce873561305802d29c42f",
+          "event-review.md": "bac8794bf5a5d259f32db05a18cd88ccde1c93a36c5f80ea8b1483afaf5c9997",
+          "thread-review.md": "6e9234ea2c49d4e45ab5b8b9b6f6f88fcaf79032336cb21bde24f43a86835136",
+          "thread-checklist.json": "912949401190622e318bd617220ad392096a857aa5ba311f1367074102a7500f",
+          "completion.json": "b14ebd73f7099b81949d8e6f65d4b1daa2bb2fbff53d043d5cfc16e5cf9713d7",
+          "chapter.json": "6e6a3f70c042768a9827423e03b1184a864b138400aabff31130332bf2c587bb"
+        }
+      },
+      "log": "Chapter 45: Orka — source-reviewed replacement with 18 node revisions, 45 links and a Spanish summary. Records the staged assault, Myrk’s escape, Sæunn’s blood-scent task, Orka’s private vow and dream, Elvar’s offer and the Oskutreð ring. Resolves the horse-blood purpose while preserving partial acquisition questions, pending pursuit/rescue, duel and hiring commitments. All 206 baseline/current clue candidates reviewed; ownership, event and thread gates passed, as did syntax, endpoints, history preservation, 21 summary mentions and merged category checks. Required nine-file regression suite passed. Legacy summary attribution and participant-knowledge errors corrected from source. Later live chapters remain preserved. Browser appearance and both summary tabs remain for manual confirmation."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "efda80112ba60ef009e2f442e74fe55d60a4600b96ff3dabe17788b34f216f4b",
-    "book2/links.js": "7bd825e81cbbc071ec8cb8cddc8d314192a75f09bed2ae661961f626fb25cbd3",
-    "book2/summaries.js": "4909660262f1decddcffbb13e1d4f7a85895c08eb6dea1d999c7a3be4a0cad83"
+    "book2/nodes.js": "e56f9b6ed2daebc342bfdd81f4ac081194f613967ad3d83b878f00dbd3e4c134",
+    "book2/links.js": "804cb1632f028502b7665be5ac53686a9b492127357f72a8407588238310b736",
+    "book2/summaries.js": "93b618ae7693a93d737f3cef803c5332a844ccf28f51cc49027c15bd114a56aa"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -781,9 +800,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "d5c3ffb9a041f057cb0ae74ca2bfe855e47bd5c54c393c51bc5ad242f6d24acb",
-    "links": "94756370938d7c70d6b75500a2b597e88a24108ea301f03571fceb9c64bcab58",
-    "summaries": "884467a2bdbc072b5d6b9e4db5642c0ff42850236e88ba0243ec5d49291ddd05"
+    "nodes": "79305c5fbe18f78cd335976814e4df423fa9d309e87f06300658dcbed2191b38",
+    "links": "44e145d6b95fb7488ddb17133bd47578b43205dedd97acae1b62e9514e810f25",
+    "summaries": "1728b87c2463594ce8d1d2705a529740630e2f245be5c0de54b2ea9fabd6b198"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

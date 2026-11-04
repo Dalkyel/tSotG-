@@ -1,0 +1,2083 @@
+{
+  "book": 2,
+  "chapter": 45,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch45.3qFNtH/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: Recuerda la pérdida al alejarse de Ulfrir y sueña con lobos, dragones y un niño. Voto propio dirigido mentalmente a Breca, no promesa del dios. Los indicios anteriores de sangre, violencia y linaje se conservan; no identifica la mujer, edades o Skullsplitter.",
+      "remaining": "Emisor del sueño antiguo y mecanismo; mujer enjaulada, sensibilidad, discrepancia de edad e historia de Skullsplitter."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-orka-historia en thread-review.md. Cuestión revisada: Prueba de sangre y consecuencias en sangre-thorkel.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Rescate, curación completa, poderes prácticos y papel en el rito.",
+      "remaining": "Rescate, curación completa, poderes prácticos y papel en el rito."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Autores del ataque familiar.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Autores del ataque familiar.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura.",
+      "remaining": "Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 45: Nota temática conservada; la escena no introduce una pregunta factual sobre ella. Alcance revisado: Snaka. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 45: Nota temática conservada; la escena no introduce una pregunta factual sobre ella. Alcance revisado: Guðfalla (Caída de Dioses). Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Responsables y circunstancias del ataque.",
+      "remaining": "Responsables y circunstancias del ataque."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Origen de las heridas del Fell-Wolf.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 45: Myrk vuelve a tener libertad para actuar tras la fuga, una oportunidad nueva respecto a su amenaza contra Varg; se registra en myrk.star y venganza-myrk-varg. Varg no recibe la noticia. Los indicios anteriores de control/secreto, sensibilidad, padres, edad, Frøya, akáll, juramento y seax no reciben respuesta en la escena de Starl.",
+      "remaining": "Amenaza de Myrk, además de Control sostenido y secreto, sensibilidad, padres, edad, vínculo y destino de Frøya, akáll, juramento y forja del seax."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Identidad exacta entre los nombres y el liberto.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Einar Medio-Trol. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Varg aún debe encontrar a Brák. Destino de Frøya, rito y venganza.",
+      "remaining": "Varg aún debe encontrar a Brák. Destino de Frøya, rito y venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Contenido Revelado de la Bolsa de Varg. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Control y secreto, sensibilidad, padres, edad y vínculo con Frøya.",
+      "remaining": "Control y secreto, sensibilidad, padres, edad y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Alcance y autoría de los raptos.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Amistad y hallazgos; uso de pergaminos; detección autónoma, extracción y causa del paso franco.",
+      "remaining": "Amistad y hallazgos; uso de pergaminos; detección autónoma, extracción y causa del paso franco."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Plan político oculto y reacción a Elvar.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-orka-historia en thread-review.md. Cuestión revisada: Causa de la sensibilidad.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Reunión con Orlyg, términos, expansión y desenlace con Störr.",
+      "remaining": "Reunión con Orlyg, términos, expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Salida segura del grupo, otros desaparecidos y grupos, responsables y alcance de los raptos.",
+      "remaining": "Salida segura del grupo, otros desaparecidos y grupos, responsables y alcance de los raptos."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Paradero o muerte, vínculo sensible y linaje.",
+      "remaining": "Paradero o muerte, vínculo sensible y linaje."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Partida, encuentro y desenlace de la caza; libertad de Varg frente a la reclamación.",
+      "remaining": "Partida, encuentro y desenlace de la caza; libertad de Varg frente a la reclamación."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: La ayuda pactada se ejecuta y solicita contratar a Glornir; se persiste en fuga-fingida-myrk y contratacion-bloodsworn-elvar. Para las pistas previas: Bjarn no está rescatado, Berak sigue sin libertad observada, no hay represalia contra Biórr ni prueba de control sostenido de Ulfrir. La apuesta por elección frente a sangre y su historia familiar no reciben respuesta.",
+      "remaining": "Mensaje y contratación; además de rescate de Bjarn, libertad de Berak, venganza contra Biórr y control sostenido de Ulfrir."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Juramento antiguo, historia con Gytha y reacción a Ulfrir.",
+      "remaining": "Juramento antiguo, historia con Gytha y reacción a Ulfrir."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Causa de los presentimientos.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Alcance de su colaboración con la hueste y situación del blóð svarið.",
+      "remaining": "Alcance de su colaboración con la hueste y situación del blóð svarið."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Autor de los azotes, circunstancias y familia; cumplimiento de la promesa de Rotta y decisiones futuras.",
+      "remaining": "Autor de los azotes, circunstancias y familia; cumplimiento de la promesa de Rotta y decisiones futuras."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Berak Bjornasson. Resto pendiente separado: Libertad futura en liberar-berak.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Asalto y Persecución en Iskalt. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Mecanismo en percepcion-liberacion-lik-rifa.",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Mecanismo del aviso y sueños.",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Objeto Quemado de Iskalt: Graskinna. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 45: Nota temática conservada; la escena no introduce una pregunta factual sobre ella. Alcance revisado: Snakavik. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Pasado de Elvar. Resto pendiente separado: Plan paterno separado en plan-oculto-storr.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Venta de Berak (pendiente). Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Recuperación, obediencia sostenida, enfrentamiento con Lik-Rifa y conexión con Orka.",
+      "remaining": "Recuperación, obediencia sostenida, enfrentamiento con Lik-Rifa y conexión con Orka."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-orka-historia en thread-review.md. Cuestión revisada: Conciliar edades; madre, mujer enjaulada, sensibilidad e historia de Skullsplitter.",
+      "remaining": "Conciliar edades; madre, mujer enjaulada, sensibilidad e historia de Skullsplitter."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich.",
+      "remaining": "Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Hechos, culpabilidad y resolución de sulich-crisis.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Pruebas, culpabilidad y resolución.",
+      "remaining": "Pruebas, culpabilidad y resolución."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Formalización del juramento de sangre.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-uspa en thread-review.md. Cuestión revisada: Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta.",
+      "remaining": "Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Causalidad de piedra-gusanos.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Si la roca los atrajo y cómo.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Existencia Contemporánea de los Dragon-Born. Resto pendiente separado: Referente de las palabras de Thorkel.",
+      "remaining": "Referente de las palabras de Thorkel."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Autores y motivo del ataque al fresno.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Partida Familiar Truncada. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-orka-historia en thread-review.md. Cuestión revisada: Sangre, detección y consecuencias.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Autores, motivo y conexión con los raptos.",
+      "remaining": "Autores, motivo y conexión con los raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-venganza-formacion en thread-review.md. Cuestión revisada: Venganza por Virk y Mord y seguridad de Lif.",
+      "remaining": "Venganza por Virk y Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Si recibirá la enseñanza pedida.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Partida de Liga (Bloodsworn). Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Causa de la sensación junto a la viga.",
+      "remaining": "Causa de la sensación junto a la viga."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Salida de Liga Pendiente. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Garras, papel de Breca y venganza.",
+      "remaining": "Garras, papel de Breca y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: fuga-fingida-myrk prepara un rastro con caballo y jinete; Orka renueva su promesa. La persecución todavía no comienza. Se preservan sus límites de conocimiento frente al lector, que ya vio al niño en Nastrandir.",
+      "remaining": "Rastro efectivo, rescate, curación, trayecto original y cumplimiento del favor a Elvar."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Circunstancias de su muerte.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-orka-historia en thread-review.md. Cuestión revisada: Identidad histórica, parentesco y sucesión en los testimonios.",
+      "remaining": "Identidad histórica, parentesco y sucesión en los testimonios."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Emboscada de Jaromir en el Muelle de Liga. Resto pendiente separado: La reclamación sigue en sulich-crisis.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Motivos completos respecto de Logur y crisis.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-venganza-formacion en thread-review.md. Cuestión revisada: Forja, garras y ajuste de cuentas.",
+      "remaining": "Forja, garras y ajuste de cuentas."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Entierro de Thorkel y Juramento de Venganza de Orka. Resto pendiente separado: Represalia en venganza-seaxes.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Amenaza del norte, manuscritos, Vol y represalia de Glornir.",
+      "remaining": "Amenaza del norte, manuscritos, Vol y represalia de Glornir."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Encargo de Helka y Partida de los Bloodsworn hacia el Norte. Resto pendiente separado: Amenaza-norte-helka sigue parcial.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Responsables, víctimas y alcance.",
+      "remaining": "Responsables, víctimas y alcance."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Desembarco de la Reina Helka en Liga. Resto pendiente separado: Crisis continúa separada.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Plan de Störr para Elvar.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Hrung. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Llegada a Snakavik y Venta de Berak a Jarl Störr. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Revelación de Elvar como Hija de Jarl Störr. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-orka-historia en thread-review.md. Cuestión revisada: Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia.",
+      "remaining": "Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Infiltración en Fellur y Rescate de Mord y Lif. Resto pendiente separado: Consecuencias en fuga-orka-fellur.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Consecuencias legales y siguientes medidas contra Orka.",
+      "remaining": "Consecuencias legales y siguientes medidas contra Orka."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 45: Nota temática conservada; la escena no introduce una pregunta factual sobre ella. Alcance revisado: Thorun. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 45: Nota temática conservada; la escena no introduce una pregunta factual sobre ella. Alcance revisado: Broðir. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Historia compartida y obligaciones.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Oferta de Reconciliación de Jarl Störr a Elvar. Resto pendiente separado: Plan oculto registrado aparte.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Elvar Rechaza la Oferta de Störr. Resto pendiente separado: Plan-oculto-storr.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Motivo de la Huida de Uspa: la Persecución de Ilska. Resto pendiente separado: Rescate de Bjarn separado.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Fuga por el Fiordo y Pacto con Mord y Lif. Resto pendiente separado: Venganza, formación y consecuencias en sus tramas.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: Lif sostiene escudo y lanza frente a dos atacantes dentro del engaño; no se le había avisado. Evento enlazado y perfil recogen esta experiencia; no prueba preparación para vencer a Guðvarr. Las lecciones anteriores y el acuerdo cumplido del Libro 1 siguen como historia.",
+      "remaining": "Preparación para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Intención real de Störr.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Raid de los Raven-Feeders a la Taberna. Resto pendiente separado: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: El Secreto de Uspa y el Precio del Rescate. Resto pendiente separado: Rescate-bjarn.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: La propuesta de refuerzos pasa a petición concreta a Glornir, ligada a esta trama mediante contratacion-bloodsworn-elvar. Ningún mensaje llega ni se acepta contrato; no cambia el paradero conocido por el lector ni se cumple el blóð svarið.",
+      "remaining": "Transmitir y acordar el apoyo, recuperar a Bjarn y cumplir el juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: ¿Conoce Uspa el Camino a Oskutreð?. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-uspa en thread-review.md. Cuestión revisada: Desenlace del feudo colectivo.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Cumplimiento del rito.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Destino del Näcken del río y vínculo con la amenaza del norte.",
+      "remaining": "Destino del Näcken del río y vínculo con la amenaza del norte."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Constructor, resistencia al calor y autor de la antigua huella.",
+      "remaining": "Constructor, resistencia al calor y autor de la antigua huella."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Cumplimiento, alcance de la sanción y situación de Kráka.",
+      "remaining": "Cumplimiento, alcance de la sanción y situación de Kráka."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Plan paterno y reacción a decisión.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Destino de sus habitantes.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Desembarco en el Slågen y Marcha a las Boneback. Resto pendiente separado: Amenaza-norte-helka.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Travesía y Entrenamiento Hacia Darl. Resto pendiente separado: Consecuencias y formación renovada en otras tramas.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Llegada a Darl y Desembarco de Helka. Resto pendiente separado: Rescate-breca.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Identidad, linaje y libertad del guerrero.",
+      "remaining": "Identidad, linaje y libertad del guerrero."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-drengr en thread-review.md. Cuestión revisada: Conocimiento o autorización de Helka.",
+      "remaining": "Conocimiento o autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir.",
+      "remaining": "Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Rescate, recuperación y transmisión de la pista a Orka.",
+      "remaining": "Rescate, recuperación y transmisión de la pista a Orka."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Combate en El Drengr Muerto. Resto pendiente separado: Resto de preguntas en sus tramas.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Varg Rechaza el Trato de Skalk. Resto pendiente separado: Akall continúa aparte.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Autoría y mecanismo de matanza.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Significado de la marca.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Acuerdos y propósito de Hakon, alcance de las visitas y conocimiento o autorización de Helka.",
+      "remaining": "Acuerdos y propósito de Hakon, alcance de las visitas y conocimiento o autorización de Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Historia afectiva y reencuentro.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Autores, número y amenaza próxima.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Autor de huella y puente.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: La Ayuda de Torvik Queda Truncada. Resto pendiente separado: Objetivo de Varg en akall.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Mecanismo de poder y sensibilidad de Varg.",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Varg Sobrevive a la Espada de Hueso. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Quién, cuándo/por qué, familia y represalia.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: Elvar entrega la joya para Glornir como muestra de estima. Hay un uso observado del botín, pero no entrega al destinatario, contratación, venta o reparto final. Se preservan las consecuencias anteriores: armas, libro, resurrección y advertencia de Uspa; no se demuestra agotado su alcance.",
+      "remaining": "Entrega al destinatario, contratación, venta o reparto final y demás consecuencias del uso de reliquias."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Paradero, liberación, suturas y collar de Vol.",
+      "remaining": "Paradero, liberación, suturas y collar de Vol."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Ocupantes anteriores, mecanismo de salida de Rotta y trayecto de Breca.",
+      "remaining": "Ocupantes anteriores, mecanismo de salida de Rotta y trayecto de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Autoría y conexiones del altar.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Autores de altares y relación con la red de Drekr.",
+      "remaining": "Autores de altares y relación con la red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Revelación: los Bloodsworn son Tainted. Resto pendiente separado: Control en pasado-varg.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Invitación de Glornir y Partida Anunciada para Rescatar a Vol. Resto pendiente separado: Juramento y rescate en tramas respectivas.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Portador de la sangre de Orna entre los presentes en Oskutreð.",
+      "remaining": "Portador de la sangre de Orna entre los presentes en Oskutreð."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Circunstancias de muerte.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Encuentro con Vörn en Oskutreð. Resto pendiente separado: Consecuencias en destino-tesoros-oskutred.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Llegada de Ilska a la Llanura de Batalla. Resto pendiente separado: Venganza-ilska.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Emboscada en el Bosque del Grimholt. Resto pendiente separado: Identidades restantes en trama.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Mujer del sabueso y composición restante de captores.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Holmganga: Agnar vs Skrið. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Revelación de los Dragon-Born y los Niños Cautivos. Resto pendiente separado: Propósito y destinos en ninos-robados/rescate.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Traición de Biórr. Resto pendiente separado: Cicatrices/genealogía quedan aparte.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Motivo de la Traición de Biórr Revelado. Resto pendiente separado: Cicatrices aparte.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Papel de Hakon y composición de los captores en tramas separadas.",
+      "remaining": "Papel de Hakon y composición de los captores en tramas separadas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Muerte Confirmada de Mord en el Grimholt. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Batalla de los Muros de Escudos en Oskutreð. Resto pendiente separado: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Liberación de Lik-Rifa. Resto pendiente separado: Niños y conocimiento de Helka aparte.",
+      "remaining": "Niños y conocimiento de Helka aparte."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Uspa Sobrevive a la Apertura de Oskutreð. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Muerte de Vörn Confirmada. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Llegada de refuerzos, seguridad, recuperación completa, gobierno, enfrentamiento con Ulfrir y explicación de la cita occidental.",
+      "remaining": "Llegada de refuerzos, seguridad, recuperación completa, gobierno, enfrentamiento con Ulfrir y explicación de la cita occidental."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Convergencia en el Grimholt. Resto pendiente separado: Preguntas conservadas en sus tramas.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Sepultura de Mord Cumplida. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: Sueño privado de lobos, dragones y llanto infantil; no es testimonio ni prueba de visión literal. No explica el aviso de Spert/Vesli, la causalidad de los sueños ni la fuente del rumor de Starl.",
+      "remaining": "Mecanismo y alcance del aviso y sueños; origen y veracidad del rumor oído en Starl."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Encuentro y desenlace de la represalia.",
+      "remaining": "Encuentro y desenlace de la represalia."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Poder del arco frente a flechas.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Forja y relación de los seaxes.",
+      "remaining": "Forja y relación de los seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Si habrá represalia por Torvik, contra quién y por quién.",
+      "remaining": "Si habrá represalia por Torvik, contra quién y por quién."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Contenido, cubierta y protecciones.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Ataque de las Criaturas de Lik-Rifa en Vergelmir. Resto pendiente separado: Detalles no aclarados conservados como límites.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: La oferta a los Bloodsworn plantea refuerzos para los objetivos de Elvar, enlazados en contratacion-bloodsworn-elvar. No hay combate entre dioses, recuperación nueva o prueba de cooperación sostenida.",
+      "remaining": "Contratación y cooperación sostenida, recuperación de Ulfrir, encuentro con Lik-Rifa y desenlace."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Alcance, mecanismos y cubierta.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 45: Escapa a caballo, pero por el engaño de Orka. El encargo de los capítulos 5/9 no se cumple por escapar; no recoge ni entrega tesoros. Su amenaza sobre Breca no revela un papel ritual. Sigue sin duelo y no se encuentra con Varg.",
+      "remaining": "Entrega del encargo, destino tras la fuga, holmganga y represalia contra Varg."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand.",
+      "remaining": "Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa.",
+      "remaining": "Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Intento efectivo y libertad.",
+      "remaining": "Intento efectivo y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: La pérdida al alejarse de Ulfrir y la inquietud persisten. El nuevo sueño no identifica un emisor. La presencia despierta ya reconocida en el capítulo 39 no demuestra quién produjo el sueño del 10 ni su relación con Varg.",
+      "remaining": "Origen del sueño del capítulo 10, mecanismo y relación con Varg."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-venganza-formacion en thread-review.md. Cuestión revisada: Qué entendió Lif y consecuencias para el secreto.",
+      "remaining": "Qué entendió Lif y consecuencias para el secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Identidad, origen y significado de la llamada a Varg.",
+      "remaining": "Identidad, origen y significado de la llamada a Varg."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Destino de Frøya.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Brimil (†). Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Interrogatorio en la Aldea de Njal. Resto pendiente separado: Frøya y Brimil en sus tramas.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Emboscada del Culto del Dragón en la Aldea de Njal. Resto pendiente separado: Control autónomo y alcance de culto aparte.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Causa del desasosiego previo y relación con Orka o el Grimholt.",
+      "remaining": "Causa del desasosiego previo y relación con Orka o el Grimholt."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "La Guardia del Isbrún y el Regreso de los Tennúr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: La Guardia del Isbrún y el Regreso de los Tennúr. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Trayecto de Breca, tatuajes y escape de Rotta.",
+      "remaining": "Trayecto de Breca, tatuajes y escape de Rotta."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Significado, portadores y universalidad.",
+      "remaining": "Significado, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Mecanismo de escape y hechos entre Guðfalla y Nastrandir.",
+      "remaining": "Mecanismo de escape y hechos entre Guðfalla y Nastrandir."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-crimen en thread-review.md. Cuestión revisada: Identidades, autores y afiliación efectiva.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe.",
+      "remaining": "Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "Elvar Sucede a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Elvar Sucede a Agnar. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Enfrenta a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Varg se Enfrenta a Brimil. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "audiencia-gudvarr-helka",
+      "label": "La Recompensa y el Encargo de Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Contenido exacto de la petición anterior.",
+      "remaining": "Contenido exacto de la petición anterior."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "label": "El Encargo de Guðvarr sobre Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Amistad, hallazgos y resultado de la investigación.",
+      "remaining": "Amistad, hallazgos y resultado de la investigación."
+    },
+    {
+      "id": "aprendizaje-estrid-frek",
+      "label": "La Petición de Instrucción de Estrid",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Si recibe la instrucción y qué aprende.",
+      "remaining": "Si recibe la instrucción y qué aprende."
+    },
+    {
+      "id": "venganza-halja",
+      "label": "Halja Quiere Ajustar Cuentas por Vali",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-venganza-formacion en thread-review.md. Cuestión revisada: Responsables y desenlace de la represalia.",
+      "remaining": "Responsables y desenlace de la represalia."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "label": "¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Participación individual de Breca en el rito y conexión con el asesinato de Thorkel.",
+      "remaining": "Participación individual de Breca en el rito y conexión con el asesinato de Thorkel."
+    },
+    {
+      "id": "kuru",
+      "label": "Kuru",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Supervivencia de Kuru.",
+      "remaining": "Supervivencia de Kuru."
+    },
+    {
+      "id": "implantacion-hyrndur",
+      "label": "El Espía dentro del Espía",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Identidad del halcón de la empalizada; vigilancia autónoma en vigilancia-hyrndur-gudvarr.",
+      "remaining": "Identidad del halcón de la empalizada; vigilancia autónoma en vigilancia-hyrndur-gudvarr."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "label": "El Control del Hyrndur sobre Guðvarr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Posición exacta, vigilancia autónoma, extracción, supervivencia y ayuda efectiva.",
+      "remaining": "Posición exacta, vigilancia autónoma, extracción, supervivencia y ayuda efectiva."
+    },
+    {
+      "id": "origen-estallido-darl",
+      "label": "¿Qué Provocó el Estallido cerca de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Causa del estallido concreto.",
+      "remaining": "Causa del estallido concreto."
+    },
+    {
+      "id": "destino-huesos-hraeg",
+      "label": "¿Llegarán los Huesos de Hraeg al Padre de Jaromir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Entrega, recompensa e identificación independiente.",
+      "remaining": "Entrega, recompensa e identificación independiente."
+    },
+    {
+      "id": "destino-grieta-darl",
+      "label": "Supervivencia de Skalk, Yrsa y Sturla",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Supervivencia de Skalk, Yrsa y Sturla. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "cura-taras",
+      "label": "La Promesa de Iva a Taras",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-magia en thread-review.md. Cuestión revisada: Si Iva lo cura y cómo.",
+      "remaining": "Si Iva lo cura y cómo."
+    },
+    {
+      "id": "umbral-torre-darl",
+      "label": "¿Por Qué Cede el Umbral de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Si el hechizo se interrumpió con la caída o solo actuaba al entrar.",
+      "remaining": "Si el hechizo se interrumpió con la caída o solo actuaba al entrar."
+    },
+    {
+      "id": "venganza-jokul",
+      "label": "Vengar a Jökul",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Desenlace de la venganza.",
+      "remaining": "Desenlace de la venganza."
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "label": "La Caza de Jaromir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Intercepción, captura o muerte, entrega y pago.",
+      "remaining": "Intercepción, captura o muerte, entrega y pago."
+    },
+    {
+      "id": "salida-darl-hakon",
+      "label": "La Liberación y el Regreso de Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: La Liberación y el Regreso de Hakon. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-glornir-skalk",
+      "label": "La Amenaza de Glornir contra Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Si Glornir regresa y mata a Skalk.",
+      "remaining": "Si Glornir regresa y mata a Skalk."
+    },
+    {
+      "id": "sepultura-huld",
+      "label": "El Túmulo Ordenado para Huld",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-uspa en thread-review.md. Cuestión revisada: Construcción del túmulo.",
+      "remaining": "Construcción del túmulo."
+    },
+    {
+      "id": "retorno-wave-jarl",
+      "label": "El Regreso al Wave-Jarl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: El Regreso al Wave-Jarl. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "brak-trolls-bane",
+      "label": "Brák Trolls-Bane",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Identidad retrospectiva, destino de Frøya y origen de los seaxes.",
+      "remaining": "Identidad retrospectiva, destino de Frøya y origen de los seaxes."
+    },
+    {
+      "id": "holmganga-orka-myrk",
+      "label": "La Holmganga Prometida entre Orka y Myrk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: La cautiva escapa antes de encontrar a Breca. No es la liberación bajo la condición jurada; el combate fingido con Sighvat tampoco es una holmganga contra Myrk. Orka renueva la futura devolución del seax y el duelo no ocurre.",
+      "remaining": "Encontrar a Breca y resolver la promesa condicionada y el duelo."
+    },
+    {
+      "id": "venganza-myrk-varg",
+      "label": "La Amenaza de Myrk contra Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: La fuga devuelve a Myrk libertad de movimiento y oportunidad de perseguir su amenaza, pero el capítulo no la muestra buscando o encontrando a Varg. La nueva evidencia está en myrk.star y fuga-fingida-myrk.",
+      "remaining": "Si Myrk busca a Varg y cumple su amenaza."
+    },
+    {
+      "id": "destino-testigos-torre",
+      "label": "¿Dónde Están los Testigos Presos de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Paradero y destino de los testigos retenidos.",
+      "remaining": "Paradero y destino de los testigos retenidos."
+    },
+    {
+      "id": "promesa-ulfrir-battle-grim",
+      "label": "La Promesa de Ulfrir a los Battle-Grim",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Si cumple su compromiso de no devorar a más miembros.",
+      "remaining": "Si cumple su compromiso de no devorar a más miembros."
+    },
+    {
+      "id": "secuelas-seidr-ninos",
+      "label": "¿Se Recuperarán los Niños del Sometimiento?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Recuperación completa de todos los niños y causa de todos los síntomas.",
+      "remaining": "Recuperación completa de todos los niños y causa de todos los síntomas."
+    },
+    {
+      "id": "saeunn",
+      "label": "Sæunn",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 45: Orka declara su sangre de Hundur y le encarga el rastreo; huele las telas y acepta. Esto responde su papel, no prueba éxito sobre el terreno ni retira el collar.",
+      "remaining": "Éxito del rastreo, destino del collar y libertad."
+    },
+    {
+      "id": "avistamiento-battle-grim-starl",
+      "label": "Orka Avista un Drakkar de los Battle-Grim en Starl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Historia cerrada conservada; la escena de Starl no revoca ese desenlace. Alcance revisado: Orka Avista un Drakkar de los Battle-Grim en Starl. Resto pendiente separado: none",
+      "remaining": "none"
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "label": "Encuentro en Starl y Búsqueda de Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 45: Elvar realiza la ayuda de fuga-fingida-myrk y concreta la contraprestación: comunicar una oferta a Glornir. El encuentro y esa mitad del intercambio están cumplidos; el mensaje y el rescate no.",
+      "remaining": "Cumplimiento de contratacion-bloodsworn-elvar y recuperación de Breca."
+    },
+    {
+      "id": "compra-tainted-starl",
+      "label": "¿Para Qué Compra Orka una Thrall Tainted en Starl?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 45: El papel de Sæunn queda explícito y la frase «debe hacerse» del capítulo 36 recibe contexto práctico. El capítulo no reproduce el requisito susurrado ni explica expresamente toda la incomodidad de Orka; la trata por su nombre y pide no ser llamada ama, pero no le quita el collar.",
+      "remaining": "Condición susurrada exacta, explicación expresa de la incomodidad y trato/libertad de Sæunn."
+    },
+    {
+      "id": "sangre-caballo-myrk",
+      "label": "¿Para Qué Guarda Orka la Sangre del Caballo de Myrk?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "resolved",
+      "evidence": "Libro 2, capítulo 45: La tela conservada desde el capítulo 36 se da a Sæunn como muestra olfativa, junto con sangre de Myrk. Propósito y reutilización demostrados; no hechizo Seiðr observado. La categoría activa se retira con marcador exacto y el desenlace de la persecución permanece en rescate-breca.",
+      "remaining": "none"
+    },
+    {
+      "id": "abasto-battle-grim-starl",
+      "label": "El Abastecimiento Pendiente en Starl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Abastecimiento efectivo y preservación del secreto.",
+      "remaining": "Abastecimiento efectivo y preservación del secreto."
+    },
+    {
+      "id": "salida-uspa-starl",
+      "label": "Uspa Rechaza Marcharse con Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 45: Uspa no sale con Orka ni revoca su decisión ya tomada en el 39; no se reabre la petición rechazada.",
+      "remaining": "none"
+    },
+    {
+      "id": "resucitar-orna",
+      "label": "¿Podría Volver a Vivir Orna?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-ruta-rito en thread-review.md. Cuestión revisada: Si se acepta o intenta la petición y si es posible devolverle la vida a Orna.",
+      "remaining": "Si se acepta o intenta la petición y si es posible devolverle la vida a Orna."
+    },
+    {
+      "id": "reunion-helka-orlyg",
+      "label": "La Reunión de Helka con Jarl Orlyg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-darl en thread-review.md. Cuestión revisada: Llegada de Orlyg, celebración, términos y resultado de la reunión.",
+      "remaining": "Llegada de Orlyg, celebración, términos y resultado de la reunión."
+    },
+    {
+      "id": "persecucion-leif-varg",
+      "label": "La Caza de Varg por Leif y Sterkur",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-varg en thread-review.md. Cuestión revisada: Partida, encuentro y desenlace de la caza.",
+      "remaining": "Partida, encuentro y desenlace de la caza."
+    },
+    {
+      "id": "promesa-rotta-biorr",
+      "label": "¿Cumplirá Rotta su Promesa a Biórr?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 45: G-elvar-historia en thread-review.md. Cuestión revisada: Qué ayuda dará Rotta a Biórr y si cumplirá su promesa.",
+      "remaining": "Qué ayuda dará Rotta a Biórr y si cumplirá su promesa."
+    },
+    {
+      "id": "contratacion-bloodsworn-elvar",
+      "label": "La Petición de Elvar a los Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 45: Nueva petición explícita y promesa de Orka, con anillo para Glornir y Snakavik como destino. fuga-fingida-myrk conserva la escena; el contrato no es aceptado en este capítulo.",
+      "remaining": "Localizar a Glornir, transmitir la oferta, entregar el anillo, obtener respuesta, acordar el contrato y reunirse en Snakavik."
+    }
+  ]
+}

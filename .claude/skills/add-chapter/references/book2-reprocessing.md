@@ -220,6 +220,14 @@ but source-mark each chapter's contribution and draft its summary from that chap
 own text. A prior report retold in the conversation retains its original uncertainty:
 Halja's guess that Glornir has probably caught Skalk is not current rescue evidence.
 
+For remembered dialogue followed by an internal reply, resolve the speaker and
+addressee across paragraph breaks before retaining a legacy quotation. In Ch45,
+Orka's private vow to keep searching addresses Breca; it is not Ulfrir promising
+to search for Orka. For a staged action, distinguish collaborators, uninformed
+allies and the intended victim rather than assigning one knowledge state to a
+whole company: Halja knows the attack is arranged, Lif was not briefed, and Myrk
+is deceived into taking the escape opportunity.
+
 ## Review and publish
 
 Write `ownership-review.md`, `event-review.md`, `thread-review.md` and the checked

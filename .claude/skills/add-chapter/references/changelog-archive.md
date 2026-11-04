@@ -1,5 +1,12 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch45 — the legacy summary transferred Orka's private
+  vow to Ulfrir and generalized who was deceived by the staged attack. Added
+  speaker/addressee checks across remembered dialogue and internal replies,
+  and separate collaborator/unbriefed-ally/victim knowledge checks to the
+  legacy-summary cross-check. Source-reviewed chapter content corrects both.
+  Fully absorbed into the reprocessing guide; archived immediately.
+
 - 2026-11-03: Book Two Ch44 — `--include bjarn` failed despite Bjarn being a
   known entity, because he had no backlog evidence field. Clarified selecting
   includes from the unfiltered backlog index and reading noncandidate profiles

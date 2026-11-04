@@ -1,0 +1,407 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 45 — ORKA ──",
+  "nodes": [
+    {
+      "id": "orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: En el establo de Starl recuerda en privado a Ulfrir como antepasado de su linaje y la pérdida creciente que sintió al alejarse de él. Cree que aceptar su oferta le costaría parte de sí misma; rechaza necesitar un padre y renueva para sí la promesa de no dejar de buscar a Breca mientras viva. El canto de Lif la adormece y sueña con lobos, dragones y el llanto de un niño, sin comunicarlo a los presentes. Diseña el engaño de fuga-fingida-myrk y se compromete a llevar la petición de Elvar en contratacion-bloodsworn-elvar. Corrige a Sæunn cuando la llama ama y le pide que use su nombre; ella responde «ama Orka».",
+      "previousState": "Persisten la atracción de Ulfrir y su prioridad por Breca; prepara el rastreo y acepta el favor de Elvar.",
+      "starAppend": "LIBRO 2, CAPÍTULO 45: La sensación de pérdida al alejarse del dios amplía llamada-lobo-orka; el nuevo sueño privado no identifica un emisor ni demuestra una visión literal."
+    },
+    {
+      "id": "lif",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: A petición de Gunnar canta una historia triste de dos hermanos y venganza, amor, lealtad, amistad y pérdida. No se identifica a los hermanos del relato ni se afirma que la canción sea autobiográfica. Durante fuga-fingida-myrk pelea con escudo y lanza sin saber que el asalto está pactado; permanece pálido y tembloroso al detenerse la lucha. Se ofrece a ensillar, pero Orka le pide esperar para seguir a Myrk sin alcanzarla todavía.",
+      "previousState": "Canta ante el grupo y combate sin conocer el engaño del establo."
+    },
+    {
+      "id": "halja",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: Escucha a Lif cantar con lágrimas en los ojos, según observa Orka; no se declara una relación romántica. Defiende el costado de Orka con escudo y lanza durante fuga-fingida-myrk. Al terminar se disculpa con Lif porque no tuvieron oportunidad de avisarle.",
+      "previousState": "Emoción ante la canción y participación consciente en el combate pactado."
+    },
+    {
+      "id": "sighvat",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: Actúa encapuchado como atacante de Orka en fuga-fingida-myrk. Termina con la nariz sangrando y los labios hinchados; protesta por la dureza de los golpes, que ella justifica por el realismo y dice haber contenido. Después ríe y se reúne con Elvar, Grend y Orka.",
+      "previousState": "Heridas durante su participación en el engaño del establo."
+    },
+    {
+      "id": "orv-sneak",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: Participa encapuchado en fuga-fingida-myrk. Al concluir se presenta por su nombre ante Lif y le asegura que son amigos, ayudándolo a comprender que no eran enemigos.",
+      "previousState": "Se presenta ante Lif tras el ataque pactado."
+    },
+    {
+      "id": "myrk",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: Atada a un poste del establo de Starl, provoca a Orka con amenazas de Drekr contra ella y Breca y con una alusión a lo que hizo a Thorkel. Repite que espera verlos morir al conducirlos ante su hermano. Sus ojos arden rojos y pronuncia «Eldur», haciendo aparecer chispas; Orka le corta superficialmente el cuello con su propio seax y vuelve a amordazarla. Huye a caballo durante fuga-fingida-myrk; después Orka comprueba que el seax que dejó junto al heno ha desaparecido. Su libertad de movimiento es observada, sin que el capítulo muestre su destino ni el cumplimiento de la holmganga.",
+      "previousState": "Escapa por una maniobra que desconoce; sangre y arma forman parte del plan de Orka.",
+      "starAppend": "LIBRO 2, CAPÍTULO 45: La fuga permite de nuevo actuar fuera del cautiverio, pero no cumple su misión ni la venganza contra Varg. Orka afirma que la guiaba por un rastro falso y pretende seguirla hasta Breca; véase rescate-breca."
+    },
+    {
+      "id": "saeunn",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: Entra en el establo al silbido de Orka, todavía con el collar de hierro. Orka la presenta como Tainted de sangre de Hundur, el dios sabueso, y le entrega las dos telas con sangre del caballo y de Myrk. Ella las huele profundamente y afirma que puede rastrear a caballo y jinete. No se muestra todavía el seguimiento ni su éxito; véase fuga-fingida-myrk. Continúa llamando «ama» a Orka pese a que esta le pide usar su nombre.",
+      "previousState": "Se revela el linaje atribuido y acepta rastrear con las muestras de sangre.",
+      "starAppend": "LIBRO 2, CAPÍTULO 45: Su función de rastreadora queda explícita, con capacidad afirmada tras oler las muestras, todavía sin demostración sobre el terreno. El destino del collar y su libertad permanecen sin resolver; compra-tainted-starl conserva lo que no se explica del requisito inicial."
+    },
+    {
+      "id": "fuga-fingida-myrk",
+      "mode": "new",
+      "label": "La Fuga Fingida de Myrk",
+      "group": "EVENTO",
+      "type": "Evento — Engaño y preparación de rastreo",
+      "desc": "LIBRO 2, CAPÍTULO 45: En el establo de Starl, tras las provocaciones de Myrk y el canto de Lif, unos guerreros encapuchados irrumpen fingiendo querer robar los caballos. Los Bloodsworn retroceden entre golpes reales; Lif, ajeno al acuerdo, combate creyendo que son enemigos. Orka lucha con el enorme atacante que resulta ser Sighvat, mientras Myrk escapa montada. Orka manda detenerse, ayuda a levantar a Sighvat y se revelan Orv, Elvar y Grend entre los supuestos ladrones. Halja se disculpa con Lif por no haberlo advertido. Orka había dejado el seax de Myrk a su alcance después de cortarle el cuello y limpiar su sangre en la túnica; comprueba que el arma falta. Llama a Sæunn y le da esa tela y la que guardaba con sangre del caballo. Tras oler ambas, Sæunn dice que puede rastrearlos. Orka ordena esperar: afirma que Myrk mentía sobre el camino y quiere seguirla hasta Breca, no recapturarla de inmediato. No se muestra aún la salida tras ella. Elvar considera pagada su parte del favor acordado y pide a Orka que contacte con Glornir y los Bloodsworn: ofrece pagar el doble de lo que pidan y entrega un anillo de plata como muestra de estima. Gunnar advierte que no saben dónde están, quizá en Darl. Orka promete hacerlo y Elvar señala Snakavik como punto de reunión. No hay mensaje entregado, contratación aceptada ni llegada a esa ciudad.",
+      "star": ""
+    },
+    {
+      "id": "anillo-plata-oskutred",
+      "mode": "new",
+      "label": "Anillo de Brazo de Plata de Oskutreð",
+      "group": "OBJETO",
+      "type": "Objeto — Muestra de estima para Glornir",
+      "desc": "LIBRO 2, CAPÍTULO 45: Anillo de brazo de plata maciza, grueso y de hebras retorcidas, capaz de ajustarse a un brazo tan grande como el de Sighvat. Sus remates son dos cabezas de oso con las fauces abiertas. Elvar dice que procede de la Llanura de Batalla de Oskutreð y que pudo pertenecer a Berser o a uno de sus hijos: la pertenencia concreta no queda confirmada. Lo entrega para Glornir como muestra de estima al formular contratacion-bloodsworn-elvar; no se observa que Glornir lo reciba.",
+      "star": ""
+    },
+    {
+      "id": "contratacion-bloodsworn-elvar",
+      "mode": "new",
+      "label": "La Petición de Elvar a los Bloodsworn",
+      "group": "TRAMA",
+      "type": "Trama — Mensaje y contratación pendientes",
+      "desc": "LIBRO 2, CAPÍTULO 45: PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 45, fuga-fingida-myrk. Como favor de vuelta por su ayuda a Orka, Elvar pide enviar a Glornir la oferta de contratar a los Bloodsworn por el doble de lo que soliciten. Da anillo-plata-oskutred como muestra de estima y pide que acudan a Snakavik. Orka acepta hacer llegar la petición; Gunnar advierte que ignoran dónde está la compañía y propone Darl solo como posibilidad. ESTADO: ABIERTA. Pendientes: localizar y avisar a Glornir, entregar el anillo, conocer la respuesta, acordar la contratación y reunirse en Snakavik. La promesa de Orka no implica que los Bloodsworn conozcan o acepten la oferta. El nuevo recurso militar propuesto se relaciona con los objetivos pendientes de Elvar, no con un rescate de Bjarn o una victoria ya cumplidos.",
+      "star": ""
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: ESTADO: PARCIAL. Orka abandona la confianza en la ruta que le dio Myrk y ejecuta fuga-fingida-myrk para poder seguirla con Sæunn y las muestras de sangre. Renueva privadamente su promesa de encontrar a su hijo. Hay un medio preparado y una fugitiva a la que seguir, sin partida de los rastreadores, encuentro con Breca, recuperación física ni rescate. La ruta original del rapto sigue sin aclararse.",
+      "previousState": "La búsqueda obtiene una estrategia de seguimiento, todavía sin salida ni rescate."
+    },
+    {
+      "id": "sangre-caballo-myrk",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: ESTADO: RESUELTA para el propósito y reutilización de la tela: Orka la entrega a Sæunn, junto con otra que contiene sangre de Myrk, para identificar el olor de caballo y jinete y seguir su fuga. No se muestra un hechizo Seiðr con la sangre; véase fuga-fingida-myrk para la maniobra y rescate-breca para el seguimiento aún pendiente.",
+      "previousState": "La sangre guardada sirve como muestra olfativa para Sæunn.",
+      "label": "La Sangre del Caballo como Rastro de Myrk",
+      "type": "Trama — Propósito resuelto"
+    },
+    {
+      "id": "compra-tainted-starl",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: ESTADO: PARCIAL. Se revela la utilidad buscada: Sæunn, presentada como descendiente de Hundur, acepta rastrear a Myrk y su caballo mediante muestras de sangre; véase fuga-fingida-myrk. El requisito susurrado no se reproduce literalmente ni Orka explica expresamente la causa de su incomodidad. Rechaza que Sæunn la llame ama, pero el collar sigue puesto. Esas cuestiones de su adquisición y trato no se dan por resueltas solo al conocer la función.",
+      "previousState": "Se revela la función de rastreo; quedan aspectos de la adquisición y trato.",
+      "label": "Sæunn como Rastreadora y su Compra en Starl",
+      "type": "Trama — Función revelada, adquisición pendiente de aclaración"
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: ESTADO: PARCIAL. Los términos del intercambio se concretan y Elvar realiza su ayuda en fuga-fingida-myrk. Orka acepta transmitir la oferta recogida en contratacion-bloodsworn-elvar. Quedan pendientes cumplir ese favor y recuperar a Breca; el engaño exitoso no concluye la búsqueda.",
+      "previousState": "Elvar ejecuta su ayuda y Orka acepta la contraprestación concreta."
+    },
+    {
+      "id": "holmganga-orka-myrk",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: ESTADO: ABIERTA. Orka vuelve a prometer que devolverá el seax a Myrk cuando la conduzca a su hermano. Myrk evoca un posible duelo y la muerte de Orka a manos de Drekr, pero no se celebra una holmganga. La fuga deliberadamente permitida en fuga-fingida-myrk sucede antes de recuperar a Breca; no equivale al cumplimiento de la condición de liberación pactada ni resuelve el duelo.",
+      "previousState": "Myrk escapa antes del rescate y el duelo sigue sin celebrarse."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: ESTADO: PARCIAL. Orka recuerda que alejarse de Ulfrir fue como perder el calor de un fuego; el lobo interior sigue inquieto y ella resiste la idea de seguirlo para priorizar a Breca. La vivencia prolonga el vínculo ya reconocido, sin demostrar quién emitió el sueño del capítulo 10 ni el mecanismo de la comunicación. Más tarde sueña con lobos, dragones y el llanto de un niño, sin identificar emisores ni comunicar ese sueño al grupo. El paralelo con sueno-lobo-varg no establece causa común.",
+      "previousState": "Persisten la atracción resistida y los sueños sin causa explicada."
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: ESTADO: ABIERTA. Orka despierta de un nuevo sueño de lobos, dragones y el llanto de un niño. Es experiencia privada, no un aviso relatado al grupo ni una visión literal demostrada. No aclara cómo los vaesen percibieron la liberación, el origen del rumor del capítulo 36 ni la causalidad de los sueños.",
+      "previousState": "Nuevo sueño privado sin explicación del fenómeno."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 45: ESTADO: PARCIAL. Elvar emplea una joya que atribuye a la Llanura de Batalla como muestra de estima para su oferta a Glornir: anillo-plata-oskutred. Se observa su entrega a Orka, no la recepción por Glornir, el pago de una contratación, una venta ni el reparto final. Véase fuga-fingida-myrk para la escena y contratacion-bloodsworn-elvar para lo pendiente.",
+      "previousState": "Uso concreto de una joya como presente destinado a Glornir."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "fuga-fingida-myrk",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "fuga-fingida-myrk",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "fuga-fingida-myrk",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "anillo-plata-oskutred",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "anillo-plata-oskutred",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-mundo",
+      "target": "anillo-plata-oskutred",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "contratacion-bloodsworn-elvar",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "contratacion-bloodsworn-elvar",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "contratacion-bloodsworn-elvar",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "orka",
+      "target": "fuga-fingida-myrk",
+      "label": "organiza",
+      "type": "event"
+    },
+    {
+      "source": "elvar",
+      "target": "fuga-fingida-myrk",
+      "label": "colabora en",
+      "type": "event"
+    },
+    {
+      "source": "grend",
+      "target": "fuga-fingida-myrk",
+      "label": "participa en",
+      "type": "event"
+    },
+    {
+      "source": "sighvat",
+      "target": "fuga-fingida-myrk",
+      "label": "simula un asalto en",
+      "type": "event"
+    },
+    {
+      "source": "orv-sneak",
+      "target": "fuga-fingida-myrk",
+      "label": "participa en",
+      "type": "event"
+    },
+    {
+      "source": "halja",
+      "target": "fuga-fingida-myrk",
+      "label": "colabora en",
+      "type": "event"
+    },
+    {
+      "source": "lif",
+      "target": "fuga-fingida-myrk",
+      "label": "desconoce el engaño de",
+      "type": "event"
+    },
+    {
+      "source": "myrk",
+      "target": "fuga-fingida-myrk",
+      "label": "escapa durante",
+      "type": "event"
+    },
+    {
+      "source": "gunnar-prow",
+      "target": "fuga-fingida-myrk",
+      "label": "participa en",
+      "type": "event"
+    },
+    {
+      "source": "revna-hare-legs",
+      "target": "fuga-fingida-myrk",
+      "label": "participa en",
+      "type": "event"
+    },
+    {
+      "source": "saeunn",
+      "target": "fuga-fingida-myrk",
+      "label": "acepta rastrear tras",
+      "type": "event"
+    },
+    {
+      "source": "fuga-fingida-myrk",
+      "target": "starl",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "fuga-fingida-myrk",
+      "target": "rescate-breca",
+      "label": "prepara un nuevo medio para",
+      "type": "trama"
+    },
+    {
+      "source": "fuga-fingida-myrk",
+      "target": "sangre-caballo-myrk",
+      "label": "resuelve el propósito registrado en",
+      "type": "trama"
+    },
+    {
+      "source": "fuga-fingida-myrk",
+      "target": "compra-tainted-starl",
+      "label": "aporta evidencia a",
+      "type": "trama"
+    },
+    {
+      "source": "fuga-fingida-myrk",
+      "target": "convergencia-orka-battle-grim",
+      "label": "concreta el intercambio de",
+      "type": "trama"
+    },
+    {
+      "source": "fuga-fingida-myrk",
+      "target": "holmganga-orka-myrk",
+      "label": "deja pendiente",
+      "type": "trama"
+    },
+    {
+      "source": "fuga-fingida-myrk",
+      "target": "contratacion-bloodsworn-elvar",
+      "label": "da lugar a",
+      "type": "trama"
+    },
+    {
+      "source": "fuga-fingida-myrk",
+      "target": "aprendizaje-mord-lif",
+      "label": "aporta evidencia a",
+      "type": "trama"
+    },
+    {
+      "source": "saeunn",
+      "target": "hundur-dios",
+      "label": "según Orka, desciende de",
+      "type": "lore"
+    },
+    {
+      "source": "saeunn",
+      "target": "hundur-linaje",
+      "label": "según Orka, pertenece al",
+      "type": "lore"
+    },
+    {
+      "source": "saeunn",
+      "target": "myrk",
+      "label": "acepta rastrear a",
+      "type": "goal"
+    },
+    {
+      "source": "anillo-plata-oskutred",
+      "target": "oskutred",
+      "label": "según Elvar, procede de",
+      "type": "history"
+    },
+    {
+      "source": "elvar",
+      "target": "anillo-plata-oskutred",
+      "label": "entrega para Glornir",
+      "type": "event"
+    },
+    {
+      "source": "anillo-plata-oskutred",
+      "target": "glornir",
+      "label": "está destinado a",
+      "type": "goal"
+    },
+    {
+      "source": "anillo-plata-oskutred",
+      "target": "berser",
+      "label": "según Elvar, pudo pertenecer a este dios o a un hijo de",
+      "type": "lore"
+    },
+    {
+      "source": "contratacion-bloodsworn-elvar",
+      "target": "elvar",
+      "label": "es solicitada por",
+      "type": "trama"
+    },
+    {
+      "source": "contratacion-bloodsworn-elvar",
+      "target": "orka",
+      "label": "tiene como intermediaria a",
+      "type": "trama"
+    },
+    {
+      "source": "contratacion-bloodsworn-elvar",
+      "target": "glornir",
+      "label": "debe comunicarse a",
+      "type": "trama"
+    },
+    {
+      "source": "contratacion-bloodsworn-elvar",
+      "target": "bloodsworn",
+      "label": "busca contratar a los",
+      "type": "goal"
+    },
+    {
+      "source": "contratacion-bloodsworn-elvar",
+      "target": "snakavik",
+      "label": "propone un encuentro en",
+      "type": "geo"
+    },
+    {
+      "source": "contratacion-bloodsworn-elvar",
+      "target": "anillo-plata-oskutred",
+      "label": "se acompaña de",
+      "type": "trama"
+    },
+    {
+      "source": "contratacion-bloodsworn-elvar",
+      "target": "rescate-bjarn",
+      "label": "propone refuerzos para el objetivo de",
+      "type": "trama"
+    },
+    {
+      "source": "contratacion-bloodsworn-elvar",
+      "target": "muerte-lik-rifa",
+      "label": "se relaciona con el objetivo de",
+      "type": "trama"
+    },
+    {
+      "source": "destino-tesoros-oskutred",
+      "target": "anillo-plata-oskutred",
+      "label": "registra el uso de",
+      "type": "trama"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "sangre-caballo-myrk",
+      "label": "incluye",
+      "status": "broken",
+      "reason": "LIBRO 2, CAPÍTULO 45: Se revela y ejecuta el uso de la tela como muestra olfativa para Sæunn; el seguimiento y rescate continúan en rescate-breca."
+    }
+  ],
+  "summary": {
+    "chapter": 45,
+    "title": "Capítulo 45 — Orka",
+    "summary": "En un establo de <strong>Starl</strong>, <strong>Orka Skullsplitter</strong> afila su hacha y recuerda la intensa pérdida que sintió al alejarse de <strong>Ulfrir</strong>. Resiste la atracción de su antepasado y reafirma en privado que solo importa recuperar a <strong>Breca</strong>. Atada a un poste, <strong>Myrk Sharp-Claw</strong> la provoca con amenazas de <strong>Drekr</strong> y la muerte de <strong>Thorkel</strong>. Cuando Myrk hace brotar chispas al pronunciar «Eldur», Orka le abre una línea en el cuello con su propio seax, limpia la sangre en su túnica y vuelve a amordazarla. Después <strong>Lif</strong> canta una historia de dos hermanos y venganza; <strong>Halja Nariz-Plana</strong> lo escucha con lágrimas en los ojos y Orka se duerme.<br><br>Unos guerreros encapuchados entran fingiendo querer robar los caballos. Orka pelea con un atacante enorme mientras los Bloodsworn retroceden y Myrk logra escapar a caballo. Entonces Orka ordena detenerse: el adversario es <strong>Sighvat</strong>, y entre los supuestos ladrones están <strong>Orv el Sigiloso</strong>, <strong>Elvar</strong> y <strong>Grend</strong>. Todo estaba pactado. Lif, que no había sido avisado, queda pálido y tembloroso; Halja se disculpa con él.<br><br>Orka comprueba que falta el seax dejado junto al heno y llama a <strong>Sæunn</strong>, a quien presenta como Tainted de sangre de <strong>Hundur, Dios-Sabueso</strong>. Le da la tela guardada con sangre del caballo de Myrk y el trozo de túnica con sangre de su jinete. Sæunn las huele y afirma poder rastrearlos. Orka pide esperar: <em>no quiere alcanzar a Myrk, sino seguirla hasta su hijo</em>, porque afirma que la había guiado por un camino falso. La persecución todavía no comienza.<br><br>A cambio de la ayuda prestada, Elvar pide que Orka envíe a <strong>Glornir</strong> su oferta de contratar a los Bloodsworn por el doble de lo que soliciten. Le entrega el <strong>Anillo de Brazo de Plata de Oskutreð</strong> como muestra de estima: procede de la Llanura de Batalla y, según Elvar, pudo pertenecer a <strong>Berser</strong> o a uno de sus hijos. <strong>Gunnar Prow</strong> advierte que no saben dónde está la compañía, quizá en <strong>Darl</strong>. Orka promete hacer llegar la petición. Elvar fija <strong>Snakavik</strong> como punto de reunión; no se muestra aún la entrega del mensaje ni la aceptación de la oferta."
+  }
+}
