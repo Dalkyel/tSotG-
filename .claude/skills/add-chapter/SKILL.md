@@ -433,3 +433,6 @@ a chapter (or a validation pass), before reporting done:
 For prior incidents and maintenance history, see [references/changelog.md](references/changelog.md)
 and, for older fully-superseded entries, [references/changelog-archive.md](references/changelog-archive.md).
 Read them when investigating a recurrence or changing a rule justified by an earlier incident.
+For these growing logs, locate dated entries with `rg -n '^- [0-9]{4}'` first,
+then read the relevant line ranges in separate bounded responses; do not dump both
+logs together. Archive only entries whose full contents you have reviewed.

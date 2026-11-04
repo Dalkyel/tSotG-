@@ -242,6 +242,17 @@ mark and attributed resemblance without confirming a tattoo, drawing, lineage or
 implant. Likewise, keep an unnamed referent and an unheard whispered date qualified
 even when earlier reader knowledge suggests an interpretation.
 
+For fast action involving unnamed voices or off-screen blows, separate the observed
+result from the actor's identity. Ch48 identifies Hrolf's death by a spear, but not
+the thrower; the execution order and first binding formula are also unattributed
+voices. Skalk's later control of the net does not explicitly identify its initial
+caster. The bloody seax and displaced body suggest violence against the trapper
+without explicitly confirming his death. Keep these distinctions in the event,
+links and summary, and do not import the legacy summary's name for an unnamed
+drengr. Likewise, an actual report should contain only the information spoken:
+Guðvarr identifies Kalv's messenger role, without yet reporting the whole Ch46
+message. A capture is not an interrogation or a completed investigation.
+
 ## Review and publish
 
 Write `ownership-review.md`, `event-review.md`, `thread-review.md` and the checked

@@ -48,7 +48,8 @@
     44,
     45,
     46,
-    47
+    47,
+    48
   ],
   "chapters": [
     {
@@ -819,15 +820,33 @@
         }
       },
       "log": "Chapter 47: Varg — reprocessed from complete supplied source; 16 node revisions and 37 links cover Røkia’s testimony about Svik and the naval disappearance, Refna/Kel and Brák’s connection to Drekr, and unknown sails. Added four discoverable event accounts including the existing naval event, retained qualified historical conflicts and partial/open questions, corrected the Glornir-to-Æsa tiller handoff, reviewed ownership/events/all 209 clue candidates and summary identities; required nine-file regression suite passed. Browser appearance left for user verification."
+    },
+    {
+      "chapter": 48,
+      "source": "book2/chapter 48.html",
+      "sourceHash": "e915204f01d4329c03cbc78f832b6cd4a5406966db890d169f26b2c1dc8498f6",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch48.HWNVmB",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-48",
+        "hashes": {
+          "ownership-review.md": "599c2644e4e29a310fa9232a5f058f2bd0b921834c367009c6ddea26df70af68",
+          "event-review.md": "f7b42a332d897842961572f4d3bf1fab2e73bef34f0bece6676bd846f572d8c6",
+          "thread-review.md": "5429f7b3440d163f02e1e2f4f0d3306b7fd55b8cb8c001aede68053a07342fca",
+          "thread-checklist.json": "ac3f1e9c3ed91863633835c67ce2fa228d18ab06794b54c95e2bbafd8f38d0e6",
+          "completion.json": "655c2d0f157482a8a8f43c2ced48abc07f02b3babb34f257c79f436f9732bd16",
+          "chapter.json": "4ef89203e77d2f5b40db64cb777807f42f550d31261bb0f82fc54941e7f04eba"
+        }
+      },
+      "log": "Chapter 48: Reprocessed Guðvarr’s flight from the breakfast table, Hrolf’s death and Kalv’s live capture as one canonical event; added eight cumulative profile/lore/thread revisions and 18 links with a source-based Spanish summary. Preserved anonymous actors and uncertain trapper fate; retained partial reporting and unresolved political/hyrndur questions. Full source and selected backlog read; all 209 cross-POV checklist candidates assessed; ownership, event and thread reviews PASS. Chapter verifier, mention/direction/overlap reviews and the nine-file regression suite passed. Later chapters remain visible. Browser appearance and both book-summary tabs await user visual confirmation."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "36590f1d1dea295aa34240f7b13207c60e0fa9dafcf230d8ae27a70c8d311ac5",
-    "book2/links.js": "6fbf73e4b59bcb2f601ef876c5ad529a1e6bc47d6534cbe76877053d97452ba2",
-    "book2/summaries.js": "3fcb86376d12d00610ef995ccdb8af23e487f5b88c3423a07df5b55d3358d87d"
+    "book2/nodes.js": "d0c3aa08fb06d9ef5aeb940373fa6a5f2a83f623eec996991316d23f00302079",
+    "book2/links.js": "b926babb4810a9f54f13a3f0960a1d634e39f8f0b5a2804eb995a6c2a928dc53",
+    "book2/summaries.js": "5b9d5779e92eb7b9c58a50f1984b48c8d7de2a50ddc4663263c0c6f3ba41e5d0"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -838,9 +857,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "aa2b21cf2032098f13dffd6d2b23282713123668ec775aeea82b7a5d0751ec08",
-    "links": "eec7109498b06d019b83d74b98665e78de2a3de148207fb253875ea1feb9b02b",
-    "summaries": "48f3f4e722a328e6202a86ec96afe11d39cd78a8004dd4c79158570629cbd82a"
+    "nodes": "30d8584368f1fa30695a65c28cf37ac5ed36c01434c861d8e81ba958a62e0bc1",
+    "links": "d558ea2cc28c63a9a6ef1fcdae75cd29cbfb9a3fa851bcc6e448d587b52a8ba2",
+    "summaries": "59bddb73eeeb5880ee658f5121aeb02b5ca473df22c8215960636ea57319116e"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

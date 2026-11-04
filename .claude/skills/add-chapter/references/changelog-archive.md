@@ -826,3 +826,10 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   upgrading certainty. A failed draft also used `broken: true`; the main skill now
   explicitly identifies `status: 'broken'` as the batch-marker field. Both fixes
   are fully absorbed into the maintained instructions.
+
+- 2026-11-03: Book Two Ch48 — the legacy summary assigned unnamed actions and
+  a drengr's identity, confirmed an implied death and obscured the scope of a
+  partial report. Added a focused source-attribution check to the reprocessing
+  cross-check. A combined changelog read also truncated; maintenance now locates
+  dated entries before reading bounded ranges. Both fixes are fully incorporated
+  in the maintained workflow instructions.

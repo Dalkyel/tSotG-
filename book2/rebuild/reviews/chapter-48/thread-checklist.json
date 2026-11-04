@@ -1,0 +1,2113 @@
+{
+  "book": 2,
+  "chapter": 48,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch48.HWNVmB/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Orka Skullsplitter es «Emisor del sueño antiguo y mecanismo; mujer enjaulada, sensibilidad, discrepancia de edad y conciliación de los relatos de Skullsplitter.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Emisor del sueño antiguo y mecanismo; mujer enjaulada, sensibilidad, discrepancia de edad y conciliación de los relatos de Skullsplitter."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Thorkel (†) es «Prueba de sangre y consecuencias en sangre-thorkel.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Breca es «Rescate, curación completa, poderes prácticos y papel en el rito.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Rescate, curación completa, poderes prácticos y papel en el rito."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Asgrim (†) es «Autores del ataque familiar.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Idrun (†) es «Autores del ataque familiar.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Harek es «Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este registro temático de Snaka. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este registro temático de Guðfalla (Caída de Dioses). No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Tragedia de Familia Asgrim es «Responsables y circunstancias del ataque.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Responsables y circunstancias del ataque."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Encuentro con el Fell-Wolf es «Origen de las heridas del Fell-Wolf.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Varg es «Amenaza de Myrk; control y secreto, sensibilidad, padres, edad, vínculo/destino de Frøya, akáll, juramento y forja del seax.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Amenaza de Myrk; control y secreto, sensibilidad, padres, edad, vínculo/destino de Frøya, akáll, juramento y forja del seax."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Snepil (†) / Kolskegg es «Identidad exacta entre los nombres y el liberto.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Einar Medio-Trol. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Akáll de Varg es «Localizar a Brák; destino de Frøya, akáll y venganza.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Localizar a Brák; destino de Frøya, akáll y venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Contenido Revelado de la Bolsa de Varg. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Orígenes y Recuerdos de Varg es «Control y secreto, sensibilidad, padres, edad y vínculo con Frøya.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Control y secreto, sensibilidad, padres, edad y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Virk (†) es «Alcance y autoría de los raptos.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "L2C48: La amenaza de los testigos del C46 produce una persecución real; Guðvarr sobrevive y se refugia en quien lo coacciona. Identifica ante Skalk al mensajero Kalv, pero no se muestra que comunique la noticia sobre «ella», la marca ni el día. C16: no uso de pergaminos. C25: no nueva prueba sobre la causa del paso franco. C23/C33/C41: no detección autónoma, extracción o ayuda de Sigrún; ir a Skalk para salvarse no demuestra el fin de su coacción. Véanse encargo-gudvarr-darl y vigilancia-hyrndur-gudvarr.",
+      "remaining": "Resto del informe, continuidad de cobertura y resultado de pesquisa; uso de pergaminos, vigilancia autónoma, extracción y causa del paso franco."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Jarl Störr es «Plan político oculto y reacción a Elvar.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Nudillo de Dios (Fellur) es «Causa de la sensibilidad.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Expansión de Helka es «Reunión con Orlyg, términos, expansión y desenlace con Störr.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Reunión con Orlyg, términos, expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: La captura del mensajero Tainted reafirma el contacto Drekr–Hakon del C46, pero no se interroga a Kalv, identifica niños, observa un traslado o demuestra autores y motivos comunes. Las localizaciones de Breca/Harek/Bjarn del C40 y el testimonio de Refna sobre Kel del C47 conservan su alcance individual; no hay nueva seguridad o destino duradero de los grupos.",
+      "remaining": "Seguridad y destino de los grupos; otros desaparecidos, responsables y alcance común de los raptos."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Frøya (†?) es «Paradero o muerte de Frøya, vínculo sensible y linaje.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Paradero o muerte de Frøya, vínculo sensible y linaje."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Leif Kolskeggson es «Partida, encuentro y desenlace de la caza; libertad de Varg frente a la reclamación.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Partida, encuentro y desenlace de la caza; libertad de Varg frente a la reclamación."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Elvar es «Mensaje y contratación; además de rescate de Bjarn, libertad de Berak, venganza contra Biórr y control sostenido de Ulfrir.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Mensaje y contratación; además de rescate de Bjarn, libertad de Berak, venganza contra Biórr y control sostenido de Ulfrir."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Grend es «Juramento antiguo, historia con Gytha y reacción a Ulfrir.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Juramento antiguo, historia con Gytha y reacción a Ulfrir."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Agnar (†) es «Causa de los presentimientos.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Kráka es «Alcance de su colaboración con la hueste y situación del blóð svarið.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Alcance de su colaboración con la hueste y situación del blóð svarið."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Biórr es «Autor de los azotes, circunstancias y familia; cumplimiento de la promesa de Rotta y decisiones futuras.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autor de los azotes, circunstancias y familia; cumplimiento de la promesa de Rotta y decisiones futuras."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Berak Bjornasson. El componente separado que sigue pendiente es: Libertad futura en liberar-berak.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Asalto y Persecución en Iskalt. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Spert es «Mecanismo en percepcion-liberacion-lik-rifa.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Vesli es «Mecanismo del aviso y sueños.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Objeto Quemado de Iskalt: Graskinna. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este registro temático de Snakavik. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Pasado de Elvar. El componente separado que sigue pendiente es: Plan paterno separado en plan-oculto-storr.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Venta de Berak (pendiente). No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Ulfrir es «Recuperación, obediencia sostenida, enfrentamiento con Lik-Rifa y conexión con Orka.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Recuperación, obediencia sostenida, enfrentamiento con Lik-Rifa y conexión con Orka."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Pasado y Furia de Orka es «Conciliar relatos de Skullsplitter y edades; mujer enjaulada y sensibilidad.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Conciliar relatos de Skullsplitter y edades; mujer enjaulada y sensibilidad."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Principe Jaromir es «Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Sulich es «Hechos, culpabilidad y resolución de sulich-crisis.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Crisis por Sulich es «Pruebas, culpabilidad y resolución.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Pruebas, culpabilidad y resolución."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Juramento de Varg al Bloodsworn (pendiente) es «Formalización del juramento de sangre.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Uspa es «Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Roca de Juramento de Islas de Escarcha es «Causalidad de piedra-gusanos.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿La Roca Atrajo a los Gusanos? es «Si la roca los atrajo y cómo.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Existencia Contemporánea de los Dragon-Born. El componente separado que sigue pendiente es: Referente de las palabras de Thorkel.",
+      "remaining": "Referente de las palabras de Thorkel."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Froa (†) es «Autores y motivo del ataque al fresno.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Partida Familiar Truncada. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Sangre Lamida por la Esclava es «Sangre, detección y consecuencias.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Quién Mató a Froa? es «Autores, motivo y conexión con los raptos.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autores, motivo y conexión con los raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Vengar a Virk y Mord es «Venganza por Virk y Mord y seguridad de Lif.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Venganza por Virk y Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Breca Quiere Aprender Espada es «Si recibirá la enseñanza pedida.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Partida de Liga (Bloodsworn). No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Astilla del Cuerno de Vackna es «Causa de la sensación junto a la viga.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Causa de la sensación junto a la viga."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Salida de Liga Pendiente. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: Guðvarr identifica a Kalv como mensajero de Drekr para Hakon, función ya observada en C46. Que Kalv sea Tainted no aclara las garras, la participación individual de Breca en el rito, la forja de los seaxes ni el desenlace de la venganza. C35/C50/C52 y L2C5 conservan esas distinciones.",
+      "remaining": "Garras, papel de Breca y desenlace de la venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Recuperar a Breca es «Rastro efectivo, rescate, curación, trayecto original y cumplimiento del favor a Elvar.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Rastro efectivo, rescate, curación, trayecto original y cumplimiento del favor a Elvar."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Aslog es «Circunstancias de su muerte.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Skullsplitter (Partecráneos) es «Discrepancia de identidad/parentesco en relatos antiguos y detalles de la sucesión.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Discrepancia de identidad/parentesco en relatos antiguos y detalles de la sucesión."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Emboscada de Jaromir en el Muelle de Liga. El componente separado que sigue pendiente es: La reclamación sigue en sulich-crisis.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Llegada de la Flota de Helka a Liga es «Motivos completos respecto de Logur y crisis.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Drekr, los Seaxes y las Garras sin Explicar es «Forja, garras y ajuste de cuentas.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Forja, garras y ajuste de cuentas."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Entierro de Thorkel y Juramento de Venganza de Orka. El componente separado que sigue pendiente es: Represalia en venganza-seaxes.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "hakon",
+      "label": "Hakon",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: Guðvarr vuelca la mesa contra el príncipe y sus acompañantes lo persiguen; no se oye una orden de Hakon para perseguirlo. C46: ni marca, referente «ella», fecha susurrada o compromiso quedan explicados; la transformación de Kalv no establece el linaje de Hakon.",
+      "remaining": "Contenido y propósito del compromiso, identidad explícita de «ella», naturaleza de la marca, día y conocimiento de Helka."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: Interviene en la custodia del mensajero y conserva el bastón y un solo ojo, sin mostrar acciones de la misión del norte ni nuevo estudio de los manuscritos. La captura de Kalv no localiza a Vol ni cumple o revoca la amenaza de Glornir. C20/C26: el papel en la misión ya estaba explicado; autores de los ataques siguen en amenaza-norte-helka.",
+      "remaining": "Amenaza del norte, manuscritos, Vol y represalia de Glornir."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Encargo de Helka y Partida de los Bloodsworn hacia el Norte. El componente separado que sigue pendiente es: Amenaza-norte-helka sigue parcial.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Amenaza al Pueblo de Helka en el Norte? es «Responsables, víctimas y alcance.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Responsables, víctimas y alcance."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Desembarco de la Reina Helka en Liga. El componente separado que sigue pendiente es: Crisis continúa separada.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Silrið es «Plan de Störr para Elvar.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Hrung. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Llegada a Snakavik y Venta de Berak a Jarl Störr. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Revelación de Elvar como Hija de Jarl Störr. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Vafri (†?) es «Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Infiltración en Fellur y Rescate de Mord y Lif. El componente separado que sigue pendiente es: Consecuencias en fuga-orka-fellur.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur? es «Medidas efectivas contra Orka, situación legal y desenlace de la represalia.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Medidas efectivas contra Orka, situación legal y desenlace de la represalia."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este registro temático de Thorun. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este registro temático de Broðir. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Gytha es «Historia compartida y obligaciones.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Oferta de Reconciliación de Jarl Störr a Elvar. El componente separado que sigue pendiente es: Plan oculto registrado aparte.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Elvar Rechaza la Oferta de Störr. El componente separado que sigue pendiente es: Plan-oculto-storr.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Motivo de la Huida de Uspa: la Persecución de Ilska. El componente separado que sigue pendiente es: Rescate de Bjarn separado.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Fuga por el Fiordo y Pacto con Mord y Lif. El componente separado que sigue pendiente es: Venganza, formación y consecuencias en sus tramas.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Aprendizaje de Armas de Mord y Lif es «Preparación para vencer a Guðvarr.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Preparación para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Consulta de Elvar a Hrung es «Intención real de Störr.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Raid de los Raven-Feeders a la Taberna. El componente separado que sigue pendiente es: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de El Secreto de Uspa y el Precio del Rescate. El componente separado que sigue pendiente es: Rescate-bjarn.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Recuperar a Bjarn de los Raven-Feeders es «Transmitir y acordar el apoyo, recuperar a Bjarn y cumplir el juramento.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Transmitir y acordar el apoyo, recuperar a Bjarn y cumplir el juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de ¿Conoce Uspa el Camino a Oskutreð?. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Feudo de Agnar con Ilska es «Desenlace del feudo colectivo.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Despedida Marítima de Thrud (pendiente) es «Cumplimiento del rito.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Combate contra el Näcken del Río es «Destino del Näcken del río y vínculo con la amenaza del norte.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Destino del Näcken del río y vínculo con la amenaza del norte."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Puente Isbrún es «Constructor, resistencia al calor y autor de la antigua huella.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Constructor, resistencia al calor y autor de la antigua huella."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Blóð Svarið de los Terrores de la Batalla es «Cumplimiento, alcance de la sanción y situación de Kráka.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Cumplimiento, alcance de la sanción y situación de Kráka."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Plan Oculta Störr para Elvar? es «Plan paterno y reacción a decisión.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Granja Abandonada del Slågen es «Destino de sus habitantes.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Desembarco en el Slågen y Marcha a las Boneback. El componente separado que sigue pendiente es: Amenaza-norte-helka.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Travesía y Entrenamiento Hacia Darl. El componente separado que sigue pendiente es: Consecuencias y formación renovada en otras tramas.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Llegada a Darl y Desembarco de Helka. El componente separado que sigue pendiente es: Rescate-breca.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Había un Tainted Libre entre los Raven-Feeders? es «Identidad, linaje y libertad del guerrero.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidad, linaje y libertad del guerrero."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: La huida empieza en la taberna y la drengr de Hakon participa; no es testimonio de qué conocía u ordenaba Helka sobre el cautiverio del C33. La presencia de su hijo o acompañantes no resuelve la responsabilidad de la reina.",
+      "remaining": "Conocimiento o autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿A Quién Esperan Vol y Glornir? es «Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Colgante de Espada (Breca) es «Rescate, recuperación y transmisión de la pista a Orka.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Rescate, recuperación y transmisión de la pista a Orka."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Combate en El Drengr Muerto. El componente separado que sigue pendiente es: Resto de preguntas en sus tramas.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Varg Rechaza el Trato de Skalk. El componente separado que sigue pendiente es: Akall continúa aparte.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Hallazgo de los 24 Cuerpos en las Boneback es «Autoría y mecanismo de matanza.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Skefil (†) es «Significado de la marca.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C48: Skalk recibe la identificación del mensajero, ve a Kalv Tainted y obtiene su custodia. La captura puede permitir averiguaciones, pero ninguna se narra. El saludo de Skapti acusa a Skalk sin revelar el acuerdo de Hakon. No identifica a «ella», el día, la marca o el conocimiento de Helka.",
+      "remaining": "Acuerdo y propósito precisos, día/fecha anunciados, naturaleza de la marca y qué sabe, permite u ordena Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Gytha y Grend (Historia no Resuelta) es «Historia afectiva y reencuentro.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Quién Mató a los Alces del Norte? es «Autores, número y amenaza próxima.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Apertura del Puente Isbrún por Uspa es «Autor de huella y puente.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de La Ayuda de Torvik Queda Truncada. El componente separado que sigue pendiente es: Objetivo de Varg en akall.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Espada de Hueso es «Mecanismo de poder y sensibilidad de Varg.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Varg Sobrevive a la Espada de Hueso. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Las Cicatrices de Látigo de Biórr es «Quién, cuándo/por qué, familia y represalia.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Traerán los Tesoros de Oskutreð? es «Entrega al destinatario, contratación, venta o reparto final y demás consecuencias del uso de reliquias.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Entrega al destinatario, contratación, venta o reparto final y demás consecuencias del uso de reliquias."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Rapto de Vol y el Destino de Varg es «Paradero, liberación, suturas y collar de Vol.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Paradero, liberación, suturas y collar de Vol."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Cámara de Rotta (bajo Frang's Falls) es «Ocupantes anteriores, mecanismo de salida de Rotta y trayecto de Breca.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Ocupantes anteriores, mecanismo de salida de Rotta y trayecto de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Altar de Lik-Rifa en el Pinar camino al Grimholt es «Autoría y conexiones del altar.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Quién Adora a Lik-Rifa junto al Grimholt? es «Autores de altares y relación con la red de Drekr.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Autores de altares y relación con la red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Revelación: los Bloodsworn son Tainted. El componente separado que sigue pendiente es: Control en pasado-varg.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Invitación de Glornir y Partida Anunciada para Rescatar a Vol. El componente separado que sigue pendiente es: Juramento y rescate en tramas respectivas.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Vörn Askasdottir (†) es «Portador de la sangre de Orna entre los presentes en Oskutreð.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Portador de la sangre de Orna entre los presentes en Oskutreð."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Aska es «Circunstancias de muerte.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Encuentro con Vörn en Oskutreð. El componente separado que sigue pendiente es: Consecuencias en destino-tesoros-oskutred.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Llegada de Ilska a la Llanura de Batalla. El componente separado que sigue pendiente es: Venganza-ilska.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Emboscada en el Bosque del Grimholt. El componente separado que sigue pendiente es: Identidades restantes en trama.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Quiénes son los Captores del Grimholt? es «Mujer del sabueso y composición restante de captores.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Holmganga: Agnar vs Skrið. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Revelación de los Dragon-Born y los Niños Cautivos. El componente separado que sigue pendiente es: Propósito y destinos en ninos-robados/rescate.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Traición de Biórr. El componente separado que sigue pendiente es: Cicatrices/genealogía quedan aparte.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Motivo de la Traición de Biórr Revelado. El componente separado que sigue pendiente es: Cicatrices aparte.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Masacre en la Torre del Grimholt es «Papel de Hakon y composición de los captores en tramas separadas.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Papel de Hakon y composición de los captores en tramas separadas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Muerte Confirmada de Mord en el Grimholt. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Batalla de los Muros de Escudos en Oskutreð. El componente separado que sigue pendiente es: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Liberación de Lik-Rifa. El componente separado que sigue pendiente es: Niños y conocimiento de Helka permanecen en sus tramas respectivas.",
+      "remaining": "Niños y conocimiento de Helka permanecen en sus tramas respectivas."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Uspa Sobrevive a la Apertura de Oskutreð. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Muerte de Vörn Confirmada. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Hará Lik-Rifa tras su Liberación? es «Llegada de fieles, recuperación, seguridad, gobierno, choque con Ulfrir y explicación de la cita occidental.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Llegada de fieles, recuperación, seguridad, gobierno, choque con Ulfrir y explicación de la cita occidental."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Convergencia en el Grimholt. El componente separado que sigue pendiente es: Preguntas conservadas en sus tramas.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Sepultura de Mord Cumplida. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Cómo Perciben la Liberación de Lik-Rifa? es «Mecanismo y alcance de sueños y avisos, origen y veracidad del rumor de Ch36.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Mecanismo y alcance de sueños y avisos, origen y veracidad del rumor de Ch36."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Elvar Jura Vengar a Agnar es «Encuentro y desenlace de la represalia.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Encuentro y desenlace de la represalia."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Orv el Sigiloso (Orv the Sneak) es «Poder del arco frente a flechas.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Seaxes del Tainted-Garras es «Forja y relación de los seaxes.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Forja y relación de los seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Vengar a Torvik es «Si habrá represalia por Torvik, contra quién y por quién.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si habrá represalia por Torvik, contra quién y por quién."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Libro Negro de Vergelmir es «Contenido, cubierta y protecciones.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Ataque de las Criaturas de Lik-Rifa en Vergelmir. El componente separado que sigue pendiente es: Detalles no aclarados conservados como límites.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Elvar y Skuld contra Lik-Rifa es «Contratación y cooperación sostenida, recuperación de Ulfrir, encuentro con Lik-Rifa y desenlace.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Contratación y cooperación sostenida, recuperación de Ulfrir, encuentro con Lik-Rifa y desenlace."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Oculta el Libro Negro de Vergelmir? es «Alcance, mecanismos y cubierta.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Myrk Sharp-Claw es «Entrega del encargo, destino tras la fuga, holmganga y represalia contra Varg.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Entrega del encargo, destino tras la fuga, holmganga y represalia contra Varg."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Encargo de Myrk en la Cámara de Rotta es «Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Resucitar y Someter a Ulfrir es «Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Intentar Liberar a Berak de Störr es «Intento efectivo y libertad.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Intento efectivo y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Lobo que Llama a Orka es «Origen del sueño del capítulo 10, mecanismo y relación con Varg.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Origen del sueño del capítulo 10, mecanismo y relación con Varg."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Proteger a Lif ante el Secreto Bloodsworn es «Qué entendió Lif y consecuencias para el secreto.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Qué entendió Lif y consecuencias para el secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Llamada en el Sueño de Varg es «Identidad, origen y significado de la llamada a Varg.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidad, origen y significado de la llamada a Varg."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Terna es «Destino de Frøya.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Brimil (†). No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Interrogatorio en la Aldea de Njal. El componente separado que sigue pendiente es: Frøya y Brimil en sus tramas.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Emboscada del Culto del Dragón en la Aldea de Njal. El componente separado que sigue pendiente es: Control autónomo y alcance de culto aparte.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "Svik ante el Regreso de Orka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Svik ante el Regreso de Orka es «Expresión directa de Svik sobre el abandono y cómo afrontará el reencuentro.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Expresión directa de Svik sobre el abandono y cómo afrontará el reencuentro."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "La Guardia del Isbrún y el Regreso de los Tennúr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de La Guardia del Isbrún y el Regreso de los Tennúr. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Rastro de Breca en la Cámara de Rotta es «Trayecto de Breca, tatuajes y escape de Rotta.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Trayecto de Breca, tatuajes y escape de Rotta."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Significan los Tatuajes de Dragón? es «Significado del tatuaje de dragón, portadores y universalidad.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Significado del tatuaje de dragón, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Cómo Salió Rotta de sus Cadenas? es «Mecanismo de escape y hechos entre Guðfalla y Nastrandir.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Mecanismo de escape y hechos entre Guðfalla y Nastrandir."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Regreso de los Supervivientes del Grimholt a Darl es «Identidades, autores y afiliación efectiva.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Informe de Skalk y la Restitución de Orna es «Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "Elvar Sucede a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Elvar Sucede a Agnar. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Enfrenta a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Varg se Enfrenta a Brimil. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "audiencia-gudvarr-helka",
+      "label": "La Recompensa y el Encargo de Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Recompensa y el Encargo de Guðvarr es «Contenido exacto de la petición anterior.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Contenido exacto de la petición anterior."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "label": "El Encargo de Guðvarr sobre Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "L2C48, huida-gudvarr-captura-kalv: pasa de hallazgos solo oídos a comunicar a Skalk que Kalv es mensajero de Drekr para Hakon. La huida interrumpe la mesa compartida. No se establece una confesión del encargo ante Hakon ni un informe íntegro, amistad sostenida o pesquisa concluida.",
+      "remaining": "Resto del informe, continuidad de la cobertura ante Hakon y desenlace de la pesquisa."
+    },
+    {
+      "id": "aprendizaje-estrid-frek",
+      "label": "La Petición de Instrucción de Estrid",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Petición de Instrucción de Estrid es «Si recibe la instrucción y qué aprende.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si recibe la instrucción y qué aprende."
+    },
+    {
+      "id": "venganza-halja",
+      "label": "Halja Quiere Ajustar Cuentas por Vali",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Halja Quiere Ajustar Cuentas por Vali es «Responsables y desenlace de la represalia.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Responsables y desenlace de la represalia."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "label": "¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa? es «Participación individual de Breca en el rito y conexión con el asesinato de Thorkel.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Participación individual de Breca en el rito y conexión con el asesinato de Thorkel."
+    },
+    {
+      "id": "kuru",
+      "label": "Kuru",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Kuru es «Supervivencia de Kuru.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Supervivencia de Kuru."
+    },
+    {
+      "id": "implantacion-hyrndur",
+      "label": "El Espía dentro del Espía",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: Las cicatrices de Skalk corroboran secuelas ya vistas del ataque del halcón, sin una nueva identificación de aves. C23/C25: el halcón de la sala está identificado por su respuesta a Jaromir; el avistamiento anterior de la empalizada y el alcance autónomo del insecto implantado no se explican.",
+      "remaining": "Identidad del halcón de la empalizada; vigilancia autónoma en su propia trama."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "label": "El Control del Hyrndur sobre Guðvarr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: No se siente ni actúa el hyrndur y no se muestra extracción. Guðvarr busca a Skalk como protección física ante los perseguidores; no equivale a liberarse de su control ni demuestra detección autónoma. La ubicación precisa y la ayuda de Sigrún del C41 siguen sin comprobarse.",
+      "remaining": "Posición exacta, detección autónoma, extracción, supervivencia y ayuda efectiva."
+    },
+    {
+      "id": "origen-estallido-darl",
+      "label": "¿Qué Provocó el Estallido cerca de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Qué Provocó el Estallido cerca de la Torre? es «Causa del estallido concreto.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Causa del estallido concreto."
+    },
+    {
+      "id": "destino-huesos-hraeg",
+      "label": "¿Llegarán los Huesos de Hraeg al Padre de Jaromir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Llegarán los Huesos de Hraeg al Padre de Jaromir? es «Entrega, recompensa e identificación independiente.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Entrega, recompensa e identificación independiente."
+    },
+    {
+      "id": "destino-grieta-darl",
+      "label": "Supervivencia de Skalk, Yrsa y Sturla",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Supervivencia de Skalk, Yrsa y Sturla. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "cura-taras",
+      "label": "La Promesa de Iva a Taras",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Promesa de Iva a Taras es «Si Iva lo cura y cómo.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si Iva lo cura y cómo."
+    },
+    {
+      "id": "umbral-torre-darl",
+      "label": "¿Por Qué Cede el Umbral de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Por Qué Cede el Umbral de la Torre? es «Si la caída de Skalk interrumpió el hechizo o si solo actuaba al entrar.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si la caída de Skalk interrumpió el hechizo o si solo actuaba al entrar."
+    },
+    {
+      "id": "venganza-jokul",
+      "label": "Vengar a Jökul",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Vengar a Jökul es «Desenlace de la venganza.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Desenlace de la venganza."
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "label": "La Caza de Jaromir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Caza de Jaromir es «Intercepción, captura o muerte, entrega y pago.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Intercepción, captura o muerte, entrega y pago."
+    },
+    {
+      "id": "salida-darl-hakon",
+      "label": "La Liberación y el Regreso de Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de La Liberación y el Regreso de Hakon. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-glornir-skalk",
+      "label": "La Amenaza de Glornir contra Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: Skalk aparece vivo y dirige la custodia de Kalv. Glornir no está presente ni actúa contra él; la muerte de Hrolf y la captura de Kalv no cumplen la amenaza anunciada en C27 y reafirmada en C29.",
+      "remaining": "Si Glornir regresa y mata a Skalk."
+    },
+    {
+      "id": "sepultura-huld",
+      "label": "El Túmulo Ordenado para Huld",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Túmulo Ordenado para Huld es «Construcción del túmulo.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Construcción del túmulo."
+    },
+    {
+      "id": "retorno-wave-jarl",
+      "label": "El Regreso al Wave-Jarl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de El Regreso al Wave-Jarl. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "brak-trolls-bane",
+      "label": "Brák Trolls-Bane",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Brák Trolls-Bane es «Identidad retrospectiva del L2C9, paradero de Brák/Frøya y origen de los seaxes.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidad retrospectiva del L2C9, paradero de Brák/Frøya y origen de los seaxes."
+    },
+    {
+      "id": "holmganga-orka-myrk",
+      "label": "La Holmganga Prometida entre Orka y Myrk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Holmganga Prometida entre Orka y Myrk es «Encontrar a Breca y resolver la promesa condicionada y el duelo.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Encontrar a Breca y resolver la promesa condicionada y el duelo."
+    },
+    {
+      "id": "venganza-myrk-varg",
+      "label": "La Amenaza de Myrk contra Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Amenaza de Myrk contra Varg es «Si Myrk busca a Varg y cumple su amenaza.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si Myrk busca a Varg y cumple su amenaza."
+    },
+    {
+      "id": "destino-testigos-torre",
+      "label": "El Paradero de Skapti y Hrolf",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: Skapti y Hrolf persiguen a Guðvarr y Hrolf muere atravesado por una lanza. La localización y supervivencia de ambos al reaparecer en C46 ya respondieron la pregunta original; la muerte posterior no desmiente aquel hecho ni reabre el paradero de entonces. El nuevo desenlace queda en hrolf y huida-gudvarr-captura-kalv. No se precisa cómo salieron de prisión ni el destino de Skapti al cierre.",
+      "remaining": "none"
+    },
+    {
+      "id": "promesa-ulfrir-battle-grim",
+      "label": "La Promesa de Ulfrir a los Battle-Grim",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Promesa de Ulfrir a los Battle-Grim es «Si cumple su compromiso de no devorar a más miembros.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si cumple su compromiso de no devorar a más miembros."
+    },
+    {
+      "id": "secuelas-seidr-ninos",
+      "label": "¿Se Recuperarán los Niños del Sometimiento?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Se Recuperarán los Niños del Sometimiento? es «Recuperación completa de todos los niños y causa de todos los síntomas.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Recuperación completa de todos los niños y causa de todos los síntomas."
+    },
+    {
+      "id": "saeunn",
+      "label": "Sæunn",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Sæunn es «Éxito del rastreo, destino del collar y libertad.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Éxito del rastreo, destino del collar y libertad."
+    },
+    {
+      "id": "avistamiento-battle-grim-starl",
+      "label": "Orka Avista un Drakkar de los Battle-Grim en Starl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Orka Avista un Drakkar de los Battle-Grim en Starl. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "label": "Encuentro en Starl y Búsqueda de Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Encuentro en Starl y Búsqueda de Breca es «Cumplimiento de contratacion-bloodsworn-elvar y recuperación de Breca.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Cumplimiento de contratacion-bloodsworn-elvar y recuperación de Breca."
+    },
+    {
+      "id": "compra-tainted-starl",
+      "label": "Sæunn como Rastreadora y su Compra en Starl",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Sæunn como Rastreadora y su Compra en Starl es «Condición susurrada exacta, explicación expresa de la incomodidad y trato/libertad de Sæunn.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Condición susurrada exacta, explicación expresa de la incomodidad y trato/libertad de Sæunn."
+    },
+    {
+      "id": "sangre-caballo-myrk",
+      "label": "La Sangre del Caballo como Rastro de Myrk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de La Sangre del Caballo como Rastro de Myrk. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "abasto-battle-grim-starl",
+      "label": "El Abastecimiento Pendiente en Starl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de El Abastecimiento Pendiente en Starl es «Abastecimiento efectivo y preservación del secreto.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Abastecimiento efectivo y preservación del secreto."
+    },
+    {
+      "id": "salida-uspa-starl",
+      "label": "Uspa Rechaza Marcharse con Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "L2C48: La huida de Guðvarr y la captura de Kalv no revierten este hecho ya cerrado de Uspa Rechaza Marcharse con Orka. No queda una pregunta propia pendiente.",
+      "remaining": "none"
+    },
+    {
+      "id": "resucitar-orna",
+      "label": "¿Podría Volver a Vivir Orna?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Podría Volver a Vivir Orna? es «Si se acepta o intenta la petición y si es posible devolverle la vida a Orna.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Si se acepta o intenta la petición y si es posible devolverle la vida a Orna."
+    },
+    {
+      "id": "reunion-helka-orlyg",
+      "label": "La Reunión de Helka con Jarl Orlyg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Reunión de Helka con Jarl Orlyg es «Llegada de Orlyg, celebración, términos y resultado de la reunión.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Llegada de Orlyg, celebración, términos y resultado de la reunión."
+    },
+    {
+      "id": "persecucion-leif-varg",
+      "label": "La Caza de Varg por Leif y Sterkur",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Caza de Varg por Leif y Sterkur es «Partida, encuentro y desenlace de la caza.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Partida, encuentro y desenlace de la caza."
+    },
+    {
+      "id": "promesa-rotta-biorr",
+      "label": "¿Cumplirá Rotta su Promesa a Biórr?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿Cumplirá Rotta su Promesa a Biórr? es «Qué ayuda dará Rotta a Biórr y si cumplirá su promesa.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Qué ayuda dará Rotta a Biórr y si cumplirá su promesa."
+    },
+    {
+      "id": "contratacion-bloodsworn-elvar",
+      "label": "La Petición de Elvar a los Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de La Petición de Elvar a los Bloodsworn es «Localizar a Glornir, transmitir la oferta, entregar el anillo, obtener respuesta, acordar el contrato y reunirse en Snakavik.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Localizar a Glornir, transmitir la oferta, entregar el anillo, obtener respuesta, acordar el contrato y reunirse en Snakavik."
+    },
+    {
+      "id": "avistamiento-velas-liga",
+      "label": "Avistamiento de Velas en el Mar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de Avistamiento de Velas en el Mar es «Identidad e intención de las velas y desenlace del encuentro.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidad e intención de las velas y desenlace del encuentro."
+    },
+    {
+      "id": "identidad-velas-mar",
+      "label": "¿De Quién Son las Velas Avistadas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "L2C48: El alcance pendiente de ¿De Quién Son las Velas Avistadas? es «Identidad, intenciones y desenlace del posible encuentro.». La acción se limita a la persecución urbana y la custodia de Kalv; no se narra ese resultado ni se aporta un testimonio que lo establezca. La transformación observada no identifica linajes concretos, captores anteriores ni causas de los indicios de este registro.",
+      "remaining": "Identidad, intenciones y desenlace del posible encuentro."
+    }
+  ]
+}
