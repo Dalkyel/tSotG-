@@ -15,7 +15,7 @@
 // click target, placed where that stretch of the line is actually drawn (not
 // a traced/connected path: through dense mountain icons the line often isn't
 // drawn at all, so points are only added where the line is unambiguous). The
-// first point is the one used elsewhere (e.g. character trips in book1/trips.js).
+// first point is the one used elsewhere (e.g. character trips in shared/trips.js).
 const mapPins = {
   fellur: { x: 754, y: 717 },
   darl: { x: 602, y: 607 },

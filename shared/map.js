@@ -25,8 +25,8 @@
     return Array.isArray(value) ? value : [value];
   }
 
-  const TRIP_COLORS = { orka: '#c0392b', varg: '#4a90d9', elvar: '#5fbf6a' };
-  const TRIP_NAMES = { orka: 'Orka', varg: 'Varg', elvar: 'Elvar' };
+  const TRIP_COLORS = { orka: '#c0392b', varg: '#4a90d9', elvar: '#5fbf6a', biorr: '#b58be0', gudvarr: '#e0ac45' };
+  const TRIP_NAMES = { orka: 'Orka', varg: 'Varg', elvar: 'Elvar', biorr: 'Biórr', gudvarr: 'Guðvarr' };
   const TRIP_ORDER = Object.keys(TRIP_COLORS);
   const TRIP_SEGMENT_OFFSET = 10; // map-space units between parallel lines on a shared segment
 
@@ -84,7 +84,7 @@
   });
 
   // Straight line between each consecutive pair of stops in a character's
-  // trip (book1/trips.js), in the map image's own 1000×1323 coordinate space
+  // trip (shared/trips.js), in the map image's own 1000×1323 coordinate space
   // — the svg's viewBox maps that 1:1 without the %-conversion renderPins uses.
   // Each character gets its own color so several trips can overlap legibly.
   // When two or more characters share the exact same segment (e.g. Orka and
