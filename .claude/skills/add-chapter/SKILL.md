@@ -89,7 +89,11 @@ bounded responses, for example lines 1–120, 121–240 and 241–360, through t
 ## Mandatory semantic gates
 
 Read all three gates in [review-gates.md](references/review-gates.md) before drafting.
-Use its heading index and read one gate per response. Completion requires:
+Use its heading index and read each gate in bounded slices (about 80–100 lines),
+continuing through the next heading or EOF. The thread gate is too long for a
+single response. Return each slice in a separate outer tool call: multiple
+`exec_command` results inside one orchestration call still share that call's output
+budget. Retrieve omitted content before drafting. Completion requires:
 
 - **Fact ownership:** full baseline audit plus final node/link review, recorded in
   `ownership-review.md` with `Ownership review: PASS`.

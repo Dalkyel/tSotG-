@@ -1,5 +1,12 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch41 — batched reference reads again exhausted the shared
+  outer tool output budget; the thread gate also exceeds a single bounded slice.
+  Replaced the one-gate-per-response instruction with 80–100-line slices and explicit
+  outer-call isolation. Aligned Book Two's conditional browser-preview instruction
+  with the main skill's manual visual-confirmation rule. Fully absorbed into the
+  entrypoint and reprocessing reference; archived immediately.
+
 - 2026-11-03: Book Two Ch40 — selecting `--pov ELVAR` because Biórr's profile
   carries that arc pulled 96 backlog candidates across 15 prose pages. Clarified
   viewpoint versus stored arc tags, selecting affected families before page 1,

@@ -41,7 +41,8 @@
     37,
     38,
     39,
-    40
+    40,
+    41
   ],
   "chapters": [
     {
@@ -686,15 +687,33 @@
         }
       },
       "log": "Chapter 40: Biórr. Reviewed the complete supplied source and published 20 node revisions, 38 links and a Spanish summary; captured child training, Bjarn’s individual improvement, and the arrival/revelation of Nastrandir and Ormsalur. Preserved attribution, ambiguity and reader-versus-rescuer knowledge; kept rescues, wider recovery and divine conflict pending. Ownership, event coverage and all 202 thread/checklist assessments passed, as did syntax, preservation, endpoints, 16 summary mentions, overlap and the nine-file regression suite. Browser appearance remains for user review under the skill workflow."
+    },
+    {
+      "chapter": 41,
+      "source": "book2/chapter 41.html",
+      "sourceHash": "a07a4d73ca3543ddbba1388d31316060c9a9a0c16027fe03705189b074c6bf2d",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch41.z1Nc7C",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-41",
+        "hashes": {
+          "ownership-review.md": "b1553906e45231d4a93fb452b1e2541ee715120c11d084d189f81055c1315489",
+          "event-review.md": "8f7980117410bf941a53c92ff5ebc8caea107cfe619d2c5e90add73a334d75f8",
+          "thread-review.md": "05dbfd467bf2df324c965e0c661bb22eb6f208e8e91ebfa93d238f842d5d2048",
+          "thread-checklist.json": "50d98fc1c6128935103c92e2c62f2c3f90787a6ed81b60d55fba4234ac659d9d",
+          "completion.json": "9e2fd949cad05007040cfcb815c1846415d66f6a43f8777b276c380d69ed2fee",
+          "chapter.json": "93c5c3650ffac64513c96dee32b994818b840b5b320f4fa9fa684b09b3a60708"
+        }
+      },
+      "log": "Chapter 41: Guðvarr — reviewed the complete supplied source, replaced the private confidencia, recorded the announced Orlyg meeting and Hakon’s return, added Illur with attributed motives, advanced political/coercion/investigation evidence and resolved the return guarantee. All 203 clue candidates assessed; ownership, event and thread reviews passed with preserved history and canonical summary mentions. Required reprocessing regression suite passed. Browser appearance remains for manual confirmation under the skill restriction."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "878faaae8bb4c3a641db79645d89f4816867d386a239187b37efaa966accdda6",
-    "book2/links.js": "56fe31de2c42683b6e0d61202df7170b7c20404029c769383bfae462b7f9a41e",
-    "book2/summaries.js": "531e1972ee8a8529e721dccaf2e03846661e6bd6964e74f9abd4e7218a01957a"
+    "book2/nodes.js": "9ed753dd935fe8e624166007161f1f0899d284f33e52cfde8c4ccead1c95a5da",
+    "book2/links.js": "2513106e9185c5ff74f54c67313118b0ffbd0620fb8a25001e0629a09a650fa1",
+    "book2/summaries.js": "9652c16f58f88074d764eee98b00d6d9bc8c448991af61a0e4b651a00433dab2"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -705,9 +724,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "e3202acc239f652cc8fe29cb5fb2a2e7422fe0e443b212ad676fbcda8bcd7ddf",
-    "links": "6ab537ec12a1a952810a8552fd1d18661b132b62d6f2b22063e69e13a3dfdda8",
-    "summaries": "5c6bdbd0488172d436e0eb6dc678d368d24f34be9191b8455db79e77b39c246b"
+    "nodes": "70bd0dd4daa67ab259797d49a7814065780e75c00b5d6bbf60f0b05595eea92f",
+    "links": "73d1baa654de199b2d609f913a0973148e5fb1093181be81fe102df7ee36310b",
+    "summaries": "8551c20d2b1e8758e53ed408a0d0d3225ce8da13e2c3034c3cb70a615ff48700"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

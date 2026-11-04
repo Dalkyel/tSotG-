@@ -368,9 +368,11 @@ chapter is replaced normally when its own source is eventually reprocessed. Reco
 the reconciliation and preservation checks in the current completion log. It is
 preservation of external work, not source-review completion for those later chapters.
 
-After each completion, inspect the combined live archive, its connections and both book
-summary tabs when browser access permits. Respect the existing local-file browser
-restriction; report actual checks and leave manual preview confirmation when blocked.
+After each completion, run the live-archive checks above for the combined archive,
+connections and summary data. Follow the main skill's visual-verification rule:
+leave inspection of `index.html` and both book summary tabs to the user, and do not
+attempt browser automation. Report the automated checks and the remaining manual
+visual confirmation separately.
 At the last legacy chapter, status becomes `complete`; subsequent new chapter additions
 use the normal live append workflow unless another rebuild is explicitly requested.
 Keep all Book One workflow references and helper scripts: this mode adds routing and
