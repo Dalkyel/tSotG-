@@ -1,5 +1,5 @@
 {
-  "status": "in-progress",
+  "status": "complete",
   "book": 2,
   "completedChapters": [
     1,
@@ -50,7 +50,8 @@
     46,
     47,
     48,
-    49
+    49,
+    50
   ],
   "chapters": [
     {
@@ -857,15 +858,33 @@
         }
       },
       "log": "Chapter 49: Elvar; replaced legacy content from the complete supplied source with two category-linked departure events, a pending Snakavik journey, and six cumulative profile/thread updates. Reviewed full affected baselines, all changed nodes and links, 16 canonical summary mentions, overlap and legacy summary; all three semantic gates PASS and all 210 backlog IDs assessed. Required nine-file regression suite passed. Later chapters retained; visual UI confirmation left to user."
+    },
+    {
+      "chapter": 50,
+      "source": "book2/chapter 50.html",
+      "sourceHash": "8e16ca9794aaa7c8bd631d40b271bfd599a93b4bc08244929582734b55812a93",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch50.Fe1iKm",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-50",
+        "hashes": {
+          "ownership-review.md": "4ab6c6493765b61709c1f5df0dbcef691a0293d2d64645753dbd7d4c35fc0794",
+          "event-review.md": "227e77080fe9884a959ad5c661b5484123fe162754557b28fe758e3beef7f590",
+          "thread-review.md": "a8d6b15fbe549c6e5bc4455162f3634ccd4db7a889b5506401ea5b4f05c98c2c",
+          "thread-checklist.json": "5e398791fd14d2b5dfe71e7dfce13a57e6924182340ee06a08af99df0d4693e8",
+          "completion.json": "8f2ef635fce486f34bfd068ccc75fe93e9bdc7245aa994e39aed3e56390810b3",
+          "chapter.json": "ab2a395d66fedcf3c9290fe6afbde7ee6381a0f8f8b76aa52d0bf2111c35561a"
+        }
+      },
+      "log": "Chapter 50: Reprocessed Orka from the complete supplied HTML; added the vaesen reencounter, extended the shared Wave-Jarl departure and earlier summons, and preserved voluntary resistance, private dream attribution and unresolved mechanisms without inventing rescue or war outcomes. Reviewed 11 node revisions, 22 relationships, 19 canonical summary mentions and all 210 backlog candidates; ownership, event and thread gates PASS. Legacy-summary attribution and motive errors corrected. Required nine-file regression suite PASS. Browser appearance remains for user manual confirmation; no browser automation attempted."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "544c756cf6b34e2835156db86b39f95c397ea3a65e73b728ac6f4b46dff5e511",
-    "book2/links.js": "83da4efc9b932af1f6981a7825827121c99d8e166de7b37313b1ecdf2908b992",
-    "book2/summaries.js": "8033236409fee539a60f85021172aff2435bc693ef3bcefc33edb5f01258c847"
+    "book2/nodes.js": "bd46f02bc98224255c33df407aa4c923b7eccbd166e45ddd5e203a9be56f86be",
+    "book2/links.js": "ad128e1cfc3c2f995a7cd0b66762f4ae08f10d1470a77559a1784568350723ff",
+    "book2/summaries.js": "8d1d60fe14be83cc400a6e3d3669f4e886f6f6fb93dc86b99d9573903570663b"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -876,9 +895,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "4bc9b1ab738ab4c1038c38398e13e1ecd1ccaa35c491a403ec4257a511499bd3",
-    "links": "e3d3710d2643e39f97cc419f6a7819a132aa7fc8256729b26d88045441c53896",
-    "summaries": "d8bd73172b1308bd16ff44645cdab7b42337d1fcd16b7c840cd0e6308a75a9ba"
+    "nodes": "f40bc242eb1c28f884546e9d2cfe2030ef929b33ac26f9bea28339c8e6d8ddf5",
+    "links": "c19d0741665aa75feb0fad3889b7bb538b003267127448164793adb5b3d47683",
+    "summaries": "adab8e4fae2306c499575c85cdee43ac8b2cd3dc2ecb62570f4c29a45558a79a"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

@@ -253,6 +253,15 @@ drengr. Likewise, an actual report should contain only the information spoken:
 Guðvarr identifies Kalv's messenger role, without yet reporting the whole Ch46
 message. A capture is not an interrogation or a completed investigation.
 
+Apply the same attribution check to quiet dialogue. A nearby named character does
+not identify an unnamed speaker across a paragraph break. In Ch50, the question
+«Chief, why have we stopped?» comes from an unnamed voice; Lif is only named in
+a later exchange. Keep the first question anonymous rather than borrowing the
+legacy summary's attribution to Lif. Preserve explicitly stated motives as well:
+Vesli names the oath and the pact together as strength to resist, not a personal
+bond replacing or outweighing the oath. Check who speaks, who thinks and what
+each actually claims before copying a legacy interpretation.
+
 ## Review and publish
 
 Write `ownership-review.md`, `event-review.md`, `thread-review.md` and the checked

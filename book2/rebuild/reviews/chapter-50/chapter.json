@@ -1,0 +1,219 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 50 — ORKA ──",
+  "nodes": [
+    {
+      "id": "orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: Deja aflorar una pequeña parte del lobo para agudizar vista y olfato mientras observa desde Trúr el Wave-Jarl. Experimenta otra vez la voz de Ulfrir dentro de su cabeza y, cuando cesa, siente miedo y desamparo. Le exige que se aparte de su camino y de su mente, sin saber si la oye; véase partida-wave-jarl-starl. Al escuchar a los vaesen compara privadamente su llamada con la de Ulfrir, a quien reconoce haber oído también en sueños. Recuerda que su promesa de encontrar a Breca y vengar a Thorkel le dio fuerza para resistir la compulsión de acudir al dios. Pone a prueba la lealtad de Spert y Vesli y acepta su decisión de quedarse; véase reencuentro-vaesen-starl. Interpreta la convocatoria general como preparación para la guerra.",
+      "previousState": "Nuevo contacto mental y aceptación de la lealtad voluntaria de sus compañeros vaesen.",
+      "starAppend": "LIBRO 2, CAPÍTULO 50: El mensaje despierta y la atribución privada de sus sueños a Ulfrir amplían llamada-lobo-orka; el mecanismo y el vínculo con el sueño de Varg siguen pendientes. La fidelidad de los vaesen permite mantener la búsqueda de Breca."
+    },
+    {
+      "id": "ulfrir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: Durante la salida de Starl, Orka lo ve en la proa junto a Skuld y Uspa y oye su voz dentro de su cabeza: anuncia una edad de lobos y espadas, sangre en ríos y otro encuentro con ella. Véase partida-wave-jarl-starl para el intercambio experimentado por Orka. No se confirma que oiga la réplica de Orka.",
+      "previousState": "Mensaje mental a Orka y anuncio de una nueva edad violenta.",
+      "starAppend": "LIBRO 2, CAPÍTULO 50: Su comunicación con Orka queda registrada desde la experiencia de ella en llamada-lobo-orka; el anuncio de volver a verla aún no se cumple."
+    },
+    {
+      "id": "spert",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: Sale empapado del lago al silbido de Orka y recuerda que le había encargado vigilar los muelles. Cuenta que oyó dentro de su cabeza la llamada de Lik-Rifa, sin saber cómo. Declara que mantiene su juramento y pacto con Orka; cuando ella recuerda haberlo liberado, protesta que él no aceptó. Su decisión de permanecer se documenta en reencuentro-vaesen-starl.",
+      "previousState": "Afirma haber recibido la llamada del dragón y elige mantener su pacto con Orka.",
+      "starAppend": "LIBRO 2, CAPÍTULO 50: El contacto mental declarado aporta evidencia a percepcion-liberacion-lik-rifa, sin explicar el aviso antiguo ni el mecanismo. El pacto sostiene su negativa a acudir a Lik-Rifa; véase rumbo-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: Acude volando al silbido de Orka, todavía con la lanza corta de Breca, y teme haber perdido otra vez a sus amigos al no verlos embarcar. Celebra la estratagema contra Myrk que Lif atribuye a Orka. Relata haber oído mientras dormía una llamada de Lik-Rifa semejante a una canción. Afirma que la diosa creó a los vaesen o a sus antepasados, y explica que Orka y Breca la salvaron cuando su propia gente la rechazó. Resistir la llamada fue difícil, pero su juramento y el pacto de encontrar a Breca le dieron fuerza para negarse. Véase reencuentro-vaesen-starl.",
+      "previousState": "Revela la llamada nocturna y explica por qué permanece con Orka.",
+      "starAppend": "LIBRO 2, CAPÍTULO 50: Su resistencia voluntaria por gratitud y juramento añade evidencia a rumbo-lik-rifa y rescate-breca; oír la canción no explica por sí solo los sueños anteriores de percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "partida-wave-jarl-starl",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: La perspectiva de Orka completa el mismo momento de separación: desde la orilla del lago distingue la nave preparándose para remar y a Ulfrir en la proa con Skuld y Uspa. Sabe que él la mira y oye su voz interior anunciar una edad de lobos y espadas en la que correrá sangre, insistir en que no es un sueño que desaparezca de día y prometer que volverá a verla. Cuando la presencia cesa, Orka le exige que salga de su camino y de su cabeza, sin saber si la ha oído. Observa los remos poner en movimiento la nave antes de apartar la mirada. No comparte ese intercambio con el grupo.",
+      "previousState": "Añade la experiencia interior de Orka al momento observado desde el barco en el capítulo 49."
+    },
+    {
+      "id": "convocatoria-vaesen-nastrandir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: El testimonio posterior de Spert y Vesli junto al lago de Starl confirma para el lector que la llamada alcanzó a dos vaesen alejados de Nastrandir. Ambos dicen haberla oído y se negaron a acudir: véase reencuentro-vaesen-starl para su declaración y sus motivos. No se muestra llegada de refuerzos ni obediencia universal.",
+      "previousState": "Recepción distante y dos negativas declaradas, sin llegada de nuevos refuerzos."
+    },
+    {
+      "id": "reencuentro-vaesen-starl",
+      "mode": "new",
+      "label": "El Reencuentro con Spert y Vesli junto a Starl",
+      "group": "EVENTO",
+      "type": "Evento — Llamada divina y lealtad elegida",
+      "desc": "LIBRO 2, CAPÍTULO 50: Orka detiene a sus compañeros en el camino junto al lago. Sæunn vuelve corriendo al advertir la parada; después Orka silba para reunir a Spert y Vesli, que debían vigilar los muelles. Lif explica a los vaesen que han dejado creer a Myrk que escapó para seguir su rastro, y atribuye la idea a Orka. Spert y Vesli revelan que Lik-Rifa, su creadora o la de sus antepasados según Vesli, los llamó en la oscuridad. Spert oyó la voz dentro de su cabeza; Vesli la recibió como una canción mientras dormía: les ordenaba acudir y ser parte de grandes y terribles hechos en un mundo cambiado. Gunnar pregunta por su creadora y Lif por la forma de contacto. Orka duda privadamente de poder confiar en ellos y les pregunta por qué no fueron. Spert invoca el pacto que se niega a dar por terminado pese a la liberación de Orka; Vesli recuerda que Orka y Breca la salvaron y explica que su juramento y la búsqueda del niño les dieron fuerza para resistir. Orka acepta su decisión. Revna celebra conservarlos como aliados, pero teme que la llamada esté dirigida a todos los vaesen y pregunta con qué fin. Orka responde «Guerra»: es su inferencia ante el llamamiento, no una batalla ya iniciada ni prueba de obediencia de todas las criaturas.",
+      "star": ""
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: ESTADO: PARCIAL. partida-wave-jarl-starl añade un mensaje explícito de Ulfrir dentro de la cabeza de Orka. Ella lo relaciona privadamente con la voz que ha oído en sueños y con la compulsión que resistió por Breca y Thorkel; es una atribución expresa de Orka, no una confidencia al grupo. Siguen pendientes el mecanismo, la relación con sueno-lobo-varg y el reencuentro prometido; no se confirma que Ulfrir reciba su réplica.",
+      "previousState": "Comunicación despierta explícita y atribución privada de los sueños a Ulfrir.",
+      "type": "Trama — Vínculo con Ulfrir, mecanismo y reencuentro pendientes"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: ESTADO: PARCIAL. En reencuentro-vaesen-starl, ambos vaesen declaran recibir una voz de Lik-Rifa y Vesli precisa que la oyó dormida como una canción. Aporta una vía de contacto declarada, sin demostrar cómo funciona ni que esa convocatoria explique el aviso de la liberación en el capítulo 1, todos los sueños anteriores o el rumor del capítulo 36. Orka compara las llamadas solo en su pensamiento.",
+      "previousState": "Testimonio de contacto mental, sin resolver retroactivamente los avisos antiguos.",
+      "type": "Trama — Contacto declarado, avisos y mecanismo pendientes"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: ESTADO: PARCIAL. reencuentro-vaesen-starl demuestra por sus testimonios la recepción de la convocatoria por Spert y Vesli y su negativa a acudir. Revna teme una llamada general y Orka la interpreta como preparación bélica. La convocatoria no impone obediencia universal. Siguen pendientes qué otros vaesen acuden, los actos y alcance de la campaña, la recuperación completa, la seguridad y el gobierno, el choque con Ulfrir y la cita occidental referida por Myrk.",
+      "previousState": "Dos receptores rechazan la convocatoria; continúa pendiente la reunión efectiva de la hueste."
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 50: ESTADO: PARCIAL. Spert y Vesli ratifican su compromiso de encontrar al niño pese a la llamada de su creadora; véase reencuentro-vaesen-starl. Lif les explica la persecución de Myrk ya en marcha. Se conserva el apoyo de ambos, sin alcanzar a la fugitiva ni al niño, confirmar su curación completa, aclarar el trayecto original o cumplir el favor a Elvar.",
+      "previousState": "Los vaesen mantienen voluntariamente su ayuda para recuperar a Breca."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "reencuentro-vaesen-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "reencuentro-vaesen-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "partida-wave-jarl-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "convocatoria-vaesen-nastrandir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "orka",
+      "target": "reencuentro-vaesen-starl",
+      "label": "convoca a los vaesen en",
+      "type": "event"
+    },
+    {
+      "source": "spert",
+      "target": "reencuentro-vaesen-starl",
+      "label": "reafirma su pacto en",
+      "type": "event"
+    },
+    {
+      "source": "vesli",
+      "target": "reencuentro-vaesen-starl",
+      "label": "explica su negativa a Lik-Rifa en",
+      "type": "event"
+    },
+    {
+      "source": "lif",
+      "target": "reencuentro-vaesen-starl",
+      "label": "explica la estratagema contra Myrk en",
+      "type": "event"
+    },
+    {
+      "source": "gunnar-prow",
+      "target": "reencuentro-vaesen-starl",
+      "label": "pregunta por la creadora de los vaesen en",
+      "type": "event"
+    },
+    {
+      "source": "revna-hare-legs",
+      "target": "reencuentro-vaesen-starl",
+      "label": "advierte del alcance de la llamada en",
+      "type": "event"
+    },
+    {
+      "source": "reencuentro-vaesen-starl",
+      "target": "lake-horndal",
+      "label": "ocurre junto al",
+      "type": "geo"
+    },
+    {
+      "source": "reencuentro-vaesen-starl",
+      "target": "convocatoria-vaesen-nastrandir",
+      "label": "aporta testimonios de recepción y resistencia a",
+      "type": "magic"
+    },
+    {
+      "source": "reencuentro-vaesen-starl",
+      "target": "likrafa",
+      "label": "identifica por testimonio como emisora a",
+      "type": "magic"
+    },
+    {
+      "source": "reencuentro-vaesen-starl",
+      "target": "fuga-fingida-myrk",
+      "label": "comunica a los vaesen la estratagema de",
+      "type": "event"
+    },
+    {
+      "source": "rescate-breca",
+      "target": "reencuentro-vaesen-starl",
+      "label": "conserva el apoyo de los vaesen en",
+      "type": "trama"
+    },
+    {
+      "source": "percepcion-liberacion-lik-rifa",
+      "target": "reencuentro-vaesen-starl",
+      "label": "incorpora los testimonios de contacto de",
+      "type": "trama"
+    },
+    {
+      "source": "rumbo-lik-rifa",
+      "target": "reencuentro-vaesen-starl",
+      "label": "registra dos negativas a la convocatoria en",
+      "type": "trama"
+    },
+    {
+      "source": "spert",
+      "target": "orka",
+      "label": "mantiene por elección su pacto con",
+      "type": "rel"
+    },
+    {
+      "source": "vesli",
+      "target": "orka",
+      "label": "elige seguir ayudando a",
+      "type": "rel"
+    },
+    {
+      "source": "ulfrir",
+      "target": "orka",
+      "label": "anuncia mentalmente una nueva era y un reencuentro a",
+      "type": "magic"
+    },
+    {
+      "source": "orka",
+      "target": "partida-wave-jarl-starl",
+      "label": "experimenta la voz mental de Ulfrir durante",
+      "type": "event"
+    },
+    {
+      "source": "ulfrir",
+      "target": "llamada-lobo-orka",
+      "label": "es identificado por Orka como la voz de",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 50,
+    "title": "Capítulo 50 — Orka",
+    "summary": "Desde el camino junto al <strong>Lago Horndal</strong>, <strong>Orka Skullsplitter</strong> observa sobre <strong>Trúr</strong> los preparativos del <strong>Wave-Jarl</strong> para salir de <strong>Starl</strong>. Deja aflorar al lobo para agudizar sus sentidos y distingue a <strong>Ulfrir</strong> junto a <strong>Skuld</strong> y <strong>Uspa</strong>. La voz del dios irrumpe en su cabeza: anuncia una edad de lobos y espadas, sangre en ríos y otro encuentro con ella. Cuando desaparece, Orka siente miedo y desamparo; le exige que se aparte de su camino y de su mente, sin saber si la oye, y observa cómo la nave empieza a avanzar a remo.<br><br>Al oír la pregunta de uno de los <strong>Bloodsworn</strong>, Orka vuelve la atención al grupo y ve regresar por el camino a <strong>Sæunn</strong>. Entonces silba y aparecen <strong>Spert</strong> desde el agua y <strong>Vesli</strong> desde los árboles, esta última con la lanza de <strong>Breca</strong>. <strong>Lif</strong> les explica que han dejado creer a <strong>Myrk Sharp-Claw</strong> que escapó para seguirla y atribuye la idea a Orka. Los vaesen revelan entonces que <strong>Lik-Rifa</strong> los ha llamado. <strong>Gunnar Prow</strong> pregunta por su creadora; Spert cuenta que oyó su voz dentro de la cabeza, mientras Vesli describe una canción recibida en sueños que los convocaba a grandes y terribles hechos. Vesli explica que la diosa creó a los vaesen o a sus antepasados.<br><br>Orka compara privadamente la llamada con la voz de Ulfrir que ha oído también en sueños y pone en duda la lealtad de sus compañeros. Spert afirma que no aceptó quedar libre de su pacto. Vesli recuerda que Orka y Breca la salvaron cuando su propia gente la rechazó: resistirse fue difícil, pero el juramento y la búsqueda del niño les dieron fuerza. Orka recuerda que su propia promesa de encontrar a Breca y vengar a <strong>Thorkel</strong> le permitió resistir la atracción del dios y acepta que ambos se queden. <strong>Revna Hare-Legs</strong> teme lo que supondría que Lik-Rifa estuviera llamando a todos los vaesen. Cuando pregunta para qué los quiere, Orka responde: <em>«Guerra»</em>."
+  }
+}

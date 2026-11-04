@@ -351,6 +351,14 @@ to create a thread once or to pass the JavaScript verifier.
    as his ship approached. The greeting adds evidence of a possible connection.
    Keep the source of that howl and of the earlier dream pending until the text
    establishes who produced them and whether they share a cause.
+   Conversely, when a later POV explicitly recognizes a previously heard voice,
+   advance that identification rather than carrying the old «emisor desconocido»
+   wording forward unchanged. In Book Two Ch50, Orka hears Ulfrir awake and
+   privately recognizes that she has been hearing him in dreams. Record her
+   explicit attribution and revise stale pending type/remaining-question text;
+   keep the mechanism, any unconfirmed reciprocal hearing, the separate dream
+   of Varg and the promised reencounter assessed independently. A partial answer
+   must persist even when the overall thread cannot close.
    When a new POV hears a plan that differs from movement already observed in another
    POV, track what each source establishes before revising the thread. In Book Two
    Ch31, Myrk gives Orka a reported westward destination near Iskalt after Ch30 showed

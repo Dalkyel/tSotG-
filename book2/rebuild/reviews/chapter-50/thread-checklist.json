@@ -1,0 +1,2123 @@
+{
+  "book": 2,
+  "chapter": 50,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch50.Fe1iKm/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La voz despierta y su atribución privada de sueños a Ulfrir se añaden en partida-wave-jarl-starl y llamada-lobo-orka; la sensación de abandono y su resistencia no explican el resto de indicios de su star.",
+      "remaining": "Mecanismo y relación con el sueño de Varg; mujer enjaulada, sensibilidad, discrepancia de edad y conciliación de relatos de Skullsplitter."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La promesa recordada de vengar a Thorkel no aporta una nueva prueba de su sangre ni de lo que detectó Vafri; su linaje ya atribuido no cambia.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La lanza conservada por Vesli y el pacto de buscarlo no muestran al niño ni prueban curación, poderes o papel ritual.",
+      "remaining": "Rescate, curación completa, poderes prácticos y papel en el rito."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Ningún testimonio nuevo trata del ataque a Asgrim e Idrun ni del rapto y traslado de Harek; las negativas de dos vaesen no identifican a esos responsables.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Ningún testimonio nuevo trata del ataque a Asgrim e Idrun ni del rapto y traslado de Harek; las negativas de dos vaesen no identifican a esos responsables.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Ningún testimonio nuevo trata del ataque a Asgrim e Idrun ni del rapto y traslado de Harek; las negativas de dos vaesen no identifican a esos responsables.",
+      "remaining": "Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El anuncio de una nueva edad violenta es prospectivo; no modifica la saga de Snaka ni la historia de Guðfalla.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El anuncio de una nueva edad violenta es prospectivo; no modifica la saga de Snaka ni la historia de Guðfalla.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Ningún testimonio nuevo trata del ataque a Asgrim e Idrun ni del rapto y traslado de Harek; las negativas de dos vaesen no identifican a esos responsables.",
+      "remaining": "Responsables y circunstancias del ataque."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La voz de Ulfrir no identifica qué hirió al Fell-Wolf encontrado por Breca.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Varg. Se conserva la cuestión individual: Amenaza de Myrk; control y secreto, sensibilidad, padres, edad, vínculo/destino de Frøya, akáll, juramento y forja del seax. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Amenaza de Myrk; control y secreto, sensibilidad, padres, edad, vínculo/destino de Frøya, akáll, juramento y forja del seax."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Snepil (†) / Kolskegg. Se conserva la cuestión individual: Identidad exacta entre los nombres y el liberto. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Einar Medio-Trol. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Akáll de Varg. Se conserva la cuestión individual: Localizar a Brák; destino de Frøya, akáll y venganza. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Localizar a Brák; destino de Frøya, akáll y venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Contenido Revelado de la Bolsa de Varg. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Orígenes y Recuerdos de Varg. Se conserva la cuestión individual: Control y secreto, sensibilidad, padres, edad y vínculo con Frøya. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Control y secreto, sensibilidad, padres, edad y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El apoyo de Spert y Vesli a Breca no añade localización, seguridad duradera ni responsables de los otros casos infantiles; la extensión de los raptos sigue abierta.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La conversación del lago no transmite el resto del informe de Kalv ni muestra la pesquisa, los pergaminos, la cobertura, la vigilancia o extracción del hyrndur o el umbral.",
+      "remaining": "Resto del informe, continuidad de cobertura y resultado de pesquisa; uso de pergaminos, vigilancia autónoma, extracción y causa del paso franco."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El Wave-Jarl zarpa, pero no llega a la corte de Störr; no hay revelación de su plan ni reacción a la decisión de Elvar.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Orka agudiza sus sentidos voluntariamente; la comunicación de Ulfrir no explica el malestar ante el nudillo divino.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La deducción de guerra se refiere al llamamiento del dragón; no es una reunión celebrada, pacto o conquista de Helka.",
+      "remaining": "Reunión con Orlyg, términos, expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El apoyo de Spert y Vesli a Breca no añade localización, seguridad duradera ni responsables de los otros casos infantiles; la extensión de los raptos sigue abierta.",
+      "remaining": "Seguridad y destino de los grupos; otros desaparecidos, responsables y alcance común de los raptos."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Frøya (†?). Se conserva la cuestión individual: Paradero o muerte de Frøya, vínculo sensible y linaje. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Paradero o muerte de Frøya, vínculo sensible y linaje."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Leif Kolskeggson. Se conserva la cuestión individual: Partida, encuentro y desenlace de la caza; libertad de Varg frente a la reclamación. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Partida, encuentro y desenlace de la caza; libertad de Varg frente a la reclamación."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Elvar. Se conserva la cuestión individual: Contratación; rescate de Bjarn, libertad de Berak, venganza contra Biórr, control sostenido de Ulfrir y llegada a Snakavik. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Contratación; rescate de Bjarn, libertad de Berak, venganza contra Biórr, control sostenido de Ulfrir y llegada a Snakavik."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Grend. Se conserva la cuestión individual: Juramento antiguo, historia con Gytha y reacción a Ulfrir. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Juramento antiguo, historia con Gytha y reacción a Ulfrir."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Agnar (†). Se conserva la cuestión individual: Causa de los presentimientos. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Kráka. Se conserva la cuestión individual: Alcance de su colaboración con la hueste y situación del blóð svarið. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Alcance de su colaboración con la hueste y situación del blóð svarið."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Biórr. Se conserva la cuestión individual: Autor de los azotes, circunstancias y familia; cumplimiento de la promesa de Rotta y decisiones futuras. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Autor de los azotes, circunstancias y familia; cumplimiento de la promesa de Rotta y decisiones futuras."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Berak Bjornasson. Se conserva la cuestión individual: Libertad futura en liberar-berak. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El reencuentro junto al lago no reabre la persecución histórica de Iskalt ni altera el desenlace documentado en el capítulo 7.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 50: En reencuentro-vaesen-starl declara recibir la voz de Lik-Rifa en su cabeza y resistirla por su pacto. El aviso antiguo de la liberación no queda explicado por ese testimonio posterior.",
+      "remaining": "Mecanismo y relación con el aviso antiguo en percepcion-liberacion-lik-rifa; cumplimiento del rescate y efectos de la convocatoria."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 50: reencuentro-vaesen-starl documenta la canción oída durante el sueño y la resistencia por gratitud y juramento. La llamada actual es testimonio, sin convertir los viejos sueños en visiones literales.",
+      "remaining": "Mecanismo, causalidad de avisos/sueños antiguos, rescate y consecuencias de la convocatoria."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Objeto Quemado de Iskalt: Graskinna. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La observación del barco no aporta nuevos hechos sobre la ciudad o su régimen portuario.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Pasado de Elvar. Se conserva la cuestión individual: Plan paterno separado en plan-oculto-storr. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Venta de Berak (pendiente). Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 50: partida-wave-jarl-starl recoge la voz mental y promesa de otro encuentro desde la experiencia de Orka. No demuestra curación, obediencia o victoria sobre Lik-Rifa.",
+      "remaining": "Recuperación, obediencia sostenida, choque con Lik-Rifa, mecanismo de contacto y reencuentro con Orka."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El ejercicio voluntario del lobo y la comparación mental con Ulfrir no explican la mujer enjaulada, la sensibilidad a reliquias, la edad discordante o los relatos de Skullsplitter.",
+      "remaining": "Conciliar relatos de Skullsplitter y edades; mujer enjaulada y sensibilidad."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Principe Jaromir. Se conserva la cuestión individual: Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Sulich. Se conserva la cuestión individual: Hechos, culpabilidad y resolución de sulich-crisis. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Crisis por Sulich. Se conserva la cuestión individual: Pruebas, culpabilidad y resolución. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Pruebas, culpabilidad y resolución."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Juramento de Varg al Bloodsworn (pendiente). Se conserva la cuestión individual: Formalización del juramento de sangre. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Uspa. Se conserva la cuestión individual: Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La llamada de Lik-Rifa a sus creaciones es otro hecho; no prueba que la roca de juramento atrajera los gusanos ni explica el mecanismo de aquella concentración.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La llamada de Lik-Rifa a sus creaciones es otro hecho; no prueba que la roca de juramento atrajera los gusanos ni explica el mecanismo de aquella concentración.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La creación de vaesen no es una nueva identificación de un descendiente por sangre. La existencia contemporánea ya resuelta y el referente pendiente de Thorkel se conservan.",
+      "remaining": "Referente de las palabras de Thorkel."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Que Lik-Rifa pueda convocar a sus criaturas no identifica a quienes mataron a Froa ni demuestra el motivo o la conexión causal con los raptos.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El compromiso de buscar al niño no restaura el proyecto de mudanza familiar truncado por la muerte de Thorkel.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La promesa recordada de vengar a Thorkel no aporta una nueva prueba de su sangre ni de lo que detectó Vafri; su linaje ya atribuido no cambia.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Que Lik-Rifa pueda convocar a sus criaturas no identifica a quienes mataron a Froa ni demuestra el motivo o la conexión causal con los raptos.",
+      "remaining": "Autores, motivo y conexión con los raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Lif explica la estratagema contra Myrk; no se enfrenta a Guðvarr ni cambia el objetivo de vengar a Virk y Mord o su seguridad pendiente.",
+      "remaining": "Venganza por Virk y Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La lanza de Breca sigue en manos de Vesli; no se imparte al niño la enseñanza de espada pedida.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Partida de Liga (Bloodsworn). Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Astilla del Cuerno de Vackna. Se conserva la cuestión individual: Causa de la sensación junto a la viga. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Causa de la sensación junto a la viga."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Salida de Liga Pendiente. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La evocación de vengar a Thorkel reafirma un objetivo, sin mostrar a Drekr, explicar sus garras o forja de las armas ni consumar la represalia.",
+      "remaining": "Garras, papel de Breca y desenlace de la venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 50: En reencuentro-vaesen-starl los dos aliados ratifican su pacto de buscar al niño frente a la convocatoria de su creadora. Continúa el seguimiento de Myrk, sin hallazgo, rescate o curación comprobados.",
+      "remaining": "Rastro exitoso, rescate, curación, trayecto original y cumplimiento del favor a Elvar."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Aslog. Se conserva la cuestión individual: Circunstancias de su muerte. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Skullsplitter (Partecráneos). Se conserva la cuestión individual: Discrepancia de identidad/parentesco en relatos antiguos y detalles de la sucesión. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Discrepancia de identidad/parentesco en relatos antiguos y detalles de la sucesión."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Emboscada de Jaromir en el Muelle de Liga. Se conserva la cuestión individual: La reclamación sigue en sulich-crisis. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Llegada de la Flota de Helka a Liga. Se conserva la cuestión individual: Motivos completos respecto de Logur y crisis. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La evocación de vengar a Thorkel reafirma un objetivo, sin mostrar a Drekr, explicar sus garras o forja de las armas ni consumar la represalia.",
+      "remaining": "Forja, garras y ajuste de cuentas."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La motivación recordada no cambia el entierro y juramento ya ocurridos; la represalia continúa en venganza-seaxes.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "hakon",
+      "label": "Hakon",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Hakon. Se conserva la cuestión individual: Contenido y propósito del compromiso, identidad explícita de «ella», naturaleza de la marca, día y conocimiento de Helka. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Contenido y propósito del compromiso, identidad explícita de «ella», naturaleza de la marca, día y conocimiento de Helka."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Skalk. Se conserva la cuestión individual: Amenaza del norte, manuscritos, Vol y represalia de Glornir. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Amenaza del norte, manuscritos, Vol y represalia de Glornir."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Encargo de Helka y Partida de los Bloodsworn hacia el Norte. Se conserva la cuestión individual: Amenaza-norte-helka sigue parcial. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Qué Amenaza al Pueblo de Helka en el Norte?. Se conserva la cuestión individual: Responsables, víctimas y alcance. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Responsables, víctimas y alcance."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Desembarco de la Reina Helka en Liga. Se conserva la cuestión individual: Crisis continúa separada. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El Wave-Jarl zarpa, pero no llega a la corte de Störr; no hay revelación de su plan ni reacción a la decisión de Elvar.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Las voces oídas no son una nueva aparición de Hrung ni amplían su reconocimiento olfativo de Elvar.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Llegada a Snakavik y Venta de Berak a Jarl Störr. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Revelación de Elvar como Hija de Jarl Störr. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: No reaparece Vafri ni se observa su destino; tampoco se verifica su doble linaje o qué sabía de la sangre y de la vigilancia de niños.",
+      "remaining": "Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La protección elegida de los vaesen no altera el rescate de Fellur ya cumplido; las consecuencias políticas siguen en fuga-orka-fellur.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: No hay orden nueva de Sigrún o Helka, sentencia o operación contra Orka; el anuncio bélico del dios no resuelve la persecución de Fellur.",
+      "remaining": "Medidas efectivas contra Orka, situación legal y desenlace de la represalia."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Thorun. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Broðir. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La escena no contiene contacto con Grend ni datos sobre su historia afectiva u obligaciones compartidas.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: No se renueva ni acepta la oferta rechazada de Störr; su plan oculto sigue separado y sin revelación.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: No se renueva ni acepta la oferta rechazada de Störr; su plan oculto sigue separado y sin revelación.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Ver a Uspa en la nave no cambia el motivo histórico ya explicado de su urgencia por huir: la persecución por el robo; rescatar a Bjarn sigue aparte.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La ratificación del pacto de los vaesen es distinta del pacto y evasión histórica de Orka con los hermanos; no altera sus resultados.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Lif explica un engaño exitoso a los vaesen; no recibe una lección nueva ni demuestra preparación para vencer a Guðvarr.",
+      "remaining": "Preparación para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Consulta de Elvar a Hrung. Se conserva la cuestión individual: Intención real de Störr. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Raid de los Raven-Feeders a la Taberna. Se conserva la cuestión individual: Rescate-bjarn y venganza-ilska. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre El Secreto de Uspa y el Precio del Rescate. Se conserva la cuestión individual: Rescate-bjarn. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Recuperar a Bjarn de los Raven-Feeders. Se conserva la cuestión individual: Transmitir y acordar el apoyo, recuperar a Bjarn y cumplir el juramento. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Transmitir y acordar el apoyo, recuperar a Bjarn y cumplir el juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Conoce Uspa el Camino a Oskutreð?. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Feudo de Agnar con Ilska. Se conserva la cuestión individual: Desenlace del feudo colectivo. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Despedida Marítima de Thrud (pendiente). Se conserva la cuestión individual: Cumplimiento del rito. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Spert sale del lago, pero no se identifica con el Näcken del río ni se determina el destino de este o la amenaza del norte.",
+      "remaining": "Destino del Näcken del río y vínculo con la amenaza del norte."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Puente Isbrún. Se conserva la cuestión individual: Constructor, resistencia al calor y autor de la antigua huella. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Constructor, resistencia al calor y autor de la antigua huella."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre El Blóð Svarið de los Terrores de la Batalla. Se conserva la cuestión individual: Cumplimiento, alcance de la sanción y situación de Kráka. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Cumplimiento, alcance de la sanción y situación de Kráka."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Qué Plan Oculta Störr para Elvar?. Se conserva la cuestión individual: Plan paterno y reacción a decisión. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Granja Abandonada del Slågen. Se conserva la cuestión individual: Destino de sus habitantes. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Desembarco en el Slågen y Marcha a las Boneback. Se conserva la cuestión individual: Amenaza-norte-helka. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La parada actual junto a Starl no modifica el viaje y las lecciones históricas hacia Darl; los objetivos renovados siguen en sus tramas.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: No hay nueva llegada a Darl ni pista de Breca en aquella ciudad; el desembarco histórico permanece cumplido.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Había un Tainted Libre entre los Raven-Feeders?. Se conserva la cuestión individual: Identidad, linaje y libertad del guerrero. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Identidad, linaje y libertad del guerrero."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El diálogo del lago no aporta prueba de conocimiento o autorización de Helka respecto de la taberna y los cautivos.",
+      "remaining": "Conocimiento o autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿A Quién Esperan Vol y Glornir?. Se conserva la cuestión individual: Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Vesli porta una lanza, no el colgante; no se entrega a Orka una nueva pista ni se localiza o recupera a Breca.",
+      "remaining": "Rescate, recuperación y transmisión de la pista a Orka."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La nueva experiencia mental no modifica el combate cumplido; las incógnitas del hijo, las garras y el pasado permanecen en sus respectivas tramas.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Varg Rechaza el Trato de Skalk. Se conserva la cuestión individual: Akall continúa aparte. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Hallazgo de los 24 Cuerpos en las Boneback. Se conserva la cuestión individual: Autoría y mecanismo de matanza. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La procedencia creadora que Vesli atribuye a Lik-Rifa no explica marcas de dragón, portadores o universalidad entre los dragon-born.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La convocatoria de vaesen no revela el acuerdo de Hakon y Drekr, la fecha, la marca ni lo que sabe o autoriza Helka.",
+      "remaining": "Acuerdo y propósito precisos, día/fecha anunciados, naturaleza de la marca y qué sabe, permite u ordena Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Gytha y Grend (Historia no Resuelta). Se conserva la cuestión individual: Historia afectiva y reencuentro. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Quién Mató a los Alces del Norte?. Se conserva la cuestión individual: Autores, número y amenaza próxima. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Apertura del Puente Isbrún por Uspa. Se conserva la cuestión individual: Autor de huella y puente. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre La Ayuda de Torvik Queda Truncada. Se conserva la cuestión individual: Objetivo de Varg en akall. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La mejora sensorial de Orka y la voz de Ulfrir no son una prueba del mecanismo de la garra de Orna ni de la sensibilidad de Varg.",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Varg Sobrevive a la Espada de Hueso. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Las Cicatrices de Látigo de Biórr. Se conserva la cuestión individual: Quién, cuándo/por qué, familia y represalia. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Qué Traerán los Tesoros de Oskutreð?. Se conserva la cuestión individual: Entrega al destinatario, contratación, venta o reparto final y demás consecuencias del uso de reliquias. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Entrega al destinatario, contratación, venta o reparto final y demás consecuencias del uso de reliquias."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre El Rapto de Vol y el Destino de Varg. Se conserva la cuestión individual: Paradero, liberación, suturas y collar de Vol. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Paradero, liberación, suturas y collar de Vol."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El pacto renovado no aporta huellas nuevas de la cámara, su ocupación anterior, trayecto de Breca o mecanismo de la fuga de Rotta.",
+      "remaining": "Ocupantes anteriores, mecanismo de salida de Rotta y trayecto de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Una convocatoria a los vaesen no identifica a los autores humanos de los altares del pinar o de Liga ni prueba que pertenezcan a una red única.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Una convocatoria a los vaesen no identifica a los autores humanos de los altares del pinar o de Liga ni prueba que pertenezcan a una red única.",
+      "remaining": "Autores de altares y relación con la red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Revelación: los Bloodsworn son Tainted. Se conserva la cuestión individual: Control en pasado-varg. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Invitación de Glornir y Partida Anunciada para Rescatar a Vol. Se conserva la cuestión individual: Juramento y rescate en tramas respectivas. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Vörn Askasdottir (†). Se conserva la cuestión individual: Portador de la sangre de Orna entre los presentes en Oskutreð. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Portador de la sangre de Orna entre los presentes en Oskutreð."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Aska. Se conserva la cuestión individual: Circunstancias de muerte. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Encuentro con Vörn en Oskutreð. Se conserva la cuestión individual: Consecuencias en destino-tesoros-oskutred. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Llegada de Ilska a la Llanura de Batalla. Se conserva la cuestión individual: Venganza-ilska. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Ningún miembro de la partida del Grimholt queda identificado por el diálogo del lago; no se nombra a la mujer del sabueso ni se completa la composición de los captores.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Ningún miembro de la partida del Grimholt queda identificado por el diálogo del lago; no se nombra a la mujer del sabueso ni se completa la composición de los captores.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Holmganga: Agnar vs Skrið. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Revelación de los Dragon-Born y los Niños Cautivos. Se conserva la cuestión individual: Propósito y destinos en ninos-robados/rescate. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Traición de Biórr. Se conserva la cuestión individual: Cicatrices/genealogía quedan aparte. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Motivo de la Traición de Biórr Revelado. Se conserva la cuestión individual: Cicatrices aparte. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La fidelidad de los mismos vaesen continúa, sin evidencia nueva sobre Hakon o la composición de los captores del Grimholt.",
+      "remaining": "Papel de Hakon y composición de los captores en tramas separadas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El recuerdo de una promesa no reabre la muerte o sepultura ya comprobadas de Mord.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Batalla de los Muros de Escudos en Oskutreð. Se conserva la cuestión individual: Rescate-bjarn y venganza-ilska. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Liberación de Lik-Rifa. Se conserva la cuestión individual: Niños y conocimiento de Helka permanecen en sus tramas respectivas. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Niños y conocimiento de Helka permanecen en sus tramas respectivas."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Uspa Sobrevive a la Apertura de Oskutreð. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Muerte de Vörn Confirmada. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La convocatoria alcanza a Spert y Vesli por sus testimonios, pero ambos se niegan a acudir; véanse convocatoria-vaesen-nastrandir y reencuentro-vaesen-starl. El plan de reunión no se cumple universalmente; guerra es inferencia de Orka.",
+      "remaining": "Qué otros vaesen acuden, campaña y consecuencias, recuperación, seguridad, gobierno, choque con Ulfrir y cita occidental de Myrk."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Convergencia en el Grimholt. Se conserva la cuestión individual: Preguntas conservadas en sus tramas. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El recuerdo de una promesa no reabre la muerte o sepultura ya comprobadas de Mord.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 50: reencuentro-vaesen-starl aporta contacto mental declarado, con la canción dormida de Vesli y la voz oída por Spert. No establece que esa convocatoria explique el aviso de Ch1, todos los sueños o el rumor de Ch36.",
+      "remaining": "Cómo funciona el contacto; relación con la percepción inicial y los sueños; origen y veracidad del rumor de Ch36."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Elvar Jura Vengar a Agnar. Se conserva la cuestión individual: Encuentro y desenlace de la represalia. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Encuentro y desenlace de la represalia."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Orv el Sigiloso (Orv the Sneak). Se conserva la cuestión individual: Poder del arco frente a flechas. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Seaxes del Tainted-Garras. Se conserva la cuestión individual: Forja y relación de los seaxes. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Forja y relación de los seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Vengar a Torvik. Se conserva la cuestión individual: Si habrá represalia por Torvik, contra quién y por quién. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Si habrá represalia por Torvik, contra quién y por quién."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre El Libro Negro de Vergelmir. Se conserva la cuestión individual: Contenido, cubierta y protecciones. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Ataque de las Criaturas de Lik-Rifa en Vergelmir. Se conserva la cuestión individual: Detalles no aclarados conservados como límites. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Orka infiere guerra y Ulfrir anuncia otra edad; no se libra el enfrentamiento con Lik-Rifa, se contrata a los Bloodsworn ni se prueba recuperación o cooperación sostenida.",
+      "remaining": "Contratación y cooperación sostenida, recuperación de Ulfrir, encuentro con Lik-Rifa y desenlace."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Qué Oculta el Libro Negro de Vergelmir?. Se conserva la cuestión individual: Alcance, mecanismos y cubierta. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Lif confirma al explicar el plan que la siguen tras la fuga; no se ve a Myrk, no entrega tesoros ni cumple el duelo o la amenaza contra Varg.",
+      "remaining": "Entrega del encargo, destino tras la fuga, holmganga y represalia contra Varg."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre El Encargo de Myrk en la Cámara de Rotta. Se conserva la cuestión individual: Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Hablar a Orka mentalmente no demuestra recuperación física completa ni obediencia sostenida al collar de Elvar.",
+      "remaining": "Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Intentar Liberar a Berak de Störr. Se conserva la cuestión individual: Intento efectivo y libertad. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Intento efectivo y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 50: partida-wave-jarl-starl confirma un mensaje interior de Ulfrir; Orka lo reconoce en sus sueños al comparar las llamadas. No comparte esa conclusión con el grupo, no se prueba que él reciba su réplica y el sueño de Varg no obtiene emisor.",
+      "remaining": "Mecanismo de comunicación, relación con sueno-lobo-varg y cumplimiento del reencuentro."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Lif presencia las declaraciones sobre vaesen, pero no se aclara su comprensión del secreto Bloodsworn ni se elimina la tensión de su protección.",
+      "remaining": "Qué entendió Lif y consecuencias para el secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Orka atribuye a Ulfrir sus propios sueños; no nombra al hombre del sueño de Varg ni comparte con él el contacto o demuestra causa común.",
+      "remaining": "Identidad, origen y significado de la llamada a Varg."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Terna. Se conserva la cuestión individual: Destino de Frøya. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Brimil (†). Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Interrogatorio en la Aldea de Njal. Se conserva la cuestión individual: Frøya y Brimil en sus tramas. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Emboscada del Culto del Dragón en la Aldea de Njal. Se conserva la cuestión individual: Control autónomo y alcance de culto aparte. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "Svik ante el Regreso de Orka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Svik ante el Regreso de Orka. Se conserva la cuestión individual: Expresión directa de Svik sobre el abandono y cómo afrontará el reencuentro. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Expresión directa de Svik sobre el abandono y cómo afrontará el reencuentro."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "La Guardia del Isbrún y el Regreso de los Tennúr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre La Guardia del Isbrún y el Regreso de los Tennúr. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El pacto renovado no aporta huellas nuevas de la cámara, su ocupación anterior, trayecto de Breca o mecanismo de la fuga de Rotta.",
+      "remaining": "Trayecto de Breca, tatuajes y escape de Rotta."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La procedencia creadora que Vesli atribuye a Lik-Rifa no explica marcas de dragón, portadores o universalidad entre los dragon-born.",
+      "remaining": "Significado del tatuaje de dragón, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La declaración de creación de vaesen no narra cómo Rotta rompió sus cadenas ni su recorrido hasta Nastrandir.",
+      "remaining": "Mecanismo de escape y hechos entre Guðfalla y Nastrandir."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: No se ven las jaulas de Darl ni se identifican sus víctimas, autores o afiliación mediante la convocatoria del dragón.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La conversación no identifica piezas del cofre, autentica copias o modifica el informe ante Helka y sus efectos.",
+      "remaining": "Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "Elvar Sucede a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Elvar Sucede a Agnar. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Enfrenta a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Varg se Enfrenta a Brimil. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "audiencia-gudvarr-helka",
+      "label": "La Recompensa y el Encargo de Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: No se aclara la conversación anterior apenas oída sobre dar y una bruja Seiðr; Uspa a bordo no identifica por sí sola aquel referente.",
+      "remaining": "Contenido exacto de la petición anterior."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "label": "El Encargo de Guðvarr sobre Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La conversación del lago no transmite el resto del informe de Kalv ni muestra la pesquisa, los pergaminos, la cobertura, la vigilancia o extracción del hyrndur o el umbral.",
+      "remaining": "Resto del informe, continuidad de la cobertura ante Hakon y desenlace de la pesquisa."
+    },
+    {
+      "id": "aprendizaje-estrid-frek",
+      "label": "La Petición de Instrucción de Estrid",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La escena no muestra a Estrid recibiendo instrucción de Frek ni una respuesta a su petición autorizada.",
+      "remaining": "Si recibe la instrucción y qué aprende."
+    },
+    {
+      "id": "venganza-halja",
+      "label": "Halja Quiere Ajustar Cuentas por Vali",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La amenaza bélica general no identifica a los responsables a quienes Halja quiere ajustar cuentas ni ejecuta su represalia.",
+      "remaining": "Responsables y desenlace de la represalia."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "label": "¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El pacto de buscar a Breca no lo identifica como participante individual en el rito ni explica la conexión con la muerte de Thorkel.",
+      "remaining": "Participación individual de Breca en el rito y conexión con el asesinato de Thorkel."
+    },
+    {
+      "id": "kuru",
+      "label": "Kuru",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Kuru. Se conserva la cuestión individual: Supervivencia de Kuru. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Supervivencia de Kuru."
+    },
+    {
+      "id": "implantacion-hyrndur",
+      "label": "El Espía dentro del Espía",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La voz divina que describe Spert es un fenómeno distinto: no identifica al halcón ni prueba vigilancia autónoma, posición o extracción del hyrndur o ayuda efectiva a Guðvarr.",
+      "remaining": "Identidad del halcón de la empalizada; vigilancia autónoma en su propia trama."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "label": "El Control del Hyrndur sobre Guðvarr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La voz divina que describe Spert es un fenómeno distinto: no identifica al halcón ni prueba vigilancia autónoma, posición o extracción del hyrndur o ayuda efectiva a Guðvarr.",
+      "remaining": "Posición exacta, detección autónoma, extracción, supervivencia y ayuda efectiva."
+    },
+    {
+      "id": "origen-estallido-darl",
+      "label": "¿Qué Provocó el Estallido cerca de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Qué Provocó el Estallido cerca de la Torre?. Se conserva la cuestión individual: Causa del estallido concreto. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Causa del estallido concreto."
+    },
+    {
+      "id": "destino-huesos-hraeg",
+      "label": "¿Llegarán los Huesos de Hraeg al Padre de Jaromir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La partida del Wave-Jarl no observa a Jaromir ni entrega o recompensa por los huesos atribuidos a Hraeg.",
+      "remaining": "Entrega, recompensa e identificación independiente."
+    },
+    {
+      "id": "destino-grieta-darl",
+      "label": "Supervivencia de Skalk, Yrsa y Sturla",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Las declaraciones de los vaesen no reabren la supervivencia confirmada de Skalk, Yrsa y Sturla.",
+      "remaining": "none"
+    },
+    {
+      "id": "cura-taras",
+      "label": "La Promesa de Iva a Taras",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: No se muestra a Iva tratando a Taras; la lealtad de Vesli no cumple una promesa curativa de otra persona.",
+      "remaining": "Si Iva lo cura y cómo."
+    },
+    {
+      "id": "umbral-torre-darl",
+      "label": "¿Por Qué Cede el Umbral de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Ningún acceso al umbral se prueba en la orilla del lago y ninguna voz identifica la causa de su paso franco.",
+      "remaining": "Si la caída de Skalk interrumpió el hechizo o si solo actuaba al entrar."
+    },
+    {
+      "id": "venganza-jokul",
+      "label": "Vengar a Jökul",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Vengar a Jökul. Se conserva la cuestión individual: Desenlace de la venganza. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Desenlace de la venganza."
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "label": "La Caza de Jaromir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre La Caza de Jaromir. Se conserva la cuestión individual: Intercepción, captura o muerte, entrega y pago. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Intercepción, captura o muerte, entrega y pago."
+    },
+    {
+      "id": "salida-darl-hakon",
+      "label": "La Liberación y el Regreso de Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El barco observado es el Wave-Jarl, no una nueva restitución de Hakon: su regreso a Helka ya está cumplido.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-glornir-skalk",
+      "label": "La Amenaza de Glornir contra Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre La Amenaza de Glornir contra Skalk. Se conserva la cuestión individual: Si Glornir regresa y mata a Skalk. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Si Glornir regresa y mata a Skalk."
+    },
+    {
+      "id": "sepultura-huld",
+      "label": "El Túmulo Ordenado para Huld",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre El Túmulo Ordenado para Huld. Se conserva la cuestión individual: Construcción del túmulo. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Construcción del túmulo."
+    },
+    {
+      "id": "retorno-wave-jarl",
+      "label": "El Regreso al Wave-Jarl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre El Regreso al Wave-Jarl. Se conserva la cuestión individual: none La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "none"
+    },
+    {
+      "id": "brak-trolls-bane",
+      "label": "Brák Trolls-Bane",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Brák Trolls-Bane. Se conserva la cuestión individual: Identidad retrospectiva del L2C9, paradero de Brák/Frøya y origen de los seaxes. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Identidad retrospectiva del L2C9, paradero de Brák/Frøya y origen de los seaxes."
+    },
+    {
+      "id": "holmganga-orka-myrk",
+      "label": "La Holmganga Prometida entre Orka y Myrk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La persecución sigue y Breca no es recuperado; no se cumple la condición de liberación pactada ni ocurre el duelo con Myrk.",
+      "remaining": "Encontrar a Breca y resolver la promesa condicionada y el duelo."
+    },
+    {
+      "id": "venganza-myrk-varg",
+      "label": "La Amenaza de Myrk contra Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El relato de la fuga no muestra a Myrk encontrándose con Varg ni cumpliendo su amenaza.",
+      "remaining": "Si Myrk busca a Varg y cumple su amenaza."
+    },
+    {
+      "id": "destino-testigos-torre",
+      "label": "El Paradero de Skapti y Hrolf",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La reunión junto a Starl no reabre la localización ya confirmada de Skapti y Hrolf; no explica su salida de la torre.",
+      "remaining": "none"
+    },
+    {
+      "id": "promesa-ulfrir-battle-grim",
+      "label": "La Promesa de Ulfrir a los Battle-Grim",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El contacto mental no es un episodio de depredación ni una prueba a largo plazo de su promesa de no devorar a la compañía.",
+      "remaining": "Si cumple su compromiso de no devorar a más miembros."
+    },
+    {
+      "id": "secuelas-seidr-ninos",
+      "label": "¿Se Recuperarán los Niños del Sometimiento?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Se Recuperarán los Niños del Sometimiento?. Se conserva la cuestión individual: Recuperación completa de todos los niños y causa de todos los síntomas. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Recuperación completa de todos los niños y causa de todos los síntomas."
+    },
+    {
+      "id": "saeunn",
+      "label": "Sæunn",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Sæunn vuelve al advertir la parada: confirma que iba adelantada, sin alcanzar a Myrk ni demostrar éxito final, retirada del collar o libertad.",
+      "remaining": "Éxito del rastreo, destino del collar y libertad."
+    },
+    {
+      "id": "avistamiento-battle-grim-starl",
+      "label": "Orka Avista un Drakkar de los Battle-Grim en Starl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La nave que Orka observa ahora ya fue identificada y se produjo el encuentro; el avistamiento histórico no se reabre.",
+      "remaining": "none"
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "label": "Encuentro en Starl y Búsqueda de Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La separación sigue sin entregar el anillo u oferta a Glornir ni recuperar a Breca; el encuentro pasado permanece cumplido.",
+      "remaining": "Cumplimiento de contratacion-bloodsworn-elvar y recuperación de Breca."
+    },
+    {
+      "id": "compra-tainted-starl",
+      "label": "Sæunn como Rastreadora y su Compra en Starl",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El retorno de Sæunn por el camino no reproduce el requisito susurrado ni explica expresamente incomodidad o trato/libertad.",
+      "remaining": "Condición susurrada exacta, explicación expresa de la incomodidad y trato/libertad de Sæunn."
+    },
+    {
+      "id": "sangre-caballo-myrk",
+      "label": "La Sangre del Caballo como Rastro de Myrk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El plan vuelve a contarse, pero el propósito de la sangre ya estaba respondido por su uso como olor; no surge un hechizo Seiðr nuevo.",
+      "remaining": "none"
+    },
+    {
+      "id": "abasto-battle-grim-starl",
+      "label": "El Abastecimiento en Starl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Orka reconoce a Ulfrir, Skuld y Uspa desde fuera de la nave; eso no prueba si el cargamento y los dioses permanecen secretos para otros. El abastecimiento ya está cumplido.",
+      "remaining": "Preservación del secreto del cargamento y de los dos dioses."
+    },
+    {
+      "id": "salida-uspa-starl",
+      "label": "Uspa Rechaza Marcharse con Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Uspa Rechaza Marcharse con Orka. Se conserva la cuestión individual: Rescate de Bjarn y de Breca en sus tramas. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Rescate de Bjarn y de Breca en sus tramas."
+    },
+    {
+      "id": "resucitar-orna",
+      "label": "¿Podría Volver a Vivir Orna?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La frase sobre una nueva edad no responde la petición de Skuld ni supone un intento o capacidad demostrada de resucitar a Orna.",
+      "remaining": "Si se acepta o intenta la petición y si es posible devolverle la vida a Orna."
+    },
+    {
+      "id": "reunion-helka-orlyg",
+      "label": "La Reunión de Helka con Jarl Orlyg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: La deducción de guerra se refiere al llamamiento del dragón; no es una reunión celebrada, pacto o conquista de Helka.",
+      "remaining": "Llegada de Orlyg, celebración, términos y resultado de la reunión."
+    },
+    {
+      "id": "persecucion-leif-varg",
+      "label": "La Caza de Varg por Leif y Sterkur",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre La Caza de Varg por Leif y Sterkur. Se conserva la cuestión individual: Partida, encuentro y desenlace de la caza. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Partida, encuentro y desenlace de la caza."
+    },
+    {
+      "id": "promesa-rotta-biorr",
+      "label": "¿Cumplirá Rotta su Promesa a Biórr?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿Cumplirá Rotta su Promesa a Biórr?. Se conserva la cuestión individual: Qué ayuda dará Rotta a Biórr y si cumplirá su promesa. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Qué ayuda dará Rotta a Biórr y si cumplirá su promesa."
+    },
+    {
+      "id": "contratacion-bloodsworn-elvar",
+      "label": "La Petición de Elvar a los Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Los acompañantes de Orka son parte de los Bloodsworn, pero no se transmite en esta escena la oferta a Glornir ni se entrega anillo, acepta contrato o llega a Snakavik.",
+      "remaining": "Localizar a Glornir, transmitir la oferta, entregar el anillo, obtener respuesta, acordar el contrato y reunirse en Snakavik."
+    },
+    {
+      "id": "avistamiento-velas-liga",
+      "label": "Avistamiento de Velas en el Mar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre Avistamiento de Velas en el Mar. Se conserva la cuestión individual: Identidad e intención de las velas y desenlace del encuentro. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Identidad e intención de las velas y desenlace del encuentro."
+    },
+    {
+      "id": "identidad-velas-mar",
+      "label": "¿De Quién Son las Velas Avistadas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: Otra línea de POV sin hechos nuevos en esta escena sobre ¿De Quién Son las Velas Avistadas?. Se conserva la cuestión individual: Identidad, intenciones y desenlace del posible encuentro. La llamada y las dos negativas no aportan evidencia de ese desenlace.",
+      "remaining": "Identidad, intenciones y desenlace del posible encuentro."
+    },
+    {
+      "id": "regreso-snakavik",
+      "label": "El Regreso de Elvar a Snakavik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 50: El remo observado por Orka corrobora la salida ya registrada, sin nuevo tramo de ruta, llegada a Snakavik ni encuentro con Störr.",
+      "remaining": "Recorrido, llegada a Snakavik y encuentro con Störr."
+    }
+  ]
+}

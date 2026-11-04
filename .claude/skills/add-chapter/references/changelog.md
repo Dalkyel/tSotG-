@@ -1,5 +1,11 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch50 — the legacy summary assigned an unnamed question to
+  Lif and weakened Vesli's explicitly stated oath-and-pact motive. Added a quiet-dialogue
+  attribution check to the reprocessing guide. The thread gate now also requires
+  persisting a later explicit voice recognition and updating stale pending metadata,
+  while assessing mechanism, another POV's dream and promised outcomes separately.
+
 - 2026-11-03: Book Two Ch38 — turned the manual legacy-summary lookup into
   `reprocess.cjs --reference read-summary CHAPTER` and clarified how to track a
   recognition scene that adds evidence about an earlier signal without identifying
