@@ -176,12 +176,20 @@ A missing marker is inconclusive: legacy descriptions may omit it or use differe
 wording. Continue with the participant-name search above when the chapter-marker
 results leave an identity unsettled.
 
-For a Guðvarr or Biórr chapter, start with the unfiltered index. When the evidence
-bounds the affected families, use `read-backlog 1 --compact --untagged --include ID`
-with the launcher. Repeat `--include` for every relevant tagged candidate, including
-the chapter POV's own evidence if it is stored under another arc. Read the same
-selection through END. If a family cannot be bounded, use the applicable `--pov`
-selection or unfiltered prose. Keep the full per-ID checklist in all cases.
+For a Guðvarr or Biórr chapter, choose the prose selection from the unfiltered
+index and chapter evidence **before opening page 1**. A profile's stored arc tag is
+not the chapter's viewpoint: Biórr's `ELVAR` tag does not by itself require
+`--pov ELVAR`. In Ch40, that selection retrieved 96 candidates across 15 pages,
+including Elvar's unrelated family and political history. When the affected families
+can be bounded, use `read-backlog 1 --compact --untagged --include ID` with the
+launcher. Include the POV's own clue owner and every affected tagged candidate;
+for a captive-arrival chapter, consider the individual children, both rescuers'
+threads, recovery, the dragon's objectives and the opposing campaign, not just
+characters present. Record the chosen families and why the remaining arcs are
+unaffected, then save the wrapper and read the same selection through END.
+If relevance cannot be bounded, use the applicable `--pov` selection or unfiltered
+prose. Keep the unfiltered per-ID checklist in every case; narrower prose selection
+does not reduce cross-POV review obligations.
 
 ## Legacy summary cross-check
 

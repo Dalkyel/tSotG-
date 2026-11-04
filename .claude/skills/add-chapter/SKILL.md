@@ -101,7 +101,9 @@ Use its heading index and read one gate per response. Completion requires:
   `Thread lifecycle review: PASS`. Use the gate's baseline-backed checklist helper
   to catch omitted IDs and unfinished assessments before recording PASS. The reader's
   `--pov` selection retains untagged clues; apply the gate's cross-POV conditions and
-  keep the unfiltered index/checklist for complete coverage. Optional `--compact`
+  keep the unfiltered index/checklist for complete coverage. For Guðvarr/Biórr,
+  use the [viewpoint-versus-arc selection rule](references/book2-reprocessing.md#prepare-and-run-a-chapter)
+  before paging; their profile tags alone do not select a whole POV's prose. Optional `--compact`
   removes formatting overhead from prose pages without omitting evidence; keep the
   same format throughout a paginated read.
 

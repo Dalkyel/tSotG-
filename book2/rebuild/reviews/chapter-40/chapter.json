@@ -1,0 +1,373 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 40 — BIÓRR ──",
+  "nodes": [
+    {
+      "id": "biorr",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Marcha entre los carros con Fain y Storolf, conversa con Bjarn y reconoce en él una claridad casi como la de Snakavik. Por primera vez observa una sonrisa en Kráka. Presencia la llegada y la revelación del hogar del dragón en llegada-nastrandir.",
+      "previousState": "Observa la mejoría de Bjarn y acompaña la llegada a Nastrandir."
+    },
+    {
+      "id": "bjarn",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Tiene los ojos claros, reconoce a Biórr, sonríe débilmente y pide comida. Durante el trayecto conversa con él y parece casi el niño de Snakavik, según Biórr. Kráka cree que el Seiðr ya ha salido de él; es una valoración suya, no una prueba de la recuperación de todos los niños. Sigue viajando en su carro con la hueste; véanse aprendizaje-ninos-hueste y secuelas-seidr-ninos.",
+      "previousState": "Recobra claridad y conversación, sin rescate ni diagnóstico general."
+    },
+    {
+      "id": "kraka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Reparte manzanas y queso entre los niños, incluidos Breca y Harek, y cree que el Seiðr ha abandonado a Bjarn. Bromea y sonríe con Storolf, que la ayuda con un barril y alude a la sangre de Snaka en sus venas. Sigue cuidando a los niños durante la marcha; véase aprendizaje-ninos-hueste. Su situación en el blóð svarið no se aclara.",
+      "previousState": "Se muestra más distendida y considera recuperado a Bjarn."
+    },
+    {
+      "id": "breca",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Camina junto a Harek, todavía con la mano entablillada y vendada y una cicatriz roja bajo el ojo. Recoge comida de Kráka y esboza una sonrisa ante las bromas de Storolf. Continúa con los niños de la columna que alcanza el hogar de Lik-Rifa; no se muestra su salida ni curación completa.",
+      "previousState": "Sigue con la mano inmovilizada durante la llegada al litoral."
+    },
+    {
+      "id": "harek",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Camina con Breca y ríe hasta las lágrimas con Storolf, que le recuerda su sangre de Svin y elogia el progreso de los niños al reconocer al dios en sus venas. Sigue con la hueste que llega al hogar de Lik-Rifa. Su desaparición de Fellur y los asesinos de sus padres no reciben explicación.",
+      "previousState": "Acompaña a Breca y recibe el estímulo de Storolf."
+    },
+    {
+      "id": "storolf-wartooth",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Se declara portador de Svin y enseña a un pequeño grupo de niños de sangre de jabalí dentro del aprendizaje organizado por Lik-Rifa. Juega a hozar en el barro, hace reír a Harek y consigue una sonrisa de Breca. Ayuda a Kráka con un barril y ambos bromean. Llama hermano a Kalv y dice que será mejor maestro cuando vuelva; Fain elogia también la capacidad docente de Storolf. Véase aprendizaje-ninos-hueste.",
+      "previousState": "Confirma su linaje de Svin y su papel como maestro de los niños."
+    },
+    {
+      "id": "red-fain",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Ayuda a Storolf a incorporarse cuando resbala, le revuelve el pelo con afecto y elogia su capacidad para enseñar a los niños. Comparte la expectativa expresada por su hijo de que Kalv vuelva y les enseñe, sin que se observe ese regreso. Marcha con Biórr y Storolf junto a los carros.",
+      "previousState": "Apoya a Storolf como maestro; Kalv aún no reaparece.",
+      "type": "Personaje — Raven-Feeder; padre de Kalv y Storolf"
+    },
+    {
+      "id": "kalv",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Storolf lo identifica como su hermano y lo considera mejor maestro que él para los niños, hablando de cuando regrese. Fain asiente. Es una valoración y expectativa de sus familiares: Kalv no aparece y su ubicación sigue sin precisarse.",
+      "previousState": "Su hermano Storolf elogia su capacidad docente, sin regreso observado."
+    },
+    {
+      "id": "likrafa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: Continúa enseñando cada noche a los niños a entender sus fuerzas, distribuidos entre maestros Tainted. En la marcha nevada permanece a caballo sin ayudar a abrir camino. Al recuperar la forma de dragón ante los acantilados, Biórr ve que ya no está demacrada ni tiene las cicatrices supurantes: le parece fuerte. Revela su hogar mediante la invocación de Ormsalur y da la bienvenida a la hueste; véase llegada-nastrandir. La mejoría visible no demuestra una recuperación completa ni un encuentro con Ulfrir.",
+      "previousState": "Llega a su hogar y muestra una mejoría física visible."
+    },
+    {
+      "id": "nastrandir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: La llegada permite observar un promontorio de trazado serpentino junto al Mar Helado, entre acantilados de las Montañas Espinazo. En el frente rocoso se revelan puertas enormes de granito negro ribeteadas de plata, más altas y anchas que Lik-Rifa en forma de dragón, rodeadas de serpientes de piedra talladas del ancho de una torre. Lik-Rifa llama Nastrandir al lugar y lo presenta como su hogar. Ormsalur es el nombre de su canto; no se precisa si designa todo el salón o una parte. Véase llegada-nastrandir para la revelación; el capítulo no muestra el interior.",
+      "previousState": "El hogar queda físicamente localizado y su entrada revelada."
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: ESTADO: PARCIAL. llegada-nastrandir cumple el retorno al hogar y comprueba una mejoría física visible. aprendizaje-ninos-hueste documenta la formación que organiza para los niños. Siguen pendientes el alcance de su recuperación y gobierno, la reunión de todos los fieles y el enfrentamiento con Ulfrir. El retorno no explica por sí solo la cita occidental referida por Myrk ni cumple traslado-tesoros-rotta.",
+      "previousState": "Se cumple la llegada, sin concluir los objetivos posteriores."
+    },
+    {
+      "id": "secuelas-seidr-ninos",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: ESTADO: PARCIAL. Bjarn recupera claridad y conversación en aprendizaje-ninos-hueste, y Kráka cree que el Seiðr ya ha salido de él. Hay mejoría observada en ese niño, sin prueba independiente de la causa de todos los síntomas ni confirmación de recuperación completa de todo el grupo.",
+      "previousState": "Mejoría individual observada; causa y recuperación colectiva pendientes."
+    },
+    {
+      "id": "rescate-bjarn",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: ESTADO: PARCIAL. aprendizaje-ninos-hueste muestra a Bjarn lúcido y conversando; llegada-nastrandir sitúa su carro con la columna ante el hogar del dragón. Es información disponible al lector, no transmitida a Uspa ni a Elvar. El rescate y el cumplimiento del blóð svarið siguen pendientes.",
+      "previousState": "Se precisa su recuperación y paradero, sin devolverlo a Uspa."
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: ESTADO: PARCIAL. Breca sigue con Harek en la columna que alcanza el hogar de Lik-Rifa en llegada-nastrandir; conserva la mano vendada y entablillada. El lector obtiene un paradero actual, no Orka. Recuperarlo, su curación completa, el trayecto original del rapto y la ejecución del intercambio con Elvar siguen pendientes.",
+      "previousState": "El lector ve su llegada al hogar del dragón; Orka no recibe la noticia."
+    },
+    {
+      "id": "ninos-robados",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: ESTADO: PARCIAL. llegada-nastrandir sitúa al grupo de la hueste, incluidos Breca, Harek y Bjarn, ante el hogar de Lik-Rifa. aprendizaje-ninos-hueste muestra formación por linajes y la mejoría individual de Bjarn. No se identifica a los demás desaparecidos ni se resuelve la salida de este grupo, la suerte de los otros grupos o la autoría común de todos los raptos.",
+      "previousState": "Nuevo paradero del grupo y evidencia de formación, sin liberación."
+    },
+    {
+      "id": "mar-helado",
+      "mode": "new",
+      "label": "Mar Helado",
+      "group": "LUGAR",
+      "type": "Lugar — Mar junto al litoral de Nastrandir",
+      "desc": "LIBRO 2, CAPÍTULO 40: Mar que Biórr identifica como Icebound Sea al alcanzar la costa con la hueste. Sus olas baten los acantilados junto al promontorio serpentino del hogar de Lik-Rifa; el viento y las salpicaduras azotan el camino.",
+      "star": ""
+    },
+    {
+      "id": "ormsalur",
+      "mode": "new",
+      "label": "Ormsalur",
+      "group": "LUGAR",
+      "type": "Lugar — Nombre invocado ante el hogar de Lik-Rifa",
+      "desc": "LIBRO 2, CAPÍTULO 40: Nombre que Lik-Rifa repite en un canto ante los acantilados de Nastrandir. Tras la invocación quedan visibles puertas de granito negro y serpientes de piedra móviles. El texto no precisa si el nombre designa el salón entero o una parte de su estructura; no establece un ser independiente. Véanse nastrandir para el lugar y llegada-nastrandir para la escena.",
+      "star": ""
+    },
+    {
+      "id": "aprendizaje-ninos-hueste",
+      "mode": "new",
+      "label": "El Aprendizaje de los Niños y la Mejoría de Bjarn",
+      "group": "EVENTO",
+      "type": "Evento — Formación y mejoría observada",
+      "desc": "LIBRO 2, CAPÍTULO 40: En la parada de mediodía de la marcha nevada, Biórr encuentra a Bjarn con mirada clara, capaz de conversar y pedir comida. Kráka cree que el Seiðr ha salido de él y reparte manzanas y queso. Storolf la ayuda con un barril, bromea sobre sus dientes y su sangre de Svin y hace reír a los niños imitando a un jabalí. Harek ríe y Breca sonríe, aunque conserva la mano entablillada. La narración explica que, desde el reconocimiento de las bestias, Lik-Rifa continúa cada noche la enseñanza de las fuerzas ocultas; cada niño ha sido asignado a un Tainted Raven-Feeder y Storolf enseña a un grupo de sangre de Svin. Storolf espera que Kalv vuelva para enseñarles y lo juzga mejor maestro; Fain elogia también a su hijo presente. No se muestra el regreso de Kalv, una transformación infantil ni la curación de todo el grupo.",
+      "star": ""
+    },
+    {
+      "id": "llegada-nastrandir",
+      "mode": "new",
+      "label": "La Llegada a Nastrandir y la Revelación de Ormsalur",
+      "group": "EVENTO",
+      "type": "Evento — Retorno y revelación del hogar del dragón",
+      "desc": "LIBRO 2, CAPÍTULO 40: Tras dejar el calor del Foso, la hueste avanza entre nieve y aguanieve hacia las Montañas Espinazo. Ilska y los dragon-born funden una senda con runas Galdur; Lik-Rifa sigue a caballo sin ayudar. Después de la parada de mediodía, los tennúr supervivientes vuelven y revolotean ante la diosa; Kráka dice que han encontrado algo, sin que Biórr entienda un informe. La columna alcanza un promontorio serpentino sobre el Mar Helado, con los adoradores del dragón cerrando la marcha y los carros con los niños detrás de los Raven-Feeders. Lik-Rifa impide que Ilska y Drekr la sigan y avanza sola hasta el acantilado. Se transforma en un dragón visiblemente más fuerte, ruge Nastrandir y canta repetidamente una invocación de Ormsalur. La tierra vibra, la roca estalla y una nube de polvo y agua derriba y envuelve a los presentes. Al despejarse aparecen puertas de granito negro ribeteadas de plata y enormes serpientes de piedra que se mueven, sisean y se inclinan ante ella. Lik-Rifa da la bienvenida a su hogar. El capítulo termina ante la entrada, sin mostrar el acceso al interior.",
+      "star": ""
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 40: ESTADO: PARCIAL. llegada-nastrandir aporta al lector evidencia de una adversaria visiblemente más fuerte y ya en su hogar. Elvar y Skuld no presencian esta escena. Siguen pendientes la cooperación sostenida y recuperación de Ulfrir, el encuentro y la muerte de Lik-Rifa; la mejoría del dragón no decide el desenlace.",
+      "previousState": "El lector observa una mejoría de la adversaria, sin encuentro ni victoria."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-elvar",
+      "target": "mar-helado",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-mundo",
+      "target": "mar-helado",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "ormsalur",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-mundo",
+      "target": "ormsalur",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "llegada-nastrandir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "llegada-nastrandir",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "storolf-wartooth",
+      "target": "svin",
+      "label": "declara llevar la sangre de",
+      "type": "lore"
+    },
+    {
+      "source": "storolf-wartooth",
+      "target": "kalv",
+      "label": "es hermano de",
+      "type": "rel"
+    },
+    {
+      "source": "kraka",
+      "target": "snaka",
+      "label": "según Storolf, lleva la sangre de",
+      "type": "lore"
+    },
+    {
+      "source": "storolf-wartooth",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "enseña y anima a los niños en",
+      "type": "event"
+    },
+    {
+      "source": "kraka",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "alimenta a los niños en",
+      "type": "event"
+    },
+    {
+      "source": "biorr",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "observa la mejoría de Bjarn en",
+      "type": "event"
+    },
+    {
+      "source": "red-fain",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "elogia a Storolf en",
+      "type": "event"
+    },
+    {
+      "source": "harek",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "ríe con Storolf en",
+      "type": "event"
+    },
+    {
+      "source": "breca",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "sonríe ante las bromas en",
+      "type": "event"
+    },
+    {
+      "source": "bjarn",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "conversa con Biórr en",
+      "type": "event"
+    },
+    {
+      "source": "likrafa",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "organiza la formación descrita en",
+      "type": "event"
+    },
+    {
+      "source": "aprendizaje-ninos-hueste",
+      "target": "reconocimiento-linajes-ninos",
+      "label": "continúa el ejercicio iniciado en",
+      "type": "history"
+    },
+    {
+      "source": "secuelas-seidr-ninos",
+      "target": "aprendizaje-ninos-hueste",
+      "label": "recibe evidencia de mejoría individual en",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-nastrandir",
+      "target": "nastrandir",
+      "label": "revela físicamente",
+      "type": "geo"
+    },
+    {
+      "source": "nastrandir",
+      "target": "mar-helado",
+      "label": "se alza junto al",
+      "type": "geo"
+    },
+    {
+      "source": "nastrandir",
+      "target": "ormsalur",
+      "label": "es el hogar revelado al invocar",
+      "type": "magic"
+    },
+    {
+      "source": "ormsalur",
+      "target": "llegada-nastrandir",
+      "label": "es invocado durante",
+      "type": "event"
+    },
+    {
+      "source": "plan-likrafa-nastrandir",
+      "target": "llegada-nastrandir",
+      "label": "tiene su llegada cumplida en",
+      "type": "history"
+    },
+    {
+      "source": "rumbo-lik-rifa",
+      "target": "llegada-nastrandir",
+      "label": "cumple su retorno al hogar en",
+      "type": "trama"
+    },
+    {
+      "source": "likrafa",
+      "target": "llegada-nastrandir",
+      "label": "revela su hogar en",
+      "type": "event"
+    },
+    {
+      "source": "biorr",
+      "target": "llegada-nastrandir",
+      "label": "presencia",
+      "type": "event"
+    },
+    {
+      "source": "ilska",
+      "target": "llegada-nastrandir",
+      "label": "abre camino hacia",
+      "type": "event"
+    },
+    {
+      "source": "drekr",
+      "target": "llegada-nastrandir",
+      "label": "acompaña a la hueste en",
+      "type": "event"
+    },
+    {
+      "source": "breca",
+      "target": "llegada-nastrandir",
+      "label": "sigue con la columna durante",
+      "type": "event"
+    },
+    {
+      "source": "bjarn",
+      "target": "llegada-nastrandir",
+      "label": "viaja con la columna durante",
+      "type": "event"
+    },
+    {
+      "source": "harek",
+      "target": "llegada-nastrandir",
+      "label": "sigue con la columna durante",
+      "type": "event"
+    },
+    {
+      "source": "rescate-breca",
+      "target": "llegada-nastrandir",
+      "label": "obtiene un paradero observado en",
+      "type": "trama"
+    },
+    {
+      "source": "rescate-bjarn",
+      "target": "llegada-nastrandir",
+      "label": "obtiene un paradero observado en",
+      "type": "trama"
+    },
+    {
+      "source": "ninos-robados",
+      "target": "llegada-nastrandir",
+      "label": "obtiene un paradero observado en",
+      "type": "trama"
+    },
+    {
+      "source": "muerte-lik-rifa",
+      "target": "llegada-nastrandir",
+      "label": "recibe evidencia del estado de la adversaria en",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 40,
+    "title": "Capítulo 40 — Biórr",
+    "summary": "La hueste de <strong>Lik-Rifa</strong> avanza entre nieve y aguanieve hacia las <strong>Montañas Espinazo</strong>. <strong>Ilska Raven-Feeder</strong> y los dragon-born funden un camino con runas Galdur, mientras la diosa permanece a caballo. En la parada del mediodía, <strong>Biórr</strong> encuentra a <strong>Bjarn</strong> lúcido y capaz de conversar; <strong>Kráka</strong> cree que el Seiðr ya lo ha abandonado. Reparte comida y bromea con <strong>Storolf Wartooth</strong>, que hace reír a <strong>Harek</strong> y arranca una sonrisa a <strong>Breca</strong>, aún con la mano entablillada. Storolf declara su sangre de <strong>Svin</strong> y enseña a los niños de ese linaje: la formación dirigida por Lik-Rifa continúa cada noche. Espera que vuelva su hermano <strong>Kalv</strong>, a quien considera mejor maestro; <strong>Red Fain</strong> elogia también a Storolf.<br><br>Los tennúr supervivientes regresan ante Lik-Rifa y la columna alcanza un promontorio serpentino junto al <strong>Mar Helado</strong>. La diosa deja atrás a Ilska y <strong>Drekr</strong>, avanza sola hacia los acantilados y se transforma en un dragón de aspecto mucho más fuerte. Ruge el nombre de <strong>Nastrandir</strong> y canta una invocación de <strong>Ormsalur</strong>. La roca estalla entre temblores, polvo y agua; al despejarse la nube aparecen enormes puertas de granito negro ribeteadas de plata y serpientes de piedra que se mueven y se inclinan ante ella. Lik-Rifa da la bienvenida a su hogar. <em>El capítulo termina ante la entrada, sin mostrar que la hueste penetre en el salón.</em>"
+  }
+}

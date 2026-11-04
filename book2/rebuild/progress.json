@@ -40,7 +40,8 @@
     36,
     37,
     38,
-    39
+    39,
+    40
   ],
   "chapters": [
     {
@@ -667,15 +668,33 @@
         }
       },
       "log": "Chapter 39: Reprocessed Orka’s continuous Starl encounter from the complete source: truce and mutual disclosures, Ulfrir’s recognition and interior voice, attributed paternal death with preserved age discrepancy, punishment testimony, eastward-track contradiction and unspecified favor agreement. Closed only Uspa’s request to leave; added the unanswered Orna request and kept rescues, dream attribution and destination pending. Reviewed 202 clue IDs, full baseline ownership, three event connections, all link sentences and summary identities. All required regression tests passed. Browser visual confirmation left to the user per skill; later chapters remain visible."
+    },
+    {
+      "chapter": 40,
+      "source": "book2/chapter 40.html",
+      "sourceHash": "3bc055406b72f86709dba01f88d310fbaee4d792f0b99649e56446e5363230a7",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch40.yBlxN7",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-40",
+        "hashes": {
+          "ownership-review.md": "4f09278b3e9f62dfe4820acb50786a3394c159186699adeb1a7a7fb345a3ad2e",
+          "event-review.md": "3f8d540cf6e9248bcab9f3611f6f719a112b0d4d73473047d255120d29693de7",
+          "thread-review.md": "ca316eae2c172a557d21c94244130bedffd886b2c39f299846c627119adb9b69",
+          "thread-checklist.json": "709fd93b452aed0a4f0a7be6cb0952c0701a034656cc9ac7cd7adcd398a5bf33",
+          "completion.json": "15eff97a40c91baae27cd96233d72226ddc3758819edf1c3d07ca4883d3030ba",
+          "chapter.json": "8128de5bc344d144a3518fb697939a56aa65a8660db808af0cf1be8efab2279c"
+        }
+      },
+      "log": "Chapter 40: Biórr. Reviewed the complete supplied source and published 20 node revisions, 38 links and a Spanish summary; captured child training, Bjarn’s individual improvement, and the arrival/revelation of Nastrandir and Ormsalur. Preserved attribution, ambiguity and reader-versus-rescuer knowledge; kept rescues, wider recovery and divine conflict pending. Ownership, event coverage and all 202 thread/checklist assessments passed, as did syntax, preservation, endpoints, 16 summary mentions, overlap and the nine-file regression suite. Browser appearance remains for user review under the skill workflow."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "7cfd3545163c14a4dfa03cfc3fdd2ad27857de124e7e3aaa935e8bafadde7628",
-    "book2/links.js": "0e0c901d523c0e4800f996bf3b7c5781224b9a4284cba77381d0b07665acf883",
-    "book2/summaries.js": "2a9ddc3c557ddb402b776966eca2f241379e5c70ccd34c6e2fdf1f1eee688ce2"
+    "book2/nodes.js": "878faaae8bb4c3a641db79645d89f4816867d386a239187b37efaa966accdda6",
+    "book2/links.js": "56fe31de2c42683b6e0d61202df7170b7c20404029c769383bfae462b7f9a41e",
+    "book2/summaries.js": "531e1972ee8a8529e721dccaf2e03846661e6bd6964e74f9abd4e7218a01957a"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -686,9 +705,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "488563bf7014748320541a6797d2d3700554187807a1334b2339c3db820cff45",
-    "links": "c57b6690eb568f37e3faf84a9eee3a8df015094c6d93c18f2e2db225563ca0ab",
-    "summaries": "9538e0388a473dae45bb081eec56d13e164281e8332cd1f1c3df240c2cb3874b"
+    "nodes": "e3202acc239f652cc8fe29cb5fb2a2e7422fe0e443b212ad676fbcda8bcd7ddf",
+    "links": "6ab537ec12a1a952810a8552fd1d18661b132b62d6f2b22063e69e13a3dfdda8",
+    "summaries": "5c6bdbd0488172d436e0eb6dc678d368d24f34be9191b8455db79e77b39c246b"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {
