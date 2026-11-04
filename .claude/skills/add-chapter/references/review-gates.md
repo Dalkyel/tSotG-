@@ -340,6 +340,11 @@ to create a thread once or to pass the JavaScript verifier.
    and keep the untested parts pending. In Book Two Ch33, Skalk's two commands make
    the implanted hyrndur move and stop. That establishes deliberate control. It
    leaves autonomous detection of betrayal and safe extraction unverified.
+   Separate recognition from the cause of an earlier signal. In Book Two Ch38,
+   Ulfrir greets Orka as «hija del lobo» after the aullido Orka felt in Ch36
+   as his ship approached. The greeting adds evidence of a possible connection.
+   Keep the source of that howl and of the earlier dream pending until the text
+   establishes who produced them and whether they share a cause.
    When a new POV hears a plan that differs from movement already observed in another
    POV, track what each source establishes before revising the thread. In Book Two
    Ch31, Myrk gives Orka a reported westward destination near Iskalt after Ch30 showed

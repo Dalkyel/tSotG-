@@ -38,7 +38,8 @@
     34,
     35,
     36,
-    37
+    37,
+    38
   ],
   "chapters": [
     {
@@ -629,15 +630,33 @@
         }
       },
       "log": "Chapter 37: Reprocessed Varg from the complete local source. Added seven scenes and the canonical Palrun and Refna profiles, revised the earlier departure and six thread records, verified 52 links and 31 summary mentions, reviewed all 199 clue candidates, and passed the pre-publication regression suite. Browser preview remains manual."
+    },
+    {
+      "chapter": 38,
+      "source": "book2/chapter 38.html",
+      "sourceHash": "e044af446146fe05d534c969c6b5d992b4a3fe8cf66f0606ca0479b1e1570b82",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch38.8s00VO",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-38",
+        "hashes": {
+          "ownership-review.md": "eae2309dbc42edccd2363801c1c55433e375e65e3a0c469c28c549d2b2f4c50c",
+          "event-review.md": "5d8e4141821b436960279dece1d88a5ac7242372d1f4eba19e45e981d5f39e58",
+          "thread-review.md": "120c4c3902d9ed36d3d6c634973f380b487f7925fba2ce2222402b4a19023e5c",
+          "thread-checklist.json": "796704aa0d4bf8a51215e03916f6e4206479df888486aca1c4ca50f90add9324",
+          "completion.json": "7353c472c26026260c47965b6e9783df26d473e9f3bc995ce22213a90b057d63",
+          "chapter.json": "e31ea892a6516b4a3d4de3252710c56252a251801e7b90266484cea872085713"
+        }
+      },
+      "log": "Chapter 38: Reprocessed Elvar’s arrival in Starl, the confrontation over Uspa and Ulfrir’s recognition of Orka. Kept the connection to the earlier howl and dream provisional and tracked the still-pending provisioning and departure. Reviewed 201 clue and thread candidates, passed all semantic gates and ran the prescribed regression suite. Visual confirmation remains unperformed."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "cf91f48efa69d10ac3f326b3726db04d3645b455209748fff5c0edbde9a37a98",
-    "book2/links.js": "55447ee17600ae162ddefd443e0736586ac9a3a3a0abedcd0c04db622290f170",
-    "book2/summaries.js": "45649f1ffb9acc27ac2c5eadadfaec3d87aeb6d0ad39326fa7a7db71ae9b2ed0"
+    "book2/nodes.js": "3b4b039078e18d075cd4b2e2327b0ee6ebddeb70d637d816df3b137cb4929d0d",
+    "book2/links.js": "50afa1a731bfdf0a024f80c4716a69bd4ee3c691be0e7a6403fa0d3e3aea4933",
+    "book2/summaries.js": "95adf9c785617d75185a028614ffbecb02280b6564e36f1525aeaef9c9badc83"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -648,9 +667,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "bbbf5561f207cdeeb543503390f41934263678534ec205263ea7235844c898f4",
-    "links": "ea1d266e666e706bc792269634e6681e846b4b470948e90cc238d6c3ccba4ae8",
-    "summaries": "51ac4572ce1a76f37970e9127b637db54e7b03ec5100bc45489e07f38d8a732a"
+    "nodes": "81fff2c5ac86073858ec1dfecd5bec2a270459860a757e9ab874917b9529f3df",
+    "links": "1e05cf41c2c8512f2f06851ddaff3d00956227dc1caf6c6f83d22a92e1d0822e",
+    "summaries": "4ded0d67c5b18ec46b9a2c09cfdf7d7bc07c596a6e72dd0c8e6dbefec7c4db6f"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

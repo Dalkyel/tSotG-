@@ -190,18 +190,10 @@ Use the parsed immutable reference so a search for the chapter number cannot
 pull in unrelated revisions or later chapter prose:
 
 ```sh
-node - 37 <<'JS'
-const assert = require('node:assert/strict');
-const archive = require('./.claude/skills/add-chapter/scripts/archive-records.cjs');
-const chapter = Number(process.argv[2]);
-const matches = archive.read('book2/rebuild/reference', 2, 'summaries')
-  .filter(({ value }) => value.chapter === chapter);
-assert.equal(matches.length, 1, 'Expected exactly one legacy summary for this chapter');
-console.log(matches[0].value.summary);
-JS
+node .claude/skills/add-chapter/scripts/reprocess.cjs --reference read-summary 38
 ```
 
-Replace `37` with the chapter under review. For discrepancies, check the source
+Replace `38` with the chapter under review. For discrepancies, check the source
 for the sequence of actions, who acted or reported each fact, and where the scene
 ends. Book Two Ch37's legacy summary placed Palrun's release after Logur's arrival,
 described a dead man as co-leading a later attack, and treated the intended

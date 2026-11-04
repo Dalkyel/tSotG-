@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch38 — turned the manual legacy-summary lookup into
+  `reprocess.cjs --reference read-summary CHAPTER` and clarified how to track a
+  recognition scene that adds evidence about an earlier signal without identifying
+  its source.
+
 - 2026-11-03: Book Two Ch37 — added a parsed, single-summary lookup for the
   legacy cross-check and documented how to verify sequence, attribution and the
   last observed action against the supplied source.

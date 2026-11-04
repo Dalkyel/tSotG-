@@ -1,0 +1,287 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 38 — ELVAR ──",
+  "nodes": [
+    {
+      "id": "llegada-battle-grim-starl",
+      "mode": "new",
+      "label": "El Encuentro en los Muelles de Starl",
+      "group": "EVENTO",
+      "type": "Evento — Atraque y encuentro",
+      "desc": "LIBRO 2, CAPÍTULO 38: El Wave-Jarl cruza el Lago Horndal, cargado de oro y plata de Oskutreð y con Ulfrir y Skuld a bordo. Ante la escasez de comida y bebida, Elvar ordena atracar en Starl y autoriza solo a Sighvat, Orv y Urt a bajar a comprar; teme que el resto divulgue la presencia de los dioses y el tesoro. Sólín gobierna la maniobra, Sighvat lanza la amarra y se coloca la pasarela. Desde el muelle se acercan dos guerreras y una mujer con collar de hierro. Halja se presenta como Bloodsworn y pregunta por Agnar; Elvar anuncia su muerte y se presenta como jefa. Halja pregunta si Uspa murió en el norte y su compañera exige que se la entreguen. Uspa se alegra de ver a Halja y se sorprende al reconocer a Orka, a quien creía muerta. Orka la invita a irse con ellas; Elvar se interpone y libera el brazo de la espada. Orka alza el hacha. Antes de que combatan, Ulfrir los detiene, se acerca seguido de Skuld, aspira hondo y saluda a Orka como «hija del lobo». El capítulo termina en ese saludo, antes de la compra, de una respuesta de Orka o de una decisión de Uspa.",
+      "star": ""
+    },
+    {
+      "id": "elvar",
+      "mode": "update",
+      "previousState": "Se afirma en el mando durante la escala en Starl.",
+      "descAppend": "LIBRO 2, CAPÍTULO 38: Viste la capa de piel de oso de Agnar y la brynja de Oskutreð, cuyo ajuste compara con el de una túnica. Siente a la vez el peso y la alegría del mando, que empezó a sentir verdaderamente suyo al someter a Ulfrir en el claro. Cree haber encontrado un rumbo para cumplir el blóð svarið y su promesa a Uspa, con la esperanza de librarse del Seiðr y mantener con vida a su compañía. Apenas le suena el nombre de Orka cuando Uspa lo pronuncia. Véase llegada-battle-grim-starl."
+    },
+    {
+      "id": "wave-jarl",
+      "mode": "update",
+      "previousState": "Cruza Horndal con el tesoro y atraca en Starl.",
+      "descAppend": "LIBRO 2, CAPÍTULO 38: El viento frío impulsa la nave a vela por Horndal. Para entrar en Starl se recoge la vela, se baja y asegura el mástil con un pasador y se rema al compás que Sighvat marca en un barril vacío. El peso del oro y la plata de Oskutreð la hace navegar baja y pesada. El metal va oculto bajo una lona hecha con vela de repuesto."
+    },
+    {
+      "id": "ulfrir",
+      "mode": "update",
+      "previousState": "Reconoce a Orka en la pasarela del Wave-Jarl.",
+      "descAppend": "LIBRO 2, CAPÍTULO 38: En el atraque de Starl va sentado cerca de popa con Uspa y Skuld. Interrumpe el enfrentamiento en la pasarela, mira fijamente a Orka, inspira hondo y la saluda sonriendo como «hija del lobo»; véase llegada-battle-grim-starl. No explica cómo la reconoce."
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "mode": "update",
+      "previousState": "La convergencia presencial en Starl queda confirmada.",
+      "descAppend": "LIBRO 2, CAPÍTULO 38: ESTADO: PARCIAL. Orka y Halja se encuentran con Elvar y los Battle-Grim en llegada-battle-grim-starl. Queda respondida la pregunta del encuentro; no se establece qué efecto tendrá para recuperar a Breca.",
+      "label": "Encuentro en Starl y Búsqueda de Breca",
+      "type": "Trama — Convergencia confirmada, consecuencias pendientes"
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "mode": "update",
+      "previousState": "El saludo de Ulfrir añade un indicio sin identificar al emisor.",
+      "descAppend": "LIBRO 2, CAPÍTULO 38: ESTADO: PARCIAL. Después del pulso y el aullido del capítulo 36 al acercarse la nave, Ulfrir, que viaja a bordo, llama a Orka «hija del lobo» en llegada-battle-grim-starl. El saludo vincula al dios con su reconocimiento, pero no demuestra que emitiera el aullido del muelle ni que fuera quien llamó a Orka en el sueño del capítulo 10."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "mode": "update",
+      "previousState": "El oro y la plata llegan a Starl a bordo.",
+      "descAppend": "LIBRO 2, CAPÍTULO 38: ESTADO: PARCIAL. El Wave-Jarl transporta hasta Starl el oro y la plata de Oskutreð, ocultos en cubierta. Quedan pendientes la venta o reparto y las consecuencias del uso del tesoro. Véase llegada-battle-grim-starl."
+    },
+    {
+      "id": "liberar-berak",
+      "mode": "update",
+      "previousState": "Elvar sigue contando su promesa entre sus obligaciones.",
+      "descAppend": "LIBRO 2, CAPÍTULO 38: ESTADO: ABIERTA. Al cruzar Horndal, Elvar recuerda su promesa de intentar liberar a Berak y la incorpora al rumbo que cree haber trazado. No explica cómo se propone obtener su libertad ni actúa aún ante Störr."
+    },
+    {
+      "id": "abasto-battle-grim-starl",
+      "mode": "new",
+      "label": "El Abastecimiento Pendiente en Starl",
+      "group": "TRAMA",
+      "type": "Trama — Compra y discreción",
+      "desc": "LIBRO 2, CAPÍTULO 38: PRIMERA EVIDENCIA: llegada-battle-grim-starl. Elvar encarga la compra de víveres y cerveza a Sighvat, Orv y Urt y retiene a los demás a bordo para guardar el secreto del cargamento y de los dos dioses. ESTADO: ABIERTA. Queda por ver si se abastecen y mantienen la discreción.",
+      "star": ""
+    },
+    {
+      "id": "salida-uspa-starl",
+      "mode": "new",
+      "label": "La Petición de Orka y Halja por Uspa",
+      "group": "TRAMA",
+      "type": "Trama — Salida y propósito pendientes",
+      "desc": "LIBRO 2, CAPÍTULO 38: PRIMERA EVIDENCIA: llegada-battle-grim-starl. Orka y Halja quieren que Uspa se vaya con ellas. Elvar se opone y Ulfrir interrumpe la confrontación. ESTADO: ABIERTA. Queda por saber para qué la buscan y si Uspa se irá con ellas.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "llegada-battle-grim-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "llegada-battle-grim-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "llegada-battle-grim-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "abasto-battle-grim-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "abasto-battle-grim-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "salida-uspa-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "salida-uspa-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "salida-uspa-starl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "avistamiento-battle-grim-starl",
+      "target": "llegada-battle-grim-starl",
+      "label": "precede a",
+      "type": "event"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "starl",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "wave-jarl",
+      "label": "se desarrolla junto a",
+      "type": "event"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "uspa",
+      "label": "gira en torno a",
+      "type": "event"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "skuld",
+      "label": "tiene como testigo a",
+      "type": "event"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "battle-grim",
+      "label": "marca la llegada de",
+      "type": "event"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "lake-horndal",
+      "label": "sigue a la travesía de",
+      "type": "geo"
+    },
+    {
+      "source": "elvar",
+      "target": "llegada-battle-grim-starl",
+      "label": "se interpone en",
+      "type": "event"
+    },
+    {
+      "source": "grend",
+      "target": "llegada-battle-grim-starl",
+      "label": "acompaña a Elvar en",
+      "type": "event"
+    },
+    {
+      "source": "sighvat",
+      "target": "llegada-battle-grim-starl",
+      "label": "lanza la amarra en",
+      "type": "event"
+    },
+    {
+      "source": "solin",
+      "target": "llegada-battle-grim-starl",
+      "label": "gobierna el barco en",
+      "type": "event"
+    },
+    {
+      "source": "halja",
+      "target": "llegada-battle-grim-starl",
+      "label": "se presenta en",
+      "type": "event"
+    },
+    {
+      "source": "orka",
+      "target": "llegada-battle-grim-starl",
+      "label": "exige la entrega de Uspa en",
+      "type": "event"
+    },
+    {
+      "source": "ulfrir",
+      "target": "llegada-battle-grim-starl",
+      "label": "interrumpe la confrontación en",
+      "type": "event"
+    },
+    {
+      "source": "ulfrir",
+      "target": "orka",
+      "label": "saluda como hija del lobo a",
+      "type": "rel"
+    },
+    {
+      "source": "uspa",
+      "target": "orka",
+      "label": "reconoce con sorpresa a",
+      "type": "rel"
+    },
+    {
+      "source": "uspa",
+      "target": "halja",
+      "label": "saluda con alegría a",
+      "type": "rel"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "convergencia-orka-battle-grim",
+      "label": "aporta evidencia a",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "llamada-lobo-orka",
+      "label": "aporta un indicio a",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "salida-uspa-starl",
+      "label": "da origen a",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "abasto-battle-grim-starl",
+      "label": "deja pendiente",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "destino-tesoros-oskutred",
+      "label": "aporta evidencia a",
+      "type": "trama"
+    },
+    {
+      "source": "sighvat",
+      "target": "abasto-battle-grim-starl",
+      "label": "recibe el encargo de realizar",
+      "type": "goal"
+    },
+    {
+      "source": "orv-sneak",
+      "target": "abasto-battle-grim-starl",
+      "label": "recibe el encargo de realizar",
+      "type": "goal"
+    },
+    {
+      "source": "urt-unwashed",
+      "target": "abasto-battle-grim-starl",
+      "label": "recibe el encargo de realizar",
+      "type": "goal"
+    },
+    {
+      "source": "salida-uspa-starl",
+      "target": "uspa",
+      "label": "concierne a",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 38,
+    "title": "Capítulo 38 — Elvar",
+    "summary": "<strong>Elvar</strong> cruza el <strong>Lago Horndal</strong> al mando del <strong>Wave-Jarl</strong>, pesado por el oro y la plata de <strong>Oskutreð</strong>. Siente el peso y la alegría del mando y cree haber encontrado un rumbo para cumplir el <strong>Blóð Svarið</strong> y su promesa de intentar liberar a <strong>Berak Bjornasson</strong>. Con la despensa casi vacía, decide atracar en <strong>Starl</strong> en vez de seguir por el <strong>Río Hvítá</strong>. <strong>Grend</strong> comparte su preocupación por las indiscreciones de la tripulación. Solo <strong>Sighvat</strong>, <strong>Orv el Sigiloso</strong> y <strong>Urt the Unwashed</strong> tienen permiso para bajar a comprar. <strong>Sólín</strong> lleva el barco al muelle mientras las riquezas permanecen cubiertas y <strong>Ulfrir</strong> y <strong>Skuld</strong> siguen a bordo.<br><br>Tres mujeres se acercan a la pasarela. <strong>Halja Nariz-Plana</strong> se presenta como Bloodsworn y pregunta por <strong>Agnar</strong>. Elvar anuncia su muerte y afirma que ella manda ahora. La mujer mayor exige la entrega de <strong>Uspa</strong> y Halja pregunta si ha muerto en el norte. Uspa saluda a Halja con alegría y reconoce con asombro a <strong>Orka Skullsplitter</strong>, a quien creía muerta. Orka le pide que se vaya con ellas. Elvar se interpone y despeja su brazo de la espada. Orka alza el hacha, pero Ulfrir detiene la confrontación. Seguido de Skuld, se acerca, inspira hondo y saluda a Orka como <em>«hija del lobo»</em>."
+  }
+}

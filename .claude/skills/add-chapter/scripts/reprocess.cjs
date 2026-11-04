@@ -179,8 +179,19 @@ function main(argv, root = path.resolve(__dirname, '../../../..')) {
     console.log(`PREPARED: ${run}\nBaseline: ${state.active.baseline}\nSource context: reviewed Book Two prefix only. Live files unchanged.`); return;
   }
   if (command === '--reference') {
-    const helper = args.shift(); assert.ok(readers.includes(helper), 'Reference mode is read-only');
-    return child(helper, args, path.join(stateRoot, 'reference'));
+    const helper = args.shift();
+    const referenceRoot = path.join(stateRoot, 'reference');
+    if (helper === 'read-summary') {
+      const chapter = Number(args[0]);
+      assert.ok(args.length === 1 && Number.isSafeInteger(chapter) && chapter > 0,
+        'Usage: reprocess.cjs --reference read-summary CHAPTER');
+      const matches = A.read(referenceRoot, 2, 'summaries').filter(({ value }) => value.chapter === chapter);
+      assert.equal(matches.length, 1, `Expected exactly one legacy summary for chapter ${chapter}`);
+      console.log(matches[0].value.summary);
+      return;
+    }
+    assert.ok(readers.includes(helper), 'Reference mode is read-only');
+    return child(helper, args, referenceRoot);
   }
   const active = state.active; assert.ok(active && active.chapter === next, 'Prepare the next chapter first');
   assert.equal(A.hash(fs.readFileSync(path.resolve(root, active.source))), active.sourceHash, 'Chapter source changed during the run');
