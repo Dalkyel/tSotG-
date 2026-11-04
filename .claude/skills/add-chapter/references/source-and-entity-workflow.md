@@ -76,6 +76,14 @@ archive as the factual baseline for an earlier replacement chapter.
    stem or translate names. This can confirm an existing staged id without exposing
    later reference labels; it does not establish an unfamiliar translation by itself.
 
+   **An exact given-name match can still be a namesake.** Check the candidate's
+   established role and chronology before reusing its id. Book Two Ch43's living
+   shield-dance contestant Bersi cannot inherit the profile of `bersi`, the captor
+   killed by Orka in Book One Ch33; the chapter supplies no survival or identity
+   connection. Use a separate id (`bersi-darl`) and a distinct non-parenthetical
+   label (`Bersi de la Danza de Escudos`) so summary mentions reach the intended
+   person. Do not change the earlier person's death or transfer their history.
+
    **A shared epithet is a candidate, not an identity merger.** When a newly revealed
    name matches an existing person's title, compare the independently established people,
    relationships and attributed history before reusing that person's id. Preserve the

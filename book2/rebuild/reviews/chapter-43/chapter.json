@@ -1,0 +1,329 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 43 — GUÐVARR ──",
+  "nodes": [
+    {
+      "id": "leif",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 43: Se presenta ante Helka como granjero de su distrito y contribuyente, dueño de una granja rica y de plata con que financiar la caza de Varg. Acusa a este de matar a su padre, robarle plata y huir de la esclavitud. Ha contratado a Sterkur y su banda mercenaria y pide permiso porque sabe de la relación entre la reina y los Bloodsworn. Obtiene su bendición; véase autorizacion-caza-varg.",
+      "previousState": "Contrata mercenarios y consigue autorización real.",
+      "starAppend": "LIBRO 2, CAPÍTULO 43: La amenaza de su reclamación se convierte en una caza financiada y autorizada: persecucion-leif-varg. No se muestra partida, encuentro ni captura."
+    },
+    {
+      "id": "helka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 43: Autoriza a Leif a cazar a Varg y expresa que no desea sino daño a los Bloodsworn, pese al encargo previo y ahora que Hakon está de vuelta. Les atribuye haber zarpado de Liga tras Jaromir y supone que ya están en Iskidan; véase autorizacion-caza-varg. Preside el festín de bienvenida y proclama vencedor a su hijo en danza-escudos-hakon.",
+      "previousState": "Autoriza la persecución y celebra a Hakon."
+    },
+    {
+      "id": "gudvarr",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 43: Durante el festín reconoce a Varg por la acusación de Leif y desea en privado que lo maten. Recuerda haber oído sagas sobre Sterkur y juzga engañosa su apariencia poco heroica. La mirada de Skalk le recuerda el hyrndur y su coacción. Busca favorecer a Hakon durante danza-escudos-hakon, alegando después un accidente ante Estrid. Se pregunta si el príncipe acabará esa noche en El Drengr Muerto, sin verlo acudir.",
+      "previousState": "Sabotea la carrera para favorecer al príncipe.",
+      "starAppend": "LIBRO 2, CAPÍTULO 43: Avanza el acercamiento a Hakon en encargo-gudvarr-darl, sin confidencias ni hallazgos. El recuerdo del hyrndur explica su conducta, sin nueva demostración de vigilancia o control; la oportunidad de los pergaminos y la causa del paso franco siguen abiertas."
+    },
+    {
+      "id": "hakon",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 43: Elige la danza de escudos para su festín, acepta el reto de Glunn y selecciona participantes. Incluye a Guðvarr al oír su saludo y tocarse la capa; acepta a Estrid tras intervenir Helka. Gana después del choque provocado por Guðvarr, se burla de su hermana y termina sonriendo al oír el apodo «Hakon the Humper»; véase danza-escudos-hakon.",
+      "previousState": "Gana el desafío de su bienvenida."
+    },
+    {
+      "id": "estrid",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 43: Se incorpora al desafío de su hermano con apoyo de Helka. Tras ser derribada por Guðvarr, lo acusa de hacerlo a propósito para favorecer a Hakon y rechaza las burlas de este; véase danza-escudos-hakon. La acusación de un pago es su sospecha, no un acuerdo demostrado.",
+      "previousState": "Compite y acusa a Guðvarr de sabotaje."
+    },
+    {
+      "id": "glunn-iron-grip",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 43: Joven rubio, bajo, ancho y musculoso, reta a Hakon en la danza de escudos. Mantiene buen equilibrio pese a su peso; Guðvarr lo adelanta haciendo oscilar su escudo. Cae al distraerse con el choque de Estrid y Guðvarr y después felicita a este por su maniobra; véase danza-escudos-hakon.",
+      "previousState": "Participa en la carrera y reconoce la maniobra de Guðvarr."
+    },
+    {
+      "id": "vilja",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 43: Sirve cerveza a Guðvarr durante la danza de escudos, lo acaricia y le promete al oído un premio para los vencedores. Él la busca entre la multitud al terminar y la ve sonreír; no se muestra el encuentro posterior.",
+      "previousState": "Reaparece durante el festín."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 43: ESTADO: PARCIAL. danza-escudos-hakon aporta una nueva oportunidad de favor: Hakon lo selecciona al recordar la capa y le agradece el elogio tras la victoria que Guðvarr facilita. No se demuestra amistad, confidencia ni hallazgo sobre Drekr; el posible encuentro nocturno es solo una pregunta privada.",
+      "previousState": "Avanza el favor público, no la investigación."
+    },
+    {
+      "id": "sterkur",
+      "mode": "new",
+      "label": "Sterkur Death-in-the-Eye",
+      "group": "VARG",
+      "type": "Personaje — Jefe mercenario",
+      "desc": "LIBRO 2, CAPÍTULO 43: Guerrero contratado por Leif con su banda para cazar a Varg. Lleva cota de malla, hacha, seax y un escudo con un ojo pintado en filigrana dorada; cabello claro grasiento y ojos muy pálidos, llorosos por el humo. Guðvarr recuerda sagas de su fuerza, astucia y pericia en holmganga; es reputación referida, no una proeza observada aquí. Acompaña a Leif ante la guardia de Helka y sale tras él; véase autorizacion-caza-varg.",
+      "star": ""
+    },
+    {
+      "id": "hafrun",
+      "mode": "new",
+      "label": "Hafrun",
+      "group": "ORKA",
+      "type": "Personaje — Participante del festín",
+      "desc": "LIBRO 2, CAPÍTULO 43: Hakon llama a Hafrun por su nombre entre los voluntarios de la danza de escudos. Sube al estrado sonriendo; no se individualiza su caída ni su puesto final. Véase danza-escudos-hakon.",
+      "star": ""
+    },
+    {
+      "id": "bersi-darl",
+      "mode": "new",
+      "label": "Bersi de la Danza de Escudos",
+      "group": "ORKA",
+      "type": "Personaje — Participante del festín",
+      "desc": "LIBRO 2, CAPÍTULO 43: Hakon llama a Bersi por su nombre entre los voluntarios de la danza de escudos. Sube al estrado sonriendo; no se individualiza su caída ni su puesto final. Véase danza-escudos-hakon. Es una persona distinta de bersi, el captor abatido por Orka en el Libro 1, capítulo 33.",
+      "star": ""
+    },
+    {
+      "id": "gunilla",
+      "mode": "new",
+      "label": "Gunilla",
+      "group": "ORKA",
+      "type": "Personaje — Participante del festín",
+      "desc": "LIBRO 2, CAPÍTULO 43: Hakon llama a Gunilla por su nombre entre los voluntarios de la danza de escudos. Sube al estrado sonriendo; no se individualiza su caída ni su puesto final. Véase danza-escudos-hakon.",
+      "star": ""
+    },
+    {
+      "id": "autorizacion-caza-varg",
+      "mode": "new",
+      "label": "La Autorización de Helka para Cazar a Varg",
+      "group": "EVENTO",
+      "type": "Evento — Audiencia en el festín",
+      "desc": "LIBRO 2, CAPÍTULO 43: En el festín de bienvenida a Hakon en Darl, Leif Kolskeggson pide permiso para cazar a Varg, a quien acusa de matar a su padre, robarle plata y huir de su granja. Explica que ha contratado a Sterkur Death-in-the-Eye y su banda y teme contrariar el encargo de la reina a los Bloodsworn. Helka autoriza expresamente la persecución y la muerte de Varg: Hakon ha regresado y desea daño a la compañía. Informa de su salida de Liga tras Jaromir y supone que ya se encuentran en Iskidan. Leif agradece la bendición y abandona el salón con Sterkur. Guðvarr escucha y desea en privado que maten a Varg. No se muestra el inicio del viaje ni un ataque; véase persecucion-leif-varg.",
+      "star": ""
+    },
+    {
+      "id": "danza-escudos-hakon",
+      "mode": "new",
+      "label": "La Danza de Escudos de Bienvenida a Hákon",
+      "group": "EVENTO",
+      "type": "Evento — Carrera y sabotaje",
+      "desc": "LIBRO 2, CAPÍTULO 43: En el salón de Darl, Hakon elige una carrera sobre escudos sostenidos a hombros por parejas de guerreros en un doble círculo, con cerveza al comenzar y en cada vuelta. Es una práctica preparatoria de la danza de remos; no un combate. Glunn reta al príncipe; Hafrun, Bersi de la Danza de Escudos y Gunilla figuran entre los elegidos. Guðvarr logra ser seleccionado al saludar a Hakon, que se toca la capa, y Estrid se suma con la intervención de Helka. Vilja sirve a Guðvarr y le ofrece un premio. Él recuerda el hyrndur al ver a Skalk, elimina a un corredor al hacer oscilar su escudo, adelanta a Glunn y se lanza contra Estrid cuando esta está a punto de alcanzar a Hakon. Caen ambos y Glunn pierde pie al mirarlos; Hakon queda vencedor. Estrid acusa a Guðvarr de actuar para su hermano; él finge que fue un error, sin pago demostrado, y elogia al príncipe. Helka proclama la victoria; Hakon se burla de Estrid y acepta con una sonrisa el apodo «Hakon the Humper». Guðvarr busca a Vilja y la ve sonreír. La escena termina antes de un encuentro posterior o de cualquier visita del príncipe a la taberna.",
+      "star": ""
+    },
+    {
+      "id": "persecucion-leif-varg",
+      "mode": "new",
+      "label": "La Caza de Varg por Leif y Sterkur",
+      "group": "TRAMA",
+      "type": "Trama — Persecución pendiente",
+      "desc": "LIBRO 2, CAPÍTULO 43: PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 43, autorizacion-caza-varg. Leif contrata a Sterkur y su banda y obtiene permiso de Helka para perseguir y matar a Varg. ESTADO: ABIERTA. Pendientes la partida, el encuentro y el desenlace de la caza. La supuesta presencia de los Bloodsworn en Iskidan es una inferencia de Helka, no una localización observada aquí. Varg no está presente y no se muestra que conozca esta nueva amenaza.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-orka",
+      "target": "hafrun",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "bersi-darl",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "gunilla",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "autorizacion-caza-varg",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "danza-escudos-hakon",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "sterkur",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "autorizacion-caza-varg",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "persecucion-leif-varg",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "autorizacion-caza-varg",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "danza-escudos-hakon",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "persecucion-leif-varg",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "leif",
+      "target": "autorizacion-caza-varg",
+      "label": "solicita",
+      "type": "event"
+    },
+    {
+      "source": "helka",
+      "target": "autorizacion-caza-varg",
+      "label": "concede",
+      "type": "event"
+    },
+    {
+      "source": "sterkur",
+      "target": "autorizacion-caza-varg",
+      "label": "acompaña a Leif durante",
+      "type": "event"
+    },
+    {
+      "source": "gudvarr",
+      "target": "autorizacion-caza-varg",
+      "label": "escucha",
+      "type": "event"
+    },
+    {
+      "source": "autorizacion-caza-varg",
+      "target": "darl",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "leif",
+      "target": "sterkur",
+      "label": "contrata para cazar a Varg",
+      "type": "rel"
+    },
+    {
+      "source": "persecucion-leif-varg",
+      "target": "autorizacion-caza-varg",
+      "label": "se inicia con",
+      "type": "event"
+    },
+    {
+      "source": "leif",
+      "target": "persecucion-leif-varg",
+      "label": "financia y promueve",
+      "type": "goal"
+    },
+    {
+      "source": "sterkur",
+      "target": "persecucion-leif-varg",
+      "label": "es contratado para ejecutar",
+      "type": "goal"
+    },
+    {
+      "source": "persecucion-leif-varg",
+      "target": "varg",
+      "label": "amenaza con perseguir y matar a",
+      "type": "conflict"
+    },
+    {
+      "source": "persecucion-leif-varg",
+      "target": "helka",
+      "label": "cuenta con la autorización de",
+      "type": "rel"
+    },
+    {
+      "source": "hakon",
+      "target": "danza-escudos-hakon",
+      "label": "elige y gana",
+      "type": "event"
+    },
+    {
+      "source": "estrid",
+      "target": "danza-escudos-hakon",
+      "label": "compite y es derribada en",
+      "type": "event"
+    },
+    {
+      "source": "gudvarr",
+      "target": "danza-escudos-hakon",
+      "label": "sabotea para favorecer a Hakon",
+      "type": "event"
+    },
+    {
+      "source": "glunn-iron-grip",
+      "target": "danza-escudos-hakon",
+      "label": "reta a Hakon y compite en",
+      "type": "event"
+    },
+    {
+      "source": "hafrun",
+      "target": "danza-escudos-hakon",
+      "label": "es seleccionado para",
+      "type": "event"
+    },
+    {
+      "source": "bersi-darl",
+      "target": "danza-escudos-hakon",
+      "label": "es seleccionado para",
+      "type": "event"
+    },
+    {
+      "source": "gunilla",
+      "target": "danza-escudos-hakon",
+      "label": "es seleccionada para",
+      "type": "event"
+    },
+    {
+      "source": "vilja",
+      "target": "danza-escudos-hakon",
+      "label": "sirve cerveza durante",
+      "type": "event"
+    },
+    {
+      "source": "helka",
+      "target": "danza-escudos-hakon",
+      "label": "proclama al vencedor de",
+      "type": "event"
+    },
+    {
+      "source": "danza-escudos-hakon",
+      "target": "darl",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "encargo-gudvarr-darl",
+      "target": "danza-escudos-hakon",
+      "label": "avanza con el favor buscado en",
+      "type": "trama"
+    },
+    {
+      "source": "gudvarr",
+      "target": "estrid",
+      "label": "derriba deliberadamente en la carrera",
+      "type": "conflict"
+    }
+  ],
+  "summary": {
+    "chapter": 43,
+    "title": "Capítulo 43 — Guðvarr",
+    "summary": "En el festín de bienvenida de <strong>Hakon</strong> en <strong>Darl</strong>, <strong>Leif Kolskeggson</strong> pide permiso a la <strong>Reina Helka</strong> para cazar a <strong>Varg</strong>. Lo acusa de matar a su padre y huir con su plata. Ha contratado a <strong>Sterkur Death-in-the-Eye</strong> y su banda mercenaria, pero teme contrariar la relación de la reina con los Bloodsworn. Helka le da su bendición y afirma que, recuperado su hijo, solo desea daño a la compañía. Informa de que partió de Liga tras Jaromir y supone que ya está en Iskidan; Leif sale con Sterkur, sin que se muestre aún la persecución.<br><br>El príncipe elige una danza de escudos para cerrar el festín. <strong>Glunn Iron-Grip</strong> lo reta y <strong>Guðvarr</strong> consigue ser seleccionado al saludarlo: Hakon se toca la capa que recibió de él. También participan Hafrun, Bersi de la Danza de Escudos, Gunilla y la <strong>Princesa Estrid Helkasdóttir</strong>, que se suma con apoyo de su madre. Los corredores saltan sobre escudos sostenidos por guerreros y beben cerveza en cada vuelta. <strong>Vilja</strong> sirve a Guðvarr y le promete un premio al oído.<br><br>La mirada de Skalk le recuerda el hyrndur y su encargo. Guðvarr elimina a un corredor, adelanta a Glunn y se lanza contra Estrid cuando está a punto de alcanzar a su hermano. Ambos caen, Glunn pierde pie al mirarlos y Hakon gana. Estrid denuncia el sabotaje; Guðvarr alega un accidente y felicita al príncipe, que se burla de su hermana. Helka proclama la victoria y Hakon termina sonriendo ante el apodo <em>Hakon the Humper</em>. Guðvarr se pregunta si irá a El Drengr Muerto esa noche y busca a Vilja entre la multitud; solo la ve sonreír antes de que termine la escena."
+  }
+}

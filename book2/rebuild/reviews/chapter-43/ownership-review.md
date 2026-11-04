@@ -1,0 +1,6 @@
+# Ownership — Libro 2, capítulo 43
+Fuente completa: book2/chapter 43.html, páginas 1–2 hasta END.
+Leídos y auditados íntegros: leif, helka, gudvarr, hakon, estrid, glunn-iron-grip, vilja, encargo-gudvarr-darl; bersi se leyó para distinguir identidades. Sus historias acumuladas pertenecen a los sujetos y no requieren reparación previa.
+Se revisaron los 15 nodos (verify --review-nodes páginas 1–2), 34 frases de enlace, menciones del resumen y solapamientos. Las tres coincidencias entre Hafrun, Bersi y Gunilla son participación conjunta explícita, no relatos de otra persona: cada perfil solo contiene su selección y subida al estrado. Los acontecimientos completos pertenecen a autorizacion-caza-varg y danza-escudos-hakon; la trama del encargo conserva estado y referencia. Reputación de Sterkur atribuida a las sagas que recuerda Guðvarr; acusaciones de Leif y Estrid atribuidas; inferencia sobre Iskidan atribuida a Helka. No se actualiza Varg ausente ni conceptos por ejemplos particulares.
+Bersi de la Danza de Escudos no se fusiona con el captor muerto de Book 1 Ch33. Hafrun y Gunilla no heredan acciones individuales no indicadas. Se preservan desc/star mediante el appender y verificación de prefijos.
+Ownership review: PASS

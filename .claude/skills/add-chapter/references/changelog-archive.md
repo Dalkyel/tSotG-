@@ -1,5 +1,10 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch43 — an exact Bersi name match pointed to the captor
+  killed in Book One Ch33, while the source introduces a living shield-dance
+  contestant. Added the role/chronology check and separate-id, distinct-label
+  procedure to source/entity resolution. Fully absorbed there; archived immediately.
+
 - 2026-11-03: Book Two Ch42 — publication exposed Sterkur's Ch43 introduction
   under the Ch42 section. Added explicit `afterChapter` support to `reconcile-later`,
   retaining before/after, unchanged-record, hash and reviewed-prefix guards. The audit

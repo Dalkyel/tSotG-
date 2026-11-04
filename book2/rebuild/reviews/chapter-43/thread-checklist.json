@@ -1,0 +1,2063 @@
+{
+  "book": 2,
+  "chapter": 43,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch43.biCdt3/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Emisor del sueño antiguo y mecanismo; mujer enjaulada, sensibilidad, discrepancia de edad e historia de Skullsplitter. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Emisor del sueño antiguo y mecanismo; mujer enjaulada, sensibilidad, discrepancia de edad e historia de Skullsplitter."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Prueba de sangre y consecuencias en sangre-thorkel. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Rescate, curación completa, poderes prácticos y papel en el rito. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Rescate, curación completa, poderes prácticos y papel en el rito."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autores del ataque familiar. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autores del ataque familiar. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 43: «Snaka» conserva su nota temática o descriptiva; la audiencia y carrera no ponen a prueba esa observación.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 43: «Guðfalla (Caída de Dioses)» conserva su nota temática o descriptiva; la audiencia y carrera no ponen a prueba esa observación.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Responsables y circunstancias del ataque. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Responsables y circunstancias del ataque."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Origen de las heridas del Fell-Wolf. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Leif lo convierte en objetivo de una nueva caza sin que esté presente o sepa de ella: persecucion-leif-varg. No hay experiencia de Varg que responda a sus otras pistas (control, padres, edad, sensibilidad, Frøya, akáll, juramento o seax).",
+      "remaining": "Amenaza de Myrk, además de Control sostenido y secreto, sensibilidad, padres, edad, vínculo y destino de Frøya, akáll, juramento y forja del seax."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Leif vuelve a acusar a Varg de matar a su padre; no nombra al padre ni al liberto ni equipara Snepil con Kolskegg. No resuelve la colisión histórica.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Einar Medio-Trol»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Varg aún debe encontrar a Brák. Destino de Frøya, rito y venganza. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Varg aún debe encontrar a Brák. Destino de Frøya, rito y venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Contenido Revelado de la Bolsa de Varg»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: La acusación de Leif repite la huida y muerte del padre; no relata la laguna ni aporta origen, edad, control, sensibilidad o explicación del vínculo con Frøya.",
+      "remaining": "Control y secreto, sensibilidad, padres, edad y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Alcance y autoría de los raptos. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 43: La capa favorece su selección y ayuda deliberadamente a Hakon a ganar. La mirada de Skalk le recuerda el hyrndur, sin nueva prueba del mecanismo; taberna y pago son pregunta privada y sospecha de Estrid, respectivamente. No usa pergaminos ni explica el umbral.",
+      "remaining": "Amistad y hallazgos; uso de pergaminos; detección autónoma, extracción y causa del paso franco."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Plan político oculto y reacción a Elvar. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Causa de la sensibilidad. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: La autorización de una caza y presencia de vasallos no celebran la reunión con Orlyg ni revelan términos de un pacto o guerra con Störr.",
+      "remaining": "Reunión con Orlyg, términos, expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: La audiencia sobre Varg y el festín no identifican niños, rutas o autores; el retorno de Hakon no demuestra conocimiento de Helka de los raptos.",
+      "remaining": "Salida segura del grupo, otros desaparecidos y grupos, responsables y alcance de los raptos."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Paradero o muerte, vínculo sensible y linaje. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Paradero o muerte, vínculo sensible y linaje."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 43: Reaparece, contrata a Sterkur y obtiene autorización real; la reclamación de Book 1 se convierte en persecución concreta. Véanse autorizacion-caza-varg y persecucion-leif-varg.",
+      "remaining": "Partida, encuentro y desenlace de la caza; libertad de Varg frente a la reclamación."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Rescate de Bjarn, libertad de Berak, venganza contra Biórr, control sostenido y preguntas históricas de sus tramas. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Rescate de Bjarn, libertad de Berak, venganza contra Biórr, control sostenido y preguntas históricas de sus tramas."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Juramento antiguo, historia con Gytha y reacción a Ulfrir. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Juramento antiguo, historia con Gytha y reacción a Ulfrir."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Causa de los presentimientos. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Alcance de su colaboración con la hueste y situación del blóð svarið. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Alcance de su colaboración con la hueste y situación del blóð svarið."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Responsable de azotes, familia, represalia, genealogía y decisiones futuras. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Responsable de azotes, familia, represalia, genealogía y decisiones futuras."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Berak Bjornasson»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Asalto y Persecución en Iskalt»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Mecanismo en percepcion-liberacion-lik-rifa. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Mecanismo del aviso y sueños. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Objeto Quemado de Iskalt: Graskinna»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 43: «Snakavik» conserva su nota temática o descriptiva; la audiencia y carrera no ponen a prueba esa observación.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Pasado de Elvar»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Venta de Berak (pendiente)»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Recuperación, obediencia sostenida, enfrentamiento con Lik-Rifa y conexión con Orka. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Recuperación, obediencia sostenida, enfrentamiento con Lik-Rifa y conexión con Orka."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Conciliar edades; madre, mujer enjaulada, sensibilidad e historia de Skullsplitter. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Conciliar edades; madre, mujer enjaulada, sensibilidad e historia de Skullsplitter."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Helka lo nombra como objetivo perseguido; su inferencia de destino no localiza a Vol ni al cofre ni demuestra captura, entrega de huesos o solución de la reclamación.",
+      "remaining": "Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Hechos, culpabilidad y resolución de sulich-crisis. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Pruebas, culpabilidad y resolución. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Pruebas, culpabilidad y resolución."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Formalización del juramento de sangre. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Causalidad de piedra-gusanos. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Si la roca los atrajo y cómo. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Existencia Contemporánea de los Dragon-Born»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Referente de las palabras de Thorkel."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autores y motivo del ataque al fresno. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Partida Familiar Truncada»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Sangre, detección y consecuencias. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autores, motivo y conexión con los raptos. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autores, motivo y conexión con los raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Venganza por Virk y Mord y seguridad de Lif. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Venganza por Virk y Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Si recibirá la enseñanza pedida. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Partida de Liga (Bloodsworn)»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Causa de la sensación junto a la viga. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Causa de la sensación junto a la viga."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Salida de Liga Pendiente»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Garras, papel de Breca y venganza. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Garras, papel de Breca y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Rescate, curación, trayecto original y ejecución del intercambio con Elvar. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Rescate, curación, trayecto original y ejecución del intercambio con Elvar."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Circunstancias de su muerte. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Identidad histórica, parentesco y sucesión en los testimonios. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Identidad histórica, parentesco y sucesión en los testimonios."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Emboscada de Jaromir en el Muelle de Liga»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Motivos completos respecto de Logur y crisis. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Forja, garras y ajuste de cuentas. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Forja, garras y ajuste de cuentas."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Entierro de Thorkel y Juramento de Venganza de Orka»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Su mirada mantiene la coacción psicológica; no aporta solución sobre el norte, manuscritos, Vol o represalia. La conducta de Guðvarr no demuestra poderes nuevos del hyrndur.",
+      "remaining": "Amenaza del norte, manuscritos, Vol y represalia de Glornir."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Encargo de Helka y Partida de los Bloodsworn hacia el Norte»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Responsables, víctimas y alcance. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Responsables, víctimas y alcance."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Desembarco de la Reina Helka en Liga»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Plan de Störr para Elvar. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Hrung»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Llegada a Snakavik y Venta de Berak a Jarl Störr»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Revelación de Elvar como Hija de Jarl Störr»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Infiltración en Fellur y Rescate de Mord y Lif»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Sigrún presencia el festín, sin anunciar perdón, nueva orden o consecuencia legal contra Orka.",
+      "remaining": "Consecuencias legales y siguientes medidas contra Orka."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 43: «Thorun» conserva su nota temática o descriptiva; la audiencia y carrera no ponen a prueba esa observación.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 43: «Broðir» conserva su nota temática o descriptiva; la audiencia y carrera no ponen a prueba esa observación.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Historia compartida y obligaciones. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Oferta de Reconciliación de Jarl Störr a Elvar»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Elvar Rechaza la Oferta de Störr»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Motivo de la Huida de Uspa: la Persecución de Ilska»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Fuga por el Fiordo y Pacto con Mord y Lif»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Preparación para vencer a Guðvarr. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Preparación para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Intención real de Störr. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Raid de los Raven-Feeders a la Taberna»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «El Secreto de Uspa y el Precio del Rescate»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Recuperar a Bjarn y cumplir el juramento; recuperación colectiva en secuelas-seidr-ninos. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Recuperar a Bjarn y cumplir el juramento; recuperación colectiva en secuelas-seidr-ninos."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «¿Conoce Uspa el Camino a Oskutreð?»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Desenlace del feudo colectivo. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Cumplimiento del rito. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Destino del Näcken del río y vínculo con la amenaza del norte. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Destino del Näcken del río y vínculo con la amenaza del norte."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Constructor, resistencia al calor y autor de la antigua huella. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Constructor, resistencia al calor y autor de la antigua huella."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Cumplimiento, alcance de la sanción y situación de Kráka. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Cumplimiento, alcance de la sanción y situación de Kráka."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Plan paterno y reacción a decisión. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Destino de sus habitantes. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Desembarco en el Slågen y Marcha a las Boneback»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Travesía y Entrenamiento Hacia Darl»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Llegada a Darl y Desembarco de Helka»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Identidad, linaje y libertad del guerrero. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Identidad, linaje y libertad del guerrero."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Conocimiento o autorización de Helka. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Conocimiento o autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Rescate, recuperación y transmisión de la pista a Orka. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Rescate, recuperación y transmisión de la pista a Orka."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Combate en El Drengr Muerto»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Varg Rechaza el Trato de Skalk»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autoría y mecanismo de matanza. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Significado de la marca. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: La competición y el reconocimiento de la capa no revelan el trato con Drekr ni el conocimiento de Helka. La posibilidad de visita nocturna solo la imagina Guðvarr.",
+      "remaining": "Acuerdos y propósito de Hakon, alcance de las visitas y conocimiento o autorización de Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Historia afectiva y reencuentro. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autores, número y amenaza próxima. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autor de huella y puente. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «La Ayuda de Torvik Queda Truncada»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Mecanismo de poder y sensibilidad de Varg. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Varg Sobrevive a la Espada de Hueso»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Quién, cuándo/por qué, familia y represalia. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Venta, distribución y consecuencias de los usos del botín. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Venta, distribución y consecuencias de los usos del botín."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Paradero, liberación, suturas y collar de Vol. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Paradero, liberación, suturas y collar de Vol."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Ocupantes anteriores, mecanismo de salida de Rotta y trayecto de Breca. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Ocupantes anteriores, mecanismo de salida de Rotta y trayecto de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autoría y conexiones del altar. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Autores de altares y relación con la red de Drekr. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Autores de altares y relación con la red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Revelación: los Bloodsworn son Tainted»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Invitación de Glornir y Partida Anunciada para Rescatar a Vol»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Portador de Orna y genealogía exacta de Biórr. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Portador de Orna y genealogía exacta de Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Circunstancias de muerte. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Encuentro con Vörn en Oskutreð»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Llegada de Ilska a la Llanura de Batalla»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Emboscada en el Bosque del Grimholt»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Mujer del sabueso y composición restante de captores. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Holmganga: Agnar vs Skrið»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Revelación de los Dragon-Born y los Niños Cautivos»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Traición de Biórr»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Motivo de la Traición de Biórr Revelado»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Papel de Hakon y composición de los captores en tramas separadas. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Papel de Hakon y composición de los captores en tramas separadas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Muerte Confirmada de Mord en el Grimholt»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Batalla de los Muros de Escudos en Oskutreð»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Liberación de Lik-Rifa»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Niños y conocimiento de Helka aparte."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Uspa Sobrevive a la Apertura de Oskutreð»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Muerte de Vörn Confirmada»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Recuperación completa, seguridad, gobierno, reunión de fieles, enfrentamiento con Ulfrir y explicación de la cita occidental. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Recuperación completa, seguridad, gobierno, reunión de fieles, enfrentamiento con Ulfrir y explicación de la cita occidental."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Convergencia en el Grimholt»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Sepultura de Mord Cumplida»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Mecanismo y alcance del aviso y los sueños; origen y veracidad del rumor oído en Starl. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Mecanismo y alcance del aviso y los sueños; origen y veracidad del rumor oído en Starl."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Encuentro y desenlace de la represalia. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Encuentro y desenlace de la represalia."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Poder del arco frente a flechas. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Forja y relación de los seaxes. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Forja y relación de los seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Si habrá represalia por Torvik, contra quién y por quién. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Si habrá represalia por Torvik, contra quién y por quién."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Contenido, cubierta y protecciones. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Ataque de las Criaturas de Lik-Rifa en Vergelmir»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Cooperación sostenida y recuperación de Ulfrir, encuentro con el dragón y desenlace. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Cooperación sostenida y recuperación de Ulfrir, encuentro con el dragón y desenlace."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Alcance, mecanismos y cubierta. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Entrega del encargo, liberación, duelo y represalia. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Entrega del encargo, liberación, duelo y represalia."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Intento efectivo y libertad. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Intento efectivo y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Origen del sueño del capítulo 10, mecanismo y relación con Varg. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Origen del sueño del capítulo 10, mecanismo y relación con Varg."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Qué entendió Lif y consecuencias para el secreto. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Qué entendió Lif y consecuencias para el secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Identidad, origen y significado de la llamada a Varg. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Identidad, origen y significado de la llamada a Varg."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Destino de Frøya. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Brimil (†)»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Interrogatorio en la Aldea de Njal»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Emboscada del Culto del Dragón en la Aldea de Njal»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Causa del desasosiego previo y relación con Orka o el Grimholt. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Causa del desasosiego previo y relación con Orka o el Grimholt."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "La Guardia del Isbrún y el Regreso de los Tennúr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «La Guardia del Isbrún y el Regreso de los Tennúr»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Trayecto de Breca, tatuajes y escape de Rotta. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Trayecto de Breca, tatuajes y escape de Rotta."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Significado, portadores y universalidad. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Significado, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Cómo salió del encierro y qué ocurrió hasta su aparición en Nastrandir. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Cómo salió del encierro y qué ocurrió hasta su aparición en Nastrandir."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Identidades, autores y afiliación efectiva. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "Elvar Sucede a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Elvar Sucede a Agnar»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Enfrenta a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Varg se Enfrenta a Brimil»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "audiencia-gudvarr-helka",
+      "label": "La Recompensa y el Encargo de Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Contenido exacto de la petición anterior. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Contenido exacto de la petición anterior."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "label": "El Encargo de Guðvarr sobre Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 43: Hakon lo elige tras tocarse la capa y acepta su elogio después del sabotaje. danza-escudos-hakon avanza el favor público; no hay confidencia sobre Drekr ni resultado de la pesquisa.",
+      "remaining": "Amistad, hallazgos y resultado de la investigación."
+    },
+    {
+      "id": "aprendizaje-estrid-frek",
+      "label": "La Petición de Instrucción de Estrid",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: La destreza de Estrid en una carrera no muestra instrucción de Frek ni identifica qué aprendió de él.",
+      "remaining": "Si recibe la instrucción y qué aprende."
+    },
+    {
+      "id": "venganza-halja",
+      "label": "Halja Quiere Ajustar Cuentas por Vali",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Responsables y desenlace de la represalia. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Responsables y desenlace de la represalia."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "label": "¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Participación individual de Breca en el rito y conexión con el asesinato de Thorkel. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Participación individual de Breca en el rito y conexión con el asesinato de Thorkel."
+    },
+    {
+      "id": "kuru",
+      "label": "Kuru",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Supervivencia de Kuru. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Supervivencia de Kuru."
+    },
+    {
+      "id": "implantacion-hyrndur",
+      "label": "El Espía dentro del Espía",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Identidad del halcón de la empalizada; vigilancia autónoma en vigilancia-hyrndur-gudvarr. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Identidad del halcón de la empalizada; vigilancia autónoma en vigilancia-hyrndur-gudvarr."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "label": "El Control del Hyrndur sobre Guðvarr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Guðvarr recuerda el insecto al mirar a Skalk y actúa por miedo. No se describe movimiento nuevo, detección autónoma, extracción o ayuda de Sigrún.",
+      "remaining": "Posición exacta, vigilancia autónoma, extracción, supervivencia y ayuda efectiva."
+    },
+    {
+      "id": "origen-estallido-darl",
+      "label": "¿Qué Provocó el Estallido cerca de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Causa del estallido concreto. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Causa del estallido concreto."
+    },
+    {
+      "id": "destino-huesos-hraeg",
+      "label": "¿Llegarán los Huesos de Hraeg al Padre de Jaromir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Entrega, recompensa e identificación independiente. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Entrega, recompensa e identificación independiente."
+    },
+    {
+      "id": "destino-grieta-darl",
+      "label": "Supervivencia de Skalk, Yrsa y Sturla",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: Skalk sigue vivo, corroborando una supervivencia ya observada en Ch27; no se explica la ruta de salida.",
+      "remaining": "none"
+    },
+    {
+      "id": "cura-taras",
+      "label": "La Promesa de Iva a Taras",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Si Iva lo cura y cómo. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Si Iva lo cura y cómo."
+    },
+    {
+      "id": "umbral-torre-darl",
+      "label": "¿Por Qué Cede el Umbral de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: La presencia actual de Skalk y Guðvarr no distingue entre interrupción del hechizo y protección solo de entrada.",
+      "remaining": "Si el hechizo se interrumpió con la caída o solo actuaba al entrar."
+    },
+    {
+      "id": "venganza-jokul",
+      "label": "Vengar a Jökul",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Guðvarr está vivo en el festín y desea la muerte de Varg; no enfrenta a los vengadores ni hay represalia por Jökul.",
+      "remaining": "Desenlace de la venganza."
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "label": "La Caza de Jaromir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Helka relata la salida de Liga y supone una llegada a Iskidan, ya perseguido por la compañía según Ch37. No se observa intercepción, captura, entrega ni pago.",
+      "remaining": "Intercepción, captura o muerte, entrega y pago."
+    },
+    {
+      "id": "salida-darl-hakon",
+      "label": "La Liberación y el Regreso de Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El festín confirma el regreso ya resuelto en Ch41, sin reabrir el compromiso ni modificar su cierre.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-glornir-skalk",
+      "label": "La Amenaza de Glornir contra Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Skalk está vivo en el salón; Glornir no vuelve ni ejecuta su amenaza.",
+      "remaining": "Si Glornir regresa y mata a Skalk."
+    },
+    {
+      "id": "sepultura-huld",
+      "label": "El Túmulo Ordenado para Huld",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Construcción del túmulo. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Construcción del túmulo."
+    },
+    {
+      "id": "retorno-wave-jarl",
+      "label": "El Regreso al Wave-Jarl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «El Regreso al Wave-Jarl»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "brak-trolls-bane",
+      "label": "Brák Trolls-Bane",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Identidad retrospectiva, destino de Frøya y origen de los seaxes. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Identidad retrospectiva, destino de Frøya y origen de los seaxes."
+    },
+    {
+      "id": "holmganga-orka-myrk",
+      "label": "La Holmganga Prometida entre Orka y Myrk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Encontrar a Breca, liberar a Myrk y celebrar el duelo. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Encontrar a Breca, liberar a Myrk y celebrar el duelo."
+    },
+    {
+      "id": "venganza-myrk-varg",
+      "label": "La Amenaza de Myrk contra Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Si Myrk lo alcanza y cumple su amenaza. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Si Myrk lo alcanza y cumple su amenaza."
+    },
+    {
+      "id": "destino-testigos-torre",
+      "label": "¿Dónde Están los Testigos Presos de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Paradero y destino de los testigos retenidos. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Paradero y destino de los testigos retenidos."
+    },
+    {
+      "id": "promesa-ulfrir-battle-grim",
+      "label": "La Promesa de Ulfrir a los Battle-Grim",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Si cumple su compromiso de no devorar a más miembros. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Si cumple su compromiso de no devorar a más miembros."
+    },
+    {
+      "id": "secuelas-seidr-ninos",
+      "label": "¿Se Recuperarán los Niños del Sometimiento?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Recuperación completa de todos los niños y causa de todos los síntomas. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Recuperación completa de todos los niños y causa de todos los síntomas."
+    },
+    {
+      "id": "saeunn",
+      "label": "Sæunn",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Papel para Orka y destino del collar. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Papel para Orka y destino del collar."
+    },
+    {
+      "id": "avistamiento-battle-grim-starl",
+      "label": "Orka Avista un Drakkar de los Battle-Grim en Starl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 43: El capítulo no reabre el episodio cerrado «Orka Avista un Drakkar de los Battle-Grim en Starl»; véase la separación de desenlaces y preguntas conservada en el índice de Ch42.",
+      "remaining": "none"
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "label": "Encuentro en Starl y Búsqueda de Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Términos, ejecución del intercambio y recuperación de Breca. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Términos, ejecución del intercambio y recuperación de Breca."
+    },
+    {
+      "id": "compra-tainted-starl",
+      "label": "¿Para Qué Compra Orka una Thrall Tainted en Starl?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Requisito susurrado, papel de Sæunn e incomodidad de Orka. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Requisito susurrado, papel de Sæunn e incomodidad de Orka."
+    },
+    {
+      "id": "sangre-caballo-myrk",
+      "label": "¿Para Qué Guarda Orka la Sangre del Caballo de Myrk?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Si se trata de un uso Seiðr u otro fin, y si vuelve a emplear la tela guardada. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Si se trata de un uso Seiðr u otro fin, y si vuelve a emplear la tela guardada."
+    },
+    {
+      "id": "abasto-battle-grim-starl",
+      "label": "El Abastecimiento Pendiente en Starl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: Abastecimiento efectivo y preservación del secreto. La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "Abastecimiento efectivo y preservación del secreto."
+    },
+    {
+      "id": "salida-uspa-starl",
+      "label": "Uspa Rechaza Marcharse con Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Pregunta conservada: none La fuente solo muestra la audiencia de Leif y la competición en Darl; no aporta testimonio ni acción sobre esta cuestión. Véase el alcance por familias en thread-review.md.",
+      "remaining": "none"
+    },
+    {
+      "id": "resucitar-orna",
+      "label": "¿Podría Volver a Vivir Orna?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Los huesos están en las vigas durante el festín; no se acepta ni intenta devolver la vida a Orna.",
+      "remaining": "Si se acepta o intenta la petición y si es posible devolverle la vida a Orna."
+    },
+    {
+      "id": "reunion-helka-orlyg",
+      "label": "La Reunión de Helka con Jarl Orlyg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 43: Sigrún, Glunn y Svard están en Darl, pero no aparece Orlyg ni se celebra una reunión diplomática.",
+      "remaining": "Llegada de Orlyg, celebración, términos y resultado de la reunión."
+    },
+    {
+      "id": "persecucion-leif-varg",
+      "label": "La Caza de Varg por Leif y Sterkur",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 43: Nueva pregunta explícita en autorizacion-caza-varg: Leif ha contratado mercenarios y Helka autoriza matar a Varg. La salida del salón no demuestra partida hacia Iskidan.",
+      "remaining": "Partida, encuentro y desenlace de la caza."
+    }
+  ]
+}
