@@ -176,20 +176,23 @@ A missing marker is inconclusive: legacy descriptions may omit it or use differe
 wording. Continue with the participant-name search above when the chapter-marker
 results leave an identity unsettled.
 
-For a Guðvarr or Biórr chapter, choose the prose selection from the unfiltered
-index and chapter evidence **before opening page 1**. A profile's stored arc tag is
-not the chapter's viewpoint: Biórr's `ELVAR` tag does not by itself require
-`--pov ELVAR`. In Ch40, that selection retrieved 96 candidates across 15 pages,
-including Elvar's unrelated family and political history. When the affected families
-can be bounded, use `read-backlog 1 --compact --untagged --include ID` with the
-launcher. Include the POV's own clue owner and every affected tagged candidate;
-for a captive-arrival chapter, consider the individual children, both rescuers'
-threads, recovery, the dragon's objectives and the opposing campaign, not just
-characters present. Record the chosen families and why the remaining arcs are
-unaffected, then save the wrapper and read the same selection through END.
-If relevance cannot be bounded, use the applicable `--pov` selection or unfiltered
-prose. Keep the unfiltered per-ID checklist in every case; narrower prose selection
-does not reduce cross-POV review obligations.
+Biórr and Guðvarr now have dedicated registered arcs, `BIORR`/`cat-biorr` and
+`GUDVARR`/`cat-gudvarr`, beginning with their first POV chapters, 5 and 12.
+For their chapters, start with the unfiltered index, then select `--pov BIORR` or
+`--pov GUDVARR` plus every affected cross-POV family. Shared candidates retain all
+confirmed tags and are included by any matching POV; do not treat the first displayed
+tag as exclusive ownership. A category tie records narrative relevance, not private
+knowledge or physical presence. Keep all untagged candidates and the all-POV checklist.
+
+An older chronological context can predate the new arc's introduction and still show
+Biórr under ELVAR or Guðvarr under ORKA. If so, bound the affected families from the
+index before opening page 1, using `--untagged --include ID` when appropriate. A
+profile's old tag alone does not require reading that entire unrelated POV's history.
+Include the chapter POV's own clue owner and every affected tagged candidate; for a
+captive-arrival chapter, consider the children, rescuers, recovery, the dragon's
+objectives and opposing campaign. If relevance cannot be bounded, read the applicable
+other-POV or unfiltered prose too. Save the selection wrapper, read it through END,
+and keep a per-ID assessment for the whole unfiltered checklist.
 
 ## Legacy summary cross-check
 

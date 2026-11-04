@@ -202,14 +202,21 @@ chapter data to add to the project.
   observed participation or reactions. Do not infer a change of loyalty from silence
   or body language alone.
 
-**Group guide** (`groups.js`): `ORKA` / `VARG` / `ELVAR` for anything that clusters with
+**Group guide** (`groups.js`): `ORKA` / `VARG` / `ELVAR` / `BIORR` / `GUDVARR` for anything that clusters with
 that POV's storyline (the force layout pulls these toward that POV's centroid via
 `POV_IDS` in `mapa.js`). Otherwise pick by category: `LUGAR` (places), `VAESEN`
 (creatures), `FACCION` (factions/companies), `EVENTO` (discrete events), `OBJETO`
 (objects/items), `DIOS` (dead gods), `MAGIA` (magic systems/rituals), `NORSE`
 (real-world culture/lore notes), `TRAMA` (open plot threads), `COSMO` (cosmology/myth).
 Never invent a new group key without also adding it to `groups.js`.
-A node's POV tie-in is the separate `cat-varg`/`cat-orka`/`cat-elvar` → `incluye` → id
+The registered viewpoints and category IDs live in `mapa-core.js` (`POV_ARCS`), shared
+by clustering, the legend and backlog readers. Biórr and Guðvarr have dedicated arcs
+from their first Book Two POV chapters (5 and 12). Shared records may carry multiple
+POV arc links; membership is a navigation/source tie, not a claim that each character
+knows the evidence or was physically present. Add the relevant new-POV link when
+reviewing its chapters instead of automatically placing those records only under
+Elvar or Orka.
+A node's POV tie-in is the separate `cat-orka`/`cat-varg`/`cat-elvar`/`cat-biorr`/`cat-gudvarr` → `incluye` → id
 arc link, never the `group` field: an EVENTO or TRAMA node created for a single POV's own
 storyline (a new mission that POV receives, a question only that POV's chapters raise)
 still takes `group: 'EVENTO'`/`'TRAMA'`, not `group: 'VARG'`/`'ORKA'`/`'ELVAR'`, even
@@ -236,7 +243,7 @@ or `cat-mundo`) confirmed in the selected archive.
 
 **Every new POV-tied node needs an arc link, in the same direction, in addition to
 any structural category link.** The pattern is always
-`{ source: 'cat-orka'|'cat-varg'|'cat-elvar', target: 'new-id', label: 'incluye', type: 'arc' }`
+`{ source: 'cat-orka'|'cat-varg'|'cat-elvar'|'cat-biorr'|'cat-gudvarr', target: 'new-id', label: 'incluye', type: 'arc' }`
 — confirm with `read-links --between cat-orka SOME-EXISTING-ID` on a comparable node
 rather than guessing. This applies to a plain character node too (e.g. `haga`,
 `skefil`, `vafri` each carry a `cat-orka → incluye →` link even though their own

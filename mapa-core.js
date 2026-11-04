@@ -1,11 +1,20 @@
 (function (root) {
   'use strict';
-  const POV_IDS = ['orka', 'varg', 'elvar'];
+  const POV_ARCS = [
+    { id: 'orka', category: 'cat-orka', group: 'ORKA', label: 'Orka' },
+    { id: 'varg', category: 'cat-varg', group: 'VARG', label: 'Varg' },
+    { id: 'elvar', category: 'cat-elvar', group: 'ELVAR', label: 'Elvar' },
+    { id: 'biorr', category: 'cat-biorr', group: 'BIORR', label: 'Biórr' },
+    { id: 'gudvarr', category: 'cat-gudvarr', group: 'GUDVARR', label: 'Guðvarr' },
+  ];
+  const POV_IDS = POV_ARCS.map(arc => arc.id);
 
-  // Assigns each node to a POV cluster (orka, varg, elvar) based on
+  // Assigns each node to a registered POV cluster based on
   // link connectivity, then pulls toward that POV's centroid.
   function computeAffinity(nodes, links) {
-    const affinity = {}; // nodeId -> 'orka'|'varg'|'elvar'|null
+    const affinity = {};
+    const memberships = {};
+    const categoryPov = Object.fromEntries(POV_ARCS.map(arc => [arc.category, arc.id]));
     // Build adjacency
     const adj = {};
     nodes.forEach(n => { adj[n.id] = new Set(); });
@@ -14,6 +23,10 @@
       const t = typeof l.target === 'object' ? l.target.id : l.target;
       if (adj[s]) adj[s].add(t);
       if (adj[t]) adj[t].add(s);
+      if (categoryPov[s] && l.type === 'arc') {
+        if (!memberships[t]) memberships[t] = new Set();
+        memberships[t].add(categoryPov[s]);
+      }
     });
     // BFS from each POV, max depth 2
     POV_IDS.forEach(pov => {
@@ -38,17 +51,22 @@
     });
     // Resolve: pick POV with highest score; ties go to group heuristic
     const result = {};
-    const groupHint = { ORKA: 'orka', VARG: 'varg', ELVAR: 'elvar' };
+    const groupHint = Object.fromEntries(POV_ARCS.map(arc => [arc.group, arc.id]));
     nodes.forEach(n => {
       if (POV_IDS.includes(n.id) || n.group === 'CENTER' || n.group === 'CAT') {
         result[n.id] = null;
         return;
       }
       const scores = affinity[n.id];
-      if (scores) {
+      const members = memberships[n.id];
+      if (scores || members?.size) {
         let best = null, bestVal = 0;
-        for (const pov of POV_IDS) {
-          if ((scores[pov] || 0) > bestVal) { bestVal = scores[pov]; best = pov; }
+        const choices = members?.size ? [...members] : POV_IDS;
+        for (const pov of choices) {
+          const value = scores?.[pov] || 0;
+          if (best === null || value > bestVal || (value === bestVal && pov === groupHint[n.group])) {
+            bestVal = value; best = pov;
+          }
         }
         result[n.id] = best;
       } else {
@@ -101,7 +119,7 @@
     return force;
   }
 
-  const api = { POV_IDS, computeAffinity, forceCluster };
+  const api = { POV_ARCS, POV_IDS, computeAffinity, forceCluster };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.MapaCore = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

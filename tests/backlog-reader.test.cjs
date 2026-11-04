@@ -26,6 +26,42 @@ function pageText(result) {
     result.stdout.search(/\n(?:CONTINUES:|END:)/));
 }
 
+test('Book Two POV filters retain shared old/new arc memberships and untagged clues', t => {
+  const root = fixture(t);
+  writeNodes(root, 1, [
+    { id: 'biorr', group: 'ELVAR', star: 'Earlier perspective.' },
+    { id: 'shared', group: 'TRAMA', desc: 'One question shared across arcs.' },
+    { id: 'court', group: 'TRAMA', desc: 'Court intrigue.' },
+    { id: 'untagged', group: 'TRAMA', desc: 'Review across POVs.' },
+    { id: 'retired', group: 'TRAMA', desc: 'Former membership.' },
+  ]);
+  fs.writeFileSync(path.join(root, 'book1/links.js'), `const links = ${JSON.stringify([
+    { source: 'cat-elvar', target: 'biorr', label: 'incluye', type: 'arc' },
+    { source: 'cat-elvar', target: 'shared', label: 'incluye', type: 'arc' },
+    { source: 'cat-biorr', target: 'retired', label: 'incluye', type: 'arc' },
+  ])};`);
+  writeNodes(root, 2, [{ id: 'biorr', group: 'BIORR', star: 'Own viewpoint.' }]);
+  fs.writeFileSync(path.join(root, 'book2/links.js'), `const linksBook2 = ${JSON.stringify([
+    { source: 'cat-biorr', target: 'biorr', label: 'incluye', type: 'arc' },
+    { source: 'cat-biorr', target: 'shared', label: 'incluye', type: 'arc' },
+    { source: 'cat-gudvarr', target: 'court', label: 'incluye', type: 'arc' },
+    { source: 'cat-biorr', target: 'retired', label: 'incluye', status: 'broken' },
+  ])};`);
+  const biorr = JSON.parse(pageText(run(root, 2, 1, '--pov', 'BIORR', '--compact')));
+  assert.deepEqual(biorr.map(n => n.id), ['biorr', 'shared', 'untagged', 'retired']);
+  assert.deepEqual(biorr.find(n => n.id === 'shared').povs, ['ELVAR', 'BIORR']);
+  assert.deepEqual(biorr.find(n => n.id === 'biorr').povs, ['BIORR', 'ELVAR']);
+  const oldArc = JSON.parse(pageText(run(root, 2, 1, '--pov', 'ELVAR', '--compact')));
+  assert.ok(oldArc.some(n => n.id === 'shared'));
+  const court = JSON.parse(pageText(run(root, 2, 1, '--pov', 'GUDVARR', '--compact')));
+  assert.deepEqual(court.map(n => n.id), ['court', 'untagged', 'retired']);
+  const index = pageText(run(root, 2, 1, '--index'));
+  assert.match(index, /shared \[ELVAR\] \[BIORR\] \[TRAMA\]/);
+  assert.match(index, /court \[GUDVARR\] \[TRAMA\]/);
+  assert.match(index, /retired \[TRAMA\]/);
+  assert.doesNotMatch(pageText(run(root, 1, 1, '--index')), /biorr \[BIORR\]/);
+});
+
 test('compact prose preserves every selected field across pages and reduces formatting overhead', t => {
   const root = fixture(t);
   writeNodes(root, 1, [
@@ -150,6 +186,7 @@ test('backlog index uses the same latest candidates without exposing prose or in
 
 test('rebuild backlog dispatch stays isolated from live and reference archives', t => {
   const root = fixture(t);
+  fs.copyFileSync(path.resolve(__dirname, '../mapa-core.js'), path.join(root, 'mapa-core.js'));
   const targetScripts = path.join(root, '.claude/skills/add-chapter/scripts');
   fs.mkdirSync(targetScripts, { recursive: true });
   for (const helper of ['rebuild', 'read-backlog', 'backlog-data', 'paginate', 'rebuild-guard'])

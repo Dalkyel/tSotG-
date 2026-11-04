@@ -1,6 +1,7 @@
 (() => {
   'use strict';
-  const groupLabels = { CENTER: 'Saga', CAT: 'Categorías', ORKA: 'Arco de Orka', VARG: 'Arco de Varg', ELVAR: 'Arco de Elvar',
+  const groupLabels = { CENTER: 'Saga', CAT: 'Categorías',
+    ...Object.fromEntries(MapaCore.POV_ARCS.map(arc => [arc.group, `Arco de ${arc.label}`])),
     COSMO: 'Cosmología', LUGAR: 'Lugares', VAESEN: 'Vaesen', TRAMA: 'Preguntas y tramas', FACCION: 'Facciones y poderes',
     EVENTO: 'Eventos', OBJETO: 'Objetos', DIOS: 'Dioses', MAGIA: 'Magia', NORSE: 'Cultura nórdica' };
   const el = (tag, text, className) => {

@@ -1,0 +1,1913 @@
+{
+  "date": "2026-11-04",
+  "cutoff": {
+    "book": 2,
+    "chapter": 50
+  },
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/book2-viewpoint-arcs.UenkP6",
+  "beforeHashes": {
+    "book1/nodes.js": "f3d7d3caa3f3f7bde48362d4bbaab73b287c3bead1b0e88ab40197b2fdbcca30",
+    "book1/links.js": "6fbe49b741333b7918199dcd1d79924aa3a3d42ebd5d7a7ff434d957b685a3d2",
+    "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
+    "book2/nodes.js": "f4a7cf580b8a9b0d546fef1bf4f3720954cb315c6e19b7cc3a076bf83102dbe0",
+    "book2/links.js": "2ce1bc9fd7ce187f7411e11d25e9b4ad06b638a25a0a1ae1952d609f4b1d8e83",
+    "book2/summaries.js": "8d1d60fe14be83cc400a6e3d3669f4e886f6f6fb93dc86b99d9573903570663b"
+  },
+  "selection": "Add each previously captured entity/event/thread at its first reviewed chapter for the new POV. Structural categories and generic magic/culture/cosmology definitions are excluded. Shared membership is retained and does not assert character knowledge or physical presence. The parallel Leif/Sterkur hunt in chapter 43 is excluded from Guðvarr’s viewpoint.",
+  "arcs": [
+    {
+      "id": "biorr",
+      "category": {
+        "id": "cat-biorr",
+        "label": "ARCO BIÓRR",
+        "group": "CAT",
+        "type": "Categoría",
+        "desc": "LIBRO 2, CAPÍTULO 5: Perspectiva de Biórr. Reúne los personajes, lugares, acontecimientos y preguntas documentados en sus capítulos; conserva las conexiones con los otros arcos.",
+        "star": ""
+      },
+      "firstChapter": 5,
+      "viewpointChapters": [
+        5,
+        9,
+        14,
+        30,
+        35,
+        40,
+        42,
+        44
+      ],
+      "members": 67
+    },
+    {
+      "id": "gudvarr",
+      "category": {
+        "id": "cat-gudvarr",
+        "label": "ARCO GUÐVARR",
+        "group": "CAT",
+        "type": "Categoría",
+        "desc": "LIBRO 2, CAPÍTULO 12: Perspectiva de Guðvarr. Reúne los personajes, lugares, acontecimientos y preguntas documentados en sus capítulos; conserva las conexiones con los otros arcos.",
+        "star": ""
+      },
+      "firstChapter": 12,
+      "viewpointChapters": [
+        12,
+        16,
+        21,
+        23,
+        25,
+        27,
+        33,
+        41,
+        43,
+        46,
+        48
+      ],
+      "members": 90
+    }
+  ],
+  "metadataChanges": [
+    {
+      "file": "book2/nodes.js",
+      "index": 104,
+      "chapter": 5,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "38bc5a4e3a87f0a5f4b967a3edcee4500e11003bf4a3cb355fea7270f1eee872",
+      "starHash": "93917f9233901da222fc141cbc07be90c4f94ea9661486eceaecefd3c1888578"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 180,
+      "chapter": 9,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "b0be312d2d431c5a99750cfd31d3ef4af2567bde767dac52000c3a3173350c02",
+      "starHash": "7a666ad5650481923f269352062c1c9586001b94c16a21041a475509aaf40850"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 223,
+      "chapter": 12,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "9bf9fc5c62944f5aa22460f16768913199f511aa46de5b46c649dc23c5099bef",
+      "starHash": "2cdbb477295884f21733207c9c22eee968f26644bf97ffffba0fbcee49b7df28"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 251,
+      "chapter": 14,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "94ca1c9a9255deb5031dca2966609f720a87b414a274157dab0baa237ba1e912",
+      "starHash": "834b66c4dfc69888e19dd1c4d4052e0b92de3f15ea7078bc87860d77443670d8"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 286,
+      "chapter": 16,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "c17a25f0eb2a09ea48d0990f6064f55877c6661aa0a6eda7bbab3e7496c9313d",
+      "starHash": "903f7a7317f669ea4f199c20416c825bd5753fc39a09938d5bb9a696045faa41"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 361,
+      "chapter": 21,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "56192a04b29028ca27f602b595513a79d21ee431915b60fd2ff76eab52cf0cf5",
+      "starHash": "66f26485c8f20f200d4e8821a38e95c81ea2d7fab95f0b1885ab7d6d90fd705e"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 393,
+      "chapter": 23,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "8cfed131ad91ef8f44ca1d14ef8e24d6445349b513a37cd4ef63d3dd0c60c28a",
+      "starHash": "88c157d8d179a891c461d9bb2e0bd7b7adb3e49d3368a5bf2fac9f3dfef90ce9"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 433,
+      "chapter": 25,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "a539af2a8c16b91a9b1c51bf85b949763e0f47a285dc3d7a4d3efa2db5ae13f7",
+      "starHash": "a78bd01e204197d995f0cb716f362ff026ddc48c19ac14b3a4b94400d7c1ce99"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 471,
+      "chapter": 27,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "263491304311ff3a2f9f9531a4dac5eff08ab3ab6cbe4a327075d82cef2caf63",
+      "starHash": "80d8ebfcef22d31231fe9a914313ef43db37edbb5bf5d713e459be7a9a815068"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 516,
+      "chapter": 30,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "32c5d0c8183800e36c164f85809b3989e12fe01bec3cb3b279201d5c854366eb",
+      "starHash": "7270ca2ade7f4df129837165accf71f1597cd20b68d12826628828a13bb6333b"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 557,
+      "chapter": 33,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "4df15d5fcfa703d8c55cad4f044ac119af253b8280477f36705ad6f79ae70a29",
+      "starHash": "4e1ab2a27b75db08a00003ef19eedce34b3bd8bfe3874bc8d8c5332c72924e47"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 596,
+      "chapter": 35,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "81b2d8d6a15e1f239443ab8f118c467ef62df25077628c69868637cf5ab11375",
+      "starHash": "7270ca2ade7f4df129837165accf71f1597cd20b68d12826628828a13bb6333b"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 673,
+      "chapter": 40,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "1090bf6fe02f47d535688c1f79659f9bf632d1bceec26471211a5d8dfc8031e5",
+      "starHash": "7270ca2ade7f4df129837165accf71f1597cd20b68d12826628828a13bb6333b"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 695,
+      "chapter": 41,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "4e142fb287366c3897e0c387b6b04ad1f892703f83004c53d87ca8015ffa875c",
+      "starHash": "fc36329ef49b5bec5dbd059e0d105da1cc14dc3760b8f40c2a7fae45b36fd18d"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 710,
+      "chapter": 42,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "d2f8041c6ed44e0c147af247b321bb6edbbd354619161122629dcc25806a55ad",
+      "starHash": "7270ca2ade7f4df129837165accf71f1597cd20b68d12826628828a13bb6333b"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 719,
+      "chapter": 43,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "c6d2f8d8ac1a5fd4973440f70fbf2dec13018df3b0b18ff78c6982ef0b49fb03",
+      "starHash": "f8b22fc651d2006ea7b2346b5eb4e1b49cda41ef8a8b95617b829d618e830c7c"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 734,
+      "chapter": 44,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "b975a9bdfee8d240ace8005d592f0f423851671f8b0d65f5e2597e0a44421cc5",
+      "starHash": "088b3a89d843844ccefe7028106ce3a05c1ff027b02137e224a79ed8fe61a07a"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 766,
+      "chapter": 46,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "e0c974165940b82671a942ea5b436715fd9737f95bbe11c1c27df61d214a0500",
+      "starHash": "07b23b16b7a690df104a2ef0f9a22058fcd0566c6ababf7c3511847c4fee8b7d"
+    },
+    {
+      "file": "book2/nodes.js",
+      "index": 796,
+      "chapter": 48,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "d65f65268c6282b766450522587faa450d76ad6d7ddfc4816617e8a60aa884c0",
+      "starHash": "9395ea8a03c1f630ba19cbe7b3de6d522500dd5b75dc22cdbf1a1650a20fdf84"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 93,
+      "chapter": 5,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "38bc5a4e3a87f0a5f4b967a3edcee4500e11003bf4a3cb355fea7270f1eee872",
+      "starHash": "93917f9233901da222fc141cbc07be90c4f94ea9661486eceaecefd3c1888578"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 169,
+      "chapter": 9,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "b0be312d2d431c5a99750cfd31d3ef4af2567bde767dac52000c3a3173350c02",
+      "starHash": "7a666ad5650481923f269352062c1c9586001b94c16a21041a475509aaf40850"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 212,
+      "chapter": 12,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "9bf9fc5c62944f5aa22460f16768913199f511aa46de5b46c649dc23c5099bef",
+      "starHash": "2cdbb477295884f21733207c9c22eee968f26644bf97ffffba0fbcee49b7df28"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 240,
+      "chapter": 14,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "94ca1c9a9255deb5031dca2966609f720a87b414a274157dab0baa237ba1e912",
+      "starHash": "834b66c4dfc69888e19dd1c4d4052e0b92de3f15ea7078bc87860d77443670d8"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 275,
+      "chapter": 16,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "c17a25f0eb2a09ea48d0990f6064f55877c6661aa0a6eda7bbab3e7496c9313d",
+      "starHash": "903f7a7317f669ea4f199c20416c825bd5753fc39a09938d5bb9a696045faa41"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 350,
+      "chapter": 21,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "56192a04b29028ca27f602b595513a79d21ee431915b60fd2ff76eab52cf0cf5",
+      "starHash": "66f26485c8f20f200d4e8821a38e95c81ea2d7fab95f0b1885ab7d6d90fd705e"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 382,
+      "chapter": 23,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "8cfed131ad91ef8f44ca1d14ef8e24d6445349b513a37cd4ef63d3dd0c60c28a",
+      "starHash": "88c157d8d179a891c461d9bb2e0bd7b7adb3e49d3368a5bf2fac9f3dfef90ce9"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 422,
+      "chapter": 25,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "a539af2a8c16b91a9b1c51bf85b949763e0f47a285dc3d7a4d3efa2db5ae13f7",
+      "starHash": "a78bd01e204197d995f0cb716f362ff026ddc48c19ac14b3a4b94400d7c1ce99"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 460,
+      "chapter": 27,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "263491304311ff3a2f9f9531a4dac5eff08ab3ab6cbe4a327075d82cef2caf63",
+      "starHash": "80d8ebfcef22d31231fe9a914313ef43db37edbb5bf5d713e459be7a9a815068"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 505,
+      "chapter": 30,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "32c5d0c8183800e36c164f85809b3989e12fe01bec3cb3b279201d5c854366eb",
+      "starHash": "7270ca2ade7f4df129837165accf71f1597cd20b68d12826628828a13bb6333b"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 546,
+      "chapter": 33,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "4df15d5fcfa703d8c55cad4f044ac119af253b8280477f36705ad6f79ae70a29",
+      "starHash": "4e1ab2a27b75db08a00003ef19eedce34b3bd8bfe3874bc8d8c5332c72924e47"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 585,
+      "chapter": 35,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "81b2d8d6a15e1f239443ab8f118c467ef62df25077628c69868637cf5ab11375",
+      "starHash": "7270ca2ade7f4df129837165accf71f1597cd20b68d12826628828a13bb6333b"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 662,
+      "chapter": 40,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "1090bf6fe02f47d535688c1f79659f9bf632d1bceec26471211a5d8dfc8031e5",
+      "starHash": "7270ca2ade7f4df129837165accf71f1597cd20b68d12826628828a13bb6333b"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 684,
+      "chapter": 41,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "4e142fb287366c3897e0c387b6b04ad1f892703f83004c53d87ca8015ffa875c",
+      "starHash": "fc36329ef49b5bec5dbd059e0d105da1cc14dc3760b8f40c2a7fae45b36fd18d"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 699,
+      "chapter": 42,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "d2f8041c6ed44e0c147af247b321bb6edbbd354619161122629dcc25806a55ad",
+      "starHash": "7270ca2ade7f4df129837165accf71f1597cd20b68d12826628828a13bb6333b"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 708,
+      "chapter": 43,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "c6d2f8d8ac1a5fd4973440f70fbf2dec13018df3b0b18ff78c6982ef0b49fb03",
+      "starHash": "f8b22fc651d2006ea7b2346b5eb4e1b49cda41ef8a8b95617b829d618e830c7c"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 723,
+      "chapter": 44,
+      "id": "biorr",
+      "beforeGroup": "ELVAR",
+      "afterGroup": "BIORR",
+      "descHash": "b975a9bdfee8d240ace8005d592f0f423851671f8b0d65f5e2597e0a44421cc5",
+      "starHash": "088b3a89d843844ccefe7028106ce3a05c1ff027b02137e224a79ed8fe61a07a"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 755,
+      "chapter": 46,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "e0c974165940b82671a942ea5b436715fd9737f95bbe11c1c27df61d214a0500",
+      "starHash": "07b23b16b7a690df104a2ef0f9a22058fcd0566c6ababf7c3511847c4fee8b7d"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "index": 785,
+      "chapter": 48,
+      "id": "gudvarr",
+      "beforeGroup": "ORKA",
+      "afterGroup": "GUDVARR",
+      "descHash": "d65f65268c6282b766450522587faa450d76ad6d7ddfc4816617e8a60aa884c0",
+      "starHash": "9395ea8a03c1f630ba19cbe7b3de6d522500dd5b75dc22cdbf1a1650a20fdf84"
+    }
+  ],
+  "addedLinks": [
+    {
+      "chapter": 5,
+      "value": {
+        "source": "root",
+        "target": "cat-biorr",
+        "label": "perspectiva",
+        "type": "cat"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "biorr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "ilska",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "myrk",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "kraka",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "hundur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "bjarn",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "drekr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "raven-feeders",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "culto-dragon",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "likrafa",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "nastrandir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "regreso-biorr-raven-feeders",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "plan-likrafa-nastrandir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "rumbo-lik-rifa",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "rescate-bjarn",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "ninos-robados",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "culto-likrifa-pinar",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "motivo-traicion-biorr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "tainted-raven-feeders",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 5,
+      "value": {
+        "source": "cat-biorr",
+        "target": "traslado-tesoros-rotta",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "red-fain",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "storolf-wartooth",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "kalv",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "raudskinna",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "libro-negro-vergelmir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "misterio-libro-vergelmir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "isbrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "furia-likrafa-campamento",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "camara-rotta",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 9,
+      "value": {
+        "source": "cat-biorr",
+        "target": "destino-tesoros-oskutred",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 14,
+      "value": {
+        "source": "cat-biorr",
+        "target": "vaesen-gen",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 14,
+      "value": {
+        "source": "cat-biorr",
+        "target": "biorr-cicatrices",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 14,
+      "value": {
+        "source": "cat-biorr",
+        "target": "revelacion-infancia-biorr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 14,
+      "value": {
+        "source": "cat-biorr",
+        "target": "alianza-tennur-isbrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 14,
+      "value": {
+        "source": "cat-biorr",
+        "target": "sellado-isbrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 14,
+      "value": {
+        "source": "cat-biorr",
+        "target": "guardia-tennur-isbrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 30,
+      "value": {
+        "source": "cat-biorr",
+        "target": "breca",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 30,
+      "value": {
+        "source": "cat-biorr",
+        "target": "brak-trolls-bane",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 30,
+      "value": {
+        "source": "cat-biorr",
+        "target": "jarl-orlyg",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 30,
+      "value": {
+        "source": "cat-biorr",
+        "target": "rescate-breca",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 30,
+      "value": {
+        "source": "cat-biorr",
+        "target": "breca-vinculo-lik-rifa",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 30,
+      "value": {
+        "source": "cat-biorr",
+        "target": "akall",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 30,
+      "value": {
+        "source": "cat-biorr",
+        "target": "adoctrinamiento-ninos-likrafa",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 30,
+      "value": {
+        "source": "cat-biorr",
+        "target": "fuga-castigo-breca",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 35,
+      "value": {
+        "source": "cat-biorr",
+        "target": "marcha-sur-foso-vaesen",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 35,
+      "value": {
+        "source": "cat-biorr",
+        "target": "tafl-biorr-breca",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 35,
+      "value": {
+        "source": "cat-biorr",
+        "target": "reconocimiento-linajes-ninos",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 35,
+      "value": {
+        "source": "cat-biorr",
+        "target": "regreso-tennur-noticia-isbrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 35,
+      "value": {
+        "source": "cat-biorr",
+        "target": "harek",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 35,
+      "value": {
+        "source": "cat-biorr",
+        "target": "asgrim-death",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 35,
+      "value": {
+        "source": "cat-biorr",
+        "target": "secuelas-seidr-ninos",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 40,
+      "value": {
+        "source": "cat-biorr",
+        "target": "mar-helado",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 40,
+      "value": {
+        "source": "cat-biorr",
+        "target": "ormsalur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 40,
+      "value": {
+        "source": "cat-biorr",
+        "target": "aprendizaje-ninos-hueste",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 40,
+      "value": {
+        "source": "cat-biorr",
+        "target": "llegada-nastrandir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 40,
+      "value": {
+        "source": "cat-biorr",
+        "target": "muerte-lik-rifa",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 42,
+      "value": {
+        "source": "cat-biorr",
+        "target": "rotta",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 42,
+      "value": {
+        "source": "cat-biorr",
+        "target": "destino-rotta",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 42,
+      "value": {
+        "source": "cat-biorr",
+        "target": "revelacion-rotta-vivo",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 44,
+      "value": {
+        "source": "cat-biorr",
+        "target": "castigo-rotta",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 44,
+      "value": {
+        "source": "cat-biorr",
+        "target": "valkyrie",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 44,
+      "value": {
+        "source": "cat-biorr",
+        "target": "vorn",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 44,
+      "value": {
+        "source": "cat-biorr",
+        "target": "tannbursta",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 44,
+      "value": {
+        "source": "cat-biorr",
+        "target": "oleif",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 44,
+      "value": {
+        "source": "cat-biorr",
+        "target": "diente-oleif-tannbursta",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 44,
+      "value": {
+        "source": "cat-biorr",
+        "target": "convocatoria-vaesen-nastrandir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 44,
+      "value": {
+        "source": "cat-biorr",
+        "target": "promesa-rotta-biorr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "root",
+        "target": "cat-gudvarr",
+        "label": "perspectiva",
+        "type": "cat"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "gudvarr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "arild",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "vol",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "skalk",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "yrsa",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "skapti",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "drammur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "huida-skalk-vol",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "fuga-orka-fellur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "identidad-emboscada-grimholt",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "huida-drammur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 12,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "drengr-arrojado-drammur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "helka",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "hakon",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "jaromir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "sigrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "orna",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "espada-hueso",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "raudskinna",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "torre-galdur-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "hakon-operacion-oculta",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "amenaza-norte-helka",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "helka-llega-liga",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "sulich-crisis",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "helka-poder",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "hrolf",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "sturla",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "glunn-iron-grip",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "svard-the-scratcher",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "llegada-supervivientes-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "retencion-testigos-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 16,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "audiencia-skalk-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 21,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "vafri",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 21,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "frek",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 21,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "estrid",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 21,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "audiencia-gudvarr-helka",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 21,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "encargo-gudvarr-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 21,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "aprendizaje-estrid-frek",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "cadena-ulfrir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "faunir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "kuru",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "hyrndur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "encargo-hakon-tunel",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "regreso-sturla-froa",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "cautiverio-vol-torre",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "implantacion-hyrndur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 23,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "vigilancia-hyrndur-gudvarr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "asalto-torre-galdur",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "rapto-vol-huesos-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "hallazgo-arild-torre",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "fuga-gudvarr-torre",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "iva",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "taras",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "ilia",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "origen-estallido-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "destino-huesos-hraeg",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "destino-grieta-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "cura-taras",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 25,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "umbral-torre-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "asalto-salon-helka",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "pacto-caza-jaromir",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "capa-hakon-gudvarr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "aviso-lif-gudvarr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "venganza-jokul",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "venganza-torvik",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "venganza-virk",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "caza-jaromir-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "salida-darl-hakon",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 27,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "venganza-glornir-skalk",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 33,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "vilja",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 33,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "jarn",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 33,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "baston-froa-skalk",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 33,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "recordatorio-skalk-gudvarr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 33,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "consulta-gudvarr-sigrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 33,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "destino-testigos-torre",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 41,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "jarl-orlyg",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 41,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "illur-storm-crow",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 41,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "reunion-helka-orlyg",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 41,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "retorno-hakon-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 43,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "hafrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 43,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "bersi-darl",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 43,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "gunilla",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 43,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "danza-escudos-hakon",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 46,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "kalv",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 46,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "drekr",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 46,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "rog",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 46,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "gudrun",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 46,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "mensaje-kalv-hakon",
+        "label": "incluye",
+        "type": "arc"
+      }
+    },
+    {
+      "chapter": 48,
+      "value": {
+        "source": "cat-gudvarr",
+        "target": "huida-gudvarr-captura-kalv",
+        "label": "incluye",
+        "type": "arc"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "book2/nodes.js",
+      "beforeHash": "f4a7cf580b8a9b0d546fef1bf4f3720954cb315c6e19b7cc3a076bf83102dbe0",
+      "afterHash": "6f14774e9dc661c4c83093ebfc9051bc4b30220dfc40a2786803f77ad0bed502"
+    },
+    {
+      "file": "book2/links.js",
+      "beforeHash": "2ce1bc9fd7ce187f7411e11d25e9b4ad06b638a25a0a1ae1952d609f4b1d8e83",
+      "afterHash": "ea9af8236935bb367211161d15df224964c1d2b17a7f22da0cb03bc9d9dbe85a"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/nodes.js",
+      "beforeHash": "51f423bf4166b773387f3500c257bef275a7552ff6c7e43e76b2416a6716a86a",
+      "afterHash": "7b41e02bad854e883e7a657df96777ddc2e3a9eb2900dc91e78722ca02467689"
+    },
+    {
+      "file": "book2/rebuild/reviewed/book2/links.js",
+      "beforeHash": "0bc808e99f566bb50c8362efe0da661c3b9186ae26428ca8a15d9f6c594d963b",
+      "afterHash": "9199bcc9a76c42a7b0fb8c5073ab7a001708f45bca42963470a54795ce75b4c2"
+    }
+  ],
+  "afterHashes": {
+    "book1/nodes.js": "f3d7d3caa3f3f7bde48362d4bbaab73b287c3bead1b0e88ab40197b2fdbcca30",
+    "book1/links.js": "6fbe49b741333b7918199dcd1d79924aa3a3d42ebd5d7a7ff434d957b685a3d2",
+    "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
+    "book2/nodes.js": "6f14774e9dc661c4c83093ebfc9051bc4b30220dfc40a2786803f77ad0bed502",
+    "book2/links.js": "ea9af8236935bb367211161d15df224964c1d2b17a7f22da0cb03bc9d9dbe85a",
+    "book2/summaries.js": "8d1d60fe14be83cc400a6e3d3669f4e886f6f6fb93dc86b99d9573903570663b"
+  }
+}

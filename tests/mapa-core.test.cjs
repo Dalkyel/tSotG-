@@ -65,3 +65,22 @@ test('forceCluster falls back to the group centroid when a node has no POV affin
   const peerA = nodes.find(n => n.id === 'peerA');
   assert.ok(peerA.vx > 0, 'node with no POV link should still cluster toward its group centroid');
 });
+
+test('Book Two viewpoints anchor their own clusters and explicit arcs beat unrelated proximity', () => {
+  const { POV_ARCS } = require('../mapa-core.js');
+  assert.deepEqual(POV_ARCS.map(arc => arc.id), ['orka', 'varg', 'elvar', 'biorr', 'gudvarr']);
+  const nodes = [
+    { id: 'elvar', group: 'ELVAR' }, { id: 'biorr', group: 'BIORR' },
+    { id: 'gudvarr', group: 'GUDVARR' }, { id: 'cat-biorr', group: 'CAT' },
+    { id: 'shared-scene', group: 'EVENTO' }, { id: 'isolated-courtier', group: 'GUDVARR' },
+  ];
+  const affinity = computeAffinity(nodes, [
+    { source: 'elvar', target: 'shared-scene', type: 'event' },
+    { source: 'cat-biorr', target: 'shared-scene', type: 'arc' },
+  ]);
+  assert.equal(affinity['shared-scene'], 'biorr');
+  assert.equal(affinity['isolated-courtier'], 'gudvarr');
+  assert.equal(affinity.biorr, null);
+  assert.equal(affinity.gudvarr, null);
+  assert.equal(affinity['cat-biorr'], null);
+});

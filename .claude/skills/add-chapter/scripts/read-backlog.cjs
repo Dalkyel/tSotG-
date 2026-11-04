@@ -2,7 +2,7 @@
 // Inventory review candidates, not inferred states: closed history and thematic
 // stars must still be classified by the reader against the complete chapter.
 const assert = require('node:assert/strict');
-const { backlogCandidates } = require('./backlog-data.cjs');
+const { backlogCandidates, POV_GROUPS } = require('./backlog-data.cjs');
 const { paginate } = require('./paginate.cjs');
 const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
@@ -13,7 +13,7 @@ let compact = false;
 let untaggedOnly = false;
 const selectedPovs = new Set();
 const include = new Set();
-const usage = 'Usage: read-backlog.cjs BOOK PAGE [--index | --compact] [--untagged | --pov ORKA|VARG|ELVAR ...] [--include ID ...]';
+const usage = `Usage: read-backlog.cjs BOOK PAGE [--index | --compact] [--untagged | --pov ${POV_GROUPS.join('|')} ...] [--include ID ...]`;
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page >= 1, usage);
 for (let i = 0; i < extra.length; i++) {
   if (extra[i] === '--index' && !indexOnly) indexOnly = true;
@@ -21,7 +21,7 @@ for (let i = 0; i < extra.length; i++) {
   else if (extra[i] === '--untagged' && !untaggedOnly) untaggedOnly = true;
   else if (extra[i] === '--pov') {
     const pov = extra[++i];
-    assert.ok(['ORKA', 'VARG', 'ELVAR'].includes(pov) && !selectedPovs.has(pov), usage);
+    assert.ok(POV_GROUPS.includes(pov) && !selectedPovs.has(pov), usage);
     selectedPovs.add(pov);
   } else if (extra[i] === '--include') {
     const id = extra[++i];
@@ -35,13 +35,14 @@ const filtered = untaggedOnly || selectedPovs.size > 0;
 assert.ok(!include.size || filtered, '--include requires --pov or --untagged');
 warnIfBypassingActiveRebuild(book);
 const allCandidates = backlogCandidates(book);
+const tags = node => node.povs ?? (node.pov ? [node.pov] : []);
 for (const id of include) assert.ok(allCandidates.some(node => node.id === id), `Unknown backlog candidate: ${id}`);
 // Untagged items always remain: absence of a tag does not establish irrelevance.
 const candidates = filtered
-  ? allCandidates.filter(node => !node.pov || selectedPovs.has(node.pov) || include.has(node.id))
+  ? allCandidates.filter(node => !tags(node).length || tags(node).some(pov => selectedPovs.has(pov)) || include.has(node.id))
   : allCandidates;
 const payload = indexOnly
-  ? candidates.map(node => `${node.id}${node.pov ? ` [${node.pov}]` : ''}${node.group === 'TRAMA' ? ' [TRAMA]' : ''}${node.star.trim() ? ' [star]' : ''}`).join('\n')
+  ? candidates.map(node => `${node.id}${tags(node).map(pov => ` [${pov}]`).join('')}${node.group === 'TRAMA' ? ' [TRAMA]' : ''}${node.star.trim() ? ' [star]' : ''}`).join('\n')
   : compact
     ? `[${candidates.map(candidate => JSON.stringify(candidate)).join(',\n')}]`
     : JSON.stringify(candidates, null, 2);

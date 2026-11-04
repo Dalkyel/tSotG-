@@ -882,8 +882,8 @@
     "book1/nodes.js": "f3d7d3caa3f3f7bde48362d4bbaab73b287c3bead1b0e88ab40197b2fdbcca30",
     "book1/links.js": "6fbe49b741333b7918199dcd1d79924aa3a3d42ebd5d7a7ff434d957b685a3d2",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "f4a7cf580b8a9b0d546fef1bf4f3720954cb315c6e19b7cc3a076bf83102dbe0",
-    "book2/links.js": "2ce1bc9fd7ce187f7411e11d25e9b4ad06b638a25a0a1ae1952d609f4b1d8e83",
+    "book2/nodes.js": "6f14774e9dc661c4c83093ebfc9051bc4b30220dfc40a2786803f77ad0bed502",
+    "book2/links.js": "ea9af8236935bb367211161d15df224964c1d2b17a7f22da0cb03bc9d9dbe85a",
     "book2/summaries.js": "8d1d60fe14be83cc400a6e3d3669f4e886f6f6fb93dc86b99d9573903570663b"
   },
   "referenceHashes": {
@@ -895,8 +895,8 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "51f423bf4166b773387f3500c257bef275a7552ff6c7e43e76b2416a6716a86a",
-    "links": "0bc808e99f566bb50c8362efe0da661c3b9186ae26428ca8a15d9f6c594d963b",
+    "nodes": "7b41e02bad854e883e7a657df96777ddc2e3a9eb2900dc91e78722ca02467689",
+    "links": "9199bcc9a76c42a7b0fb8c5073ab7a001708f45bca42963470a54795ce75b4c2",
     "summaries": "adab8e4fae2306c499575c85cdee43ac8b2cd3dc2ecb62570f4c29a45558a79a"
   },
   "visibility": "keep-all-chapters",
@@ -961,6 +961,17 @@
       "repair": "audits/active-category-followup.json",
       "repairHash": "e2a7b724814368053bf938108b799a9eb5f17d94119945c3e8f887887a8565a6",
       "log": "Retired the answered Harek-whereabouts category edge, including direct character targets in the active-category audit. No profile, summary or other link changed."
+    },
+    {
+      "date": "2026-11-04",
+      "cutoff": {
+        "book": 2,
+        "chapter": 50
+      },
+      "report": "audits/book2-viewpoint-arcs.md",
+      "repair": "audits/book2-viewpoint-arcs.json",
+      "repairHash": "64832eaee49416565d6dc0d880359e30e9c7537a988c4a2b029a62d8fb21a920",
+      "log": "Added Biórr and Guðvarr viewpoint categories from their first Book Two POV chapters, with shared memberships and narrator group metadata. All story prose, previous links, summaries and chapter review evidence preserved."
     }
   ]
 }

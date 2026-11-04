@@ -8,6 +8,8 @@ const GROUPS = {
   ORKA: { color: '#8b1a1a', stroke: '#c03030', r: 14 },
   VARG: { color: '#6a4010', stroke: '#c09030', r: 14 },
   ELVAR: { color: '#1a3a5c', stroke: '#4a8cbf', r: 14 },
+  BIORR: { color: '#1b5140', stroke: '#5cb78c', r: 14 },
+  GUDVARR: { color: '#56366a', stroke: '#ab83ce', r: 14 },
   COSMO: { color: '#3a1a5a', stroke: '#9060b0', r: 14 },
   LUGAR: { color: '#1a3a2a', stroke: '#4a9a6a', r: 13 },
   VAESEN: { color: '#1a4a4a', stroke: '#3a9a9a', r: 13 },

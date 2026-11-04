@@ -150,6 +150,7 @@ test('checklist sync preserves notes and baseline-only clues, adds pending rows 
 
 test('rebuild checklist resolves caller paths, stays staged and forbids reference writes', t => {
   const f = fixture(t);
+  fs.copyFileSync(path.resolve(__dirname, '../mapa-core.js'), path.join(f.root, 'mapa-core.js'));
   const local = path.join(f.root, '.claude/skills/add-chapter/scripts');
   fs.mkdirSync(local, { recursive: true });
   for (const name of ['rebuild', 'review-backlog', 'backlog-data'])

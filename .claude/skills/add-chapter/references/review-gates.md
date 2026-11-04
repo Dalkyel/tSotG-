@@ -242,10 +242,12 @@ to create a thread once or to pass the JavaScript verifier.
    covers all POVs. Never infer that an unread question is resolved or discarded.
    After reading the required backlog prose, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
    `rebuild.cjs read-backlog PAGE --index`) for a compact list of the same candidate ids,
-   each marked with any of `[ORKA]`/`[VARG]`/`[ELVAR]`, `[TRAMA]` and `[star]` that apply,
+   each marked with any of `[ORKA]`/`[VARG]`/`[ELVAR]`/`[BIORR]`/`[GUDVARR]`,
+   `[TRAMA]` and `[star]` that apply,
    when checking the final review record for omissions. The POV tag comes from the
    candidate's own `group` when that is itself a POV (a character/vaesen node), or
-   otherwise from its `cat-orka`/`cat-varg`/`cat-elvar` arc link when one exists; a
+   otherwise from its registered POV category links. Shared entries retain every
+   confirmed tag and match any corresponding `--pov` filter. A
    candidate with neither still prints untagged and needs the same manual judgment as
    before — the tag is a confirmed shortcut, never a claim that an untagged id has no POV.
    Trust a printed tag over your own recollection of who a character belongs to: in the

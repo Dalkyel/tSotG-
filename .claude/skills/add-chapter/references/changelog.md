@@ -1,5 +1,10 @@
 # Changelog
 
+- 2026-11-04: Added the missing Biórr and Guðvarr Book Two arcs, their chronological
+  category memberships and narrator colors. Map clustering, legend and backlog filters
+  share the five-POV registry. Shared clues retain multiple tags and remain selectable
+  from every relevant POV; the chapter workflow now documents both new arcs.
+
 - 2026-11-03: Book Two Ch50 — the legacy summary assigned an unnamed question to
   Lif and weakened Vesli's explicitly stated oath-and-pact motive. Added a quiet-dialogue
   attribution check to the reprocessing guide. The thread gate now also requires
