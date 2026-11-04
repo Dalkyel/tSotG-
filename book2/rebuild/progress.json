@@ -879,10 +879,10 @@
     }
   ],
   "liveHashes": {
-    "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
-    "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
+    "book1/nodes.js": "f3d7d3caa3f3f7bde48362d4bbaab73b287c3bead1b0e88ab40197b2fdbcca30",
+    "book1/links.js": "6fbe49b741333b7918199dcd1d79924aa3a3d42ebd5d7a7ff434d957b685a3d2",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "bd46f02bc98224255c33df407aa4c923b7eccbd166e45ddd5e203a9be56f86be",
+    "book2/nodes.js": "f4a7cf580b8a9b0d546fef1bf4f3720954cb315c6e19b7cc3a076bf83102dbe0",
     "book2/links.js": "ad128e1cfc3c2f995a7cd0b66762f4ae08f10d1470a77559a1784568350723ff",
     "book2/summaries.js": "8d1d60fe14be83cc400a6e3d3669f4e886f6f6fb93dc86b99d9573903570663b"
   },
@@ -895,7 +895,7 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "f40bc242eb1c28f884546e9d2cfe2030ef929b33ac26f9bea28339c8e6d8ddf5",
+    "nodes": "51f423bf4166b773387f3500c257bef275a7552ff6c7e43e76b2416a6716a86a",
     "links": "c19d0741665aa75feb0fad3889b7bb538b003267127448164793adb5b3d47683",
     "summaries": "adab8e4fae2306c499575c85cdee43ac8b2cd3dc2ecb62570f4c29a45558a79a"
   },
@@ -937,6 +937,19 @@
         "book2/links.js": "2513106e9185c5ff74f54c67313118b0ffbd0620fb8a25001e0629a09a650fa1",
         "book2/summaries.js": "9652c16f58f88074d764eee98b00d6d9bc8c448991af61a0e4b651a00433dab2"
       }
+    }
+  ],
+  "postCompletionAudits": [
+    {
+      "date": "2026-11-03",
+      "cutoff": {
+        "book": 2,
+        "chapter": 50
+      },
+      "report": "audits/secrets-through-book2-ch50.md",
+      "repair": "audits/secrets-through-book2-ch50-repair.json",
+      "repairHash": "96d90eb598b9fc7e55651e918bef066078fb684ad10b48fa01c4cad35071849e",
+      "log": "Restored one already-proven category closure, corrected three resolved-thread metadata records and two stale partial-thread type labels; no new story closure inferred."
     }
   ]
 }

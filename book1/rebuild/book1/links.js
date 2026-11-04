@@ -2072,6 +2072,7 @@ const links = [
     {"source":"cat-dioses","target":"skuld","label":"incluye","type":"cat"},
     {"source":"cat-elvar","target":"vorn","label":"incluye","type":"arc"},
     {"source":"cat-elvar","target":"aska","label":"incluye","type":"arc"},
+    {"source":"cat-tramas","target":"camino-oskutred","label":"incluye","status":"broken","reason":"LIBRO 1, CAPÍTULO 48: la llegada efectiva de Uspa y la compañía a Oskutreð resuelve la verificación del camino; véase encuentro-vorn-oskutred. Cierre de categoría recuperado en la auditoría hasta LIBRO 2, CAPÍTULO 50."},
 
 // ── LIBRO 1, CAPÍTULO 49 — ORKA ──
     {"source":"cat-eventos","target":"emboscada-grimholt-bosque","label":"incluye","type":"arc"},
