@@ -1,0 +1,350 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 47 — VARG ──",
+  "nodes": [
+    {
+      "id": "svik",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: Se ríe sin poder contenerse del mareo de Varg, al que había aconsejado desayunar. Røkia revela a Varg que fue un thrall fugitivo acogido por Orka a los diez inviernos y que la quería como a una madre; véase revelacion-pasado-svik. La explicación de su reciente retraimiento procede de Røkia, no de una confesión de Svik.",
+      "previousState": "Se conoce por Røkia su infancia esclavizada y su vínculo con Orka."
+    },
+    {
+      "id": "rokia",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: Se burla del mareo de Varg y calcula que tocarán tierra en uno o un día y medio. Le revela el pasado de Svik y relata la desaparición naval de Orka y Thorkel; véanse revelacion-pasado-svik y muerte-skullsplitter. Dice que Svik debería hacerse un corazón de piedra como ella; Varg objeta que así también se pierde la alegría de la amistad y el amor. Acaricia el pelo de Refna al preguntarle por Kel. Al oír el nombre de Drekr cree que volverán a cruzarse con Orka, sin encuentro confirmado. Después alerta a Glornir del avistamiento de Sulich.",
+      "previousState": "Relata dos historias, consuela a Refna y avisa de las velas."
+    },
+    {
+      "id": "refna",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: Limpia el rostro de Varg y le ofrece agua para enjuagarse. Se explica que el apodo dado por Glornir se afianzó al mantener el ritmo de los Bloodsworn durante el primer turno de remo al salir de Liga, pese a su delgadez. Repite el consejo de su hermano mayor sobre ayudar a otros y cuenta entre lágrimas su rapto y la muerte de Kel a manos de Brák; véase asesinato-kel. Identifica a Brák Trolls-Bane como uno de sus captores y a Drekr como jefe.",
+      "previousState": "Su ayuda a Varg conduce a identificar a su hermano y a sus captores."
+    },
+    {
+      "id": "kel",
+      "mode": "new",
+      "label": "Kel (†)",
+      "group": "VARG",
+      "type": "Personaje — Hermano mayor de Refna, fallecido",
+      "desc": "LIBRO 2, CAPÍTULO 47: Hermano mayor de Refna. Ella recuerda su consejo de que una mano amiga ayuda mucho y cuenta que no la abandonó cuando se lesionó durante una fuga. Según su testimonio, Brák lo asesinó tras recapturarlos; véase asesinato-kel para los hechos relatados. No se precisa cuándo ocurrió.",
+      "star": ""
+    },
+    {
+      "id": "sulich",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: Se acerca a la borda con motas doradas en los ojos y detecta primero las velas en el horizonte; véase avistamiento-velas-liga. No identifica a sus tripulantes.",
+      "previousState": "Detecta las velas antes que los demás."
+    },
+    {
+      "id": "revelacion-pasado-svik",
+      "mode": "new",
+      "label": "El Relato de Røkia sobre Svik y Orka",
+      "group": "EVENTO",
+      "type": "Evento — Revelación y rescate histórico referido",
+      "desc": "LIBRO 2, CAPÍTULO 47: A bordo del Sea-Wolf, Varg pregunta por el retraimiento de Svik desde el Grimholt. Røkia lo atribuye al regreso de Orka. Desmiente las historias sobre cómo entró en los Bloodsworn —salvar a Glornir de troles, un carro tirado por skraelings o huir de hyrndur— y cuenta que Orka lo encontró bajo un arbusto, llorando, helado y ensangrentado por los azotes. Era un thrall fugitivo de diez inviernos cuya bestia estaba descontrolada; intentó morderla cuando lo levantó. Orka, entonces jefa, decidió acogerlo, lo entrenó y le devolvió orgullo y dignidad. Según Røkia la quería como a una madre y sufrió especialmente su supuesta muerte, recogida en muerte-skullsplitter. Interpreta el reencuentro como una herida reabierta y supone que se pregunta por qué Orka los abandonó pese al juramento recíproco de permanecer hasta la muerte. Svik no participa en esta conversación ni confirma sus pensamientos. La fuente es este capítulo, no la fecha del rescate.",
+      "star": ""
+    },
+    {
+      "id": "muerte-skullsplitter",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: Røkia cuenta a Varg que tres drakkar atacaron al Sea-Wolf al salir de una bahía. Tras un largo combate desaparecieron Orka y Thorkel, a quien identifica como pareja de ella y hermano de Glornir. Buscaron en las playas y bucearon por el fondo; Svik encontró a otros, pero no a ellos. Creyeron que las corrientes se los habían llevado y Røkia explica que una cota de malla arrastra al que cae al agua. Ahora habla de una muerte supuesta, desmentida por la reaparición de Orka. El relato identifica el barco y diferencia claramente a Orka de Thorkel, sin identificar enemigos, fecha o bahía ni explicar por qué el testimonio anterior asignaba a Skullsplitter el parentesco fraterno con Glornir. No borra la fuga voluntaria ya relatada por Orka.",
+      "previousState": "Amplía la búsqueda tras la batalla y distingue la muerte supuesta de la fuga."
+    },
+    {
+      "id": "skullsplitter",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: Røkia usa expresamente Skullsplitter para Orka, antigua jefa, y distingue a Thorkel como su pareja y hermano de Glornir; véanse revelacion-pasado-svik y muerte-skullsplitter. Es una nueva atribución explícita que se conserva junto a los relatos anteriores: no convierte a Orka en hermana de Glornir ni explica la discrepancia del Libro 1, capítulo 26.",
+      "previousState": "Se contrasta el antiguo relato con la atribución explícita de Røkia.",
+      "starAppend": "LIBRO 2, CAPÍTULO 47: Røkia distingue a Orka Skullsplitter de Thorkel, hermano de Glornir; la discrepancia de los relatos antiguos se conserva sin reasignar biografías."
+    },
+    {
+      "id": "pasado-orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: ESTADO: PARCIAL. Røkia aporta un episodio concreto de su jefatura y su vínculo maternal con Svik en revelacion-pasado-svik; muerte-skullsplitter amplía la búsqueda tras la desaparición y distingue a Thorkel como hermano de Glornir. No explica la contradicción de los relatos antiguos ni resuelve la mujer enjaulada, la sensibilidad o la discrepancia de edad.",
+      "previousState": "Nuevo testimonio de su jefatura, sin cerrar los otros enigmas."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: ESTADO: PARCIAL. Røkia atribuye su retraimiento al regreso de Orka y explica su vínculo maternal; véase revelacion-pasado-svik. La causa recibe una explicación testimonial, pero la idea de que Svik se pregunta por qué lo abandonó es una suposición de Røkia. Pendiente la expresión directa de Svik y cómo afrontará esa herida; no se presenta su pensamiento como una confesión.",
+      "previousState": "La explicación de Røkia avanza la pregunta sin confirmar la inferencia privada.",
+      "label": "Svik ante el Regreso de Orka",
+      "type": "Trama — Explicación testimonial y respuesta pendiente",
+      "starAppend": "LIBRO 2, CAPÍTULO 47: Røkia explica el vínculo con Orka; su interpretación de los pensamientos actuales de Svik sigue atribuida. Véase revelacion-pasado-svik."
+    },
+    {
+      "id": "asesinato-kel",
+      "mode": "new",
+      "label": "El Rapto de Refna y el Asesinato de Kel",
+      "group": "EVENTO",
+      "type": "Evento histórico — Testimonio de Refna",
+      "desc": "LIBRO 2, CAPÍTULO 47: Refna cuenta a Varg y Røkia que sus captores mataron a sus padres y se llevaron a ella y a su hermano Kel. Él intentó escapar repetidamente. En la última fuga ella cayó y se lesionó el tobillo; Kel se quedó para no abandonarla. Al recapturarlos, Brák lo clavó a un carro y le cortó la garganta para dar ejemplo a los demás. Refna confirma el sobrenombre Troll-Slayer ante la pregunta de Varg e identifica a Drekr como jefe de los raptores y a Brák como uno de ellos. Varg reconoce así el nombre del último comprador conocido de Frøya; no obtiene noticias de su hermana. Røkia consuela a la niña y prevé un nuevo cruce de caminos con Orka. La fecha, el lugar del rapto y el de la ejecución no se precisan; el capítulo fecha el testimonio, no esos hechos.",
+      "star": ""
+    },
+    {
+      "id": "brak-trolls-bane",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: Refna confirma su sobrenombre ante Varg, lo identifica como uno de los cazadores de Drekr y le atribuye la ejecución de Kel como escarmiento; véase asesinato-kel. Varg recibe ahora de ella la conexión con Drekr, sin localizar a Brák ni conocer el destino de Frøya.",
+      "previousState": "Refna identifica al captor y le atribuye el asesinato de Kel.",
+      "starAppend": "LIBRO 2, CAPÍTULO 47: El testimonio de Refna comunica a Varg el vínculo de Brák con Drekr; no determina dónde está ahora ni qué ocurrió con Frøya."
+    },
+    {
+      "id": "akall",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: ESTADO: PARCIAL. asesinato-kel aporta a Varg el testimonio que vincula a Brák con la banda de Drekr. Es una nueva vía de investigación recibida por Varg, no un paradero presente ni un encuentro. La suerte de Frøya, el rito y la venganza siguen pendientes; el relato de Kel no prueba que ella sufriera el mismo destino.",
+      "previousState": "Varg aprende que Brák pertenece a la banda de Drekr."
+    },
+    {
+      "id": "ninos-robados",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 47: ESTADO: PARCIAL. asesinato-kel individualiza otro caso por testimonio de Refna: identifica a Drekr como jefe y a Brák como captor y ejecutor de su hermano. Quedan confirmadas para el relato de esta niña su pérdida familiar y la identidad atribuida de sus raptores, sin resolver la autoría de todos los casos ni el destino duradero de los supervivientes y los otros grupos.",
+      "previousState": "Nuevo caso individual atribuido a la banda de Drekr."
+    },
+    {
+      "id": "avistamiento-velas-liga",
+      "mode": "new",
+      "label": "Avistamiento de Velas en el Mar",
+      "group": "EVENTO",
+      "type": "Evento — Alarma en la travesía",
+      "desc": "LIBRO 2, CAPÍTULO 47: Tras dos días en alta mar desde Liga, Varg sigue vomitando mientras el Sea-Wolf avanza con dificultad, dando bordadas contra un fuerte viento del sureste. Sulich, con motas doradas en los ojos, distingue primero dos franjas de color en el horizonte al sur. Røkia sigue su mirada y llama a Glornir. Varg cree al principio que es tierra; Glornir deja la caña a Æsa, mira y ordena tomar las armas. Varg comprende que son velas. El capítulo termina sin identificar los barcos, su bando o sus intenciones ni mostrar combate.",
+      "star": "LIBRO 2, CAPÍTULO 47: Dos velas desconocidas y la orden de armarse abren identidad-velas-mar; no hay identidad enemiga ni enfrentamiento confirmados."
+    },
+    {
+      "id": "identidad-velas-mar",
+      "mode": "new",
+      "label": "¿De Quién Son las Velas Avistadas?",
+      "group": "TRAMA",
+      "type": "Trama — Barcos desconocidos",
+      "desc": "LIBRO 2, CAPÍTULO 47: PRIMERA EVIDENCIA: capítulo 47, avistamiento-velas-liga. ESTADO: ABIERTA. Sulich y Røkia avistan velas al sur; Glornir manda armarse. Pendientes la identidad e intención de esos barcos y el desenlace del posible encuentro. No se los identifica con Jaromir, Leif u otra fuerza ni se confirma un ataque.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "revelacion-pasado-svik",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "revelacion-pasado-svik",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "asesinato-kel",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "asesinato-kel",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "avistamiento-velas-liga",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "avistamiento-velas-liga",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "kel",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "identidad-velas-mar",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "identidad-velas-mar",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "rokia",
+      "target": "revelacion-pasado-svik",
+      "label": "relata",
+      "type": "event"
+    },
+    {
+      "source": "revelacion-pasado-svik",
+      "target": "varg",
+      "label": "tiene como oyente a",
+      "type": "event"
+    },
+    {
+      "source": "revelacion-pasado-svik",
+      "target": "svik",
+      "label": "explica el vínculo maternal de",
+      "type": "history"
+    },
+    {
+      "source": "revelacion-pasado-svik",
+      "target": "orka",
+      "label": "atribuye el rescate y la formación a",
+      "type": "history"
+    },
+    {
+      "source": "inquietud-svik-grimholt",
+      "target": "revelacion-pasado-svik",
+      "label": "recibe una explicación testimonial en",
+      "type": "trama"
+    },
+    {
+      "source": "pasado-orka",
+      "target": "revelacion-pasado-svik",
+      "label": "recibe testimonio de su jefatura en",
+      "type": "trama"
+    },
+    {
+      "source": "revelacion-pasado-svik",
+      "target": "muerte-skullsplitter",
+      "label": "remite para la desaparición a",
+      "type": "history"
+    },
+    {
+      "source": "rokia",
+      "target": "muerte-skullsplitter",
+      "label": "amplía el testimonio de",
+      "type": "history"
+    },
+    {
+      "source": "muerte-skullsplitter",
+      "target": "orka",
+      "label": "registra la desaparición de",
+      "type": "history"
+    },
+    {
+      "source": "muerte-skullsplitter",
+      "target": "thorkel",
+      "label": "registra también la desaparición de",
+      "type": "history"
+    },
+    {
+      "source": "muerte-skullsplitter",
+      "target": "sea-wolf",
+      "label": "sitúa el combate a bordo de",
+      "type": "history"
+    },
+    {
+      "source": "svik",
+      "target": "orka",
+      "label": "según Røkia, quiso como a una madre a",
+      "type": "rel"
+    },
+    {
+      "source": "refna",
+      "target": "kel",
+      "label": "es hermana menor de",
+      "type": "rel"
+    },
+    {
+      "source": "refna",
+      "target": "asesinato-kel",
+      "label": "relata",
+      "type": "event"
+    },
+    {
+      "source": "asesinato-kel",
+      "target": "varg",
+      "label": "tiene como oyente a",
+      "type": "event"
+    },
+    {
+      "source": "asesinato-kel",
+      "target": "rokia",
+      "label": "tiene como oyente a",
+      "type": "event"
+    },
+    {
+      "source": "asesinato-kel",
+      "target": "kel",
+      "label": "documenta la muerte referida de",
+      "type": "history"
+    },
+    {
+      "source": "asesinato-kel",
+      "target": "brak-trolls-bane",
+      "label": "según Refna, atribuye la ejecución a",
+      "type": "history"
+    },
+    {
+      "source": "asesinato-kel",
+      "target": "drekr",
+      "label": "según Refna, identifica como jefe a",
+      "type": "history"
+    },
+    {
+      "source": "akall",
+      "target": "asesinato-kel",
+      "label": "obtiene una pista sobre Brák en",
+      "type": "trama"
+    },
+    {
+      "source": "ninos-robados",
+      "target": "asesinato-kel",
+      "label": "individualiza un caso en",
+      "type": "trama"
+    },
+    {
+      "source": "sulich",
+      "target": "avistamiento-velas-liga",
+      "label": "detecta primero las velas en",
+      "type": "event"
+    },
+    {
+      "source": "rokia",
+      "target": "avistamiento-velas-liga",
+      "label": "alerta al jefe en",
+      "type": "event"
+    },
+    {
+      "source": "glornir",
+      "target": "avistamiento-velas-liga",
+      "label": "ordena armarse durante",
+      "type": "event"
+    },
+    {
+      "source": "avistamiento-velas-liga",
+      "target": "sea-wolf",
+      "label": "ocurre a bordo de",
+      "type": "event"
+    },
+    {
+      "source": "aesa",
+      "target": "avistamiento-velas-liga",
+      "label": "recibe la caña durante",
+      "type": "event"
+    },
+    {
+      "source": "identidad-velas-mar",
+      "target": "avistamiento-velas-liga",
+      "label": "surge de",
+      "type": "trama"
+    },
+    {
+      "source": "identidad-velas-mar",
+      "target": "glornir",
+      "label": "afecta a la compañía de",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 47,
+    "title": "Capítulo 47 — Varg",
+    "summary": "Tras dos días en alta mar, <strong>Varg</strong> sigue mareado a bordo del <strong>Sea-Wolf</strong>, que avanza dando bordadas contra el viento. Sus vómitos devuelven la risa a <strong>Svik Hrulfsson</strong>. Cuando este se aleja, <strong>Røkia</strong> explica a Varg que <strong>Orka Skullsplitter</strong> lo encontró con diez inviernos, fugitivo de la esclavitud, lo acogió y lo formó. La quería como a una madre: su regreso ha reabierto, según ella, el dolor de su abandono. Røkia recuerda el ataque de tres drakkar y la búsqueda infructuosa tras la desaparición de Orka y <strong>Thorkel</strong>, pareja de ella y hermano de <strong>Glornir</strong>. Varg replica a su consejo de endurecer el corazón que eso también impide disfrutar de la amistad y el amor.<br><br><strong>Refna Manos-Fuertes</strong> le limpia el rostro y le ofrece agua. Cuenta que mataron a sus padres y la raptaron junto a su hermano mayor, <strong>Kel</strong>. En una fuga ella se lesionó y él no quiso abandonarla; al recapturarlos, <strong>Brák Trolls-Bane</strong> lo clavó a un carro y le cortó la garganta para dar ejemplo. Varg reconoce el nombre del comprador de <strong>Frøya</strong>. Refna identifica a <strong>Drekr</strong> como jefe de sus captores, y Røkia cree que volverán a cruzarse con Orka; el destino de Frøya continúa sin aclararse.<br><br><strong>Sulich</strong>, con motas doradas en los ojos, distingue dos franjas de color en el horizonte al sur. Varg cree que es tierra, pero Glornir deja la caña a <strong>Æsa</strong> y ordena tomar las armas: son velas. El capítulo termina sin revelar de quién son los barcos."
+  }
+}

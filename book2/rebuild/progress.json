@@ -47,7 +47,8 @@
     43,
     44,
     45,
-    46
+    46,
+    47
   ],
   "chapters": [
     {
@@ -800,15 +801,33 @@
         }
       },
       "log": "Chapter 46: Guðvarr — source-reviewed replacement adds Gudrun and the Drekr-message/breakfast event, updates 12 profiles/threads, advances the Hakon investigation and renewed retaliation vow, and resolves Skapti/Hrolf whereabouts on their observed return. Preserves uncertainty about the mark, unnamed woman, whispered date and witness release; legacy-summary overstatement corrected. Full baseline ownership, event and 207-item thread reviews PASS; chapter verifier, mention identities, link sentences and overlap review PASS. Required nine-file regression suite passed. Browser appearance remains for user visual review; live checks follow publication."
+    },
+    {
+      "chapter": 47,
+      "source": "book2/chapter 47.html",
+      "sourceHash": "f9133093903711a45d4519207333cc85c079116e061d0dcfde1f448f65bbb12b",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch47.e5tX30",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-47",
+        "hashes": {
+          "ownership-review.md": "cd0f459c727cb9ecdb2745f7ade072d4242ac8f798ffa93c93d8496cecdf1138",
+          "event-review.md": "0a8a89cc8ce4d67ccf6be0d968bc4f546118dbf6d75d3f4454d62a99e2db94c3",
+          "thread-review.md": "f0a18081de68b3845c59f1454a6e29d489f195c2350e8124b82634ce4c537dde",
+          "thread-checklist.json": "67273bce24246e63a6099753f09936d57fea739b24aa4c78ca65e23158ec255a",
+          "completion.json": "08e1dc38be49da76cb4397f88a64945e0975b86b55840566313e83768419b41e",
+          "chapter.json": "7a31ef1817a47ee30e9ab9b4a6541d7f1525eb5b0e1bef9552fc724f2f29b476"
+        }
+      },
+      "log": "Chapter 47: Varg — reprocessed from complete supplied source; 16 node revisions and 37 links cover Røkia’s testimony about Svik and the naval disappearance, Refna/Kel and Brák’s connection to Drekr, and unknown sails. Added four discoverable event accounts including the existing naval event, retained qualified historical conflicts and partial/open questions, corrected the Glornir-to-Æsa tiller handoff, reviewed ownership/events/all 209 clue candidates and summary identities; required nine-file regression suite passed. Browser appearance left for user verification."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "a623fb1ca33673e3785f4c37b8b6ed996bb3cc0013678415889afe3667b15f7d",
-    "book2/links.js": "5f629f11125aced344462051e35bf09139fc82551cef471845ba934365069e55",
-    "book2/summaries.js": "566fafdac883377f3032e61f51db5cdc4a7df7344c6495016483ad0818bbe84c"
+    "book2/nodes.js": "36590f1d1dea295aa34240f7b13207c60e0fa9dafcf230d8ae27a70c8d311ac5",
+    "book2/links.js": "6fbf73e4b59bcb2f601ef876c5ad529a1e6bc47d6534cbe76877053d97452ba2",
+    "book2/summaries.js": "3fcb86376d12d00610ef995ccdb8af23e487f5b88c3423a07df5b55d3358d87d"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -819,9 +838,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "5bcf64efac6fba186fd72845a23fea1fd2a3b755ccb0f843de7a0ec47821b560",
-    "links": "ad20c24f8051323ad441a26ad2cef9361cbb005cf54ed2d84a94125460fb6acb",
-    "summaries": "10e791cb5733194431b16c73edf07df0f530bad904c88d8719bf66d51f023c60"
+    "nodes": "aa2b21cf2032098f13dffd6d2b23282713123668ec775aeea82b7a5d0751ec08",
+    "links": "eec7109498b06d019b83d74b98665e78de2a3de148207fb253875ea1feb9b02b",
+    "summaries": "48f3f4e722a328e6202a86ec96afe11d39cd78a8004dd4c79158570629cbd82a"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

@@ -1,5 +1,11 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch47 — the legacy summary reversed the tiller handoff
+  between Glornir and Æsa. Added giver/recipient/object checks across event, link
+  and summary to the legacy-summary cross-check. Source-reviewed chapter content
+  corrects the transfer. Fully absorbed into the reprocessing guide; archived
+  immediately.
+
 - 2026-11-03: Book Two Ch45 — the legacy summary transferred Orka's private
   vow to Ulfrir and generalized who was deceived by the staged attack. Added
   speaker/addressee checks across remembered dialogue and internal replies,

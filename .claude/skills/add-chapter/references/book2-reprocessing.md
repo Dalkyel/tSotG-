@@ -210,6 +210,12 @@ before Logur arrives, Edel identifying the dead man through his relationship to
 the attacker, and the Sea-Wolf rowing away through the fiord. Compare any affected
 event descriptions, relationships and thread states as well as the summary.
 
+For a handoff, resolve giver, recipient and object from the source before drafting
+the event, link and summary. In Ch47, Glornir hands the tiller to Æsa before coming
+over to inspect the sails; the legacy summary reverses that transfer. A nearby
+command or leadership role does not establish who receives the object. Check all
+three representations against the same source action.
+
 For a conversation continued across POV chapters, check where the supplied chapter
 begins before importing a legacy quotation or reaction. Distinguish what is spoken
 from the current POV's private inference, and identify whose inference it is. In
