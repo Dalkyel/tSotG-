@@ -2057,4 +2057,22 @@ const linksBook2 = [
     {"source":"ulfrir","target":"orka","label":"anuncia mentalmente una nueva era y un reencuentro a","type":"magic"},
     {"source":"orka","target":"partida-wave-jarl-starl","label":"experimenta la voz mental de Ulfrir durante","type":"event"},
     {"source":"ulfrir","target":"llamada-lobo-orka","label":"es identificado por Orka como la voz de","type":"trama"},
+
+// ── LIBRO 2, CAPÍTULO 51 — VARG ──
+    {"source":"cat-eventos","target":"abordaje-sea-wolf","label":"incluye","type":"arc"},
+    {"source":"cat-varg","target":"abordaje-sea-wolf","label":"incluye","type":"arc"},
+    {"source":"abordaje-sea-wolf","target":"sea-wolf","label":"ocurre a bordo del","type":"event"},
+    {"source":"avistamiento-velas-liga","target":"abordaje-sea-wolf","label":"precede a","type":"event"},
+    {"source":"glornir","target":"abordaje-sea-wolf","label":"ordena la defensa durante","type":"event"},
+    {"source":"varg","target":"abordaje-sea-wolf","label":"libera al lobo durante","type":"event"},
+    {"source":"rokia","target":"abordaje-sea-wolf","label":"protege y corrige a Varg durante","type":"event"},
+    {"source":"svik","target":"abordaje-sea-wolf","label":"combate junto a Varg durante","type":"event"},
+    {"source":"einar","target":"abordaje-sea-wolf","label":"resguarda a los niños durante","type":"event"},
+    {"source":"ingmar","target":"abordaje-sea-wolf","label":"forma a la espalda de Varg durante","type":"event"},
+    {"source":"aesa","target":"abordaje-sea-wolf","label":"se arma para afrontar","type":"event"},
+    {"source":"sulich","target":"abordaje-sea-wolf","label":"se prepara con su coraza laminar para","type":"event"},
+    {"source":"abordaje-sea-wolf","target":"bloodsworn","label":"pone bajo ataque a los","type":"conflict"},
+    {"source":"identidad-velas-mar","target":"abordaje-sea-wolf","label":"recibe nueva evidencia de","type":"trama"},
+    {"source":"pasado-varg","target":"abordaje-sea-wolf","label":"incorpora la manifestación observada durante","type":"trama"},
+    {"source":"leccion-control-lobo","target":"abordaje-sea-wolf","label":"tiene una prueba posterior en","type":"event"},
 ];
