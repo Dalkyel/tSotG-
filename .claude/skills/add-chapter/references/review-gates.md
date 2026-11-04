@@ -232,6 +232,12 @@ to create a thread once or to pass the JavaScript verifier.
    candidates. Add `--include ID` for each affected tagged candidate, including
    the chapter POV’s clues stored under another arc. Use this only when relevance
    can be bounded as above. `--untagged` and `--pov` are separate selection modes.
+   Choose `--include` IDs from the unfiltered backlog index, not the entity inventory:
+   an existing person without a `TRAMA` description or nonempty `star` is not a
+   backlog candidate. In Ch44, `bjarn` was a known entity but failed that selection.
+   Use `read-latest` for any needed profile context and select the actual clue
+   owners (for Bjarn, `rescate-bjarn` and `secuelas-seidr-ninos`); do not add
+   a clue field merely to make the filter accept the person.
    A filter selects prose, not review obligations: the unfiltered checklist still
    covers all POVs. Never infer that an unread question is resolved or discarded.
    After reading the required backlog prose, use `read-backlog.cjs BOOK PAGE --index` (rebuild:

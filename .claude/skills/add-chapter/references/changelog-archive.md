@@ -1,5 +1,11 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch44 — `--include bjarn` failed despite Bjarn being a
+  known entity, because he had no backlog evidence field. Clarified selecting
+  includes from the unfiltered backlog index and reading noncandidate profiles
+  separately while including their actual clue owners. Fully absorbed into the
+  thread gate; archived immediately. No helper behavior changed.
+
 - 2026-11-03: Book Two Ch43 — an exact Bersi name match pointed to the captor
   killed in Book One Ch33, while the source introduces a living shield-dance
   contestant. Added the role/chronology check and separate-id, distinct-label

@@ -44,7 +44,8 @@
     40,
     41,
     42,
-    43
+    43,
+    44
   ],
   "chapters": [
     {
@@ -743,15 +744,33 @@
         }
       },
       "log": "Chapter 43: Guðvarr — replaced from full source with 15 node revisions, 34 links and Spanish summary; two key events, Leif/Sterkur pursuit, bounded Hakon-favor progress, and distinct living Bersi identity. Reviewed ownership, event coverage and all 204 clue candidates; legacy summary cross-checked. Required nine-file regression suite passed. Browser appearance left for manual confirmation."
+    },
+    {
+      "chapter": 44,
+      "source": "book2/chapter 44.html",
+      "sourceHash": "49efd612f26c0556bb525ff6956f7c615a6e9ed02089d78d3b8d2db880d11e8a",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch44.l7ThdV",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-44",
+        "hashes": {
+          "ownership-review.md": "3e225db876f6fceaf025eaa23175fc7ab9d2842885a4214fb837b384edd2d934",
+          "event-review.md": "cde539607d3493a124016607f7aa377b9d4eae6949c45b138a398a4ea934a129",
+          "thread-review.md": "587e5d228f1f1d26bfedcd9fe5714395a477faaf89e92db0c0fe3bec49d1e922",
+          "thread-checklist.json": "f2c96fd79ea3fcc7652b7a79d31bb1a79f67f807a78e9669c402cb4362d8f240",
+          "completion.json": "c5e7cb8321227fc36dfaeefad0d52b2b6c63582e133a9e21742fdba007060af5",
+          "chapter.json": "c6625119047d97066fc26f95fd7196640f98a39090c4669f435bdc25f87511a2"
+        }
+      },
+      "log": "Chapter 44: Biórr — source-reviewed replacement with 16 node revisions, 40 relationships and a Spanish summary. Extended the Ch42 reunion with Rotta’s escape testimony, lasting injuries, acknowledged crime, pledge against Ulfrir and recognition of Biórr; added Tannbursta, Oleif, the tooth incident, the vaesen summons and an open reparative promise. Kept escape mechanism, reinforcements, rescues, Orna carrier and battle outcomes pending. Corrected legacy-summary sequence and meal details against the full source. Ownership, event coverage and thread lifecycle PASS; 205-ID checklist complete; chapter syntax, preservation, endpoints, category, mention and overlap checks PASS. Nine-file reprocessing regression suite passed. All later chapters preserved by publication; visual confirmation of index.html and both summary tabs remains manual."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "6b962aab1631e1132bc5f48bc84724e6b96cad1e4bd0065c803bbd477f63296b",
-    "book2/links.js": "1fd064025683f72d8edfce7d68b14368ada4d7efac377cabcd62ef975c7d740a",
-    "book2/summaries.js": "cdba26975c059aa633c425d9429ce8719803ceea198e54a59647ee3ca8b2dff4"
+    "book2/nodes.js": "efda80112ba60ef009e2f442e74fe55d60a4600b96ff3dabe17788b34f216f4b",
+    "book2/links.js": "7bd825e81cbbc071ec8cb8cddc8d314192a75f09bed2ae661961f626fb25cbd3",
+    "book2/summaries.js": "4909660262f1decddcffbb13e1d4f7a85895c08eb6dea1d999c7a3be4a0cad83"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -762,9 +781,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "f94c24bccb0055093e2de0f291e844e4b8014f8a8ef66565570602789c0fcf5c",
-    "links": "625c8bd708cf66ad70194dc4dfbaf500bd190211658c9ade04efa5bbe38fc013",
-    "summaries": "c6a55d2e7a2c3bc3d6f64163eb4e08e04125c66f5bdf6c4d1da7e0cbc289ac3e"
+    "nodes": "d5c3ffb9a041f057cb0ae74ca2bfe855e47bd5c54c393c51bc5ad242f6d24acb",
+    "links": "94756370938d7c70d6b75500a2b597e88a24108ea301f03571fceb9c64bcab58",
+    "summaries": "884467a2bdbc072b5d6b9e4db5642c0ff42850236e88ba0243ec5d49291ddd05"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {
