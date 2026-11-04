@@ -23,11 +23,12 @@
       <div><h1 id="clue-heading">Pistas y preguntas</h1><p>${DATA_LABEL} · Observaciones y teorías del club</p></div>
       <button type="button" id="clue-close" aria-label="Cerrar tablero">Cerrar ✕</button>
     </div>
-    <p class="clue-intro">Todas las observaciones y notas guardadas están disponibles. «Por revisar» no significa que una pregunta siga abierta.</p>
+    <p class="clue-intro">Todas las observaciones y notas guardadas están disponibles. El estado inicial de cada observación importada se detecta del propio relato («ESTADO: …» del capítulo); un estado marcado <strong>detectado</strong> es solo un punto de partida, no una revisión del club. Selecciona una entrada y pulsa «Guardar entrada» para dejar constancia de que el club ya la revisó.</p>
     <div class="clue-toolbar">
       <label>Buscar<input id="clue-search" type="search" placeholder="Personaje, pregunta o teoría…"></label>
       <label>Estado<select id="clue-status"><option value="">Todos los estados</option></select></label>
       <label>Vinculada a<select id="clue-node"><option value="">Todos los personajes y temas</option></select></label>
+      <label class="clue-check"><input id="clue-hide-resolved" type="checkbox" checked> Ocultar resueltas</label>
       <button type="button" id="clue-new">+ Nueva pregunta</button>
     </div>
     <div class="clue-transfer"><span>Guardado en este navegador. Para compartir, exporta una copia.</span>
@@ -67,12 +68,17 @@
     }
   }
 
+  // Keep open/undecided questions visible first; resolved threads (detected or club-confirmed) sink to the bottom.
+  const statusOrder = { open: 0, partial: 1, unreviewed: 2, contradicted: 3, resolved: 4 };
   function filteredEntries() {
     const query = normalize($('clue-search').value.trim());
     const status = $('clue-status').value, nodeId = $('clue-node').value;
+    const hideResolved = $('clue-hide-resolved').checked;
     return allEntries().filter(c => (!status || c.status === status) && (!nodeId || c.nodeIds.includes(nodeId)) &&
+      (!hideResolved || c.status !== 'resolved') &&
       (!query || normalize([c.title, c.note, c.evidence, c.theory, c.chapter,
-        ...c.nodeIds.map(id => sourceNodes.get(id)?.label || '')].join(' ')).includes(query)));
+        ...c.nodeIds.map(id => sourceNodes.get(id)?.label || '')].join(' ')).includes(query)))
+      .sort((a, b) => statusOrder[a.status] - statusOrder[b.status] || a.title.localeCompare(b.title, 'es'));
   }
 
   function renderList() {
@@ -85,7 +91,10 @@
       const button = el('button', undefined, 'clue-card');
       button.type = 'button';
       button.setAttribute('aria-pressed', String(c.id === selectedId));
-      button.append(el('span', statuses[c.status], `clue-badge status-${c.status}`), el('strong', c.title),
+      const autoDetected = !c.reviewedByClub && c.status !== 'unreviewed';
+      const badge = el('span', statuses[c.status] + (autoDetected ? ' · detectado' : ''), `clue-badge status-${c.status}${autoDetected ? ' auto' : ''}`);
+      if (autoDetected) badge.title = 'Estado detectado del relato; el club todavía no lo ha revisado.';
+      button.append(badge, el('strong', c.title),
         el('span', (c.note || c.theory || c.evidence || 'Pregunta del club').slice(0, 180), 'clue-preview'),
         el('small', `${c.origin === 'source' ? 'Nota original' : 'Pregunta del club'} · Libro ${c.book}`));
       button.addEventListener('click', () => {
@@ -154,7 +163,7 @@
       const labels = { title: 'Título', status: 'Estado', book: 'Libro', chapter: 'Referencia', evidence: 'Evidencias', theory: 'Teoría', nodeIds: 'Vínculos' };
       const display = (key, value) => key === 'status' ? statuses[value] : Array.isArray(value) ? value.join(', ') : String(value || '(vacío)');
       const now = new Date().toISOString();
-      delete updated.availableAt; updated.updatedAt = now;
+      delete updated.availableAt; delete updated.reviewedByClub; updated.updatedAt = now;
       const previous = saved[updated.id];
       if (previous) {
         const { versions, ...snapshot } = previous;
@@ -236,7 +245,8 @@
     $('clue-detail').replaceChildren(el('h2', 'Un lugar para seguir las preguntas'),
       el('p', 'Selecciona una observación para revisarla, separar evidencia de teoría y consultar su historia. También puedes crear una pregunta propia.'));
   }
-  ['clue-search', 'clue-status', 'clue-node'].forEach(id => $(id).addEventListener(id === 'clue-search' ? 'input' : 'change', renderList));
+  ['clue-search', 'clue-status', 'clue-node', 'clue-hide-resolved'].forEach(id =>
+    $(id).addEventListener(id === 'clue-search' ? 'input' : 'change', renderList));
   $('btn-clues').addEventListener('click', () => {
     if (summaryPanel.open) summaryPanel.close();
     renderList();

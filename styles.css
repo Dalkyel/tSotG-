@@ -242,6 +242,8 @@ svg:active{cursor:grabbing}
 .clue-toolbar label{display:flex;flex-direction:column;gap:5px;flex:1;min-width:160px}
 .clue-toolbar label:first-child{flex:2}
 .clue-toolbar input,.clue-toolbar select{width:100%;min-width:0}
+.clue-toolbar label.clue-check{flex:0 0 auto;flex-direction:row;align-items:center;gap:8px;min-width:0}
+.clue-toolbar label.clue-check input{width:auto;min-height:0}
 .clue-transfer{display:flex;align-items:center;gap:10px;padding:0 24px 12px;flex-wrap:wrap;font-size:14px}
 .clue-transfer span{margin-right:auto}
 #clue-message{padding:0 24px;color:var(--gold-lt);line-height:1.5}
@@ -259,6 +261,7 @@ svg:active{cursor:grabbing}
 .status-partial{border-color:#648caa;color:#b8d9ef}
 .status-resolved{border-color:#628b60;color:#b7d8aa}
 .status-contradicted{border-color:#b36b64;color:#edb0a7}
+.clue-badge.auto{border-style:dashed;opacity:.85}
 #clue-detail{padding:24px;min-width:0;max-height:65vh;overflow-y:auto}
 #clue-detail h2{font:600 22px 'Cinzel',serif;color:var(--gold-lt);margin-bottom:16px;overflow-wrap:anywhere}
 #clue-detail h3{font-size:19px;margin:24px 0 10px;color:var(--gold-lt)}

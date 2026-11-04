@@ -2,9 +2,9 @@
 
 Abre **Pistas y preguntas** en la cabecera del mapa.
 
-- Busca por texto o filtra por estado y personaje/tema vinculado.
-- Las observaciones originales se importan como **Por revisar**: no se deduce automáticamente si una teoría es cierta o una pregunta está resuelta.
-- Selecciona una entrada para cambiar el título, registrar evidencias y teorías por separado, añadir referencias y clasificar su estado. Pulsa **Guardar entrada** para conservar los cambios.
+- Busca por texto o filtra por estado y personaje/tema vinculado. **Ocultar resueltas** (activado por defecto) oculta las que ya están en Resuelta; la lista restante se ordena con lo Abierto/Parcial primero.
+- Las observaciones originales se importan con un estado **detectado** del propio capítulo cuando el relato ya marca «ESTADO: Resuelta/Parcial/Abierta» en su descripción; si no hay esa marca, se importan como **Por revisar**. Un estado detectado es solo un punto de partida (lleva la etiqueta «· detectado» en su tarjeta) — no es una revisión del club ni se deduce si una teoría propia es cierta.
+- Selecciona una entrada para cambiar el título, registrar evidencias y teorías por separado, añadir referencias y clasificar su estado. Pulsa **Guardar entrada** para conservar los cambios y marcarla como revisada por el club (desaparece la etiqueta «detectado»).
 - Usa **Nueva pregunta** para crear una entrada independiente. En la selección múltiple de vínculos, usa Cmd/Ctrl para seleccionar varios temas en escritorio.
 - Consulta **Historial del club** para ver las revisiones guardadas. **Notas y contexto originales** conserva los registros originales de los libros, incluso si cambias los vínculos de una entrada importada.
 - Los botones de los temas vinculados abren su detalle en el mapa.

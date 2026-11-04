@@ -7,12 +7,30 @@
   };
   const normalize = text => String(text || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
+  // Chapter rebuild threads tag their own resolution inline as "ESTADO: X"; reuse that
+  // evidence-backed marker as the default status instead of always starting at "unreviewed".
+  // DESCARTADA (a plan abandoned, not answered) has no dedicated status; closest is resolved.
+  const estadoToStatus = { RESUELTA: 'resolved', PARCIAL: 'partial', ABIERTA: 'open', DESCARTADA: 'resolved' };
+  // TRAMA threads re-tag ESTADO at every relevant chapter without exception (verified against a full
+  // plot-thread audit). Other groups (EVENTO especially) sometimes tag it once, at a narrative cliffhanger,
+  // and never retag after the prose itself resolves it later — a single mention there is unreliable.
+  // Require a second mention as evidence the state was actually revisited, not just narrated once.
+  function detectStatus(node) {
+    const minMatches = node.group === 'TRAMA' ? 1 : 2;
+    for (const text of [node.desc, node.star]) {
+      if (!text) continue;
+      const matches = [...text.matchAll(/ESTADO:\s*(RESUELTA|PARCIAL|ABIERTA|DESCARTADA)/g)];
+      if (matches.length >= minMatches) return estadoToStatus[matches[matches.length - 1][1]];
+    }
+    return null;
+  }
+
   function sourceEntries(revisions) {
     const latest = new Map();
     revisions.forEach(n => latest.set(n.id, n));
     return [...latest.values()].filter(n => n.star && n.star.trim()).map(n => ({
       id: `source:${n.book}:${n.id}`, title: n.label, note: n.star,
-      status: 'unreviewed', book: n.book, nodeIds: [n.id],
+      status: detectStatus(n) || 'unreviewed', book: n.book, nodeIds: [n.id],
       evidence: '', theory: '', chapter: '', history: [], origin: 'source',
     }));
   }
@@ -20,9 +38,9 @@
   function entries(revisions, saved) {
     const imported = sourceEntries(revisions);
     const ids = new Set(imported.map(c => c.id));
-    return imported.map(c => ({ ...c, ...(saved[c.id] || {}), note: c.note }))
+    return imported.map(c => ({ ...c, ...(saved[c.id] || {}), note: c.note, reviewedByClub: Object.hasOwn(saved, c.id) }))
       // Retain edits to older source observations as well as independent club questions.
-      .concat(Object.values(saved).filter(c => !ids.has(c.id)));
+      .concat(Object.values(saved).filter(c => !ids.has(c.id)).map(c => ({ ...c, reviewedByClub: true })));
   }
 
   // Validate the whole file before merging; never partially import a bad backup.
@@ -68,7 +86,7 @@
     return result;
   }
 
-  const api = { statuses, normalize, sourceEntries, entries, validateBackup };
+  const api = { statuses, normalize, sourceEntries, entries, validateBackup, detectStatus };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.ClueBoard = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

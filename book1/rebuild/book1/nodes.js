@@ -286,14 +286,14 @@ const nodes = [
         status: "updated",
         previousState: "Añade el traslado del cuerpo y la petición de sepultura.",
         desc: "LIBRO 1, CAPÍTULO 1: Esposo de Idrun y padre de Harek. Su granja está en las colinas sobre Fellur. Orka lo encuentra muerto entre las puertas abiertas de la empalizada, con una estocada al corazón, una lanza rota y un hacha ensangrentada cerca. Es ancho de hombros, de cabello gris y cuerpo fibroso; lleva un anillo de plata en un brazo. Los cuervos han picoteado ojos y labios; Orka atribuye la falta de dientes a los tennur. La sangre y las marcas de arrastre próximas sugieren que hirió a un atacante. Orka pone el hacha en su mano para su viaje por el camino del alma. LIBRO 1, CAPÍTULO 3: Orka y Breca transportan su cuerpo con el de Idrun a Fellur, cubiertos con una manta de lana ensangrentada. Orka pide averiguar si tienen parientes allí y que se les levante un túmulo; el entierro no se muestra.",
-        star: "★ La herida de arma y las huellas son indicios sobre el ataque; no identifican todavía a sus autores."
+        star: "★ La herida de arma y las huellas son indicios sobre el ataque; no identifican todavía a sus autores. Véase asesinato-froa (PARCIAL)."
     },
     {
         id: "idrun", label: "Idrun (†)", group: "ORKA", type: "Personaje — Muerta",
         status: "updated",
         previousState: "Añade el traslado del cuerpo y la petición de sepultura.",
         desc: "LIBRO 1, CAPÍTULO 1: Esposa de Asgrim y madre de Harek. Orka y Thorkel encuentran su cuerpo clavado a la puerta de la granja, con los brazos extendidos y el vientre abierto. El calor que aún desprenden sus entrañas indica lo reciente de la muerte. Orka comprende que los gritos que habían oído eran suyos. El capítulo no establece un motivo ni una interpretación ritual. LIBRO 1, CAPÍTULO 3: Su cuerpo viaja junto al de Asgrim en el carro que Orka y Breca llevan a Fellur. Orka solicita que se busque a sus parientes y que ambos reciban un túmulo; no se muestra su entierro.",
-        star: "★ Su muerte lenta contrasta con la estocada rápida que mató a Asgrim."
+        star: "★ Su muerte lenta contrasta con la estocada rápida que mató a Asgrim. Véase asesinato-froa (PARCIAL)."
     },
     {
         id: "harek", label: "Harek", group: "ORKA", type: "Personaje — Paradero desconocido",
@@ -365,7 +365,7 @@ const nodes = [
     {
         id: "hueso-dios-fellur", label: "Nudillo de Dios (Fellur)", group: "OBJETO", type: "Objeto Mágico — Reliquia",
         desc: "LIBRO 1, CAPÍTULO 3: Nudillo de un dios muerto incrustado en el travesaño de la puerta de Fellur. Conserva un resto de poder que ayuda a mantener fuera a los vaesen. Orka siente presión en la cabeza y el pecho al pasar bajo él, que disminuye al alejarse. No se describe ninguna reacción de Breca.",
-        star: "★★ La sensibilidad de Orka ante la reliquia queda observada sin explicar su causa."
+        star: "★★ La sensibilidad de Orka ante la reliquia queda observada sin explicar su causa. Véase pasado-orka (PARCIAL)."
     },
     {
         id: "oath-stone-fellur", label: "Roca del Juramento de Fellur", group: "LUGAR", type: "Lugar — Islote de asamblea",
@@ -1722,7 +1722,7 @@ const nodes = [
     {
         id: "oath-stone-frost-isles", label: "Roca de Juramento de Islas de Escarcha", group: "OBJETO", type: "Objeto — Roca de juramento superviviente",
         desc: "LIBRO 1, CAPÍTULO 14: Gran bloque de granito cubierto de musgo y liquen, alto y ancho como una sala de hidromiel, en una meseta de la isla más meridional de las Islas de la Escarcha. El lugar tiene hierba pastada por cabras y alisos que abrigan del viento oriental. Kráka la reconoce pese a la creencia de que todas habían sido destruidas. El Hundur detecta sangre y juramentos antiguos bajo el musgo. Al contacto con la sangre de Uspa, líneas luminosas queman la cubierta vegetal y descubren runas e imágenes de la guerra divina: Lik-Rifa cautiva entre raíces, Ulfrir encadenado, cadáveres del Bosque de las Horcas y los dioses combatiendo, incluido Snaka devorando a sus hijos. Continúa brillando débilmente después del ataque. La posible relación de su luz con los gusanos es una sospecha de Elvar; véase piedra-gusanos.",
-        star: "★★ CAPÍTULO 14: Su supervivencia contradice la creencia de destrucción total; la atracción de los gusanos sigue sin confirmar en piedra-gusanos."
+        star: "★★ CAPÍTULO 14: Su supervivencia contradice la creencia de destrucción total; la atracción de los gusanos sigue sin confirmar en piedra-gusanos. Véase piedra-gusanos (ABIERTA)."
     },
     {
         id: "night-wyrm", label: "Gusanos Nocturnos (Night-Wyrms)", group: "VAESEN", type: "Criatura — Gusanos subterráneos",
@@ -3478,7 +3478,7 @@ const nodes = [
     {
         id: "combate-nacken", label: "Combate contra el Näcken del Río", group: "EVENTO", type: "Evento — Ataque acuático y rescate",
         desc: "LIBRO 1, CAPÍTULO 28: Durante el segundo día de huida desde Fellur, Orka, Lif y Mord remontan un río sin nombre entre colinas y bosques, usando cauces menores por temor a las embarcaciones de Sigrún. Ante los rápidos, Orka propone desembarcar, pero Mord cree que pueden atravesarlos remando. Un resto de casco, huesos en el fondo y una melodía que despierta recuerdos felices anuncian el peligro; Lif queda inmóvil al remo hasta que Orka lo abofetea. Un Näcken golpea la quilla, arroja a Mord al agua y lo arrastra por el cuello; la barca choca contra una roca, escora y embarca agua. Orka ordena a Lif llevarla a tierra sin entrar al río y salta con su seax. Bajo el agua desaparece el canto y ve al agresor: humanoide verdoso, cabello como juncos podridos, ojos de jade, boca desmesurada, dientes largos y cuerpo rodeado de una sustancia oleosa. Su guarida, entre árboles sumergidos, contiene huesos humanos, de alces, osos y lobos, y una gran lira de cuerdas de tripa podrida. El Näcken muerde el hombro de Mord; Orka lo hiere en el costado mientras pronuncia «Járn og stál, skorið og brennt» y libera al muchacho. Al empujarlo hacia la orilla, la criatura la atrapa por el tobillo; un tajo sin palabras rebota en la piel de su muñeca. Orka se recuerda que palabra y acción deben ir juntas y, diciendo «Skörp járn brenna og bíta» y luego «Brenna og bíta», le corta la boca y lo apuñala en el hombro. El grito de la criatura la proyecta por el agua. Lif ha varado la barca y le tiende una lanza para ayudarla a salir. El Näcken huye bajo el agua, herido pero sin muerte confirmada. Los tres alcanzan tierra; Mord queda pálido y sangrando del hombro. Orka clava el seax y la punta de hierro de la lanza en la orilla, a ambos lados de Mord y la barca, y explica la aversión de los Näcken al hierro y su capacidad de percibirlo por la tierra. Acaba vomitando agua y limo. No se identifica este ejemplar como el sospechado cerca de Breca en el capítulo 6.",
-        star: "★ El seax corta al acompañarlo con palabras y rebota cuando Orka omite la fórmula; la criatura se retira viva o sin muerte confirmada. No se demuestra relación con la amenaza del norte."
+        star: "★ El seax corta al acompañarlo con palabras y rebota cuando Orka omite la fórmula; la criatura se retira viva o sin muerte confirmada. No se demuestra relación con la amenaza del norte. Véase amenaza-norte-helka (PARCIAL)."
     },
 
 // ── LIBRO 1, CAPÍTULO 29 — ELVAR ──
@@ -3676,7 +3676,7 @@ const nodes = [
     {
         id: "granja-abandonada", label: "Granja Abandonada del Slågen", group: "LUGAR", type: "Lugar — Granja sin habitantes visibles",
         desc: "LIBRO 1, CAPÍTULO 30: Granja sin nombre en la orilla oriental del Slågen, con muelle, empalizada de una sola puerta, casa larga de techo de turba, dependencias, establo y cercado para ponis. Los campos de cebada y centeno se extienden hacia las estribaciones boscosas de las Montañas Espinazo; al este hay un cercado de hierba alta. Entre el muelle y la empalizada hay túmulos cubiertos de musgo y hierba que Varg supone pertenecientes a esclavos muertos al servicio de la granja, sin confirmación. Cuando llega la compañía no hay humo ni actividad humana, las puertas están entreabiertas y abundan las malas hierbas entre los cultivos. El hallazgo y la investigación pertenecen a desembarco-slagen.",
-        star: "★ La ausencia de habitantes, cuerpos y sangre queda como evidencia sin explicación en amenaza-norte-helka; no prueba una evacuación, un rapto ni una matanza."
+        star: "★ La ausencia de habitantes, cuerpos y sangre queda como evidencia sin explicación en amenaza-norte-helka; no prueba una evacuación, un rapto ni una matanza. Véase amenaza-norte-helka (PARCIAL)."
     },
     {
         id: "desembarco-slagen", label: "Desembarco en el Slågen y Marcha a las Boneback", group: "EVENTO", type: "Evento — Desembarco, hallazgo e inicio de rastreo",
@@ -3797,7 +3797,7 @@ const nodes = [
         status: "updated",
         previousState: "El tipo heredado «Pescador — Fallecido» no identificaba su ficha como personaje en el visor de relaciones.",
         desc: "LIBRO 1, CAPÍTULO 3: Pescador de Fellur que ha comerciado muchas veces con Orka y Thorkel. Alto, corpulento y franco. Se recupera de una lesión en el brazo sufrida durante una tormenta y sus dos hijos, aún sin nombre, salen a pescar por él. Sale de la taberna con olor a alcohol. Critica que los antiguos jarls se hagan llamar reyes y rechaza que la sumisión a Helka se disfrace de cuidados. Afirma haber oído antes casos de niños llevados; no identifica responsables. LIBRO 1, CAPÍTULO 10: Lleva a Orka y su familia al islote con sus hijos Mord y Lif; rechaza cobrarles, pidiendo buen trato al comprar pieles. Dice que Guðvarr solo envió exploradores al río, sin barcos ni perros, y que los libertos Asgrim e Idrun tenían derecho a justicia. Detalla los raptos de Howbyr y Kergarth y propone perseguir a los culpables. Insinúa experiencia de combate anterior a su oficio de pescador; Orka reconoce en él una violencia contenida. Rechaza tributos y pérdida de autonomía bajo Helka. Afirma haber navegado y visto la esclavitud masiva y los sacrificios de niños de Iskidan; Sigrún lo desacredita como relato o fantasía de borracho. Acusa a Guðvarr de incumplir sus deberes y lo ridiculiza. Acepta el holmganga que este le propone. Pide a Orka ser su segunda porque teme que sus hijos intenten vengarlo sin poder vencer a un drengr; si muere, le encarga contenerlos y ponerle el hacha en la mano para el camino del alma. El combate aún no empieza. LIBRO 1, CAPÍTULO 12: Acepta combatir hasta la rendición. Pese al dolor del brazo lesionado, desvía la espada de Guðvarr y lo hiere de un hachazo en el hombro; el drengr cae fuera del cuadrado. Tras exigirle que se rinda, pierde el control cuando este lo insulta e intenta matarlo. La guerrera esclavizada de Sigrún se abalanza sobre él, lo apuñala repetidamente y lo mata, después le desgarra el rostro con los dientes. Sus hijos y la familia de Orka envuelven y retiran su cadáver. LIBRO 1, CAPÍTULO 15: Sus hijos levantan un túmulo sobre su cuerpo en Fellur con ayuda de Orka y su familia. Deja a Mord y Lif una barca y el oficio de pescador que les enseñó; Orka considera que les permitirá subsistir si no mueren tratando de vengarlo. LIBRO 1, CAPÍTULO 31: Mord y Lif recuerdan su consejo de no quedar en deuda con nadie, ganarse el sustento y pagar cada uno su camino. Es una enseñanza paterna atribuida por sus hijos, evocada en despedida-mord-lif.",
-        star: "★ Su comentario sitúa la desaparición de Harek dentro de un posible patrón."
+        star: "★ Su comentario sitúa la desaparición de Harek dentro de un posible patrón. Véase ninos-robados (PARCIAL). Drekr es responsable confirmado del rapto de Breca; el rastro de las barcas sugiere, sin probarlo, que la misma banda atacó la granja de Asgrim e Idrun y se llevó también a Harek, y el alcance total del patrón que apunta Virk sigue sin confirmarse."
     },
 
 // ── LIBRO 1, CAPÍTULO 32 — ELVAR ──
@@ -4199,7 +4199,7 @@ const nodes = [
     {
         id: "hallazgo-cuerpos-boneback", label: "Hallazgo de los 24 Cuerpos en las Boneback", group: "EVENTO", type: "Evento — Hallazgo de víctimas y advertencia",
         desc: "LIBRO 1, CAPÍTULO 36: Tras varios días de marcha hacia las Montañas Espinazo, los Bloodsworn entran en un pinar helado pese al verano. Se extinguen los sonidos de aves e insectos y Torvik regresa para alertar a Glornir. En el camino observan una runa tallada en un árbol, con savia y una mancha oscura. Torvik los conduce hasta Edel y los exploradores: Varg cuenta veinticuatro hombres y mujeres colgados por los tobillos, desollados, destripados y dañados por carroñeros, con vísceras amontonadas debajo y una runa en el pecho. Edel calcula alrededor de un mes desde las muertes, pero el frío impide fecharlas con certeza. Los exploradores recuperan una bota, una vaina de seax y una tela con broche dorado de alas de águila. Olvir muestra dolor y Vol reconoce que conocía a las víctimas, acusando a Skalk de haberlas enviado. Glornir las identifica como drengrs de Helka y confronta a Skalk por haber dicho que la reina no podía enviar guerreros. Skalk replica que quiso decir más guerreros. Al examinar una runa, hace caer un cadáver al tocarlo con el báculo; Vol interpreta la marca como Bannað jörð, tierra prohibida. Glornir ordena buscar información en cuerpos y terreno y decide continuar la caza y ganar la paga, pese a la verdad ocultada. Edel y sus exploradores descuelgan y examinan los cuerpos, registran la zona y señalan el camino; la compañía reanuda la marcha. No se identifica al responsable de la matanza ni se derrota a la amenaza.",
-        star: "★★ La expedición real previa fue omitida por Skalk. Marcas, frío y silencio son evidencia para amenaza-norte-helka, sin autoría ni especie confirmadas."
+        star: "★★ La expedición real previa fue omitida por Skalk. Marcas, frío y silencio son evidencia para amenaza-norte-helka, sin autoría ni especie confirmadas. Véase amenaza-norte-helka (PARCIAL)."
     },
 
 // ── LIBRO 1, CAPÍTULO 37 — ORKA ──
@@ -4290,7 +4290,7 @@ const nodes = [
     {
         id: "skefil", label: "Skefil (†)", group: "ORKA", type: "Personaje — Informante de Drekr; fallecido",
         desc: "LIBRO 1, CAPÍTULO 37: Es el hombre de rostro quemado antes anónimo en los capítulos 33 y 35 (busqueda-drekr-darl y combate-dead-drengr). Tiene los incisivos sobresalientes y un tatuaje de serpiente enroscada y entrelazada en tobillo y pantorrilla. Se declara informante de Drekr en Darl. Bajo dolor sus dientes se alargan y afilan y sus uñas se oscurecen y crecen; Orka lo identifica como Tainted del linaje de Rotta. Muere a manos de Orka tras ser capturado e interrogado; véase interrogatorio-skefil para sus respuestas y el desarrollo de la escena.",
-        star: "CAPÍTULO 37: Su tatuaje de serpiente es una observación comparable al de Drekr en el capítulo 35; no demuestra linaje común, significado ni pertenencia a una organización."
+        star: "CAPÍTULO 37: Su tatuaje de serpiente es una observación comparable al de Drekr en el capítulo 35; no demuestra linaje común, significado ni pertenencia a una organización. Véase tatuajes-dragon (ABIERTA)."
     },
     {
         id: "eagle-hall", label: "Eagle-Hall", group: "LUGAR", type: "Lugar — Fortaleza de Helka en Darl",
@@ -4342,7 +4342,7 @@ const nodes = [
     {
         id: "apertura-isbrun", label: "Apertura del Puente Isbrún por Uspa", group: "EVENTO", type: "Evento — Revelación del paso",
         desc: "LIBRO 1, CAPÍTULO 38: Tras guiar a los Battle-Grim hasta el borde del Foso, Uspa elige el lugar de acampada y exige esperar al día siguiente. Al amanecer declara que es sólstöður, comienzo del largo día durante el cual, según ella, no habrá noche en treinta días. Se corta la palma y presiona su sangre contra una roca de granito negro, invocando que el puente se revele por orden de la sangre de los dioses. La piedra tiembla y muestra una enorme huella de zarpa. Uspa camina sobre el abismo; su pie encuentra apoyo y el aire irisado revela Isbrún. Agnar celebra el paso hacia Oskutreð y afirma que los últimos pies que lo pisaron fueron los dioses: es su afirmación, no una comprobación histórica. La demostración verifica una parte de la ruta, sin alcanzar aún el árbol.",
-        star: "★★ La huella parece a Elvar de lobo u oso; se pregunta si es de Ulfrir o Berser, sin identificarla. El rito revela un puente, pero no demuestra a quién pertenece la marca."
+        star: "★★ La huella parece a Elvar de lobo u oso; se pregunta si es de Ulfrir o Berser, sin identificarla. El rito revela un puente, pero no demuestra a quién pertenece la marca. Véase isbrun (ABIERTA)."
     },
     {
         id: "ataque-tennur-colina", label: "Ataque del Enjambre de Tennur en la Colina del Isbrún", group: "EVENTO", type: "Evento — Ataque y rescate",
@@ -5361,7 +5361,7 @@ const nodes = [
     {
         id: "altar-lik-rifa-pinar", label: "Altar de Lik-Rifa en el Pinar camino al Grimholt", group: "EVENTO", type: "Evento — Hallazgo de culto",
         desc: "LIBRO 1, CAPÍTULO 46: PRIMERA EVIDENCIA: LIBRO 1, CAPÍTULO 46. Subiendo hacia el Grimholt por un pinar de las Montañas Espinazo, Orka sigue lo que creía un sendero de zorro y halla un claro con los restos de una gran piedra rúnica destrozada, similar a la Roca del Juramento de Fellur. Sobre la losa central hay una talla reciente, un nudo sinuoso de fauces abiertas, cubierta de sangre seca y oscurecida. Atada por una garra a una rama sobre la piedra cuelga un águila enorme y degollada, con las alas extendidas goteando sangre ya seca desde la garganta. Mord propone que la talla es de Snaka; Orka lo corrige al advertir las alas y la identifica como culto a Lik-Rifa, la dragona cautiva, recordando haber visto una talla semejante antes en Liga. No se identifica a los responsables del sacrificio, su número ni cuándo lo realizaron. Pregunta pendiente: quiénes adoran a Lik-Rifa en esta región remota de las Montañas Espinazo y con qué propósito. ESTADO: ABIERTA. Véase culto-likrifa-pinar.",
-        star: "★★ Primera evidencia directa de culto activo a Lik-Rifa en las Montañas Espinazo, lejos de Liga; no identifica a los adoradores ni su relación con la red de Drekr y Hakon."
+        star: "★★ Primera evidencia directa de culto activo a Lik-Rifa en las Montañas Espinazo, lejos de Liga; no identifica a los adoradores ni su relación con la red de Drekr y Hakon. Véase culto-likrifa-pinar (PARCIAL)."
     },
     {
         id: "culto-likrifa-pinar", label: "¿Quién Adora a Lik-Rifa junto al Grimholt?", group: "TRAMA", type: "Trama — Culto sin identificar",

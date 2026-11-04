@@ -59,7 +59,8 @@ test('legacy clue backups retain dates and every saved revision without hiding t
     evidence: 'Complete answer', status: 'resolved', versions: [initial] };
   const saved = clues.validateBackup({ format: 'bloodsworn-clues', version: 2, entries: [current] });
   const result = clues.entries(archive.merge(books).revisions, saved);
-  assert.deepEqual(result.find(c => c.id === current.id), current);
+  // Any entry present in `saved` is flagged as already reviewed by the club.
+  assert.deepEqual(result.find(c => c.id === current.id), { ...current, reviewedByClub: true });
   assert.deepEqual(saved[current.id].versions[0], initial);
 });
 

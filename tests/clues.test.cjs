@@ -18,8 +18,28 @@ test('existing observations remain read-only and every visible current note is i
   const latest = new Map(revisions.map(n => [n.id, n]));
   assert.equal(entries.length, [...latest.values()].filter(n => n.star?.trim()).length);
   assert.equal(new Set(entries.map(c => c.id)).size, entries.length);
-  assert.ok(entries.every(c => c.status === 'unreviewed' && c.evidence === '' && c.theory === ''));
+  // Status defaults to the chapter's own "ESTADO: …" marker when present, else unreviewed.
+  for (const c of entries) {
+    const node = latest.get(c.id.replace(/^source:\d+:/, ''));
+    const expected = core.detectStatus(node) || 'unreviewed';
+    assert.equal(c.status, expected);
+  }
+  assert.ok(entries.every(c => c.evidence === '' && c.theory === ''));
   assert.equal(JSON.stringify(revisions), original);
+});
+
+test('detectStatus reads the last ESTADO marker and maps it to a clue status', () => {
+  // TRAMA threads re-tag reliably, so even a single mention is trusted.
+  assert.equal(core.detectStatus({ group: 'TRAMA', desc: 'LIBRO 2, CAPÍTULO 3: Avance. ESTADO: ABIERTA' }), 'open');
+  assert.equal(core.detectStatus({ group: 'TRAMA', desc: 'ESTADO: ABIERTA ... más tarde ... ESTADO: PARCIAL' }), 'partial');
+  assert.equal(core.detectStatus({ group: 'TRAMA', desc: 'Sin marca alguna aquí.' }), null);
+  assert.equal(core.detectStatus({ group: 'TRAMA', desc: '', star: 'ESTADO: RESUELTA' }), 'resolved');
+  assert.equal(core.detectStatus({ group: 'TRAMA', desc: 'ESTADO: DESCARTADA' }), 'resolved');
+  // A single ESTADO mention on a non-TRAMA node (e.g. an EVENTO tagged once at a cliffhanger,
+  // then resolved by later untagged prose) is unreliable and must not be trusted.
+  assert.equal(core.detectStatus({ group: 'EVENTO', desc: 'El capítulo termina en suspenso. ESTADO: ABIERTA' }), null);
+  // Two or more mentions on a non-TRAMA node show it was genuinely revisited, and are trusted.
+  assert.equal(core.detectStatus({ group: 'ELVAR', star: 'CAP 5: ESTADO: ABIERTA. CAP 9: ESTADO: PARCIAL' }), 'partial');
 });
 
 test('all saved questions remain visible regardless of old reading dates', () => {
@@ -40,8 +60,9 @@ test('classification and club questions round-trip without losing evidence or hi
   const club = { ...entry, id: 'club:test-1', origin: 'club', title: '¿Por qué?', nodeIds: ['orka', 'varg'] };
   const saved = core.validateBackup(JSON.parse(JSON.stringify(backup([entry, club]))));
   const entries = core.entries(revisions, saved, 2);
-  assert.deepEqual(entries.find(c => c.id === entry.id), entry);
-  assert.deepEqual(entries.find(c => c.id === club.id), club);
+  // Every entry present in `saved` is flagged as already reviewed by the club.
+  assert.deepEqual(entries.find(c => c.id === entry.id), { ...entry, reviewedByClub: true });
+  assert.deepEqual(entries.find(c => c.id === club.id), { ...club, reviewedByClub: true });
   assert.equal(core.normalize('Úlfhéðnar'), 'ulfheðnar');
 });
 
