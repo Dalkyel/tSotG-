@@ -184,29 +184,6 @@ test('backlog index uses the same latest candidates without exposing prose or in
   assert.notEqual(run(root, 1, pages + 1, '--index').status, 0);
 });
 
-test('rebuild backlog dispatch stays isolated from live and reference archives', t => {
-  const root = fixture(t);
-  fs.copyFileSync(path.resolve(__dirname, '../mapa-core.js'), path.join(root, 'mapa-core.js'));
-  const targetScripts = path.join(root, '.claude/skills/add-chapter/scripts');
-  fs.mkdirSync(targetScripts, { recursive: true });
-  for (const helper of ['rebuild', 'read-backlog', 'backlog-data', 'paginate', 'rebuild-guard'])
-    fs.copyFileSync(path.join(scripts, `${helper}.cjs`), path.join(targetScripts, `${helper}.cjs`));
-  writeNodes(root, 1, [{ id: 'live-spoiler', group: 'TRAMA' }]);
-  writeNodes(path.join(root, 'book1/rebuild'), 1, [{ id: 'staged-clue', group: 'TRAMA', desc: 'staged evidence' }]);
-  writeNodes(path.join(root, 'book1/rebuild/reference'), 1, [{ id: 'reference-spoiler', group: 'TRAMA' }]);
-  const result = spawnSync(process.execPath, [path.join(targetScripts, 'rebuild.cjs'), 'read-backlog', '1'],
-    { cwd: os.tmpdir(), encoding: 'utf8' });
-  assert.deepEqual(JSON.parse(pageText(result)).map(n => n.id), ['staged-clue']);
-  assert.doesNotMatch(result.stdout, /live-spoiler|reference-spoiler/);
-  const index = spawnSync(process.execPath, [path.join(targetScripts, 'rebuild.cjs'), 'read-backlog', '1', '--index'],
-    { cwd: os.tmpdir(), encoding: 'utf8' });
-  assert.equal(pageText(index), 'staged-clue [TRAMA]');
-  assert.doesNotMatch(index.stdout, /live-spoiler|reference-spoiler|staged evidence/);
-  const compact = spawnSync(process.execPath, [path.join(targetScripts, 'rebuild.cjs'), 'read-backlog', '1', '--compact'],
-    { cwd: os.tmpdir(), encoding: 'utf8' });
-  assert.deepEqual(JSON.parse(pageText(compact)), JSON.parse(pageText(result)));
-});
-
 test('POV selection retains untagged clues, explicit cross-POV inclusions and full index coverage', t => {
   const root = fixture(t);
   writeNodes(root, 1, [

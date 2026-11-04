@@ -3,7 +3,6 @@
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const { paginate } = require('./paginate.cjs');
-const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
 const [bookArg, pageArg, ...args] = process.argv.slice(2);
 const between = args[0] === '--between';
@@ -13,7 +12,6 @@ assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page 
   'Usage: node .claude/skills/add-chapter/scripts/read-links.cjs BOOK PAGE ID [ID ...] | BOOK PAGE --between ID ID');
 assert.ok(ids.every(id => !id.startsWith('--')), 'Unknown or misplaced option');
 assert.ok(!between || ids.length === 2, '--between requires exactly two endpoint ids');
-warnIfBypassingActiveRebuild(book);
 
 const labels = new Map(), links = [];
 for (let n = 1; n <= book; n++) {

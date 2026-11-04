@@ -2,7 +2,6 @@
 // Run from the project root; evaluates trusted local node arrays only.
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
-const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
 const [bookArg, ...names] = process.argv.slice(2);
 const book = Number(bookArg);
@@ -10,7 +9,6 @@ const dumpAll = names.length === 1 && names[0] === '--all';
 assert.ok(Number.isInteger(book) && book >= 1 && (names.length || dumpAll),
   'Usage: node .claude/skills/add-chapter/scripts/match-entities.cjs BOOK NAME [NAME ...]\n' +
   '   or: node .claude/skills/add-chapter/scripts/match-entities.cjs BOOK --all');
-warnIfBypassingActiveRebuild(book);
 
 // Keep all historical labels, including variants replaced in later chapters.
 const inventory = new Map();

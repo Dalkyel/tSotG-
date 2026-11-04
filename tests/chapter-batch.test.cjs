@@ -29,7 +29,7 @@ function manifest() {
 }
 function run(root, spec, book = 1, options = []) {
   fs.writeFileSync(path.join(root, 'chapter.json'), JSON.stringify(spec));
-  return spawnSync(process.execPath, [path.join(scripts, 'append-chapter.cjs'), book, 1, 'baseline', 'chapter.json', '--staged-preview', ...options].map(String), { cwd: root, encoding: 'utf8' });
+  return spawnSync(process.execPath, [path.join(scripts, 'append-chapter.cjs'), book, 1, 'baseline', 'chapter.json', ...options].map(String), { cwd: root, encoding: 'utf8' });
 }
 function snapshot(root, book = 1) {
   return ['nodes', 'links', 'summaries'].map(k => fs.readFileSync(path.join(root, `book${book}/${k}.js`), 'utf8'));
@@ -135,7 +135,7 @@ test('batch restores previously published files when a later write fails', t => 
       return write.call(this,file,...args);
     };`);
   fs.writeFileSync(path.join(root, 'chapter.json'), JSON.stringify(manifest()));
-  const result = spawnSync(process.execPath, ['--require', preload, path.join(scripts, 'append-chapter.cjs'), '1', '1', 'baseline', 'chapter.json', '--staged-preview'], { cwd: root, encoding: 'utf8' });
+  const result = spawnSync(process.execPath, ['--require', preload, path.join(scripts, 'append-chapter.cjs'), '1', '1', 'baseline', 'chapter.json'], { cwd: root, encoding: 'utf8' });
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /simulated publish failure/);
   assert.deepEqual(snapshot(root), before);
@@ -156,56 +156,8 @@ test('failed revision publication restores the applied draft rather than the bas
       return write.call(this,file,...args);
     };`);
   const result = spawnSync(process.execPath, ['--require', preload, path.join(scripts, 'append-chapter.cjs'),
-    '1', '1', 'baseline', 'chapter.json', '--staged-preview', '--replace-applied', 'previous.json'], { cwd: root, encoding: 'utf8' });
+    '1', '1', 'baseline', 'chapter.json', '--replace-applied', 'previous.json'], { cwd: root, encoding: 'utf8' });
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /simulated revision publish failure/);
   assert.deepEqual(snapshot(root), applied);
-});
-test('rebuild batch resolves caller paths, isolates staged writes and rejects reference mode', t => {
-  const root = fixture(t), localScripts = path.join(root, '.claude/skills/add-chapter/scripts');
-  fs.mkdirSync(localScripts, { recursive: true });
-  for (const helper of ['rebuild', 'append-chapter', 'append-node', 'append-entries', 'verify-chapter', 'paginate']) fs.copyFileSync(path.join(scripts, helper + '.cjs'), path.join(localScripts, helper + '.cjs'));
-  fs.copyFileSync(path.resolve(__dirname, '../characters-core.js'), path.join(root, 'characters-core.js'));
-  const { createHash } = require('node:crypto');
-  const staged = path.join(root, 'book1/rebuild');
-  fs.mkdirSync(path.join(staged, 'book1'), { recursive: true });
-  const liveHashes = {};
-  fs.mkdirSync(path.join(root, 'book2'));
-  for (const book of [1, 2]) for (const kind of ['nodes', 'links', 'summaries']) {
-    const file = `book${book}/${kind}.js`;
-    if (book === 1) fs.copyFileSync(path.join(root, file), path.join(staged, file));
-    else fs.writeFileSync(path.join(root, file), 'unchanged live Book Two');
-    liveHashes[file] = createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex');
-  }
-  fs.writeFileSync(path.join(staged, 'progress.json'), JSON.stringify({ liveHashes }));
-  fs.writeFileSync(path.join(root, 'chapter.json'), JSON.stringify(manifest()));
-  const launch = (extra, options = []) => spawnSync(process.execPath, [path.join(localScripts, 'rebuild.cjs'), ...extra, 'append-chapter', '1', 'baseline', 'chapter.json', ...options], { cwd: root, encoding: 'utf8' });
-  const live = snapshot(root);
-  assert.notEqual(launch(['--reference']).status, 0);
-  const protectedFile = path.join(root, 'book2/nodes.js');
-  fs.appendFileSync(protectedFile, ' changed');
-  const blocked = launch([]);
-  assert.notEqual(blocked.status, 0);
-  assert.match(blocked.stderr, /Live archive changed/);
-  assert.deepEqual(snapshot(staged), live);
-  fs.writeFileSync(protectedFile, 'unchanged live Book Two');
-  const result = launch([]);
-  assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /staged preview; no guides/);
-  assert.deepEqual(snapshot(root), live);
-  assert.match(fs.readFileSync(path.join(staged, 'book1/nodes.js'), 'utf8'), /Nueva acción/);
-  fs.copyFileSync(path.join(root, 'chapter.json'), path.join(root, 'previous.json'));
-  const next = manifest(); next.nodes[0].descAppend = 'Revisión aislada.';
-  fs.writeFileSync(path.join(root, 'chapter.json'), JSON.stringify(next));
-  const revision = launch([], ['--replace-applied', 'previous.json']);
-  assert.equal(revision.status, 0, revision.stderr);
-  assert.match(revision.stdout, /REVISED/);
-  assert.deepEqual(snapshot(root), live);
-  assert.match(snapshot(staged)[0], /Revisión aislada/);
-  const completed = snapshot(staged);
-  fs.writeFileSync(path.join(staged, 'progress.json'), JSON.stringify({ liveHashes, completedChapters: [1] }));
-  const blockedRevision = launch([], ['--replace-applied', 'previous.json']);
-  assert.notEqual(blockedRevision.status, 0);
-  assert.match(blockedRevision.stderr, /Chapter already completed/);
-  assert.deepEqual(snapshot(staged), completed);
 });

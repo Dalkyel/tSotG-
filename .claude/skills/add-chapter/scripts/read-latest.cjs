@@ -3,13 +3,11 @@
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const { paginate } = require('./paginate.cjs');
-const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
 const [bookArg, pageArg, ...ids] = process.argv.slice(2);
 const book = Number(bookArg), page = Number(pageArg);
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page >= 1 && ids.length,
   'Usage: node .claude/skills/add-chapter/scripts/read-latest.cjs BOOK PAGE ID [ID ...]');
-warnIfBypassingActiveRebuild(book);
 
 const latest = new Map();
 for (let n = 1; n <= book; n++) {

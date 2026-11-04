@@ -3,7 +3,6 @@
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const { paginate } = require('./paginate.cjs');
-const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
 const [bookArg, pageArg, name, ...options] = process.argv.slice(2);
 const book = Number(bookArg), page = Number(pageArg);
@@ -11,7 +10,6 @@ assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page 
   options.length % 2 === 0 && options.every((value, index) =>
     index % 2 === 0 ? ['--id', '--max-excerpts'].includes(value) : value && !value.startsWith('--')),
   'Usage: node .claude/skills/add-chapter/scripts/search-descriptions.cjs BOOK PAGE NAME [--id ID ...] [--max-excerpts N]');
-warnIfBypassingActiveRebuild(book);
 const selectedIds = new Set();
 let maxExcerpts = Infinity;
 for (let index = 0; index < options.length; index += 2) {

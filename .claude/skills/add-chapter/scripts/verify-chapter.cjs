@@ -7,9 +7,9 @@ const { execFileSync } = require('node:child_process');
 const { paginate } = require('./paginate.cjs');
 
 const [bookArg, chapterArg, baseline, ...options] = process.argv.slice(2);
-assert.ok(options.every(option => ['--review-links', '--review-summary', '--review-overlap', '--staged-preview'].includes(option)
+assert.ok(options.every(option => ['--review-links', '--review-summary', '--review-overlap'].includes(option)
   || /^--review-nodes=[1-9]\d*$/.test(option)),
-  'Unknown option; supported: --review-links, --review-summary, --review-overlap, --review-nodes=PAGE, --staged-preview');
+  'Unknown option; supported: --review-links, --review-summary, --review-overlap, --review-nodes=PAGE');
 const nodeReviewOptions = options.filter(option => option.startsWith('--review-nodes='));
 assert.ok(nodeReviewOptions.length <= 1, 'Supply only one --review-nodes=PAGE option');
 const book = Number(bookArg), chapter = Number(chapterArg);
@@ -77,12 +77,10 @@ for (const event of addedEvents) {
     (link.target === 'cat-eventos' && link.source === event.id)),
   `${event.id}: EVENTO must have an active direct link to EVENTOS CLAVE (cat-eventos)`);
 }
-// Match the actual preview inventory and guides, rather than assuming that bold
-// markup creates links. Staged rebuilds deliberately exclude live reading guides.
+// Match the live inventory and guides; bold markup alone does not create links.
 const root = path.resolve(__dirname, '../../../..');
 const mentions = require(path.join(root, 'characters-core.js'));
-const guides = options.includes('--staged-preview') ? {}
-  : load(path.join(root, 'characters-data.js'), 'CHARACTER_GUIDES');
+const guides = load(path.join(root, 'characters-data.js'), 'CHARACTER_GUIDES');
 const resolved = [...new Map(revisions.map(node => [node.id, node])).values()];
 const matcher = mentions.buildMentionMatcher(resolved, revisions, guides);
 const summaryTerms = [...added.summaries[0].summary.matchAll(/<strong>(.*?)<\/strong>/g)].map(match => match[1]);
@@ -125,7 +123,7 @@ if (nodeReviewOptions.length) {
 }
 console.log(`PASS: Book ${book}, chapter ${chapter}: ${added.nodes.length} nodes, ${added.links.length} links, 1 summary appended.`);
 console.log('Syntax, endpoints at each book cap, summary order/uniqueness, baseline prefixes, and accumulated node text verified.');
-console.log(`Summary links: ${summaryTerms.length} emphasized terms resolve completely (${options.includes('--staged-preview') ? 'staged preview; no guides' : 'live guides'}).`);
+console.log(`Summary links: ${summaryTerms.length} emphasized terms resolve completely (live guides).`);
 console.log(`Event category links: ${addedEvents.length} added/updated EVENTO nodes connected to EVENTOS CLAVE.`);
 console.log('Content accuracy and browser appearance still require review.');
 if (nodeReview) console.log(nodeReview);

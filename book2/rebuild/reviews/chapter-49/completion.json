@@ -1,4 +1,0 @@
-{
-  "source": "book2/chapter 49.html",
-  "log": "Chapter 49: Elvar; replaced legacy content from the complete supplied source with two category-linked departure events, a pending Snakavik journey, and six cumulative profile/thread updates. Reviewed full affected baselines, all changed nodes and links, 16 canonical summary mentions, overlap and legacy summary; all three semantic gates PASS and all 210 backlog IDs assessed. Required nine-file regression suite passed. Later chapters retained; visual UI confirmation left to user."
-}

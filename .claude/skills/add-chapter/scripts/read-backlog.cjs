@@ -4,7 +4,6 @@
 const assert = require('node:assert/strict');
 const { backlogCandidates, POV_GROUPS } = require('./backlog-data.cjs');
 const { paginate } = require('./paginate.cjs');
-const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
 const [bookArg, pageArg, ...extra] = process.argv.slice(2);
 const book = Number(bookArg), page = Number(pageArg);
@@ -33,7 +32,6 @@ assert.ok(!(indexOnly && compact), '--compact is a prose format; use --index sep
 assert.ok(!(untaggedOnly && selectedPovs.size), '--untagged cannot be combined with --pov');
 const filtered = untaggedOnly || selectedPovs.size > 0;
 assert.ok(!include.size || filtered, '--include requires --pov or --untagged');
-warnIfBypassingActiveRebuild(book);
 const allCandidates = backlogCandidates(book);
 const tags = node => node.povs ?? (node.pov ? [node.pov] : []);
 for (const id of include) assert.ok(allCandidates.some(node => node.id === id), `Unknown backlog candidate: ${id}`);

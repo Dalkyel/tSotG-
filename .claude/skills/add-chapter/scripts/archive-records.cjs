@@ -31,21 +31,6 @@ function records(text, kind, book) {
   return spans;
 }
 function read(root, book, kind) { return records(fs.readFileSync(`${root}/book${book}/${kind}.js`, 'utf8'), kind, book); }
-function render(items, kind, book) {
-  let chapter;
-  return `// Book ${book} — chronological archive\nconst ${variable(kind, book)} = [\n` + items.map(item => {
-    const heading = item.chapter !== chapter ? `\n// ${item.chapter ? `LIBRO ${book}, CAPÍTULO ${item.chapter}` : 'REFERENCE / GLOSSARY'}\n` : '';
-    chapter = item.chapter;
-    return heading + '    ' + JSON.stringify(item.value) + ',\n';
-  }).join('') + '];\n';
-}
 function loadBook(root, book) { return Object.fromEntries(['nodes', 'links', 'summaries'].map(k => [k, read(root, book, k)])); }
 function latest(items) { return new Map(items.map(item => [item.value.id, item.value])); }
-const hash = bytes => require('node:crypto').createHash('sha256').update(bytes).digest('hex');
-function hashes(root, books = [1, 2]) { return Object.fromEntries(books.flatMap(b => ['nodes', 'links', 'summaries'].map(k => { const file = `book${b}/${k}.js`; return [file, hash(fs.readFileSync(`${root}/${file}`))]; }))); }
-function writeTransaction(changes) {
-  const before = new Map([...changes].map(([file]) => [file, fs.existsSync(file) ? fs.readFileSync(file) : null]));
-  try { for (const [file, text] of changes) { fs.mkdirSync(require('node:path').dirname(file), { recursive: true }); fs.writeFileSync(file, text); } }
-  catch (error) { for (const [file, text] of before) { if (text === null) fs.rmSync(file, { force: true }); else fs.writeFileSync(file, text); } throw error; }
-}
-module.exports = { variable, records, read, render, loadBook, latest, hash, hashes, writeTransaction };
+module.exports = { variable, records, read, loadBook, latest };

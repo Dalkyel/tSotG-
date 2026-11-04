@@ -2,13 +2,11 @@
 // Run from the project root; evaluates trusted local summary arrays only.
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
-const { warnIfBypassingActiveRebuild } = require('./rebuild-guard.cjs');
 
 const [bookArg, chapterArg] = process.argv.slice(2);
 const book = Number(bookArg), chapter = Number(chapterArg);
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(chapter) && chapter >= 1,
   'Usage: node .claude/skills/add-chapter/scripts/check-chapter.cjs BOOK CHAPTER');
-warnIfBypassingActiveRebuild(book);
 
 const summaryFile = `book${book}/summaries.js`;
 const variable = book === 1 ? 'chapterSummaries' : `chapterSummariesBook${book}`;

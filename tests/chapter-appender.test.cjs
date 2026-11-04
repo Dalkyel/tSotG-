@@ -77,19 +77,3 @@ test('chapter appender rejects invalid specs and malformed source before writing
   assert.notEqual(run(root, 1, 'links', { entries: [{ source: 'a', target: 'b', label: 'x', type: 'rel' }] }).status, 0);
   assert.equal(fs.readFileSync(file, 'utf8'), malformed);
 }));
-
-test('rebuild appender resolves the caller spec path, writes only staged data and rejects reference writes', () => fixture(root => {
-  const localScripts = path.join(root, '.claude/skills/add-chapter/scripts');
-  fs.mkdirSync(localScripts, { recursive: true });
-  for (const name of ['rebuild.cjs', 'append-entries.cjs']) fs.copyFileSync(path.join(scripts, name), path.join(localScripts, name));
-  for (const dir of ['book1', 'book1/rebuild/book1', 'book1/rebuild/reference/book1']) {
-    fs.mkdirSync(path.join(root, dir), { recursive: true });
-    fs.writeFileSync(path.join(root, dir, 'links.js'), 'const links = [\n];\n');
-  }
-  fs.writeFileSync(path.join(root, 'spec.json'), JSON.stringify({ entries: [{ source: 'a', target: 'b', label: 'x', type: 'rel' }] }));
-  const launch = extra => spawnSync(process.execPath, [path.join(localScripts, 'rebuild.cjs'), ...extra, 'append-entries', 'links', 'spec.json'], { cwd: root, encoding: 'utf8' });
-  assert.equal(launch([]).status, 0);
-  assert.match(fs.readFileSync(path.join(root, 'book1/rebuild/book1/links.js'), 'utf8'), /"source":"a"/);
-  for (const dir of ['book1', 'book1/rebuild/reference/book1']) assert.equal(fs.readFileSync(path.join(root, dir, 'links.js'), 'utf8'), 'const links = [\n];\n');
-  assert.notEqual(launch(['--reference']).status, 0);
-}));

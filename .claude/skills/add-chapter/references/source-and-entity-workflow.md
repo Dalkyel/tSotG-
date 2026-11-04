@@ -1,11 +1,7 @@
 # Source, identity and append workflow
 
 Read this complete procedure for chapter additions and the applicable steps for reference
-integration. Book One rebuild commands are substituted by [book1-rebuild.md](book1-rebuild.md);
-source reading, identity resolution and accumulation requirements still apply. For active
-Book Two reprocessing, substitute the `reprocess.cjs` commands and chronological context
-from [book2-reprocessing.md](book2-reprocessing.md); never inspect the full live Book Two
-archive as the factual baseline for an earlier replacement chapter.
+integration. Use the current live archive through the requested book as the baseline.
 
 ## Before writing anything
 
@@ -22,6 +18,8 @@ archive as the factual baseline for an earlier replacement chapter.
    match exists, inspect for incomplete work or requested corrections instead of
    blindly appending. Do not search whole data files for a bare chapter number:
    numbers inside accumulated descriptions can return enormous unrelated lines.
+   Verify the source's actual chapter heading rather than relying on numbered export
+   filenames; check the local table of contents when the expected filename is absent.
    Read the complete chapter before inventory work. For local HTML/XHTML, use the
    bundled stdlib reader instead of writing an extractor:
 
@@ -37,6 +35,12 @@ archive as the factual baseline for an earlier replacement chapter.
    until `END`; do not batch chapter pages with inventories or full entries. If any output
    is truncated or condensed, retrieve the omitted content in smaller chunks before
    proceeding. Use `caveman_retrieve` for a `<<ccr:...>>` handle only when available.
+
+   If interrupted, save `source-notes.md` beside the baseline: source path and whether
+   reading reached END, exact backlog selection/format and last consecutive page read,
+   event/thread inventory, applied manifest path, and next unfinished check. Resume
+   against the same source and baseline; repeat affected reads if either changed.
+   Never carry page numbers from one backlog selection into a different selection.
 
 2. After reading the complete chapter, build its full entity list — every named character,
    place, or thing it mentions, including context-only references that won't need a
@@ -70,11 +74,10 @@ archive as the factual baseline for an earlier replacement chapter.
    node .claude/skills/add-chapter/scripts/match-entities.cjs 2 --all
    ```
 
-   Before escalating an unmatched creature or concept to the reference archive, retry
+   Before minting an unmatched creature or concept, retry
    recognizable singular/plural and translated forms against the current inventory
    (e.g. `trolls` → `Trol`, `Frost-spiders` → `Arañas del Hielo`). The matcher does not
-   stem or translate names. This can confirm an existing staged id without exposing
-   later reference labels; it does not establish an unfamiliar translation by itself.
+   stem or translate names. This can confirm an existing id; it does not establish an unfamiliar translation by itself.
 
    **An exact given-name match can still be a namesake.** Check the candidate's
    established role and chronology before reusing its id. Book Two Ch43's living
@@ -147,25 +150,18 @@ archive as the factual baseline for an earlier replacement chapter.
 
    **d. Still genuinely absent? Mint a new id** — lowercase, hyphenated, no accents —
    unless the person is unnamed (record their appearance in the chapter summary instead,
-   mint no id until they're named). This applies even after a bounded reference check
-   (book1-rebuild.md's identity-check procedure) turns up a fully-named node for what the
-   current chapter only shows as an anonymous character/creature: the match confirms the
-   figure will matter later, not that today's unnamed appearance may borrow that future
-   name or label. In a Book 1 rebuild Chapter 49 run, a reference search to confirm an
-   event id for two unnamed giant ravens also surfaced their eventual named node ("Grok y
-   Kló"); the ravens stayed unnamed in that chapter's own text and link/summary prose,
-   with no node minted for them at all, exactly as this rule requires. First rule out two
+   mint no id until they're named). Do not borrow a name from a later revelation for an earlier anonymous appearance.
+   First rule out two
    near-misses: a near-miss spelling in
    extracted text (match context to the established id — e.g. Verdani/Verdandi — retain the
    canonical label and note the source variant rather than creating a duplicate) and a
    combined legacy id that actually represents multiple people. Named people must have
    separate identities for future connections, even when introduced or acting together.
-   In the rebuild, Mord is `mord` and Lif is `lif`; never recreate `mord-lif` or direct a
+   Mord is `mord` and Lif is `lif`; never recreate `mord-lif` or direct a
    person-specific fact/link to a combined identity. For other legacy combined nodes,
    inspect their membership before creating individual ids; preserve joint facts on each
-   relevant individual and put shared scenes in event nodes. The untouched live/reference
-   archive may retain historical combined ids; reconcile their endpoints during final
-   migration rather than copying them into the rebuild.
+   relevant individual and put shared scenes in event nodes. Historical combined ids may remain in older records; use the confirmed individual
+   ids for new person-specific connections.
 
    A third case: a recurring character already tracked anonymously (e.g. "la esclava de
    Sigrún", present across several earlier chapters only inside *other* entities' own
@@ -227,17 +223,14 @@ archive as the factual baseline for an earlier replacement chapter.
 
    ```sh
    node .claude/skills/add-chapter/scripts/read-links.cjs 2 1 --between elvar bloodsworn
-   # Active Book Two reprocessing: implicit book, chronological context only
-   node .claude/skills/add-chapter/scripts/reprocess.cjs read-links 1 --between elvar bloodsworn
+
    ```
 
    `--between` takes exactly two confirmed endpoint ids, retains both directions and
    broken markers, and prints `NO MATCHES` when absent. It uses parsed data, so quote
    style and field layout cannot hide a link. Use one call per pairing; ordinary multiple
    ids still select their entire union. Read all indicated pages and inspect removals
-   before judging a connection active. Rebuild/reprocessing calls must use their launcher
-   to avoid the later live archive; never substitute a grep of `book2/links.js` while
-   reviewing an earlier replacement chapter.
+   before judging a connection active.
    Read every entity you will update in full before editing; excerpts never replace that
    requirement. Keep unrelated long histories out of the same paginated batch so a small
    context check does not force reading several unnecessary pages.
@@ -310,8 +303,7 @@ archive as the factual baseline for an earlier replacement chapter.
 
      ```sh
      node .claude/skills/add-chapter/scripts/append-chapter.cjs 2 42 "$chapter_baseline" "$chapter_run/chapter.json"
-     # Book One rebuild: implicit book 1; use the staged baseline
-     node .claude/skills/add-chapter/scripts/rebuild.cjs append-chapter 42 "$chapter_baseline" "$chapter_run/chapter.json"
+
      ```
 
      `nodes` and `links` may be empty arrays; `summary` is exactly one entry for the
@@ -326,12 +318,8 @@ archive as the factual baseline for an earlier replacement chapter.
      and restores files on a caught write error; the three-file write is not a
      crash-atomic filesystem transaction.
 
-     The rebuild launcher checks live hashes and supplies staged mention matching.
-     Live calls use live guides by default. The batch does not write review records,
-     update README/progress, or waive any source, ownership, event or thread review.
-     Continue with the normal verifier review options and all three semantic gates.
-     For rebuild completion, use `rebuild.cjs finish-chapter` as documented in
-     [the rebuild procedure](book1-rebuild.md) after those reviews and tests.
+     The batch does not write review records or update README. Continue with the
+     normal verifier review options and all three semantic gates before completion.
      Keep the individual appenders for targeted work; if using a manual loop, confirm
      counts by parsing arrays (baseline + 1 per id), never formatting-sensitive grep.
    - **Correct an applied batch through its manifest, before chapter completion.** Keep
@@ -342,8 +330,7 @@ archive as the factual baseline for an earlier replacement chapter.
 
      ```sh
      node .claude/skills/add-chapter/scripts/append-chapter.cjs 2 42 "$chapter_baseline" "$chapter_run/chapter.json" --replace-applied "$chapter_run/chapter.applied.json"
-     # Book One rebuild:
-     node .claude/skills/add-chapter/scripts/rebuild.cjs append-chapter 42 "$chapter_baseline" "$chapter_run/chapter.json" --replace-applied "$chapter_run/chapter.applied.json"
+
      ```
 
      The helper reproduces the previous manifest in scratch and requires all three
@@ -354,8 +341,7 @@ archive as the factual baseline for an earlier replacement chapter.
      a caught write failure. After success, keep the newly applied manifest as the
      previous spec for any further correction. Revisit all affected semantic reviews,
      checklist assessments and verifier reports before recording PASS; old attestations
-     do not cover a changed draft. The rebuild launcher rejects revisions of completed
-     chapters; historical repairs remain a separate workflow.
+     do not cover a changed draft. Historical repairs remain a separate workflow.
 
      For non-batch corrections only, inspect the actual chapter section first:
      `append-entries.cjs` writes compact JSON links and `append-node.cjs` writes spaced
@@ -394,7 +380,6 @@ archive as the factual baseline for an earlier replacement chapter.
      with or without a final comma, and validates syntax and basic fields before writing.
      Duplicate or unordered summary chapters fail without changing the file. Endpoint,
      mention and semantic checks still belong to the chapter verifier and review gates.
-     For the rebuild, use `rebuild.cjs append-entries links|summaries SPEC_PATH`.
    - If reading source lines, include the entire object: `desc` and `star` may be on
      following lines. For same-POV continuations, chapter boundary comments can locate
      the previous scene's cluster quickly; inspect later same-id entries before copying.

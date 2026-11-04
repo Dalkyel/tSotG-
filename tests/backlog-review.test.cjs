@@ -148,28 +148,6 @@ test('checklist sync preserves notes and baseline-only clues, adds pending rows 
   }
 });
 
-test('rebuild checklist resolves caller paths, stays staged and forbids reference writes', t => {
-  const f = fixture(t);
-  fs.copyFileSync(path.resolve(__dirname, '../mapa-core.js'), path.join(f.root, 'mapa-core.js'));
-  const local = path.join(f.root, '.claude/skills/add-chapter/scripts');
-  fs.mkdirSync(local, { recursive: true });
-  for (const name of ['rebuild', 'review-backlog', 'backlog-data'])
-    fs.copyFileSync(path.join(scripts, `${name}.cjs`), path.join(local, `${name}.cjs`));
-  nodes(f.root, 1, [{ id: 'live-spoiler', group: 'TRAMA' }]);
-  const stage = path.join(f.root, 'book1/rebuild');
-  nodes(stage, 1, [{ id: 'staged', group: 'TRAMA' }]);
-  nodes(path.join(stage, 'reference'), 1, [{ id: 'reference-spoiler', group: 'TRAMA' }]);
-  fs.copyFileSync(path.join(stage, 'book1/nodes.js'), path.join(f.baseline, 'nodes.js'));
-  const run = (...prefix) => spawnSync(process.execPath, [path.join(local, 'rebuild.cjs'), ...prefix,
-    'review-backlog', '40', 'baseline', 'init', 'thread-checklist.json'], { cwd: f.root, encoding: 'utf8' });
-  assert.equal(run().status, 0);
-  assert.deepEqual(f.read().items.map(i => i.id), ['staged']);
-  fs.unlinkSync(f.file);
-  assert.notEqual(run('--reference').status, 0);
-  assert.equal(fs.existsSync(f.file), false);
-});
-
-
 test('large incomplete checklists fail with bounded diagnostics without changing evidence', t => {
   const f = fixture(t);
   nodes(f.root, 1, Array.from({ length: 100 }, (_, i) => ({

@@ -1,5 +1,18 @@
 # Changelog
 
+- 2026-11-04: Removed `book1/rebuild/` and `book2/rebuild/` after checking their
+  final data against the live archive. Preserved all 43 Book Two chapters' semantic
+  reviews/checklists in `audits/book2-chapter-C/`, the Chapter 50 manifest, and Book
+  One's chapters 1–15 event review. Removed duplicate datasets, preview, old progress,
+  reconciliation state and obsolete completion records. Newer live clue annotations
+  take precedence over the retired checkpoints; no live story data changed.
+
+- 2026-11-04: Retired rebuilding after Book Two Chapter 50. New chapters use live
+  preflight, source/entity readers, baseline-backed appenders and the three semantic
+  reviews. Removed rebuild/reprocessing launchers, guards, staged-preview options and
+  workflow-only tests; moved useful content/UI regressions to the live archive. Retained
+  historical snapshots and review evidence; new reviews live in `audits/bookN-chapter-C/`.
+
 - 2026-11-04: Added the missing Biórr and Guðvarr Book Two arcs, their chronological
   category memberships and narrator colors. Map clustering, legend and backlog filters
   share the five-POV registry. Shared clues retain multiple tags and remain selectable

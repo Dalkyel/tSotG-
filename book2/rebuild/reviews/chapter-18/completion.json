@@ -1,4 +1,0 @@
-{
-  "source": "book2/chapter 18.html",
-  "log": "Chapter 18: Orka — replaced the chapter from the full two-page source with 8 cumulative updates, the shield definition, 2 key events, 26 links and a Spanish summary. Kept the arriving leader and grieving corpse unnamed, attributed Ingmar’s epithet and Berser lineage, advanced training/revenge/rescue without false closure, and reviewed all 168 backlog candidates with ownership/event/thread PASS reports. All 59 required regression tests and chapter preservation, mentions, category and overlap checks passed. Browser preview was blocked by the local-file URL policy; visual confirmation remains manual. Improved the skill reference to use full book/chapter markers for targeted identity searches; documented the change in the archive. The skill quick validator could not start because PyYAML is unavailable; changed Markdown and reference paths were checked directly."
-}

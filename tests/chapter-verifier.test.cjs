@@ -6,7 +6,7 @@ const path = require('node:path');
 const { spawnSync } = require('node:child_process');
 const verifier = path.resolve(__dirname, '../.claude/skills/add-chapter/scripts/verify-chapter.cjs');
 
-function verify(term, staged = true, options = [], fixture = {}) {
+function verify(term, options = [], fixture = {}) {
   const cwd = fs.mkdtempSync(path.join(os.tmpdir(), 'chapter-verifier-test-'));
   try {
     fs.mkdirSync(path.join(cwd, 'book1'));
@@ -25,24 +25,24 @@ function verify(term, staged = true, options = [], fixture = {}) {
       ] : kind === 'summaries' ? [{ chapter: 1, title: 'Capítulo 1', summary: `<strong>${term}</strong>` }] : (fixture.links ?? []);
       fs.writeFileSync(path.join(cwd, 'book1', `${kind}.js`), `const ${variable} = ${JSON.stringify(data)};`);
     }
-    const result = spawnSync(process.execPath, [verifier, '1', '1', baseline, ...(staged ? ['--staged-preview'] : []), ...options], { cwd, encoding: 'utf8' });
+    const result = spawnSync(process.execPath, [verifier, '1', '1', baseline, ...options], { cwd, encoding: 'utf8' });
     return { status: result.status, output: result.stdout + result.stderr };
   } finally {
     fs.rmSync(cwd, { recursive: true, force: true });
   }
 }
 
-test('chapter verifier accepts canonical summary names in a staged preview', () => {
+test('chapter verifier accepts canonical summary names with live guides', () => {
   const result = verify('Terrores de la batalla');
   assert.equal(result.status, 0, result.output);
-  assert.match(result.output, /1 emphasized terms resolve completely \(staged preview; no guides\)/);
+  assert.match(result.output, /1 emphasized terms resolve completely \(live guides\)/);
 });
 
 test('chapter verifier node review emits verified suffixes, complete new nodes and metadata changes', () => {
   const before = { id: 'reviewed', label: 'Nombre anterior', group: 'ORKA', type: 'Pendiente', desc: 'Historia ya revisada.', star: 'Pista anterior.', legacy: 'retirar' };
   const after = { id: 'reviewed', label: 'Nombre actual', group: 'ORKA', type: 'Resuelta', status: 'updated', previousState: 'Actualiza el nombre.', desc: before.desc + ' Nueva evidencia.', star: before.star + ' Pista aclarada.' };
   const fixture = { baselineNodes: [before], nodes: [after] };
-  const result = verify('Elvar', true, ['--review-nodes=1'], fixture);
+  const result = verify('Elvar', ['--review-nodes=1'], fixture);
   assert.equal(result.status, 0, result.output);
   assert.match(result.output, /"descAppend": " Nueva evidencia\."/);
   assert.match(result.output, /"starAppend": " Pista aclarada\."/);
@@ -53,7 +53,7 @@ test('chapter verifier node review emits verified suffixes, complete new nodes a
   assert.match(result.output, /"legacy": \{\s+"before": "retirar",\s+"after": null/);
   assert.match(result.output, /"desc": "Guerrera\."/); // Full new entry.
   assert.match(result.output, /END: all changed nodes displayed/);
-  const invalid = verify('Elvar', true, ['--review-nodes=1'], { ...fixture, nodes: [{ ...after, desc: 'Historia sobrescrita.' }] });
+  const invalid = verify('Elvar', ['--review-nodes=1'], { ...fixture, nodes: [{ ...after, desc: 'Historia sobrescrita.' }] });
   assert.notEqual(invalid.status, 0);
   assert.match(invalid.output, /does not preserve its latest baseline text/);
   assert.ok(!invalid.output.includes('Node review page'));
@@ -61,7 +61,7 @@ test('chapter verifier node review emits verified suffixes, complete new nodes a
 
 test('chapter verifier node review paginates without loss and rejects invalid pages', () => {
   const fixture = { nodes: [{ id: 'large', label: 'Texto largo', group: 'ORKA', desc: 'inicio-' + 'x'.repeat(12000) + '-final' }] };
-  const first = verify('Elvar', true, ['--review-nodes=1'], fixture);
+  const first = verify('Elvar', ['--review-nodes=1'], fixture);
   assert.equal(first.status, 0, first.output);
   const pageCount = Number(first.output.match(/Node review page 1\/(\d+)/)[1]);
   assert.ok(pageCount > 1);
@@ -70,7 +70,7 @@ test('chapter verifier node review paginates without loss and rejects invalid pa
   assert.ok(firstPage.endsWith('\n'), 'the first page ends before the oversized description line');
   let payload = firstPage;
   for (let page = 2; page <= pageCount; page++) {
-    const result = verify('Elvar', true, [`--review-nodes=${page}`], fixture);
+    const result = verify('Elvar', [`--review-nodes=${page}`], fixture);
     assert.equal(result.status, 0, result.output);
     const chunk = pageText(result.output);
     assert.ok(chunk.length <= 8000);
@@ -78,30 +78,28 @@ test('chapter verifier node review paginates without loss and rejects invalid pa
   }
   const entries = JSON.parse(payload);
   assert.equal(entries.find(entry => entry.node.id === 'large').node.desc, fixture.nodes[0].desc);
-  const invalid = verify('Elvar', true, [`--review-nodes=${pageCount + 1}`], fixture);
+  const invalid = verify('Elvar', [`--review-nodes=${pageCount + 1}`], fixture);
   assert.notEqual(invalid.status, 0);
   assert.ok(invalid.output.includes(`exceeds ${pageCount} pages`));
 });
 
 test('chapter verifier rejects unsupported and partially linked summary names', () => {
-  for (const term of ['Battle-Grim', 'Terrores de la batalla (Battle-Grim)']) {
+  for (const term of ['Nombre no registrado', 'Una visita de Elvar', 'Terrores de la batalla (Battle-Grim)']) {
     const result = verify(term);
     assert.notEqual(result.status, 0, term);
     assert.match(result.output, /does not resolve completely to one node/);
   }
 });
 
-test('chapter verifier uses live aliases only for the live preview', () => {
-  const live = verify('Troll-Slayer', false);
-  assert.equal(live.status, 0, live.output);
-  const staged = verify('Troll-Slayer');
-  assert.notEqual(staged.status, 0);
-  assert.match(staged.output, /does not resolve completely to one node/);
+test('chapter verifier resolves supported aliases from the live guides', () => {
+  const result = verify('Troll-Slayer', ['--review-summary']);
+  assert.equal(result.status, 0, result.output);
+  assert.ok(result.output.includes('Troll-Slayer → Elvar [elvar]'), result.output);
 });
 
 test('chapter verifier summary review distinguishes an individual from its species', () => {
   for (const [term, target] of [['Froa', 'Froa (†) [froa]'], ['Froa-espíritu', 'Froa-espíritu [froa-especie]']]) {
-    const result = verify(term, true, ['--review-summary']);
+    const result = verify(term, ['--review-summary']);
     assert.equal(result.status, 0, result.output);
     assert.ok(result.output.includes(`${term} → ${target}`), result.output);
   }
@@ -117,10 +115,10 @@ test('chapter verifier requires active event-category links in either direction'
   ];
   for (const reverse of [false, true]) {
     const link = { source: reverse ? 'hallazgo-froa' : 'cat-eventos', target: reverse ? 'cat-eventos' : 'hallazgo-froa', label: 'incluye', type: 'arc' };
-    const result = verify('Elvar', true, [], { nodes, links: [link] });
+    const result = verify('Elvar', [], { nodes, links: [link] });
     assert.equal(result.status, 0, result.output);
     for (const links of [[], [link, { ...link, status: 'broken', reason: 'Retirada.' }]]) {
-      const invalid = verify('Elvar', true, [], { nodes, links });
+      const invalid = verify('Elvar', [], { nodes, links });
       assert.notEqual(invalid.status, 0);
       assert.match(invalid.output, /hallazgo-froa: EVENTO must have an active direct link/);
     }
@@ -134,7 +132,7 @@ test('chapter verifier --review-overlap flags a shared 12+ word passage between 
     { id: 'evento-rastro', label: 'El Rastro de Sangre', group: 'ORKA', desc: `Primera version. ${shared} Resto distinto A.` },
     { id: 'trama-rastro', label: 'Pregunta del Rastro', group: 'TRAMA', desc: `Otra introduccion. ${shared} Final distinto B.` },
   ];
-  const result = verify('Elvar', true, ['--review-overlap'], { nodes });
+  const result = verify('Elvar', ['--review-overlap'], { nodes });
   assert.equal(result.status, 0, result.output);
   assert.match(result.output, /Shared-passage candidates \(12\+ identical consecutive words\)/);
   assert.ok(result.output.includes(`evento-rastro (El Rastro de Sangre) ~ trama-rastro (Pregunta del Rastro): "${firstShingle}"`), result.output);
@@ -145,10 +143,10 @@ test('chapter verifier --review-overlap ignores short shared boilerplate and is 
     { id: 'trama-a', label: 'Pregunta A', group: 'TRAMA', desc: 'ESTADO: PARCIAL. Véase evento-id para el desarrollo completo.' },
     { id: 'trama-b', label: 'Pregunta B', group: 'TRAMA', desc: 'ESTADO: ABIERTA. Véase evento-id para el desarrollo completo.' },
   ];
-  const result = verify('Elvar', true, ['--review-overlap'], { nodes });
+  const result = verify('Elvar', ['--review-overlap'], { nodes });
   assert.equal(result.status, 0, result.output);
   assert.match(result.output, /No shared passages of 12\+ consecutive words among the \d+ appended nodes\./);
-  const quiet = verify('Elvar', true, [], { nodes });
+  const quiet = verify('Elvar', [], { nodes });
   assert.equal(quiet.status, 0, quiet.output);
   assert.ok(!quiet.output.includes('Shared-passage') && !quiet.output.includes('No shared passages'));
 });

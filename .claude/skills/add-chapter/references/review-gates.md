@@ -1,12 +1,11 @@
 # Mandatory semantic review gates
 
-These requirements apply to live and rebuilt archives. Read all three gates before
+These requirements apply to chapter additions and live archive corrections. Read all three gates before
 drafting and apply their final reviews before recording completion.
 
 ## HARD GATE — Fact ownership
 
-This is a required part of every chapter addition, reference integration and correction,
-including the Book One rebuild. **Do not write an addition, mark progress complete, or
+This is a required part of every chapter addition, reference integration and correction. **Do not write an addition, mark progress complete, or
 report success while it fails this gate.** A syntactically valid entry can still fail.
 
 **Before writing:** after the full-entry reads, assign each proposed fact to the entity
@@ -79,7 +78,7 @@ it is an append-only chapter run. Only then update progress or report completion
 ## HARD GATE — Key event coverage
 
 Every important event must be discoverable under **EVENTOS CLAVE** (`cat-eventos`),
-including in the Book One rebuild. Before drafting, inventory the chapter's important
+Before drafting, inventory the chapter's important
 scenes and reported incidents across every represented POV: deaths, attacks, rescues,
 captures, oaths, consequential decisions, departures and discoveries. Include quiet
 turning points and attributed historical events when they matter to the story; routine
@@ -110,7 +109,7 @@ chores, repeated background facts and every individual blow do not need separate
   nodes; it only surfaces candidates (short intentional boilerplate, like a
   "Véase EVENTO-ID" pointer, won't trigger it since it's well under 12 words) — it still
   cannot judge whether a flagged pair is actually a defect, so read the flagged passage
-  yourself. (In a Book 1 rebuild Chapter
+  yourself. (In a Book 1 Chapter
   20 run, a new "mission" EVENTO first repeated, almost verbatim, the departure sentence
   already owned by the existing `partida-liga` EVENTO it was meant to follow from; caught
   only by a manual side-by-side re-read after the verifier had already passed.)
@@ -119,7 +118,7 @@ chores, repeated background facts and every individual blow do not need separate
   pointer to the EVENTO from the first draft, not as a second scene account to be trimmed
   later. Drafting both nodes with a full narrative and relying on the side-by-side re-read
   to catch the overlap works, but it is a detection step, not a prevention one, and it is
-  easy to forget under time pressure. (In a Book 1 rebuild Chapter 21 run, the first draft
+  easy to forget under time pressure. (In a Book 1 Chapter 21 run, the first draft
   of `pasado-elvar` and `berak-venta` — both resolved in that chapter by two brand-new
   EVENTO nodes created in the same run — each re-narrated the full sale/revelation scene
   almost verbatim; the fix was to cut each TRAMA's append down to `ESTADO: ...` plus
@@ -166,7 +165,7 @@ the archived evidence used and limit the coverage claim accordingly.
 
 **Every mystery, open plot question, unresolved goal and recorded clue must be followed
 until the source resolves it or definitively disproves the associated hypothesis.** This
-is mandatory for every chapter and all POVs, including the Book One rebuild. Do not mark
+is mandatory for every chapter and all POVs. Do not mark
 progress complete or report success while this review is incomplete. It is not enough
 to create a thread once or to pass the JavaScript verifier.
 
@@ -175,8 +174,7 @@ to create a thread once or to pass the JavaScript verifier.
 
    ```sh
    node .claude/skills/add-chapter/scripts/read-backlog.cjs 2 1
-   # Book One rebuild (no book argument):
-   node .claude/skills/add-chapter/scripts/rebuild.cjs read-backlog 1
+
    ```
 
    Read each page separately through `END`. It selects the latest same-id entry in
@@ -188,8 +186,7 @@ to create a thread once or to pass the JavaScript verifier.
    candidate list does not replace reviewing pending goals/clues found in those full
    entries or the new chapter.
    For large prose selections, add `--compact` to remove JSON indentation while retaining
-   every field and every character of the selected evidence. It works with the live,
-   rebuild and reprocessing readers and with the same POV/include filters. Keep it on
+   every field and every character of the selected evidence. It works with the same POV/include filters. Keep it on
    every numbered page: formatting changes page boundaries, so never combine compact
    and default-format pages. Use `--index` separately; it is not a prose format.
    Compact output puts each record on its own line and fills pages up to the
@@ -221,8 +218,7 @@ to create a thread once or to pass the JavaScript verifier.
    shared evidence connects the questions. If the affected families cannot be bounded
    confidently, read that other POV's complete prose too.
 
-   Retrieve the chosen prose with `read-backlog.cjs BOOK PAGE --pov ELVAR` (rebuild:
-   `rebuild.cjs read-backlog PAGE --pov ELVAR`); every untagged candidate is retained.
+   Retrieve the chosen prose with `read-backlog.cjs BOOK PAGE --pov ELVAR`; every untagged candidate is retained.
    Add repeatable `--include ID` for affected other-POV candidates; unknown IDs fail.
    For broad crossover chapters, repeat `--pov`, e.g. `--pov ORKA --pov ELVAR`, to
    retrieve their union with untagged candidates once. Duplicate POV options fail.
@@ -240,8 +236,7 @@ to create a thread once or to pass the JavaScript verifier.
    a clue field merely to make the filter accept the person.
    A filter selects prose, not review obligations: the unfiltered checklist still
    covers all POVs. Never infer that an unread question is resolved or discarded.
-   After reading the required backlog prose, use `read-backlog.cjs BOOK PAGE --index` (rebuild:
-   `rebuild.cjs read-backlog PAGE --index`) for a compact list of the same candidate ids,
+   After reading the required backlog prose, use `read-backlog.cjs BOOK PAGE --index` for a compact list of the same candidate ids,
    each marked with any of `[ORKA]`/`[VARG]`/`[ELVAR]`/`[BIORR]`/`[GUDVARR]`,
    `[TRAMA]` and `[star]` that apply,
    when checking the final review record for omissions. The POV tag comes from the
@@ -266,8 +261,7 @@ to create a thread once or to pass the JavaScript verifier.
 
    ```sh
    node .claude/skills/add-chapter/scripts/review-backlog.cjs 2 40 "$chapter_baseline" init "$chapter_run/thread-checklist.json"
-   # Book One rebuild: book is implicit, chapter is not
-   node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 40 "$chapter_baseline" init "$chapter_run/thread-checklist.json"
+
    ```
 
    It uses the same candidate selector as the full reader and leaves every assessment
@@ -418,16 +412,14 @@ to create a thread once or to pass the JavaScript verifier.
 
    ```sh
    node .claude/skills/add-chapter/scripts/review-backlog.cjs 2 40 "$chapter_baseline" sync "$chapter_run/thread-checklist.json"
-   # Book One rebuild
-   node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 40 "$chapter_baseline" sync "$chapter_run/thread-checklist.json"
+
    ```
 
    Assess the pending rows, then check the completed checklist before recording PASS:
 
    ```sh
    node .claude/skills/add-chapter/scripts/review-backlog.cjs 2 40 "$chapter_baseline" check "$chapter_run/thread-checklist.json"
-   # Book One rebuild
-   node .claude/skills/add-chapter/scripts/rebuild.cjs review-backlog 40 "$chapter_baseline" check "$chapter_run/thread-checklist.json"
+
    ```
 
    The check requires the union of baseline and current candidates, catching clues that
@@ -447,7 +439,7 @@ to create a thread once or to pass the JavaScript verifier.
 
    ```sh
    node .claude/skills/add-chapter/scripts/read-checklist.cjs RUN/thread-checklist.json 1
-   node .claude/skills/add-chapter/scripts/read-checklist.cjs book2/rebuild/reviews/chapter-10/thread-checklist.json 1 orka sangre-thorkel
+   node .claude/skills/add-chapter/scripts/read-checklist.cjs audits/book2-chapter-51/thread-checklist.json 1 orka sangre-thorkel
    ```
 
    Read numbered pages separately through END with the same path and ID selection.

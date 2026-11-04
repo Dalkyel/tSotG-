@@ -8,23 +8,21 @@ description: >
   what happened in this chapter", "validate this cast list/glossary against the map",
   "check this against what we already have". Takes chapter notes, a summary, raw chapter
   text, or non-chapter reference material (cast list, glossary, recap, map key) as input.
-  Also reprocess existing Book Two chapters while retaining later chapters in the live app.
 ---
 
 # Adding a chapter to the Bloodsworn mind map
 
-Read only the startup and routing sections first:
+Book Two, Chapter 50 was the final rebuilt chapter. From Chapter 51 onward, create
+new chapters directly in the live archive. The rebuild folders have been removed;
+use live files for history and `audits/book2-chapter-C/` for prior chapter reviews.
+See `audits/README.md` for later audits that supersede older clue assessments.
+Determine the requested book/chapter and source path, then run the live preflight.
+If that chapter already exists, inspect for an unfinished addition or an explicitly
+requested correction rather than appending it twice.
 
-```sh
-sed -n '1,/^## Input types/p' .claude/skills/add-chapter/SKILL.md
-```
-
-Resolve the mode and confirm the requested chapter and source path first. Then use
-`rg -n '^## ' .claude/skills/add-chapter/SKILL.md` to locate the applicable sections.
-Before editing, read the applicable baseline procedure, node/link/summary formats,
-verification, and the required source/entity and semantic-gate references. Read each
-reference slice in its own tool response. Separate shell calls batched into one
-response still share its output limit. Retrieve any omitted content before proceeding.
+Before editing, read the baseline procedure, applicable node/link/summary formats,
+verification, and the source/entity and semantic-gate references. Read long references
+in separate bounded slices through EOF; retrieve any omitted content before proceeding.
 Read later-book and new-book sections only when those operations apply.
 
 This project tracks characters, places, events, and lore across the Bloodsworn Saga
@@ -33,39 +31,6 @@ own folder. `data-core.js` merges the full archive in book/array order: the late
 same-id entry wins, and all revisions remain available. The app no longer hides data
 behind book/chapter reading caps. Reader helpers still accept a book cap to bound
 source inspection; this is not a display restriction.
-
-## Rebuild and reprocessing routing
-
-Check the relevant progress file before preflight or inventory reads:
-
-For initialized Book Two reprocessing, use
-`node .claude/skills/add-chapter/scripts/reprocess.cjs status` instead of dumping
-`progress.json`. It reports the mode, next chapter and existing run/baseline paths
-without historical logs, evidence hashes or chapter prose. Resume a reported active
-run rather than preparing it again; this status is routing information, not source
-or semantic validation.
-
-- **Book One:** `book1/rebuild/progress.json` with `status: "promoted"` means the
-  complete rebuild is already live. Use live files for explicitly requested repairs;
-  do not resume the archived staged rebuild or infer a chapter 54. For an incomplete
-  rebuild only, follow [book1-rebuild.md](references/book1-rebuild.md) and its
-  `rebuild.cjs` launcher.
-- **Book Two:** while `book2/rebuild/progress.json` is `ready` or `in-progress`,
-  follow [book2-reprocessing.md](references/book2-reprocessing.md) before any reads
-  or edits. Its `reprocess.cjs` launcher selects a chronological review context and
-  replaces the reviewed chapter in the existing live files, keeping every later
-  chapter visible. Existing live summaries are not completed reprocessing progress.
-  If publication exposes a missing later endpoint, follow that reference's audited
-  section-assignment repair procedure before adding future facts to the current draft.
-  If the user explicitly asks to append a new live chapter instead, use the normal
-  live workflow; reconcile that external change with reprocessing before resuming it.
-- **Normal additions:** when no active rebuild/reprocessing applies, append to the
-  requested book's live files using the commands below.
-
-All modes share the complete source/entity workflow, formats, three hard semantic
-gates and final review requirements. The original Book One procedures remain available
-for historical reference; Book Two reprocessing preserves their safeguards. Capture the
-absolute project root and use absolute run/baseline paths supplied by the launcher.
 
 ## Input types
 
@@ -84,8 +49,7 @@ absolute project root and use absolute run/baseline paths supplied by the launch
 
 Read [source-and-entity-workflow.md](references/source-and-entity-workflow.md) before
 chapter preflight, source retrieval, entity resolution or drafting. It contains the
-required identity checks, full-entry reads and safe append procedures; rebuild mode
-substitutes its helper commands without skipping those requirements. Read it in separate
+required identity checks, full-entry reads and safe append procedures. Read it in separate
 bounded responses, for example lines 1–120, 121–240 and 241–360, through the end.
 
 ## Mandatory semantic gates
@@ -108,23 +72,22 @@ budget. Retrieve omitted content before drafting. Completion requires:
   to catch omitted IDs and unfinished assessments before recording PASS. The reader's
   `--pov` selection retains untagged clues; apply the gate's cross-POV conditions and
   keep the unfiltered index/checklist for complete coverage. For Guðvarr/Biórr,
-  use the [viewpoint-versus-arc selection rule](references/book2-reprocessing.md#prepare-and-run-a-chapter)
-  before paging; their profile tags alone do not select a whole POV's prose. Optional `--compact`
+  use the registered `GUDVARR`/`BIORR` filters and include affected cross-POV clues;
+  an arc tag records narrative relevance, not a character's knowledge. Optional `--compact`
   removes formatting overhead from prose pages without omitting evidence; keep the
   same format throughout a paginated read.
 
 Use `scripts/read-checklist.cjs CHECKLIST.json PAGE [ID ...]` for bounded inspection
 of saved assessments, including archived reviews whose temporary baselines have expired.
-Keep these files beside the unique run's `baseline/`. Book Two reprocessing completion
-also archives them and the checklist in the project; see its workflow reference.
+Keep these files beside the unique run's `baseline/`. At completion, save the manifest,
+three review files and checklist under `audits/bookN-chapter-C/` so the next chapter can
+consult them after the temporary baseline expires. Replace N/C with the book/chapter.
+Keep the original baseline path in the checklist; do not claim it remains available.
 A verifier PASS does not replace
 any semantic gate. The linked procedures remain mandatory, not optional background.
 Each marker (`Ownership review: PASS`, `Event coverage review: PASS`,
-`Thread lifecycle review: PASS`) must appear as its own bare line, exact text, trimmed,
-with no Markdown emphasis or heading markup around it (not `**Ownership review:
-PASS**`) — `finish-chapter`/`finish-rebuild-chapter.cjs` checks for an exact line match
-and fails with a misleading "Missing ... in ...-review.md" if the marker is decorated,
-even though the text is plainly present in the file.
+`Thread lifecycle review: PASS`) must appear as its own bare line in the corresponding
+review file. Record PASS only after the review and checklist checks are complete.
 
 ## Capture the baseline before editing
 
@@ -193,7 +156,7 @@ chapter data to add to the project.
   than upgrading them to confirmed powers in descriptions or links.
 - Do not set `book` yourself — `data-core.js` stamps it from the registered book during
   merge. The current UI applies its dashed book styling to `book > 1`; Book One
-  rebuild additions do not receive that styling.
+  additions do not receive that styling.
 - For a story told inside the chapter, distinguish its fictional characters from
   their real-world namesakes. Svik's fable in Book 2 Ch32 calls its characters Helka,
   Einar, Frek, and Hákon; their fictional actions are not biographical facts about
@@ -220,7 +183,7 @@ A node's POV tie-in is the separate `cat-orka`/`cat-varg`/`cat-elvar`/`cat-biorr
 arc link, never the `group` field: an EVENTO or TRAMA node created for a single POV's own
 storyline (a new mission that POV receives, a question only that POV's chapters raise)
 still takes `group: 'EVENTO'`/`'TRAMA'`, not `group: 'VARG'`/`'ORKA'`/`'ELVAR'`, even
-though it is arc-linked to that POV's category. (A Book 1 rebuild Chapter 20 run first
+though it is arc-linked to that POV's category. (A Book 1 Chapter 20 run first
 wrote three such nodes — a mission EVENTO, its TRAMA question, and a landing EVENTO —
 all with `group: 'VARG'`; a `group === 'TRAMA'` backlog query for the thread-lifecycle
 review then silently missed the TRAMA one, which is how the mistake surfaced.)
@@ -333,7 +296,7 @@ that a summary mention resolves to the intended entity or opens correctly.
 The current book's node and link files are the single source of truth, including facts
 that recontextualize an earlier book. Do not create or maintain a separate revelations
 file or duplicate callouts. The live UI displays the complete loaded archive; it does
-not hide later-book updates. Keep the chronological rebuild isolated as described above.
+not hide later-book updates.
 
 - Add confirmed facts to the existing node's accumulated `desc`, keeping a source marker
   such as `REPARTO DEL LIBRO 2`, `GLOSARIO DEL LIBRO 2`, or `LIBRO 2, CAPÍTULO 3`.
@@ -365,8 +328,7 @@ Register Book 3 in the array passed to `ArchiveData.merge` in `data-init.js`:
 ```
 
 `MAX_BOOK` then comes from the merged archive, and chapter tabs derive from its summaries.
-Loading the scripts alone does not register the book. Keep an active Book One rebuild
-preview isolated from later-book data.
+Loading the scripts alone does not register the book.
 
 ## Verification
 
@@ -380,7 +342,7 @@ Run the bundled verifier from the project root, using the actual unique pre-edit
 baseline directory saved above (replace the numbers for the current book/chapter):
 
 ```sh
-node .claude/skills/add-chapter/scripts/verify-chapter.cjs 2 11 "$chapter_baseline" --review-links --review-summary --review-overlap
+node .claude/skills/add-chapter/scripts/verify-chapter.cjs 2 51 "$chapter_baseline" --review-links --review-summary --review-overlap
 ```
 
 The verifier checks each book's files separately for JavaScript syntax, resolves link
@@ -393,8 +355,7 @@ nonempty `previousState` for existing ids, preservation of the full latest basel
 before reporting success. Repeated ids across earlier chapter sections remain valid.
 
 For the node ownership review, run a separate `verify-chapter.cjs BOOK CHAPTER BASELINE
---review-nodes=1` call (or `rebuild.cjs verify-chapter CHAPTER BASELINE
---review-nodes=1` for staged work), then request each indicated page. This report is
+--review-nodes=1` call, then request each indicated page. This report is
 available only after all normal verification checks pass; apply the baseline-audit
 conditions in the [ownership gate](references/review-gates.md#hard-gate--fact-ownership).
 

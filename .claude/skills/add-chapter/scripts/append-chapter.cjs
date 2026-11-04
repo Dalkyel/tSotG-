@@ -9,12 +9,10 @@ const { execFileSync } = require('node:child_process');
 const [bookArg, chapterArg, baselineArg, specArg, ...options] = process.argv.slice(2);
 const book = Number(bookArg), chapter = Number(chapterArg);
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(chapter) && chapter > 0 && baselineArg && specArg,
-  'Usage: node append-chapter.cjs BOOK CHAPTER BASELINE_DIR SPEC_FILE [--staged-preview] [--replace-applied PREVIOUS_SPEC_FILE]');
+  'Usage: node append-chapter.cjs BOOK CHAPTER BASELINE_DIR SPEC_FILE [--replace-applied PREVIOUS_SPEC_FILE]');
 let previousSpec;
-const verificationOptions = [];
 for (let i = 0; i < options.length; i++) {
-  if (options[i] === '--staged-preview' && !verificationOptions.length) verificationOptions.push(options[i]);
-  else if (options[i] === '--replace-applied' && !previousSpec && options[i + 1] && !options[i + 1].startsWith('--')) {
+  if (options[i] === '--replace-applied' && !previousSpec && options[i + 1] && !options[i + 1].startsWith('--')) {
     previousSpec = path.resolve(options[++i]);
   } else assert.fail('Unknown, duplicate or incomplete option');
 }
@@ -49,7 +47,7 @@ try {
   if (previousSpec) {
     // Reproduce the applied manifest from the original baseline before replacing it.
     // Any hand edit, different manifest or later chapter must fail without publishing.
-    run('append-chapter', [book, chapter, baseline, previousSpec, ...verificationOptions]);
+    run('append-chapter', [book, chapter, baseline, previousSpec]);
     for (const kind of kinds) {
       const file = `book${book}/${kind}.js`;
       assert.deepEqual(fs.readFileSync(path.join(scratch, file)), originals.get(file),
@@ -73,7 +71,7 @@ try {
   const after = parse(fs.readFileSync(path.join(scratch, `book${book}/nodes.js`), 'utf8'), 'nodes', book);
   for (const id of ids) assert.equal(after.filter(node => node.id === id).length,
     before.filter(node => node.id === id).length + 1, `${id}: expected exactly one appended revision`);
-  const verification = run('verify-chapter', [book, chapter, baseline, ...verificationOptions]);
+  const verification = run('verify-chapter', [book, chapter, baseline]);
   // Detect edits since the scratch copy, including earlier-book changes.
   for (const [file, original] of originals) assert.deepEqual(fs.readFileSync(path.join(root, file)), original,
     `${file}: changed during preparation; no chapter files published`);
