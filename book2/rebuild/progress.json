@@ -46,7 +46,8 @@
     42,
     43,
     44,
-    45
+    45,
+    46
   ],
   "chapters": [
     {
@@ -781,15 +782,33 @@
         }
       },
       "log": "Chapter 45: Orka — source-reviewed replacement with 18 node revisions, 45 links and a Spanish summary. Records the staged assault, Myrk’s escape, Sæunn’s blood-scent task, Orka’s private vow and dream, Elvar’s offer and the Oskutreð ring. Resolves the horse-blood purpose while preserving partial acquisition questions, pending pursuit/rescue, duel and hiring commitments. All 206 baseline/current clue candidates reviewed; ownership, event and thread gates passed, as did syntax, endpoints, history preservation, 21 summary mentions and merged category checks. Required nine-file regression suite passed. Legacy summary attribution and participant-knowledge errors corrected from source. Later live chapters remain preserved. Browser appearance and both summary tabs remain for manual confirmation."
+    },
+    {
+      "chapter": 46,
+      "source": "book2/chapter 46.html",
+      "sourceHash": "b2da2ec8e06f60e81a8ad690f87e38bb4569f43801bd6d4a21ab87314580b4f8",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch46.Ps7nOg",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-46",
+        "hashes": {
+          "ownership-review.md": "59c06bc776acc5bb946d891707f0f512aca40e84f590f9cc720d2eb26094ab38",
+          "event-review.md": "2994d5340c9af7e464759f5e904969f93be3b1f5dfe14c9ba521d5e13018271f",
+          "thread-review.md": "90b039b505d5a361e97b08933f53f2d1ce8206f058714997f4948c6fa7408945",
+          "thread-checklist.json": "bcd2edaf33fcb558a272219272aa0fa47177762aa7c5114da3bb846102b8791c",
+          "completion.json": "3189f2e1ed66a2a16f45860cfdc9170b6e4b777957854c8b4c0cb0498d1616e4",
+          "chapter.json": "42f8814e30badbaf6c2d4bdc85ce7cc2ec41101b9b031470f827ec93d6da4bed"
+        }
+      },
+      "log": "Chapter 46: Guðvarr — source-reviewed replacement adds Gudrun and the Drekr-message/breakfast event, updates 12 profiles/threads, advances the Hakon investigation and renewed retaliation vow, and resolves Skapti/Hrolf whereabouts on their observed return. Preserves uncertainty about the mark, unnamed woman, whispered date and witness release; legacy-summary overstatement corrected. Full baseline ownership, event and 207-item thread reviews PASS; chapter verifier, mention identities, link sentences and overlap review PASS. Required nine-file regression suite passed. Browser appearance remains for user visual review; live checks follow publication."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "e56f9b6ed2daebc342bfdd81f4ac081194f613967ad3d83b878f00dbd3e4c134",
-    "book2/links.js": "804cb1632f028502b7665be5ac53686a9b492127357f72a8407588238310b736",
-    "book2/summaries.js": "93b618ae7693a93d737f3cef803c5332a844ccf28f51cc49027c15bd114a56aa"
+    "book2/nodes.js": "a623fb1ca33673e3785f4c37b8b6ed996bb3cc0013678415889afe3667b15f7d",
+    "book2/links.js": "5f629f11125aced344462051e35bf09139fc82551cef471845ba934365069e55",
+    "book2/summaries.js": "566fafdac883377f3032e61f51db5cdc4a7df7344c6495016483ad0818bbe84c"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -800,9 +819,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "79305c5fbe18f78cd335976814e4df423fa9d309e87f06300658dcbed2191b38",
-    "links": "44e145d6b95fb7488ddb17133bd47578b43205dedd97acae1b62e9514e810f25",
-    "summaries": "1728b87c2463594ce8d1d2705a529740630e2f245be5c0de54b2ea9fabd6b198"
+    "nodes": "5bcf64efac6fba186fd72845a23fea1fd2a3b755ccb0f843de7a0ec47821b560",
+    "links": "ad20c24f8051323ad441a26ad2cef9361cbb005cf54ed2d84a94125460fb6acb",
+    "summaries": "10e791cb5733194431b16c73edf07df0f530bad904c88d8719bf66d51f023c60"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

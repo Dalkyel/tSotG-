@@ -813,3 +813,10 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   and the new verdict need separate handling. The reprocessing reference now documents
   an ID-based lookup and a fresh assessment of each question against the current source,
   including the distinction between earlier progress and an unchanged current chapter.
+
+- 2026-11-03: Book Two Ch46 — the legacy summary promoted a shadow beneath
+  Hakon’s skin into a definite tattoo. The reprocessing legacy cross-check now
+  preserves observed resemblance, unnamed referents and unheard timing without
+  upgrading certainty. A failed draft also used `broken: true`; the main skill now
+  explicitly identifies `status: 'broken'` as the batch-marker field. Both fixes
+  are fully absorbed into the maintained instructions.

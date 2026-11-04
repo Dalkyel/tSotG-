@@ -294,6 +294,9 @@ since that's the removal key:
 { source: 'node-id', target: 'other-node-id', label: 'exact original label', status: 'broken', reason: 'why it ended' }
 ```
 
+The marker field is `status: 'broken'`, including in batch manifests; `broken: true`
+is not recognized and is validated as a normal link instead.
+
 ## 3. Chapter summary — `book{N}/summaries.js`
 
 ```js

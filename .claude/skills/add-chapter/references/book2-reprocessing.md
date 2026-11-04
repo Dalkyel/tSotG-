@@ -228,6 +228,14 @@ allies and the intended victim rather than assigning one knowledge state to a
 whole company: Halja knows the attack is arranged, Lif was not briefed, and Myrk
 is deceived into taking the escape opportunity.
 
+Check the legacy summary's degree of certainty as well as its event sequence.
+An observer's visual comparison does not establish an object's identity or mechanism.
+In Ch46, Guðvarr sees a shadow beneath Hakon's skin that resembles Úlfhéðnar
+tattoos; the legacy summary calls it a barely healed tattoo. Retain the observed
+mark and attributed resemblance without confirming a tattoo, drawing, lineage or
+implant. Likewise, keep an unnamed referent and an unheard whispered date qualified
+even when earlier reader knowledge suggests an interpretation.
+
 ## Review and publish
 
 Write `ownership-review.md`, `event-review.md`, `thread-review.md` and the checked
