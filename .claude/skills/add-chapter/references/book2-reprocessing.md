@@ -12,8 +12,8 @@ reviewed replacements are published into those same three Book Two files.
   50 summaries are legacy content, not proof that reprocessing has been done. The live
   `book2/summaries.js` entry for the chapter being reprocessed is exactly this kind of
   legacy content: never draft from it, but after independently drafting from the actual
-  supplied source, reading it once as a completeness cross-check can still catch an
-  omitted detail. Any name it reuses still needs the normal identity-resolution steps —
+  supplied source, use the [legacy summary cross-check](#legacy-summary-cross-check)
+  to catch omissions and source discrepancies. Any name it reuses still needs the normal identity-resolution steps —
   it can carry the same trap a hasty first pass would: in the Chapter 36 run, the legacy
   summary already named a new slaver "Haga", which is also the bare label of an
   unrelated, already-existing Book 1 Grimholt warrior (`haga`); copying that mention
@@ -182,6 +182,33 @@ with the launcher. Repeat `--include` for every relevant tagged candidate, inclu
 the chapter POV's own evidence if it is stored under another arc. Read the same
 selection through END. If a family cannot be bounded, use the applicable `--pov`
 selection or unfiltered prose. Keep the full per-ID checklist in all cases.
+
+## Legacy summary cross-check
+
+Once the independent draft is ready, retrieve only the requested legacy summary.
+Use the parsed immutable reference so a search for the chapter number cannot
+pull in unrelated revisions or later chapter prose:
+
+```sh
+node - 37 <<'JS'
+const assert = require('node:assert/strict');
+const archive = require('./.claude/skills/add-chapter/scripts/archive-records.cjs');
+const chapter = Number(process.argv[2]);
+const matches = archive.read('book2/rebuild/reference', 2, 'summaries')
+  .filter(({ value }) => value.chapter === chapter);
+assert.equal(matches.length, 1, 'Expected exactly one legacy summary for this chapter');
+console.log(matches[0].value.summary);
+JS
+```
+
+Replace `37` with the chapter under review. For discrepancies, check the source
+for the sequence of actions, who acted or reported each fact, and where the scene
+ends. Book Two Ch37's legacy summary placed Palrun's release after Logur's arrival,
+described a dead man as co-leading a later attack, and treated the intended
+open-sea voyage as already underway. The source shows Glornir releasing Palrun
+before Logur arrives, Edel identifying the dead man through his relationship to
+the attacker, and the Sea-Wolf rowing away through the fiord. Compare any affected
+event descriptions, relationships and thread states as well as the summary.
 
 ## Review and publish
 

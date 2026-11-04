@@ -1,5 +1,9 @@
 # Changelog
 
+- 2026-11-03: Book Two Ch37 — added a parsed, single-summary lookup for the
+  legacy cross-check and documented how to verify sequence, attribution and the
+  last observed action against the supplied source.
+
 - 2026-11-03: Book Two Ch35 — compact backlog pagination left a short page
   before a record that had to span pages. Compact backlog pages now fill the
   available space, reducing this review from 11 pages to 10 with the same evidence.

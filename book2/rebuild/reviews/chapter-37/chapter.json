@@ -1,0 +1,447 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 37 — VARG ──",
+  "nodes": [
+    {
+      "id": "escala-liga-logur",
+      "mode": "new",
+      "label": "La Escala de los Bloodsworn en Liga",
+      "group": "EVENTO",
+      "type": "Evento",
+      "desc": "LIBRO 2, CAPÍTULO 37: El drakkar prestado por Helka atraca en Liga. Glornir y Røkia saltan al muelle antes de que acabe la maniobra. El oficial Palrun antepone la tasa de atraque a las preguntas por Jaromir; Glornir lo levanta por el cuello. La guardia amaga con desenvainar y toca el cuerno. Svik, Einar, Varg, Røkia y Sulich respaldan al jefe sin desenvainar. Palrun dice que no sabe dónde está Jaromir y Glornir lo suelta. Edel llega con Ingmar y sus sabuesos tras atracar en el Sea-Wolf. Logur, acompañado por sus escudos azules, reprende a Palrun y dice que Jaromir ya se reabasteció y partió. Ofrece ayuda a Glornir y manda a Palrun reabastecer el Sea-Wolf. Svik supervisa el encargo y se cargan agua, alimentos, queso y materiales para el viaje. Logur invita a Glornir a su salón mientras esperan la marea y promete buscar más noticias.",
+      "star": ""
+    },
+    {
+      "id": "custodia-hakon-logur",
+      "mode": "new",
+      "label": "La Entrega de Hakon a los Hombres de Logur",
+      "group": "EVENTO",
+      "type": "Evento",
+      "desc": "LIBRO 2, CAPÍTULO 37: Glornir pide a Logur que se haga cargo del drakkar prestado por Helka y del príncipe, y que devuelva ambos a la reina. Logur acepta. Cuatro guerreros de sus escudos azules recogen a Hakon por invitación del jarl. El príncipe se marcha con ellos y Frek lo sigue. No se ve la restitución a Helka.",
+      "star": ""
+    },
+    {
+      "id": "despedida-varg-frek",
+      "mode": "new",
+      "label": "La Confidencia de Varg a Frek",
+      "group": "EVENTO",
+      "type": "Evento",
+      "desc": "LIBRO 2, CAPÍTULO 37: Mientras Frek sigue a Hakon hacia los hombres de Logur, Varg lo toca en el brazo y le dice que también fue esclavo y que nunca creyó que pudiera dejar de serlo. Frek retira el brazo, lo mira largo rato con lo que Varg percibe como desesperación, se encoge de hombros y sigue al príncipe.",
+      "star": ""
+    },
+    {
+      "id": "deuda-varg-sulich",
+      "mode": "new",
+      "label": "El Pago de la Deuda de Varg con Sulich",
+      "group": "EVENTO",
+      "type": "Evento",
+      "desc": "LIBRO 2, CAPÍTULO 37: Varg recupera de su cofre el equipo del druzhina que abatió en Liga y entiende ahora el botín como memoria de sus victorias. Conserva la malla y el yelmo del dragon-born. Se disculpa con Sulich por la ofensa de su primera oferta y vuelve a ofrecerle la armadura laminar, el yelmo y el arco con flechas como pago por haberlo salvado de un Úlfhéðnar en el salón de Helka. Sulich apela primero a la obligación mutua de los Bloodsworn. Einar le anima a aceptarlo; Sulich acepta y sale hacia los puestos en busca de una cuerda de arco.",
+      "star": ""
+    },
+    {
+      "id": "informe-edel-liga",
+      "mode": "new",
+      "label": "Las Noticias de Edel e Ingmar en Liga",
+      "group": "EVENTO",
+      "type": "Evento",
+      "desc": "LIBRO 2, CAPÍTULO 37: A bordo del Sea-Wolf, Ingmar menciona el combate en la Cámara de Rotta y Edel explica que Gunnar sigue vivo con una herida en la pierna. Gunnar, Revna y Halja acompañan a Orka; Halja busca vengar a Vali, muerto por el golpe de un trol que Varg recuerda. Al oír el apelativo Skullsplitter, Svik pierde la sonrisa y pregunta por Orka; Ingmar dice que está bien. Edel identifica a la jefa del ataque como hermana de Ilska y al hombre muerto a manos de Varg como padre de ambas; Varg comprende que mató al padre de Ilska. Edel añade, atribuyendo la noticia a Myrk, que Ilska cuenta con la compañía de Lik-Rifa. Cree que los Raven-Feeders están implicados y que conviene que algunos Bloodsworn acompañen a Orka para averiguar más.",
+      "star": ""
+    },
+    {
+      "id": "ninos-embarcan-sea-wolf",
+      "mode": "new",
+      "label": "Los Niños del Grimholt Embarcan en el Sea-Wolf",
+      "group": "EVENTO",
+      "type": "Evento",
+      "desc": "LIBRO 2, CAPÍTULO 37: Los niños que Einar ha escoltado desde el Grimholt descargan víveres del drakkar y ayudan a estibarlos a bordo del Sea-Wolf. Einar defiende que serán útiles y Glornir les pide que remen. Una niña rubia de unos once o doce inviernos se presenta como Refna y muestra sus manos callosas. Glornir la llama Manos-Fuertes y le pide que se lo demuestre. Refna toma un remo y ocupa un cofre libre.",
+      "star": ""
+    },
+    {
+      "id": "partida-liga-iskidan",
+      "mode": "new",
+      "label": "La Partida de Liga hacia Iskidan",
+      "group": "EVENTO",
+      "type": "Evento",
+      "desc": "LIBRO 2, CAPÍTULO 37: Glornir informa a su tripulación de que Jaromir llegó tres días antes, esperó un día a dos partidas de druzhina y zarpó dos días antes con tres drakkar y dos knarr que llevaban los caballos. Glornir interpreta que vuelve a su tierra y ordena seguirlo hacia Iskidan. El Sea-Wolf larga amarras; Einar e Ingmar lo apartan del muelle con sus lanzas y Glornir toma el remo de gobierno. Varg, inquieto por la perspectiva de navegar sin costa a la vista, rema mientras se alejan por el fiordo.",
+      "star": ""
+    },
+    {
+      "id": "palrun",
+      "mode": "new",
+      "label": "Palrun",
+      "group": "VARG",
+      "type": "Personaje — Oficial portuario",
+      "desc": "LIBRO 2, CAPÍTULO 37: Oficial de atraque al servicio de Jarl Logur en Liga. Cobra las tasas del puerto y recibe el encargo de aprovisionar el Sea-Wolf; véase escala-liga-logur.",
+      "star": ""
+    },
+    {
+      "id": "refna",
+      "mode": "new",
+      "label": "Refna Manos-Fuertes",
+      "group": "VARG",
+      "type": "Personaje — Remera",
+      "desc": "LIBRO 2, CAPÍTULO 37: Niña rubia de unos once o doce inviernos del grupo escoltado desde el Grimholt. Muestra a Glornir sus manos callosas y toma un remo a bordo del Sea-Wolf; véase ninos-embarcan-sea-wolf.",
+      "star": ""
+    },
+    {
+      "id": "partida-darl-liga",
+      "mode": "update",
+      "previousState": "Se comprueba el resultado de la escala propuesta.",
+      "descAppend": "LIBRO 2, CAPÍTULO 37: La compañía alcanza Liga, pero Jaromir ya ha zarpado. Véanse escala-liga-logur y partida-liga-iskidan."
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "mode": "update",
+      "previousState": "La persecución se reanuda por mar.",
+      "descAppend": "LIBRO 2, CAPÍTULO 37: ESTADO: PARCIAL. Falla la intercepción en Liga; la compañía zarpa tras Jaromir hacia Iskidan en partida-liga-iskidan. Pendientes la intercepción, la captura o muerte, la entrega y el pago."
+    },
+    {
+      "id": "salida-darl-hakon",
+      "mode": "update",
+      "previousState": "Hakon queda a cargo de Logur en Liga.",
+      "descAppend": "LIBRO 2, CAPÍTULO 37: ESTADO: PARCIAL. Se cumple el desembarco en Liga y el príncipe se marcha con los hombres de Logur en custodia-hakon-logur. Queda por observar su restitución a Helka y su regreso indemne."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "mode": "update",
+      "previousState": "La compañía recupera su barco y sigue la pista marítima de Jaromir.",
+      "descAppend": "LIBRO 2, CAPÍTULO 37: ESTADO: PARCIAL. Glornir se reúne con el Sea-Wolf en Liga y sigue la pista de Jaromir rumbo a Iskidan; véanse escala-liga-logur y partida-liga-iskidan. La afirmación de Glornir de que Jaromir tiene a Vol no constituye un nuevo avistamiento. Siguen pendientes su paradero, rescate, collar y suturas."
+    },
+    {
+      "id": "ninos-robados",
+      "mode": "update",
+      "previousState": "El grupo escoltado del Grimholt sigue con Einar y una niña se identifica.",
+      "descAppend": "LIBRO 2, CAPÍTULO 37: ESTADO: PARCIAL. Los niños del Grimholt embarcan en el Sea-Wolf y Refna da su nombre en ninos-embarcan-sea-wolf. El recuento aproximado en cubierta no identifica individualmente a los diez del capítulo 32 ni a los demás desaparecidos. Quedan pendientes su destino duradero y los otros grupos."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "mode": "update",
+      "previousState": "Svik pierde la sonrisa y pregunta por Orka.",
+      "descAppend": "LIBRO 2, CAPÍTULO 37: ESTADO: ABIERTA. En informe-edel-liga la mención de Orka cambia el gesto de Svik y él pregunta si está bien. El gesto no explica lo que le inquieta desde el Grimholt."
+    },
+    {
+      "id": "venganza-halja",
+      "mode": "update",
+      "previousState": "Edel confirma el motivo de Halja para acompañar a Orka.",
+      "descAppend": "LIBRO 2, CAPÍTULO 37: ESTADO: ABIERTA. Edel refiere que Halja sigue con Orka y está decidida a vengar a su hermano; véase informe-edel-liga. Siguen pendientes los responsables y el ajuste de cuentas."
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "escala-liga-logur",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "escala-liga-logur",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "custodia-hakon-logur",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "custodia-hakon-logur",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "despedida-varg-frek",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "despedida-varg-frek",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "deuda-varg-sulich",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "deuda-varg-sulich",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "informe-edel-liga",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "informe-edel-liga",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "ninos-embarcan-sea-wolf",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "ninos-embarcan-sea-wolf",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-eventos",
+      "target": "partida-liga-iskidan",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "partida-liga-iskidan",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "palrun",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-varg",
+      "target": "refna",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "glornir",
+      "target": "escala-liga-logur",
+      "label": "exige noticias de Jaromir durante",
+      "type": "event"
+    },
+    {
+      "source": "palrun",
+      "target": "escala-liga-logur",
+      "label": "gestiona los víveres durante",
+      "type": "event"
+    },
+    {
+      "source": "jarl-logur",
+      "target": "escala-liga-logur",
+      "label": "ofrece ayuda en",
+      "type": "event"
+    },
+    {
+      "source": "svik",
+      "target": "escala-liga-logur",
+      "label": "supervisa el aprovisionamiento durante",
+      "type": "event"
+    },
+    {
+      "source": "escala-liga-logur",
+      "target": "liga",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "escala-liga-logur",
+      "target": "sea-wolf",
+      "label": "reúne a la compañía con",
+      "type": "event"
+    },
+    {
+      "source": "palrun",
+      "target": "jarl-logur",
+      "label": "sirve como oficial portuario a",
+      "type": "rel"
+    },
+    {
+      "source": "custodia-hakon-logur",
+      "target": "hakon",
+      "label": "pone bajo custodia a",
+      "type": "event"
+    },
+    {
+      "source": "custodia-hakon-logur",
+      "target": "jarl-logur",
+      "label": "se acuerda con",
+      "type": "event"
+    },
+    {
+      "source": "frek",
+      "target": "custodia-hakon-logur",
+      "label": "sigue al príncipe durante",
+      "type": "event"
+    },
+    {
+      "source": "pacto-liberacion-hakon-liga",
+      "target": "custodia-hakon-logur",
+      "label": "desemboca en",
+      "type": "event"
+    },
+    {
+      "source": "salida-darl-hakon",
+      "target": "custodia-hakon-logur",
+      "label": "avanza con",
+      "type": "trama"
+    },
+    {
+      "source": "despedida-varg-frek",
+      "target": "varg",
+      "label": "tiene como interlocutor a",
+      "type": "event"
+    },
+    {
+      "source": "despedida-varg-frek",
+      "target": "frek",
+      "label": "tiene como destinatario a",
+      "type": "event"
+    },
+    {
+      "source": "varg",
+      "target": "deuda-varg-sulich",
+      "label": "ofrece su equipo en",
+      "type": "event"
+    },
+    {
+      "source": "sulich",
+      "target": "deuda-varg-sulich",
+      "label": "acepta el equipo en",
+      "type": "event"
+    },
+    {
+      "source": "einar",
+      "target": "deuda-varg-sulich",
+      "label": "interviene en",
+      "type": "event"
+    },
+    {
+      "source": "deuda-varg-sulich",
+      "target": "reconciliacion-varg-sulich",
+      "label": "retoma la antigua ofensa tratada en",
+      "type": "event"
+    },
+    {
+      "source": "edel",
+      "target": "informe-edel-liga",
+      "label": "comparte su testimonio en",
+      "type": "event"
+    },
+    {
+      "source": "ingmar",
+      "target": "informe-edel-liga",
+      "label": "comparte su testimonio en",
+      "type": "event"
+    },
+    {
+      "source": "informe-edel-liga",
+      "target": "combate-myrk-rotta",
+      "label": "da a conocer a Varg",
+      "type": "event"
+    },
+    {
+      "source": "informe-edel-liga",
+      "target": "myrk",
+      "label": "identifica a la jefa del ataque como",
+      "type": "event"
+    },
+    {
+      "source": "informe-edel-liga",
+      "target": "likrafa",
+      "label": "recoge el aviso atribuido a Myrk sobre",
+      "type": "trama"
+    },
+    {
+      "source": "inquietud-svik-grimholt",
+      "target": "informe-edel-liga",
+      "label": "recibe un indicio en",
+      "type": "trama"
+    },
+    {
+      "source": "venganza-halja",
+      "target": "informe-edel-liga",
+      "label": "se reafirma por testimonio en",
+      "type": "trama"
+    },
+    {
+      "source": "einar",
+      "target": "ninos-embarcan-sea-wolf",
+      "label": "intercede ante Glornir durante",
+      "type": "event"
+    },
+    {
+      "source": "refna",
+      "target": "ninos-embarcan-sea-wolf",
+      "label": "ocupa un remo durante",
+      "type": "event"
+    },
+    {
+      "source": "ninos-embarcan-sea-wolf",
+      "target": "ninos-polizones-drakkar",
+      "label": "continúa la historia de",
+      "type": "event"
+    },
+    {
+      "source": "ninos-robados",
+      "target": "ninos-embarcan-sea-wolf",
+      "label": "recibe nueva evidencia en",
+      "type": "trama"
+    },
+    {
+      "source": "glornir",
+      "target": "partida-liga-iskidan",
+      "label": "dirige",
+      "type": "event"
+    },
+    {
+      "source": "partida-liga-iskidan",
+      "target": "iskidan",
+      "label": "tiene como destino",
+      "type": "geo"
+    },
+    {
+      "source": "partida-liga-iskidan",
+      "target": "jaromir",
+      "label": "emprende la persecución de",
+      "type": "event"
+    },
+    {
+      "source": "partida-liga-iskidan",
+      "target": "sea-wolf",
+      "label": "se realiza en",
+      "type": "event"
+    },
+    {
+      "source": "partida-darl-liga",
+      "target": "escala-liga-logur",
+      "label": "culmina en",
+      "type": "event"
+    },
+    {
+      "source": "caza-jaromir-darl",
+      "target": "partida-liga-iskidan",
+      "label": "avanza con",
+      "type": "trama"
+    },
+    {
+      "source": "huida-skalk-vol",
+      "target": "partida-liga-iskidan",
+      "label": "aporta el motivo de",
+      "type": "trama"
+    }
+  ],
+  "summary": {
+    "chapter": 37,
+    "title": "Capítulo 37 — Varg",
+    "summary": "Los Bloodsworn atracan en <strong>Liga</strong>, que a <strong>Varg</strong> le parece menos imponente después de conocer <strong>Darl</strong>. <strong>Glornir</strong> exige a <strong>Palrun</strong> noticias del <strong>Principe Jaromir</strong>. El oficial insiste en cobrar la tasa de atraque. Glornir lo levanta por el cuello y lo suelta cuando dice que no sabe nada. <strong>Edel</strong> acaba de llegar con el <strong>Sea-Wolf</strong>. <strong>Jarl Logur</strong> confirma que Jaromir se ha reabastecido y ha zarpado. Al saber que tiene a <strong>Vol</strong>, accede a proveer el Sea-Wolf y hacerse cargo de <strong>Hakon</strong> y del drakkar para devolverlos a la <strong>Reina Helka</strong>. Los hombres de Logur se llevan al príncipe y <strong>Frek</strong> lo sigue tras escuchar en silencio a Varg decirle que él también fue esclavo.<br><br>Varg recupera del cofre de remero el equipo que ganó en el muelle de Liga. Ahora entiende el botín como memoria de a quién venció. Lo ofrece a <strong>Sulich</strong> para saldar la deuda por haberlo salvado en Darl. Con el aliento de <strong>Einar Medio-Trol</strong>, Sulich acepta y corre a buscar una cuerda de arco. <strong>Svik Hrulfsson</strong> y Palrun regresan con provisiones y una buena carga de queso.<br><br>Edel e <strong>Ingmar Ice</strong> cuentan lo sucedido en la <strong>Cámara de Rotta</strong>. <strong>Gunnar Prow</strong>, herido en una pierna, sigue con <strong>Revna Hare-Legs</strong>, <strong>Halja Nariz-Plana</strong> y <strong>Orka Skullsplitter</strong>. Svik pierde la sonrisa al oír el apodo y pregunta si Orka está bien. Por Edel, Varg se entera de que el hombre al que mató era el padre de <strong>Myrk Sharp-Claw</strong> y de <strong>Ilska Raven-Feeder</strong>. Según la noticia que Edel atribuye a Myrk, Ilska cuenta con la compañía de <strong>Lik-Rifa</strong>. Halja busca vengar a <strong>Vali Aliento-de-Caballo</strong>, y Varg piensa en <strong>Frøya</strong>.<br><br>Glornir admite a bordo a los niños que Einar ha escoltado desde el <strong>Grimholt</strong> y pone a prueba a <strong>Refna Manos-Fuertes</strong>, que toma un remo. Según las noticias que comunica a la tripulación, Jaromir lleva dos días de ventaja y se ha ido con tres drakkar y dos knarr para los caballos, tras esperar a otras dos partidas de <strong>Druzhina</strong>. Glornir cree que se dirige a su tierra y el Sea-Wolf zarpa hacia <strong>Iskidan</strong>. A Varg le inquieta dejar atrás la costa. Svik celebra volver a navegar por <em>la ruta de la ballena</em>."
+  }
+}

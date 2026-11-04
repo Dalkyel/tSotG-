@@ -37,7 +37,8 @@
     33,
     34,
     35,
-    36
+    36,
+    37
   ],
   "chapters": [
     {
@@ -610,15 +611,33 @@
         }
       },
       "log": "Chapter 36: Orka reaches Starl, corroborates part of Myrk's route, buys a Tainted thrall and a horse-blood sample for unexplained reasons, and sights a Battle-Grim ship arriving as her unexplained wolf-sense intensifies."
+    },
+    {
+      "chapter": 37,
+      "source": "book2/chapter 37.html",
+      "sourceHash": "1321fb241fcfa3fe9ee63561de794af99588f6972ad9c58cffe92a0eb39113cd",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch37.gT6Sgo",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-37",
+        "hashes": {
+          "ownership-review.md": "fc410b3b23b4261fc3cb783d991bef08087b4922b891110a0cd9f3b840a1b488",
+          "event-review.md": "d8527dfb3b973af50dddad1ccde2d501faa96ff0dfac227a4e1e777ab9adbc74",
+          "thread-review.md": "b24f6d0dbc958b54e135b0cee89e0acef9854f0e3c5782ccd6154d31346a7eb1",
+          "thread-checklist.json": "757e8d433426c20e28bc03ae59eb89ee4c2214585de8d0b125fa2f9d8cbe664b",
+          "completion.json": "607e9e44918517682b12009c7a08c5687ca8417c6bba989140bf3ccc714d2e39",
+          "chapter.json": "f1e52f00029552abe336d5914ded438b05670f5cef0cffb480f19e25ce7b8e2c"
+        }
+      },
+      "log": "Chapter 37: Reprocessed Varg from the complete local source. Added seven scenes and the canonical Palrun and Refna profiles, revised the earlier departure and six thread records, verified 52 links and 31 summary mentions, reviewed all 199 clue candidates, and passed the pre-publication regression suite. Browser preview remains manual."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "c169c68fdd4875c76430054dc8c2e3761445b8ac328fb7ca5e0f7ca139d29334",
-    "book2/links.js": "b71569283e5dfac9a857c0d185d01d67469b4d6aacab075fae36551ad2142913",
-    "book2/summaries.js": "f6a5cb51fe6e0320cef5494248f75bed69a4f4ce34f309a330b27bcc50456b7b"
+    "book2/nodes.js": "cf91f48efa69d10ac3f326b3726db04d3645b455209748fff5c0edbde9a37a98",
+    "book2/links.js": "55447ee17600ae162ddefd443e0736586ac9a3a3a0abedcd0c04db622290f170",
+    "book2/summaries.js": "45649f1ffb9acc27ac2c5eadadfaec3d87aeb6d0ad39326fa7a7db71ae9b2ed0"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -629,9 +648,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "ce7706e18a52a0d51757edd0aa54a5b2862e2bfea6b6a132634b9180f8ec5505",
-    "links": "55e74c6e268a00dd5db8711c9ac6dcb4b0ad1d1eac606d7fc29a2bcdcf6d13ef",
-    "summaries": "bf810727224cd9dd28b3f19e7ce9f9ac0c5ca7e012b4a8dab19cbf3e692898bd"
+    "nodes": "bbbf5561f207cdeeb543503390f41934263678534ec205263ea7235844c898f4",
+    "links": "ea1d266e666e706bc792269634e6681e846b4b470948e90cc238d6c3ccba4ae8",
+    "summaries": "51ac4572ce1a76f37970e9127b637db54e7b03ec5100bc45489e07f38d8a732a"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {
