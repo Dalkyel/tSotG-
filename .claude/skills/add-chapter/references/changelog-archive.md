@@ -1,5 +1,12 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch39 — the legacy summary transferred Orka's private
+  inference about Breca and Bjarn to Uspa, repeated dialogue from Ch38, and could
+  promote Halja's outdated conjecture about catching Skalk into current knowledge.
+  Added these attribution, chapter-boundary and report-age checks to the existing
+  legacy-summary cross-check in `book2-reprocessing.md`. Fully absorbed into that
+  procedure; archived immediately. No helper behavior changed.
+
 - 2026-11-03: Book Two Ch26 — documented early sequence and source-path checks
   after the requested Ch28 path was missing and the checkpoint was at Ch25.
   Added guidance for overlapping POV accounts and for checking whether a death

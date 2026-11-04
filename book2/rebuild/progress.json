@@ -39,7 +39,8 @@
     35,
     36,
     37,
-    38
+    38,
+    39
   ],
   "chapters": [
     {
@@ -648,15 +649,33 @@
         }
       },
       "log": "Chapter 38: Reprocessed Elvar’s arrival in Starl, the confrontation over Uspa and Ulfrir’s recognition of Orka. Kept the connection to the earlier howl and dream provisional and tracked the still-pending provisioning and departure. Reviewed 201 clue and thread candidates, passed all semantic gates and ran the prescribed regression suite. Visual confirmation remains unperformed."
+    },
+    {
+      "chapter": 39,
+      "source": "book2/chapter 39.html",
+      "sourceHash": "69914b9cbcbdd082546fdd768613eaec76e8154866e45fe9804c8d3a72735b37",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch39.yrJo77",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-39",
+        "hashes": {
+          "ownership-review.md": "97c3e13910eef24d6bbe4f21ae3087fca9755027b6061b040c57ec9f71efe79c",
+          "event-review.md": "183e583480aee72da62a998d128a8c6dde26fc77654bb9dc2010b994a014ca03",
+          "thread-review.md": "3b4c211f9b2e792095234b657829cb105321c6e8b15bf1537d5e1122c0ed1d11",
+          "thread-checklist.json": "a59b680aea4981d8241ade6f97779abef1f9ac2c09ffd5cbe844e4838e33fb1a",
+          "completion.json": "2f24c5af6168ee29d2066486c0b37a250e4e9d600d025355966b3eae6cd318d8",
+          "chapter.json": "9641318b01c1f048ed473b8376b953d1b854e5d5ac45b748e56c99bc78ae2990"
+        }
+      },
+      "log": "Chapter 39: Reprocessed Orka’s continuous Starl encounter from the complete source: truce and mutual disclosures, Ulfrir’s recognition and interior voice, attributed paternal death with preserved age discrepancy, punishment testimony, eastward-track contradiction and unspecified favor agreement. Closed only Uspa’s request to leave; added the unanswered Orna request and kept rescues, dream attribution and destination pending. Reviewed 202 clue IDs, full baseline ownership, three event connections, all link sentences and summary identities. All required regression tests passed. Browser visual confirmation left to the user per skill; later chapters remain visible."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "3b4b039078e18d075cd4b2e2327b0ee6ebddeb70d637d816df3b137cb4929d0d",
-    "book2/links.js": "50afa1a731bfdf0a024f80c4716a69bd4ee3c691be0e7a6403fa0d3e3aea4933",
-    "book2/summaries.js": "95adf9c785617d75185a028614ffbecb02280b6564e36f1525aeaef9c9badc83"
+    "book2/nodes.js": "7cfd3545163c14a4dfa03cfc3fdd2ad27857de124e7e3aaa935e8bafadde7628",
+    "book2/links.js": "0e0c901d523c0e4800f996bf3b7c5781224b9a4284cba77381d0b07665acf883",
+    "book2/summaries.js": "2a9ddc3c557ddb402b776966eca2f241379e5c70ccd34c6e2fdf1f1eee688ce2"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -667,9 +686,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "81fff2c5ac86073858ec1dfecd5bec2a270459860a757e9ab874917b9529f3df",
-    "links": "1e05cf41c2c8512f2f06851ddaff3d00956227dc1caf6c6f83d22a92e1d0822e",
-    "summaries": "4ded0d67c5b18ec46b9a2c09cfdf7d7bc07c596a6e72dd0c8e6dbefec7c4db6f"
+    "nodes": "488563bf7014748320541a6797d2d3700554187807a1334b2339c3db820cff45",
+    "links": "c57b6690eb568f37e3faf84a9eee3a8df015094c6d93c18f2e2db225563ca0ab",
+    "summaries": "9538e0388a473dae45bb081eec56d13e164281e8332cd1f1c3df240c2cb3874b"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

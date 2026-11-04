@@ -202,6 +202,16 @@ before Logur arrives, Edel identifying the dead man through his relationship to
 the attacker, and the Sea-Wolf rowing away through the fiord. Compare any affected
 event descriptions, relationships and thread states as well as the summary.
 
+For a conversation continued across POV chapters, check where the supplied chapter
+begins before importing a legacy quotation or reaction. Distinguish what is spoken
+from the current POV's private inference, and identify whose inference it is. In
+Ch39, Orka privately connects Breca and Bjarn with the release ritual; Uspa does not
+announce that conclusion. The legacy summary also repeats Uspa's recognition and
+«Todavía no» exchange from Ch38. Extend the shared EVENTO for the continuous scene,
+but source-mark each chapter's contribution and draft its summary from that chapter's
+own text. A prior report retold in the conversation retains its original uncertainty:
+Halja's guess that Glornir has probably caught Skalk is not current rescue evidence.
+
 ## Review and publish
 
 Write `ownership-review.md`, `event-review.md`, `thread-review.md` and the checked

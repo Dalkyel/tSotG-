@@ -1,0 +1,9 @@
+# Ownership review — Book Two Chapter 39
+Read and audited full latest baseline entries of orka (4 pages); ulfrir, skuld, camara-rotta, castigo-rotta, nastrandir (2 pages); pasado-orka, llamada-lobo-orka, rescate-breca, convergencia-orka-battle-grim, salida-uspa-starl, rumbo-lik-rifa, breca-vinculo-lik-rifa, rescate-bjarn and venganza-halja (4 pages); llegada-battle-grim-starl (1 page). Additional sueno-lobo-varg fully read. All descriptions/stars reviewed, not just suffixes.
+
+All 16 new/updated entries reviewed against source pages 1–2 through END, including metadata. Histories describe their subjects; no terminology/species nodes need an incidental-scene revision. Ulfrir’s testimony belongs to castigo-rotta; his profile points there. The continuous encounter is extended, not duplicated. The childhood death has its own attributed historical EVENTO with Orka’s profile and pasado-orka pointing to it. Places retain location/identity facts; TRAMA revisions carry state/evidence and point to the scene, rather than copying it. Skuld owns her request, not a demonstrated ability to revive Orna. Orka’s private conclusion about the boys and the inner voice remain explicitly private; Halja’s guess about Skalk’s capture remains conjecture.
+
+Legacy cross-check: source does not locate Myrk’s capture at Oskutreð; Halja puts it in Rotta’s chamber. Recognition of Uspa and the «Todavía no» exchange belong to the prior chapter, not new Ch39 dialogue. It is Orka who privately infers the boys’ ritual connection, not Uspa who announces it. Grend is named by Sighvat, Skuld by Ulfrir. These legacy inaccuracies were not imported.
+
+Final node review pages 1–2, all link sentences and summary identities checked. Title of the childhood EVENTO changed to a noun phrase so «relata en Starl → La Muerte del Padre de Orka» reads grammatically. No baseline relocation or repair required. No overlap of 12+ consecutive words among appended nodes.
+Ownership review: PASS

@@ -1,0 +1,257 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 39 — ORKA ──",
+  "nodes": [
+    {
+      "id": "orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: Reconoce con certeza a Ulfrir y relaciona con él el aullido que siente en el alma y la sangre. Oye dentro de su cabeza que la llama «hija» y siente la atracción de seguirlo y pertenecer a su manada, pero logra resistirse para priorizar a Breca. Llama amiga a Uspa, palabra que le resulta extraña. Al rechazar el lenguaje paternal del dios afirma que su padre la golpeaba por placer y que lo mató y abandonó su hogar a los doce veranos; véase muerte-padre-orka. Esta edad difiere de los diez u once inviernos que atribuyó a la muerte de sus padres en el Libro 1, capítulo 15; no se concilian ambos relatos. Su petición de ayuda a Elvar queda en llegada-battle-grim-starl y convergencia-orka-battle-grim.",
+      "previousState": "Reconoce al dios, resiste su atracción y revela la muerte de su padre.",
+      "starAppend": "LIBRO 2, CAPÍTULO 39: La voz interior de Ulfrir y la atracción resistida avanzan llamada-lobo-orka. El relato de su padre añade pasado-orka y una discrepancia de edad, sin resolver la mujer enjaulada, la sensibilidad ni los relatos de Skullsplitter."
+    },
+    {
+      "id": "ulfrir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: Declara que Orka es de su sangre y que tiene su protección aunque ella no la necesite. Le da su palabra de seguridad y la invita a permanecer a su lado como hija; Orka se niega pese a la atracción que experimenta. Su comunicación interior se registra desde la experiencia privada de ella en llamada-lobo-orka. Se emociona al recordar a Valkyrie y Orna. Identifica por la descripción de Halja el refugio de Rotta y se atribuye haber clavado sus cadenas; véase castigo-rotta para ese testimonio. Su hipótesis sobre el destino de su hermana queda en llegada-battle-grim-starl.",
+      "previousState": "Reconoce su sangre en Orka y aporta testimonio sobre Rotta."
+    },
+    {
+      "id": "skuld",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: Permanece al lado de Ulfrir y, al oír mencionar la garra de Orna, llama a esta «madre» y pregunta a Elvar si también podría devolverle la vida. Elvar la ignora; véase resucitar-orna. Mira fijamente a Orka y la saluda con un gesto, sin explicar qué sabe de ella.",
+      "previousState": "Solicita considerar el regreso de Orna, sin recibir respuesta."
+    },
+    {
+      "id": "camara-rotta",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: Ulfrir reconoce el refugio a partir de la descripción que Halja hace de sus salas, losa, cadenas y marcas de quemadura. Es identificación por un participante que dice haberlo usado para el castigo, no una nueva visita; véase castigo-rotta. Halja no sabe si ya era subterráneo antes de la caída de Snaka.",
+      "previousState": "La identificación recibe el testimonio de Ulfrir."
+    },
+    {
+      "id": "castigo-rotta",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: Al escuchar la descripción de Halja, Ulfrir identifica las cámaras como el escondite de Rotta y afirma que lo persiguieron por lo que hizo a Valkyrie. Se atribuye personalmente haber clavado las cadenas en la roca y haber sonreído mientras el veneno de serpiente lo abrasaba. Su testimonio de participante corrobora su intervención en el castigo sin relatar de nuevo el crimen, explicar cómo se rompieron las cadenas ni establecer el destino posterior de Rotta. No borra las distintas versiones anteriores de las sagas.",
+      "previousState": "Ulfrir se identifica como participante en el encadenamiento."
+    },
+    {
+      "id": "nastrandir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: Ulfrir sitúa los antiguos salones de su hermana al este, pero declara ignorar si siguen en pie tras la destrucción de Snaka. Es un nuevo testimonio sobre la ubicación histórica y el estado incierto, no una inspección actual.",
+      "previousState": "Ulfrir confirma la orientación histórica y desconoce el estado actual."
+    },
+    {
+      "id": "llegada-battle-grim-starl",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: La escena continúa con Orka reconociendo al dios resucitado y su collar. Ulfrir ofrece protección, pero Elvar reafirma que ella da las invitaciones y garantiza el paso. Halja y Orka revelan que tienen una prisionera dragon-born llegada de Oskutreð; Elvar acuerda una tregua y las recibe con Sæunn en el Wave-Jarl. Grend advierte que vigilará a Orka. Ulfrir presenta a Skuld y Sighvat se presenta y nombra a Grend. Elvar admite haber resucitado y esclavizado al dios; Uspa justifica necesitar un dios para matar a otro y avala la confianza en las visitantes. Pactan hablar abiertamente. Orka cuenta que mataron a Thorkel y se llevaron a Breca; Uspa responde que también le arrebataron a Bjarn. Orka deduce privadamente que los niños están juntos y fueron usados para liberar a Lik-Rifa, sin que aquí se identifique a Breca como participante del rito. Invita a Uspa a ir con ella, pero Uspa se niega, muestra junto a Elvar, Sighvat y Grend las cicatrices del blóð svarið y prefiere seguir el plan de Elvar para recuperar a Bjarn. Ulfrir invita a Orka a unirse a él; ella rechaza demorarse lejos de su hijo. Halja explica que acompaña a Orka por vengar a Vali. Relata el encargo de Helka, las desapariciones, la excavación, la liberación de esclavos y el robo de la garra y los pergaminos por Skalk. Uspa identifica esas copias como el medio usado para romper las ligaduras de Lik-Rifa. Halja revela a Uspa que Skalk raptó a Vol, su hermana, y que Glornir lo persigue; su idea de que probablemente ya lo alcanzó es una conjetura, no una noticia del rescate. Orka identifica a su cautiva como Myrk, hermana de Ilska, enviada a recoger a los dragon-born de la cámara y que oculta el lugar de reunión salvo la pista occidental próxima a Iskalt. Elvar la declara falsa: ella y Sighvat vieron las huellas de Ilska girar al este en Isbrún. Ulfrir propone que Lik-Rifa buscará la familiaridad de Nastrandir para descansar tras su cautiverio, aunque ignora si los salones sobreviven. Elvar señala que tampoco conocen su ubicación precisa. Orka reprime el impulso de matar a Myrk, pues aún cree que puede conducirla a Breca; pide un favor a Elvar y acepta devolverlo. El capítulo termina sin revelar el favor ni mostrar alianza definitiva, partida, nueva confesión de Myrk o rescate.",
+      "previousState": "La confrontación se convierte en tregua, revelaciones y acuerdo de favores."
+    },
+    {
+      "id": "muerte-padre-orka",
+      "mode": "new",
+      "label": "La Muerte del Padre de Orka",
+      "group": "EVENTO",
+      "type": "Evento — Recuerdo de infancia relatado",
+      "desc": "LIBRO 2, CAPÍTULO 39: Durante llegada-battle-grim-starl, al responder a la pretensión paternal de Ulfrir, Orka afirma que su padre la golpeaba por placer, que lo mató y que dejó su hogar a los doce veranos. Es testimonio sobre su infancia, no una muerte ocurrida ahora; no da nombre al padre, método ni circunstancias precisas. La edad difiere del recuerdo del Libro 1, capítulo 15, en que situaba la muerte de sus padres a los diez u once inviernos. Se conservan las dos versiones sin inventar una conciliación; pasado-orka sigue PARCIAL.",
+      "star": ""
+    },
+    {
+      "id": "pasado-orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: ESTADO: PARCIAL. Su testimonio sobre el padre abusivo, su muerte y la salida del hogar aporta una respuesta sobre esa parte de la infancia; véase muerte-padre-orka. Se conserva la discrepancia entre doce veranos y los diez u once inviernos del Libro 1, capítulo 15. El reconocimiento de Ulfrir y la comunicación que Orka experimenta avanzan llamada-lobo-orka, sin explicar la mujer enjaulada, toda su sensibilidad a los restos divinos ni los relatos del antiguo Skullsplitter.",
+      "previousState": "Avanza la infancia y conserva la discrepancia cronológica."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: ESTADO: PARCIAL. Orka reconoce en Ulfrir la llamada lobuna que siente en el alma y la sangre y oye ahora «hija» en su cabeza. La atracción de unirse a su manada es intensa, pero la vence para buscar a Breca; véanse orka y llegada-battle-grim-starl. Esto identifica la presencia que experimenta despierta y da sentido de parentesco a la atracción, sin demostrar expresamente que él emitiera el sueño del capítulo 10, cómo actúa la comunicación ni que la llamada de Varg tenga idéntico origen.",
+      "previousState": "La voz interior y el reconocimiento precisan el vínculo actual.",
+      "type": "Trama — Vínculo con Ulfrir, sueño y mecanismo pendientes"
+    },
+    {
+      "id": "rescate-breca",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: ESTADO: PARCIAL. El intercambio de llegada-battle-grim-starl da a Orka el testimonio de Elvar y Sighvat sobre las huellas al este, contradiciendo la pista occidental de Myrk. Orka la conserva viva porque todavía cree que sabe dónde está Breca y acuerda devolver un favor a Elvar a cambio de ayuda no especificada. Nastrandir es una hipótesis de búsqueda atribuida a Ulfrir, no localización comprobada del niño. Siguen pendientes paradero actual, recuperación física, trayecto original y rescate.",
+      "previousState": "La pista occidental queda contradicha ante Orka; acuerda ayuda sin términos revelados."
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: ESTADO: PARCIAL. El encuentro aporta una corrección decisiva a la búsqueda: Elvar y Sighvat contradicen el rumbo occidental indicado por Myrk. Orka pide ayuda y acepta devolver un favor; véase llegada-battle-grim-starl. El efecto informativo ya se observa, pero quedan pendientes los términos del intercambio, su ejecución y la recuperación de Breca.",
+      "previousState": "La conversación modifica la pista y abre un intercambio de favores."
+    },
+    {
+      "id": "salida-uspa-starl",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: ESTADO: RESUELTA para esta petición. Orka la busca para acompañarla a recuperar a Breca, pero Uspa se niega a marcharse con ella y elige seguir el plan de Elvar por Bjarn y el blóð svarið. Véase llegada-battle-grim-starl. No hay salida con Orka ni liberación de Uspa; los rescates siguen en rescate-breca y rescate-bjarn.",
+      "previousState": "Uspa explica su negativa a dejar a Elvar.",
+      "label": "Uspa Rechaza Marcharse con Orka",
+      "type": "Trama — Petición rechazada"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: ESTADO: PARCIAL. Elvar y Sighvat comunican a Orka la marcha al este por las huellas vistas en Isbrún y rechazan la pista occidental de Myrk. Ulfrir supone que su hermana buscará recuperarse en Nastrandir por familiaridad; no confirma llegada ni el estado de los salones. Véase llegada-battle-grim-starl. La discrepancia llega ahora a Orka; la cita efectiva, recuperación y enfrentamiento siguen pendientes.",
+      "previousState": "La pista oriental se comparte con Orka; Nastrandir sigue siendo destino propuesto."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 39: ESTADO: PARCIAL. Al oír a Uspa hablar del rapto de Bjarn, Orka infiere privadamente que su hijo y Breca están juntos y fueron tomados para el rito. Véase llegada-battle-grim-starl. Se registra su conclusión, no una identificación independiente de Breca en la ceremonia ni explicación del asesinato de Thorkel.",
+      "previousState": "Orka formula una conclusión privada sobre el papel de su hijo."
+    },
+    {
+      "id": "resucitar-orna",
+      "mode": "new",
+      "label": "¿Podría Volver a Vivir Orna?",
+      "group": "TRAMA",
+      "type": "Trama — Petición de Skuld sin respuesta",
+      "desc": "LIBRO 2, CAPÍTULO 39: PRIMERA EVIDENCIA: LIBRO 2, CAPÍTULO 39, llegada-battle-grim-starl. Tras oír hablar de la garra de Orna y ver vivo a Ulfrir, Skuld pregunta a Elvar si también podría devolver la vida a su madre. Elvar no responde. ESTADO: ABIERTA. Pendientes: si se acepta o intenta la petición y si es posible resucitar a Orna. La resurrección de Ulfrir no constituye una promesa de Elvar ni demuestra que pueda repetirse con Orna.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "muerte-padre-orka",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "muerte-padre-orka",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "resucitar-orna",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-orka",
+      "target": "resucitar-orna",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "resucitar-orna",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "orka",
+      "target": "muerte-padre-orka",
+      "label": "relata en Starl",
+      "type": "history"
+    },
+    {
+      "source": "muerte-padre-orka",
+      "target": "pasado-orka",
+      "label": "aporta evidencia a",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "muerte-padre-orka",
+      "label": "incluye el testimonio sobre",
+      "type": "history"
+    },
+    {
+      "source": "skuld",
+      "target": "resucitar-orna",
+      "label": "plantea",
+      "type": "goal"
+    },
+    {
+      "source": "resucitar-orna",
+      "target": "orna",
+      "label": "pregunta por el regreso de",
+      "type": "trama"
+    },
+    {
+      "source": "resucitar-orna",
+      "target": "elvar",
+      "label": "queda sin respuesta de",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "resucitar-orna",
+      "label": "abre la pregunta de",
+      "type": "trama"
+    },
+    {
+      "source": "ulfrir",
+      "target": "orka",
+      "label": "reconoce como descendiente y ofrece protección a",
+      "type": "rel"
+    },
+    {
+      "source": "orka",
+      "target": "ulfrir",
+      "label": "oye interiormente y se resiste a seguir a",
+      "type": "magic"
+    },
+    {
+      "source": "ulfrir",
+      "target": "castigo-rotta",
+      "label": "se atribuye el encadenamiento en",
+      "type": "history"
+    },
+    {
+      "source": "camara-rotta",
+      "target": "ulfrir",
+      "label": "es reconocida por",
+      "type": "lore"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "rescate-breca",
+      "label": "corrige la pista de",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "rumbo-lik-rifa",
+      "label": "aporta la hipótesis oriental a",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "nastrandir",
+      "label": "propone como posible destino",
+      "type": "geo"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "myrk",
+      "label": "cuestiona la pista occidental de",
+      "type": "event"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "huida-skalk-vol",
+      "label": "transmite a Uspa el relato inicial de",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-battle-grim-starl",
+      "target": "saeunn",
+      "label": "tiene como testigo a",
+      "type": "event"
+    },
+    {
+      "source": "cat-tramas",
+      "target": "salida-uspa-starl",
+      "label": "incluye",
+      "status": "broken",
+      "reason": "Libro 2, capítulo 39: Uspa rechaza partir con Orka; la petición queda respondida, sin rescate ni libertad."
+    }
+  ],
+  "summary": {
+    "chapter": 39,
+    "title": "Capítulo 39 — Orka",
+    "summary": "<strong>Orka Skullsplitter</strong> reconoce a <strong>Ulfrir</strong>, vivo y con un collar de esclavo. El dios la llama hija y le ofrece protección, pero <strong>Elvar</strong> reivindica el mando. Al saber que las visitantes tienen una prisionera dragon-born, acepta una tregua y recibe a Orka, <strong>Halja Nariz-Plana</strong> y <strong>Sæunn</strong> a bordo. <strong>Uspa</strong> avala su confianza y admite que necesitan un dios para matar a otro.<br><br>Orka revela que busca a <strong>Breca</strong> y que mataron a <strong>Thorkel</strong>. Uspa cuenta el rapto de <strong>Bjarn</strong>; Orka deduce que ambos niños fueron tomados para el rito de <strong>Lik-Rifa</strong>. Uspa rechaza acompañarla: confía en el plan de Elvar y permanece ligada al blóð svarið. Ulfrir intenta atraer a Orka a su lado, y ella siente su voz dentro de la cabeza y el deseo de pertenecer a su manada, pero se resiste por su hijo. Al hablar de su padre humano, afirma que la maltrataba y que lo mató y dejó el hogar a los doce veranos.<br><br>Halja explica que quiere vengar a Vali y relata la excavación de la <strong>Cámara de Rotta</strong>. Ulfrir reconoce el lugar y afirma que clavó allí las cadenas de <strong>Rotta</strong> para castigarlo por lo que hizo a Valkyrie. Al oír mencionar la garra de <strong>Orna</strong>, <strong>Skuld</strong> pregunta si también podrían devolverle la vida; Elvar la ignora. Halja revela a Uspa que <strong>Skalk</strong> raptó a su hermana <strong>Vol</strong> y que Glornir lo persigue, sin aportar noticia de un rescate.<br><br>Orka identifica a la cautiva como <strong>Myrk Sharp-Claw</strong>, hermana de Ilska, que promete guiarla hacia una reunión al oeste, cerca de Iskalt. Elvar y <strong>Sighvat</strong> contradicen esa pista: vieron las huellas de Ilska girar al este en Isbrún. Ulfrir cree que Lik-Rifa buscará reposo en <strong>Nastrandir</strong>, aunque ignora si sus salones siguen en pie y nadie a bordo conoce su ubicación precisa. Orka contiene su furia contra Myrk, a quien todavía necesita para encontrar a Breca. Pide ayuda a Elvar y acepta devolverle un favor; el capítulo termina antes de explicar en qué consistirá."
+  }
+}
