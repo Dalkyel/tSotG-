@@ -49,7 +49,8 @@
     45,
     46,
     47,
-    48
+    48,
+    49
   ],
   "chapters": [
     {
@@ -838,15 +839,33 @@
         }
       },
       "log": "Chapter 48: Reprocessed Guðvarr’s flight from the breakfast table, Hrolf’s death and Kalv’s live capture as one canonical event; added eight cumulative profile/lore/thread revisions and 18 links with a source-based Spanish summary. Preserved anonymous actors and uncertain trapper fate; retained partial reporting and unresolved political/hyrndur questions. Full source and selected backlog read; all 209 cross-POV checklist candidates assessed; ownership, event and thread reviews PASS. Chapter verifier, mention/direction/overlap reviews and the nine-file regression suite passed. Later chapters remain visible. Browser appearance and both book-summary tabs await user visual confirmation."
+    },
+    {
+      "chapter": 49,
+      "source": "book2/chapter 49.html",
+      "sourceHash": "80b5ed856d6cea8e64169ed179daa43480dc072229704d8accf3b00c14259193",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch49.v7t4NA",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-49",
+        "hashes": {
+          "ownership-review.md": "7858bf87cc7af8266abae2e73c61800bbd63120dd1753c7bc88164c02b2bb661",
+          "event-review.md": "31c88b9bfaf3b216660a475c5b8b3b1547da577810bde704468028023cc37435",
+          "thread-review.md": "48251f2429b6517e66faf43e73c9bb5d0c199f952ee515802bb5b2230d926809",
+          "thread-checklist.json": "851a2f71c5b7bd0b0182da11dbc067958f3020bb78b180110044e945ef440127",
+          "completion.json": "ba02390bcee47b08b977b8128bf4ba5b3d664a5510a2c61d26c5fe58d6f38ce2",
+          "chapter.json": "518aa337721916708f2eb925c0763cb3c9f0c3300f92e584c24ae089f2af8098"
+        }
+      },
+      "log": "Chapter 49: Elvar; replaced legacy content from the complete supplied source with two category-linked departure events, a pending Snakavik journey, and six cumulative profile/thread updates. Reviewed full affected baselines, all changed nodes and links, 16 canonical summary mentions, overlap and legacy summary; all three semantic gates PASS and all 210 backlog IDs assessed. Required nine-file regression suite passed. Later chapters retained; visual UI confirmation left to user."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "d0c3aa08fb06d9ef5aeb940373fa6a5f2a83f623eec996991316d23f00302079",
-    "book2/links.js": "b926babb4810a9f54f13a3f0960a1d634e39f8f0b5a2804eb995a6c2a928dc53",
-    "book2/summaries.js": "5b9d5779e92eb7b9c58a50f1984b48c8d7de2a50ddc4663263c0c6f3ba41e5d0"
+    "book2/nodes.js": "544c756cf6b34e2835156db86b39f95c397ea3a65e73b728ac6f4b46dff5e511",
+    "book2/links.js": "83da4efc9b932af1f6981a7825827121c99d8e166de7b37313b1ecdf2908b992",
+    "book2/summaries.js": "8033236409fee539a60f85021172aff2435bc693ef3bcefc33edb5f01258c847"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -857,9 +876,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "30d8584368f1fa30695a65c28cf37ac5ed36c01434c861d8e81ba958a62e0bc1",
-    "links": "d558ea2cc28c63a9a6ef1fcdae75cd29cbfb9a3fa851bcc6e448d587b52a8ba2",
-    "summaries": "59bddb73eeeb5880ee658f5121aeb02b5ca473df22c8215960636ea57319116e"
+    "nodes": "4bc9b1ab738ab4c1038c38398e13e1ecd1ccaa35c491a403ec4257a511499bd3",
+    "links": "e3d3710d2643e39f97cc419f6a7819a132aa7fc8256729b26d88045441c53896",
+    "summaries": "d8bd73172b1308bd16ff44645cdab7b42337d1fcd16b7c840cd0e6308a75a9ba"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

@@ -280,6 +280,14 @@ rewriting the edge as a clause. If several participants react to a decision,
 a noun phrase such as `El Aplazamiento de la Liberación de Hakon` can serve
 directly as the object of `objeta` or `protesta por`. Apply the same check when retitling a resolved
 thread, since its earlier edges will render with the new label.
+For any existing node whose `label` changes, run the applicable `read-links` reader
+on that single id after applying the draft, paging through END. Review the historical
+sentences with the new label as well as the appended links: `--review-links` prints
+only appended relationships and cannot expose a broken older sentence. Prefer a title
+that preserves their grammatical role. In Book Two Ch49, a provisional retitle of
+`abasto-battle-grim-starl` as «Los Víveres Embarcados en Starl» turned earlier
+«recibe el encargo de realizar → …» links into awkward sentences. «El Abastecimiento
+en Starl» removed the stale pending title while preserving those existing task links.
 Put source attribution before the verb inside the link label, so the sentence still
 reads naturally through its target: `Cadena de Ulfrir → según Yrsa, sirvió para encadenar a
 → Ulfrir`, not `sirvió para encadenar a, según Yrsa → Ulfrir`. Keep the subject's role

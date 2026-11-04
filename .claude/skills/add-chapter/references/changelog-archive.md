@@ -833,3 +833,7 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   cross-check. A combined changelog read also truncated; maintenance now locates
   dated entries before reading bounded ranges. Both fixes are fully incorporated
   in the maintained workflow instructions.
+
+- 2026-11-03: Book Two Ch49 — retitling the provisioning thread required checking
+  its earlier task links, which the appended-link report does not show. Added the
+  single-id historical-link read and title-preservation example to SKILL.md. Fully absorbed into the maintained link-review instructions.

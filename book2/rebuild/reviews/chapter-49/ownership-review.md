@@ -1,0 +1,9 @@
+# Book Two chapter 49 — ownership
+
+Complete baseline entries read and audited: elvar (3/3 pages), saeunn, rescate-breca (2/2), contratacion-bloodsworn-elvar, llamada-lobo-orka, abasto-battle-grim-starl. No inherited ownership contamination found. Append helpers preserved desc/star prefixes. Final changed-node report read through page 2/2; final label change reviewed against all seven stored links of abasto-battle-grim-starl. Final appended links read as sentences, all 16 emphasized mentions checked for intended identity, no 12-word overlap candidates.
+
+Two coherent EVENTO nodes own the departure conversations and actions: despedida-starl and partida-wave-jarl-starl. Profiles receive only Elvar's own feelings/choices and Sæunn's tracking action and unresolved status. No update to species, gods, places, vessel or company merely to copy the scene. Grend's danger/death description is attributed to him, not confirmed as magical detection. Uspa's farm recollection remains testimony in the conversation. The glare is not attributed to the unnamed rider's presumed identity. Ulfrir's prediction and Elvar's impression of reciprocal looking are qualified.
+
+All question owners receive concise status/evidence and scene pointers; the historical questions remain. The abasto title was revised from a provisional physical-goods noun to El Abastecimiento en Starl so earlier task-verb links retain their meaning; earlier assignments remain historical and the new chapter attributes actual purchasing to Uspa. No unsupported delegation is inserted. Summary checked against complete source, then immutable legacy summary: the latter's Myrk-only cloth wording omits the horse sample already established in C45, its attribution of stowing to Uspa is more specific than this source, and its implication of a prior sexual encounter is not adopted. No chronology discrepancy imported.
+
+Ownership review: PASS
