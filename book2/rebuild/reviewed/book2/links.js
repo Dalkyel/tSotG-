@@ -1385,6 +1385,7 @@ const linksBook2 = [
     {"source":"tafl-biorr-breca","target":"hundur","label":"sitúa en el fuego vecino a","type":"event"},
     {"source":"tafl-biorr-breca","target":"brak-trolls-bane","label":"sitúa en el fuego vecino a","type":"event"},
     {"source":"tafl-biorr-breca","target":"drekr","label":"sitúa en el fuego vecino a","type":"event"},
+    {"source":"cat-tramas","target":"harek","label":"paradero sin resolver","status":"broken","reason":"LIBRO 2, CAPÍTULO 35: Harek reaparece vivo junto a Breca; su paradero inmediato deja de ser desconocido. El capítulo 40 lo sitúa con la hueste en Nastrandir. Responsables del rapto, asesinato de sus padres y recuperación segura siguen pendientes en ninos-robados."},
 
 // ── LIBRO 2, CAPÍTULO 36 — ORKA ──
     {"source":"orka","target":"starl","label":"llega a","type":"geo"},

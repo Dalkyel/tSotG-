@@ -883,7 +883,7 @@
     "book1/links.js": "6fbe49b741333b7918199dcd1d79924aa3a3d42ebd5d7a7ff434d957b685a3d2",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
     "book2/nodes.js": "f4a7cf580b8a9b0d546fef1bf4f3720954cb315c6e19b7cc3a076bf83102dbe0",
-    "book2/links.js": "ad128e1cfc3c2f995a7cd0b66762f4ae08f10d1470a77559a1784568350723ff",
+    "book2/links.js": "2ce1bc9fd7ce187f7411e11d25e9b4ad06b638a25a0a1ae1952d609f4b1d8e83",
     "book2/summaries.js": "8d1d60fe14be83cc400a6e3d3669f4e886f6f6fb93dc86b99d9573903570663b"
   },
   "referenceHashes": {
@@ -896,7 +896,7 @@
   },
   "reviewedHashes": {
     "nodes": "51f423bf4166b773387f3500c257bef275a7552ff6c7e43e76b2416a6716a86a",
-    "links": "c19d0741665aa75feb0fad3889b7bb538b003267127448164793adb5b3d47683",
+    "links": "0bc808e99f566bb50c8362efe0da661c3b9186ae26428ca8a15d9f6c594d963b",
     "summaries": "adab8e4fae2306c499575c85cdee43ac8b2cd3dc2ecb62570f4c29a45558a79a"
   },
   "visibility": "keep-all-chapters",
@@ -950,6 +950,17 @@
       "repair": "audits/secrets-through-book2-ch50-repair.json",
       "repairHash": "96d90eb598b9fc7e55651e918bef066078fb684ad10b48fa01c4cad35071849e",
       "log": "Restored one already-proven category closure, corrected three resolved-thread metadata records and two stale partial-thread type labels; no new story closure inferred."
+    },
+    {
+      "date": "2026-11-03",
+      "cutoff": {
+        "book": 2,
+        "chapter": 50
+      },
+      "report": "audits/active-category-followup.md",
+      "repair": "audits/active-category-followup.json",
+      "repairHash": "e2a7b724814368053bf938108b799a9eb5f17d94119945c3e8f887887a8565a6",
+      "log": "Retired the answered Harek-whereabouts category edge, including direct character targets in the active-category audit. No profile, summary or other link changed."
     }
   ]
 }

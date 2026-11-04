@@ -315,3 +315,11 @@ HISTORY and THEMATIC rows are retained for context, not counted as open mysterie
 - `reprocess.cjs status` remains complete, through chapter 50, with no active run; whitespace checks pass.
 - Visual inspection remains manual. Browser-local clue-board notes/statuses have not been changed.
 
+
+## Follow-up: include direct category targets
+
+A later check of all category targets, including non-TRAMA nodes, found and retired
+the stale Harek “paradero sin resolver” edge. B2C35 establishes him alive with Breca;
+B2C40 places him at Nastrandir. His abduction, parents’ killers and eventual safety
+remain unresolved. The category now contains exactly the 73 open/partial TRAMA IDs.
+See `active-category-followup.md` and its exact repair record.
