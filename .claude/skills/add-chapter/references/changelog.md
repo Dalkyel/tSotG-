@@ -366,3 +366,24 @@ actually fixed.
   incidentally from an identity check, rather than one actually being verified — wasn't
   called out anywhere. source-and-entity-workflow.md's unnamed-character rule now names
   this exact trap with that example.
+
+- 2026-11-03: Book Two reprocessing Ch36 — two fixes, both absorbed directly into the
+  workflow references:
+  (1) SKILL.md's Links section explained category *ids* (`cat-mundo`, `cat-magia`) but
+  never actually stated the arc-link *shape* a new node needs. Confirming the pattern
+  for six new nodes (a character, an `EVENTO`, three `TRAMA`s, a `LUGAR`) cost three
+  separate `read-links --between` lookups before the shape was clear: every POV-tied
+  node — plain character included, not only `EVENTO`/`TRAMA` — needs
+  `cat-orka/cat-varg/cat-elvar → incluye → new-id` (`type: 'arc'`), and a new
+  `EVENTO`/`TRAMA` additionally needs `cat-eventos`/`cat-tramas → incluye → new-id`.
+  SKILL.md's Links section now states this explicitly with the literal link shape.
+  (2) The live `book2/summaries.js` entry for chapter 36 already held a legacy,
+  unreviewed summary (pre-dating this reprocessing pass) that matched the actual source
+  closely enough to use as a post-draft completeness cross-check — but it also named a
+  new slaver "Haga", the same bare label already used by an unrelated Book 1 Grimholt
+  warrior. Copying that mention uncritically would have linked the new character's
+  summary mention to the wrong node; `read-latest` on the candidate id caught the
+  collision before it was minted, and the new character became `haga-starl` /
+  "Haga de Starl" instead. book2-reprocessing.md now names this exact trap — a legacy
+  summary is useful for a late cross-check, never a source, and anything it names still
+  needs the normal identity-resolution steps.

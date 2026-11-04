@@ -36,7 +36,8 @@
     32,
     33,
     34,
-    35
+    35,
+    36
   ],
   "chapters": [
     {
@@ -591,15 +592,33 @@
         }
       },
       "log": "Chapter 35: Reprocessed Biórr’s source with four key events, Harek’s living reappearance, the lineage exercise, two continuing rescues and the resolution of the Isbrún watch. Completed ownership, event, 194-item thread and automated regression checks. Visual browser preview not performed."
+    },
+    {
+      "chapter": 36,
+      "source": "book2/chapter 36.html",
+      "sourceHash": "337150c382ea3fa8d749a518ce09e9c429b4692bf2b94732f69e20528cf08638",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch36.S6wYv7",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-36",
+        "hashes": {
+          "ownership-review.md": "561a2dbc5315e608f217536d84769c30beee72ae0ae874fae8b7267def42b42a",
+          "event-review.md": "7577dcf845ae1868322eea21a2a329ea7879c0bfc871a64ec77224a9b12f1a73",
+          "thread-review.md": "adb6f6dee08f685318a93f83fffab39e2273a82d4714ad31f68131752bb07413",
+          "thread-checklist.json": "f79ce96186e215127e0e2a3a971a80bd73de1cf0405c97251708d6e619f5a0eb",
+          "completion.json": "f8c59a88300560c58758cf97c252ab7187645d8bcdc731d9d622296b67a9f722",
+          "chapter.json": "6d39ee72150f16aefc211a440440336cd034dba185e691cf673aefd0ad9c7622"
+        }
+      },
+      "log": "Chapter 36: Orka reaches Starl, corroborates part of Myrk's route, buys a Tainted thrall and a horse-blood sample for unexplained reasons, and sights a Battle-Grim ship arriving as her unexplained wolf-sense intensifies."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "73e1c5f39427dcd92a3712b50d16395b2d34da0282445860042daea16e91a13b",
-    "book2/links.js": "c9e0f05e5bacb7063ae6175118b688572990a942f681fab9d80572e7869b43d3",
-    "book2/summaries.js": "3e46ff7bb331840de834e3c543ecd334c0dd742dec87ea799fd8e4dbf5ab2e05"
+    "book2/nodes.js": "c169c68fdd4875c76430054dc8c2e3761445b8ac328fb7ca5e0f7ca139d29334",
+    "book2/links.js": "b71569283e5dfac9a857c0d185d01d67469b4d6aacab075fae36551ad2142913",
+    "book2/summaries.js": "f6a5cb51fe6e0320cef5494248f75bed69a4f4ce34f309a330b27bcc50456b7b"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -610,9 +629,9 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "bc91cb6e9534e7bdf7e9288454d9b949c5d2e71ba2223a4973e2a6acac35267c",
-    "links": "7ab6b50a20df2cfa19897479042aee1355601e364891fb7d743b4d69c545cf85",
-    "summaries": "a00745b4b61472753254d0680b7d032118faf6d9d1a2dd4dc69d69a9def7568b"
+    "nodes": "ce7706e18a52a0d51757edd0aa54a5b2862e2bfea6b6a132634b9180f8ec5505",
+    "links": "55e74c6e268a00dd5db8711c9ac6dcb4b0ad1d1eac606d7fc29a2bcdcf6d13ef",
+    "summaries": "bf810727224cd9dd28b3f19e7ce9f9ac0c5ca7e012b4a8dab19cbf3e692898bd"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {

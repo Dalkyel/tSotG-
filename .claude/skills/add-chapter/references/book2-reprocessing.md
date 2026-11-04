@@ -9,7 +9,21 @@ reviewed replacements are published into those same three Book Two files.
 
 - `book2/rebuild/progress.json` records completed chapters, the active run, source hashes,
   and expected live/reference/reviewed hashes. Next chapter is initially 1; the existing
-  50 summaries are legacy content, not proof that reprocessing has been done.
+  50 summaries are legacy content, not proof that reprocessing has been done. The live
+  `book2/summaries.js` entry for the chapter being reprocessed is exactly this kind of
+  legacy content: never draft from it, but after independently drafting from the actual
+  supplied source, reading it once as a completeness cross-check can still catch an
+  omitted detail. Any name it reuses still needs the normal identity-resolution steps —
+  it can carry the same trap a hasty first pass would: in the Chapter 36 run, the legacy
+  summary already named a new slaver "Haga", which is also the bare label of an
+  unrelated, already-existing Book 1 Grimholt warrior (`haga`); copying that mention
+  verbatim would have silently linked the new character's summary mention to the wrong,
+  unrelated node. `read-latest` on the candidate id surfaced the collision, and the new
+  character was minted as `haga-starl` with the distinct label "Haga de Starl" instead
+  (see the shared-epithet rule in
+  [source-and-entity-workflow.md](source-and-entity-workflow.md) and the
+  Hundur/Dios-Sabueso precedent in
+  [chapter-summary-links.md](chapter-summary-links.md)).
 - `book2/rebuild/reference/book{1,2}/` is the immutable, integrated starting archive.
   It supplies identity/completeness checks, never facts to copy as chapter evidence.
 - `book2/rebuild/reviewed/book2/` holds only the processed prefix used by the tools.

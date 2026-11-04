@@ -226,6 +226,17 @@ A group key such as `OBJETO` or `LUGAR` does not imply that `cat-objetos` or
 `cat-lugares` exists; use an existing suitable category (for example, `cat-magia`
 or `cat-mundo`) confirmed in the selected archive.
 
+**Every new POV-tied node needs an arc link, in the same direction, in addition to
+any structural category link.** The pattern is always
+`{ source: 'cat-orka'|'cat-varg'|'cat-elvar', target: 'new-id', label: 'incluye', type: 'arc' }`
+— confirm with `read-links --between cat-orka SOME-EXISTING-ID` on a comparable node
+rather than guessing. This applies to a plain character node too (e.g. `haga`,
+`skefil`, `vafri` each carry a `cat-orka → incluye →` link even though their own
+`group` is already `ORKA`), not only to `EVENTO`/`TRAMA` nodes. A new `EVENTO` or
+`TRAMA` additionally needs the structural link
+`{ source: 'cat-eventos'|'cat-tramas', target: 'new-id', label: 'incluye', type: 'arc' }`
+— both links use `incluye` and `type: 'arc'`, just a different source category.
+
 Write and review each link as a sentence: **source label → relationship label → target
 label**. For example, `Orka → imparte → La Lección de Escudo de Lif`, or the reverse
 `La Lección de Escudo de Lif → impartida por → Orka`. Reversing the endpoints requires

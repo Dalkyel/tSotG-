@@ -1,0 +1,2013 @@
+{
+  "book": 2,
+  "chapter": 36,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch36.S6wYv7/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. Starl añade manifestaciones nuevas, pero se registran en pasado-orka; el campo star de este perfil permanece sin ampliar desde el capítulo 10.",
+      "remaining": "Mujer enjaulada, sensibilidad, relatos de Skullsplitter y llamada."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Thorkel (†)» (Prueba de sangre y consecuencias en sangre-thorkel.).",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Breca» (Salida, recuperación, alcance de sus facultades y papel en el rito.).",
+      "remaining": "Salida, recuperación, alcance de sus facultades y papel en el rito."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Asgrim (†)» (Autores del ataque familiar.).",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Idrun (†)» (Autores del ataque familiar.).",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Harek» (Quién lo raptó, cómo llegó a la hueste y si sale de ella.).",
+      "remaining": "Quién lo raptó, cómo llegó a la hueste y si sale de ella."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Snaka» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Guðfalla (Caída de Dioses)» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Tragedia de Familia Asgrim» (Responsables y circunstancias del ataque.).",
+      "remaining": "Responsables y circunstancias del ataque."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Encuentro con el Fell-Wolf» (Origen de las heridas del Fell-Wolf.).",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Varg» (Amenaza de Myrk, además de Control sostenido y secreto, sensibilidad, padres, edad, vínculo y destino de Frøya, akáll, juramento y forja del seax.).",
+      "remaining": "Amenaza de Myrk, además de Control sostenido y secreto, sensibilidad, padres, edad, vínculo y destino de Frøya, akáll, juramento y forja del seax."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Snepil (†) / Kolskegg» (Identidad exacta entre los nombres y el liberto.).",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Einar Medio-Trol» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Akáll de Varg» (Varg aún debe encontrar a Brák. Destino de Frøya, rito y venganza.).",
+      "remaining": "Varg aún debe encontrar a Brák. Destino de Frøya, rito y venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Contenido Revelado de la Bolsa de Varg» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Orígenes y Recuerdos de Varg» (Control y secreto, sensibilidad, padres, edad y vínculo con Frøya.).",
+      "remaining": "Control y secreto, sensibilidad, padres, edad y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Virk (†)» (Alcance y autoría de los raptos.).",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Guðvarr» (Resultado de la confidencia, amistad y pesquisa, uso de pergaminos, detección de traición, extracción y causa del paso franco.).",
+      "remaining": "Resultado de la confidencia, amistad y pesquisa, uso de pergaminos, detección de traición, extracción y causa del paso franco."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Jarl Störr» (Plan político oculto y reacción a Elvar.).",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Nudillo de Dios (Fellur)» (Causa de la sensibilidad.).",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Expansión de Helka» (Alcance de la expansión y desenlace con Störr.).",
+      "remaining": "Alcance de la expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Robos de Ninos» (Seguridad, salida y procedencia de los demás grupos; circunstancias de Harek y autoría.).",
+      "remaining": "Seguridad, salida y procedencia de los demás grupos; circunstancias de Harek y autoría."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Frøya (†?)» (Paradero o muerte, vínculo sensible y linaje.).",
+      "remaining": "Paradero o muerte, vínculo sensible y linaje."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Leif Kolskeggson» (Reclamación de propiedad frente a la libertad de Varg.).",
+      "remaining": "Reclamación de propiedad frente a la libertad de Varg."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Elvar» (Rescate de Bjarn, represalia, duración del control y restantes pistas históricas.).",
+      "remaining": "Rescate de Bjarn, represalia, duración del control y restantes pistas históricas."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Grend» (Palabras y circunstancias del juramento, historia con Gytha y reacción a Ulfrir.).",
+      "remaining": "Palabras y circunstancias del juramento, historia con Gytha y reacción a Ulfrir."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Agnar (†)» (Causa de los presentimientos.).",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Kráka» (Colaboración efectiva y situación del blóð svarið.).",
+      "remaining": "Colaboración efectiva y situación del blóð svarið."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Biórr» (Responsable de los azotes, familia, represalia, linaje y decisiones futuras.).",
+      "remaining": "Responsable de los azotes, familia, represalia, linaje y decisiones futuras."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Berak Bjornasson» (Libertad futura en liberar-berak.).",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Asalto y Persecución en Iskalt» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Spert» (Mecanismo en percepcion-liberacion-lik-rifa.).",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Vesli» (Mecanismo del aviso y sueños.).",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Objeto Quemado de Iskalt: Graskinna» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Snakavik» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Pasado de Elvar» (Plan paterno separado en plan-oculto-storr.).",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Venta de Berak (pendiente)» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Ulfrir» (Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa.).",
+      "remaining": "Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 36. En Starl, el pulso junto a la costilla de Snaka se intensifica en un aullido de lobo al acercarse un drakkar de los Battle-Grim; nueva manifestación de la misma serie, sin causa confirmada.",
+      "remaining": "Mujer enjaulada, sensibilidad, relatos de Skullsplitter, llamada y la posible relación del aullido con Ulfrir (no confirmada por el texto)."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Principe Jaromir» (Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich.).",
+      "remaining": "Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Sulich» (Hechos, culpabilidad y resolución de sulich-crisis.).",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Crisis por Sulich» (Pruebas, culpabilidad y resolución.).",
+      "remaining": "Pruebas, culpabilidad y resolución."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Juramento de Varg al Bloodsworn (pendiente)» (Formalización del juramento de sangre.).",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Uspa» (Bjarn, libertad de Berak y alcance de la magia de Uspa.).",
+      "remaining": "Bjarn, libertad de Berak y alcance de la magia de Uspa."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Roca de Juramento de Islas de Escarcha» (Causalidad de piedra-gusanos.).",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿La Roca Atrajo a los Gusanos?» (Si la roca los atrajo y cómo.).",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Existencia Contemporánea de los Dragon-Born» (Referente de las palabras de Thorkel.).",
+      "remaining": "Referente de las palabras de Thorkel."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Froa (†)» (Autores y motivo del ataque al fresno.).",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Partida Familiar Truncada» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Sangre Lamida por la Esclava» (Sangre, detección y consecuencias.).",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Quién Mató a Froa?» (Autores, motivo y conexión con raptos.).",
+      "remaining": "Autores, motivo y conexión con raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Vengar a Virk y Mord» (Venganza por Virk y Mord y seguridad de Lif.).",
+      "remaining": "Venganza por Virk y Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Breca Quiere Aprender Espada» (Si recibirá la enseñanza pedida.).",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Partida de Liga (Bloodsworn)» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Astilla del Cuerno de Vackna» (Causa de la sensación junto a la viga.).",
+      "remaining": "Causa de la sensación junto a la viga."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Salida de Liga Pendiente» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Drekr» (Garras, papel de Breca y venganza.).",
+      "remaining": "Garras, papel de Breca y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "Libro 2, capítulo 36. Halja confirma en Starl que el rastro de los Raven-Feeders no rodea el lago, lo que corrobora parcialmente la ruta que dio Myrk sin confirmar la ubicación de Breca.",
+      "remaining": "Ruta original, relación con la pista occidental, recuperación y rescate o fuga."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Aslog» (Circunstancias de su muerte.).",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Skullsplitter (Partecráneos)» (Reconciliar parentesco y sucesión del antiguo jefe.).",
+      "remaining": "Reconciliar parentesco y sucesión del antiguo jefe."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Emboscada de Jaromir en el Muelle de Liga» (La reclamación sigue en sulich-crisis.).",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Llegada de la Flota de Helka a Liga» (Motivos completos respecto de Logur y crisis.).",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Drekr, los Seaxes y las Garras sin Explicar» (Forja, garras y ajuste de cuentas.).",
+      "remaining": "Forja, garras y ajuste de cuentas."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Entierro de Thorkel y Juramento de Venganza de Orka» (Represalia en venganza-seaxes.).",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Skalk» (Amenaza del norte, manuscritos, Vol y represalia de Glornir.).",
+      "remaining": "Amenaza del norte, manuscritos, Vol y represalia de Glornir."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Encargo de Helka y Partida de los Bloodsworn hacia el Norte» (Amenaza-norte-helka sigue parcial.).",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué Amenaza al Pueblo de Helka en el Norte?» (Responsables, víctimas y alcance.).",
+      "remaining": "Responsables, víctimas y alcance."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Desembarco de la Reina Helka en Liga» (Crisis continúa separada.).",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Silrið» (Plan de Störr para Elvar.).",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Hrung» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Llegada a Snakavik y Venta de Berak a Jarl Störr» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Revelación de Elvar como Hija de Jarl Störr» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Vafri (†?)» (Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia.).",
+      "remaining": "Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Infiltración en Fellur y Rescate de Mord y Lif» (Consecuencias en fuga-orka-fellur.).",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?» (Reacción al relato, persecución y consecuencias legales.).",
+      "remaining": "Reacción al relato, persecución y consecuencias legales."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Thorun» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Broðir» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Gytha» (Historia compartida y obligaciones.).",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Oferta de Reconciliación de Jarl Störr a Elvar» (Plan oculto registrado aparte.).",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Elvar Rechaza la Oferta de Störr» (Plan-oculto-storr.).",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Motivo de la Huida de Uspa: la Persecución de Ilska» (Rescate de Bjarn separado.).",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Fuga por el Fiordo y Pacto con Mord y Lif» (Venganza, formación y consecuencias en sus tramas.).",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Aprendizaje de Armas de Mord y Lif» (Preparación para vencer a Guðvarr.).",
+      "remaining": "Preparación para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Consulta de Elvar a Hrung» (Intención real de Störr.).",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Raid de los Raven-Feeders a la Taberna» (Rescate-bjarn y venganza-ilska.).",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Secreto de Uspa y el Precio del Rescate» (Rescate-bjarn.).",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Recuperar a Bjarn de los Raven-Feeders» (Recuperación, rescate y cumplimiento del juramento.).",
+      "remaining": "Recuperación, rescate y cumplimiento del juramento."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Conoce Uspa el Camino a Oskutreð?» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Feudo de Agnar con Ilska» (Desenlace del feudo colectivo.).",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Despedida Marítima de Thrud (pendiente)» (Cumplimiento del rito.).",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Combate contra el Näcken del Río» (Destino del Näcken del río y vínculo con la amenaza del norte.).",
+      "remaining": "Destino del Näcken del río y vínculo con la amenaza del norte."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Puente Isbrún» (Constructor, resistencia al calor y autor de la antigua huella.).",
+      "remaining": "Constructor, resistencia al calor y autor de la antigua huella."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Blóð Svarið de los Terrores de la Batalla» (Cumplimiento, alcance de la sanción y situación de Kráka.).",
+      "remaining": "Cumplimiento, alcance de la sanción y situación de Kráka."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué Plan Oculta Störr para Elvar?» (Plan paterno y reacción a decisión.).",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Granja Abandonada del Slågen» (Destino de sus habitantes.).",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Desembarco en el Slågen y Marcha a las Boneback» (Amenaza-norte-helka.).",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Travesía y Entrenamiento Hacia Darl» (Consecuencias y formación renovada en otras tramas.).",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Llegada a Darl y Desembarco de Helka» (Rescate-breca.).",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada a Starl no aporta un hecho sobre la identidad o libertad del guerrero rubio de Snakavik.",
+      "remaining": "Identidad, linaje y libertad del guerrero."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Drengr Muerto (taberna)» (Conocimiento o autorización de Helka.).",
+      "remaining": "Conocimiento o autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿A Quién Esperan Vol y Glornir?» (Identidad exacta, retraso y reencuentro.).",
+      "remaining": "Identidad exacta, retraso y reencuentro."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Colgante de Espada (Breca)» (Rescate, recuperación y transmisión de la pista a Orka.).",
+      "remaining": "Rescate, recuperación y transmisión de la pista a Orka."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Combate en El Drengr Muerto» (Resto de preguntas en sus tramas.).",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Varg Rechaza el Trato de Skalk» (Akall continúa aparte.).",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Hallazgo de los 24 Cuerpos en las Boneback» (Autoría y mecanismo de matanza.).",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Skefil (†)» (Significado de la marca.).",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué Sabe Helka de la Operación de Hakon?» (Acuerdos y propósito de Hakon, alcance de las visitas y conocimiento o autorización de Helka.).",
+      "remaining": "Acuerdos y propósito de Hakon, alcance de las visitas y conocimiento o autorización de Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Gytha y Grend (Historia no Resuelta)» (Historia afectiva y reencuentro.).",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Quién Mató a los Alces del Norte?» (Autores, número y amenaza próxima.).",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Apertura del Puente Isbrún por Uspa» (Autor de huella y puente.).",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Ayuda de Torvik Queda Truncada» (Objetivo de Varg en akall.).",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Espada de Hueso» (Mecanismo de poder y sensibilidad de Varg.).",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Varg Sobrevive a la Espada de Hueso» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Las Cicatrices de Látigo de Biórr» (Quién, cuándo/por qué, familia y represalia.).",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué Traerán los Tesoros de Oskutreð?» (Venta, usos y consecuencias posteriores del botín.).",
+      "remaining": "Venta, usos y consecuencias posteriores del botín."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Rapto de Vol y el Destino de Varg» (Ubicación y liberación de Vol, suturas, cambio del collar, salida y reunión.).",
+      "remaining": "Ubicación y liberación de Vol, suturas, cambio del collar, salida y reunión."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Cámara de Rotta (bajo Frang's Falls)» (Ocupantes, salida de Rotta y destino de Breca.).",
+      "remaining": "Ocupantes, salida de Rotta y destino de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Altar de Lik-Rifa en el Pinar camino al Grimholt» (Autoría y conexiones del altar.).",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Quién Adora a Lik-Rifa junto al Grimholt?» (Autores de altares y relación con la red de Drekr.).",
+      "remaining": "Autores de altares y relación con la red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Revelación: los Bloodsworn son Tainted» (Control en pasado-varg.).",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Invitación de Glornir y Partida Anunciada para Rescatar a Vol» (Juramento y rescate en tramas respectivas.).",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Vörn Askasdottir (†)» (Portador de Orna y genealogía exacta de Biórr.).",
+      "remaining": "Portador de Orna y genealogía exacta de Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Aska» (Circunstancias de muerte.).",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Encuentro con Vörn en Oskutreð» (Consecuencias en destino-tesoros-oskutred.).",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Llegada de Ilska a la Llanura de Batalla» (Venganza-ilska.).",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Emboscada en el Bosque del Grimholt» (Identidades restantes en trama.).",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Quiénes son los Captores del Grimholt?» (Mujer del sabueso y composición restante de captores.).",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Holmganga: Agnar vs Skrið» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Revelación de los Dragon-Born y los Niños Cautivos» (Propósito y destinos en ninos-robados/rescate.).",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Traición de Biórr» (Cicatrices/genealogía quedan aparte.).",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Motivo de la Traición de Biórr Revelado» (Cicatrices aparte.).",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Masacre en la Torre del Grimholt» (Papel de Hakon y composición de los captores en tramas separadas.).",
+      "remaining": "Papel de Hakon y composición de los captores en tramas separadas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Muerte Confirmada de Mord en el Grimholt» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Batalla de los Muros de Escudos en Oskutreð» (Rescate-bjarn y venganza-ilska.).",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Liberación de Lik-Rifa» (Niños y conocimiento de Helka aparte.).",
+      "remaining": "Niños y conocimiento de Helka aparte."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Uspa Sobrevive a la Apertura de Oskutreð» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Muerte de Vörn Confirmada» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. El rumor de una bestia alada oído en Starl (véase percepcion-liberacion-lik-rifa) no confirma ni descarta la cita occidental ni la llegada a Nastrandir.",
+      "remaining": "Ejecución y propósito de la cita occidental; Nastrandir, recuperación, reunión de fieles y enfrentamiento con Ulfrir."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Convergencia en el Grimholt» (Preguntas conservadas en sus tramas.).",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Sepultura de Mord Cumplida» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 36. Un rumor de viajeros sobre una bestia alada vista al norte llega hasta Starl y resuena con los sueños privados de Orka; es evidencia de alcance público del rumor, no un mecanismo nuevo ni un avistamiento confirmado de Lik-Rifa.",
+      "remaining": "Mecanismo y alcance del aviso y los sueños; origen y veracidad del rumor oído en Starl."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Elvar Jura Vengar a Agnar» (Encuentro y desenlace de la represalia.).",
+      "remaining": "Encuentro y desenlace de la represalia."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Orv el Sigiloso (Orv the Sneak)» (Poder del arco frente a flechas.).",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Seaxes del Tainted-Garras» (Forja y relación de los seaxes.).",
+      "remaining": "Forja y relación de los seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Vengar a Torvik» (Si habrá represalia por Torvik, contra quién y por quién.).",
+      "remaining": "Si habrá represalia por Torvik, contra quién y por quién."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Libro Negro de Vergelmir» (Contenido, cubierta y protecciones.).",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Ataque de las Criaturas de Lik-Rifa en Vergelmir» (Detalles no aclarados conservados como límites.).",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Elvar y Skuld contra Lik-Rifa» (Recuperación, cooperación sostenida, encuentro y victoria.).",
+      "remaining": "Recuperación, cooperación sostenida, encuentro y victoria."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué Oculta el Libro Negro de Vergelmir?» (Alcance, mecanismos y cubierta.).",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. Sigue cautiva de Orka en el viaje a Starl; no se muestra la entrega del encargo de Rotta, su liberación ni el duelo prometido.",
+      "remaining": "Entrega del encargo, liberación, duelo y represalia."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Encargo de Myrk en la Cámara de Rotta» (Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand.).",
+      "remaining": "Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Resucitar y Someter a Ulfrir» (Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa.).",
+      "remaining": "Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Intentar Liberar a Berak de Störr» (Intento prometido y libertad.).",
+      "remaining": "Intento prometido y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Lobo que Llama a Orka» (Emisor, origen y atracción.).",
+      "remaining": "Emisor, origen y atracción."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Proteger a Lif ante el Secreto Bloodsworn» (Qué entendió Lif y consecuencias para el secreto.).",
+      "remaining": "Qué entendió Lif y consecuencias para el secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Llamada en el Sueño de Varg» (Identidad, origen y significado de la llamada.).",
+      "remaining": "Identidad, origen y significado de la llamada."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Terna» (Destino de Frøya.).",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Brimil (†)» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Interrogatorio en la Aldea de Njal» (Frøya y Brimil en sus tramas.).",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. El nuevo avistamiento del culto en Starl se registra en culto-dragon; no reabre el desenlace de esta emboscada ni prueba un control autónomo del lobo de Varg.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué le Perturba a Svik desde el Grimholt?» (Causa del desasosiego.).",
+      "remaining": "Causa del desasosiego."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "La Guardia del Isbrún y el Regreso de los Tennúr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada a Starl no reabre el desenlace registrado de «Los Tennúr Deben Guardar el Isbrún».",
+      "remaining": "none"
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Rastro de Breca en la Cámara de Rotta» (Trayecto desde la cámara, tatuajes y destino de Rotta.).",
+      "remaining": "Trayecto desde la cámara, tatuajes y destino de Rotta."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué Significan los Tatuajes de Dragón?» (Significado, portadores y universalidad.).",
+      "remaining": "Significado, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Cómo Salió Rotta de sus Cadenas?» (Ruptura del encierro y destino posterior.).",
+      "remaining": "Ruptura del encierro y destino posterior."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Regreso de los Supervivientes del Grimholt a Darl» (Identidades, autores y afiliación efectiva.).",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Informe de Skalk y la Restitución de Orna» (Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe.).",
+      "remaining": "Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "Elvar Sucede a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. El avistamiento de un drakkar de los Battle-Grim en Starl no reabre el desenlace registrado de «Elvar Sucede a Agnar»; no se identifica a la tripulación.",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Enfrenta a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Varg se Enfrenta a Brimil» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "audiencia-gudvarr-helka",
+      "label": "La Recompensa y el Encargo de Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Recompensa y el Encargo de Guðvarr» (Contenido exacto de la petición anterior.).",
+      "remaining": "Contenido exacto de la petición anterior."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "label": "El Encargo de Guðvarr sobre Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Encargo de Guðvarr sobre Hakon» (Regreso de Hakon, amistad, hallazgos y resultado.).",
+      "remaining": "Regreso de Hakon, amistad, hallazgos y resultado."
+    },
+    {
+      "id": "aprendizaje-estrid-frek",
+      "label": "La Petición de Instrucción de Estrid",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Petición de Instrucción de Estrid» (Si recibe la instrucción y qué aprende.).",
+      "remaining": "Si recibe la instrucción y qué aprende."
+    },
+    {
+      "id": "venganza-halja",
+      "label": "Halja Quiere Ajustar Cuentas por Vali",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. Halja acompaña a Orka en Starl pero no identifica a quienes ordenaron el ataque que mató a Vali.",
+      "remaining": "Quiénes dieron la orden y si Halja logra alcanzarlos."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "label": "¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. El capítulo no aporta hechos sobre el papel ritual de Breca ni sobre la muerte de Thorkel.",
+      "remaining": "Función ritual de Breca y conexión del asesinato de Thorkel."
+    },
+    {
+      "id": "kuru",
+      "label": "Kuru",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Kuru» (Supervivencia de Kuru.).",
+      "remaining": "Supervivencia de Kuru."
+    },
+    {
+      "id": "implantacion-hyrndur",
+      "label": "El Espía dentro del Espía",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Espía dentro del Espía» (Identidad del halcón de la empalizada; vigilancia autónoma en vigilancia-hyrndur-gudvarr.).",
+      "remaining": "Identidad del halcón de la empalizada; vigilancia autónoma en vigilancia-hyrndur-gudvarr."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "label": "El Control del Hyrndur sobre Guðvarr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Control del Hyrndur sobre Guðvarr» (Posición exacta, vigilancia autónoma, extracción, supervivencia y posible ayuda de Sigrún.).",
+      "remaining": "Posición exacta, vigilancia autónoma, extracción, supervivencia y posible ayuda de Sigrún."
+    },
+    {
+      "id": "origen-estallido-darl",
+      "label": "¿Qué Provocó el Estallido cerca de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Qué Provocó el Estallido cerca de la Torre?» (Causa del estallido concreto.).",
+      "remaining": "Causa del estallido concreto."
+    },
+    {
+      "id": "destino-huesos-hraeg",
+      "label": "¿Llegarán los Huesos de Hraeg al Padre de Jaromir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Llegarán los Huesos de Hraeg al Padre de Jaromir?» (Entrega, recompensa e identificación independiente.).",
+      "remaining": "Entrega, recompensa e identificación independiente."
+    },
+    {
+      "id": "destino-grieta-darl",
+      "label": "Supervivencia de Skalk, Yrsa y Sturla",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Supervivencia de Skalk, Yrsa y Sturla» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "cura-taras",
+      "label": "La Promesa de Iva a Taras",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Promesa de Iva a Taras» (Si Iva lo cura y cómo.).",
+      "remaining": "Si Iva lo cura y cómo."
+    },
+    {
+      "id": "umbral-torre-darl",
+      "label": "¿Por Qué Cede el Umbral de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Por Qué Cede el Umbral de la Torre?» (Si el hechizo se interrumpió con la caída o solo actuaba al entrar.).",
+      "remaining": "Si el hechizo se interrumpió con la caída o solo actuaba al entrar."
+    },
+    {
+      "id": "venganza-jokul",
+      "label": "Vengar a Jökul",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Vengar a Jökul» (Desenlace de la venganza.).",
+      "remaining": "Desenlace de la venganza."
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "label": "La Caza de Jaromir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Caza de Jaromir» (Intercepción, captura o muerte, entrega y saldo.).",
+      "remaining": "Intercepción, captura o muerte, entrega y saldo."
+    },
+    {
+      "id": "salida-darl-hakon",
+      "label": "La Liberación Pendiente de Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Liberación Pendiente de Hakon» (Llegada a Liga, liberación y regreso indemne.).",
+      "remaining": "Llegada a Liga, liberación y regreso indemne."
+    },
+    {
+      "id": "venganza-glornir-skalk",
+      "label": "La Amenaza de Glornir contra Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «La Amenaza de Glornir contra Skalk» (Si Glornir regresa y cumple la amenaza.).",
+      "remaining": "Si Glornir regresa y cumple la amenaza."
+    },
+    {
+      "id": "sepultura-huld",
+      "label": "El Túmulo Ordenado para Huld",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Túmulo Ordenado para Huld» (Construcción del túmulo.).",
+      "remaining": "Construcción del túmulo."
+    },
+    {
+      "id": "retorno-wave-jarl",
+      "label": "El Regreso al Wave-Jarl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «El Regreso al Wave-Jarl» (none).",
+      "remaining": "none"
+    },
+    {
+      "id": "brak-trolls-bane",
+      "label": "Brák Trolls-Bane",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «Brák Trolls-Bane» (Identidad retrospectiva, destino de Frøya y origen de los seaxes.).",
+      "remaining": "Identidad retrospectiva, destino de Frøya y origen de los seaxes."
+    },
+    {
+      "id": "holmganga-orka-myrk",
+      "label": "La Holmganga Prometida entre Orka y Myrk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. Myrk permanece atada y amordazada la mayor parte del capítulo; no se encuentra a Breca ni se modifica el acuerdo del duelo.",
+      "remaining": "Encontrar a Breca, liberar a Myrk y celebrar el duelo."
+    },
+    {
+      "id": "venganza-myrk-varg",
+      "label": "La Amenaza de Myrk contra Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. Myrk no vuelve a mencionar su amenaza contra Varg en este capítulo.",
+      "remaining": "Si Myrk lo alcanza y cumple su amenaza."
+    },
+    {
+      "id": "destino-testigos-torre",
+      "label": "¿Dónde Están los Testigos Presos de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Dónde Están los Testigos Presos de la Torre?» (Paradero y destino de los testigos retenidos.).",
+      "remaining": "Paradero y destino de los testigos retenidos."
+    },
+    {
+      "id": "promesa-ulfrir-battle-grim",
+      "label": "La Promesa de Ulfrir a los Battle-Grim",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. El avistamiento del drakkar en Starl no muestra si Ulfrir, a bordo o no, mantiene su promesa; la tripulación no se identifica.",
+      "remaining": "Si cumple la promesa."
+    },
+    {
+      "id": "secuelas-seidr-ninos",
+      "label": "¿Se Recuperarán los Niños del Sometimiento?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "Libro 2, capítulo 36. La llegada de Orka a Starl, la confirmación del rastro, el mercado y el avistamiento de los Battle-Grim no aportan un hecho sobre la cuestión de «¿Se Recuperarán los Niños del Sometimiento?» (Si se recuperan del todo y qué causa los síntomas.).",
+      "remaining": "Si se recuperan del todo y qué causa los síntomas."
+    },
+    {
+      "id": "saeunn",
+      "label": "Sæunn",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 36. PRIMERA EVIDENCIA. Orka la compra como thrall Tainted a Haga de Starl tras un requisito susurrado que el capítulo no revela.",
+      "remaining": "Qué papel cumplirá para Orka y qué pasará con su collar."
+    },
+    {
+      "id": "avistamiento-battle-grim-starl",
+      "label": "Orka Avista un Drakkar de los Battle-Grim en Starl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 36. PRIMERA EVIDENCIA. Orka y Halja ven entrar en Starl un drakkar con los escudos de los Battle-Grim; el capítulo termina antes de cualquier encuentro.",
+      "remaining": "Si se identifica a la tripulación y si se produce un encuentro."
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "label": "¿Se Cruzarán los Caminos de Orka y los Battle-Grim en Starl?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 36. PRIMERA EVIDENCIA. El avistamiento sitúa a Orka en el mismo puerto donde atraca un drakkar de los Battle-Grim; a nivel de lector, la compañía de Elvar dejó el Wave-Jarl amarrado cerca del Lago Horndal en el capítulo 34.",
+      "remaining": "Si Orka reconocerá a la compañía y si se produce un encuentro con Elvar."
+    },
+    {
+      "id": "compra-tainted-starl",
+      "label": "¿Para Qué Compra Orka una Thrall Tainted en Starl?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 36. PRIMERA EVIDENCIA. Orka compra una thrall Tainted a Haga de Starl tras susurrarle un requisito no revelado, pese a la objeción de Halja y su propia incomodidad.",
+      "remaining": "El requisito susurrado y el papel que Orka espera que cumpla Sæunn."
+    },
+    {
+      "id": "sangre-caballo-myrk",
+      "label": "¿Para Qué Guarda Orka la Sangre del Caballo de Myrk?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "Libro 2, capítulo 36. PRIMERA EVIDENCIA. Orka corta al caballo de Myrk y guarda la sangre en un lino sin explicar el propósito.",
+      "remaining": "Si se trata de un uso Seiðr u otro fin, y si vuelve a emplear la tela guardada."
+    }
+  ]
+}
