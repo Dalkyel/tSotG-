@@ -42,7 +42,8 @@
     38,
     39,
     40,
-    41
+    41,
+    42
   ],
   "chapters": [
     {
@@ -705,15 +706,33 @@
         }
       },
       "log": "Chapter 41: Guðvarr — reviewed the complete supplied source, replaced the private confidencia, recorded the announced Orlyg meeting and Hakon’s return, added Illur with attributed motives, advanced political/coercion/investigation evidence and resolved the return guarantee. All 203 clue candidates assessed; ownership, event and thread reviews passed with preserved history and canonical summary mentions. Required reprocessing regression suite passed. Browser appearance remains for manual confirmation under the skill restriction."
+    },
+    {
+      "chapter": 42,
+      "source": "book2/chapter 42.html",
+      "sourceHash": "4730f7e413653eecc1d9833e5b2a093eea2244c055615edb14d62479a32535d1",
+      "run": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch42.ZXHnr6",
+      "reviews": {
+        "directory": "book2/rebuild/reviews/chapter-42",
+        "hashes": {
+          "ownership-review.md": "1b4515bfb7568fbc3a2865a69518cff1fef131e8637edd0e5b11beb83b63e39d",
+          "event-review.md": "dc2ad9a0889ecf0ba7e59a559296ecc59b6a63d5d36166b81cf418274231f28d",
+          "thread-review.md": "65b842f81b94244fe84d70512c326f7095f24babbbcfba1d5a28b0ab59598fd9",
+          "thread-checklist.json": "ef423723c14ed37599f6be570adb293d1513c40cb3f1cec16355a6a8720d6a83",
+          "completion.json": "38b6c302313cf418e8372cf6e0c2991bc64d2c80ece2da3bc6e37f47ef3f81c7",
+          "chapter.json": "f328481eb318dcdf9dc95b37ae28502c4bf2c2d72ce6087fae8a1fff3aa8b0d0"
+        }
+      },
+      "log": "Chapter 42: Biórr — reviewed the full supplied source; added the interior and Rotta reunion event, six accumulated profile/thread revisions, twelve links and the Spanish summary. Confirmed Rotta alive while preserving the unexplained escape and partial campaign objectives. All 203 clue candidates assessed; ownership, event coverage, thread lifecycle, canonical mentions and preservation verified. Required regression tests passed. Browser visual verification remains with the user. An audited reconciliation corrects Sterkur’s misplaced legacy section from 42 to its source-marked Chapter 43 without changing any node fields or importing that future introduction into Chapter 42; new reassignment regression passed."
     }
   ],
   "liveHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
     "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
     "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
-    "book2/nodes.js": "9ed753dd935fe8e624166007161f1f0899d284f33e52cfde8c4ccead1c95a5da",
-    "book2/links.js": "2513106e9185c5ff74f54c67313118b0ffbd0620fb8a25001e0629a09a650fa1",
-    "book2/summaries.js": "9652c16f58f88074d764eee98b00d6d9bc8c448991af61a0e4b651a00433dab2"
+    "book2/nodes.js": "8ef4ce5f2c7cac4d176a77573ac944be864e538ba412ca54bebe241c1fd7714b",
+    "book2/links.js": "1d9fc299d9c4168cbd1702ea27f79d8f0273240a52a1b911d62a685020da0a38",
+    "book2/summaries.js": "56e4c67b840ebade3fb017981a3a18cafe7561027b95f4dc4be26945d0812cbb"
   },
   "referenceHashes": {
     "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
@@ -724,13 +743,13 @@
     "book2/summaries.js": "294f705aa57a892276de21cc66c18a3416650f3c9e5671a434238378907f11ca"
   },
   "reviewedHashes": {
-    "nodes": "70bd0dd4daa67ab259797d49a7814065780e75c00b5d6bbf60f0b05595eea92f",
-    "links": "73d1baa654de199b2d609f913a0973148e5fb1093181be81fe102df7ee36310b",
-    "summaries": "8551c20d2b1e8758e53ed408a0d0d3225ce8da13e2c3034c3cb70a615ff48700"
+    "nodes": "944c10c19080730494c8ac892793126ec9c9c74f2f2739986298e554b6066ec1",
+    "links": "ee1a888b8cb414a913dcabfb54975e1c0501f427792934e8d5ee49c20105c89e",
+    "summaries": "e733a6bae918459d60dcc4f3bf5b2af6d906a57d6e8e1305129f7c0885bea528"
   },
   "visibility": "keep-all-chapters",
   "reconciledHashes": {
-    "nodes": "ccb0c4c7cdfe28a3a6bd0c2c25c9b25f6d23a8ed0e2cf172a8aaa82759959ebd",
+    "nodes": "0d1e6a2cca2de4a9c1d9d7d6ffd01a51c5150cdbd3a4f4d7a79bd481efb46703",
     "links": "d930de384a9e49097cecbf93b1e72e4e57f094c53bbc98d6d6dbcda66cc0b604"
   },
   "reconciliations": [
@@ -749,6 +768,22 @@
         "book2/nodes.js": "b1b5f80fb2daba9f250676a60584f09a69b7a61726a671fd6fd16529f49eba1c",
         "book2/links.js": "4bbfa4d314fdf419df3dd85f4b79de194d929b11cc012177e4870ec118ea38b8",
         "book2/summaries.js": "8711e763d7e33ef38c69c2f18ac9b47bf0d110fa799ab77ecf04cf742b2c0fcf"
+      }
+    },
+    {
+      "file": "reconciliations/2.json",
+      "log": "Chapter 42 publication exposed Sterkur’s Chapter 43 introduction under the Chapter 42 section header. Correct only its section assignment to 43, supported by its own source marker and both Chapter 43 relationships; preserve every node field, order, all other chapter assignments, links, summaries, immutable source and active Chapter 42 context.",
+      "chapters": [
+        42,
+        43
+      ],
+      "liveHashes": {
+        "book1/nodes.js": "45c953a39681429efa5b225104bd59a4eb87fb63299b0af839d938a7cf0a4592",
+        "book1/links.js": "4eb7a62ec45f0ab94f3e7426e5bacafd350b7830aef35df732ba55ebfb75f980",
+        "book1/summaries.js": "d8f9fba04eac885478e836eb9cbdc00274f5f42b51e3f094d2f3e81812b1be21",
+        "book2/nodes.js": "c25d24920ea49522afbffb038c83f0ac189c474d3c8e25c89f6a3047a9162da8",
+        "book2/links.js": "2513106e9185c5ff74f54c67313118b0ffbd0620fb8a25001e0629a09a650fa1",
+        "book2/summaries.js": "9652c16f58f88074d764eee98b00d6d9bc8c448991af61a0e4b651a00433dab2"
       }
     }
   ]

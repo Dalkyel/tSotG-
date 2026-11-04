@@ -340,7 +340,8 @@ canonical ID, resume the chapter without another reconciliation.
 
 When the hash guard reports an external edit, preserve the live files and active run.
 Review the actual differences before accepting them. `reconcile-later` supports
-replacements of existing later Book Two node/link records; it rejects front matter,
+replacements and explicitly audited chapter reassignments of existing later Book Two
+node/link records; it rejects front matter,
 reviewed chapters, added/deleted records, changed Book One files or summaries, omitted
 changes and intervening drift. Other edit kinds still require a separate repair.
 Do not overwrite the immutable reference or hand-edit hashes.
@@ -357,6 +358,25 @@ records and review every changed field, including canonical-id endpoint repairs.
 ```sh
 node .claude/skills/add-chapter/scripts/reprocess.cjs reconcile-later RUN/reconciliation.json
 ```
+
+For an incorrect section assignment, a change may also supply `afterChapter`.
+Both chapters must be unreviewed, and the destination must have an existing summary.
+Without this explicit field, any chapter move still fails. Preserve record order and
+all fields for an assignment-only repair (`before` and `after` are then identical).
+Prepare the corresponding live section-comment correction, record its actual hashes,
+and reconcile it with the same command; never edit reference files or progress hashes
+by hand. Check all parsed assignments so a moved comment does not move neighboring
+records accidentally. The audit records both chapters.
+
+If publication reports a missing later endpoint, inspect its reference record's
+section chapter and its source markers before adding a node to the current draft.
+Book Two Ch42 exposed `sterkur`: its description starts with Ch43 evidence and both
+relationships belong to Ch43, but its section was Ch42. Reprocessing Ch42 correctly
+removed the misplaced introduction, breaking `leif → sterkur`. An audited
+`chapter: 42, afterChapter: 43` correction preserved the future record without
+importing it into Ch42. Section comments remain the parser's authority; this repair
+does not make description markers override comments automatically. Use source
+evidence to settle ambiguous ownership instead of guessing from a chapter reference.
 
 The command verifies every before/after object and all untouched records, reproduces
 the live archive from the proposed corrections, and validates endpoints and summary

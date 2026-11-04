@@ -1,0 +1,130 @@
+{
+  "header": "// ── LIBRO 2, CAPÍTULO 42 — BIÓRR ──",
+  "nodes": [
+    {
+      "id": "biorr",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 42: Entra con Fain y Storolf pese a la inquietud que le provocan las serpientes de piedra. La inmensidad del salón lo marea. Al seguir a Lik-Rifa hacia el fondo se prepara con escudo y lanza y presencia el encuentro con Rotta; véase revelacion-rotta-vivo.",
+      "previousState": "Presencia el interior de Nastrandir y el encuentro con Rotta."
+    },
+    {
+      "id": "nastrandir",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 42: El interior contiene un salón con capacidad aparente para una veintena de dragones, pilares tallados con serpientes, braseros enormes y entradas de luz por grietas altas. Las serpientes de granito que rodean el acceso se mueven; también lo hacen las del trono de piedra. Mesas y bancos rodean hogares inicialmente llenos de ceniza. Túneles y cámaras lo conectan con un embarcadero interior de aguas heladas, donde hay dos drakkars de proa serpentina y varias snekkes. Otra cámara, menor pero suficiente para un dragón adulto, contiene hogares encendidos y mesas dispuestas para un banquete.",
+      "previousState": "Añade arquitectura, serpientes móviles, embarcadero y cámara del banquete."
+    },
+    {
+      "id": "likrafa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 42: De nuevo en forma humana, enciende los braseros con palabras y ocupa su trono de serpientes móviles. Ofrece protección y descanso en su hogar para recuperarse y planear, sin que esa seguridad quede demostrada. Su reacción ante una serpiente del trono, la investigación y el reconocimiento de Rotta se narran en revelacion-rotta-vivo.",
+      "previousState": "Recibe a la hueste en el interior y reconoce a Rotta."
+    },
+    {
+      "id": "rotta",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 42: Se presenta vivo en Nastrandir ante Lik-Rifa y Biórr. Tiene forma humana, excepcionalmente alto y delgado, cabello castaño trenzado sujeto con un alfiler de plata, barba corta y dientes que sobresalen de la boca. Saluda a Lik-Rifa como hermana y afirma que ha cuidado el lugar durante su ausencia; véase revelacion-rotta-vivo. No explica cómo salió de sus cadenas ni cuándo llegó.",
+      "previousState": "Confirma supervivencia y ubicación actuales; el escape sigue sin explicar."
+    },
+    {
+      "id": "destino-rotta",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 42: ESTADO: PARCIAL. revelacion-rotta-vivo confirma al lector que Rotta vive y está en Nastrandir, donde habla con Lik-Rifa. Quedan pendientes cómo se rompió el encierro y qué ocurrió entre su salida y este encuentro. Orka y Revna no presencian esta confirmación.",
+      "previousState": "Resuelve supervivencia y paradero inmediato, no el mecanismo de escape.",
+      "type": "Trama — Escape sin explicar; supervivencia confirmada"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "mode": "update",
+      "descAppend": "LIBRO 2, CAPÍTULO 42: ESTADO: PARCIAL. En revelacion-rotta-vivo recibe a la hueste dentro de su hogar, ofrece descanso y protección y anuncia que recuperarán fuerzas y planearán. El encuentro con Rotta es observado; no demuestra recuperación completa, seguridad efectiva, entrega de tesoros, reunión de todos sus fieles ni el desenlace con Ulfrir. Sigue sin explicarse la cita occidental.",
+      "previousState": "Añade refugio ofrecido y encuentro con Rotta; los planes siguen pendientes."
+    },
+    {
+      "id": "revelacion-rotta-vivo",
+      "mode": "new",
+      "label": "Rotta Vivo en Nastrandir",
+      "group": "EVENTO",
+      "type": "Evento — Reencuentro divino",
+      "desc": "LIBRO 2, CAPÍTULO 42: Tras entrar en Nastrandir con la hueste, Lik-Rifa, ya en forma humana, ilumina el gran salón y se sienta en el trono de serpientes de piedra móviles. Ofrece descanso, protección y recuperación para planear el futuro. Una serpiente se acerca a su oído; ella escucha y declara furiosa que alguien ha estado allí. Guía a Ilska, Drekr, los Raven-Feeders y Biórr por cámaras y túneles, con tennúr sobrevolándolos. Biórr se arma. Pasan junto al embarcadero y Lik-Rifa abre violentamente unas puertas con una palabra. Encuentran un banquete preparado, unas veinte personas atendiendo la comida y músicos que callan ante ella. Rotta se levanta sonriendo, abre los brazos y la saluda como hermana. Lik-Rifa pronuncia su nombre; él dice que ha cuidado el lugar durante su ausencia. El capítulo termina sin explicar su escape, la preparación del banquete ni la respuesta posterior de Lik-Rifa.",
+      "star": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "cat-eventos",
+      "target": "revelacion-rotta-vivo",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "cat-elvar",
+      "target": "revelacion-rotta-vivo",
+      "label": "incluye",
+      "type": "arc"
+    },
+    {
+      "source": "revelacion-rotta-vivo",
+      "target": "nastrandir",
+      "label": "ocurre en",
+      "type": "geo"
+    },
+    {
+      "source": "likrafa",
+      "target": "revelacion-rotta-vivo",
+      "label": "descubre a su hermano en",
+      "type": "event"
+    },
+    {
+      "source": "rotta",
+      "target": "revelacion-rotta-vivo",
+      "label": "recibe a su hermana en",
+      "type": "event"
+    },
+    {
+      "source": "biorr",
+      "target": "revelacion-rotta-vivo",
+      "label": "presencia",
+      "type": "event"
+    },
+    {
+      "source": "ilska",
+      "target": "revelacion-rotta-vivo",
+      "label": "presencia",
+      "type": "event"
+    },
+    {
+      "source": "drekr",
+      "target": "revelacion-rotta-vivo",
+      "label": "presencia",
+      "type": "event"
+    },
+    {
+      "source": "raven-feeders",
+      "target": "revelacion-rotta-vivo",
+      "label": "presencian",
+      "type": "event"
+    },
+    {
+      "source": "destino-rotta",
+      "target": "revelacion-rotta-vivo",
+      "label": "confirma supervivencia y paradero mediante",
+      "type": "trama"
+    },
+    {
+      "source": "rumbo-lik-rifa",
+      "target": "revelacion-rotta-vivo",
+      "label": "avanza con",
+      "type": "trama"
+    },
+    {
+      "source": "llegada-nastrandir",
+      "target": "revelacion-rotta-vivo",
+      "label": "continúa dentro del salón con",
+      "type": "event"
+    }
+  ],
+  "summary": {
+    "chapter": 42,
+    "title": "Capítulo 42 — Biórr",
+    "summary": "<strong>Biórr</strong> entra en <strong>Nastrandir</strong> junto a <strong>Red Fain</strong> y <strong>Storolf Wartooth</strong>, inquieto ante las enormes serpientes de granito que se retuercen alrededor del acceso. En forma humana, <strong>Lik-Rifa</strong> enciende los braseros de un salón de dimensiones colosales y ocupa un trono cuyas serpientes también se mueven. Da la bienvenida a <strong>Ilska Raven-Feeder</strong>, <strong>Drekr</strong> y los <strong>Raven-Feeders</strong>: promete protección y propone descansar, recuperar fuerzas y planear el futuro.<br><br>Una serpiente del trono se acerca a su oído. Lik-Rifa escucha, se enfurece y anuncia que alguien ha estado allí. La siguen por cámaras y túneles, con los <strong>Tennur</strong> sobre sus cabezas y Biórr preparado con lanza y escudo. Pasan junto a un embarcadero con dos drakkars y varias snekkes antes de que la diosa abra de golpe unas grandes puertas mediante una palabra.<br><br>Dentro encuentran hogares encendidos, un banquete abundante, unas veinte personas sirviendo y músicos que dejan de tocar. Un hombre muy alto y delgado, de trenzas castañas y dientes salientes, se levanta sonriendo y abre los brazos para dar la bienvenida a su hermana. Lik-Rifa lo reconoce: es <strong>Rotta</strong>, vivo. Él dice que ha cuidado el lugar mientras ella estaba ausente. El encuentro no explica cómo escapó de sus cadenas."
+  }
+}

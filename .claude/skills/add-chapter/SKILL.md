@@ -55,6 +55,8 @@ or semantic validation.
   or edits. Its `reprocess.cjs` launcher selects a chronological review context and
   replaces the reviewed chapter in the existing live files, keeping every later
   chapter visible. Existing live summaries are not completed reprocessing progress.
+  If publication exposes a missing later endpoint, follow that reference's audited
+  section-assignment repair procedure before adding future facts to the current draft.
   If the user explicitly asks to append a new live chapter instead, use the normal
   live workflow; reconcile that external change with reprocessing before resuming it.
 - **Normal additions:** when no active rebuild/reprocessing applies, append to the

@@ -1,0 +1,2053 @@
+{
+  "book": 2,
+  "chapter": 42,
+  "baseline": "/var/folders/dn/lf7xs4_132d5f0vw699n7yvm0000gn/T/reprocess.book2ch42.ZXHnr6/baseline",
+  "items": [
+    {
+      "id": "orka",
+      "label": "Orka Skullsplitter",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Orka Skullsplitter: Emisor del sueño antiguo y mecanismo; mujer enjaulada, sensibilidad, discrepancia de edad e historia de Skullsplitter. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Emisor del sueño antiguo y mecanismo; mujer enjaulada, sensibilidad, discrepancia de edad e historia de Skullsplitter."
+    },
+    {
+      "id": "thorkel",
+      "label": "Thorkel (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Thorkel (†): Prueba de sangre y consecuencias en sangre-thorkel. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Prueba de sangre y consecuencias en sangre-thorkel."
+    },
+    {
+      "id": "breca",
+      "label": "Breca",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Breca: Rescate, curación completa, poderes prácticos y papel en el rito. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Rescate, curación completa, poderes prácticos y papel en el rito."
+    },
+    {
+      "id": "asgrim",
+      "label": "Asgrim (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Asgrim (†): Autores del ataque familiar. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "idrun",
+      "label": "Idrun (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Idrun (†): Autores del ataque familiar. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Autores del ataque familiar."
+    },
+    {
+      "id": "harek",
+      "label": "Harek",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Harek: Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Quién lo raptó, cómo llegó a la hueste, autores del ataque familiar y salida segura."
+    },
+    {
+      "id": "snaka",
+      "label": "Snaka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 42: la observación temática de Snaka permanece como contexto; la escena del salón y Rotta no aporta un resultado nuevo ni una pregunta factual propia.",
+      "remaining": "none"
+    },
+    {
+      "id": "gudfall",
+      "label": "Guðfalla (Caída de Dioses)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 42: la observación temática de Guðfalla (Caída de Dioses) permanece como contexto; la escena del salón y Rotta no aporta un resultado nuevo ni una pregunta factual propia.",
+      "remaining": "none"
+    },
+    {
+      "id": "asgrim-death",
+      "label": "Tragedia de Familia Asgrim",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Tragedia de Familia Asgrim: Responsables y circunstancias del ataque. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Responsables y circunstancias del ataque."
+    },
+    {
+      "id": "encuentro-fell-wolf",
+      "label": "Encuentro con el Fell-Wolf",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Encuentro con el Fell-Wolf: Origen de las heridas del Fell-Wolf. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Origen de las heridas del Fell-Wolf."
+    },
+    {
+      "id": "varg",
+      "label": "Varg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Varg: Amenaza de Myrk, además de Control sostenido y secreto, sensibilidad, padres, edad, vínculo y destino de Frøya, akáll, juramento y forja del seax. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Amenaza de Myrk, además de Control sostenido y secreto, sensibilidad, padres, edad, vínculo y destino de Frøya, akáll, juramento y forja del seax."
+    },
+    {
+      "id": "snepil",
+      "label": "Snepil (†) / Kolskegg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Snepil (†) / Kolskegg: Identidad exacta entre los nombres y el liberto. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidad exacta entre los nombres y el liberto."
+    },
+    {
+      "id": "einar",
+      "label": "Einar Medio-Trol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Einar Medio-Trol. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "akall",
+      "label": "Akáll de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Akáll de Varg: Varg aún debe encontrar a Brák. Destino de Frøya, rito y venganza. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Varg aún debe encontrar a Brák. Destino de Frøya, rito y venganza."
+    },
+    {
+      "id": "bolsa-varg",
+      "label": "Contenido Revelado de la Bolsa de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Contenido Revelado de la Bolsa de Varg. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-varg",
+      "label": "Orígenes y Recuerdos de Varg",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Orígenes y Recuerdos de Varg: Control y secreto, sensibilidad, padres, edad y vínculo con Frøya. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Control y secreto, sensibilidad, padres, edad y vínculo con Frøya."
+    },
+    {
+      "id": "virk",
+      "label": "Virk (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Virk (†): Alcance y autoría de los raptos. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Alcance y autoría de los raptos."
+    },
+    {
+      "id": "gudvarr",
+      "label": "Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Guðvarr: Amistad y hallazgos; uso de pergaminos; detección autónoma, extracción y causa del paso franco. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Amistad y hallazgos; uso de pergaminos; detección autónoma, extracción y causa del paso franco."
+    },
+    {
+      "id": "storr",
+      "label": "Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Jarl Störr: Plan político oculto y reacción a Elvar. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Plan político oculto y reacción a Elvar."
+    },
+    {
+      "id": "hueso-dios-fellur",
+      "label": "Nudillo de Dios (Fellur)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Nudillo de Dios (Fellur): Causa de la sensibilidad. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Causa de la sensibilidad."
+    },
+    {
+      "id": "helka-poder",
+      "label": "Expansión de Helka",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: La protección que Lik-Rifa promete a su propia hueste no informa de la reunión diplomática de Helka y Orlyg o de la autonomía de Fellur.",
+      "remaining": "Reunión con Orlyg, términos, expansión y desenlace con Störr."
+    },
+    {
+      "id": "ninos-robados",
+      "label": "Robos de Ninos",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: La columna entra después de Ch40, sin nombres infantiles ni nuevo traslado individualizado. El banquete y Rotta no identifican otros desaparecidos, autores del ataque familiar o salidas seguras.",
+      "remaining": "Salida segura del grupo, otros desaparecidos y grupos, responsables y alcance de los raptos."
+    },
+    {
+      "id": "froya",
+      "label": "Frøya (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Frøya (†?): Paradero o muerte, vínculo sensible y linaje. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Paradero o muerte, vínculo sensible y linaje."
+    },
+    {
+      "id": "leif",
+      "label": "Leif Kolskeggson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Leif Kolskeggson: Reclamación de propiedad frente a la libertad de Varg. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Reclamación de propiedad frente a la libertad de Varg."
+    },
+    {
+      "id": "elvar",
+      "label": "Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Elvar: Rescate de Bjarn, libertad de Berak, venganza contra Biórr, control sostenido y preguntas históricas de sus tramas. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Rescate de Bjarn, libertad de Berak, venganza contra Biórr, control sostenido y preguntas históricas de sus tramas."
+    },
+    {
+      "id": "grend",
+      "label": "Grend",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Grend: Juramento antiguo, historia con Gytha y reacción a Ulfrir. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Juramento antiguo, historia con Gytha y reacción a Ulfrir."
+    },
+    {
+      "id": "agnar",
+      "label": "Agnar (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Agnar (†): Causa de los presentimientos. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Causa de los presentimientos."
+    },
+    {
+      "id": "kraka",
+      "label": "Kráka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Kráka: Alcance de su colaboración con la hueste y situación del blóð svarið. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Alcance de su colaboración con la hueste y situación del blóð svarið."
+    },
+    {
+      "id": "biorr",
+      "label": "Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: Sus recuerdos, reacciones, compromisos, culpa, cicatrices y atribución genealógica en star se conservan: el temor al acceso y la preparación para combatir no son confesión, transformación, nueva lealtad ni explicación del pasado. Rotta vivo tampoco verifica el linaje de Biórr.",
+      "remaining": "Responsable de azotes, familia, represalia, genealogía y decisiones futuras."
+    },
+    {
+      "id": "berak",
+      "label": "Berak Bjornasson",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Berak Bjornasson. Se conserva como historia cerrada; los límites separados siguen siendo: Libertad futura en liberar-berak.",
+      "remaining": "Libertad futura en liberar-berak."
+    },
+    {
+      "id": "asalto-iskalt",
+      "label": "Asalto y Persecución en Iskalt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Asalto y Persecución en Iskalt. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "spert",
+      "label": "Spert",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Spert: Mecanismo en percepcion-liberacion-lik-rifa. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Mecanismo en percepcion-liberacion-lik-rifa."
+    },
+    {
+      "id": "vesli",
+      "label": "Vesli",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Vesli: Mecanismo del aviso y sueños. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Mecanismo del aviso y sueños."
+    },
+    {
+      "id": "objeto-quemado-iskalt",
+      "label": "Objeto Quemado de Iskalt: Graskinna",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Objeto Quemado de Iskalt: Graskinna. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "snakavik",
+      "label": "Snakavik",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 42: la observación temática de Snakavik permanece como contexto; la escena del salón y Rotta no aporta un resultado nuevo ni una pregunta factual propia.",
+      "remaining": "none"
+    },
+    {
+      "id": "pasado-elvar",
+      "label": "Pasado de Elvar",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Pasado de Elvar. Se conserva como historia cerrada; los límites separados siguen siendo: Plan paterno separado en plan-oculto-storr.",
+      "remaining": "Plan paterno separado en plan-oculto-storr."
+    },
+    {
+      "id": "berak-venta",
+      "label": "Venta de Berak (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Venta de Berak (pendiente). Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "ulfrir",
+      "label": "Ulfrir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: No aparece ni combate en Ch42. El refugio del dragón y Rotta vivo no prueban obediencia, recuperación, victoria ni mecanismo de su conexión con Orka.",
+      "remaining": "Recuperación, obediencia sostenida, enfrentamiento con Lik-Rifa y conexión con Orka."
+    },
+    {
+      "id": "pasado-orka",
+      "label": "Pasado y Furia de Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Pasado y Furia de Orka: Conciliar edades; madre, mujer enjaulada, sensibilidad e historia de Skullsplitter. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Conciliar edades; madre, mujer enjaulada, sensibilidad e historia de Skullsplitter."
+    },
+    {
+      "id": "jaromir",
+      "label": "Principe Jaromir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Principe Jaromir: Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Captura, destino de Vol y del cofre, entrega de los huesos y reclamación de Sulich."
+    },
+    {
+      "id": "sulich",
+      "label": "Sulich",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Sulich: Hechos, culpabilidad y resolución de sulich-crisis. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Hechos, culpabilidad y resolución de sulich-crisis."
+    },
+    {
+      "id": "sulich-crisis",
+      "label": "Crisis por Sulich",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Crisis por Sulich: Pruebas, culpabilidad y resolución. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Pruebas, culpabilidad y resolución."
+    },
+    {
+      "id": "juramento-varg-bloodsworn",
+      "label": "Juramento de Varg al Bloodsworn (pendiente)",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Juramento de Varg al Bloodsworn (pendiente): Formalización del juramento de sangre. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Formalización del juramento de sangre."
+    },
+    {
+      "id": "uspa",
+      "label": "Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Uspa: Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Recuperar a Bjarn, intentar liberar a Berak y alcance de su magia; petición de Orka ya resuelta."
+    },
+    {
+      "id": "oath-stone-frost-isles",
+      "label": "Roca de Juramento de Islas de Escarcha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Roca de Juramento de Islas de Escarcha: Causalidad de piedra-gusanos. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Causalidad de piedra-gusanos."
+    },
+    {
+      "id": "piedra-gusanos",
+      "label": "¿La Roca Atrajo a los Gusanos?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿La Roca Atrajo a los Gusanos?: Si la roca los atrajo y cómo. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si la roca los atrajo y cómo."
+    },
+    {
+      "id": "existencia-dragon-born",
+      "label": "Existencia Contemporánea de los Dragon-Born",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: Rotta es un dios distinto del dragón: verlo vivo no cambia la confirmación previa de descendientes contemporáneos de Lik-Rifa ni aclara la última palabra de Thorkel.",
+      "remaining": "Referente de las palabras de Thorkel."
+    },
+    {
+      "id": "froa",
+      "label": "Froa (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Froa (†): Autores y motivo del ataque al fresno. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Autores y motivo del ataque al fresno."
+    },
+    {
+      "id": "decision-huida",
+      "label": "Partida Familiar Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Partida Familiar Truncada. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "sangre-thorkel",
+      "label": "La Sangre Lamida por la Esclava",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Sangre Lamida por la Esclava: Sangre, detección y consecuencias. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Sangre, detección y consecuencias."
+    },
+    {
+      "id": "asesinato-froa",
+      "label": "¿Quién Mató a Froa?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: La actividad de las serpientes del salón no identifica a los atacantes del fresno ni conecta por evidencia el banquete con aquel asesinato.",
+      "remaining": "Autores, motivo y conexión con los raptos."
+    },
+    {
+      "id": "venganza-virk",
+      "label": "Vengar a Virk y Mord",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Vengar a Virk y Mord: Venganza por Virk y Mord y seguridad de Lif. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Venganza por Virk y Mord y seguridad de Lif."
+    },
+    {
+      "id": "aprendizaje-breca",
+      "label": "Breca Quiere Aprender Espada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Breca Quiere Aprender Espada: Si recibirá la enseñanza pedida. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si recibirá la enseñanza pedida."
+    },
+    {
+      "id": "partida-liga",
+      "label": "Partida de Liga (Bloodsworn)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Partida de Liga (Bloodsworn). Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "objeto-viga",
+      "label": "Astilla del Cuerno de Vackna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Astilla del Cuerno de Vackna: Causa de la sensación junto a la viga. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Causa de la sensación junto a la viga."
+    },
+    {
+      "id": "salida-bloodsworn",
+      "label": "Salida de Liga Pendiente",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Salida de Liga Pendiente. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "drekr",
+      "label": "Drekr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Drekr: Garras, papel de Breca y venganza. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Garras, papel de Breca y venganza."
+    },
+    {
+      "id": "rescate-breca",
+      "label": "Recuperar a Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Recuperar a Breca: Rescate, curación, trayecto original y ejecución del intercambio con Elvar. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Rescate, curación, trayecto original y ejecución del intercambio con Elvar."
+    },
+    {
+      "id": "aslog",
+      "label": "Aslog",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Aslog: Circunstancias de su muerte. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Circunstancias de su muerte."
+    },
+    {
+      "id": "skullsplitter",
+      "label": "Skullsplitter (Partecráneos)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Skullsplitter (Partecráneos): Identidad histórica, parentesco y sucesión en los testimonios. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidad histórica, parentesco y sucesión en los testimonios."
+    },
+    {
+      "id": "emboscada-muelle-liga",
+      "label": "Emboscada de Jaromir en el Muelle de Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Emboscada de Jaromir en el Muelle de Liga. Se conserva como historia cerrada; los límites separados siguen siendo: La reclamación sigue en sulich-crisis.",
+      "remaining": "La reclamación sigue en sulich-crisis."
+    },
+    {
+      "id": "helka-llega-liga",
+      "label": "Llegada de la Flota de Helka a Liga",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Llegada de la Flota de Helka a Liga: Motivos completos respecto de Logur y crisis. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Motivos completos respecto de Logur y crisis."
+    },
+    {
+      "id": "venganza-seaxes",
+      "label": "Drekr, los Seaxes y las Garras sin Explicar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Drekr, los Seaxes y las Garras sin Explicar: Forja, garras y ajuste de cuentas. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Forja, garras y ajuste de cuentas."
+    },
+    {
+      "id": "venganza-orka",
+      "label": "Entierro de Thorkel y Juramento de Venganza de Orka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Entierro de Thorkel y Juramento de Venganza de Orka. Se conserva como historia cerrada; los límites separados siguen siendo: Represalia en venganza-seaxes.",
+      "remaining": "Represalia en venganza-seaxes."
+    },
+    {
+      "id": "skalk",
+      "label": "Skalk",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Skalk: Amenaza del norte, manuscritos, Vol y represalia de Glornir. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Amenaza del norte, manuscritos, Vol y represalia de Glornir."
+    },
+    {
+      "id": "mision-norte-helka",
+      "label": "Encargo de Helka y Partida de los Bloodsworn hacia el Norte",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Encargo de Helka y Partida de los Bloodsworn hacia el Norte. Se conserva como historia cerrada; los límites separados siguen siendo: Amenaza-norte-helka sigue parcial.",
+      "remaining": "Amenaza-norte-helka sigue parcial."
+    },
+    {
+      "id": "amenaza-norte-helka",
+      "label": "¿Qué Amenaza al Pueblo de Helka en el Norte?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Amenaza al Pueblo de Helka en el Norte?: Responsables, víctimas y alcance. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Responsables, víctimas y alcance."
+    },
+    {
+      "id": "desembarco-helka-liga",
+      "label": "Desembarco de la Reina Helka en Liga",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Desembarco de la Reina Helka en Liga. Se conserva como historia cerrada; los límites separados siguen siendo: Crisis continúa separada.",
+      "remaining": "Crisis continúa separada."
+    },
+    {
+      "id": "silrid",
+      "label": "Silrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Silrið: Plan de Störr para Elvar. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Plan de Störr para Elvar."
+    },
+    {
+      "id": "hrung",
+      "label": "Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Hrung. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "llegada-venta-berak-snakavik",
+      "label": "Llegada a Snakavik y Venta de Berak a Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Llegada a Snakavik y Venta de Berak a Jarl Störr. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-elvar-storr",
+      "label": "Revelación de Elvar como Hija de Jarl Störr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Revelación de Elvar como Hija de Jarl Störr. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "vafri",
+      "label": "Vafri (†?)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Vafri (†?): Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Destino físico, doble linaje, consecuencias de probar sangre y alcance de la vigilancia."
+    },
+    {
+      "id": "rescate-mord-lif",
+      "label": "Infiltración en Fellur y Rescate de Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Infiltración en Fellur y Rescate de Mord y Lif. Se conserva como historia cerrada; los límites separados siguen siendo: Consecuencias en fuga-orka-fellur.",
+      "remaining": "Consecuencias en fuga-orka-fellur."
+    },
+    {
+      "id": "fuga-orka-fellur",
+      "label": "¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Consecuencias Tendrá el Ataque de Orka en Fellur?: Consecuencias legales y siguientes medidas contra Orka. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Consecuencias legales y siguientes medidas contra Orka."
+    },
+    {
+      "id": "thorun",
+      "label": "Thorun",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 42: la observación temática de Thorun permanece como contexto; la escena del salón y Rotta no aporta un resultado nuevo ni una pregunta factual propia.",
+      "remaining": "none"
+    },
+    {
+      "id": "brodir",
+      "label": "Broðir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "thematic",
+      "evidence": "LIBRO 2, CAPÍTULO 42: la observación temática de Broðir permanece como contexto; la escena del salón y Rotta no aporta un resultado nuevo ni una pregunta factual propia.",
+      "remaining": "none"
+    },
+    {
+      "id": "gytha",
+      "label": "Gytha",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Gytha: Historia compartida y obligaciones. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Historia compartida y obligaciones."
+    },
+    {
+      "id": "oferta-reconciliacion-storr",
+      "label": "Oferta de Reconciliación de Jarl Störr a Elvar",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Oferta de Reconciliación de Jarl Störr a Elvar. Se conserva como historia cerrada; los límites separados siguen siendo: Plan oculto registrado aparte.",
+      "remaining": "Plan oculto registrado aparte."
+    },
+    {
+      "id": "oferta-storr-elvar",
+      "label": "Elvar Rechaza la Oferta de Störr",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: Elvar no participa. Su decisión pasada de quedarse con los Battle-Grim no se reabre por la presencia de Biórr en Nastrandir; el plan paterno sigue separado.",
+      "remaining": "Plan-oculto-storr."
+    },
+    {
+      "id": "huida-uspa-snakavik",
+      "label": "Motivo de la Huida de Uspa: la Persecución de Ilska",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Motivo de la Huida de Uspa: la Persecución de Ilska. Se conserva como historia cerrada; los límites separados siguen siendo: Rescate de Bjarn separado.",
+      "remaining": "Rescate de Bjarn separado."
+    },
+    {
+      "id": "fuga-fiordo",
+      "label": "Fuga por el Fiordo y Pacto con Mord y Lif",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Fuga por el Fiordo y Pacto con Mord y Lif. Se conserva como historia cerrada; los límites separados siguen siendo: Venganza, formación y consecuencias en sus tramas.",
+      "remaining": "Venganza, formación y consecuencias en sus tramas."
+    },
+    {
+      "id": "aprendizaje-mord-lif",
+      "label": "Aprendizaje de Armas de Mord y Lif",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Aprendizaje de Armas de Mord y Lif: Preparación para vencer a Guðvarr. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Preparación para vencer a Guðvarr."
+    },
+    {
+      "id": "consulta-hrung",
+      "label": "Consulta de Elvar a Hrung",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Consulta de Elvar a Hrung: Intención real de Störr. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Intención real de Störr."
+    },
+    {
+      "id": "raid-raven-feeders",
+      "label": "Raid de los Raven-Feeders a la Taberna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Raid de los Raven-Feeders a la Taberna. Se conserva como historia cerrada; los límites separados siguen siendo: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "secreto-uspa-oskutred",
+      "label": "El Secreto de Uspa y el Precio del Rescate",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de El Secreto de Uspa y el Precio del Rescate. Se conserva como historia cerrada; los límites separados siguen siendo: Rescate-bjarn.",
+      "remaining": "Rescate-bjarn."
+    },
+    {
+      "id": "rescate-bjarn",
+      "label": "Recuperar a Bjarn de los Raven-Feeders",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Recuperar a Bjarn de los Raven-Feeders: Recuperar a Bjarn y cumplir el juramento; recuperación colectiva en secuelas-seidr-ninos. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Recuperar a Bjarn y cumplir el juramento; recuperación colectiva en secuelas-seidr-ninos."
+    },
+    {
+      "id": "camino-oskutred",
+      "label": "¿Conoce Uspa el Camino a Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de ¿Conoce Uspa el Camino a Oskutreð?. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-ilska",
+      "label": "Feudo de Agnar con Ilska",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Feudo de Agnar con Ilska: Desenlace del feudo colectivo. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Desenlace del feudo colectivo."
+    },
+    {
+      "id": "despedida-thrud",
+      "label": "Despedida Marítima de Thrud (pendiente)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Despedida Marítima de Thrud (pendiente): Cumplimiento del rito. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Cumplimiento del rito."
+    },
+    {
+      "id": "combate-nacken",
+      "label": "Combate contra el Näcken del Río",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Combate contra el Näcken del Río: Destino del Näcken del río y vínculo con la amenaza del norte. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Destino del Näcken del río y vínculo con la amenaza del norte."
+    },
+    {
+      "id": "isbrun",
+      "label": "Puente Isbrún",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Puente Isbrún: Constructor, resistencia al calor y autor de la antigua huella. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Constructor, resistencia al calor y autor de la antigua huella."
+    },
+    {
+      "id": "juramento-sangre-brim",
+      "label": "El Blóð Svarið de los Terrores de la Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Blóð Svarið de los Terrores de la Batalla: Cumplimiento, alcance de la sanción y situación de Kráka. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Cumplimiento, alcance de la sanción y situación de Kráka."
+    },
+    {
+      "id": "plan-oculto-storr",
+      "label": "¿Qué Plan Oculta Störr para Elvar?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Plan Oculta Störr para Elvar?: Plan paterno y reacción a decisión. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Plan paterno y reacción a decisión."
+    },
+    {
+      "id": "granja-abandonada",
+      "label": "Granja Abandonada del Slågen",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Granja Abandonada del Slågen: Destino de sus habitantes. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Destino de sus habitantes."
+    },
+    {
+      "id": "desembarco-slagen",
+      "label": "Desembarco en el Slågen y Marcha a las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Desembarco en el Slågen y Marcha a las Boneback. Se conserva como historia cerrada; los límites separados siguen siendo: Amenaza-norte-helka.",
+      "remaining": "Amenaza-norte-helka."
+    },
+    {
+      "id": "viaje-darl",
+      "label": "Travesía y Entrenamiento Hacia Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Travesía y Entrenamiento Hacia Darl. Se conserva como historia cerrada; los límites separados siguen siendo: Consecuencias y formación renovada en otras tramas.",
+      "remaining": "Consecuencias y formación renovada en otras tramas."
+    },
+    {
+      "id": "llegada-darl",
+      "label": "Llegada a Darl y Desembarco de Helka",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Llegada a Darl y Desembarco de Helka. Se conserva como historia cerrada; los límites separados siguen siendo: Rescate-breca.",
+      "remaining": "Rescate-breca."
+    },
+    {
+      "id": "tainted-raven-feeders",
+      "label": "¿Había un Tainted Libre entre los Raven-Feeders?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Había un Tainted Libre entre los Raven-Feeders?: Identidad, linaje y libertad del guerrero. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidad, linaje y libertad del guerrero."
+    },
+    {
+      "id": "dead-drengr",
+      "label": "El Drengr Muerto (taberna)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Drengr Muerto (taberna): Conocimiento o autorización de Helka. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Conocimiento o autorización de Helka."
+    },
+    {
+      "id": "mujer-esperada-bloodsworn",
+      "label": "¿A Quién Esperan Vol y Glornir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿A Quién Esperan Vol y Glornir?: Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidad exacta de la esperada, retraso y reencuentro con Vol y Glornir."
+    },
+    {
+      "id": "colgante-espada",
+      "label": "Colgante de Espada (Breca)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Colgante de Espada (Breca): Rescate, recuperación y transmisión de la pista a Orka. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Rescate, recuperación y transmisión de la pista a Orka."
+    },
+    {
+      "id": "combate-dead-drengr",
+      "label": "Combate en El Drengr Muerto",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Combate en El Drengr Muerto. Se conserva como historia cerrada; los límites separados siguen siendo: Resto de preguntas en sus tramas.",
+      "remaining": "Resto de preguntas en sus tramas."
+    },
+    {
+      "id": "trato-skalk-akall",
+      "label": "Varg Rechaza el Trato de Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Varg Rechaza el Trato de Skalk. Se conserva como historia cerrada; los límites separados siguen siendo: Akall continúa aparte.",
+      "remaining": "Akall continúa aparte."
+    },
+    {
+      "id": "hallazgo-cuerpos-boneback",
+      "label": "Hallazgo de los 24 Cuerpos en las Boneback",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Hallazgo de los 24 Cuerpos en las Boneback: Autoría y mecanismo de matanza. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Autoría y mecanismo de matanza."
+    },
+    {
+      "id": "skefil",
+      "label": "Skefil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Skefil (†): Significado de la marca. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Significado de la marca."
+    },
+    {
+      "id": "hakon-operacion-oculta",
+      "label": "¿Qué Sabe Helka de la Operación de Hakon?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Sabe Helka de la Operación de Hakon?: Acuerdos y propósito de Hakon, alcance de las visitas y conocimiento o autorización de Helka. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Acuerdos y propósito de Hakon, alcance de las visitas y conocimiento o autorización de Helka."
+    },
+    {
+      "id": "gytha-grend",
+      "label": "Gytha y Grend (Historia no Resuelta)",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Gytha y Grend (Historia no Resuelta): Historia afectiva y reencuentro. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Historia afectiva y reencuentro."
+    },
+    {
+      "id": "amenaza-alces-norte",
+      "label": "¿Quién Mató a los Alces del Norte?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Quién Mató a los Alces del Norte?: Autores, número y amenaza próxima. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Autores, número y amenaza próxima."
+    },
+    {
+      "id": "apertura-isbrun",
+      "label": "Apertura del Puente Isbrún por Uspa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Apertura del Puente Isbrún por Uspa: Autor de huella y puente. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Autor de huella y puente."
+    },
+    {
+      "id": "ayuda-torvik-froya",
+      "label": "La Ayuda de Torvik Queda Truncada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de La Ayuda de Torvik Queda Truncada. Se conserva como historia cerrada; los límites separados siguen siendo: Objetivo de Varg en akall.",
+      "remaining": "Objetivo de Varg en akall."
+    },
+    {
+      "id": "espada-hueso",
+      "label": "La Espada de Hueso",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: Las palabras que encienden braseros y abren puertas no explican la garra de Orna ni la sensibilidad de Varg; la espada no interviene.",
+      "remaining": "Mecanismo de poder y sensibilidad de Varg."
+    },
+    {
+      "id": "supervivencia-varg-boneback",
+      "label": "Varg Sobrevive a la Espada de Hueso",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Varg Sobrevive a la Espada de Hueso. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "biorr-cicatrices",
+      "label": "Las Cicatrices de Látigo de Biórr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Las Cicatrices de Látigo de Biórr: Quién, cuándo/por qué, familia y represalia. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Quién, cuándo/por qué, familia y represalia."
+    },
+    {
+      "id": "destino-tesoros-oskutred",
+      "label": "¿Qué Traerán los Tesoros de Oskutreð?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Traerán los Tesoros de Oskutreð?: Venta, distribución y consecuencias de los usos del botín. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Venta, distribución y consecuencias de los usos del botín."
+    },
+    {
+      "id": "huida-skalk-vol",
+      "label": "El Rapto de Vol y el Destino de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Rapto de Vol y el Destino de Varg: Paradero, liberación, suturas y collar de Vol. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Paradero, liberación, suturas y collar de Vol."
+    },
+    {
+      "id": "camara-rotta",
+      "label": "Cámara de Rotta (bajo Frang's Falls)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 42: Su star sobre los lechos sigue sin nuevos ocupantes o trayectos identificados. La ausencia de Rotta y cadenas rotas del Ch15 reciben ahora la supervivencia observada; destino-rotta persiste esa respuesta parcial y remite al evento, sin reescribir la incertidumbre histórica de la cámara.",
+      "remaining": "Ocupantes anteriores, mecanismo de salida de Rotta y trayecto de Breca."
+    },
+    {
+      "id": "altar-lik-rifa-pinar",
+      "label": "Altar de Lik-Rifa en el Pinar camino al Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Altar de Lik-Rifa en el Pinar camino al Grimholt: Autoría y conexiones del altar. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Autoría y conexiones del altar."
+    },
+    {
+      "id": "culto-likrifa-pinar",
+      "label": "¿Quién Adora a Lik-Rifa junto al Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Quién Adora a Lik-Rifa junto al Grimholt?: Autores de altares y relación con la red de Drekr. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Autores de altares y relación con la red de Drekr."
+    },
+    {
+      "id": "revelacion-tainted-varg",
+      "label": "Revelación: los Bloodsworn son Tainted",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Revelación: los Bloodsworn son Tainted. Se conserva como historia cerrada; los límites separados siguen siendo: Control en pasado-varg.",
+      "remaining": "Control en pasado-varg."
+    },
+    {
+      "id": "invitacion-glornir-varg",
+      "label": "Invitación de Glornir y Partida Anunciada para Rescatar a Vol",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Invitación de Glornir y Partida Anunciada para Rescatar a Vol. Se conserva como historia cerrada; los límites separados siguen siendo: Juramento y rescate en tramas respectivas.",
+      "remaining": "Juramento y rescate en tramas respectivas."
+    },
+    {
+      "id": "vorn",
+      "label": "Vörn Askasdottir (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Vörn Askasdottir (†): Portador de Orna y genealogía exacta de Biórr. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Portador de Orna y genealogía exacta de Biórr."
+    },
+    {
+      "id": "aska",
+      "label": "Aska",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Aska: Circunstancias de muerte. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Circunstancias de muerte."
+    },
+    {
+      "id": "encuentro-vorn-oskutred",
+      "label": "Encuentro con Vörn en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Encuentro con Vörn en Oskutreð. Se conserva como historia cerrada; los límites separados siguen siendo: Consecuencias en destino-tesoros-oskutred.",
+      "remaining": "Consecuencias en destino-tesoros-oskutred."
+    },
+    {
+      "id": "llegada-ilska-llanura-batalla",
+      "label": "Llegada de Ilska a la Llanura de Batalla",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Llegada de Ilska a la Llanura de Batalla. Se conserva como historia cerrada; los límites separados siguen siendo: Venganza-ilska.",
+      "remaining": "Venganza-ilska."
+    },
+    {
+      "id": "emboscada-grimholt-bosque",
+      "label": "Emboscada en el Bosque del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Emboscada en el Bosque del Grimholt. Se conserva como historia cerrada; los límites separados siguen siendo: Identidades restantes en trama.",
+      "remaining": "Identidades restantes en trama."
+    },
+    {
+      "id": "identidad-emboscada-grimholt",
+      "label": "¿Quiénes son los Captores del Grimholt?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Quiénes son los Captores del Grimholt?: Mujer del sabueso y composición restante de captores. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Mujer del sabueso y composición restante de captores."
+    },
+    {
+      "id": "holmganga-oskutred",
+      "label": "Holmganga: Agnar vs Skrið",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Holmganga: Agnar vs Skrið. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "revelacion-dragon-born-oskutred",
+      "label": "Revelación de los Dragon-Born y los Niños Cautivos",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Revelación de los Dragon-Born y los Niños Cautivos. Se conserva como historia cerrada; los límites separados siguen siendo: Propósito y destinos en ninos-robados/rescate.",
+      "remaining": "Propósito y destinos en ninos-robados/rescate."
+    },
+    {
+      "id": "traicion-biorr",
+      "label": "Traición de Biórr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Traición de Biórr. Se conserva como historia cerrada; los límites separados siguen siendo: Cicatrices/genealogía quedan aparte.",
+      "remaining": "Cicatrices/genealogía quedan aparte."
+    },
+    {
+      "id": "motivo-traicion-biorr",
+      "label": "Motivo de la Traición de Biórr Revelado",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Motivo de la Traición de Biórr Revelado. Se conserva como historia cerrada; los límites separados siguen siendo: Cicatrices aparte.",
+      "remaining": "Cicatrices aparte."
+    },
+    {
+      "id": "masacre-grimholt",
+      "label": "Masacre en la Torre del Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Masacre en la Torre del Grimholt: Papel de Hakon y composición de los captores en tramas separadas. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Papel de Hakon y composición de los captores en tramas separadas."
+    },
+    {
+      "id": "supervivencia-mord-grimholt",
+      "label": "Muerte Confirmada de Mord en el Grimholt",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Muerte Confirmada de Mord en el Grimholt. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "batalla-oskutred",
+      "label": "Batalla de los Muros de Escudos en Oskutreð",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Batalla de los Muros de Escudos en Oskutreð. Se conserva como historia cerrada; los límites separados siguen siendo: Rescate-bjarn y venganza-ilska.",
+      "remaining": "Rescate-bjarn y venganza-ilska."
+    },
+    {
+      "id": "liberacion-lik-rifa",
+      "label": "Liberación de Lik-Rifa",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Liberación de Lik-Rifa. Se conserva como historia cerrada; los límites separados siguen siendo: Niños y conocimiento de Helka aparte.",
+      "remaining": "Niños y conocimiento de Helka aparte."
+    },
+    {
+      "id": "supervivencia-uspa-oskutred",
+      "label": "Uspa Sobrevive a la Apertura de Oskutreð",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Uspa Sobrevive a la Apertura de Oskutreð. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "supervivencia-vorn-oskutred",
+      "label": "Muerte de Vörn Confirmada",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Muerte de Vörn Confirmada. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "rumbo-lik-rifa",
+      "label": "¿Qué Hará Lik-Rifa tras su Liberación?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "advanced",
+      "evidence": "LIBRO 2, CAPÍTULO 42: La hueste entra y recibe una oferta de protección y recuperación; aparece Rotta. Los planes y la seguridad declarados no son victoria ni recuperación consumada. Persistido en rumbo-lik-rifa y revelacion-rotta-vivo.",
+      "remaining": "Recuperación completa, seguridad, gobierno, reunión de fieles, enfrentamiento con Ulfrir y explicación de la cita occidental."
+    },
+    {
+      "id": "convergencia-grimholt",
+      "label": "Convergencia en el Grimholt",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Convergencia en el Grimholt. Se conserva como historia cerrada; los límites separados siguen siendo: Preguntas conservadas en sus tramas.",
+      "remaining": "Preguntas conservadas en sus tramas."
+    },
+    {
+      "id": "sepultura-mord",
+      "label": "Sepultura de Mord Cumplida",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Sepultura de Mord Cumplida. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "percepcion-liberacion-lik-rifa",
+      "label": "¿Cómo Perciben la Liberación de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Cómo Perciben la Liberación de Lik-Rifa?: Mecanismo y alcance del aviso y los sueños; origen y veracidad del rumor oído en Starl. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Mecanismo y alcance del aviso y los sueños; origen y veracidad del rumor oído en Starl."
+    },
+    {
+      "id": "venganza-biorr",
+      "label": "Elvar Jura Vengar a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Elvar Jura Vengar a Agnar: Encuentro y desenlace de la represalia. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Encuentro y desenlace de la represalia."
+    },
+    {
+      "id": "orv-sneak",
+      "label": "Orv el Sigiloso (Orv the Sneak)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Orv el Sigiloso (Orv the Sneak): Poder del arco frente a flechas. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Poder del arco frente a flechas."
+    },
+    {
+      "id": "seaxes-tainted",
+      "label": "Seaxes del Tainted-Garras",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Seaxes del Tainted-Garras: Forja y relación de los seaxes. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Forja y relación de los seaxes."
+    },
+    {
+      "id": "venganza-torvik",
+      "label": "Vengar a Torvik",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Vengar a Torvik: Si habrá represalia por Torvik, contra quién y por quién. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si habrá represalia por Torvik, contra quién y por quién."
+    },
+    {
+      "id": "libro-negro-vergelmir",
+      "label": "El Libro Negro de Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Libro Negro de Vergelmir: Contenido, cubierta y protecciones. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Contenido, cubierta y protecciones."
+    },
+    {
+      "id": "ataque-criaturas-likrafa",
+      "label": "Ataque de las Criaturas de Lik-Rifa en Vergelmir",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Ataque de las Criaturas de Lik-Rifa en Vergelmir. Se conserva como historia cerrada; los límites separados siguen siendo: Detalles no aclarados conservados como límites.",
+      "remaining": "Detalles no aclarados conservados como límites."
+    },
+    {
+      "id": "muerte-lik-rifa",
+      "label": "Elvar y Skuld contra Lik-Rifa",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: El lector ve un refugio y a Rotta vivo, pero no una alianza militar entre los hermanos ni enfrentamiento. No cambian recuperación/control de Ulfrir o éxito de Elvar y Skuld; no hay evidencia suficiente para nueva revisión.",
+      "remaining": "Cooperación sostenida y recuperación de Ulfrir, encuentro con el dragón y desenlace."
+    },
+    {
+      "id": "misterio-libro-vergelmir",
+      "label": "¿Qué Oculta el Libro Negro de Vergelmir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Oculta el Libro Negro de Vergelmir?: Alcance, mecanismos y cubierta. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Alcance, mecanismos y cubierta."
+    },
+    {
+      "id": "myrk",
+      "label": "Myrk Sharp-Claw",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Myrk Sharp-Claw: Entrega del encargo, liberación, duelo y represalia. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Entrega del encargo, liberación, duelo y represalia."
+    },
+    {
+      "id": "traslado-tesoros-rotta",
+      "label": "El Encargo de Myrk en la Cámara de Rotta",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Encargo de Myrk en la Cámara de Rotta: Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Recogida, destino de los hallazgos y relación exacta entre Iskalt y Corpse-Strand."
+    },
+    {
+      "id": "resucitar-y-someter-ulfrir",
+      "label": "Resucitar y Someter a Ulfrir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Resucitar y Someter a Ulfrir: Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Recuperación, obediencia sostenida y aptitud para enfrentarse a Lik-Rifa."
+    },
+    {
+      "id": "liberar-berak",
+      "label": "Intentar Liberar a Berak de Störr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Intentar Liberar a Berak de Störr: Intento efectivo y libertad. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Intento efectivo y libertad."
+    },
+    {
+      "id": "llamada-lobo-orka",
+      "label": "El Lobo que Llama a Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Lobo que Llama a Orka: Origen del sueño del capítulo 10, mecanismo y relación con Varg. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Origen del sueño del capítulo 10, mecanismo y relación con Varg."
+    },
+    {
+      "id": "proteccion-lif-secreto",
+      "label": "Proteger a Lif ante el Secreto Bloodsworn",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Proteger a Lif ante el Secreto Bloodsworn: Qué entendió Lif y consecuencias para el secreto. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Qué entendió Lif y consecuencias para el secreto."
+    },
+    {
+      "id": "sueno-lobo-varg",
+      "label": "La Llamada en el Sueño de Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Llamada en el Sueño de Varg: Identidad, origen y significado de la llamada a Varg. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidad, origen y significado de la llamada a Varg."
+    },
+    {
+      "id": "terna",
+      "label": "Terna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Terna: Destino de Frøya. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Destino de Frøya."
+    },
+    {
+      "id": "brimil",
+      "label": "Brimil (†)",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Brimil (†). Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "interrogatorio-aldea-njal",
+      "label": "Interrogatorio en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Interrogatorio en la Aldea de Njal. Se conserva como historia cerrada; los límites separados siguen siendo: Frøya y Brimil en sus tramas.",
+      "remaining": "Frøya y Brimil en sus tramas."
+    },
+    {
+      "id": "emboscada-culto-dragon-aldea",
+      "label": "Emboscada del Culto del Dragón en la Aldea de Njal",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Emboscada del Culto del Dragón en la Aldea de Njal. Se conserva como historia cerrada; los límites separados siguen siendo: Control autónomo y alcance de culto aparte.",
+      "remaining": "Control autónomo y alcance de culto aparte."
+    },
+    {
+      "id": "inquietud-svik-grimholt",
+      "label": "¿Qué le Perturba a Svik desde el Grimholt?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué le Perturba a Svik desde el Grimholt?: Causa del desasosiego previo y relación con Orka o el Grimholt. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Causa del desasosiego previo y relación con Orka o el Grimholt."
+    },
+    {
+      "id": "guardia-tennur-isbrun",
+      "label": "La Guardia del Isbrún y el Regreso de los Tennúr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: Los tennúr vuelan dentro del salón. Su regreso ya resolvió el componente pendiente en Ch35; esta presencia no cambia el cruce exitoso de Ulfrir ni el fracaso de la guardia.",
+      "remaining": "none"
+    },
+    {
+      "id": "rastro-breca-camara-rotta",
+      "label": "El Rastro de Breca en la Cámara de Rotta",
+      "fields": [
+        "star"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 42: El hallazgo anterior del lecho sigue sin trayecto ni significado del tatuaje explicados. El componente sobre Rotta avanza únicamente para el lector: vive en Nastrandir; evidencia conservada en destino-rotta/revelacion-rotta-vivo.",
+      "remaining": "Trayecto de Breca, tatuajes y escape de Rotta."
+    },
+    {
+      "id": "tatuajes-dragon",
+      "label": "¿Qué Significan los Tatuajes de Dragón?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Significan los Tatuajes de Dragón?: Significado, portadores y universalidad. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Significado, portadores y universalidad."
+    },
+    {
+      "id": "destino-rotta",
+      "label": "¿Cómo Salió Rotta de sus Cadenas?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "partial",
+      "evidence": "LIBRO 2, CAPÍTULO 42: Rotta se levanta, habla y Lik-Rifa lo identifica. Supervivencia y ubicación actuales comprobadas para el lector, sin explicación de cadenas ni intervalo; Orka y Revna siguen sin conocerlo. Persistido en destino-rotta y revelacion-rotta-vivo.",
+      "remaining": "Cómo salió del encierro y qué ocurrió hasta su aparición en Nastrandir."
+    },
+    {
+      "id": "llegada-supervivientes-darl",
+      "label": "Regreso de los Supervivientes del Grimholt a Darl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Regreso de los Supervivientes del Grimholt a Darl: Identidades, autores y afiliación efectiva. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidades, autores y afiliación efectiva."
+    },
+    {
+      "id": "audiencia-skalk-darl",
+      "label": "El Informe de Skalk y la Restitución de Orna",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Informe de Skalk y la Restitución de Orna: Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidad de las demás piezas, vínculo exacto de los cofres, autenticidad de copias y efecto del informe."
+    },
+    {
+      "id": "sucesion-battle-grim",
+      "label": "Elvar Sucede a Agnar",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Elvar Sucede a Agnar. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-brimil",
+      "label": "Varg se Enfrenta a Brimil",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Varg se Enfrenta a Brimil. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "audiencia-gudvarr-helka",
+      "label": "La Recompensa y el Encargo de Guðvarr",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Recompensa y el Encargo de Guðvarr: Contenido exacto de la petición anterior. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Contenido exacto de la petición anterior."
+    },
+    {
+      "id": "encargo-gudvarr-darl",
+      "label": "El Encargo de Guðvarr sobre Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Encargo de Guðvarr sobre Hakon: Amistad, hallazgos y resultado de la investigación. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Amistad, hallazgos y resultado de la investigación."
+    },
+    {
+      "id": "aprendizaje-estrid-frek",
+      "label": "La Petición de Instrucción de Estrid",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Petición de Instrucción de Estrid: Si recibe la instrucción y qué aprende. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si recibe la instrucción y qué aprende."
+    },
+    {
+      "id": "venganza-halja",
+      "label": "Halja Quiere Ajustar Cuentas por Vali",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Halja Quiere Ajustar Cuentas por Vali: Responsables y desenlace de la represalia. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Responsables y desenlace de la represalia."
+    },
+    {
+      "id": "breca-vinculo-lik-rifa",
+      "label": "¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Une a Breca y Thorkel con el Regreso de Lik-Rifa?: Participación individual de Breca en el rito y conexión con el asesinato de Thorkel. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Participación individual de Breca en el rito y conexión con el asesinato de Thorkel."
+    },
+    {
+      "id": "kuru",
+      "label": "Kuru",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Kuru: Supervivencia de Kuru. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Supervivencia de Kuru."
+    },
+    {
+      "id": "implantacion-hyrndur",
+      "label": "El Espía dentro del Espía",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Espía dentro del Espía: Identidad del halcón de la empalizada; vigilancia autónoma en vigilancia-hyrndur-gudvarr. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidad del halcón de la empalizada; vigilancia autónoma en vigilancia-hyrndur-gudvarr."
+    },
+    {
+      "id": "vigilancia-hyrndur-gudvarr",
+      "label": "El Control del Hyrndur sobre Guðvarr",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Control del Hyrndur sobre Guðvarr: Posición exacta, vigilancia autónoma, extracción, supervivencia y ayuda efectiva. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Posición exacta, vigilancia autónoma, extracción, supervivencia y ayuda efectiva."
+    },
+    {
+      "id": "origen-estallido-darl",
+      "label": "¿Qué Provocó el Estallido cerca de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Qué Provocó el Estallido cerca de la Torre?: Causa del estallido concreto. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Causa del estallido concreto."
+    },
+    {
+      "id": "destino-huesos-hraeg",
+      "label": "¿Llegarán los Huesos de Hraeg al Padre de Jaromir?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Llegarán los Huesos de Hraeg al Padre de Jaromir?: Entrega, recompensa e identificación independiente. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Entrega, recompensa e identificación independiente."
+    },
+    {
+      "id": "destino-grieta-darl",
+      "label": "Supervivencia de Skalk, Yrsa y Sturla",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Supervivencia de Skalk, Yrsa y Sturla. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "cura-taras",
+      "label": "La Promesa de Iva a Taras",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Promesa de Iva a Taras: Si Iva lo cura y cómo. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si Iva lo cura y cómo."
+    },
+    {
+      "id": "umbral-torre-darl",
+      "label": "¿Por Qué Cede el Umbral de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Por Qué Cede el Umbral de la Torre?: Si el hechizo se interrumpió con la caída o solo actuaba al entrar. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si el hechizo se interrumpió con la caída o solo actuaba al entrar."
+    },
+    {
+      "id": "venganza-jokul",
+      "label": "Vengar a Jökul",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Vengar a Jökul: Desenlace de la venganza. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Desenlace de la venganza."
+    },
+    {
+      "id": "caza-jaromir-darl",
+      "label": "La Caza de Jaromir",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Caza de Jaromir: Intercepción, captura o muerte, entrega y pago. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Intercepción, captura o muerte, entrega y pago."
+    },
+    {
+      "id": "salida-darl-hakon",
+      "label": "La Liberación y el Regreso de Hakon",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de La Liberación y el Regreso de Hakon. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "venganza-glornir-skalk",
+      "label": "La Amenaza de Glornir contra Skalk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Amenaza de Glornir contra Skalk: Si Glornir regresa y mata a Skalk. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si Glornir regresa y mata a Skalk."
+    },
+    {
+      "id": "sepultura-huld",
+      "label": "El Túmulo Ordenado para Huld",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Túmulo Ordenado para Huld: Construcción del túmulo. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Construcción del túmulo."
+    },
+    {
+      "id": "retorno-wave-jarl",
+      "label": "El Regreso al Wave-Jarl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de El Regreso al Wave-Jarl. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "brak-trolls-bane",
+      "label": "Brák Trolls-Bane",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Brák Trolls-Bane: Identidad retrospectiva, destino de Frøya y origen de los seaxes. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Identidad retrospectiva, destino de Frøya y origen de los seaxes."
+    },
+    {
+      "id": "holmganga-orka-myrk",
+      "label": "La Holmganga Prometida entre Orka y Myrk",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Holmganga Prometida entre Orka y Myrk: Encontrar a Breca, liberar a Myrk y celebrar el duelo. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Encontrar a Breca, liberar a Myrk y celebrar el duelo."
+    },
+    {
+      "id": "venganza-myrk-varg",
+      "label": "La Amenaza de Myrk contra Varg",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Amenaza de Myrk contra Varg: Si Myrk lo alcanza y cumple su amenaza. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si Myrk lo alcanza y cumple su amenaza."
+    },
+    {
+      "id": "destino-testigos-torre",
+      "label": "¿Dónde Están los Testigos Presos de la Torre?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Dónde Están los Testigos Presos de la Torre?: Paradero y destino de los testigos retenidos. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Paradero y destino de los testigos retenidos."
+    },
+    {
+      "id": "promesa-ulfrir-battle-grim",
+      "label": "La Promesa de Ulfrir a los Battle-Grim",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Promesa de Ulfrir a los Battle-Grim: Si cumple su compromiso de no devorar a más miembros. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si cumple su compromiso de no devorar a más miembros."
+    },
+    {
+      "id": "secuelas-seidr-ninos",
+      "label": "¿Se Recuperarán los Niños del Sometimiento?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Se Recuperarán los Niños del Sometimiento?: Recuperación completa de todos los niños y causa de todos los síntomas. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Recuperación completa de todos los niños y causa de todos los síntomas."
+    },
+    {
+      "id": "saeunn",
+      "label": "Sæunn",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Sæunn: Papel para Orka y destino del collar. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Papel para Orka y destino del collar."
+    },
+    {
+      "id": "avistamiento-battle-grim-starl",
+      "label": "Orka Avista un Drakkar de los Battle-Grim en Starl",
+      "fields": [
+        "star"
+      ],
+      "assessment": "closed-history",
+      "evidence": "LIBRO 2, CAPÍTULO 42: no contradice el desenlace registrado de Orka Avista un Drakkar de los Battle-Grim en Starl. Se conserva como historia cerrada; los límites separados siguen siendo: none",
+      "remaining": "none"
+    },
+    {
+      "id": "convergencia-orka-battle-grim",
+      "label": "Encuentro en Starl y Búsqueda de Breca",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Encuentro en Starl y Búsqueda de Breca: Términos, ejecución del intercambio y recuperación de Breca. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Términos, ejecución del intercambio y recuperación de Breca."
+    },
+    {
+      "id": "compra-tainted-starl",
+      "label": "¿Para Qué Compra Orka una Thrall Tainted en Starl?",
+      "fields": [
+        "desc",
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Para Qué Compra Orka una Thrall Tainted en Starl?: Requisito susurrado, papel de Sæunn e incomodidad de Orka. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Requisito susurrado, papel de Sæunn e incomodidad de Orka."
+    },
+    {
+      "id": "sangre-caballo-myrk",
+      "label": "¿Para Qué Guarda Orka la Sangre del Caballo de Myrk?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Para Qué Guarda Orka la Sangre del Caballo de Myrk?: Si se trata de un uso Seiðr u otro fin, y si vuelve a emplear la tela guardada. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si se trata de un uso Seiðr u otro fin, y si vuelve a emplear la tela guardada."
+    },
+    {
+      "id": "abasto-battle-grim-starl",
+      "label": "El Abastecimiento Pendiente en Starl",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de El Abastecimiento Pendiente en Starl: Abastecimiento efectivo y preservación del secreto. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Abastecimiento efectivo y preservación del secreto."
+    },
+    {
+      "id": "salida-uspa-starl",
+      "label": "Uspa Rechaza Marcharse con Orka",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de Uspa Rechaza Marcharse con Orka: none Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "none"
+    },
+    {
+      "id": "resucitar-orna",
+      "label": "¿Podría Volver a Vivir Orna?",
+      "fields": [
+        "desc"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de ¿Podría Volver a Vivir Orna?: Si se acepta o intenta la petición y si es posible devolverle la vida a Orna. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Si se acepta o intenta la petición y si es posible devolverle la vida a Orna."
+    },
+    {
+      "id": "reunion-helka-orlyg",
+      "label": "La Reunión de Helka con Jarl Orlyg",
+      "fields": [
+        "star"
+      ],
+      "assessment": "unchanged",
+      "evidence": "LIBRO 2, CAPÍTULO 42: el ingreso al salón y la recepción de Rotta no aportan respuesta a las cuestiones de La Reunión de Helka con Jarl Orlyg: Llegada de Orlyg, celebración, términos y resultado de la reunión. Las acciones aquí observadas no alcanzan ese desenlace; no se transfiere el conocimiento de Biórr a los otros POV.",
+      "remaining": "Llegada de Orlyg, celebración, términos y resultado de la reunión."
+    }
+  ]
+}

@@ -1,5 +1,14 @@
 # Changelog archive
 
+- 2026-11-03: Book Two Ch42 — publication exposed Sterkur's Ch43 introduction
+  under the Ch42 section. Added explicit `afterChapter` support to `reconcile-later`,
+  retaining before/after, unchanged-record, hash and reviewed-prefix guards. The audit
+  records both chapters; a regression proves future endpoints survive composition
+  without entering the current chronological context. Corrected only Sterkur's section
+  assignment, preserving all node fields and the immutable archive. The entrypoint and
+  reprocessing guide now document diagnosis and the audited repair. Fully absorbed;
+  archived immediately.
+
 - 2026-11-03: Book Two Ch41 — batched reference reads again exhausted the shared
   outer tool output budget; the thread gate also exceeds a single bounded slice.
   Replaced the one-gate-per-response instruction with 80–100-line slices and explicit

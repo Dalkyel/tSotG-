@@ -1593,4 +1593,18 @@ const linksBook2 = [
     {"source":"encargo-gudvarr-darl","target":"retorno-hakon-darl","label":"avanza con","type":"trama"},
     {"source":"salida-darl-hakon","target":"retorno-hakon-darl","label":"se resuelve con","type":"trama"},
     {"source":"cat-tramas","target":"salida-darl-hakon","label":"incluye","status":"broken","reason":"LIBRO 2, CAPÍTULO 41: Hakon vuelve con Frek y es recibido por Helka; véase retorno-hakon-darl."},
+
+// ── LIBRO 2, CAPÍTULO 42 — BIÓRR ──
+    {"source":"cat-eventos","target":"revelacion-rotta-vivo","label":"incluye","type":"arc"},
+    {"source":"cat-elvar","target":"revelacion-rotta-vivo","label":"incluye","type":"arc"},
+    {"source":"revelacion-rotta-vivo","target":"nastrandir","label":"ocurre en","type":"geo"},
+    {"source":"likrafa","target":"revelacion-rotta-vivo","label":"descubre a su hermano en","type":"event"},
+    {"source":"rotta","target":"revelacion-rotta-vivo","label":"recibe a su hermana en","type":"event"},
+    {"source":"biorr","target":"revelacion-rotta-vivo","label":"presencia","type":"event"},
+    {"source":"ilska","target":"revelacion-rotta-vivo","label":"presencia","type":"event"},
+    {"source":"drekr","target":"revelacion-rotta-vivo","label":"presencia","type":"event"},
+    {"source":"raven-feeders","target":"revelacion-rotta-vivo","label":"presencian","type":"event"},
+    {"source":"destino-rotta","target":"revelacion-rotta-vivo","label":"confirma supervivencia y paradero mediante","type":"trama"},
+    {"source":"rumbo-lik-rifa","target":"revelacion-rotta-vivo","label":"avanza con","type":"trama"},
+    {"source":"llegada-nastrandir","target":"revelacion-rotta-vivo","label":"continúa dentro del salón con","type":"event"},
 ];

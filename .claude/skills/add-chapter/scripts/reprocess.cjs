@@ -83,20 +83,28 @@ function reconcileLater(root, stateRoot, state, stateText, progressFile, args) {
     assert.equal(A.hash(A.render(expected[kind], kind, 2)), state.liveHashes[`book2/${kind}.js`], `Cannot reconstruct expected live ${kind}`);
     assert.equal(live[kind].length, expected[kind].length, 'Reconciliation cannot add or remove records');
     const changed = new Set();
+    const referenceChapters = new Map();
+    for (const record of reference[kind]) {
+      if (!referenceChapters.has(record.chapter)) referenceChapters.set(record.chapter, []);
+      referenceChapters.get(record.chapter).push(record);
+    }
     for (const change of spec[kind] ?? []) {
       const i = change.index;
       assert.ok(Number.isInteger(i) && i >= 0 && i < expected[kind].length && !changed.has(i), 'Invalid or duplicate record index');
       changed.add(i);
       assert.ok(expected[kind][i].chapter > cap, 'Cannot reconcile the reviewed prefix or front matter');
       assert.equal(change.chapter, expected[kind][i].chapter, 'Chapter ownership differs');
-      assert.equal(live[kind][i].chapter, change.chapter, 'Live chapter ownership changed');
+      const afterChapter = change.afterChapter ?? change.chapter;
+      assert.ok(Number.isInteger(afterChapter) && afterChapter > cap && reference.summaries.some(x => x.chapter === afterChapter), 'Invalid later chapter ownership');
+      assert.equal(live[kind][i].chapter, afterChapter, 'Live chapter ownership changed');
       assert.deepEqual(change.before, expected[kind][i].value, 'Before record does not match expected archive');
       assert.deepEqual(change.after, live[kind][i].value, 'After record does not match live archive');
-      assert.notDeepEqual(change.before, change.after, 'Reconciliation record is unchanged');
+      assert.ok(afterChapter !== change.chapter || !require('node:util').isDeepStrictEqual(change.before, change.after), 'Reconciliation record is unchanged');
       const ordinal = expected[kind].slice(0, i).filter(x => x.chapter === change.chapter).length;
-      const target = reference[kind].filter(x => x.chapter === change.chapter)[ordinal];
+      const target = referenceChapters.get(change.chapter)?.[ordinal];
       assert.ok(target, 'Missing reference record');
       target.value = change.after;
+      target.chapter = afterChapter;
     }
     expected[kind].forEach((record, i) => {
       if (!changed.has(i)) {
@@ -117,7 +125,7 @@ function reconcileLater(root, stateRoot, state, stateText, progressFile, args) {
   validateCombined(one, live, root);
   const audit = `reconciliations/${(state.reconciliations?.length ?? 0) + 1}.json`;
   state.reconciliations ??= [];
-  state.reconciliations.push({ file: audit, log: spec.log, chapters: [...new Set([...(spec.nodes ?? []), ...(spec.links ?? [])].map(x => x.chapter))], liveHashes: actualHashes });
+  state.reconciliations.push({ file: audit, log: spec.log, chapters: [...new Set([...(spec.nodes ?? []), ...(spec.links ?? [])].flatMap(x => [x.chapter, x.afterChapter ?? x.chapter]))], liveHashes: actualHashes });
   state.liveHashes = actualHashes;
   changes.set(path.join(stateRoot, audit), JSON.stringify(spec, null, 2) + '\n');
   changes.set(progressFile, JSON.stringify(state, null, 2) + '\n');
