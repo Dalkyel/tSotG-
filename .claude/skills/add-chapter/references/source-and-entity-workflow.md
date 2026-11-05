@@ -270,6 +270,20 @@ integration. Use the current live archive through the requested book as the base
      full entry. Record both in the ownership review. A star-only backlog candidate,
      excerpt, index, interrupted read or changed archive does not qualify: use the
      normal full reader. Metadata alone never satisfies the baseline ownership audit.
+   - **For non-TRAMA profiles whose full latest star was already audited**, avoid
+     printing that same clue history again:
+
+     ```sh
+     node .claude/skills/add-chapter/scripts/read-latest.cjs 2 1 --without-star orka vesli
+     ```
+
+     This mode omits only `star`, retaining the complete `desc` and all other fields.
+     Read every page through END with the same selection and flag. Together with
+     the full, same-version star read, this satisfies the full-entry audit; record
+     both reads. Use `--metadata` instead for TRAMA prose already fully audited.
+     Do not combine these modes or use either to skip unread evidence. If the star
+     read was incomplete, truncated or from a changed archive, use the default
+     full reader. Page numbers belong to one mode/selection only.
    - Never retype a baseline `desc`/`star` into an Edit call. Use the bundled appender,
      which reads the existing text straight out of the data file and appends your new
      material internally, so the baseline never passes back through you to be

@@ -1,5 +1,12 @@
 # Changelog archive
 
+- 2026-11-05: Book Two Ch55 — full profile reads repeated the long stars already
+  audited in the backlog, especially Orka's. Added `read-latest --without-star`
+  to retain desc and all metadata while omitting only that already-read field.
+  Documented complementary same-version reads, unchanged default behavior and
+  separate pagination/modes. Tested paginated reconstruction, preservation and
+  invalid arguments. Fully absorbed into the reader and workflow; archived immediately.
+
 - 2026-11-03: Book Two Ch47 — the legacy summary reversed the tiller handoff
   between Glornir and Æsa. Added giver/recipient/object checks across event, link
   and summary to the legacy-summary cross-check. Source-reviewed chapter content

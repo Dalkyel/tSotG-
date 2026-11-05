@@ -13,6 +13,9 @@ or event it primarily describes. Audit the complete latest descriptions of every
 you will touch, including inherited text, not just the proposed append. For a TRAMA
 whose complete same-version prose was already read in the backlog, the source workflow's
 `read-latest --metadata` combination also covers the full entry; metadata alone does not.
+For other profiles, a complete same-version backlog star read plus every page of
+`read-latest --without-star` likewise covers the full entry. Neither reduced reader
+is sufficient without its complementary evidence read; see the source workflow.
 Apply these rules:
 
 - A terminology/type/species entry **must define the term and supported general
