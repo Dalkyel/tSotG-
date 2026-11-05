@@ -837,3 +837,11 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
 - 2026-11-03: Book Two Ch49 — retitling the provisioning thread required checking
   its earlier task links, which the appended-link report does not show. Added the
   single-id historical-link read and title-preservation example to SKILL.md. Fully absorbed into the maintained link-review instructions.
+
+- 2026-11-05: Book Two Ch52 — repeated a seven-inclusion backlog selection across
+  thirteen page commands. Restored a temporary page-only wrapper example in the live
+  thread gate; the older example had lived in the retired reprocessing guide. Also
+  replaced a regression tied to Guðvarr’s live latest chapter (48) with fixed revisions
+  that check both curated text and fallback to a newer chapter; verification guidance
+  now explains this repair. Both fixes are fully absorbed in the skill/references and
+  test, so this maintenance entry is archived.

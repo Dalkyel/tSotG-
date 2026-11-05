@@ -336,6 +336,10 @@ the applicable regression suite once the content is settled. This avoids repeati
 the suite for a prose correction caught during review. After any subsequent edit,
 rerun the chapter verifier and affected reviews; repeat regression tests when the
 change affects behavior they cover or leaves a relevant concern unresolved.
+If a regression hard-codes a character's former latest chapter, retain its behavior
+coverage with fixed sample revisions instead of advancing the expected number after
+each addition. Cover both a matching curated guide and fallback to newer archive text
+when the guide is stale; do not change live character history to satisfy that assertion.
 
 Run the bundled verifier from the project root, using the actual unique pre-edit
 baseline directory saved above (replace the numbers for the current book/chapter):

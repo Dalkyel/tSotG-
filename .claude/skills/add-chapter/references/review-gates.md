@@ -224,6 +224,23 @@ to create a thread once or to pass the JavaScript verifier.
    retrieve their union with untagged candidates once. Duplicate POV options fail.
    Keep the same full selection on every numbered page through `END`, finish the read
    before applying chapter edits, and review changed evidence separately afterward.
+   For a long selection, save a page-only wrapper beside the baseline instead of
+   retyping every flag. Set the book, POVs, includes and format to this run's reviewed
+   selection **before the first page**; the following is only an example:
+
+   ```sh
+   cat > "$chapter_run/read-backlog.sh" <<'SH'
+   #!/bin/sh
+   set -eu
+   exec node .claude/skills/add-chapter/scripts/read-backlog.cjs 2 "${1:?page required}" \
+     --pov GUDVARR --include resucitar-orna --compact
+   SH
+   sh "$chapter_run/read-backlog.sh" 1
+   ```
+
+   Run from the project root, requesting each subsequent page in a separate response.
+   Keep the wrapper unchanged through `END`; if relevance expands, finish any needed
+   additional selection separately and record both reads in `source-notes.md`.
    For a chapter POV without a dedicated filter, `--untagged` retains all untagged
    candidates. Add `--include ID` for each affected tagged candidate, including
    the chapter POV’s clues stored under another arc. Use this only when relevance

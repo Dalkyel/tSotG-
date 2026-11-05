@@ -42,12 +42,21 @@ test('profiles and histories use the supplied archive revisions', () => {
 });
 
 test('last development and timeline use chapter headings, not passing references', () => {
-  const { profiles } = view(2);
-  const p = profiles.find(p => p.node.id === 'gudvarr');
+  // Keep this behavior test independent of future additions to the live archive.
+  const earlier = { id: 'gudvarr', label: 'Guðvarr', type: 'Personaje — Drengr', book: 2,
+    desc: 'LIBRO 2, CAPÍTULO 48: Identifica a Kalv. Recuerda el capítulo 46.' };
+  const guides = { gudvarr: { recent: { book: 2, chapter: 48, text: 'Kalv es identificado.' } } };
+  const p = core.profile(earlier, [earlier], guides);
   assert.equal(p.latest.chapter, 48);
   assert.ok(p.latest.curated);
   assert.ok(p.latest.preview.includes('Kalv'));
   assert.ok(p.latest.text.includes('Kalv'));
+  const later = { ...earlier, desc: earlier.desc + ' LIBRO 2, CAPÍTULO 52: Declara ante Helka.' };
+  const updated = core.profile(later, [earlier, later], guides);
+  assert.equal(updated.latest.chapter, 52);
+  assert.equal(updated.latest.curated, false);
+  assert.equal(updated.latest.preview, 'Declara ante Helka.');
+  assert.deepEqual(updated.timeline.map(event => event.chapter), [48, 52]);
   assert.equal(core.chapterSections('Esto pasó en el capítulo 48. Ver Libro 2, capítulo 30.').length, 0);
   const sections = core.chapterSections('LIBRO 2, CAPÍTULO 43 (EVENTO PARALELO, SIN POV): una amenaza. LIBRO 2, CAPÍTULO 44: otra escena.');
   assert.equal(sections.length, 2);
