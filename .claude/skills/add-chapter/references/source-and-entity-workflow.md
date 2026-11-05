@@ -94,7 +94,7 @@ integration. Use the current live archive through the requested book as the base
    in the relevant existing thread; do not transfer the other profile's rank, death or
    deeds. Read reference prose only to settle the requested identity, and check its
    conclusions against the current chapter rather than importing its interpretation.
-   In Chapter 53, «Orka Skullsplitter» identifies Orka and the exchange establishes
+   In Book One Chapter 53, «Orka Skullsplitter» identifies Orka and the exchange establishes
    Thorkel as Glornir's brother; it does not by itself establish that Orka held the
    former chief's office or explain the earlier naval-death account attached to
    `skullsplitter`. Keep those historical claims attributed until source evidence
@@ -256,6 +256,20 @@ integration. Use the current live archive through the requested book as the base
      can still be left unfinished even though a page count was shown. Either keep batches
      to ids short enough that page 1 covers all of them, or re-run with a single id to
      confirm when a batched page looks incomplete for that id specifically.
+   - **Avoid rereading complete TRAMA prose already audited in this run.** The backlog
+     reader prints the full latest `desc` and `star` for TRAMA candidates. When those
+     fields were read through END with an unchanged archive, complete the entry audit
+     by reading all remaining fields with:
+
+     ```sh
+     node .claude/skills/add-chapter/scripts/read-latest.cjs 2 1 --metadata pasado-varg huida-skalk-vol
+     ```
+
+     This paginated mode omits only `desc` and `star`; read every metadata page with
+     the same flags. Together, the same-version prose and metadata reads cover the
+     full entry. Record both in the ownership review. A star-only backlog candidate,
+     excerpt, index, interrupted read or changed archive does not qualify: use the
+     normal full reader. Metadata alone never satisfies the baseline ownership audit.
    - Never retype a baseline `desc`/`star` into an Edit call. Use the bundled appender,
      which reads the existing text straight out of the data file and appends your new
      material internally, so the baseline never passes back through you to be

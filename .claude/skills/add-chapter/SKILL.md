@@ -50,6 +50,8 @@ Read [source-and-entity-workflow.md](references/source-and-entity-workflow.md) b
 chapter preflight, source retrieval, entity resolution or drafting. It contains the
 required identity checks, full-entry reads and safe append procedures. Read it in separate
 bounded responses, for example lines 1–120, 121–240 and 241–360, through the end.
+Its metadata-only reader can complete a TRAMA audit after a full, same-version backlog
+prose read, avoiding duplicate history reads without skipping entry fields.
 
 ## Mandatory semantic gates
 

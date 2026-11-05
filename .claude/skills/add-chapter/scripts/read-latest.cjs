@@ -4,10 +4,19 @@ const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const { paginate } = require('./paginate.cjs');
 
-const [bookArg, pageArg, ...ids] = process.argv.slice(2);
+const [bookArg, pageArg, ...extra] = process.argv.slice(2);
+let metadataOnly = false;
+const ids = [];
+for (const arg of extra) {
+  if (arg === '--metadata' && !metadataOnly) metadataOnly = true;
+  else {
+    assert.ok(!arg.startsWith('--'), `Unknown or duplicate option: ${arg}`);
+    ids.push(arg);
+  }
+}
 const book = Number(bookArg), page = Number(pageArg);
 assert.ok(Number.isInteger(book) && book >= 1 && Number.isInteger(page) && page >= 1 && ids.length,
-  'Usage: node .claude/skills/add-chapter/scripts/read-latest.cjs BOOK PAGE ID [ID ...]');
+  'Usage: node .claude/skills/add-chapter/scripts/read-latest.cjs BOOK PAGE [--metadata] ID [ID ...]');
 
 const latest = new Map();
 for (let n = 1; n <= book; n++) {
@@ -24,11 +33,17 @@ if (missing.length) {
   console.error('No entries printed. Resolve unknown ids or remove them from this read batch before retrying.');
   process.exit(1);
 }
-const payload = JSON.stringify([...new Set(ids)].map(id => latest.get(id)), null, 2);
+const payload = JSON.stringify([...new Set(ids)].map(id => {
+  const entry = latest.get(id);
+  if (!metadataOnly) return entry;
+  const { desc, star, ...metadata } = entry.node;
+  return { file: entry.file, node: metadata };
+}), null, 2);
 // Paginate the serialized text, including very long individual descriptions.
 const chunks = paginate(payload);
 const pages = chunks.length;
 assert.ok(page <= pages, `Requested page ${page}; only ${pages} pages available`);
 console.log(`Page ${page}/${pages}; ${payload.length} total characters; latest entries through Book ${book}.`);
+if (metadataOnly) console.log('METADATA ONLY: desc/star omitted. Combine with a complete, same-version prose read; this is not a full-entry read.');
 console.log(chunks[page - 1]);
-console.log(page < pages ? `CONTINUES: read page ${page + 1} with the same book and ids.` : 'END: all requested entries have been displayed across these pages.');
+console.log(page < pages ? `CONTINUES: read page ${page + 1} with the same book, ids and options.` : `END: all requested ${metadataOnly ? 'metadata' : 'entries'} have been displayed across these pages.`);

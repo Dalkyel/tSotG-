@@ -1,5 +1,13 @@
 # Changelog
 
+- 2026-11-05: Book Two Ch53 — the 11-page Varg backlog already supplied full
+  TRAMA descriptions and clues, then normal entry reads repeated that prose to obtain
+  metadata. Added `read-latest --metadata` and documented when same-version backlog
+  prose plus all metadata pages satisfy the full-entry audit. Tested latest-revision
+  selection, book caps, complete metadata preservation, pagination and fail-closed
+  argument handling. Also qualified the Skullsplitter example as Book One Ch53;
+  the current Book Two Ch53 concerns tungumatur and the Valdai lead.
+
 - 2026-11-04: Removed the audits folder at the user's request. Chapter manifests,
   review notes and clue checklists now remain temporary working files through
   completion. The next chapter reads accumulated evidence and pending questions
