@@ -845,3 +845,9 @@ is ever challenged or a bundled script changes, this is where the "why" lives.
   that check both curated text and fallback to a newer chapter; verification guidance
   now explains this repair. Both fixes are fully absorbed in the skill/references and
   test, so this maintenance entry is archived.
+
+- 2026-11-05: Book Two Ch54 — adding one political crossover clue after the completed
+  Biórr backlog read repeated nineteen already-reviewed untagged candidates. The thread
+  gate now routes a small supplemental set to full `read-latest` pages, retaining
+  complete descriptions, stars and the all-POV checklist. The fix is fully absorbed
+  in the maintained workflow, so this entry is archived.

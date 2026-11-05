@@ -244,6 +244,12 @@ to create a thread once or to pass the JavaScript verifier.
    Run from the project root, requesting each subsequent page in a separate response.
    Keep the wrapper unchanged through `END`; if relevance expands, finish any needed
    additional selection separately and record both reads in `source-notes.md`.
+   If only a few additional affected IDs emerge after a completed backlog read,
+   use `read-latest.cjs BOOK PAGE ID ...` for their full entries instead of starting
+   another filtered backlog selection that repeats every untagged candidate. Read
+   all entry pages through `END`, including `desc` and `star`, and record the
+   supplemental IDs in `source-notes.md`. This is the normal full-entry reader,
+   not `--metadata`; all-POV checklist coverage and assessment obligations still apply.
    For a chapter POV without a dedicated filter, `--untagged` retains all untagged
    candidates. Add `--include ID` for each affected tagged candidate, including
    the chapter POV’s clues stored under another arc. Use this only when relevance
